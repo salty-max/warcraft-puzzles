@@ -217,6 +217,93 @@ test("hint and reveal give the keyboard back only when it was in use, check neve
   await expect(page.locator("#feedback")).toHaveText("Answer revealed.");
 });
 
+test("an input method's own keys and deletes are left to it while it composes", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.locator(`[data-cell="${molten.cells[0]}"]`).click();
+  await page.keyboard.type("MO");
+  const label = await page.locator("#active-label").textContent();
+  await page.evaluate(() => {
+    const keys = document.getElementById("keys")!;
+    keys.dispatchEvent(
+      new KeyboardEvent("keydown", { key: "Enter", isComposing: true, bubbles: true }),
+    );
+    keys.dispatchEvent(
+      new InputEvent("beforeinput", {
+        inputType: "deleteContentBackward",
+        isComposing: true,
+        cancelable: true,
+        bubbles: true,
+      }),
+    );
+  });
+  await expect(page.locator("#active-label")).toHaveText(label!);
+  await expect(letterAt(page, molten.cells[0]!)).toHaveText("M");
+  await expect(letterAt(page, molten.cells[1]!)).toHaveText("O");
+});
+
+test("a composition never wipes a crossing's letter, even when it shrinks or is replaced", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const send = (value: string, isComposing: boolean) =>
+    page.evaluate(
+      ([text, composing]) => {
+        const keys = document.getElementById("keys") as HTMLInputElement;
+        keys.value = text as string;
+        keys.dispatchEvent(
+          new InputEvent("input", { isComposing: composing as boolean, bubbles: true }),
+        );
+      },
+      [value, isComposing],
+    );
+  /* A letter a crossing word gave sits right after where the composition starts. */
+  await page.locator(`[data-cell="${molten.cells[1]}"]`).click();
+  await page.keyboard.type("X");
+  await page.locator(`[data-cell="${molten.cells[0]}"]`).click();
+  await send("M", true);
+  await send("N", false);
+  await expect(letterAt(page, molten.cells[0]!)).toHaveText("N");
+  await expect(letterAt(page, molten.cells[1]!)).toHaveText("X");
+  await page.locator(`[data-cell="${molten.cells[0]}"]`).click();
+  await send("M", true);
+  await expect(letterAt(page, molten.cells[0]!)).toHaveText("M");
+  await send("", true);
+  await expect(letterAt(page, molten.cells[0]!)).toHaveText("N");
+  await expect(letterAt(page, molten.cells[1]!)).toHaveText("X");
+});
+
+test("a commit that differs from the composed word replaces it, and a cancelled composition keeps it", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.locator(`[data-cell="${molten.cells[0]}"]`).click();
+  const send = (value: string, isComposing: boolean) =>
+    page.evaluate(
+      ([text, composing]) => {
+        const keys = document.getElementById("keys") as HTMLInputElement;
+        keys.value = text as string;
+        keys.dispatchEvent(
+          new InputEvent("input", { isComposing: composing as boolean, bubbles: true }),
+        );
+      },
+      [value, isComposing],
+    );
+  await send("T", true);
+  await send("TE", true);
+  await send("TEH", true);
+  await send("THE", false);
+  for (const [offset, letter] of [..."THE"].entries())
+    await expect(letterAt(page, molten.cells[offset]!)).toHaveText(letter);
+  await expect(letterAt(page, molten.cells[3]!)).toHaveText("");
+  await send("O", true);
+  await send("OR", true);
+  await send("", false);
+  await expect(letterAt(page, molten.cells[3]!)).toHaveText("O");
+  await expect(letterAt(page, molten.cells[4]!)).toHaveText("R");
+});
+
 test("a tap on a square brings up the keyboard and typing works", async ({
   browser,
 }) => {
@@ -231,6 +318,10 @@ test("a tap on a square brings up the keyboard and typing works", async ({
   await expect(page.locator("#keys")).toBeFocused();
   await page.locator("#keys").fill("l");
   await expect(letterAt(page, molten.cells[2]!)).toHaveText("L");
+  await page.getByRole("button", { name: "Get a hint" }).tap();
+  await expect(page.locator("#keys")).toBeFocused();
+  await page.getByRole("button", { name: "Check puzzle" }).tap();
+  await expect(page.locator("#keys")).not.toBeFocused();
   await context.close();
 });
 

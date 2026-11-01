@@ -41,13 +41,15 @@ family's look, shaped for a puzzle board and not a journal.
 - The cursor and typing rules are pure functions in `web/model.ts` (`typeLetter`,
   `backspace`, `moveArrow`, `toggleDirection`, `startCursor`, `wrongCells`,
   `describeCursor`), tested there. `web/player.ts` only wires them to the page.
-- **Input methods:** while a phone or desktop input method is composing, only the
-  letters added since its last event count, so a resent buffer never doubles. Firefox
-  ends a composition before its last input and Chrome after it, and both are handled.
-  The input method's own keys are left to it.
-- **Focus after a button:** Hint and Reveal return to the grid only if the player was
-  typing, so a phone keyboard does not reopen over the board. Check never does, so the
-  marked squares stay in view.
+- **Input methods:** when a phone or desktop input method starts composing, the grid is
+  saved, and every update of the composition is rebuilt from that copy. A resent buffer
+  never doubles, a shrinking or replaced word puts back exactly what it overwrote
+  (including a crossing's letter) and a cancelled composition keeps what was shown.
+  Firefox ends a composition before its last input and Chrome after it, and both are
+  handled. The input method's own keys are left to it.
+- **Focus after a button:** Hint and Reveal return to the grid only if the player
+  pressed them while typing, so a phone keyboard does not reopen over the board. Check
+  never does and closes the keyboard, so the marked squares stay in view.
 - **Screen readers:** `#where` speaks the square, its place in the word and the letters
   so far each time the cursor moves. The clue, the hint and Check's result are live
   regions that always exist, so their first change is announced.

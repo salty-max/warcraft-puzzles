@@ -239,9 +239,16 @@ keys.addEventListener("keydown", (event) => {
   event.preventDefault();
 });
 /* Phone keyboards often send no useful key: a delete or a run of letters arrives as input.
-   An input method may also compose in the field, resending its whole buffer on each key,
-   so while composing only what was added since the last event counts. */
-let composing = "";
+   An input method may also compose in the field, resending its whole buffer on each key.
+   So the grid is saved when a composition starts and rebuilt from that copy on every
+   update: what the composition overwrote comes back if it shrinks or is replaced, and
+   nothing is typed twice. */
+let before: { state: typeof state; cursor: Cursor } | undefined;
+const typed = (from: { state: typeof state; cursor: Cursor }, text: string) => {
+  let next = from;
+  for (const letter of text) next = typeLetter(next.state, next.cursor, letter);
+  return next;
+};
 keys.addEventListener("beforeinput", (event) => {
   if (event.isComposing || event.inputType !== "deleteContentBackward") return;
   event.preventDefault();
@@ -250,48 +257,34 @@ keys.addEventListener("beforeinput", (event) => {
 keys.addEventListener("input", (event) => {
   const now = lettersIn(keys.value);
   if (event.isComposing) {
-    let next = { state, cursor };
-    if (now.startsWith(composing))
-      for (const letter of now.slice(composing.length))
-        next = typeLetter(next.state, next.cursor, letter);
-    else if (composing.startsWith(now))
-      for (let i = now.length; i < composing.length; i++)
-        next = backspace(next.state, next.cursor);
-    composing = now;
-    edit(next);
+    before ??= { state, cursor };
+    edit(typed(before, now));
     return;
   }
-  /* Browsers differ on whether a last input follows the end of a composition: skip what the
-     composition already applied. */
-  const applied = !composing
-    ? 0
-    : now.startsWith(composing)
-      ? composing.length
-      : now.length;
-  composing = "";
+  /* Browsers differ on whether a last input follows the end of a composition. One that does
+     carries the final text, which replaces the composed text. An empty one is a cancelled
+     composition, which keeps what was shown. */
+  const from = before ?? { state, cursor };
+  before = undefined;
   if (!now && keys.value.includes(" ")) {
     /* Some phone keyboards send the space bar as input, not as a key. */
     cursor = toggleDirection(puzzle, cursor);
     paint();
-  } else {
-    let next = { state, cursor };
-    for (const letter of now.slice(applied))
-      next = typeLetter(next.state, next.cursor, letter);
-    edit(next);
-  }
+  } else if (now) edit(typed(from, now));
   keys.value = "";
 });
 keys.addEventListener("compositionend", () => {
   /* Firefox sends its last input after this event, Chrome before it: wait, then tidy up. */
   setTimeout(() => {
-    composing = "";
+    before = undefined;
     keys.value = "";
   }, 0);
 });
 /* A button taken while typing keeps the cursor and the keyboard, one taken otherwise does not. */
 let wasTyping = false;
-const typing = () => {
-  const had = wasTyping;
+/* Only a press that began on a button counts: a keyboard activation has no press (detail 0). */
+const typing = (event: MouseEvent) => {
+  const had = wasTyping && event.detail > 0;
   wasTyping = false;
   return had;
 };
@@ -313,16 +306,16 @@ get("previous").addEventListener("click", () => {
 get("next").addEventListener("click", () => {
   move(1);
 });
-get("hint").addEventListener("click", () => {
+get("hint").addEventListener("click", (event) => {
   state = useHint(state, cursor.entry.id);
   persist();
   paint();
-  if (typing()) focusKeys();
+  if (typing(event)) focusKeys();
 });
-get("reveal").addEventListener("click", () => {
+get("reveal").addEventListener("click", (event) => {
   edit({ state: revealAnswer(state, cursor.entry), cursor });
   setText("feedback", "Answer revealed.");
-  if (typing()) focusKeys();
+  if (typing(event)) focusKeys();
 });
 get("check").addEventListener("click", () => {
   state = { ...state, checks: state.checks + 1 };
@@ -337,6 +330,8 @@ get("check").addEventListener("click", () => {
       : `${correct} of ${puzzle.entries.length} answers correct.${wrong ? ` ${wrong} wrong square${wrong === 1 ? " is" : "s are"} marked.` : ""}`,
   );
   paint();
+  /* The keyboard closes, so the marked squares are not left under it. */
+  keys.blur();
 });
 const dialog = get<HTMLDialogElement>("reset-dialog");
 get("reset").addEventListener("click", () => {
