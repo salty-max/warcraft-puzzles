@@ -1,0 +1,123 @@
+# Grid engine and research benchmark
+
+The first feasibility tool runs entirely from this repository. It needs neither
+`wow-data` nor a hosted application. The seed stays evidence-checked research content; a
+fill is never a publication approval.
+
+## Run and reproduce
+
+```sh
+pnpm benchmark:run
+pnpm benchmark:check
+pnpm check
+```
+
+`benchmark:run` writes the human-readable [fill report](fill-benchmark.md) and an
+ignored `.cache/benchmarks/latest.json` containing every case, individual search
+timings, total benchmark elapsed time, Node version, platform, architecture and CPU.
+Timing excludes report formatting/writing. The report's input checksum binds the
+editorial catalogue, source snapshot and benchmark configuration. Algorithm version,
+layouts, seeds and node budget are recorded. Reproduce a historical report from its
+repository revision, including its lockfile.
+
+`benchmark:check`, also part of required local/CI checks, reruns the deterministic
+workload and rejects a stale report. It does not rewrite outputs or compare
+machine-dependent timings. Changing timing observations cannot make CI green. The
+workflow uploads the report with coverage and the seed inventory.
+
+An alternative input/output run is explicit:
+
+```sh
+pnpm benchmark:run --config /path/to/layouts.json --output /path/to/report.md --artifact /path/to/measurements.json
+```
+
+The CLI also accepts `--catalogue` and `--evidence`. It validates the research catalogue
+before searching, excludes draft/rejected triads and rejects unknown flags. Input JSON
+and layouts have strict runtime contracts. It never changes content reviews or contacts
+an external service.
+
+## Layout and fill contracts
+
+`packages/crossword` contains the browser-compatible domain rules. Layouts use `.` for
+white cells and `#` for blocks, with dimensions from 3 to 25 cells on each axis.
+Rectangular layouts are allowed. Every white cell must belong to both an Across and a
+Down run of at least three letters, and all white cells must be connected orthogonally.
+Rotational symmetry is reported but remains optional.
+
+Starts receive numbers in reading order. A cell starting both directions shares its
+number, with stable IDs such as `1A` and `1D`. Crossings record reciprocal letter
+offsets. No partially checked letters or isolated one-letter runs are silently accepted.
+
+The engine takes `{ id, grid }` candidates, preserving the originating triad ID. It does
+not rewrite display spelling or multi-word enumeration: those stay in the content
+catalogue. KIRINTOR occupies eight cells while its triad retains `(5,3)`. Different clue
+IDs with the same grid string count as one available word. The first engine picks the
+lexically first ID as a stable representative; editorial selection of clue alternatives
+remains separate.
+
+An independent fill inspector requires exactly one placement per slot, known references,
+matching lengths, consistent crossing letters and no repeated normalised answer. The
+benchmark validates every claimed success with that inspector before reporting it. A
+valid fill still needs clue/fact overlap checks, familiarity review and cold solving
+before release.
+
+## Search and limits
+
+1. Check whether the distinct word supply meets the number of slots at each length. A
+   shortage is a proof for this particular bank/layout.
+2. Remove candidates without supported crossing letters. Forced words are removed from
+   other slots. Repeat until stable or a domain becomes empty.
+3. Branch on the smallest remaining domain, trying candidates in a seeded order.
+   Backtrack after contradictions. There is no global random state.
+
+The seed, candidate ordering and state budget determine reproducible search results. The
+budget counts entered search states, including the root. A fill at the last allowed
+state still succeeds; a contradiction after exploring all branches remains
+unsatisfiable. Unvisited branches produce `budget-exhausted`. The engine also supports
+an optional cooperative search-time guard. It checks between states and propagation
+steps; it is not a hard process deadline and does not cover parsing/preflight. Batch
+runners can add an external timeout.
+
+Diagnostics retain length deficits and bounded examples of crossing/uniqueness dead ends
+with the remaining letter support at every offset. They are conditional examples, not a
+minimal unsatisfiable core or a guarantee that adding one matching word repairs a grid.
+The engine applies arc consistency and forced-word exclusion, not a full all-different
+matching algorithm or layout generation.
+
+## First baseline: what it establishes
+
+The initial configuration has 18 original layouts across 5×5, 7×7, 9×9, 11×11 and 13×13,
+three seeds and two cohorts: all 100 seed answers, and the 55 proper names alone. All
+108 cases are unsatisfiable for their exact input. None stops at a search limit. The
+full bank fails length preflight on twelve layouts and crossing propagation on the other
+six, before branching. Repeating seeds does not add independent evidence in those cases.
+
+These layouts deliberately expose different length demands; open large grids require
+many long answers. They do not represent every sensible blocked layout or establish that
+dense Warcraft crosswords are impossible. The name-only control is from the same sourced
+seed, not the older unrestricted name-list experiment. No claim about improvement over
+that historical experiment follows.
+
+The current five-letter pool has no answers beginning with A, I, O or U. In an open 5×5,
+every letter in the first Across answer must also start a Down answer. No current
+five-letter word meets that support constraint. This is a concrete crossing-coverage
+problem that total word counts missed.
+
+Two useful diagnostic targets are `bridge-9`, which needs nineteen distinct three-letter
+words against twelve available, and `bridge-13`, which needs ten four-letter words
+against eight. Those deficits are lower bounds for those layouts only. Adding seven and
+two words respectively does not guarantee fills.
+
+## Next content batch
+
+Prioritise sourced three- to seven-letter vocabulary, including ordinary words with fair
+Warcraft clues. Broaden initial/final letters and internal vowel coverage rather than
+only increasing the number of answers. Preserve familiar multi-word names for longer
+slots. Do not relax the ban on obscure quest titles, routine loot, minor NPC labels or
+arbitrary dictionary filler.
+
+Extract and review in batches, rerun these fixed layouts, then add other valid blocked
+layouts if the fixtures overconcentrate particular lengths. Keep failed runs. A
+500–1,000-answer sample remains an experiment, not a known sufficient bank. Seven
+candidate puzzles, lore pages and responsive playtesting follow successful construction;
+none is claimed by this baseline.

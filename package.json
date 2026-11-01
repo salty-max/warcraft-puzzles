@@ -9,7 +9,7 @@
     "node": "26.x"
   },
   "scripts": {
-    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm content:check && pnpm content:report:check",
+    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm content:check && pnpm content:report:check && pnpm benchmark:check",
     "lint": "eslint . --max-warnings 0",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --coverage",
@@ -21,7 +21,9 @@
     "content:report": "node tools/report-content.ts",
     "content:report:check": "node tools/report-content.ts --check",
     "content:refresh": "node tools/refresh-evidence.ts",
-    "content:verify-sources": "node tools/refresh-evidence.ts --check"
+    "content:verify-sources": "node tools/refresh-evidence.ts --check",
+    "benchmark:run": "node tools/benchmark-fill.ts",
+    "benchmark:check": "node tools/benchmark-fill.ts --check"
   },
   "dependencies": {
     "zod": "4.6.7"

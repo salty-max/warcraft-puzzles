@@ -159,20 +159,22 @@ release.
 
 ### Immediate next work from the current seed
 
-The repository now has 100 evidence-checked triads, including 31 multi-word answers,
-plus validation and CI configuration. No completed grids, fill engine, player or
-publication approvals exist yet. The next implementation is the grid validator and
-reproducible fill benchmark.
+The repository has 100 evidence-checked triads, including 31 multi-word answers,
+validation, CI configuration and the first tested grid engine/benchmark. The
+[initial report](fill-benchmark.md) found no fills across 18 diagnostic layouts;
+[the engine guide](grid-engine.md) explains the exact limits and vocabulary gaps. No
+completed Warcraft grids, player or publication approvals exist yet. Targeted bank
+expansion is next; the baseline does not prove all dense layouts impossible.
 
-1. Define and test the grid/slot model: connected white cells, fully checked letters,
-   minimum three-letter entries, legal crossings, numbering and no repeated normalised
-   answer. Include multi-word enumerations in display data.
-2. Run a bounded baseline against the current seed on valid layouts at the five planned
-   sizes. Pin algorithm version, content hash, random seeds and search limits. Report
-   failures, unsatisfied lengths/patterns and search time as well as successful fills. A
-   failed search within a budget does not prove no fill exists. Research runs may use
-   evidence-checked entries, clearly labelled as unpublished experiments; they cannot
-   bypass publication approvals.
+1. Implemented: the tested grid/slot model enforces connected white cells, fully checked
+   letters, minimum three-letter entries, legal crossings, numbering and no repeated
+   normalised answer. Include multi-word enumerations in display data.
+2. Implemented: a bounded baseline against the current seed on valid layouts at the five
+   planned sizes, with pinned algorithm version, content hash, random seeds and search
+   limits. It reports failures, unsatisfied lengths/patterns and search time as well as
+   successful fills. A failed search within a budget does not prove no fill exists.
+   Research runs may use evidence-checked entries, clearly labelled as unpublished
+   experiments; they cannot bypass publication approvals.
 3. Expand the clue-backed bank in focused batches using the measured gaps. The
    500–1,000-answer sample remains a working target, not a prerequisite for the first
    diagnostic run or a promise of enough content. Audit eligible TBC/Wrath sources as
@@ -600,10 +602,10 @@ limits; no paid service is purchased by this plan.
 | 5. Portfolio/public release      | Content buffer, documented operations, public project narrative and final polish                                                  | Full launch criteria below pass                                                                                               |
 
 The structural and source-checking part of milestone 0 exists; cold approvals remain
-outstanding. Begin milestone 1's diagnostic engine and targeted bank expansion now. Cold
-grid review and responsive player trials complete the feasibility assessment across
-milestones 1 and 2. Do not promise a launch date before measuring the editorial
-bottleneck.
+outstanding. Milestone 1's diagnostic engine and initial baseline exist; continue with
+targeted bank expansion and reruns. Cold grid review and responsive player trials
+complete the feasibility assessment across milestones 1 and 2. Do not promise a launch
+date before measuring the editorial bottleneck.
 
 After the public core demonstrates repeat play, extend the roadmap with account
 sync/recovery, one earned currency and a direct cosmetic shop. Trial duplicate-protected

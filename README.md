@@ -5,11 +5,12 @@ belongs to Warcraft. Answers can be recognisable names or ordinary English words
 supported Warcraft connection. The historical boundary is the end of Wrath of the Lich
 King.
 
-**Current milestone: the editorial foundation.** This repository contains the first 100
-answer–clue–hint triads, source references, strict content contracts and
-validation/reporting tools. It does not contain the player application yet. The first
-seed has been checked against local source passages, and remains explicitly unapproved
-for publication pending a cold solve in finished grids.
+**Current milestone: grid feasibility.** This repository contains the first 100
+answer–clue–hint triads, source references, strict content contracts, a tested grid
+engine and a reproducible fill benchmark. It does not contain the player application
+yet. The seed remains unapproved for publication pending cold solving in finished grids.
+The first benchmark found no fills in its 18 diagnostic layouts; see its limits and
+vocabulary findings below.
 
 ## Run the checks
 
@@ -32,6 +33,8 @@ pnpm content:check
 pnpm content:report
 pnpm content:report:check
 pnpm test:watch
+pnpm benchmark:run
+pnpm benchmark:check
 ```
 
 - [`content/seed/editorial.json`](content/seed/editorial.json) contains authored
@@ -47,6 +50,10 @@ pnpm test:watch
 - [`docs/editorial.md`](docs/editorial.md) defines eligibility, hints, review and
   source-update rules.
 - [`docs/testing.md`](docs/testing.md) explains checks and their limits.
+- [`docs/fill-benchmark.md`](docs/fill-benchmark.md) records reproducible layout/fill
+  outcomes and crossing diagnostics for the seed and name-only control.
+- [`docs/grid-engine.md`](docs/grid-engine.md) explains the engine, benchmark inputs,
+  first findings and next content priorities.
 - [`docs/production-plan.md`](docs/production-plan.md) is the approved project plan.
 - [`docs/progression-design.md`](docs/progression-design.md) details the accepted
   progression roadmap: lore discoveries, streaks, weekly goals and later cosmetic
@@ -75,9 +82,10 @@ validation passing does not authorise publishing the seed as finished puzzles.
 
 ## Next milestones
 
-1. Build the tested grid validator and run a reproducible fill benchmark on the seed.
-2. Expand the bank from measured gaps, review seven puzzle candidates and prepare six to
-   twelve sourced lore pages. Research results do not grant publication approvals.
+1. Expand the bank from the measured length and crossing-letter gaps, rerunning the
+   fixed benchmark after each sourced batch. Add further valid blocked layouts.
+2. Review seven puzzle candidates once fills succeed and prepare six to twelve sourced
+   lore pages. Research results do not grant publication approvals.
 3. Build the responsive Next.js player with the first lore discoveries, streak/calendar
    and milestone stamp; validate the experience through cold solves and phone trials.
    Follow with the editorial workspace and public daily/weekly loop.

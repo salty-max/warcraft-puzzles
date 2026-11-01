@@ -45,6 +45,8 @@ importers:
 
   packages/content: {}
 
+  packages/crossword: {}
+
 packages:
 
   '@babel/helper-string-parser@7.29.11':

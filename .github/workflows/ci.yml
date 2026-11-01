@@ -37,7 +37,7 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Run all checks
         run: pnpm check
-      - name: Save coverage and editorial report
+      - name: Save coverage and content reports
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
@@ -45,6 +45,7 @@ jobs:
           path: |
             coverage/
             docs/seed-report.md
+            docs/fill-benchmark.md
           retention-days: 14
   dependency-audit:
     name: Dependency audit

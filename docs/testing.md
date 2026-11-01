@@ -8,6 +8,7 @@
 4. Vitest with coverage thresholds, negative cases and deterministic property tests.
 5. Structural and semantic research-content validation for every committed triad.
 6. A check that the generated editorial report matches its inputs.
+7. A deterministic replay and freshness check of the seed fill benchmark.
 
 Content-engine coverage gates are 95% for statements/lines/functions and 90% for
 branches. These thresholds are regression guards, not evidence that the content is
@@ -16,6 +17,20 @@ post-Wrath facts, missing hint evidence, duplicate IDs, explicit answer leaks an
 approvals all have deliberate failure tests. Property tests exercise spelling and
 enumeration across generated valid inputs with a fixed seed, so a failure is
 reproducible.
+
+Coverage now includes the crossword domain rules and benchmark/report core as well.
+Layout tests cover numbering, reciprocal crossings, black squares, connectivity, short
+runs and malformed shapes. Fill tests cover independent solution validation, length
+shortages, crossing contradictions, aliases, input-order determinism and node/time
+limits. Deterministic property tests compare the solver against independent exhaustive
+enumeration on small synthetic banks and recover generated valid squares. Multi-word
+regression covers all eight cells and retained identity of KIRINTOR.
+
+Benchmark tests replay all committed layouts, exercise successful synthetic exports,
+preserve triad display/clue/hint data, reject stale/invalid inputs and verify that
+checking does not rewrite measured artifacts. Full seed runs never auto-approve content.
+Machine timings are observations outside the deterministic CI contract. See
+[the engine guide](grid-engine.md) for the exact search and diagnostic limits.
 
 The full 100-entry seed is checked in the test suite without an external database. An
 optional source-replay command checks the private research input separately. No tests
@@ -35,8 +50,8 @@ operating-system family. Browser coverage will exercise Chromium, Firefox and We
 when the player exists. Real iOS Safari and Android keyboard checks remain separate
 release checks; Linux WebKit alone does not prove iPhone compatibility. Actions are
 pinned to verified commit SHAs, token permissions are read-only and the job has a
-timeout. Coverage and the editorial report are saved as artifacts. A separate
-`pnpm check:security` audit includes development dependencies and fails on
+timeout. Coverage, the editorial report and the fill benchmark are saved as artifacts. A
+separate `pnpm check:security` audit includes development dependencies and fails on
 moderate-or-higher advisories.
 
 Dependencies and the package manager are pinned. Installs use the frozen lockfile, a
