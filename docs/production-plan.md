@@ -36,7 +36,8 @@ shared shell; build shared abstractions when a second game actually needs them.
 ### First public release
 
 - One reviewed daily crossword, identical for everyone on the same UTC date.
-- Dense blocked grid, numbered Across and Down clues, fully checked letters.
+- Numbered Across and Down clues. Checking density and daily shape are selected through
+  the construction pilot. Fully checked grids remain the comparison baseline.
 - Today's puzzle, released-puzzle archive, instructions and an example puzzle.
 - Keyboard and touch play, undo/redo, pencil mode, check/reveal controls.
 - Automatic local saving, resume, local statistics and a spoiler-free share.
@@ -112,9 +113,10 @@ retained in display metadata. Enumerations preserve word lengths where helpful. 
 obscure dictionary scraps, debug strings and words with only a contrived Warcraft
 connection.
 
-### Step B: expand to an experimental 500–1,000 approved answers
+### Step B: expand only where construction demonstrates a gap
 
-This is a working sample size, not a promised sufficient vocabulary. Extract candidates
+Bulk expansion is paused after the 342-answer trial. The earlier 500–1,000-answer sample
+was a research target, not a prerequisite or a sufficiency guarantee. Extract candidates
 from `wow-data`, attach evidence, draft clues and review them. Track word lengths and
 letter patterns, source/era coverage, familiarity and clue difficulty. Multiple clues
 may reference the same answer.
@@ -152,43 +154,42 @@ Review every clue, solve the complete grids cold, then test with several players
 Warcraft knowledge differs. Record solve time, hint usage, unfair answers, confusing
 input and the editor's actual production time.
 
-**Exit criterion:** seven enjoyable, fully reviewed dense puzzles; a measured route to
+**Exit criterion:** seven enjoyable, fully reviewed puzzles; a measured route to
 producing more; a selected grid format; and a report identifying remaining vocabulary
 gaps. If this fails, improve the bank or grid approach before committing to a daily
 release.
 
 ### Immediate next work from the current seed
 
-The repository has 342 evidence-checked triads, including 35 multi-word answers,
-validation, CI configuration and the first tested grid engine/benchmark. The
-[current report](fill-benchmark.md) found no fills across 29 diagnostic layouts;
-[the engine guide](grid-engine.md) explains the exact limits and vocabulary gaps. No
-completed Warcraft grids, player or publication approvals exist yet. Targeted bank
-expansion remains necessary; these results do not prove all dense layouts impossible.
-The [first expansion record](seed-expansion.md) compares the preserved 100-answer
-baseline with this batch and records source/era and faction limitations.
+The repository has 342 evidence-checked triads, including 35 multi-word answers. The
+[fully checked benchmark](fill-benchmark.md) still finds no fills across its 29 layouts.
+That result remains preserved. The user authorised a word-led construction experiment
+with some unchecked letters on 1 November 2026.
 
-1. Implemented: the tested grid/slot model enforces connected white cells, fully checked
-   letters, minimum three-letter entries, legal crossings, numbering and no repeated
-   normalised answer. Include multi-word enumerations in display data.
-2. Implemented: a bounded baseline against the current seed on valid layouts at the five
-   planned sizes, with pinned algorithm version, content hash, random seeds and search
-   limits. It reports failures, unsatisfied lengths/patterns and search time as well as
-   successful fills. A failed search within a budget does not prove no fill exists.
-   Research runs may use evidence-checked entries, clearly labelled as unpublished
-   experiments; they cannot bypass publication approvals.
-3. Expand the clue-backed bank in focused batches using the measured gaps. The
-   500–1,000-answer sample remains a working target, not a prerequisite for the first
-   diagnostic run or a promise of enough content. Audit eligible TBC/Wrath sources as
-   expansion reaches those eras.
-4. Produce seven candidate puzzles and six to twelve associated lore pages for review.
-   Use reviewable grid exports for early cold solves, then the responsive player to
-   validate input, pacing and the discovery experience. Record source review and actual
-   cold-solve approvals before publication.
+One complete twelve-entry trial now exists, with a responsive local player. Its
+[construction report](prototype-report.md) records sixteen crossing cells among 47 white
+cells. Every answer has two or more crossings, covering at least 40% of that answer.
+This is a provisional experimental floor, not a validated fairness standard. No words
+were added to make the trial fit. ORB and STONE have clearer clue wording against the
+same evidence. Neither the trial nor its entries are approved for release.
 
-The deliverable is a benchmark report and a small playable content set. Choose the daily
-size from evidence about fill quality, solving and phone usability. Do not start the
-reward economy before this experiment establishes the core.
+1. Cold-solve the first trial. Review its irregular shape, unchecked stretches, clue
+   ambiguity, assistance use and phone input. Do not equate automated solving with a
+   human cold solve.
+2. Construct the other six pilot puzzles only after feedback on the first. Record
+   construction time, answer reuse, topic coverage and actual solving results. Build
+   vocabulary where those constructions identify useful gaps.
+3. Select the daily format and a credible production cadence from the pilot. Dense,
+   fully checked layouts remain a research option. The trial is an explicit product
+   experiment, not a silent relaxation of the original engine.
+4. Build the selected production stack and the first lore/streak features after the core
+   puzzle experience is convincing. Real-phone keyboard and screen-reader verification
+   remain required before release.
+
+The trial has typed player-state logic and local build/serve tooling, with browser and
+accessibility checks. It does not implement the production Next.js application,
+accounts, editorial service, public schedule or economy. The deliverable at this gate is
+one reviewable playtest, followed by a seven-puzzle pilot if the format succeeds.
 
 ## 3. The content system
 

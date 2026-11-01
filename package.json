@@ -9,7 +9,7 @@
     "node": "26.x"
   },
   "scripts": {
-    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm content:check && pnpm content:report:check && pnpm benchmark:check",
+    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm content:check && pnpm content:report:check && pnpm benchmark:check && pnpm prototype:check && pnpm test:browser",
     "lint": "eslint . --max-warnings 0",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --coverage",
@@ -23,20 +23,28 @@
     "content:refresh": "node tools/refresh-evidence.ts",
     "content:verify-sources": "node tools/refresh-evidence.ts --check",
     "benchmark:run": "node tools/benchmark-fill.ts",
-    "benchmark:check": "node tools/benchmark-fill.ts --check"
+    "benchmark:check": "node tools/benchmark-fill.ts --check",
+    "prototype:build": "node tools/build-prototype.ts",
+    "prototype:check": "node tools/build-prototype.ts --check",
+    "prototype:serve": "node tools/serve-prototype.ts",
+    "prototype:dev": "pnpm prototype:build && pnpm prototype:serve",
+    "test:browser": "playwright test",
+    "test:browser:install": "playwright install chromium firefox webkit"
   },
   "dependencies": {
     "zod": "4.6.7"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.1",
     "@types/node": "26.6.6",
     "@vitest/coverage-v8": "5.0.5",
-    "prettier": "3.9.10",
-    "@eslint/js": "10.0.1",
     "eslint": "10.14.0",
     "fast-check": "4.10.2",
-    "typescript-eslint": "8.72.1",
+    "prettier": "3.9.10",
     "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
     "vitest": "5.0.5"
   }
 }

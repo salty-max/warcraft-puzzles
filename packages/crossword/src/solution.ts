@@ -1,11 +1,27 @@
 import { z } from "zod";
 import { parseCandidates, PlacementSchema } from "./answers.ts";
-import { compileLayout } from "./layout.ts";
+import { compileLayout, compilePartiallyCheckedLayout } from "./layout.ts";
 import type { GridIssue } from "./layout.ts";
 
 /** Independent of the search: reject partial, contradictory and repeated fills. */
 export function inspectFill(layout: unknown, bank: unknown, input: unknown) {
-  const grid = compileLayout(layout);
+  return inspect(compileLayout(layout), bank, input);
+}
+
+/** Uses the same independent letter/identity checks, with an explicit other format. */
+export function inspectPartiallyCheckedFill(
+  layout: unknown,
+  bank: unknown,
+  input: unknown,
+) {
+  return inspect(compilePartiallyCheckedLayout(layout), bank, input);
+}
+
+function inspect(
+  grid: ReturnType<typeof compileLayout>,
+  bank: unknown,
+  input: unknown,
+) {
   const candidates = new Map(
     parseCandidates(bank).map((entry) => [entry.id, entry.grid]),
   );

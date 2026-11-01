@@ -120,7 +120,7 @@ upper bound before crossings and layout constraints, not a successful-fill count
 | PALADIN         | 7       | easy       | Uther's holy warrior calling                                                | He fought the plague alongside others of his order.                   |
 | BANSHEE         | 7       | medium     | Sylvanas's spectral form after Arthas defeated her                          | An undead spirit, rather than a walking corpse.                       |
 | LICH            | 4       | medium     | The undead spellcaster Kel'Thuzad became                                    | His rebirth used the Sunwell's corrupted waters.                      |
-| STONE           | 5       | easy       | The earthen's original building material                                    | Their rocky hides later softened into smooth skin.                    |
+| STONE           | 5       | easy       | Material from which the Titans created the earthen                          | Their rocky hides later softened into smooth skin.                    |
 | EARTH           | 5       | medium     | Neltharion's charge beneath your feet                                       | The deep places of the world were his to guard.                       |
 | TIME            | 4       | easy       | What the bronze Aspect keeps watch over                                     | Think of clocks and calendars.                                        |
 | MAGIC           | 5       | easy       | The Spell-Weaver's domain                                                   | Malygos guarded the arcane arts.                                      |
@@ -208,7 +208,7 @@ upper bound before crossings and layout constraints, not a successful-fill count
 | PET             | 3       | easy       | A hunter's tamed companion                                                  | The hunter can call it or dismiss it.                                 |
 | IMP             | 3       | easy       | Little helper in a warlock's summoning lessons                              | A very small demon.                                                   |
 | EGG             | 3       | easy       | What you destroy to stop an Onyxia whelp hatching                           | Think of a shell, then a hatchling.                                   |
-| ORB             | 3       | medium     | Round way into Blackwing                                                    | The device checks for the Mark of Drakkisath.                         |
+| ORB             | 3       | medium     | Spherical device used to enter Blackwing Lair                               | The device checks for the Mark of Drakkisath.                         |
 | AIR             | 3       | easy       | Shamanic totem element you breathe                                          | Think of the atmosphere.                                              |
 | ASH             | 3       | easy       | Burnt residue brushed off a Theramore badge                                 | The powder left after something burns.                                |
 | AXE             | 3       | easy       | Chopping tool used by Mosshide gnolls on Wetlands timber                    | A handle and a sharp head for felling trees.                          |

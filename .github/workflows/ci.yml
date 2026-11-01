@@ -35,6 +35,8 @@ jobs:
           cache: pnpm
       - name: Install locked dependencies
         run: pnpm install --frozen-lockfile
+      - name: Install browser engines and system dependencies
+        run: pnpm exec playwright install --with-deps chromium firefox webkit
       - name: Run all checks
         run: pnpm check
       - name: Save coverage and content reports
@@ -46,6 +48,9 @@ jobs:
             coverage/
             docs/seed-report.md
             docs/fill-benchmark.md
+            docs/prototype-report.md
+            playwright-report/
+            test-results/
           retention-days: 14
   dependency-audit:
     name: Dependency audit

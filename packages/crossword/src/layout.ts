@@ -39,6 +39,15 @@ export class InvalidLayoutError extends Error {
 
 /** Compile maximal runs, sharing a number at cells that start both directions. */
 export function compileLayout(input: unknown): Grid {
+  return compile(input, false);
+}
+
+/** Explicit research format. Single perpendicular cells are unchecked letters. */
+export function compilePartiallyCheckedLayout(input: unknown): Grid {
+  return compile(input, true);
+}
+
+function compile(input: unknown, partial: boolean): Grid {
   const layout = LayoutSchema.parse(input);
   const height = layout.rows.length;
   const width = layout.rows[0]!.length;
@@ -88,7 +97,7 @@ export function compileLayout(input: unknown): Grid {
     const across = !open(row, column - 1);
     const down = !open(row - 1, column);
     if (!across && !down) continue;
-    number++;
+    const runs: { direction: Slot["direction"]; cells: number[] }[] = [];
     for (const direction of ["across", "down"] as const) {
       if (!(direction === "across" ? across : down)) continue;
       const run: number[] = [];
@@ -97,12 +106,18 @@ export function compileLayout(input: unknown): Grid {
       for (let offset = 0; open(row + dr * offset, column + dc * offset); offset++) {
         run.push((row + dr * offset) * width + column + dc * offset);
       }
+      if (partial && run.length === 1) continue;
       if (run.length < 3) {
         issues.push({
           code: "short-run",
-          message: `${number}${direction === "across" ? "A" : "D"} has ${run.length} letters; every white cell needs both runs of at least three`,
+          message: `Run at ${row},${column} has ${run.length} letters; entries need at least three`,
         });
       }
+      runs.push({ direction, cells: run });
+    }
+    if (!runs.length) continue;
+    number++;
+    for (const { direction, cells: run } of runs) {
       slots.push({
         id: `${number}${direction === "across" ? "A" : "D"}`,
         number,
@@ -124,7 +139,13 @@ export function compileLayout(input: unknown): Grid {
       memberships.set(cell, members);
     }),
   );
+  if (whiteCells.some((cell) => !memberships.has(cell))) {
+    throw new InvalidLayoutError([
+      { code: "orphan", message: "Every white cell must belong to an entry" },
+    ]);
+  }
   for (const members of memberships.values()) {
+    if (members.length === 1) continue;
     const [a, b] = members as [
       { slot: number; offset: number },
       { slot: number; offset: number },

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="theme-color" content="#173b35" />
+    <title>Of fire and moonlight · Warcraft Crosswords</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/player.js" type="module"></script>
+  </head>
+  <body>
+    <a href="#answer" class="skip">Skip to answer entry</a>
+    <main>
+      <header class="masthead">
+        <p class="eyebrow">Warcraft Crosswords <span>Playtest 01</span></p>
+        <h1>Of fire<br />and moonlight.</h1>
+        <p class="intro">
+          Twelve clues from Azeroth. A little history, a little magic.
+        </p>
+        <div class="meta">
+          <span>Through Wrath</span><span>12 clues</span
+          ><span>Saved on this browser</span>
+        </div>
+      </header>
+      <section id="complete" class="completion" hidden aria-labelledby="complete-title">
+        <p class="eyebrow">Every square tells a story</p>
+        <h2 id="complete-title">Puzzle complete.</h2>
+        <p id="completion-summary"></p>
+      </section>
+      <div class="workspace">
+        <section class="board" aria-label="Puzzle and answer entry">
+          <div class="active-card">
+            <div class="clue-nav">
+              <button id="previous" aria-label="Previous clue">←</button>
+              <p id="active-label" class="eyebrow"></p>
+              <button id="next" aria-label="Next clue">→</button>
+            </div>
+            <p id="active-clue" aria-live="polite"></p>
+            <form id="answer-form">
+              <label for="answer">Your answer <span id="pattern"></span></label>
+              <div class="answer-line">
+                <input
+                  id="answer"
+                  name="answer"
+                  type="text"
+                  autocomplete="off"
+                  autocapitalize="characters"
+                  spellcheck="false"
+                  aria-describedby="active-clue input-help"
+                  maxlength="60"
+                /><button type="submit" aria-label="Enter answer and go to next clue">
+                  ↵
+                </button>
+              </div>
+              <p id="input-help">Type the whole answer. Spaces are optional.</p>
+            </form>
+          </div>
+          <table id="grid" aria-label="Crossword grid. Choose a square or a clue.">
+            <tbody></tbody>
+          </table>
+          <div class="progress-line">
+            <span id="progress"></span><button id="check">Check puzzle</button>
+          </div>
+          <div class="help-actions">
+            <button id="hint">Get a hint</button
+            ><button id="reveal">Reveal this answer</button
+            ><button id="reset">Start over</button>
+          </div>
+          <p id="hint-text" class="hint-text" hidden></p>
+          <p id="feedback" role="status"></p>
+          <p id="storage-warning" hidden>
+            Progress could not be saved. Keep this tab open to continue playing.
+          </p>
+          <p class="format-note">
+            Some letters have no crossing. Numbers in brackets show word lengths. Tap a
+            crossing twice to switch direction.
+          </p>
+        </section>
+        <section class="clues" aria-label="Clues">
+          <div>
+            <h2>Across <span>→</span></h2>
+            <ol id="across"></ol>
+          </div>
+          <div>
+            <h2>Down <span>↓</span></h2>
+            <ol id="down"></ol>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <p>
+          An independent Warcraft fan project. Not affiliated with Blizzard
+          Entertainment.
+        </p>
+        <p>
+          This is a construction playtest. Clue fairness and difficulty are still being
+          tested.
+        </p>
+      </footer>
+    </main>
+    <dialog id="reset-dialog" aria-labelledby="reset-title">
+      <h2 id="reset-title">Start again?</h2>
+      <p>This clears your letters and assistance record for this puzzle.</p>
+      <form method="dialog">
+        <button value="cancel">Keep playing</button
+        ><button value="reset">Clear this puzzle</button>
+      </form>
+    </dialog>
+    <script type="application/json" id="puzzle-data">
+      __PUZZLE_JSON__
+    </script>
+  </body>
+</html>

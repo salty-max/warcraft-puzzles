@@ -2,7 +2,7 @@ import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
-    include: ["packages/**/*.test.ts", "tools/**/*.test.ts"],
+    include: ["packages/**/*.test.ts", "tools/**/*.test.ts", "web/**/*.test.ts"],
     coverage: {
       provider: "v8",
       include: [
@@ -10,6 +10,8 @@ export default defineConfig({
         "packages/crossword/src/**/*.ts",
         "tools/evidence.ts",
         "tools/benchmark.ts",
+        "tools/research-puzzle.ts",
+        "web/model.ts",
       ],
       exclude: ["packages/content/src/index.ts", "packages/crossword/src/index.ts"],
       reporter: ["text", "lcov", "json-summary"],

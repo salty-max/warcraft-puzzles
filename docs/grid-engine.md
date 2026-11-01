@@ -131,3 +131,18 @@ layouts if the fixtures overconcentrate particular lengths. Keep failed runs. A
 500–1,000-answer sample remains an experiment, not a known sufficient bank. Seven
 candidate puzzles, lore pages and responsive playtesting follow successful construction;
 none is claimed by this baseline.
+
+## Explicit partially checked construction trial
+
+`compileLayout` and the fill solver retain their original fully checked behaviour.
+`compilePartiallyCheckedLayout` and `inspectPartiallyCheckedFill` are explicit exports
+for the authorised construction experiment. They permit a single perpendicular cell
+without inventing a one-letter clue. They still reject two-letter runs, orphan cells,
+disconnected shapes, missing entries, inconsistent crossings and repeated answers.
+Numbering counts actual entry starts only.
+
+The research-puzzle validator adds a trial-specific floor of two crossings and 40%
+checking per answer, then projects the current triads into the local player. It checks
+simple cross-prompt spelling leaks and binds local saves to a puzzle/wording
+fingerprint. None of those checks grants publication approval. The
+[trial report](prototype-report.md) records the actual construction and its weaknesses.

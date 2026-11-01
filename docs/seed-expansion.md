@@ -98,15 +98,10 @@ These are genuine negative results for the exact inputs. The added vocabulary re
 some length shortages but has not demonstrated a viable daily format. No seven-puzzle
 set, annual capacity or production cadence can be claimed yet.
 
-## Next experiment
+## Decision after the expansion
 
-Continue the bounded research toward the planned 500–1,000-answer sample, with
-particular attention to five- to seven-letter crossing coverage, a broader mix of word
-forms, and Horde contexts. Keep the existing fixtures for comparison and review failures
-rather than adding arbitrary dictionary filler. Audit additional eligible sources before
-claiming TBC/Wrath coverage.
-
-Measure editorial cost alongside construction. If larger reviewed samples still fail,
-compare a deliberately designed crossword with some unchecked letters as a separate
-product option. The current fully checked contract remains in force; no fallback or
-player application has been implemented by this expansion.
+After these negative results, the user authorised construction of a word-led puzzle with
+some unchecked letters before further bulk collection. The former 500–1,000-answer
+expansion target is paused. See [the first construction trial](prototype-report.md). The
+fully checked benchmark is preserved as a separate comparison. No TBC/Wrath coverage,
+cold approval or sustainable daily cadence is claimed by either experiment.

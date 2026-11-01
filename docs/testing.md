@@ -9,6 +9,9 @@
 5. Structural and semantic research-content validation for every committed triad.
 6. A check that the generated editorial report matches its inputs.
 7. A deterministic replay and freshness check of the seed fill benchmark.
+8. Complete validation and build of the authored trial, plus report freshness.
+9. Playwright journeys in Chromium, Firefox and WebKit, including responsive layouts and
+   axe accessibility checks.
 
 Content-engine coverage gates are 95% for statements/lines/functions and 90% for
 branches. These thresholds are regression guards, not evidence that the content is
@@ -98,3 +101,29 @@ The [progression design](progression-design.md) lists future reward and persiste
 invariants, including duplicate claims, concurrent purchases, UTC rollover, offline sync
 and assisted solves. No progression engine or tests for it exist yet. Add those checks
 with each implemented feature rather than treating the design as test coverage.
+
+## Construction trial checks
+
+Install the pinned browser engines with `pnpm test:browser:install` before the first
+`pnpm check`. Linux CI installs their system dependencies as well. The browser setup
+follows [Playwright's CI guidance](https://playwright.dev/docs/ci-intro).
+
+Pure tests cover the explicit partial format, independent complete-fill validation,
+minimum crossing support, unavailable entries, direct cross-clue answer leaks and
+fingerprint changes. Player tests cover shared crossing edits, spaces/punctuation,
+clearing, assistance accounting, solved state and malformed saves. Coverage thresholds
+remain unchanged.
+
+Browser journeys exercise entry, a full solve, crossing edits, reload/resume, distinct
+assistance counts, reset confirmation, keyboard navigation and unavailable storage. They
+also exercise the portable single-file artifact without HTTP requests. Layout checks at
+320×568, 390×844, 768×1024, 1280×800 and 844×390 assert no horizontal overflow, run axe
+WCAG A/AA checks and attach screenshots. Screenshots are inspection artifacts, not yet
+pixel-baseline assertions. These desktop-engine runs do not establish actual iOS/Android
+keyboard behaviour or a manual screen-reader pass.
+
+The prototype build compiles the same TypeScript player and state model into local
+assets and a portable HTML file. Normal checks use committed evidence and never require
+a private database. Local answers are present for checking, so this prototype provides
+no competitive anti-cheat guarantee. Cold-solve approval, daily capacity and production
+readiness remain separate gates.

@@ -4401,7 +4401,7 @@
         "evidenceIds": ["book-175725-6", "book-175736-3"]
       },
       "clue": {
-        "text": "The earthen's original building material",
+        "text": "Material from which the Titans created the earthen",
         "evidenceIds": ["book-175725-6", "book-175736-3"]
       },
       "hint": {
@@ -7577,7 +7577,7 @@
         "evidenceIds": ["quest-7761-details", "quest-7761-objectives"]
       },
       "clue": {
-        "text": "Round way into Blackwing",
+        "text": "Spherical device used to enter Blackwing Lair",
         "evidenceIds": ["quest-7761-details", "quest-7761-objectives"]
       },
       "hint": {

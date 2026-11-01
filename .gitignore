@@ -6,3 +6,5 @@ coverage/
 .DS_Store
 *.tsbuildinfo
 .vercel/
+playwright-report/
+test-results/

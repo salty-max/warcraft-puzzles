@@ -1,0 +1,75 @@
+{
+  "id": "first-steps",
+  "title": "Of fire and moonlight",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "first-steps",
+    "rows": [
+      "#####.######",
+      "#####...####",
+      "#####.#.##.#",
+      "####....##.#",
+      "#####.#.....",
+      "#####.#.##.#",
+      "#####.#.....",
+      "###.....####",
+      "###.#.######",
+      "#.....######",
+      "#.#.########",
+      "#.#.########",
+      "....########"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "1D",
+      "entryId": "moltencore"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "slave"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "stun"
+    },
+    {
+      "slotId": "8A",
+      "entryId": "stone"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "banshee"
+    },
+    {
+      "slotId": "8D",
+      "entryId": "shaman"
+    },
+    {
+      "slotId": "2A",
+      "entryId": "orb"
+    },
+    {
+      "slotId": "6A",
+      "entryId": "sleep"
+    },
+    {
+      "slotId": "4D",
+      "entryId": "queen"
+    },
+    {
+      "slotId": "7A",
+      "entryId": "elune"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "clan"
+    },
+    {
+      "slotId": "9D",
+      "entryId": "soul"
+    }
+  ]
+}

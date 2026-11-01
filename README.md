@@ -5,12 +5,29 @@ belongs to Warcraft. Answers can be recognisable names or ordinary English words
 supported Warcraft connection. The historical boundary is the end of Wrath of the Lich
 King.
 
-**Current milestone: grid feasibility.** This repository contains 342 answer–clue–hint
-triads, source references, strict content contracts, a tested grid engine and a
-reproducible fill benchmark. It does not contain the player application yet. The seed
-remains unapproved for publication pending cold solving in finished grids. The expanded
-benchmark found no fills in its 29 diagnostic layouts. The bank still needs broader
-crossing coverage; see the measured results and limits below.
+**Current milestone: the first playable construction trial.** The repository contains
+342 sourced answer–clue–hint triads, the strict grid engine and its negative fill
+benchmark, plus one complete twelve-clue puzzle in an explicitly partially checked
+format. It has a responsive local player for cold solving. This proves one arrangement
+exists, not that a daily collection is sustainable. No entries or puzzles have
+cold-solve publication approvals.
+
+## Try the construction trial
+
+```sh
+pnpm install --frozen-lockfile
+pnpm prototype:dev
+```
+
+Open the printed local URL. The build also creates `.cache/prototype/playtest.html`, a
+self-contained file you can open in a browser without a server or network. Browser-file
+saving depends on the browser's local-storage policy. Both versions have whole-answer
+input, shared crossings, hints, reveals, checks, local saving and a confirmed reset.
+Answers are included locally for checking. This is a playtest, with no accounts, daily
+schedule or reward economy. The selected production stack remains in the plan.
+
+See [the construction report](docs/prototype-report.md) for checking coverage and known
+weaknesses. **Cold-solve this one before constructing the other six pilot puzzles.**
 
 ## Run the checks
 
@@ -18,6 +35,7 @@ Use Node 26 and pnpm 11.18.0, as pinned in the repository.
 
 ```sh
 pnpm install --frozen-lockfile
+pnpm test:browser:install
 pnpm check
 ```
 
@@ -84,15 +102,15 @@ validation passing does not authorise publishing the seed as finished puzzles.
 
 ## Next milestones
 
-1. Expand the bank from the measured length and crossing-letter gaps, rerunning the
-   fixed benchmark after each sourced batch. Add further valid blocked layouts.
-2. Review seven puzzle candidates once fills succeed and prepare six to twelve sourced
-   lore pages. Research results do not grant publication approvals.
-3. Build the responsive Next.js player with the first lore discoveries, streak/calendar
-   and milestone stamp; validate the experience through cold solves and phone trials.
-   Follow with the editorial workspace and public daily/weekly loop.
-4. Add application integration/browser/accessibility tests and a production build to the
-   required checks as those features are implemented.
+1. Cold-solve the first construction trial. Record ambiguous clues, assistance use,
+   unchecked-letter frustration and phone input issues.
+2. If it holds up, construct the remaining six pilot puzzles and measure construction
+   time, repeat concentration and actual solve quality. Expand vocabulary to solve
+   demonstrated gaps. Bulk collection is paused.
+3. Choose the format from that evidence, then build the production Next.js player,
+   editorial workspace and first lore/streak features.
+4. Extend the existing browser and accessibility checks with production persistence,
+   release rollover, integration tests and build checks as those features arrive.
 
 The selected production target is the owner's **existing Vercel Pro plan**, with
 PostgreSQL on Neon. No additional Vercel subscription is needed. This repository has not

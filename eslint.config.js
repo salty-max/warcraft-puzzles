@@ -2,7 +2,15 @@ import js from "@eslint/js";
 import tseslint from "typescript-eslint";
 
 export default tseslint.config(
-  { ignores: ["coverage/**", "node_modules/**", ".cache/**"] },
+  {
+    ignores: [
+      "coverage/**",
+      "node_modules/**",
+      ".cache/**",
+      "playwright-report/**",
+      "test-results/**",
+    ],
+  },
   js.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
   {
