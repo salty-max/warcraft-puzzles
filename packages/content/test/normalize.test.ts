@@ -6,6 +6,9 @@ describe("English answer spelling", () => {
   it.each([
     ["FATHER", "FATHER", [6]],
     ["Kirin Tor", "KIRINTOR", [5, 3]],
+    ["The Lich King", "THELICHKING", [3, 4, 4]],
+    ["Onyxia's Lair", "ONYXIASLAIR", [7, 4]],
+    ["The Dark Portal", "THEDARKPORTAL", [3, 4, 6]],
     ["Zul'Gurub", "ZULGURUB", [8]],
     ["Ner’zhul", "NERZHUL", [7]],
     ["War-chief", "WARCHIEF", [3, 5]],

@@ -27,6 +27,12 @@ export const LocatorSchema = z.discriminatedUnion("table", [
     locale: z.literal("enUS"),
     field: z.enum(["details", "objectives", "request", "reward", "end"]),
   }),
+  z.strictObject({
+    table: z.literal("name"),
+    kind: z.enum(["area", "faction", "race"]),
+    id: z.number().int().positive(),
+    locale: z.literal("enUS"),
+  }),
 ]);
 
 export const CitationSchema = z.strictObject({

@@ -36,13 +36,17 @@ try {
                 "SELECT * FROM readable_page WHERE kind = ? AND id = ? AND locale = ? AND idx = ?",
               )
               .get(locator.kind, locator.id, locator.locale, locator.idx)
-          : database
-              .prepare(
-                "SELECT * FROM quest_text WHERE quest_id = ? AND locale = ? AND field = ?",
-              )
-              .get(locator.quest_id, locator.locale, locator.field);
+          : locator.table === "quest_text"
+            ? database
+                .prepare(
+                  "SELECT * FROM quest_text WHERE quest_id = ? AND locale = ? AND field = ?",
+                )
+                .get(locator.quest_id, locator.locale, locator.field)
+            : database
+                .prepare("SELECT * FROM name WHERE kind = ? AND id = ? AND locale = ?")
+                .get(locator.kind, locator.id, locator.locale);
       if (!row) return undefined;
-      if (typeof row.text !== "string" || typeof row.source !== "string") {
+      if (typeof row.source !== "string") {
         throw new Error(`${citation.id}: invalid source row`);
       }
       return row as SourceRow;

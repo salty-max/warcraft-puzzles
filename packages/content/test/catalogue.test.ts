@@ -221,11 +221,60 @@ describe("content contracts", () => {
       ),
     );
     expect(editorial.entries).toHaveLength(100);
+    expect(
+      editorial.entries.filter((entry) => entry.answer.enumeration.length > 1).length,
+    ).toBeGreaterThanOrEqual(25);
     expect(validateCatalogue(editorial, snapshot)).toEqual([]);
     expect(
       validateCatalogue(editorial, snapshot, "publication").filter(
         (issue) => issue.code === "unapproved",
       ),
     ).toHaveLength(100);
+  });
+
+  it("counts a multi-word entry by total letters, not its longest component", () => {
+    const { editorial, snapshot, entry } = fixture();
+    entry.answer.display = "Copper Vein";
+    entry.answer.grid = "COPPERVEIN";
+    entry.answer.enumeration = [6, 4];
+    const report = catalogueReport(editorial, snapshot);
+    expect(report).toContain('"multiwordEntries": 1');
+    expect(report).toContain('"7": 0');
+    expect(report).toContain('"9": 0');
+    expect(report).toContain('"11": 1');
+    expect(report).toContain("not a successful-fill count");
+    expect(report).toContain("No shared text passages.");
+  });
+
+  it("reports shared evidence for editorial inspection without declaring the facts identical", () => {
+    const { editorial, snapshot, entry } = fixture();
+    const other = structuredClone(entry);
+    other.id = "father-second-clue";
+    editorial.entries.push(other);
+    const report = catalogueReport(editorial, snapshot);
+    expect(report).toContain('"sharedTextPassages": 1');
+    expect(report).toContain("test-passage | FATHER, FATHER");
+    expect(report).toContain("A passage may support different facts");
+  });
+
+  it("orders overlap warnings by use count, with stable ordering for ties", () => {
+    const { editorial, snapshot, entry } = fixture();
+    for (const id of ["zeta-passage", "alpha-passage"]) {
+      editorial.citations.push({ ...editorial.citations[0]!, id });
+      snapshot.evidence.push({ ...snapshot.evidence[0]!, id });
+      entry.fact.evidenceIds.push(id);
+    }
+    editorial.entries.push({ ...structuredClone(entry), id: "second-entry" });
+    const third = structuredClone(entry);
+    third.id = "third-entry";
+    third.fact.evidenceIds = ["test-passage"];
+    editorial.entries.push(third);
+    const report = catalogueReport(editorial, snapshot);
+    expect(report.indexOf("| test-passage |")).toBeLessThan(
+      report.indexOf("| alpha-passage |"),
+    );
+    expect(report.indexOf("| alpha-passage |")).toBeLessThan(
+      report.indexOf("| zeta-passage |"),
+    );
   });
 });

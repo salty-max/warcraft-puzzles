@@ -1,7 +1,7 @@
 import type { Citation, Locator } from "../packages/content/src/index.ts";
 import { sha256 } from "../packages/content/src/index.ts";
 
-export type SourceRow = { text: string; source: string } & Record<string, unknown>;
+export type SourceRow = { source: string } & Record<string, unknown>;
 export type EvidenceReader = (locator: Locator) => SourceRow | undefined;
 
 export function canonicalRow(row: Record<string, unknown>): string {
@@ -16,7 +16,11 @@ export function verifyCitation(citation: Citation, read: EvidenceReader) {
   if (!["classicdb", "client", "questie", "wowhead"].includes(row.source)) {
     throw new Error(`${citation.id}: source ${row.source} is not permitted`);
   }
-  if (!row.text.includes(citation.excerpt)) {
+  const sourceText = citation.locator.table === "name" ? row.name : row.text;
+  if (typeof sourceText !== "string") {
+    throw new Error(`${citation.id}: expected a string in the source field`);
+  }
+  if (!sourceText.includes(citation.excerpt)) {
     throw new Error(`${citation.id}: excerpt is not an exact substring of its source`);
   }
   return {

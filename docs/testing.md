@@ -22,6 +22,12 @@ optional source-replay command checks the private research input separately. No 
 are silently skipped because an external source is missing. The normal CI workflow must
 be runnable by a new contributor with the repository alone.
 
+Multi-word regression cases include three-word names and possessives, with spaces
+removed only in the grid. Report tests distinguish total answer length from the longest
+component word. The SQLite fixture exercises prose and structured-name locators, and
+malformed name fields fail verification. Overlap reports are tested for stable ordering
+so the most heavily reused passages appear first.
+
 ## CI and dependencies
 
 The Checks workflow runs the same command on Ubuntu Linux, matching the server's

@@ -40,6 +40,8 @@ pnpm test:watch
   database fingerprint, source versions and row/excerpt checksums.
 - [`docs/seed-report.md`](docs/seed-report.md) is the generated human-readable
   inventory, including every triad and its provisional difficulty.
+- [`docs/seed-revision.md`](docs/seed-revision.md) explains the rebalance toward
+  multi-word world names, everyday play and useful short crossings.
 - [`docs/editorial.md`](docs/editorial.md) defines eligibility, hints, review and
   source-update rules.
 - [`docs/testing.md`](docs/testing.md) explains checks and their limits.
@@ -80,12 +82,14 @@ been connected to a deployment or provisioned paid services.
 
 ## Source material and attribution
 
-The current evidence comes from `wow-data`'s pinned Classic database, specifically its
-`classicdb` source: [CMaNGOS Classic DB](https://github.com/cmangos/classic-db). The
-frozen source version and its license metadata are recorded in the snapshot. Selected
-game-text excerpts are research citations and retain their original rights. They are not
-licensed as this project's original writing. Public export and source-attribution review
-remain required before publication.
+The current evidence comes from `wow-data`'s pinned Classic database: game text from
+[CMaNGOS Classic DB](https://github.com/cmangos/classic-db) and
+[QuestieDB](https://github.com/Questie/QuestieDB), plus exact client names provided
+through [wago.tools](https://wago.tools). Frozen source versions and license metadata
+are recorded in the snapshot. Client labels establish spelling, while the text passages
+support the actual clue facts. Selected game-text excerpts retain their original rights
+and are not licensed as this project's original writing. Public export and
+source-attribution review remain required before publication.
 
 World of Warcraft belongs to Blizzard Entertainment. This is an independent fan project,
 not affiliated with or endorsed by Blizzard.

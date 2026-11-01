@@ -21,6 +21,12 @@ characters are rejected for review rather than silently discarded. Minimum answe
 is three. Long answers remain in the bank even when the first layouts cannot accommodate
 them.
 
+Multi-word names and phrases are first-class answers. Preserve the familiar full form,
+show an enumeration such as `(3,4,4)` and use one continuous grid entry. Never shorten a
+name just to fit a mini. Slot eligibility uses the total letters, not the length of the
+longest word. Include 11×11 and 13×13 among the trial layouts before selecting the daily
+format.
+
 ## Every entry is an answer–clue–hint triad
 
 - **Answer:** display spelling, grid letters, enumeration and inclusion rationale.
@@ -32,6 +38,12 @@ them.
   using one will be counted as assistance by the player.
 - **Evidence:** exact database locators and short source passages supporting all factual
   statements in both the clue and the hint.
+
+A hint may also give an ordinary-English definition, a word-shape cue or one word of a
+multi-word name. Those cues come from the verified answer spelling and normal English
+meaning. They do not license an extra unsourced Warcraft claim. A hint should give the
+player another route forward rather than simply introducing a less familiar NPC or
+restating the question.
 
 One answer can have several different triads. IDs identify entries, not just letter
 strings. Duplicate entry IDs are invalid. Repeated grid strings in a bank are allowed,
@@ -81,15 +93,18 @@ a review. A future editor workflow will enforce and audit this transition on the
 
 ## Source snapshots
 
-The seed reads only `readable_page` and `quest_text` through parameterized queries.
-Snapshots identify full rows by checksum and retain selected exact passages. Sources are
-allowlisted. Player-derived records cannot enter this pipeline.
+The seed reads `readable_page`, `quest_text` and curated `name` records through
+parameterized queries. Snapshots identify full rows by checksum and retain selected
+exact passages. Sources are allowlisted. Player-derived records cannot enter this
+pipeline.
 
 Normal validation uses the small committed snapshot. `content:verify-sources`
 additionally replays every locator against an explicit read-only database and checks its
 whole-file fingerprint. A fresh database, even one with only unrelated changes, requires
 an intentional snapshot update. Keep that distinction visible.
 
-This initial importer is deliberately limited to text-backed facts. Structured
-name/type/location relationships will get separate typed locators and tests when added.
-Do not overload text quotations with invented summaries pretending to be source text.
+The `name` locator supports area, faction and race labels. It reads the actual `name`
+field, while prose locators read `text`. An exact name validates spelling; it does not
+prove a geographical or historical relationship. Pair it with text evidence for those
+claims. Structured type/location relationships will receive their own typed locators and
+tests when added. Do not fabricate a prose quotation from a structured label.

@@ -1,6 +1,7 @@
 import { expect, it } from "vitest";
 import { canonicalRow, verifyCitation } from "./evidence.ts";
 import { fixture } from "../packages/content/test/fixture.ts";
+import { CitationSchema } from "../packages/content/src/index.ts";
 
 it("verifies exact excerpts and fingerprints source rows deterministically", () => {
   const { editorial } = fixture();
@@ -26,4 +27,20 @@ it("rejects missing rows, invented quotations and player-derived records", () =>
   expect(() =>
     verifyCitation(citation, () => ({ source: "classicdb", text: "Different text" })),
   ).toThrow("not an exact substring");
+});
+
+it("verifies a structured name without pretending it is a prose quotation", () => {
+  const citation = CitationSchema.parse({
+    id: "area-dun-morogh",
+    locator: { table: "name", kind: "area", id: 1, locale: "enUS" },
+    excerpt: "Dun Morogh",
+  });
+  const result = verifyCitation(citation, () => ({
+    source: "client",
+    name: "Dun Morogh",
+  }));
+  expect(result.sourceId).toBe("client");
+  expect(() =>
+    verifyCitation(citation, () => ({ source: "client", name: 123 })),
+  ).toThrow("expected a string");
 });

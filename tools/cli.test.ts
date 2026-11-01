@@ -53,7 +53,7 @@ it("generates reports and rejects stale output", () => {
   expect(command("report-content", [...args, "--chek"]).status).not.toBe(0);
 });
 
-it("replays book and quest citations against a real read-only SQLite fixture", () => {
+it("replays book, quest and name citations against a real read-only SQLite fixture", () => {
   const { directory, catalogue, editorial } = temporaryFixture();
   const databasePath = join(directory, "research.db");
   const output = join(directory, "source-snapshot.json");
@@ -65,6 +65,7 @@ it("replays book and quest citations against a real read-only SQLite fixture", (
     INSERT INTO source VALUES ('classicdb', 'fixture-version', 'https://example.com', 'synthetic');
     CREATE TABLE readable_page (kind TEXT, id INTEGER, locale TEXT, idx INTEGER, text TEXT, source TEXT);
     CREATE TABLE quest_text (quest_id INTEGER, locale TEXT, field TEXT, text TEXT, source TEXT);
+    CREATE TABLE name (kind TEXT, id INTEGER, locale TEXT, name TEXT, source TEXT);
   `);
   database
     .prepare("INSERT INTO readable_page VALUES (?, ?, ?, ?, ?, ?)")
@@ -72,11 +73,19 @@ it("replays book and quest citations against a real read-only SQLite fixture", (
   database
     .prepare("INSERT INTO quest_text VALUES (?, ?, ?, ?, ?)")
     .run(141, "enUS", "details", "An exact quest citation.", "classicdb");
+  database
+    .prepare("INSERT INTO name VALUES (?, ?, ?, ?, ?)")
+    .run("area", 1, "enUS", "Dun Morogh", "classicdb");
   database.close();
   editorial.citations.push({
     id: "quest-citation",
     locator: { table: "quest_text", quest_id: 141, locale: "enUS", field: "details" },
     excerpt: "An exact quest citation.",
+  });
+  editorial.citations.push({
+    id: "area-name",
+    locator: { table: "name", kind: "area", id: 1, locale: "enUS" },
+    excerpt: "Dun Morogh",
   });
   writeFileSync(catalogue, JSON.stringify(editorial));
   const args = [
@@ -91,7 +100,7 @@ it("replays book and quest citations against a real read-only SQLite fixture", (
   const result = command("refresh-evidence", args);
   expect(result.status, result.stderr).toBe(0);
   const snapshot = SnapshotSchema.parse(JSON.parse(readFileSync(output, "utf8")));
-  expect(snapshot.evidence).toHaveLength(2);
+  expect(snapshot.evidence).toHaveLength(3);
   expect(command("refresh-evidence", [...args, "--check"]).status).toBe(0);
   expect(readFileSync(databasePath)).toEqual(before);
 

@@ -80,10 +80,18 @@ may reference the same answer.
 
 ### Step C: run reproducible fill experiments
 
-Test a small library of valid 5×5, 7×7 and 9×9 blocked layouts. Compare the expanded,
-clue-backed bank with the previous name-heavy baseline using the same layouts, seed
-lists, node limits and time budgets. Keep the full report, including unsuccessful fills.
-Do not add unrestricted dictionary filler to make the success rate look better.
+Test a small library of valid 5×5, 7×7, 9×9, 11×11 and 13×13 blocked layouts. Compare
+the expanded, clue-backed bank with the previous name-heavy baseline using the same
+layouts, seed lists, node limits and time budgets. Keep the full report, including
+unsuccessful fills. Do not add unrestricted dictionary filler to make the success rate
+look better.
+
+Treat multi-word names and phrases as full entries. Preserve their enumeration for
+players, but count every letter against the slot length. The seed report's
+length-eligibility figures only identify which answers are short enough for a size. They
+do not prove any layout can be filled. Larger grids also require more clues and
+editorial work, so choose the final daily size through actual fills and playtesting
+rather than the number of long names available.
 
 Measure successful fills per layout, search time, answer quality, proper-name share,
 repeat concentration, and which missing short words constrain the search. Mathematical
