@@ -36,13 +36,27 @@ it("replays the real seed and all committed layouts without approving content", 
   ).toBe(true);
   expect(runBenchmark(editorial, snapshot, input)).toEqual(result);
   expect(new Set(result.layouts.map((layout) => layout.width))).toEqual(
-    new Set([5, 7, 9, 11, 13]),
+    new Set([5, 7, 9, 11, 12, 13]),
   );
   expect(result.cases).toHaveLength(
     result.layouts.length * 2 * result.config.seeds.length,
   );
   expect(result.cohorts[0]!.entries).toBeGreaterThan(0);
   expect(benchmarkReport(result, editorial)).toContain("unpublished");
+  expect(
+    result.cases
+      .filter((run) => run.checking === "partial" && run.cohort === "all-triads")
+      .every((run) => run.result.status === "solved"),
+  ).toBe(true);
+  expect(result.layouts.filter((layout) => layout.checking === "partial")).toHaveLength(
+    2,
+  );
+  expect(
+    result.cases
+      .filter((run) => run.checking === "full" && run.cohort === "all-triads")
+      .every((run) => run.result.status === "unsatisfiable"),
+  ).toBe(true);
+  expect(benchmarkReport(result, editorial)).toContain("Partially checked (primary)");
   expect(JSON.stringify([editorial, snapshot])).toBe(before);
 });
 
@@ -89,6 +103,7 @@ it("rejects invalid research content and ambiguous benchmark configuration", () 
     { ...config, seeds: [0, 0] },
     { ...config, layouts: [mini, mini] },
     { ...config, nodeLimit: 0 },
+    { ...config, layouts: [{ ...mini, checking: "semi" }] },
     { ...config, layouts: [{ ...mini, rows: ["###", "###", "###"] }] },
   ]) {
     expect(() => runBenchmark(editorial, snapshot, input)).toThrow();

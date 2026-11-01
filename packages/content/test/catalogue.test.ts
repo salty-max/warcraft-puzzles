@@ -220,7 +220,8 @@ describe("content contracts", () => {
         ),
       ),
     );
-    expect(editorial.entries).toHaveLength(342);
+    expect(editorial.entries).toHaveLength(357);
+    expect(new Set(editorial.entries.map((entry) => entry.answer.grid)).size).toBe(342);
     expect(
       editorial.entries.filter((entry) => entry.answer.enumeration.length > 1).length,
     ).toBeGreaterThanOrEqual(25);

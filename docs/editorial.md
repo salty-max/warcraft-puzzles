@@ -82,10 +82,10 @@ expansion.
 4. `approved`: a completed cold pass permits publication at entry level.
 5. `rejected`: retained as a record, excluded from publication.
 
-The current 342 entries are `evidence-checked`. The automated gate requires an explicit
-cold reviewer and a current content digest for approved entries. It does not impersonate
-a human reviewer or auto-approve a successful source query. Final grid review is an
-additional milestone after entry review.
+The current 357 triads cover 342 distinct answers and remain `evidence-checked`. The
+automated gate requires an explicit cold reviewer and a current content digest for
+approved entries. It does not impersonate a human reviewer or auto-approve a successful
+source query. Final grid review is an additional milestone after entry review.
 
 Evidence digests bind source-row checksums, excerpts and source versions to the review.
 Content digests additionally bind the answer, clue, hint, fact and editorial metadata.
@@ -122,3 +122,13 @@ abilities/effects, and makes no unsupported player-class or learnability claims.
 client presence alone does not establish first disclosure; era and retcon review remain
 manual gates. Structured type/location relationships need their own typed locators and
 tests when added. Do not fabricate prose from a structured label.
+
+## Pilot difficulty calibration
+
+The first trial was reported as interesting but easy by the owner after a blind solve.
+No time or assistance counts were supplied. Keep that feedback separate from formal
+entry and grid approvals. The next trial targets Medium with fifteen familiar answers,
+no overlap with the first twelve and fifteen alternate source-backed triads. Eleven
+clues are provisionally medium, four are easy footholds. Difficulty comes from less
+direct wording and associations, with useful hints retained. The new grid and entry
+count also differ, so a change in solve time cannot be attributed to clue wording alone.

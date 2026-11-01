@@ -399,3 +399,12 @@ dialog form {
     margin-left: 0;
   }
 }
+
+.difficulty {
+  font:
+    500 12px system-ui,
+    sans-serif;
+  color: var(--muted);
+  margin-left: 8px;
+  white-space: nowrap;
+}

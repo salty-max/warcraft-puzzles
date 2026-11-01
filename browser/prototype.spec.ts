@@ -86,39 +86,44 @@ test("keyboard clue navigation and grid arrows remain usable", async ({ page }) 
   );
 });
 
-for (const viewport of [
-  { width: 320, height: 568 },
-  { width: 390, height: 844 },
-  { width: 768, height: 1024 },
-  { width: 1280, height: 800 },
-  { width: 844, height: 390 },
+for (const edition of [
+  { label: "Easy", url: "/" },
+  { label: "Medium", url: "/medium" },
 ]) {
-  test(`layout and accessibility at ${viewport.width}×${viewport.height}`, async ({
-    page,
-  }, testInfo) => {
-    await page.setViewportSize(viewport);
-    await page.goto("/");
-    await expect(page.getByRole("textbox")).toBeVisible();
-    const size = await page.evaluate(() => ({
-      scroll: document.documentElement.scrollWidth,
-      view: window.innerWidth,
-    }));
-    expect(size.scroll).toBeLessThanOrEqual(size.view);
-    const grid = await page.locator("#grid").boundingBox();
-    expect(grid!.width).toBeLessThanOrEqual(viewport.width);
-    expect(grid!.x).toBeGreaterThanOrEqual(0);
-    await page.locator('[data-slot="8A"]').click();
-    await expect(page.getByRole("textbox")).toBeFocused();
-    await expect(page.locator("#grid button.active")).not.toHaveCount(0);
-    const results = await new AxeBuilder({ page })
-      .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
-      .analyze();
-    expect(results.violations).toEqual([]);
-    await testInfo.attach("layout", {
-      body: await page.screenshot({ fullPage: true }),
-      contentType: "image/png",
+  for (const viewport of [
+    { width: 320, height: 568 },
+    { width: 390, height: 844 },
+    { width: 768, height: 1024 },
+    { width: 1280, height: 800 },
+    { width: 844, height: 390 },
+  ]) {
+    test(`${edition.label} layout and accessibility at ${viewport.width}×${viewport.height}`, async ({
+      page,
+    }, testInfo) => {
+      await page.setViewportSize(viewport);
+      await page.goto(edition.url);
+      await expect(page.getByRole("textbox")).toBeVisible();
+      const size = await page.evaluate(() => ({
+        scroll: document.documentElement.scrollWidth,
+        view: window.innerWidth,
+      }));
+      expect(size.scroll).toBeLessThanOrEqual(size.view);
+      const grid = await page.locator("#grid").boundingBox();
+      expect(grid!.width).toBeLessThanOrEqual(viewport.width);
+      expect(grid!.x).toBeGreaterThanOrEqual(0);
+      await page.locator(".clues button").first().click();
+      await expect(page.getByRole("textbox")).toBeFocused();
+      await expect(page.locator("#grid button.active")).not.toHaveCount(0);
+      const results = await new AxeBuilder({ page })
+        .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+        .analyze();
+      expect(results.violations).toEqual([]);
+      await testInfo.attach("layout", {
+        body: await page.screenshot({ fullPage: true }),
+        contentType: "image/png",
+      });
     });
-  });
+  }
 }
 
 test("storage denial and corrupt saves do not prevent play", async ({ page }) => {
@@ -148,4 +153,47 @@ test("portable HTML runs without a server or external assets", async ({ page }) 
   await page.getByRole("textbox").fill("Molten Core");
   await expect(page.locator("#pattern")).toHaveText("MOLTENCORE");
   expect(requests.filter((url) => /^https?:/.test(url))).toEqual([]);
+});
+
+const medium = prepareResearchPuzzle(
+  read("content/puzzles/medium-steps.json"),
+  read("content/seed/editorial.json"),
+  read("content/seed/evidence.json"),
+).playable;
+test("Medium solve resumes independently of the first puzzle", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("textbox").fill("Molten Core");
+  await page.goto("/medium");
+  await expect(page.locator(".difficulty")).toHaveText("Medium");
+  await expect(page.locator("#progress")).toContainText("0 /");
+  await page.getByRole("button", { name: "Get a hint" }).click();
+  for (const entry of medium.entries) {
+    await page.locator(`[data-slot="${entry.id}"]`).click();
+    await page.getByRole("textbox").fill(entry.answer);
+  }
+  await expect(page.locator("#complete")).toBeVisible();
+  await expect(page.locator("#completion-summary")).toContainText(
+    "1 hint, 0 reveals and 0 checks",
+  );
+  await page.goto("/");
+  await expect(page.locator("#pattern")).toHaveText("MOLTENCORE");
+  await expect(page.locator("#complete")).toBeHidden();
+  await page.goto("/medium");
+  await expect(page.locator("#complete")).toBeVisible();
+});
+test("portable Medium trial has its own content and no remote requests", async ({
+  page,
+}) => {
+  const { pathToFileURL } = await import("node:url");
+  const { resolve } = await import("node:path");
+  const remote: string[] = [];
+  page.on("request", (request) => {
+    if (/^https?:/.test(request.url())) remote.push(request.url());
+  });
+  await page.goto(pathToFileURL(resolve(".cache/prototype/medium.html")).href);
+  await expect(page.locator(".difficulty")).toHaveText("Medium");
+  await expect(page.locator(".clues button")).toHaveCount(15);
+  await page.getByRole("textbox").fill(medium.entries[0]!.answer);
+  await expect(page.locator("#pattern")).toHaveText(medium.entries[0]!.answer);
+  expect(remote).toEqual([]);
 });

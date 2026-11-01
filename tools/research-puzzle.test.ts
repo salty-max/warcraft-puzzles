@@ -113,3 +113,26 @@ describe("authored construction trial", () => {
     expect(() => prepareResearchPuzzle(f.raw, f.editorial, f.snapshot)).toThrow("40%");
   });
 });
+
+it("keeps the first solve identity stable and validates a distinct Medium trial", () => {
+  const easy = prepareResearchPuzzle(raw, editorial, snapshot);
+  expect(easy.playable.fingerprint).toBe(
+    "bb8f1b0166645f87a0ce0d3cb3d9e6f70b719bd8ff54eba34062af67ec2bfec8",
+  );
+  const medium = prepareResearchPuzzle(
+    read("content/puzzles/medium-steps.json"),
+    editorial,
+    snapshot,
+  );
+  expect(medium.playable.entries).toHaveLength(15);
+  expect(
+    medium.measurements.every((m) => m.checked >= 2 && m.checked / m.length >= 0.4),
+  ).toBe(true);
+  expect(
+    medium.playable.entries.every(
+      (entry) => !easy.playable.entries.some((e) => e.answer === entry.answer),
+    ),
+  ).toBe(true);
+  expect(medium.playable.fingerprint).not.toBe(easy.playable.fingerprint);
+  expect(medium.puzzle.coldSolve).toBeNull();
+});

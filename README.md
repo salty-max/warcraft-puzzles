@@ -5,12 +5,12 @@ belongs to Warcraft. Answers can be recognisable names or ordinary English words
 supported Warcraft connection. The historical boundary is the end of Wrath of the Lich
 King.
 
-**Current milestone: the first playable construction trial.** The repository contains
-342 sourced answer–clue–hint triads, the strict grid engine and its negative fill
-benchmark, plus one complete twelve-clue puzzle in an explicitly partially checked
-format. It has a responsive local player for cold solving. This proves one arrangement
-exists, not that a daily collection is sustainable. No entries or puzzles have
-cold-solve publication approvals.
+**Current milestone: two playable pilot puzzles.** The repository contains 357 sourced
+answer–clue–hint triads for 342 distinct answers, a tested grid engine and a benchmark
+that distinguishes the primary partially checked format from the fully checked
+comparison. Both playable layouts fill independently in the benchmark. The owner found
+the first trial interesting but easy. The second targets Medium and awaits a blind
+solve. No entries or puzzles have formal publication approvals.
 
 ## Try the construction trial
 
@@ -19,15 +19,18 @@ pnpm install --frozen-lockfile
 pnpm prototype:dev
 ```
 
-Open the printed local URL. The build also creates `.cache/prototype/playtest.html`, a
-self-contained file you can open in a browser without a server or network. Browser-file
+Open the printed local URL for Easy, or `/medium` for Medium. The build also creates
+`.cache/prototype/playtest.html` (Easy) and `.cache/prototype/medium.html` (Medium),
+self-contained files you can open in a browser without a server or network. Browser-file
 saving depends on the browser's local-storage policy. Both versions have whole-answer
 input, shared crossings, hints, reveals, checks, local saving and a confirmed reset.
 Answers are included locally for checking. This is a playtest, with no accounts, daily
 schedule or reward economy. The selected production stack remains in the plan.
 
-See [the construction report](docs/prototype-report.md) for checking coverage and known
-weaknesses. **Cold-solve this one before constructing the other six pilot puzzles.**
+See the [Easy report](docs/prototype-report.md), [Medium report](docs/medium-report.md)
+and [split fill results](docs/fill-benchmark.md). **Blind-solve Medium before
+constructing the other five pilot puzzles.** The first puzzle and its save identity
+remain intact.
 
 ## Run the checks
 
@@ -102,9 +105,9 @@ validation passing does not authorise publishing the seed as finished puzzles.
 
 ## Next milestones
 
-1. Cold-solve the first construction trial. Record ambiguous clues, assistance use,
+1. Blind-solve the Medium trial. Record solve time, ambiguous clues, assistance use,
    unchecked-letter frustration and phone input issues.
-2. If it holds up, construct the remaining six pilot puzzles and measure construction
+2. If it holds up, construct the remaining five pilot puzzles and measure construction
    time, repeat concentration and actual solve quality. Expand vocabulary to solve
    demonstrated gaps. Bulk collection is paused.
 3. Choose the format from that evidence, then build the production Next.js player,

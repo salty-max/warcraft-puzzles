@@ -1,0 +1,87 @@
+{
+  "id": "medium-steps",
+  "title": "Medium trial",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "medium-steps",
+    "rows": [
+      "#####.#.###",
+      "##.#.....##",
+      "##.##.#.###",
+      "##.......##",
+      "...##.#.###",
+      ".#.#.......",
+      ".#.##.####.",
+      "....####...",
+      ".#.##....#.",
+      "##....##.##",
+      "##.##.#####",
+      "#####.#####",
+      "#####.#####"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "7A",
+      "entryId": "medium-warlock"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "medium-portal"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "medium-blood"
+    },
+    {
+      "slotId": "1D",
+      "entryId": "medium-illidan"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "medium-rebirth"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "medium-tarrenmill"
+    },
+    {
+      "slotId": "12A",
+      "entryId": "medium-life"
+    },
+    {
+      "slotId": "6A",
+      "entryId": "medium-war"
+    },
+    {
+      "slotId": "8D",
+      "entryId": "medium-kick"
+    },
+    {
+      "slotId": "6D",
+      "entryId": "medium-wrath"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "medium-time"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "medium-orc"
+    },
+    {
+      "slotId": "11D",
+      "entryId": "medium-feint"
+    },
+    {
+      "slotId": "10D",
+      "entryId": "medium-ore"
+    },
+    {
+      "slotId": "11A",
+      "entryId": "medium-fear"
+    }
+  ]
+}

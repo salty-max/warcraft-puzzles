@@ -1,7 +1,8 @@
 import { z } from "zod";
 import { distinctCandidates } from "./answers.ts";
 import type { Placement } from "./answers.ts";
-import { compileLayout } from "./layout.ts";
+import { compileLayout, compilePartiallyCheckedLayout } from "./layout.ts";
+import type { Grid } from "./layout.ts";
 
 export const ALGORITHM_VERSION = "ac-mrv-1";
 const OptionsSchema = z.strictObject({
@@ -49,8 +50,26 @@ export function fillGrid(
   input: FillOptions,
   clock: () => number = () => performance.now(),
 ): FillResult {
+  return searchGrid(compileLayout(layout), bank, input, clock);
+}
+
+/** Same search and budgets, allowing letters that belong to just one answer. */
+export function fillPartiallyCheckedGrid(
+  layout: unknown,
+  bank: unknown,
+  input: FillOptions,
+  clock: () => number = () => performance.now(),
+): FillResult {
+  return searchGrid(compilePartiallyCheckedLayout(layout), bank, input, clock);
+}
+
+function searchGrid(
+  grid: Grid,
+  bank: unknown,
+  input: FillOptions,
+  clock: () => number,
+): FillResult {
   const options = OptionsSchema.parse(input);
-  const grid = compileLayout(layout);
   const words = distinctCandidates(bank);
   const stats = { nodes: 0, backtracks: 0, domainPrunes: 0, maxDepth: 0 };
   const lengthDeficits: LengthDeficit[] = [];

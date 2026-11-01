@@ -2,6 +2,7 @@ import { createServer } from "node:http";
 import { readFileSync } from "node:fs";
 const paths = new Map([
   ["/", ["index.html", "text/html; charset=utf-8"]],
+  ["/medium", ["medium-index.html", "text/html; charset=utf-8"]],
   ["/style.css", ["style.css", "text/css; charset=utf-8"]],
   ["/player.js", ["player.js", "text/javascript; charset=utf-8"]],
   ["/model.js", ["model.js", "text/javascript; charset=utf-8"]],

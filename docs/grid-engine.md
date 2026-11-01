@@ -146,3 +146,18 @@ checking per answer, then projects the current triads into the local player. It 
 simple cross-prompt spelling leaks and binds local saves to a puzzle/wording
 fingerprint. None of those checks grants publication approval. The
 [trial report](prototype-report.md) records the actual construction and its weaknesses.
+
+## Primary format and split fill results
+
+Partially checked grids are now the primary construction format. The strict full-format
+API remains available for comparison. `fillPartiallyCheckedGrid` uses the same search
+implementation, seed ordering and budgets as `fillGrid`, with the explicit partial
+compiler. It still enforces valid runs, connected cells, consistent crossings and unique
+answers. The construction-review floor remains separate from structural search.
+
+The benchmark labels each layout's checking rule, reports crossing-cell counts and
+summarises results by format before listing individual runs. The two partial layouts
+come from authored pilots. Successful fills are independently inspected, may differ from
+authored placements and remain unapproved for publication. These are positive controls,
+not a claim that any arbitrary partial layout can be filled or that all automatic fills
+have good clues.

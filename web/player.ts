@@ -182,7 +182,7 @@ get("check").addEventListener("click", () => {
   paint();
   const { correct, solved } = checkAnswers(puzzle, state);
   get("feedback").textContent = solved
-    ? "All twelve answers are correct."
+    ? "All answers are correct."
     : `${correct} of ${puzzle.entries.length} answers correct.`;
 });
 const dialog = get<HTMLDialogElement>("reset-dialog");

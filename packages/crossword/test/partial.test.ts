@@ -54,3 +54,59 @@ describe("explicit partially checked format", () => {
     ).toThrow("connected");
   });
 });
+
+it("searches partial layouts and validates the resulting letters independently", async () => {
+  const { fillPartiallyCheckedGrid } = await import("../src/index.ts");
+  const result = fillPartiallyCheckedGrid(frame, bank, { seed: 42, nodeLimit: 1000 });
+  expect(result.status).toBe("solved");
+  expect(inspectPartiallyCheckedFill(frame, bank, result.placements).issues).toEqual(
+    [],
+  );
+  expect(
+    fillPartiallyCheckedGrid(frame, bank.slice(0, 3), { seed: 42, nodeLimit: 1000 })
+      .status,
+  ).toBe("unsatisfiable");
+});
+
+it("matches an independent exhaustive oracle on generated partial-frame banks", async () => {
+  const fc = await import("fast-check");
+  const { fillPartiallyCheckedGrid } = await import("../src/index.ts");
+  const layout = { id: "small-frame", rows: ["...", ".#.", "..."] };
+  const words = ["AAA", "AAB", "ABA", "ABB", "BAA", "BAB", "BBA", "BBB"];
+  fc.assert(
+    fc.property(fc.subarray(words), (subset) => {
+      const exists = subset.some((a) =>
+        subset.some((b) =>
+          subset.some((c) =>
+            subset.some(
+              (d) =>
+                new Set([a, b, c, d]).size === 4 &&
+                a[0] === b[0] &&
+                a[2] === c[0] &&
+                b[2] === d[0] &&
+                c[2] === d[2],
+            ),
+          ),
+        ),
+      );
+      const bank = subset.map((grid, i) => ({ id: `word-${i}`, grid }));
+      const result = fillPartiallyCheckedGrid(layout, bank, {
+        seed: 42,
+        nodeLimit: 10000,
+      });
+      expect(result.status).toBe(exists ? "solved" : "unsatisfiable");
+      if (exists)
+        expect(
+          inspectPartiallyCheckedFill(layout, bank, result.placements).issues,
+        ).toEqual([]);
+    }),
+    { seed: 20261101, numRuns: 100 },
+  );
+  expect(
+    fillPartiallyCheckedGrid(
+      layout,
+      words.map((grid, i) => ({ id: `word-${i}`, grid })),
+      { seed: 42, nodeLimit: 1 },
+    ).status,
+  ).toBe("budget-exhausted");
+});

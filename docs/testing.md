@@ -35,10 +35,10 @@ checking does not rewrite measured artifacts. Full seed runs never auto-approve 
 Machine timings are observations outside the deterministic CI contract. See
 [the engine guide](grid-engine.md) for the exact search and diagnostic limits.
 
-The full 342-entry bank is checked in the test suite without an external database. An
-optional source-replay command checks the private research input separately. No tests
-are silently skipped because an external source is missing. The normal CI workflow must
-be runnable by a new contributor with the repository alone.
+The full 357-triad bank (342 distinct answers) is checked in the test suite without an
+external database. An optional source-replay command checks the private research input
+separately. No tests are silently skipped because an external source is missing. The
+normal CI workflow must be runnable by a new contributor with the repository alone.
 
 Multi-word regression cases include three-word names and possessives, with spaces
 removed only in the grid. Report tests distinguish total answer length from the longest
@@ -54,8 +54,8 @@ ability's historical introduction from the current client.
 ## CI and dependencies
 
 The Checks workflow runs the same command on Ubuntu Linux, matching the server's
-operating-system family. Browser coverage will exercise Chromium, Firefox and WebKit
-when the player exists. Real iOS Safari and Android keyboard checks remain separate
+operating-system family. Browser coverage exercises Chromium, Firefox and WebKit for
+both playable trials. Real iOS Safari and Android keyboard checks remain separate
 release checks; Linux WebKit alone does not prove iPhone compatibility. Actions are
 pinned to verified commit SHAs, token permissions are read-only and the job has a
 timeout. Coverage, the editorial report and the fill benchmark are saved as artifacts. A
@@ -127,3 +127,15 @@ assets and a portable HTML file. Normal checks use committed evidence and never 
 a private database. Local answers are present for checking, so this prototype provides
 no competitive anti-cheat guarantee. Cold-solve approval, daily capacity and production
 readiness remain separate gates.
+
+The fill solver also runs the explicit partial format with the same search strategy and
+budgets. A generated-bank property test compares it to an independent exhaustive
+partial-frame oracle. The benchmark replays both authored partial layouts and keeps
+results separate from the 29 fully checked comparison layouts. Positive controls are not
+an unbiased measure of arbitrary-layout fill rate.
+
+Both trials have full browser solves, responsive/accessibility coverage and portable
+artifact checks. A cross-puzzle journey verifies that Medium progress resumes without
+altering the first solve. A fingerprint regression protects the first puzzle's existing
+save identity. Alternate clue variants are validated as triads while distinct answer
+coverage remains 342.

@@ -16078,6 +16078,546 @@
         "coldReviewer": null,
         "notes": "Source pass for an original-era fact or familiar legacy ability. Spell descriptions retain raw client tokens; no placeholder amounts or class associations are inferred. Cold grid review remains outstanding."
       }
+    },
+    {
+      "id": "medium-warlock",
+      "answer": {
+        "display": "WARLOCK",
+        "grid": "WARLOCK",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Gul'dan became a warlock and taught demonic magic to other orcs.",
+        "evidenceIds": ["book-175741-8"]
+      },
+      "clue": {
+        "text": "Gul'dan became one after abandoning the shamanistic traditions",
+        "evidenceIds": ["book-175741-8"]
+      },
+      "hint": {
+        "text": "His new magic drew on demonic powers.",
+        "evidenceIds": ["book-175741-8"]
+      },
+      "difficulty": "medium",
+      "topics": ["classes"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "8c8b228d883db5217bae3841aff6cfb2890c496bf9eedd893fca9a2e80f4a007",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-portal",
+      "answer": {
+        "display": "PORTAL",
+        "grid": "PORTAL",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The Dark Portal linked Azeroth and Draenor.",
+        "evidenceIds": ["book-175745-5"]
+      },
+      "clue": {
+        "text": "An invasion's doorway between two worlds",
+        "evidenceIds": ["book-175745-5"]
+      },
+      "hint": {
+        "text": "Medivh and the Shadow Council opened it.",
+        "evidenceIds": ["book-175745-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "1231aeab04bf749132625f2ba734df065d7872eab894e8378b4be12a7f87876c",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-blood",
+      "answer": {
+        "display": "BLOOD",
+        "grid": "BLOOD",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Gul'dan urged the chieftains to drink Mannoroth's blood.",
+        "evidenceIds": ["book-175742-3", "book-175742-4"]
+      },
+      "clue": {
+        "text": "What clan chiefs drank for promised invincibility",
+        "evidenceIds": ["book-175742-3", "book-175742-4"]
+      },
+      "hint": {
+        "text": "It came from Mannoroth.",
+        "evidenceIds": ["book-175742-3", "book-175742-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["orcs"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "d186c4f2c7935d8be7a8b9fe6de3ece9e1d63570fcae7e8b0e80c69a2ca59413",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-illidan",
+      "answer": {
+        "display": "Illidan",
+        "grid": "ILLIDAN",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Malfurion imprisoned his brother Illidan and appointed Maiev his jailor.",
+        "evidenceIds": ["book-175729-7", "book-175729-4"]
+      },
+      "clue": {
+        "text": "The Stormrage Malfurion had chained beneath the earth",
+        "evidenceIds": ["book-175729-7", "book-175729-4"]
+      },
+      "hint": {
+        "text": "Maiev Shadowsong became his jailor.",
+        "evidenceIds": ["book-175729-7", "book-175729-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "01fa5517fc7d6e9320476be6eb885fd4dbca0b40a0d19dfebea9c44201815474",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-rebirth",
+      "answer": {
+        "display": "REBIRTH",
+        "grid": "REBIRTH",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Rebirth returns a dead target's spirit to its body with health and mana.",
+        "evidenceIds": ["name-spell-20484", "name-spell-description-20484"]
+      },
+      "clue": {
+        "text": "A spirit's return to its former body",
+        "evidenceIds": ["name-spell-20484", "name-spell-description-20484"]
+      },
+      "hint": {
+        "text": "The spell restores a dead target and some health and mana.",
+        "evidenceIds": ["name-spell-20484", "name-spell-description-20484"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "75716b3dc86d06d34b73af25314c529a9edcca3afe1d4b1f5d69519d850fa7f4",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-tarrenmill",
+      "answer": {
+        "display": "Tarren Mill",
+        "grid": "TARRENMILL",
+        "enumeration": [6, 4],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "Recognisable world, gameplay, people or faction vocabulary, with the full familiar multi-word form preserved."
+      },
+      "fact": {
+        "text": "Tarren Mill lay in Hillsbrad and housed an apothecary and Deathguard Samsa.",
+        "evidenceIds": [
+          "quest-495-objectives",
+          "quest-546-objectives",
+          "quest-2933-details",
+          "name-area-272"
+        ]
+      },
+      "clue": {
+        "text": "Hillsbrad settlement where Witherbark venom might interest an apothecary",
+        "evidenceIds": [
+          "quest-495-objectives",
+          "quest-546-objectives",
+          "quest-2933-details",
+          "name-area-272"
+        ]
+      },
+      "hint": {
+        "text": "Its second word names a grain-grinding building.",
+        "evidenceIds": [
+          "quest-495-objectives",
+          "quest-546-objectives",
+          "quest-2933-details",
+          "name-area-272"
+        ]
+      },
+      "difficulty": "medium",
+      "topics": ["towns", "eastern-kingdoms"],
+      "exposure": "horde",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "9daad0a89dfe4f8d2b109d92bec0d963d288d6d4c99f0f88dbb981345b4b11a8",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-life",
+      "answer": {
+        "display": "LIFE",
+        "grid": "LIFE",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Alexstrasza was charged with safeguarding living creatures.",
+        "evidenceIds": ["book-175726-4"]
+      },
+      "clue": {
+        "text": "The red Aspect's charge, entrusted by Eonar",
+        "evidenceIds": ["book-175726-4"]
+      },
+      "hint": {
+        "text": "Think of what separates the living from the lifeless.",
+        "evidenceIds": ["book-175726-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "7e85339dd38d3eaceaa0c30c72b9cdeb09e7a503d55025800bfdf955324921c2",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-war",
+      "answer": {
+        "display": "WAR",
+        "grid": "WAR",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The three dwarven clans went to war for control of Ironforge.",
+        "evidenceIds": ["book-175739-4"]
+      },
+      "clue": {
+        "text": "What Anvilmar's death unleashed among three dwarven clans",
+        "evidenceIds": ["book-175739-4"]
+      },
+      "hint": {
+        "text": "An armed struggle for Ironforge.",
+        "evidenceIds": ["book-175739-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["history"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "3e8496fee03a38828a3af6866d0db3455ffe81178cf534d66196b7ee931c4cb8",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-kick",
+      "answer": {
+        "display": "KICK",
+        "grid": "KICK",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Kick interrupts spellcasting and temporarily prevents spells from the same school.",
+        "evidenceIds": ["name-spell-1766", "name-spell-description-1766"]
+      },
+      "clue": {
+        "text": "Interrupt a cast with a boot",
+        "evidenceIds": ["name-spell-1766", "name-spell-description-1766"]
+      },
+      "hint": {
+        "text": "An attack named for striking with the foot.",
+        "evidenceIds": ["name-spell-1766", "name-spell-description-1766"]
+      },
+      "difficulty": "easy",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "575c4205fce191e85403ce7a3e9825d1fc8a0bcd3ce5e9c0ae9be13318442e0e",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-wrath",
+      "answer": {
+        "display": "WRATH",
+        "grid": "WRATH",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Wrath causes Nature damage.",
+        "evidenceIds": ["name-spell-5176", "name-spell-description-5176"]
+      },
+      "clue": {
+        "text": "Anger channelled as Nature damage",
+        "evidenceIds": ["name-spell-5176", "name-spell-description-5176"]
+      },
+      "hint": {
+        "text": "Its last two letters are TH.",
+        "evidenceIds": ["name-spell-5176", "name-spell-description-5176"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "b1637bc57e3b00c97c2457aaa5c0f76b4b57daabff2f6b7f2f785d951c4d6878",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-time",
+      "answer": {
+        "display": "TIME",
+        "grid": "TIME",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Nozdormu was empowered to guard time.",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "clue": {
+        "text": "Aman'Thul entrusted its protection to the bronze Aspect",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "hint": {
+        "text": "Nozdormu guards it. Think of what clocks measure.",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "difficulty": "medium",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "6ac7364c089f740b7e65747b40aee37600cd24efaa25471c7d270ebcba94ea0f",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-orc",
+      "answer": {
+        "display": "ORC",
+        "grid": "ORC",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar short English word recoverable through a Warcraft fact and its crossings."
+      },
+      "fact": {
+        "text": "Thrall was an orc, and Gul'dan united the orc clans into the Horde.",
+        "evidenceIds": ["book-175752-2", "book-175742-5", "book-175752-5"]
+      },
+      "clue": {
+        "text": "Durotan's son, by people",
+        "evidenceIds": ["book-175752-2", "book-175742-5", "book-175752-5"]
+      },
+      "hint": {
+        "text": "Thrall belongs to this people.",
+        "evidenceIds": ["book-175752-2", "book-175742-5", "book-175752-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["peoples"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "5b033f1b60ca974c07d1a12b7435b0b4dcb047cb990ac1294981571f064acbac",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-feint",
+      "answer": {
+        "display": "FEINT",
+        "grid": "FEINT",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Feint causes no damage but lowers the user's threat.",
+        "evidenceIds": ["name-spell-1966", "name-spell-description-1966"]
+      },
+      "clue": {
+        "text": "A harmless move that takes the pressure off its user",
+        "evidenceIds": ["name-spell-1966", "name-spell-description-1966"]
+      },
+      "hint": {
+        "text": "It lowers threat without dealing damage.",
+        "evidenceIds": ["name-spell-1966", "name-spell-description-1966"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "32185e313d9f206091ebb72bc7f4b8cb3aaee742d50eecaa6ce6296830312862",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-ore",
+      "answer": {
+        "display": "ORE",
+        "grid": "ORE",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar short English word recoverable through a Warcraft fact and its crossings."
+      },
+      "fact": {
+        "text": "Miners gathered copper ore and smelted it into bars.",
+        "evidenceIds": ["quest-8533-details"]
+      },
+      "clue": {
+        "text": "Copper before the smelter",
+        "evidenceIds": ["quest-8533-details"]
+      },
+      "hint": {
+        "text": "Metal-bearing material, before it becomes a bar.",
+        "evidenceIds": ["quest-8533-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["professions", "materials"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "94b2d0e1539299472b4973840e2a076e6f24835d9e7387c931b52e184c9d5f34",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
+    },
+    {
+      "id": "medium-fear",
+      "answer": {
+        "display": "FEAR",
+        "grid": "FEAR",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Fear makes an enemy run away and may be interrupted by damage.",
+        "evidenceIds": ["name-spell-5782", "name-spell-description-5782"]
+      },
+      "clue": {
+        "text": "Crowd control that sends the target running",
+        "evidenceIds": ["name-spell-5782", "name-spell-description-5782"]
+      },
+      "hint": {
+        "text": "Taking damage can end this effect.",
+        "evidenceIds": ["name-spell-5782", "name-spell-description-5782"]
+      },
+      "difficulty": "easy",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-medium-source-pass-2026-11-01",
+        "evidenceDigest": "31c367328893ee74feb73d80a82ccee8d9419ab210d81033961168e76f6eb47f",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
+      }
     }
   ]
 }

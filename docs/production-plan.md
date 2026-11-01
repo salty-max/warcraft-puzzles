@@ -36,8 +36,9 @@ shared shell; build shared abstractions when a second game actually needs them.
 ### First public release
 
 - One reviewed daily crossword, identical for everyone on the same UTC date.
-- Numbered Across and Down clues. Checking density and daily shape are selected through
-  the construction pilot. Fully checked grids remain the comparison baseline.
+- Partially checked grids with numbered Across and Down clues. Final checking density
+  and daily shape are selected through the pilot. Fully checked grids remain optional
+  comparison research.
 - Today's puzzle, released-puzzle archive, instructions and an example puzzle.
 - Keyboard and touch play, undo/redo, pencil mode, check/reveal controls.
 - Automatic local saving, resume, local statistics and a spoiler-free share.
@@ -161,35 +162,41 @@ release.
 
 ### Immediate next work from the current seed
 
-The repository has 342 evidence-checked triads, including 35 multi-word answers. The
-[fully checked benchmark](fill-benchmark.md) still finds no fills across its 29 layouts.
-That result remains preserved. The user authorised a word-led construction experiment
-with some unchecked letters on 1 November 2026.
+The repository has 357 evidence-checked triads for 342 distinct answers, including
+multi-word entries. Fifteen clue variants were added for the Medium trial without adding
+new answer vocabulary. Existing entries and the first save identity remain unchanged.
+The primary format is now explicitly **partially checked**, following the user's
+clarification that full crossing coverage is not a requirement.
 
-One complete twelve-entry trial now exists, with a responsive local player. Its
-[construction report](prototype-report.md) records sixteen crossing cells among 47 white
-cells. Every answer has two or more crossings, covering at least 40% of that answer.
-This is a provisional experimental floor, not a validated fairness standard. No words
-were added to make the trial fit. ORB and STONE have clearer clue wording against the
-same evidence. Neither the trial nor its entries are approved for release.
+The [benchmark](fill-benchmark.md) runs the same search and budgets for two partial
+layouts and 29 fully checked comparison layouts. Both partial layouts fill. The latter
+still return zero fills. The shapes differ, and the partial examples were selected from
+authored puzzles, so these numbers are regression evidence rather than an unbiased
+success-rate comparison. The result no longer equates fully checked failures with an
+absence of playable grids.
 
-1. Cold-solve the first trial. Review its irregular shape, unchecked stretches, clue
-   ambiguity, assistance use and phone input. Do not equate automated solving with a
-   human cold solve.
-2. Construct the other six pilot puzzles only after feedback on the first. Record
-   construction time, answer reuse, topic coverage and actual solving results. Build
-   vocabulary where those constructions identify useful gaps.
-3. Select the daily format and a credible production cadence from the pilot. Dense,
-   fully checked layouts remain a research option. The trial is an explicit product
-   experiment, not a silent relaxation of the original engine.
-4. Build the selected production stack and the first lore/streak features after the core
-   puzzle experience is convincing. Real-phone keyboard and screen-reader verification
-   remain required before release.
+The owner reports completing the first trial blind, finding it interesting but easy. The
+page was simplified following copy feedback. No time or assistance counts were supplied,
+and no formal publication approvals were granted. The next trial has fifteen entries,
+familiar answers and indirect clues, with no repeats from the first. Its Medium label
+remains provisional.
+
+1. Blind-solve the Medium trial. Assess clue ambiguity, checking help, assistance and
+   phone input. Preserve both trial artifacts for comparison.
+2. Continue towards a seven-puzzle pilot: two Easy, three Medium, two Hard candidates.
+   Difficulty comes from clueing and supported knowledge, with no padding from obscure
+   loot or forgettable quest names. Record construction effort, answer reuse and solves.
+3. Select the daily shape and a credible production cadence from the pilot. Existing
+   research floors of two crossings and 40% checking per answer are provisional, not
+   immutable crossword rules. Review actual solving rather than imposing full checking.
+4. Build the production stack and first lore/streak features after the core is
+   convincing. Real-phone keyboard and screen-reader verification remain release gates.
 
 The trial has typed player-state logic and local build/serve tooling, with browser and
 accessibility checks. It does not implement the production Next.js application,
 accounts, editorial service, public schedule or economy. The deliverable at this gate is
-one reviewable playtest, followed by a seven-puzzle pilot if the format succeeds.
+two reviewable playtests, followed by the remaining five pilot puzzles if the format
+succeeds.
 
 ## 3. The content system
 
