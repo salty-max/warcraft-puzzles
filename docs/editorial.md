@@ -45,6 +45,12 @@ meaning. They do not license an extra unsourced Warcraft claim. A hint should gi
 player another route forward rather than simply introducing a less familiar NPC or
 restating the question.
 
+Prefer a useful contextual association when it gives the player a second route to the
+answer. Avoid making every hint a dictionary definition of its answer, but keep clear
+definitions for short footholds where they are helpful. A contextual hint is not
+automatically better: another obscure fact or an unrelated name can make it less useful.
+Review the clue and hint together, then test them with crossings.
+
 One answer can have several different triads. IDs identify entries, not just letter
 strings. Duplicate entry IDs are invalid. Repeated grid strings in a bank are allowed,
 but a completed puzzle must not repeat the same normalized answer.

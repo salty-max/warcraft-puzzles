@@ -1107,32 +1107,6 @@
       "excerptSha256": "70ba796b9a58e31f5b63a8f42ec65aa6fef3bb4738bca1387b14d52d078e0d22"
     },
     {
-      "id": "quest-3261-details",
-      "locator": {
-        "table": "quest_text",
-        "quest_id": 3261,
-        "locale": "enUS",
-        "field": "details"
-      },
-      "excerpt": "Your time with me is over, $N.  To learn more, you must go to Camp Taurajo to the south and speak with Jorn Skyseer.  He will continue your guidance.",
-      "sourceId": "classicdb",
-      "rowSha256": "4cbbac0fd4c226d1c23b994c7e6be63b0165b98ee9ecb0ce8f3c06742d3e1994",
-      "excerptSha256": "200b235ec1ff7d0c4614c1b07e5d89078886ea0b14dbe591d1df24bffa2ef45c"
-    },
-    {
-      "id": "name-area-378",
-      "locator": {
-        "table": "name",
-        "kind": "area",
-        "id": 378,
-        "locale": "enUS"
-      },
-      "excerpt": "Camp Taurajo",
-      "sourceId": "client",
-      "rowSha256": "4c0c24fcb664637558e9611588e5f382472d92835c2aabe837b848bb2234a857",
-      "excerptSha256": "5cf8449ae189211357924d4d8fb56d4a47509c82aac86a93bffdf35aa3b90fc6"
-    },
-    {
       "id": "quest-1425-details",
       "locator": {
         "table": "quest_text",
@@ -1932,6 +1906,112 @@
       "sourceId": "classicdb",
       "rowSha256": "003ecc854e9ae76672b893a963995cdbb2cdfd017862e9761adafb9e50b1a3d6",
       "excerptSha256": "d1255acf103ae94d8e8b2ab2f7d13cd747dfabba4ff3b32e37972de633649b41"
+    },
+    {
+      "id": "book-175736-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175736,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Though it is unclear what awakened them, the earthen sealed within Uldaman eventually arose from their self-imposed slumber. These earthen found that they had changed significantly during their hibernation. Their rocky hides had softened and become smooth skin, and their powers over stone and earth had waned. They had become mortal creatures.",
+      "sourceId": "classicdb",
+      "rowSha256": "6d5ac4092b150b58ac3af27900c86274072464807871e273f9e85646adc97230",
+      "excerptSha256": "2847f79c64051abf793f1aa510ed15ec943a4fd67a73b5b43e773c40ff3a151a"
+    },
+    {
+      "id": "book-175759-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175759,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "By doing so, Illidan developed demonic features and vastly magnified power. He also gained some of Gul'dan's old memories - especially those of the Tomb of Sargeras, the island dungeon rumored to hold the remains of the Dark Titan, Sargeras.",
+      "sourceId": "classicdb",
+      "rowSha256": "f906d72a1c6bdb8e2f3337008eeefcada29590839f9b4645f637ea40b2ee7205",
+      "excerptSha256": "3a8b13f13f3c207cbdf39894d1c585574626e1c192a6e2c9eae7f671750237f4"
+    },
+    {
+      "id": "name-area-380",
+      "locator": {
+        "table": "name",
+        "kind": "area",
+        "id": 380,
+        "locale": "enUS"
+      },
+      "excerpt": "The Crossroads",
+      "sourceId": "client",
+      "rowSha256": "fb6ecc132cdbcf03ac6a9f4f1cdf602b174e5db1935397fb739c68a911de5c59",
+      "excerptSha256": "479fdb66c0a4ed32b7efdb777936e6f73d4b27dcbbd7f7bb6730da0e82ad3f61"
+    },
+    {
+      "id": "quest-840-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 840,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Hmm, you look pretty strong.$B$BListen, my good friend Kargal needs some new recruits for Barrens duty. I know you want to do what's right for the Horde. Well, this is your chance.$B$BTake this recruitment letter to Kargal and see if he'll sign it.",
+      "sourceId": "classicdb",
+      "rowSha256": "e936e6a7ab9dd778d32ff3e06f3cec35863402f1e3d0299ab82ee8d05ae539e2",
+      "excerptSha256": "349f84d49bfb320734aea1ee0062874a11df0789d7b6e9994c01eae0d45c3628"
+    },
+    {
+      "id": "quest-842-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 842,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Take this signed recruitment letter to the Crossroads.$B$BSergra Darkthorn, curse her hide, is in charge there. She's a nasty shaman who will talk your head in circles before she lets you do anything useful. Thrall is convinced she's something special, but I'm not so sure.$B$BYou'll just have to decide for yourself, pup...",
+      "sourceId": "classicdb",
+      "rowSha256": "680e8f93f03456a770f566d14c79939745fafe456b4c458da2219ece0e4f5660",
+      "excerptSha256": "1e62328f8d9e62f334aefaa78b6549742311c209ca5c5b42f217af8cb8502eff"
+    },
+    {
+      "id": "quest-844-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 844,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Your first prey will be easy.$B$BThe plainstriders to the east have been harassing our food supplies and have become a nuisance.$B$BPut down the plainstriders and return to me with their beaks.",
+      "sourceId": "classicdb",
+      "rowSha256": "bbb814d5325eb0573dee7616af889cd490c7cf589370458a4602facdbc1be17c",
+      "excerptSha256": "ad99fcd4d03b1196e948c978d137f69f60b32fbcab42765500eb57d52c0cb6be"
+    },
+    {
+      "id": "quest-844-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 844,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Collect 7 Plainstrider Beaks and return them to Sergra Darkthorn in the Crossroads.",
+      "sourceId": "questie",
+      "rowSha256": "63c878b1482f0d94e66944ec9a422ae5ab191a7d4a5aa575116c972bcf02d5c9",
+      "excerptSha256": "76b3bb581da4806d70ee068d2d77bd4b27bd9e6974304d411676b4c8cbc069f7"
+    },
+    {
+      "id": "quest-1102-request",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1102,
+        "locale": "enUS",
+        "field": "request"
+      },
+      "excerpt": "Once I know the foul beasts of Razorfen Kraul have been driven from their foul lair, I will be able to rest in peace, knowing that revenge has been served.$B$BHave you the driven the quilboar from the Kraul? Do you bring to me good news in the form of Razorflank's heart?",
+      "sourceId": "classicdb",
+      "rowSha256": "56660e5bc5db4e82bf28ccd4c9d8b99a592cdb4aec709be9ad42fa3f1cca2aa0",
+      "excerptSha256": "491b7c2dad82e0d08ef788584bcd536e75871ec654dc206ef60e4ce7f0d786a0"
     }
   ]
 }

@@ -52,6 +52,16 @@ payments, other games and translated puzzles follow demonstrated demand. The dat
 contracts carry locale and edition now, but a French crossword will require its own fill
 and authored clues.
 
+### Proposed progression extension
+
+The owner has asked to explore retention and gamification. The separate
+[progression proposal](progression-design.md) recommends a permanent lorebook,
+completion-time discoveries, streak/calendar, weekly expeditions and milestone
+cosmetics. A small earned currency, recoverable inventory and optional cosmetic caches
+would follow later. This is a proposal for review, not implemented behavior or an
+approved economy. Keep the crossword feasibility work first, and budget the extra
+authored lore and art before adding these features to a release gate.
+
 ## 2. First prove the puzzles
 
 The first investment is a small complete content experiment, not an attempt to enumerate

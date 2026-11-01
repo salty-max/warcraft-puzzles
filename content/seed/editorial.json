@@ -848,26 +848,6 @@
       "excerpt": "Tarren Mill"
     },
     {
-      "id": "quest-3261-details",
-      "locator": {
-        "table": "quest_text",
-        "quest_id": 3261,
-        "locale": "enUS",
-        "field": "details"
-      },
-      "excerpt": "Your time with me is over, $N.  To learn more, you must go to Camp Taurajo to the south and speak with Jorn Skyseer.  He will continue your guidance."
-    },
-    {
-      "id": "name-area-378",
-      "locator": {
-        "table": "name",
-        "kind": "area",
-        "id": 378,
-        "locale": "enUS"
-      },
-      "excerpt": "Camp Taurajo"
-    },
-    {
       "id": "quest-1425-details",
       "locator": {
         "table": "quest_text",
@@ -1484,6 +1464,88 @@
         "field": "details"
       },
       "excerpt": "This scroll contains the schedules of shipments between Steamwheedle Port and Booty Bay. Both past and future shipments are included, along with ship names, with large 'X's next to some ships' journeys, and annotations like \"GREAT LOOT\" and \"HARD FIGHT\" next to others.$B$BSomeone at Steamwheedle Port would want to see this document."
+    },
+    {
+      "id": "book-175736-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175736,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Though it is unclear what awakened them, the earthen sealed within Uldaman eventually arose from their self-imposed slumber. These earthen found that they had changed significantly during their hibernation. Their rocky hides had softened and become smooth skin, and their powers over stone and earth had waned. They had become mortal creatures."
+    },
+    {
+      "id": "book-175759-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175759,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "By doing so, Illidan developed demonic features and vastly magnified power. He also gained some of Gul'dan's old memories - especially those of the Tomb of Sargeras, the island dungeon rumored to hold the remains of the Dark Titan, Sargeras."
+    },
+    {
+      "id": "name-area-380",
+      "locator": {
+        "table": "name",
+        "kind": "area",
+        "id": 380,
+        "locale": "enUS"
+      },
+      "excerpt": "The Crossroads"
+    },
+    {
+      "id": "quest-840-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 840,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Hmm, you look pretty strong.$B$BListen, my good friend Kargal needs some new recruits for Barrens duty. I know you want to do what's right for the Horde. Well, this is your chance.$B$BTake this recruitment letter to Kargal and see if he'll sign it."
+    },
+    {
+      "id": "quest-842-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 842,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Take this signed recruitment letter to the Crossroads.$B$BSergra Darkthorn, curse her hide, is in charge there. She's a nasty shaman who will talk your head in circles before she lets you do anything useful. Thrall is convinced she's something special, but I'm not so sure.$B$BYou'll just have to decide for yourself, pup..."
+    },
+    {
+      "id": "quest-844-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 844,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Your first prey will be easy.$B$BThe plainstriders to the east have been harassing our food supplies and have become a nuisance.$B$BPut down the plainstriders and return to me with their beaks."
+    },
+    {
+      "id": "quest-844-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 844,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Collect 7 Plainstrider Beaks and return them to Sergra Darkthorn in the Crossroads."
+    },
+    {
+      "id": "quest-1102-request",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1102,
+        "locale": "enUS",
+        "field": "request"
+      },
+      "excerpt": "Once I know the foul beasts of Razorfen Kraul have been driven from their foul lair, I will be able to rest in peace, knowing that revenge has been served.$B$BHave you the driven the quilboar from the Kraul? Do you bring to me good news in the form of Razorflank's heart?"
     }
   ],
   "entries": [
@@ -1506,7 +1568,7 @@
         "evidenceIds": ["book-175752-5"]
       },
       "hint": {
-        "text": "A male parent.",
+        "text": "Thrall was his heir among the Frostwolves.",
         "evidenceIds": ["book-175752-5"]
       },
       "difficulty": "easy",
@@ -1515,9 +1577,9 @@
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Rebalanced seed. Source pass recorded, with difficulty and fairness still awaiting a cold solve in a completed grid.",
+        "notes": "Revision three source pass: a stronger contextual hint or clearer world clue. Difficulty remains provisional until cold solving.",
         "evidenceDigest": "d00e73a9ecb8c1f1c9bb3d4c38eaadffdbe69d6ab0e0ec609bfcf167cc419264",
         "contentDigest": null
       }
@@ -1541,7 +1603,7 @@
         "evidenceIds": ["book-175727-4"]
       },
       "hint": {
-        "text": "A female monarch.",
+        "text": "The Highborne served her as their monarch.",
         "evidenceIds": ["book-175727-4"]
       },
       "difficulty": "easy",
@@ -1550,9 +1612,9 @@
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Rebalanced seed. Source pass recorded, with difficulty and fairness still awaiting a cold solve in a completed grid.",
+        "notes": "Revision three source pass: a stronger contextual hint or clearer world clue. Difficulty remains provisional until cold solving.",
         "evidenceDigest": "2a3d2c4fcc7f90b6ba7b5df32f62167e1fd29231df7a8c3f1622bae85b5290c7",
         "contentDigest": null
       }
@@ -1576,7 +1638,7 @@
         "evidenceIds": ["book-175756-4", "book-175756-2"]
       },
       "hint": {
-        "text": "The crowned ruler of a kingdom.",
+        "text": "Arthas was his only son.",
         "evidenceIds": ["book-175756-4", "book-175756-2"]
       },
       "difficulty": "easy",
@@ -1585,9 +1647,9 @@
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Rebalanced seed. Source pass recorded, with difficulty and fairness still awaiting a cold solve in a completed grid.",
+        "notes": "Revision three source pass: a stronger contextual hint or clearer world clue. Difficulty remains provisional until cold solving.",
         "evidenceDigest": "3e9309e25e2e293fdf0314feaa4e15b808acd2a4742da06bdc4fe5bce1263bfd",
         "contentDigest": null
       }
@@ -1611,7 +1673,7 @@
         "evidenceIds": ["book-175756-2", "book-175756-4"]
       },
       "hint": {
-        "text": "A king's son before the crown passes.",
+        "text": "His father was King Terenas.",
         "evidenceIds": ["book-175756-2", "book-175756-4"]
       },
       "difficulty": "easy",
@@ -1620,9 +1682,9 @@
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Rebalanced seed. Source pass recorded, with difficulty and fairness still awaiting a cold solve in a completed grid.",
+        "notes": "Revision three source pass: a stronger contextual hint or clearer world clue. Difficulty remains provisional until cold solving.",
         "evidenceDigest": "3e9309e25e2e293fdf0314feaa4e15b808acd2a4742da06bdc4fe5bce1263bfd",
         "contentDigest": null
       }
@@ -1883,16 +1945,16 @@
         "rationale": "A familiar English word recoverable from a specific Warcraft connection."
       },
       "fact": {
-        "text": "The Titans created the earthen from magical living stone.",
-        "evidenceIds": ["book-175725-6"]
+        "text": "The Titans made the earthen from living stone, and the earthen who awoke in Uldaman found their rocky hides had become smooth skin.",
+        "evidenceIds": ["book-175725-6", "book-175736-3"]
       },
       "clue": {
         "text": "The earthen's original building material",
-        "evidenceIds": ["book-175725-6"]
+        "evidenceIds": ["book-175725-6", "book-175736-3"]
       },
       "hint": {
-        "text": "Think of rock, rather than flesh.",
-        "evidenceIds": ["book-175725-6"]
+        "text": "Their rocky hides later softened into smooth skin.",
+        "evidenceIds": ["book-175725-6", "book-175736-3"]
       },
       "difficulty": "easy",
       "topics": ["materials"],
@@ -1900,10 +1962,10 @@
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Rebalanced seed. Source pass recorded, with difficulty and fairness still awaiting a cold solve in a completed grid.",
-        "evidenceDigest": "aa641137e16376ae021f52ad127867810331fc5e508e8d780fa42eb70343f727",
+        "notes": "Revision three source pass: a stronger contextual hint or clearer world clue. Difficulty remains provisional until cold solving.",
+        "evidenceDigest": "f08cb6f6065309e1d73041bb55a014ac521921a7eddac1e223cd928ad9252683",
         "contentDigest": null
       }
     },
@@ -1929,15 +1991,15 @@
         "text": "The deep places of the world were his to guard.",
         "evidenceIds": ["book-175726-7"]
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "topics": ["aspects"],
       "exposure": "shared",
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Rebalanced seed. Source pass recorded, with difficulty and fairness still awaiting a cold solve in a completed grid.",
+        "notes": "Revision three provisional rating: The clue requires linking Neltharion to his Aspect domain. The English answer itself remains broadly familiar. Cold solving with crossings remains required.",
         "evidenceDigest": "1f7b345a56336f2e298614a0cf83c74a408fed92a7dc3ae55f66c5da0c546a0e",
         "contentDigest": null
       }
@@ -2104,15 +2166,15 @@
         "text": "Their bodies rested while their spirits wandered.",
         "evidenceIds": ["book-175730-8"]
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "topics": ["druids"],
       "exposure": "shared",
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Rebalanced seed. Source pass recorded, with difficulty and fairness still awaiting a cold solve in a completed grid.",
+        "notes": "Revision three provisional rating: The clue asks about the druids' pact with the Emerald Dream, rather than a generic word definition. Cold solving with crossings remains required.",
         "evidenceDigest": "5b2363763aa6a87f8d72215eedbd7bf216715fe9c275a78610b7a3fa1a58305a",
         "contentDigest": null
       }
@@ -2626,7 +2688,7 @@
         "evidenceIds": ["book-175748-4"]
       },
       "hint": {
-        "text": "Think of frozen water.",
+        "text": "A frozen block, as hard as diamond.",
         "evidenceIds": ["book-175748-4"]
       },
       "difficulty": "easy",
@@ -2635,9 +2697,9 @@
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Rebalanced seed. Source pass recorded, with difficulty and fairness still awaiting a cold solve in a completed grid.",
+        "notes": "Revision three source pass: a stronger contextual hint or clearer world clue. Difficulty remains provisional until cold solving.",
         "evidenceDigest": "a26397406fa641595f331b8cdd6cd791f86890eaec402ea87f292a14d6d937fe",
         "contentDigest": null
       }
@@ -2688,27 +2750,27 @@
         "rationale": "A familiar English word recoverable from a specific Warcraft connection."
       },
       "fact": {
-        "text": "Illidan consumed the energies of the Skull of Gul'dan.",
-        "evidenceIds": ["book-175759-1"]
+        "text": "Illidan consumed the Skull of Gul'dan's energies, developing demonic features and greater power.",
+        "evidenceIds": ["book-175759-1", "book-175759-2"]
       },
       "clue": {
         "text": "Gul'dan's bony legacy",
-        "evidenceIds": ["book-175759-1"]
+        "evidenceIds": ["book-175759-1", "book-175759-2"]
       },
       "hint": {
-        "text": "Think of the bones enclosing the brain.",
-        "evidenceIds": ["book-175759-1"]
+        "text": "Illidan consumed its power to transform himself.",
+        "evidenceIds": ["book-175759-1", "book-175759-2"]
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "topics": ["objects"],
       "exposure": "shared",
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Rebalanced seed. Source pass recorded, with difficulty and fairness still awaiting a cold solve in a completed grid.",
-        "evidenceDigest": "a01b6f074f3ea3c1f4a467d069befcb81f62a4dcc34a30bbf53f299d4d54ae30",
+        "notes": "Revision three provisional rating: The main clue alludes to a particular artifact and its owner, despite the answer being a familiar English word. Cold solving with crossings remains required.",
+        "evidenceDigest": "8811aaed486cd0f0522abe657a895d1b1f107ab47beee8c63968ba17163aab7c",
         "contentDigest": null
       }
     },
@@ -3029,15 +3091,15 @@
         "text": "His arrival created the volcano at Blackrock.",
         "evidenceIds": ["book-175739-11"]
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "topics": ["characters"],
       "exposure": "shared",
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "notes": "Revision three provisional rating: The summoning by Thaurissan is a historical fact, even though the boss name is broadly recognisable. Cold solving with crossings remains required.",
         "evidenceDigest": "63e6a41869ba12c082c6c451897191b051f8d557846bf47ad5ade247d8625402",
         "contentDigest": null
       }
@@ -3414,15 +3476,15 @@
         "text": "He poured preserved waters into a lake at its summit.",
         "evidenceIds": ["book-175729-5"]
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "topics": ["places"],
       "exposure": "shared",
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "coldReviewer": null,
-        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "notes": "Revision three provisional rating: The replacement Well of Eternity is a specific historical clue to a familiar mountain name. Cold solving with crossings remains required.",
         "evidenceDigest": "dd875eeeaaa1c5d5c29e326bb356d89bec26bdcb1796df7958484ee424aaa2da",
         "contentDigest": null
       }
@@ -3928,38 +3990,59 @@
       }
     },
     {
-      "id": "camptaurajo",
+      "id": "thecrossroads",
       "answer": {
-        "display": "Camp Taurajo",
-        "grid": "CAMPTAURAJO",
-        "enumeration": [4, 7],
+        "display": "The Crossroads",
+        "grid": "THECROSSROADS",
+        "enumeration": [3, 10],
         "kind": "proper",
-        "familiarity": "established",
-        "rationale": "Recognisable world, gameplay, people or faction vocabulary, with the full familiar multi-word form preserved."
+        "familiarity": "broad",
+        "rationale": "A prominent Horde levelling hub, recognisable through its regional role and familiar early errands."
       },
       "fact": {
-        "text": "Jorn Skyseer offered guidance at Camp Taurajo in the Barrens, where Ruga Ragetotem tested warriors.",
-        "evidenceIds": ["quest-3261-details", "quest-1823-details", "name-area-378"]
+        "text": "New Horde recruits were sent to the Crossroads in the Barrens, where early work included collecting plainstrider beaks.",
+        "evidenceIds": [
+          "name-area-380",
+          "quest-840-details",
+          "quest-842-details",
+          "quest-854-objectives",
+          "quest-844-details",
+          "quest-844-objectives"
+        ]
       },
       "clue": {
-        "text": "Barrens stop for Jorn Skyseer's guidance",
-        "evidenceIds": ["quest-3261-details", "quest-1823-details", "name-area-378"]
+        "text": "Barrens hub where new Horde recruits report for duty",
+        "evidenceIds": [
+          "name-area-380",
+          "quest-840-details",
+          "quest-842-details",
+          "quest-854-objectives",
+          "quest-844-details",
+          "quest-844-objectives"
+        ]
       },
       "hint": {
-        "text": "The first word is a temporary settlement.",
-        "evidenceIds": ["quest-3261-details", "quest-1823-details", "name-area-378"]
+        "text": "Early errands include collecting plainstrider beaks.",
+        "evidenceIds": [
+          "name-area-380",
+          "quest-840-details",
+          "quest-842-details",
+          "quest-854-objectives",
+          "quest-844-details",
+          "quest-844-objectives"
+        ]
       },
-      "difficulty": "medium",
+      "difficulty": "easy",
       "topics": ["towns", "kalimdor"],
       "exposure": "horde",
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
-        "evidenceDigest": "da63a7b483ea522b523394351d96e97c2656212eaf3c420635a315386bcfb510",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
+        "evidenceDigest": "6299af6812663395570a75eb052019a83c056fb90e79aa9579661919b62a4a32",
         "contentDigest": null,
         "coldReviewer": null,
-        "notes": "Source-backed revised seed. Clue fairness and difficulty await a cold solve in a completed grid."
+        "notes": "Revision three source pass: a stronger contextual hint or clearer world clue. Difficulty remains provisional until cold solving."
       }
     },
     {
@@ -4054,17 +4137,17 @@
         "text": "Its older name is Eldre'Thalas.",
         "evidenceIds": ["quest-5526-details", "quest-7481-details", "name-area-2557"]
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "topics": ["dungeons", "kalimdor"],
       "exposure": "shared",
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "evidenceDigest": "a21ac6d4bb52ed0a6b7811fdc1fe5ea4ca48c9a33189d3806ecc80195cf3ff0c",
         "contentDigest": null,
         "coldReviewer": null,
-        "notes": "Source-backed revised seed. Clue fairness and difficulty await a cold solve in a completed grid."
+        "notes": "Revision three provisional rating: The clue requires dungeon geography and recognition of the ruined city in Feralas. Cold solving with crossings remains required."
       }
     },
     {
@@ -4183,16 +4266,31 @@
         "rationale": "Recognisable world, gameplay, people or faction vocabulary, with the full familiar multi-word form preserved."
       },
       "fact": {
-        "text": "Charlga Razorflank mustered an army in Razorfen Kraul, where blueleaf tubers grew underground.",
-        "evidenceIds": ["quest-1102-details", "quest-1221-details", "name-area-491"]
+        "text": "Razorfen Kraul was a quilboar stronghold commanded by Charlga Razorflank in the Barrens, with blueleaf tubers growing underground.",
+        "evidenceIds": [
+          "quest-1102-details",
+          "quest-1221-details",
+          "name-area-491",
+          "quest-1102-request"
+        ]
       },
       "clue": {
-        "text": "Charlga Razorflank's stronghold in the Barrens",
-        "evidenceIds": ["quest-1102-details", "quest-1221-details", "name-area-491"]
+        "text": "Quilboar stronghold commanded by Charlga Razorflank",
+        "evidenceIds": [
+          "quest-1102-details",
+          "quest-1221-details",
+          "name-area-491",
+          "quest-1102-request"
+        ]
       },
       "hint": {
-        "text": "Blueleaf tubers grow beneath it.",
-        "evidenceIds": ["quest-1102-details", "quest-1221-details", "name-area-491"]
+        "text": "Look beneath the Barrens, where blueleaf tubers grow.",
+        "evidenceIds": [
+          "quest-1102-details",
+          "quest-1221-details",
+          "name-area-491",
+          "quest-1102-request"
+        ]
       },
       "difficulty": "medium",
       "topics": ["dungeons", "kalimdor"],
@@ -4200,11 +4298,11 @@
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
-        "evidenceDigest": "7f5ba811a726fd04bf56e73bcfefa197bef939c71636cf521bb3f302d255e0a6",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
+        "evidenceDigest": "656426516dc176671c2ca03766cf91fa418d0c35705e6cb0dd8d6c2de6971e79",
         "contentDigest": null,
         "coldReviewer": null,
-        "notes": "Source-backed revised seed. Clue fairness and difficulty await a cold solve in a completed grid."
+        "notes": "Revision three source pass: a stronger contextual hint or clearer world clue. Difficulty remains provisional until cold solving."
       }
     },
     {
@@ -4288,28 +4386,28 @@
         "rationale": "Recognisable world, gameplay, people or faction vocabulary, with the full familiar multi-word form preserved."
       },
       "fact": {
-        "text": "The night elves were called kaldorei, meaning children of the stars.",
-        "evidenceIds": ["quest-4161-details", "name-race-4"]
+        "text": "The kaldorei were night elves, worshippers of the moon goddess Elune.",
+        "evidenceIds": ["quest-4161-details", "name-race-4", "book-21583-4"]
       },
       "clue": {
         "text": "A kaldorei, in the singular",
-        "evidenceIds": ["quest-4161-details", "name-race-4"]
+        "evidenceIds": ["quest-4161-details", "name-race-4", "book-21583-4"]
       },
       "hint": {
-        "text": "Their ancient name means 'children of the stars'.",
-        "evidenceIds": ["quest-4161-details", "name-race-4"]
+        "text": "Think of the people who worshipped Elune.",
+        "evidenceIds": ["quest-4161-details", "name-race-4", "book-21583-4"]
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "topics": ["peoples"],
       "exposure": "shared",
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
-        "evidenceDigest": "e9920337e352dd225042bd9418da308936894053fc6f7297b58b012d24d7174c",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
+        "evidenceDigest": "53775284ba66841691b2dc7a032a2c0cc136ddbe7ca79ca9872f88c01e053f20",
         "contentDigest": null,
         "coldReviewer": null,
-        "notes": "Source-backed revised seed. Clue fairness and difficulty await a cold solve in a completed grid."
+        "notes": "Revision three provisional rating: The answer is familiar, but the clue uses the less familiar kaldorei name. Cold solving with crossings remains required."
       }
     },
     {
@@ -4331,7 +4429,7 @@
         "evidenceIds": ["book-175760-1", "book-175760-2"]
       },
       "hint": {
-        "text": "Their new name honoured their fallen people.",
+        "text": "They had called themselves high elves before adopting the new name.",
         "evidenceIds": ["book-175760-1", "book-175760-2"]
       },
       "difficulty": "medium",
@@ -4340,11 +4438,11 @@
       "disclosedBy": "vanilla",
       "status": "evidence-checked",
       "review": {
-        "evidenceReviewer": "codex-source-pass-2026-11-01-r2",
+        "evidenceReviewer": "codex-source-pass-2026-11-01-r3",
         "evidenceDigest": "b92bb04663c8747773e708f60cc9e2aee72325f92300612f2f9225c5ec6d49ef",
         "contentDigest": null,
         "coldReviewer": null,
-        "notes": "Source-backed revised seed. Clue fairness and difficulty await a cold solve in a completed grid."
+        "notes": "Revision three source pass: a stronger contextual hint or clearer world clue. Difficulty remains provisional until cold solving."
       }
     },
     {

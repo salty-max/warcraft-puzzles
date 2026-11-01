@@ -42,10 +42,15 @@ pnpm test:watch
   inventory, including every triad and its provisional difficulty.
 - [`docs/seed-revision.md`](docs/seed-revision.md) explains the rebalance toward
   multi-word world names, everyday play and useful short crossings.
+- [`docs/seed-review.md`](docs/seed-review.md) records the latest refinements to clues,
+  hints and provisional difficulty.
 - [`docs/editorial.md`](docs/editorial.md) defines eligibility, hints, review and
   source-update rules.
 - [`docs/testing.md`](docs/testing.md) explains checks and their limits.
 - [`docs/production-plan.md`](docs/production-plan.md) is the approved project plan.
+- [`docs/progression-design.md`](docs/progression-design.md) proposes lore discoveries,
+  streaks, weekly goals and later collectible rewards. These features are not
+  implemented.
 
 Optional source replay requires the pinned Classic database produced by the sibling
 `wow-data` project. Pass its path explicitly:

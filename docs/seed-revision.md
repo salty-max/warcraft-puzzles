@@ -4,6 +4,10 @@ Date: 1 November 2026. Revision two keeps 100 entries so we can compare the sele
 directly with the original seed. All remain evidence-checked research entries, with no
 publication approvals.
 
+This records revision two at `abb3267`. Its figures and remaining targets describe that
+snapshot. See [the subsequent seed review](seed-review.md) for revision three and
+[the generated report](seed-report.md) for current counts and wording.
+
 The original seed leaned too heavily on history books, dragonflight colours and reversed
 family relationships. The replacement selection puts more everyday world knowledge
 alongside the lore: towns, dungeons, battlegrounds, travel, professions, peoples and an
