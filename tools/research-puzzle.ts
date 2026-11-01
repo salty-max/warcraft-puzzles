@@ -1,3 +1,4 @@
+import { withLegacyEntries } from "./legacy-bank.ts";
 import { createHash } from "node:crypto";
 import { z } from "zod";
 import { EditorialSchema, SnapshotSchema } from "../packages/content/src/schema.ts";
@@ -27,7 +28,8 @@ export function prepareResearchPuzzle(
   evidence: unknown,
 ) {
   const puzzle = ResearchPuzzleSchema.parse(raw);
-  const editorial = EditorialSchema.parse(catalogue);
+  // An authored puzzle may place an entry the rebuild has since rejected (legacy-bank.ts).
+  const editorial = EditorialSchema.parse(withLegacyEntries(catalogue, puzzle.id));
   const snapshot = SnapshotSchema.parse(evidence);
   const contentIssues = validateCatalogue(editorial, snapshot, "research");
   if (contentIssues.length) throw new Error("Invalid research catalogue");

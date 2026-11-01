@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { expect, it } from "vitest";
+import { withLegacyEntries } from "./legacy-bank.ts";
 import { PilotSchema, preparePilot, trialAsset, trialRoute } from "./pilot.ts";
 const read = (path: string): unknown => JSON.parse(readFileSync(path, "utf8"));
 const raw = read("content/puzzles/pilot.json");
@@ -60,7 +61,8 @@ it("rejects reserved outputs, traversal and mismatched puzzle identities", () =>
     preparePilot(
       raw,
       (id) => ({ ...(load(id) as object), id: "different" }),
-      catalogue,
+      // The renamed puzzle is no longer a legacy one, restore the cuts to reach the identity check.
+      withLegacyEntries(catalogue),
       evidence,
     ),
   ).toThrow("identity mismatch");

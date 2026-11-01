@@ -29,7 +29,16 @@ export const LocatorSchema = z.discriminatedUnion("table", [
   }),
   z.strictObject({
     table: z.literal("name"),
-    kind: z.enum(["area", "faction", "race", "spell", "spell_description"]),
+    kind: z.enum([
+      "area",
+      "faction",
+      "race",
+      "spell",
+      "spell_description",
+      "faction_description",
+      "item_description",
+      "item",
+    ]),
     id: z.number().int().positive(),
     locale: z.literal("enUS"),
   }),

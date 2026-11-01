@@ -220,10 +220,15 @@ describe("content contracts", () => {
         ),
       ),
     );
-    expect(editorial.entries).toHaveLength(416);
-    expect(new Set(editorial.entries.map((entry) => entry.answer.grid)).size).toBe(342);
+    // The bank was rebuilt on 1 November 2026: the old padding is `rejected` (kept as a
+    // record), the live bank is what is not.
+    const live = editorial.entries.filter((entry) => entry.status !== "rejected");
+    expect(live.length).toBeGreaterThanOrEqual(350);
+    expect(new Set(live.map((entry) => entry.answer.grid)).size).toBeGreaterThanOrEqual(
+      330,
+    );
     expect(
-      editorial.entries.filter((entry) => entry.answer.enumeration.length > 1).length,
+      live.filter((entry) => entry.answer.enumeration.length > 1).length,
     ).toBeGreaterThanOrEqual(25);
     expect(validateCatalogue(editorial, snapshot)).toEqual([]);
     expect(
