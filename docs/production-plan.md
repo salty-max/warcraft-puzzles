@@ -42,6 +42,10 @@ shared shell; build shared abstractions when a second game actually needs them.
 - Automatic local saving, resume, local statistics and a spoiler-free share.
 - Optional timer; assistance is recorded honestly without punishing learning.
 - A post-solve explanation of the answers and their Warcraft connections.
+- A permanent personal lorebook, with sourced discoveries revealed after completion.
+- Current/best streak, an activity calendar and a weekly expedition that accepts
+  previously unsolved archive puzzles.
+- Permanent collection milestones and a small set of cosmetic titles or stamps.
 - Installable web app; downloaded puzzles remain playable offline.
 - A protected editorial workspace to review clues, compose grids and schedule
   publication, with source references and revision history.
@@ -52,15 +56,42 @@ payments, other games and translated puzzles follow demonstrated demand. The dat
 contracts carry locale and edition now, but a French crossword will require its own fill
 and authored clues.
 
-### Proposed progression extension
+### Progression and retention
 
-The owner has asked to explore retention and gamification. The separate
-[progression proposal](progression-design.md) recommends a permanent lorebook,
-completion-time discoveries, streak/calendar, weekly expeditions and milestone
-cosmetics. A small earned currency, recoverable inventory and optional cosmetic caches
-would follow later. This is a proposal for review, not implemented behavior or an
-approved economy. Keep the crossword feasibility work first, and budget the extra
-authored lore and art before adding these features to a release gate.
+The owner accepted this direction on 1 November 2026. The product loop is solving
+puzzles, discovering lore and growing a personal archive. The
+[progression design](progression-design.md) records the detailed rules and later
+experiments. None of these features is implemented yet.
+
+For the first playable trial, include six to twelve short, reviewed lore pages,
+completion-time discoveries, basic streak/calendar and a first milestone stamp. Bind
+each discovery to the clue's particular fact, not just its answer string. Instant
+discoveries would confirm correct words, so show them after completion and keep reading
+optional. Later games can contribute to the same archive.
+
+The public core adds weekly expeditions and permanent chapter milestones. Start with
+four distinct new-to-you puzzles per UTC week, with archive play eligible. The daily
+streak accepts today's puzzle or a previously unsolved archive puzzle. Keep permanent
+discoveries and milestones when a streak breaks. Counts and thresholds remain tunable
+from playtesting. Share discovery counts without spoiling the names of today's newly
+unlocked pages.
+
+Hints remain free. Assisted solves earn the same base progression as unassisted solves,
+with assistance recorded honestly. Full-solution reveal is review mode and earns no
+completion rewards, including when every answer is revealed individually. Replays do not
+award another completion or extend a streak.
+
+After the core proves enjoyable, add optional account saving, recoverable inventory, one
+earned currency and a small direct cosmetic shop. Cosmetics can include book covers,
+frames, stamps and illustrated variants of earned pages. Prototype prices in the design
+are balancing hypotheses, not fixed commitments.
+
+Earned cosmetic surprise caches are a later experiment: visible chances, an unowned item
+on every purchase, a direct-selection alternative and no purchase once a collection is
+complete. Start without rarity tiers or duplicate currencies. Paid currency, purchasable
+puzzle advantages and paid hint access are outside this roadmap. Budget authored lore,
+art and review at every stage rather than treating the collection as free output from a
+crossword generator.
 
 ## 2. First prove the puzzles
 
@@ -125,6 +156,35 @@ input and the editor's actual production time.
 producing more; a selected grid format; and a report identifying remaining vocabulary
 gaps. If this fails, improve the bank or grid approach before committing to a daily
 release.
+
+### Immediate next work from the current seed
+
+The repository now has 100 evidence-checked triads, including 31 multi-word answers,
+plus validation and CI configuration. No completed grids, fill engine, player or
+publication approvals exist yet. The next implementation is the grid validator and
+reproducible fill benchmark.
+
+1. Define and test the grid/slot model: connected white cells, fully checked letters,
+   minimum three-letter entries, legal crossings, numbering and no repeated normalised
+   answer. Include multi-word enumerations in display data.
+2. Run a bounded baseline against the current seed on valid layouts at the five planned
+   sizes. Pin algorithm version, content hash, random seeds and search limits. Report
+   failures, unsatisfied lengths/patterns and search time as well as successful fills. A
+   failed search within a budget does not prove no fill exists. Research runs may use
+   evidence-checked entries, clearly labelled as unpublished experiments; they cannot
+   bypass publication approvals.
+3. Expand the clue-backed bank in focused batches using the measured gaps. The
+   500–1,000-answer sample remains a working target, not a prerequisite for the first
+   diagnostic run or a promise of enough content. Audit eligible TBC/Wrath sources as
+   expansion reaches those eras.
+4. Produce seven candidate puzzles and six to twelve associated lore pages for review.
+   Use reviewable grid exports for early cold solves, then the responsive player to
+   validate input, pacing and the discovery experience. Record source review and actual
+   cold-solve approvals before publication.
+
+The deliverable is a benchmark report and a small playable content set. Choose the daily
+size from evidence about fill quality, solving and phone usability. Do not start the
+reward economy before this experiment establishes the core.
 
 ## 3. The content system
 
@@ -225,17 +285,23 @@ eligibility before merely raising the difficulty label.
 
 ### Core records
 
-| Record          | Required information                                                                                                                                   |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Answer          | Stable ID, grid form, display form, enumeration, locale, aliases, length, familiarity, inclusion rationale, faction/class exposure tags, review status |
-| Evidence        | Source/version, entity IDs or text locator, supporting extract, checksum, eligible era, attribution/export classification                              |
-| Fact            | Explicit assertion, linked evidence, earliest supported era, reviewer and decision                                                                     |
-| Clue            | Answer ID, original wording, linked facts, difficulty, ambiguity notes, revision and review status                                                     |
-| Grid            | Layout, algorithm version, seed, filled slots, validation and quality report                                                                           |
-| Puzzle revision | Exact grid and clue revisions, edition, locale, content hash, author/editor, status                                                                    |
-| Release         | Game, edition, locale, UTC release date, puzzle revision, stable puzzle number, publication history                                                    |
-| Editorial event | Actor, timestamp, action, affected revision, before/after reference                                                                                    |
-| Local play      | Puzzle/revision ID, letters, pencil marks, assistance events, timer state and completion                                                               |
+| Record            | Required information                                                                                                                                   |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Answer            | Stable ID, grid form, display form, enumeration, locale, aliases, length, familiarity, inclusion rationale, faction/class exposure tags, review status |
+| Evidence          | Source/version, entity IDs or text locator, supporting extract, checksum, eligible era, attribution/export classification                              |
+| Fact              | Explicit assertion, linked evidence, earliest supported era, reviewer and decision                                                                     |
+| Clue              | Answer ID, original wording, linked facts, difficulty, ambiguity notes, revision and review status                                                     |
+| Grid              | Layout, algorithm version, seed, filled slots, validation and quality report                                                                           |
+| Puzzle revision   | Exact grid and clue revisions, edition, locale, content hash, author/editor, status                                                                    |
+| Release           | Game, edition, locale, UTC release date, puzzle revision, stable puzzle number, publication history                                                    |
+| Editorial event   | Actor, timestamp, action, affected revision, before/after reference                                                                                    |
+| Local play        | Puzzle/revision ID, letters, pencil marks, assistance events, timer state and completion                                                               |
+| Lore entry        | Stable ID, original prose, eligible evidence, revision, review status and explicit clue/fact bindings                                                  |
+| Local progression | First completions, discovery/milestone grants, activity days, weekly progress and save version; replay-safe canonical identities                       |
+
+Later currency/inventory records include an auditable wallet ledger, catalog versions,
+owned items and stored purchase results. Introduce them with account recovery and
+transactional reward handling, not as part of the first fill engine.
 
 Different spellings or facts may share a grid form. Store their senses and clues
 distinctly; a single grid must not repeat that normalized answer. Published puzzles pin
@@ -432,9 +498,10 @@ active selection and accessibility preferences separately from puzzle answers.
 
 Checking/revealing a letter or answer records assistance in the result. Completing with
 assistance remains a completion; local statistics distinguish it from an unassisted
-solve. Rechecking or replaying cannot create duplicate daily completions. Timer
-pause/background behavior must be specified and tested; avoid publishing speed rankings
-from untrusted local clocks.
+solve. Revealing the entire solution, including every answer individually, is review
+mode and grants no completion rewards. Rechecking or replaying cannot create duplicate
+daily completions. Timer pause/background behavior must be specified and tested; avoid
+publishing speed rankings from untrusted local clocks.
 
 Save changes promptly, restore after a crash/reload, and handle storage quota or
 disabled persistence visibly. Support a versioned local export/import so people can back
@@ -460,6 +527,11 @@ Automated scans supplement manual screen-reader and keyboard testing;
   preserve grid invariants; save round-trips preserve play state.
 - Content checks: every published clue has approved eligible evidence; exact revisions
   exist; no draft/future content escapes; schedule constraints hold.
+- Progression tests with implementation: stable first-completion/discovery grants,
+  assisted-solve eligibility, full-reveal exclusions, streak/weekly UTC boundaries,
+  duplicate/reordered events and local save migrations/export/import. Later wallet gates
+  add atomic debit/draw/grant, concurrent purchases, exhausted collections, account
+  recovery and explicit offline bonus rules.
 - PostgreSQL integration tests: migrations, authorization, concurrent schedule writes,
   revision pinning and transactional publication.
 - Browser tests on Chromium, Firefox and WebKit: typing, touch selection, hints,
@@ -518,19 +590,26 @@ limits; no paid service is purchased by this plan.
 
 ## 8. Delivery milestones
 
-| Milestone                        | Deliverable                                                                                        | Completion gate                                                                                            |
-| -------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 0. Editorial foundation          | Era policy, answer/fact/clue schema, normalization rules, 100 reviewed seed entries                | Every entry has an original fair clue and eligible evidence                                                |
-| 1. Feasibility                   | Expanded bank, reproducible benchmark, seven finished puzzles, capacity report                     | Dense format is enjoyable and production effort is measured                                                |
-| 2. Foundation and vertical slice | Repository, CI, data migrations, one designed puzzle playable from published data                  | Phone/tablet/desktop layouts, keyboard/touch play, keyboard-open behavior and saved resume work end to end |
-| 3. Editorial production          | Protected editor, imports, fill controls, review states, versioning and calendar                   | Owner can produce, review, schedule and correct a puzzle without editing application code                  |
-| 4. Public beta                   | Daily/dated routes, archive, hints, local stats, sharing, offline, accessibility and observability | At least 14 reviewed puzzles, critical journeys tested, diverse playtest feedback addressed                |
-| 5. Portfolio/public release      | Content buffer, documented operations, public project narrative and final polish                   | Full launch criteria below pass                                                                            |
+| Milestone                        | Deliverable                                                                                                                       | Completion gate                                                                                                               |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 0. Editorial foundation          | Era policy, answer/fact/clue schema, normalization rules, 100 reviewed seed entries                                               | Every entry has an original fair clue and eligible evidence                                                                   |
+| 1. Feasibility                   | Expanded bank, reproducible benchmark, seven puzzle candidates, six to twelve sourced lore pages, capacity report                 | Candidate grids pass validation; separate cold solves establish fair clues and a credible format                              |
+| 2. Foundation and vertical slice | Repository, CI, data migrations, one reviewed puzzle, lorebook/discoveries, basic streak/calendar and milestone stamp             | Phone/tablet/desktop play and saved resume work; completion grants a discovery once and survives reload                       |
+| 3. Editorial production          | Protected editor, imports, fill controls, review states, versioning and calendar                                                  | Owner can produce, review, schedule and correct a puzzle without editing application code                                     |
+| 4. Public beta                   | Daily/archive play, weekly expedition, permanent lore/milestones, hints, stats, sharing, offline, accessibility and observability | At least 14 reviewed puzzles with reviewed lore coverage, progression journeys tested and diverse playtest feedback addressed |
+| 5. Portfolio/public release      | Content buffer, documented operations, public project narrative and final polish                                                  | Full launch criteria below pass                                                                                               |
 
-Milestone 0 is the immediate next implementation task. Content work and the app's
-foundation may progress together after the vocabulary/grid experiment has established a
-credible format. Do not promise a launch date before that experiment measures the
-editorial bottleneck.
+The structural and source-checking part of milestone 0 exists; cold approvals remain
+outstanding. Begin milestone 1's diagnostic engine and targeted bank expansion now. Cold
+grid review and responsive player trials complete the feasibility assessment across
+milestones 1 and 2. Do not promise a launch date before measuring the editorial
+bottleneck.
+
+After the public core demonstrates repeat play, extend the roadmap with account
+sync/recovery, one earned currency and a direct cosmetic shop. Trial duplicate-protected
+surprise caches only after the saved collection works and players value it. These later
+systems do not block the core release; their own persistence, concurrency and recovery
+tests must pass before they ship.
 
 ### Public launch criteria
 
@@ -540,6 +619,9 @@ editorial bottleneck.
   unacceptable repetition. No claim of a year's supply without a completed corresponding
   run and editorial review.
 - Critical browser, persistence, midnight-release and authorization tests pass.
+- Every scheduled puzzle has reviewed discovery bindings and lore coverage. Streaks,
+  weekly goals and milestone grants pass assistance/replay/rollover and save-recovery
+  checks; the small cosmetic set is ready. Collection reading remains optional.
 - Manual keyboard/screen-reader checks and real-phone input checks completed.
 - Performance measured against the agreed budgets; remaining deviations documented and
   resolved or explicitly accepted with a reason.

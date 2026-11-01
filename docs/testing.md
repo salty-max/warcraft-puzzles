@@ -74,7 +74,7 @@ Real-phone keyboard testing, screen-reader assessment, clue fairness, source lic
 review and backup/restore drills remain explicit human/release checks. An automated
 green result cannot replace them.
 
-The [progression proposal](progression-design.md) lists future reward and persistence
+The [progression design](progression-design.md) lists future reward and persistence
 invariants, including duplicate claims, concurrent purchases, UTC rollover, offline sync
 and assisted solves. No progression engine or tests for it exist yet. Add those checks
 with each implemented feature rather than treating the design as test coverage.

@@ -48,9 +48,9 @@ pnpm test:watch
   source-update rules.
 - [`docs/testing.md`](docs/testing.md) explains checks and their limits.
 - [`docs/production-plan.md`](docs/production-plan.md) is the approved project plan.
-- [`docs/progression-design.md`](docs/progression-design.md) proposes lore discoveries,
-  streaks, weekly goals and later collectible rewards. These features are not
-  implemented.
+- [`docs/progression-design.md`](docs/progression-design.md) details the accepted
+  progression roadmap: lore discoveries, streaks, weekly goals and later cosmetic
+  collections. These features are not implemented; economy values remain provisional.
 
 Optional source replay requires the pinned Classic database produced by the sibling
 `wow-data` project. Pass its path explicitly:
@@ -75,9 +75,12 @@ validation passing does not authorise publishing the seed as finished puzzles.
 
 ## Next milestones
 
-1. Cold-review the seed, improve coverage and expand the approved answer bank.
-2. Benchmark valid dense layouts and produce seven complete puzzles.
-3. Build the Next.js player and editorial workspace around the proven format.
+1. Build the tested grid validator and run a reproducible fill benchmark on the seed.
+2. Expand the bank from measured gaps, review seven puzzle candidates and prepare six to
+   twelve sourced lore pages. Research results do not grant publication approvals.
+3. Build the responsive Next.js player with the first lore discoveries, streak/calendar
+   and milestone stamp; validate the experience through cold solves and phone trials.
+   Follow with the editorial workspace and public daily/weekly loop.
 4. Add application integration/browser/accessibility tests and a production build to the
    required checks as those features are implemented.
 

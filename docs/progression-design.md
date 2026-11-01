@@ -1,11 +1,12 @@
-# Progression and retention proposal
+# Progression and retention design
 
-Date: 1 November 2026. Status: design proposal, not implemented features or a committed
-economy. The user asked to explore lore unlocks, currency, collectible rewards, gacha
-and streaks. Prices, thresholds and release stages below are starting hypotheses for a
-prototype.
+Date: 1 November 2026. Status: direction accepted and integrated into the
+[production plan](production-plan.md) on this date. Features are not implemented.
+Lorebook, milestones and daily/weekly progress come first; saved cosmetic collections
+and an earned currency follow later, with surprise caches as a subsequent experiment.
+Prices, exact thresholds and optional variants below remain prototype hypotheses.
 
-## Recommended direction
+## Accepted direction
 
 Make the player feel like an explorer assembling a personal archive of Azeroth. Solving
 earns discoveries. Finishing a puzzle advances a habit and, in a later release, earns a
