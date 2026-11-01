@@ -37,7 +37,7 @@ test("whole-answer entry, multi-word enumeration, crossing edits and saved assis
   expect(intersect).toBeGreaterThanOrEqual(0);
   await expect(square.first()).toBeVisible();
   await page.getByRole("button", { name: "Check puzzle" }).click();
-  await expect(page.getByRole("status")).toContainText("counts as assistance");
+  await expect(page.getByRole("status")).toContainText("answers correct");
   await page.getByRole("button", { name: "Start over", exact: true }).click();
   await page.getByRole("button", { name: "Keep playing" }).click();
   await expect(page.locator("#pattern")).not.toHaveText("··········");

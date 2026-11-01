@@ -18,7 +18,7 @@ body {
 main {
   max-width: 1160px;
   margin: auto;
-  padding: 36px 28px 20px;
+  padding: 20px 28px;
 }
 button,
 input {
@@ -53,40 +53,40 @@ button[aria-pressed="true"] {
   font-weight: 750;
 }
 .masthead {
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 24px;
-  margin-bottom: 28px;
-}
-.masthead .eyebrow {
-  display: flex;
-  justify-content: space-between;
-}
-.masthead .eyebrow span {
-  color: var(--accent);
-}
-h1 {
-  font-family: Georgia, serif;
-  font-size: clamp(38px, 7vw, 76px);
-  font-weight: 400;
-  letter-spacing: -0.045em;
-  line-height: 1.02;
-  margin: 25px 0 16px;
-}
-.intro {
-  color: var(--muted);
-  line-height: 1.6;
-  margin-bottom: 22px;
-}
-.meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 20px;
-  font-size: 12px;
-  color: var(--muted);
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px 24px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+  margin-bottom: 20px;
 }
-.meta span + span::before {
-  content: "·";
-  margin-right: 15px;
+h1 {
+  font:
+    400 28px/1.5 Georgia,
+    serif;
+  margin: 0;
+}
+.instructions {
+  max-width: 350px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.instructions summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.instructions summary:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.instructions p {
+  margin: 0 0 8px;
 }
 .workspace {
   display: grid;
@@ -101,8 +101,8 @@ h1 {
   background: #fffdf6;
   border: 1px solid var(--line);
   border-left: 4px solid var(--accent);
-  padding: 12px 16px 14px;
-  margin-bottom: 22px;
+  padding: 8px 14px 12px;
+  margin-bottom: 16px;
   border-radius: 6px;
 }
 .clue-nav {
@@ -117,10 +117,9 @@ h1 {
 }
 #active-clue {
   font-family: Georgia, serif;
-  font-size: 21px;
+  font-size: 19px;
   line-height: 1.35;
-  min-height: 57px;
-  margin: 8px 0 16px;
+  margin: 6px 0 12px;
 }
 label {
   display: block;
@@ -154,11 +153,6 @@ input {
   background: var(--ink);
   color: white;
   min-width: 46px;
-}
-#input-help {
-  font-size: 11px;
-  color: var(--muted);
-  margin: 7px 0 0;
 }
 #grid {
   width: 100%;
@@ -238,7 +232,6 @@ input {
   font-size: 14px;
   min-height: 1.3em;
 }
-.format-note,
 #storage-warning {
   font-size: 12px;
   line-height: 1.6;
@@ -297,7 +290,7 @@ ol {
 }
 footer {
   border-top: 1px solid var(--line);
-  margin-top: 38px;
+  margin-top: 24px;
   padding-top: 16px;
   font-size: 11px;
   line-height: 1.6;
@@ -348,11 +341,11 @@ dialog form {
 }
 @media (max-width: 700px) {
   main {
-    padding: 22px 16px 16px;
+    padding: 12px 16px 16px;
   }
   .masthead {
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
   }
   .workspace {
     grid-template-columns: 1fr;
@@ -383,14 +376,11 @@ dialog form {
   #grid button {
     font-size: 18px;
   }
-  .meta {
-    gap: 8px 12px;
-  }
-  .meta span + span::before {
-    margin-right: 8px;
-  }
 }
 @media (max-width: 360px) {
+  h1 {
+    font-size: 23px;
+  }
   .clues {
     grid-template-columns: 1fr;
   }

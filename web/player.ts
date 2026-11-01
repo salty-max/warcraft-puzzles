@@ -62,7 +62,7 @@ function paint() {
   get("complete").hidden = !solved;
   get("completion-summary").textContent =
     state.hinted.length + state.revealed.length + state.checks === 0
-      ? "Solved without hints, reveals or checks. How did it feel?"
+      ? "No hints, reveals or checks."
       : `You used ${state.hinted.length} hint${state.hinted.length === 1 ? "" : "s"}, ${state.revealed.length} reveal${state.revealed.length === 1 ? "" : "s"} and ${state.checks} check${state.checks === 1 ? "" : "s"}.`;
 }
 function choose(entry: PlayEntry, focus = true) {
@@ -174,7 +174,7 @@ get("reveal").addEventListener("click", () => {
   field.value = selected.answer;
   persist();
   paint();
-  get("feedback").textContent = "Answer revealed. This solve is assisted.";
+  get("feedback").textContent = "Answer revealed.";
 });
 get("check").addEventListener("click", () => {
   state = { ...state, checks: state.checks + 1 };
@@ -183,7 +183,7 @@ get("check").addEventListener("click", () => {
   const { correct, solved } = checkAnswers(puzzle, state);
   get("feedback").textContent = solved
     ? "All twelve answers are correct."
-    : `${correct} of ${puzzle.entries.length} answers correct. This check counts as assistance.`;
+    : `${correct} of ${puzzle.entries.length} answers correct.`;
 });
 const dialog = get<HTMLDialogElement>("reset-dialog");
 get("reset").addEventListener("click", () => {

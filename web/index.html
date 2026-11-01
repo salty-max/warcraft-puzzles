@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex,nofollow" />
     <meta name="theme-color" content="#173b35" />
-    <title>Of fire and moonlight · Warcraft Crosswords</title>
+    <title>Warcraft crossword</title>
     <link rel="stylesheet" href="/style.css" />
     <script src="/player.js" type="module"></script>
   </head>
@@ -13,18 +13,17 @@
     <a href="#answer" class="skip">Skip to answer entry</a>
     <main>
       <header class="masthead">
-        <p class="eyebrow">Warcraft Crosswords <span>Playtest 01</span></p>
-        <h1>Of fire<br />and moonlight.</h1>
-        <p class="intro">
-          Twelve clues from Azeroth. A little history, a little magic.
-        </p>
-        <div class="meta">
-          <span>Through Wrath</span><span>12 clues</span
-          ><span>Saved on this browser</span>
-        </div>
+        <h1>Warcraft crossword</h1>
+        <details class="instructions">
+          <summary>How to play</summary>
+          <p id="input-help">
+            Choose a clue and type the whole answer. Spaces are optional. Brackets show
+            word lengths. Tap a crossing again to switch direction. Hints, reveals and
+            checks are recorded with your solve.
+          </p>
+        </details>
       </header>
       <section id="complete" class="completion" hidden aria-labelledby="complete-title">
-        <p class="eyebrow">Every square tells a story</p>
         <h2 id="complete-title">Puzzle complete.</h2>
         <p id="completion-summary"></p>
       </section>
@@ -53,7 +52,6 @@
                   ↵
                 </button>
               </div>
-              <p id="input-help">Type the whole answer. Spaces are optional.</p>
             </form>
           </div>
           <table id="grid" aria-label="Crossword grid. Choose a square or a clue.">
@@ -72,10 +70,6 @@
           <p id="storage-warning" hidden>
             Progress could not be saved. Keep this tab open to continue playing.
           </p>
-          <p class="format-note">
-            Some letters have no crossing. Numbers in brackets show word lengths. Tap a
-            crossing twice to switch direction.
-          </p>
         </section>
         <section class="clues" aria-label="Clues">
           <div>
@@ -89,14 +83,7 @@
         </section>
       </div>
       <footer>
-        <p>
-          An independent Warcraft fan project. Not affiliated with Blizzard
-          Entertainment.
-        </p>
-        <p>
-          This is a construction playtest. Clue fairness and difficulty are still being
-          tested.
-        </p>
+        Unofficial Warcraft fan project. Not affiliated with Blizzard Entertainment.
       </footer>
     </main>
     <dialog id="reset-dialog" aria-labelledby="reset-title">
