@@ -15,7 +15,8 @@ rules = "CLAUDE.md"
 # stamp    = true   # a push wants a passing check on the tree
 # review   = true   # a push wants a recorded review
 
-# Sonnet by default for every session session.ts opens (the design: Opus only in the
-# reviewer, architect and editor helpers, and a plan the user approves)
+# Sonnet by default for every session session.ts opens. Opus only in the reviewer,
+# architect and editor helpers (their own frontmatter), and for a desktop plan child,
+# which starts on Opus as the child skill says.
 [session]
 models = { code = "sonnet", prose = "sonnet" }

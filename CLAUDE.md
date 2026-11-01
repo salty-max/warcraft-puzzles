@@ -72,8 +72,10 @@ Four roles, each a brief in `docs/roles/` and an agent in `.claude/agents/`: **c
 (the bank, clues, hints, the gates), **engine** (fill, validator, seed, cooldown,
 benchmark), **front** (the player page, phone first), **back** (server-side serving when
 a daily is real). No persistent leads: the dispatch (the user's main session, or a
-dispatch session) opens one session per task with the role's brief (the `dispatch`
-skill). A card's title starts with its role: `[content] Cut the padding`.
+dispatch session) opens one session per task with the role's brief. Opening and closing
+a session is the `child` skill (`~/.claude/skills/child`), and its step 0 loads this
+project's dispatch skill, `dispatch`, which picks the role, the lock and the brief. A
+card's title starts with its role: `[content] Cut the padding`.
 
 The build order: content first (cut, fix, grow toward 1,000 answers through the gates),
 a go/no-go at 500 good answers, then front (the grid-typing redesign is done, see
@@ -103,7 +105,8 @@ this repository.
 | `cold-solver`                        | Sonnet | content and releases: clues answered blind                       |
 | `content`, `engine`, `front`, `back` | Sonnet | a role's task handed to a subagent                               |
 
-Skills: `dispatch`, `content-change`, `puzzle-release`, `fill-bench`.
+Skills: `child` (the user's, opens and closes a session), with this repository's
+`dispatch` as its addendum, `content-change`, `puzzle-release`, `fill-bench`.
 
 ## Docs
 

@@ -1,16 +1,18 @@
 ---
 name: dispatch
 description:
-  Open a warcraft-puzzles task in a session of its own with the right role (content,
-  engine, front, back), brief it, and take its report back. Use when the user hands this
-  project a task and this session is the dispatch (the lead), or when a task here needs
-  a role it doesn't have.
+  "The lead's half of opening a warcraft-puzzles task (which role, the lock, the brief
+  and its title), with the child skill opening the session and seeing it through. Use
+  with child whenever this session is the dispatch, or a task here needs a role it
+  doesn't have."
 ---
 
 # Dispatching a task
 
 The dispatch is the lead. There are no persistent leads: each task gets one session,
-opened in `~/code/warcraft-puzzles`, with one role's brief.
+opened in `~/code/warcraft-puzzles`, with one role's brief. This skill decides the role
+and the brief. The `child` skill (`~/.claude/skills/child`) opens the session and sees
+it through: load both.
 
 ## 1. Which role
 
@@ -21,39 +23,28 @@ content first (`CLAUDE.md`).
 
 ## 2. The lock
 
-The board's lock is per repository: one writing card at a time here. Check
-`bun harness/board.ts held warcraft-puzzles` before opening a writer. A second writer
-waits (blocked `--on` the holder). Read-only work (an audit, a cold-solve) needs no
-lock.
+One writing card at a time here (the lock is per repository, and `session.ts` says when
+it is held). Read-only work, an audit or a cold-solve, needs no lock and can run beside
+a writer.
 
-## 3. The brief
+## 3. The title and the brief
 
-The user's words, quoted. The role's brief file. The goal, the files, the checks that
-must pass, what not to touch, a precedent commit if there is one, the done condition.
-Its first write is its card, titled `[<role>] <task>`.
+The title is `[<role>] <task>` (`[content] Cut the padding triads`): `child` takes the
+task's own title, the dispatch adds the role in front. It names the child and its card.
 
-## 4. The model
+The brief, the task text `child` passes to `session.ts`: the user's words, quoted, then
+the role's brief file (`docs/roles/<role>.md`), the goal, the files, the checks that
+must pass, what not to touch, a precedent commit if there is one, the done condition. A
+content task names the `content-change` skill, a release `puzzle-release`. Its gates are
+the ones in `CLAUDE.md`, content's own first.
 
-Sonnet for every role: the repository's `.claude/settings.json` sets it, so a session
-opened here (the desktop's session tool, or `claude` in `~/code/warcraft-puzzles`) runs
-on Sonnet with nothing passed, and `harness.toml` makes the vendored `session.ts` open
-both kinds on Sonnet too. Opus only for a plan the user must approve, and inside a
-session for the `reviewer`, `architect` and `editor` helpers (their own frontmatter
-picks it).
+## 4. Opening
 
-## 5. The gates the session runs before its commit
+As `child` says, with the title above and `--repos warcraft-puzzles`. Both kinds map to
+Sonnet here (`harness.toml [session] models`), and `child` settles the kind and a plan
+as it always does.
 
-The role's checks through q, `bun harness/packet.ts warcraft-puzzles`, the `reviewer` on
-the packet, its findings fixed, `bun harness/review.ts warcraft-puzzles "<verdict>"`,
-one commit. Content adds its gates first (the `content-change` skill).
+## 5. Seeing it through
 
-## 6. The report back
-
-The card's status, the commit sha, the q verdict, the reviewer's verdict, and what waits
-on whom. A push, a deploy, a release, a GitHub repository: each is a go the session asks
-the user itself, with the question tool, and quotes in its report.
-
-## 7. Closing
-
-Check the work (the card, the commit, the checks, the diff's shape) before telling the
-user it is done, then close the session.
+`child`'s "Seeing it through": the reports, the goes quoted, the checks before closing,
+the close. One check of this project's: the card's title still starts with its role.
