@@ -52,6 +52,12 @@ guarantees a YAML file can provide.
 
 ## Application gates to add with implementation
 
+Responsiveness starts with the first playable slice. Its browser tests must exercise
+320×568, 390×844, 768×1024 and 1280×800 viewports, with useful visual snapshots,
+overflow checks and visible active-clue/input states. Verify short landscape heights,
+zoom and the phone keyboard on real devices as well. Do not postpone phone/tablet
+behavior until after a desktop-only implementation ships.
+
 Before the player becomes public, require tests for grid validity, player state, save
 migrations, hint accounting, source/era eligibility, midnight release/cache rollover and
 editor authorization. Add PostgreSQL integration tests, production build checks,

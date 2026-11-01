@@ -15,5 +15,8 @@ Read `README.md`, `docs/editorial.md` and `docs/testing.md` before changes.
 - New application behavior needs meaningful automated checks and appropriate
   browser/accessibility verification. Do not add placeholder or permanently skipped
   tests.
+- Build the player mobile-first from its first screen. Phone, tablet and desktop
+  layouts, touch input and phone-keyboard behavior are acceptance criteria for the first
+  playable slice, not later polish. See the responsive contract in the plan.
 - Deployment target: the owner's existing Vercel Pro plan. Do not create a new Vercel
   subscription or a different hosting project without a reason and direction.

@@ -376,6 +376,32 @@ appropriately licensed fonts and artwork. Keep decoration away from cells and cl
 homepage should make today's puzzle visible immediately, with the archive and project
 explanation secondary.
 
+### Responsive from the first playable screen
+
+Responsive design is part of the initial implementation, explicitly confirmed by the
+user on 1 November. Design and review the phone, tablet and desktop states together. The
+first playable slice cannot pass its gate with only a desktop layout.
+
+- Start with a stacked phone layout. Use a split grid/clue layout only when there is
+  sufficient usable space. Breakpoints follow the content rather than device names. Use
+  fluid layout and typography within those constraints.
+- Test at 320×568, 390×844, 768×1024 and 1280×800 CSS pixels from the first player
+  implementation. Check portrait and landscape behavior and intermediate widths. The
+  page must not develop accidental horizontal overflow.
+- Keep the active clue and editable entry usable with a phone keyboard open. Account for
+  visual-viewport changes, safe areas and short available heights. Collapsing navigation
+  or an accessible entry-focused view is preferable to obscuring the input. Do not
+  assume a fixed desktop viewport height.
+- Make grid letters and numbering readable, cell selection clear and controls
+  comfortable to tap. Prefer 44 px action controls. Validate cell targets against
+  accessibility rules for the selected grid and available width.
+- Preserve zoom and keyboard navigation. Offer a usable clue/entry alternative when an
+  enlarged spatial grid cannot fit. Neither hover nor drag is required for essential
+  play.
+- Add viewport assertions and representative visual snapshots to the first player tests.
+  Chromium/Firefox/WebKit coverage and real-phone keyboard checks verify different
+  risks; an emulated narrow viewport does not replace either.
+
 Desktop: grid beside Across/Down lists, active clue clearly anchored, progress and help
 within reach. Phone: grid and active clue remain visible while typing; test actual iOS
 Safari and Android Chrome keyboard resizing. Offer a compact keyboard if it improves
@@ -474,14 +500,14 @@ limits; no paid service is purchased by this plan.
 
 ## 8. Delivery milestones
 
-| Milestone                        | Deliverable                                                                                        | Completion gate                                                                             |
-| -------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| 0. Editorial foundation          | Era policy, answer/fact/clue schema, normalization rules, 100 reviewed seed entries                | Every entry has an original fair clue and eligible evidence                                 |
-| 1. Feasibility                   | Expanded bank, reproducible benchmark, seven finished puzzles, capacity report                     | Dense format is enjoyable and production effort is measured                                 |
-| 2. Foundation and vertical slice | Repository, CI, data migrations, one designed puzzle playable from published data                  | Keyboard/touch play and saved resume work end to end                                        |
-| 3. Editorial production          | Protected editor, imports, fill controls, review states, versioning and calendar                   | Owner can produce, review, schedule and correct a puzzle without editing application code   |
-| 4. Public beta                   | Daily/dated routes, archive, hints, local stats, sharing, offline, accessibility and observability | At least 14 reviewed puzzles, critical journeys tested, diverse playtest feedback addressed |
-| 5. Portfolio/public release      | Content buffer, documented operations, public project narrative and final polish                   | Full launch criteria below pass                                                             |
+| Milestone                        | Deliverable                                                                                        | Completion gate                                                                                            |
+| -------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 0. Editorial foundation          | Era policy, answer/fact/clue schema, normalization rules, 100 reviewed seed entries                | Every entry has an original fair clue and eligible evidence                                                |
+| 1. Feasibility                   | Expanded bank, reproducible benchmark, seven finished puzzles, capacity report                     | Dense format is enjoyable and production effort is measured                                                |
+| 2. Foundation and vertical slice | Repository, CI, data migrations, one designed puzzle playable from published data                  | Phone/tablet/desktop layouts, keyboard/touch play, keyboard-open behavior and saved resume work end to end |
+| 3. Editorial production          | Protected editor, imports, fill controls, review states, versioning and calendar                   | Owner can produce, review, schedule and correct a puzzle without editing application code                  |
+| 4. Public beta                   | Daily/dated routes, archive, hints, local stats, sharing, offline, accessibility and observability | At least 14 reviewed puzzles, critical journeys tested, diverse playtest feedback addressed                |
+| 5. Portfolio/public release      | Content buffer, documented operations, public project narrative and final polish                   | Full launch criteria below pass                                                                            |
 
 Milestone 0 is the immediate next implementation task. Content work and the app's
 foundation may progress together after the vocabulary/grid experiment has established a
