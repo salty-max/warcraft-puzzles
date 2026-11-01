@@ -8,3 +8,6 @@ coverage/
 .vercel/
 playwright-report/
 test-results/
+
+# the harness's local state
+.harness/
