@@ -203,7 +203,7 @@ describe("content contracts", () => {
     );
   });
 
-  it("validates all 100 committed triads without private databases", () => {
+  it("validates the entire expanded catalogue without private databases", () => {
     const editorial = EditorialSchema.parse(
       JSON.parse(
         readFileSync(
@@ -220,7 +220,7 @@ describe("content contracts", () => {
         ),
       ),
     );
-    expect(editorial.entries).toHaveLength(100);
+    expect(editorial.entries).toHaveLength(342);
     expect(
       editorial.entries.filter((entry) => entry.answer.enumeration.length > 1).length,
     ).toBeGreaterThanOrEqual(25);
@@ -229,7 +229,7 @@ describe("content contracts", () => {
       validateCatalogue(editorial, snapshot, "publication").filter(
         (issue) => issue.code === "unapproved",
       ),
-    ).toHaveLength(100);
+    ).toHaveLength(editorial.entries.length);
   });
 
   it("counts a multi-word entry by total letters, not its longest component", () => {

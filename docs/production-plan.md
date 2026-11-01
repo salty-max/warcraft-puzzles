@@ -159,12 +159,14 @@ release.
 
 ### Immediate next work from the current seed
 
-The repository has 100 evidence-checked triads, including 31 multi-word answers,
+The repository has 342 evidence-checked triads, including 35 multi-word answers,
 validation, CI configuration and the first tested grid engine/benchmark. The
-[initial report](fill-benchmark.md) found no fills across 18 diagnostic layouts;
+[current report](fill-benchmark.md) found no fills across 29 diagnostic layouts;
 [the engine guide](grid-engine.md) explains the exact limits and vocabulary gaps. No
 completed Warcraft grids, player or publication approvals exist yet. Targeted bank
-expansion is next; the baseline does not prove all dense layouts impossible.
+expansion remains necessary; these results do not prove all dense layouts impossible.
+The [first expansion record](seed-expansion.md) compares the preserved 100-answer
+baseline with this batch and records source/era and faction limitations.
 
 1. Implemented: the tested grid/slot model enforces connected white cells, fully checked
    letters, minimum three-letter entries, legal crossings, numbering and no repeated

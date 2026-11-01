@@ -82,7 +82,7 @@ expansion.
 4. `approved`: a completed cold pass permits publication at entry level.
 5. `rejected`: retained as a record, excluded from publication.
 
-The current 100 entries are `evidence-checked`. The automated gate requires an explicit
+The current 342 entries are `evidence-checked`. The automated gate requires an explicit
 cold reviewer and a current content digest for approved entries. It does not impersonate
 a human reviewer or auto-approve a successful source query. Final grid review is an
 additional milestone after entry review.
@@ -109,8 +109,16 @@ additionally replays every locator against an explicit read-only database and ch
 whole-file fingerprint. A fresh database, even one with only unrelated changes, requires
 an intentional snapshot update. Keep that distinction visible.
 
-The `name` locator supports area, faction and race labels. It reads the actual `name`
-field, while prose locators read `text`. An exact name validates spelling; it does not
-prove a geographical or historical relationship. Pair it with text evidence for those
-claims. Structured type/location relationships will receive their own typed locators and
-tests when added. Do not fabricate a prose quotation from a structured label.
+The `name` locator supports area, faction, race and spell labels, plus the client's
+`spell_description` records. It reads the actual `name` field, while book/quest locators
+read `text`. An exact label validates identity/spelling; it does not prove a
+geographical relationship, class assignment or availability history.
+
+Spell descriptions support the effects they actually describe. Keep raw tooltip
+placeholders such as `$s1` and `$d` intact in evidence. Do not invent resolved damage,
+duration, range or target-count values from them. A spell's name alone does not prove
+its mechanics. The expanded seed pairs names with descriptions, uses familiar legacy
+abilities/effects, and makes no unsupported player-class or learnability claims. Current
+client presence alone does not establish first disclosure; era and retcon review remain
+manual gates. Structured type/location relationships need their own typed locators and
+tests when added. Do not fabricate prose from a structured label.

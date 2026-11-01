@@ -2012,6 +2012,3187 @@
       "sourceId": "classicdb",
       "rowSha256": "56660e5bc5db4e82bf28ccd4c9d8b99a592cdb4aec709be9ad42fa3f1cca2aa0",
       "excerptSha256": "491b7c2dad82e0d08ef788584bcd536e75871ec654dc206ef60e4ce7f0d786a0"
+    },
+    {
+      "id": "quest-1531-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1531,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "You be makin' headway now, mon. Your be ready to prove yerself worthy of the air totem, but first, ya must fin' Prate Cloudseer in Thousand Needles. She be willin' ta tell ya how to get yer air totem if ya treat her wit enough respect.$B$BHead south through the Barrens, and after ya reach Thousand Needles, head east. You'll find her hiddin' in a hole wit' her boyfriend--haha, don' tell her I be dissin' her none--she not take it too kindly.",
+      "sourceId": "classicdb",
+      "rowSha256": "00c32a38e0eb91afe5cd11d2c78539b7f10c4e8a694c08f710e09e37f5a6bdae",
+      "excerptSha256": "a3247d7f4e2508f9b7126a5fab64a49055f7930f171d5ef95f6caf306ffcdb7a"
+    },
+    {
+      "id": "quest-1252-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1252,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "A glint of light on the ground catches your eye from underneath the rubble. Brushing away debris and ash caked onto the object reveals the insignia of a gold anchor on white enameled on the surface: the sign of Theramore.$B$BUnderneath the anchor is embossed the name \"Lieutenant Paval Reethe\".",
+      "sourceId": "classicdb",
+      "rowSha256": "bc7d3109a2d5415546aa01ffc0a8ce692508d9279e181cd5d5ed8d5c2a551005",
+      "excerptSha256": "e58421176d5eee9122a9a447fc9edefcbf043569a47e30c8cde06294f22c3c43"
+    },
+    {
+      "id": "quest-276-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 276,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Mosshide Gnolls have lived in the Wetlands peacefully for many years, but now grow in numbers.  Their feet stamp flat the fen's bushes and flowers, and their foul axes cut too much wood to fuel their fires.$B$BThey are no longer in balance with the land.  For the Wetlands to survive, the Gnolls must be reduced.$B$BKill 15 Mosshide Gnolls and 10 Mosshide Mongrels.  Hunt them to the south, near the Dwarven gate of Algaz.  After you do this, return to me.",
+      "sourceId": "classicdb",
+      "rowSha256": "048be13643cc78ddc070b065e11600423c644a34ef0655df354b5097cafb5cbc",
+      "excerptSha256": "e28895bcee8abf74d19b0d4e6807d874713eac9ba031fd2c44095d21686d6547"
+    },
+    {
+      "id": "quest-257-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 257,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Think you can match wits with Daryl the Bold, huh? I should think not! Of course, you're more than welcome to try. Here's a challenge that should prove to be above your abilities, so don't feel too bad if you can't face up to it.$B$BA flock of buzzards has nested here in Loch Modan. Why don't you try to take down some of the beasts? Tell you what, if you meet my challenge in fifteen minutes, I'll give you my bow or gun.$B$B<He looks you over dismissively.>$B$BIt seems you haven't much to lose, anyways.",
+      "sourceId": "classicdb",
+      "rowSha256": "a1a56e5f78ae8ee6770eadecd21e706be6c7ce548dfdb1f8c5ea02fb857ddcbb",
+      "excerptSha256": "84ce70522cb0ae1c4df814a483833fce804e8954c084af7c9b933f642e2ef2f3"
+    },
+    {
+      "id": "quest-6084-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6084,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Those crag boars are quite burly; maybe you'd like something with a little more finesse? Alright then, I've got jus' the thing. South and east of here, you'll find large white cats called snow leopards. Just like an elegantly-carved rifle, behind their beautiful exterior lies a powerful fighter, capable of doing extreme damage. You'll find them to be much more agile an' swift than the boar you tamed.$B$BTake this taming rod and see how you like the snow leopard.",
+      "sourceId": "classicdb",
+      "rowSha256": "fa09f2819e13db97a1f7da95ee2250236910366bd5a1d2ae221ac9c5cac0bbf6",
+      "excerptSha256": "56d88f40090064af2e0c6bf3a9da9ebb23726a50906c3d1f31b15191b6d3eb77"
+    },
+    {
+      "id": "quest-483-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 483,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Gnarlpine invaders were seen ravaging the Ban'ethil Barrow Den to the west.$B$BThe slumbering druids will be trapped in the Emerald Dream for eternity, unaware of their fate, unless we help. The delicate hibernation ritual cannot be broken without the Relics of Wakening.$B$BJourney to the Den and retrieve the Raven Claw Talisman, Black Feather Quill, Sapphire of Sky, and Rune of Nesting. The druids store them in sacred chests.  Return them to me and I will prepare the awakening ritual.",
+      "sourceId": "classicdb",
+      "rowSha256": "766debde7c659d12fda0f6f79ec99faef5c19b3a804907fce0925fac81feb398",
+      "excerptSha256": "189c3410843505e1a727ca8180f811fb9e46022083a0c9945805318406458cec"
+    },
+    {
+      "id": "quest-189-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 189,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Damn trolls! They've been killing off our agents in the jungle! I've already lost a good number of my best guards to skirmishes with them. The costs are piling up! How will I explain this to Baron Revilgaz?$B$BDecisive action... Think, Kebok... you weren't assigned to the post you have today for sitting around... I've got it! You... $n, is it? You'll help me, won't you? There's money to be had!$B$BHere's the deal... you bring me the ears of fifteen Bloodscalp Trolls, and I'll compensate you well.",
+      "sourceId": "classicdb",
+      "rowSha256": "0a20d0bc8d6845f9aa7ccebd8aaca5fa3c337c0890f3a8df22497978db793fad",
+      "excerptSha256": "f5c6cb0376680f556bee1f5ef3f5327cc2133cbd48f8eed319c832cbf4e5d2eb"
+    },
+    {
+      "id": "quest-9204-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 9204,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The bearer of this writ is entitled to payment in the form of an insignia of their choice upon completion of the contracted work order.$B$BWork Order FS-5:$B$B40 Stonescale Eel.$B$BAll filled orders should be delivered to Packmaster Stonebruiser at Light's Hope Chapel in the Eastern Plaguelands.$B$BContract is null and void if tampered with or damaged.$B$B-Dispatch Commander Metz, The Argent Dawn",
+      "sourceId": "classicdb",
+      "rowSha256": "63fdfd88cd727e603106de310e7edbac03d90447c6ca9b034d879edb82c2a36f",
+      "excerptSha256": "c7184510ddc9eabe5f3a000f888a71a9554308a245018db2ca06fcef2bce7936"
+    },
+    {
+      "id": "quest-38-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 38,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Help me make some Westfall Stew!  Come back with the following ingredients: $B $B 3 Stringy Vulture Meat $B 3 Goretusk Snouts $B 3 Murloc Eyes $B 3 Okra",
+      "sourceId": "classicdb",
+      "rowSha256": "52e388a4df06e5202e701e158dcec4e1153c3108a8c479a95cd21813c4bf7bc3",
+      "excerptSha256": "f25076b4bff90e106af1f00b7a0c55bc8dfcc86deb008c6606d1433aed266652"
+    },
+    {
+      "id": "quest-317-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 317,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I'm preparing to start a mission for the Siege Brigade.  It's a long one, and I need to stock Jetsteam with a month's worth of supplies.  So while Steelgrill is working on my tank, can you do some hunting for me?$B$BI'll need some fur for bedding, and boar meat for food.  You can get meat from boars and fur from the bears... you can find them both in the snow fields south of the Grizzled Den.",
+      "sourceId": "classicdb",
+      "rowSha256": "61521eaf476292468352249115f925f3a1ed9641e5634bb1cb0d4d0dd67d565d",
+      "excerptSha256": "0fb0c4eaeb508e77b32b9fa2c0176c972db46975323ae770cf89b81c21c54faf"
+    },
+    {
+      "id": "quest-411-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 411,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Take this Nether Gem to my old comrade Bethor.  It will let us communicate ... and I have much to tell him.",
+      "sourceId": "classicdb",
+      "rowSha256": "557140d9b5703dc8d4837e67fc4682d12b17d0884a7fb09826604c77ef5139b4",
+      "excerptSha256": "770e955ac13b021f95a187e17a75e0642a8e4959c2b5ee4927add41316123806"
+    },
+    {
+      "id": "quest-345-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 345,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I've been meaning to finish my copy of The Stresses of Iron, but...$B$BWell you see, I make my own ink for books I copy.  It's my own recipe; it doesn't run or smear, and it dries very quickly  Unfortunately, it dries too quickly!  My last batch dried up before I could finish the copying job, and I haven't had the chance to make more ink!$B$BTo make more I need Rethban Iron Ore from the Redridge Mountains.  Foreman Oslow in Lakeshire is my usual supplier.",
+      "sourceId": "classicdb",
+      "rowSha256": "f4f3abc06c2fb8777232e2d6ee7cabfb9a58598f1ab18942af0f67ec9a627b34",
+      "excerptSha256": "e26e040262248c30eec1db65d3fcbeb354fed46bb57793071a22d9673b07cacc"
+    },
+    {
+      "id": "book-12438-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 12438,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Hi Felnok!\n\nMy studies in the Burning Steppes are proceeding splendidly.  And I owe $N a lot for all $ghis:her; help!  Here's what I need to continue:\n\nA steelcoil bumber-bitzel\nA 17-gauge ice-spanner\n12 pounds of duck feathers\nA jar of that glue you make\n\nThanks a lot Felnok, and when we see each other again remind me not to put coal in your boots!\n\n-Tinkee",
+      "sourceId": "classicdb",
+      "rowSha256": "fe6a14f68ba5e7f6bf023dd3cf60b7f656ab2674e5b8bd7bc0e7dc2b580ec4dd",
+      "excerptSha256": "fa2d5f8f35bea5eafb6ba9ec6b753880117a6740f399b7b9cb1f67c3f5f543c6"
+    },
+    {
+      "id": "quest-290-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 290,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "To break the curse and free all of my brethren, the...thing...stowed on my ship must be retrieved and cleansed!  I don't know what it was, but I do know that it was stored securely in the ship's strongbox, which Captain Halyndor lorded over.$B$BMy old captain is still in my dreams.  I know he walks my doomed ship, the Intrepid.  Get the key from him, and use it to open the Intrepid's strongbox.$B$BThen, after you have the cursed thing, bring it to the priest Glorin Steelbrow in town.",
+      "sourceId": "classicdb",
+      "rowSha256": "8dd15faba8964e9612b298977009351288b3f54d7b6d43b45b7d21c0f8f7712f",
+      "excerptSha256": "831d3ba5e72707b945cb579b0598086876063f4a32df5a8d05e8b14eb453a672"
+    },
+    {
+      "id": "quest-597-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 597,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The map shows Booty Bay with a red \"X\" drawn precisely at the spot at which you are standing.$B$BThe scribbled text reads:$B$B\"You men are to secure a camp at this location and keep quiet.  Wait for the signal from the southern command post before attacking.  If anyone approaches you, kill them.\"",
+      "sourceId": "classicdb",
+      "rowSha256": "703d3fbdba24c55d5b8226e6a9479b479603e20095e3f06b833f20e2303ef15d",
+      "excerptSha256": "844a7ce29d081487df3713215f9689345283927f288342d18c2d5dc308576388"
+    },
+    {
+      "id": "quest-53-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 53,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Mellifluous liquid clear as a baby's tears$BTurns a lovely deep amber over the years$BBut before we proceed to get lit to the hilt$BA barrel of charred oak must be built.",
+      "sourceId": "classicdb",
+      "rowSha256": "886a91361cf0f0f362442a8ca3f4d8c745778bacc502755765bfca8b9da5c0ab",
+      "excerptSha256": "5d670dee777504701a2250c3d8e595908fb69946433fc75588579d2736069bb9"
+    },
+    {
+      "id": "quest-103-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 103,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The night the Lighthouse Keeper's family died was horrible.  I watched, helpless, as Old Murk-Eye led the attack.  But what's done is done and now my concern is for the lives of the sailors on The Great Sea whose ships come close to the perilous rocks of the coastline.  With no one to keep watch on the flame the responsibility has fallen upon me.$B$BHelp me keep the torch lit by bringing me 5 flasks of oil from the Harvest Monsters.",
+      "sourceId": "classicdb",
+      "rowSha256": "90d33614e6571030fab3fa1d35e46741eacbcb0314f85cc79a92ec845c35411f",
+      "excerptSha256": "8464ea3b176552614b356397b798c46d8ed2d134dd5af57044349275297e4783"
+    },
+    {
+      "id": "quest-488-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 488,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Eager for work, I see.  Lucky for you a day never goes by that I don't wish I had a fledgling $c to perform my bidding.$B$BYou see, $N, I can make you very happy and provide you with things you never dreamed of having.  But in order for that to happen you must bring me certain items.$B$BMy business in the forest often requires certain. . .reagents.  Fetch for me 3 Nightsaber Fangs, 3 Strigid Owl Feathers and 3 swatches of Webwood Spider Silk.$B$BLet's keep this our little secret, $r.",
+      "sourceId": "classicdb",
+      "rowSha256": "5b467fdab7df30acfd440754014713d8912fde9e53d05992dd1982c7e5e6f56e",
+      "excerptSha256": "c4b19099e896a3ed2e71d343df8f850020003f36e12d6437df29128c90d0a51b"
+    },
+    {
+      "id": "quest-102-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 102,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Stormwind has abandoned us.  A foul wind of depravity rustles through the plains of Westfall.  This was my homeland and I will not turn my back on the citizens who choose to remain here.  We, the former farmers, shall make our stand.$B$BYour task, should you choose to accept, is to patrol the grasslands of Westfall.  Track down and slay the vile Gnolls that seem to be working in conjunction with the Deadmines thieves. Bring me eight Gnoll Paws and I will reward your bravery.",
+      "sourceId": "classicdb",
+      "rowSha256": "1c9f58352273db258f2b40124f51afcaef68089715a9d248798d77b55aa6593f",
+      "excerptSha256": "6f6fbcebc1e0e92988398733efd3aa62eb3a505fa76a2ecf65f80612f5b5fc9d"
+    },
+    {
+      "id": "quest-22-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 22,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The onions are peeled.  The garlic is minced.  The rosemary is crushed.  The crust has been baked.  The dill weed is chopped.  The gravy is simmering.  Now all I need for my famous meat pie are 8 Goretusk Livers!",
+      "sourceId": "classicdb",
+      "rowSha256": "5999446032e9048f0f122bf158897ce1f64d6108b396282e33d3698052a3bbef",
+      "excerptSha256": "3ca5a6d849ccecbb3fe54c77c52f6b8e9e89f877b00ecbbf68f1b7d4d4e8087f"
+    },
+    {
+      "id": "quest-7002-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7002,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "While some of our soldiers are busy capturing wolves for the stable master, others must provide for the simple necessities that riding requires. I am speaking of riding harnesses, of course.$B$BYou must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!$B$BSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!",
+      "sourceId": "classicdb",
+      "rowSha256": "7d077f7a3a88abb5c0fd59012463c25f09f1d484d024b4dafaa9d34bfaf82285",
+      "excerptSha256": "862b669e28e68f01106d94d13e4861441e5ec09f0ae640465c0b58891f35f331"
+    },
+    {
+      "id": "quest-6661-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6661,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Capture 5 Deeprun Rats by using the Rat Catcher's Flute. Lead the rats back to Monty. Don't forget to turn in the flute when you're finished.",
+      "sourceId": "questie",
+      "rowSha256": "f8baabf77fceb89d3ff562408318c9d512c89676b0a31316105e214d8f8d505d",
+      "excerptSha256": "0c044420dcf80405bd8b58f6bc2c5d409acdbc0ae1102bf7dec04fa6fca28464"
+    },
+    {
+      "id": "quest-49-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 49,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Amber is the hue of my life's longest love$BLike the last embers of dusk in the sky above$BRetrieve for me so that my love shall be born$BOne sack of each: barley, rye and corn.",
+      "sourceId": "classicdb",
+      "rowSha256": "fa737ce8ce4bf9955d065740faede77f03b623c2ad790fbb4a00c9e60f35d42d",
+      "excerptSha256": "7bd390452925133d7e554561f082ac5ed4af902267cf60a0e1ef827eb9584cef"
+    },
+    {
+      "id": "quest-1058-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1058,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "So excited I am!$B$BThree little cages for three little elves! But what shall we do with our lovely tree-hugging friends? Why, let's give them a taste of... what do they call it... forest magic!$B$BI'll need a good mess of Stonetalon sap. From those horrid felines, bring me some twilight whiskers. This calls for plenty of courser eyes, of course -- can never have enough eyes. Oh, and lest we forget, a precious scale from a fey dragon.$B$BHurry to Stonetalon Peak, $n, so I can brew some forest magic!",
+      "sourceId": "classicdb",
+      "rowSha256": "396179075bdda52933f6bb7439791b1fc2d8c97657326439f7a5ccb9af17ab38",
+      "excerptSha256": "d70a918149879fe110ce95c85b3f0c19df76fdcd62446d11eb86ead9105756e6"
+    },
+    {
+      "id": "quest-200-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 200,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "If Kurzen knows Thorsen's secret, then we have a spy in our midst.  We must determine how the secret was leaked!$B$BThorsen's contact within Kurzen's camp was Bookie Herod.  Herod is Kurzen's logistics officer and knows everything about the running of Kurzen's Compound.  If you can get Herod's notes or records, maybe we can find out how Thorsen was discovered.$B$BWhen we were still with Kurzen, Bookie's office was on the top floor of the camp's only two-story house.  His records are probably still there.",
+      "sourceId": "classicdb",
+      "rowSha256": "5b7a24730f0ad39ab250e0050f589508522fac93748d68faf012986904ba6e74",
+      "excerptSha256": "482c7dd2b741d26e9eec4d4b6d824a6acf99cb8e0a52d4010e97273e6512cc49"
+    },
+    {
+      "id": "quest-99-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 99,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "As my understanding of Arugal's magic grows so does my disdain for the hapless fool.  I am close to completing my research on his so called remedy.$B$BMy knowledge will be complete when I learn what enchantment is causing the strange behavior going on in Pyrewood Village.  By day, the peasants appear to be Human.  But when the sun goes down the townsfolk turn into Moonrage Worgen.$B$BI need to draw energy from the enchanted shackles Arugal cast on them.  Bring to me six enchanted Pyrewood Shackles, $N.",
+      "sourceId": "classicdb",
+      "rowSha256": "9ae04516ac14655323f0a2ea66a0a576f2374a3f6389435255e6d001e7e8f0f8",
+      "excerptSha256": "5654886226bdaeefbadca1aa48b968a61c0a6edf8abf920e7b721be129ca4dd2"
+    },
+    {
+      "id": "book-175751-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175751,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Months passed, and more orc prisoners were rounded up and placed within the internment camps. As the camps began to overflow, the Alliance was forced to construct new camps in the plains south of the Alterac Mountains. To properly maintain and supply the growing number of camps, King Terenas levied a new tax on the Alliance nations.",
+      "sourceId": "classicdb",
+      "rowSha256": "904efbf23d5d979d22fe910f3cd8528c342a47669670a60fef90a005d32570cd",
+      "excerptSha256": "3d7a0de115b051d0bde5032cc0c686b6cae286170c8614eaee29c3cec2ca6904"
+    },
+    {
+      "id": "book-11482-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 11482,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "<HTML>\n<BODY>\n<H1 align=\"center\">\nNorthern Crystal Combinations\n</H1>\n<BR/>\n<P align=\"left\">There are two possible effects: one that will produce damage, and one that will negate damage. </P>\n<BR/>\n<P align=\"left\">CRYSTAL CHARGE: Requires red and yellow crystals. <BR/>This will produce a large explosion.</P>\n<BR/>\n<P align=\"left\">CRYSTAL RESTORE: Requires yellow and green crystals. <BR/>This will provide you with a healing aura.\n</P>\n</BODY>\n</HTML>",
+      "sourceId": "classicdb",
+      "rowSha256": "57fdd8f83643d924dda17b8b817cb59ca03f84120ecbe285c7665da267245f71",
+      "excerptSha256": "11c419276ba0d1681f66d9f05f5aca7e18dfb6fe41dae1c0a97f29ac4ba7b95d"
+    },
+    {
+      "id": "quest-34-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 34,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Once again my garden was trampled and pillaged.  And I know the brute who is doing it.  It's that forsaken boar, the one Marshal Marris has taken to calling Bellygrub.$B$BI won't be able to re-plant the daffodils until next season now.  Ruined!  All ruined by that one menacing boar.  Put an end to that pest!  Show me his tusk and I'd be happy to reward you.  He seems to spend his time foraging in the field southwest of Lakeshire but occasionally he roams over here and into my garden.",
+      "sourceId": "classicdb",
+      "rowSha256": "89f9f1c3540bbd7160ed08ac190d77d18a3d85626c779ef318d22f34cccd9011",
+      "excerptSha256": "6558ceece8d22b9ea953a28747b21e61d33f010a3c5a7c9ec67bd38415255b7a"
+    },
+    {
+      "id": "quest-23-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 23,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The paw of the mighty bear Ursangous is your trophy for this part of the Ashenvale Hunt.  On the paw is a small quarter-crescent emblem; the significance of the emblem remains a mystery.$B$BThe paw should be brought to Senani Thunderheart in Splintertree Post to prove that you have bested the mighty creature and completed this portion of the hunt.",
+      "sourceId": "classicdb",
+      "rowSha256": "d0aa0a0cd6e08a793a0a0e5127d8d446d6fa0f1880f95d2e09f1c33f41499656",
+      "excerptSha256": "06277d7ee497d24bb10b179ccf8b81c6e4fa471975210ada37ff4749e80a2751"
+    },
+    {
+      "id": "book-1656-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 1656,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Greetings Ello Ebonlocke, Mayor of Darkshire.  I'm afraid I have news for your town.  Grave news.\n\nYou see, I am a creator.  I fooled the bearer of this note into aiding me in my latest, most dire creation - a fiend of flesh and bone and twisted metal!  As you read this, it's likely outside my humble dwelling, gnashing its teeth and waiting for my word to go forth and slaughter.\n\nBut you'll know soon enough.\n\n-The Embalmer",
+      "sourceId": "classicdb",
+      "rowSha256": "2a27cb7b15fb9ea334755e5e386787d20fae192dbb846400d5eb77d35ed5df97",
+      "excerptSha256": "8724e93736f7dd617898d34a372be306b01a87f3a0b90bf5adb4d274ad18414b"
+    },
+    {
+      "id": "quest-705-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 705,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Badlands is a harsh place, filled with vicious predators and bold scavengers.  Scary, especially for a short little goblin.  To survive, I have to be tricky!$B$BI know the recipe for flash bombs.  I use those to scare away wildlife.  But I'm running low on one of the ingredients: crushed blue pearl powder.  Get me some and I'll make it worth your efforts.$B$BHeh, and I hope you have good boots on.  The Blue Pearls I need are found from clams at the Vile Reef.$B$BYep, the Vile Reef in Stranglethorn!",
+      "sourceId": "classicdb",
+      "rowSha256": "df1b98511612a5de032a9c0118d918c3f49e4fa1c507e6ead3cec93d8779b297",
+      "excerptSha256": "34095f63642d016328df7a83014e2d57d0713e351ac32d3815bc3ba48720fc34"
+    },
+    {
+      "id": "quest-2-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The mighty hippogryph Sharptalon has been slain, with the claw of the felled beast serving as a testament to your victory.  Senani Thunderheart at the Splintertree Post will no doubt be interested in seeing this trophy as proof of your deeds.",
+      "sourceId": "classicdb",
+      "rowSha256": "e0d510335f4fd07ea026e540ab2a89cfaef3ba84e98f646a4eb63762df847295",
+      "excerptSha256": "5244613da96bf7d3458fdff28f59a3d9c40fe3dd6c97243e2eb731e02a567316"
+    },
+    {
+      "id": "quest-1138-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1138,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I love crab.  Crabs are the fruit of the sea!  You can bake it, barbecue it, boil it, and broil it.  They're pan fried, deep fried, and stir fried.  There's crab salad, crab soup, crab stew, pepper crab, lemon crab, whipper root crab, and Ironforge surprise crab.  That's... that's about it.$B$BI'm here fishing right now, so I can't get any fine crab chunks.  You can pick them out of reef crawlers and encrusted tide crawlers.  You can make a lot with it.  You can bake it, barbecue it, boil it...",
+      "sourceId": "classicdb",
+      "rowSha256": "c12e70ac748c1bc96b34c3e8caec7f85a624dd2bd26af4fe8c806916c4381d32",
+      "excerptSha256": "56e2b99337c84b55a4ecaadd77da7d3b2c8b6cd35ee803ef565a367838ff0604"
+    },
+    {
+      "id": "quest-312-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 312,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I had a month's worth of dried meats salted and locked away for the cold season.  Kept it locked so the bears wouldn't get it!  But while I was off hunting deer, that beast, Old Icebeard, made off with the meat locker.  He won't be able to smash through that Thorium though.  But I'll starve if I can't get my meats back.$B$BYou seem a bit more stealthy than me.  Perhaps you can retrieve my stash?  I'll never make it in and out of that cave fast enough with this bum leg of mine.",
+      "sourceId": "classicdb",
+      "rowSha256": "d671bb176d885b54799764b557ae5771ef872bd50d891377018685c4f29ba209",
+      "excerptSha256": "abb4418b176ec6b3a64083d6845d18c4b3f18580d8efe497ad17d12e62e8f88f"
+    },
+    {
+      "id": "quest-47-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 47,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Kobolds in these parts sometimes carry Gold Dust on them.  I could really use the stuff - bring me a load of it and I'll give you the best price in town...best price in town!$B$BYou can find kobolds in the Fargodeep Mine to the south, and around the Jasperlode Mine to the northeast.",
+      "sourceId": "classicdb",
+      "rowSha256": "d248d7bf838f3d7ff700384b4b2a9d9cf640d49b0a5fc93fcb8605da4e1698fb",
+      "excerptSha256": "ba5992620dc67cfeab27b50a4b53d33f801034d1090f8f797afcc63aae6f9992"
+    },
+    {
+      "id": "quest-193-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 193,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "You've almost proven yourself to be a master hunter of panthers.  A panther by the name of Bhag'thera has been prowling the jungle.  So far he's eluded our party.  See if you can use your skills to kill the great Bhag'thera.$B$BBring me the Fang of Bhag'thera and you'll have earned my respect!",
+      "sourceId": "classicdb",
+      "rowSha256": "d13d87b4f13b98bcdaba2f883378cf6f473495aadb24190c0ddfcc73f795a65f",
+      "excerptSha256": "5a43b962b3ce013e3eed632d90fbdb03ea0415e0716779582d729e74297380a6"
+    },
+    {
+      "id": "quest-40-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 40,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "$N, there's a new threat in Elwynn Forest!  Murlocs are swimming up the streams of eastern Elwynn, scaring away fish and attacking gentle folk!$B$BI warned Marshal Dughan, but he's more worried about the gnolls and the bandits.  He's not convinced that the murlocs are a danger.$B$BPlease, $N, speak to Dughan and persuade him to send more troops to the east!",
+      "sourceId": "classicdb",
+      "rowSha256": "586e85aca126fee54991771e65fe104f5fef8ff1a27e27b861bbabbb831aa2e9",
+      "excerptSha256": "4f95da99e7ea1d75c412a706c9e8aa6e2fef80f0194bda311096f58b6039b80a"
+    },
+    {
+      "id": "quest-5-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I've been stuck hiding in this ghost town for weeks, and I haven't eaten anything but grubs and weeds!  I need some decent food, and I'm willing to trade well for it.$B$BBring me a feast and I'll pay you handsomely.$B$BI heard Chef Grual at the Scarlet Raven Tavern in Darkshire makes very good Dusky Crab Cakes...",
+      "sourceId": "classicdb",
+      "rowSha256": "d9bf308643181db355cb6d883804ddd4ddd14ae3ad8d566a5418a7a690687afc",
+      "excerptSha256": "b91591e42954295dc94589c70c758b11e74c08100d868fdb6e7b7ed9048d7a8e"
+    },
+    {
+      "id": "quest-204-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 204,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "To have a chance against Kurzen, we need his healing support neutralized.  He has gathered a large number of Medicine Men who heal his forces with Jungle Remedies and poison our fighters with Venom Fern Extracts.$B$BWe need those remedies and extracts for our own.  Search the Kurzen Compound - his Medicine Men and Jungle fighers will have the remedies, and the extracts are probably stowed in some of the camp's supply boxes.",
+      "sourceId": "classicdb",
+      "rowSha256": "5197e9459e5b16ea14b6b41d81c5199c96ced8fc9d1488fac550296f0451c478",
+      "excerptSha256": "356759db2e051491bb64f7562a5ab921bf9e7a3ccafe957a6ad1f2d87de6fee6"
+    },
+    {
+      "id": "quest-883-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 883,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Hoof of Lakota'mani is a symbol of the strength of the great kodo.",
+      "sourceId": "classicdb",
+      "rowSha256": "58cdff5c979c7abd2e2c63be2a97a3c81acac6a66a060493187da05d13bca3ee",
+      "excerptSha256": "3eb933a244d3a70b2ebbe2f9603537357eb959b8385aa88b5bc8733addd15ed8"
+    },
+    {
+      "id": "quest-117-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 117,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Hurry, my friend, move with haste $BIn order for our rich lager to taste $BMore like beer and less like stew, $BHops are needed to make the brew.",
+      "sourceId": "classicdb",
+      "rowSha256": "60845caf22a5719426bd87f5c52db279965d4f90c7e7b724f2c64ab77e74af89",
+      "excerptSha256": "b8e5972fdabd49d05a7c8ab33ac932a7a43438cc2236a802a517778159b2436e"
+    },
+    {
+      "id": "quest-472-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 472,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Dun Modr has fallen to the Dark Iron Dwarves!$B$BMy wounds are grave, $c.  Most of the regiment was killed!  The Dark Iron thugs attacked us before we could regroup from the Thandol Span ambush.$B$BOur leader, Longbraid, sounded the retreat horn.  As we left the town I was hit by a stray axe in the back.  All went black.$B$BI awoke here in Menethil but I fear for my fellow soldiers.  Hope still burns within me.  Perhaps Longbraid is still alive!  See if you can find him near Dun Modr, $r!",
+      "sourceId": "classicdb",
+      "rowSha256": "94dd7efc73184584597263e9d76eb0f6be34a6027b09ac68904bab293bf4ae65",
+      "excerptSha256": "ab007ac5bd55f59db4a32e4d49c7b0ed78aa6c9c69f1bb09a9b0185b339058ee"
+    },
+    {
+      "id": "quest-89-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 89,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "During the last orc invasion we were forced to smelt our iron down to make bullets, swords and armor.  We sent word to Stormwind for a new shipment of materials but a band of Redridge gnolls hijacked the caravan and ran off into the hills behind Lakeshire.$B$BNow we're coming up short on supplies to get this bridge rebuilt.  If you can bring me 5 iron pikes and 5 iron rivets, $N, I'll make sure you're rewarded. $B$BNow let's get to work!",
+      "sourceId": "classicdb",
+      "rowSha256": "4619ab039fd7915571003993af002bf9273ce6253e4a6f79a49fd4e2951e976b",
+      "excerptSha256": "539cfb6a1492a4fa4e433a7bd51836754d3a141933c28395b19bb2f32913beb0"
+    },
+    {
+      "id": "book-7516-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 7516,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Get a Jade.  They hide in many different places.  They are rare, but if you  speak with a blacksmith or engineer they might have one or two to spare.",
+      "sourceId": "classicdb",
+      "rowSha256": "7b791cf44e7b50c841f68935b6e5b00356eddd43001145cf5efa1932d87f0137",
+      "excerptSha256": "436a65eab1d29e7b887c13e1c501842b75939ba16352253c7ad2c48fc110102c"
+    },
+    {
+      "id": "quest-1821-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1821,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Agamand family were my employers in life, and they were the cause of my death!  It is fitting that the Agamands are now mindless minions of the Lich King.$B$BNow I would have their last vestiges of honor.  Go into their family crypt and rob them of their family heirlooms: a sword, an axe, a dagger and a mace.  Bring them to me!$B$BThe Agamand family crypt is at the north end of the Agamand mills, protected by lurking scourge and dead Agamands.",
+      "sourceId": "classicdb",
+      "rowSha256": "c112e9b3a680533106e1cfb7465976cbec19a7a917eeaa07659c2a5b2803d89e",
+      "excerptSha256": "aaecfb3fc328bced4500174b04d0daab3c10e7c3f708bed4d8e00ce184d2aace"
+    },
+    {
+      "id": "quest-234-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 234,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "If I remember correctly, Grelin's camp is down the road to the southeast. No doubt he'll be eager to get his mail.",
+      "sourceId": "classicdb",
+      "rowSha256": "7366d62d6dc6662ad13c620a7372bd2d2dea056dda8906be488ea18fde70e5b6",
+      "excerptSha256": "8a732fd97fc800ecb382c19619aae1bf9192c8f150ad60f45601776bbd4b5da0"
+    },
+    {
+      "id": "quest-162-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 162,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I urge you to take this report to someone who has working knowledge in this kind of thing.$B$BI know this night elf scholar named Gracina Spiritmight.  She's spent a lot of time studying life forms that are unique to the ecology of Azeroth; she's a historian to boot!  If you want someone to help figure out what exactly this threat is, and more importantly how to stop it, give her the report.  We'll need the help.$B$BLast I heard, she was residing in the Temple of the Moon, located in Darnassus.",
+      "sourceId": "classicdb",
+      "rowSha256": "690c390de85a8a17755a43761057b042dc48e82518bfb1310e542d3ba38e79f8",
+      "excerptSha256": "3e0a79ee1d52003e64572c6d5a7c49dd8d8f566df9a9e9a6852e3796c8ba06a8"
+    },
+    {
+      "id": "book-175759-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175759,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "He called in some old Highborne debts and lured the serpentine naga from their dark undersea lairs. Led by the cunning witch Lady Vashj the naga helped Illidan reach the Broken Isles, where Sargeras' Tomb was rumored to be located.",
+      "sourceId": "classicdb",
+      "rowSha256": "ad4160e67d6118e13afc6b4f2018b78273b0e6ce16231397149ecfc6958e2626",
+      "excerptSha256": "671cb4fa6f83b96037bc73fdc144b4729d6d4882a7341622405d6b8abfa41822"
+    },
+    {
+      "id": "quest-134-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 134,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "A few weeks ago I was picking herbs far from my house, and a band of ogres attacked me!  I ran, and I was forced to leave behind a crate of precious tools and herbs.$B$BAfter they chased me off, the ogres swaggered back to the ogre mound in southern Duskwood.  I'm sure my crate is somewhere near the mound.$B$BPlease, $N, retrieve this crate for me for I miss it sorely.",
+      "sourceId": "classicdb",
+      "rowSha256": "ce0df3730f47c03a79f5148b326c827fb0864c6aa2001e749f23c50ca1a0899b",
+      "excerptSha256": "3e16fad4b1df7cac4d3103eb6203869111dd0c16750db628a69c79ec7bafa89f"
+    },
+    {
+      "id": "quest-77-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 77,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I possess original packaging materials for the ripple Dran Droffers seeks.  I will assist you in packaging the ripple for Malton's abrasive father... for a fee of two additional bottles of said ripple.  They are located in crates found in the abandoned Horde base near Skulk Rock.$B$BIt will be an arduous task, to wit; foul slimes and oozes will be found sticking to the ruins; rumor has it they are led by some sort of master ooze.  Regardless, procure the ripple and return to me here for packaging.",
+      "sourceId": "classicdb",
+      "rowSha256": "da6151c9c1d5abe14cef7fd98b119984af56d771d770a5eeae95985fa57e2df7",
+      "excerptSha256": "2b5d01cc685261bb556cad73978790460d0eddd8fda37396e351a5d90abb6aef"
+    },
+    {
+      "id": "quest-456-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 456,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Greetings, $N.  I am Conservator Ilthalaine.  My purpose in Shadowglen is to ensure that the balance of nature is maintained.$B$BThe spring rains were particularly heavy this year, causing some of the forest's beasts to flourish while others suffered.$B$BUnfortunately, the nightsaber and thistle boar populations grew too large.  Shadowglen can only produce so much food for the beasts.  Journey forth, young $c, and thin the boar and saber populations so that nature's harmony will be preserved.",
+      "sourceId": "classicdb",
+      "rowSha256": "b8108f9727707520459205d50fdab4ff1f7ae1193fea10ecbb31161f692e3c9c",
+      "excerptSha256": "945f1abd42adca6faeadfc90c6858aa6d89a9a3737ae67cc5d02fe4ca7b740fd"
+    },
+    {
+      "id": "book-175725-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175725,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "At the continent's center, the Titans crafted a lake of scintillating energies. The lake, which they named the Well of Eternity, was to be the fount of life for the world. Its potent energies would nurture the bones of the world and empower life to take root in the land's rich soil. Over time, plants, trees, monsters, and creatures of every kind began to thrive on the primordial continent.",
+      "sourceId": "classicdb",
+      "rowSha256": "93b4caf2eda666b7ac7e72d493e633ce355dd22cfdd3545ae3071b5bd2f06045",
+      "excerptSha256": "5f277a3b3f9714dbb8afafcff2e5f4ca501ebbf87fc8500e26f284706768431f"
+    },
+    {
+      "id": "book-7668-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 7668,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Uldaman, Day 7\n\n...last chance at redemtion for my failures.  I believe the ruby is in the last barricaded area the dwarves have against the troggs.  Their battles, no doubt over the gems and the other artifacts from this site, rage continuously.  It would be just like those vile dwarves to hide it somewhere there.  Regardless, I must make a move one way or another.  Perhaps a mad dash to the surface is the best course...",
+      "sourceId": "classicdb",
+      "rowSha256": "40db3c4fa8237c87331f917fa898973f218907344d56702a4d4e06ac804c7e76",
+      "excerptSha256": "1a6f25bef6c9e38f0ed7ad90b81330cb33fcb90879aeae0483b137c6f6815f16"
+    },
+    {
+      "id": "quest-953-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 953,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "To the east you will find the ruins of Ameth'Aran. It is now inhabited by the restless spirits of the Highborne that once dwelt within its walls, but once it was a place where the servants of Azshara freely practiced their powerful magics.$B$BI was sent to explore the ruins and came across two large tablets, scrawled with the stories of Ameth'Aran and its fall. While I read the runes, I was accosted by the spirits, and fled.$B$BPlease, if you can, venture to the ruins and decipher the tablets in my place.",
+      "sourceId": "classicdb",
+      "rowSha256": "50366b70cb00798e651d6f3d2f3a015cf3d5c3d5fab66288640989bdac41a54d",
+      "excerptSha256": "30ae8f1e69f7c40ebeef9fa019846d2cf3945cee9994f8f777d841e5b4f1db59"
+    },
+    {
+      "id": "quest-489-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 489,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Council of the Forest has news that you aided Zenn Foulhoof. The satyr is an enemy of the forest. As a $r, you should know better than to defile the forest by killing Nature's creatures.$B$BYou must redeem yourself in the eyes of the Council if you wish to remain a friend of Teldrassil.$B$BTeach Foulhoof a lesson and you shall be redeemed. Fel Cones are corrupted seeds that fall from the trees. They billow with green smoke.$B$BGive some to Foulhoof. He'll think you have brought him a harmless snack.",
+      "sourceId": "classicdb",
+      "rowSha256": "168b90600bc4ab7113f267dcd1d54a07c9d90cbb78471b766e7afe948d1dcaaa",
+      "excerptSha256": "d4b677f3af901e300e425c270d40c4d3c14191b9891cff85f09648fae3b5f7a0"
+    },
+    {
+      "id": "quest-214-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 214,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "It's no secret that the trademark of the Defias Gang is their Red Bandanas.  But we've learned that the material from which these bandanas are made signifies the member's rank.$B$BThat being said, I want you to eliminate as many high ranking Defias members as you can.  The highest ranking members will undoubtedly be found in VanCleef's secret hideout.  When you're done bring me 10 Red Silk Bandanas as proof of their deaths and I will reward you.  Good luck, $N.",
+      "sourceId": "classicdb",
+      "rowSha256": "680f6d1e1e763d44175e3adfa90ad8328046a17af93dab572315e31973a9174c",
+      "excerptSha256": "0e870f3c47e8be77e1945e8df59c65ce369cbd69a2155747fc224217d6710bbf"
+    },
+    {
+      "id": "quest-6662-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6662,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Take the Carton of Mystery Meat to Nipsy at the Stormwind Deeprun Tram Depot.",
+      "sourceId": "questie",
+      "rowSha256": "c851bde76ad353566bb03d9980959c5ec8fa9473f3d8a5692e7bdd69a1dbda88",
+      "excerptSha256": "43261d31fceeec596e2e52796741680b0cb92e86b8f6646668d86dfd04859289"
+    },
+    {
+      "id": "quest-680-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 680,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "You serve my husband well, $c, but he does not know why Hammerfall is under attack.$B$BOr'Kalar, Mug'thol's pawn in Stromgarde, has an intense hatred for my husband, and wishes nothing more than my husband's death for defeating him years ago.$B$BMy auguries tell me that Or'Kalar has laid a trap for my husband, so I have hidden signs of the ogre's presence from him.$B$BMy husband will rush off foolishly if he learns of the ogre's whereabouts and I would ask for your help in slaying the creature.",
+      "sourceId": "classicdb",
+      "rowSha256": "a3de70e107c06d49867626c9639093fc6889d8ec5debc1a99c695965fae18538",
+      "excerptSha256": "2889a9875e93d7c87ab19d5ace2d03eecc2220524b488d8ec6301bccc5735ec7"
+    },
+    {
+      "id": "quest-277-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 277,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Mosshides are cutting the trees of the Wetlands, using the trees' flesh to warm themselves with fire.  I will suffer this pain no longer!$B$BRid the Mosshides of their crude flints, the tools they use to make fire.  The flints are borne by all Mosshides except the smaller Mosshide gnolls and Mosshide mongrels.",
+      "sourceId": "classicdb",
+      "rowSha256": "60cfc44812b468fe54a8b0e920b22f466b3ae75cb9334d2357e4f20bd388ff11",
+      "excerptSha256": "ffddbf8a9c58ed09ad22d179bff49fe23fba74a99fbcd8f40f10e1289d3c29b6"
+    },
+    {
+      "id": "quest-101-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 101,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "As the mystical taint creeps through the forest, the need for self-protection is undeniable, $N.  The winds whisper to me and they speak of a great danger which waits patiently for you in the near future.$B$BIf you wish to protect yourself, noble $c, bring to me 10 ghoul fangs, 10 skeleton fingers and 5 vials of spider venom.  For you I shall enchant a Totem of Infliction which will harm those who attempt violent acts against you.",
+      "sourceId": "classicdb",
+      "rowSha256": "f68f496d9502a5c3a334e9b499dabbe27d068929b61b5218ab718eb1e02c337e",
+      "excerptSha256": "1c305a6bf6e1e4545ae140515794915bafb3ccb86bea959e85333a4f096ed12b"
+    },
+    {
+      "id": "quest-491-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 491,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Take the Woven Wand to Bethor Iceshard in the Magic Quarter of the Undercity.",
+      "sourceId": "questie",
+      "rowSha256": "32d7c7d71371755b1c00f01fe4ffbdd3af21c541d0dea75ac58c0a96cdc16b36",
+      "excerptSha256": "3a99031fce3ef4265475167121cb85dc29b8e860c556882b1d7259948eedc342"
+    },
+    {
+      "id": "quest-332-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 332,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "If you talk to anyone about wine, then you know we Gallinas sell the best wine in Stormwind.  And we're not far, still in the Trade District along the city's lovely canals.$B$BHere, take this pamphlet.  Bring it to my sister Suzetta at our shop for a complimentary bottle of our famous pinot noir.  You won't regret it!",
+      "sourceId": "classicdb",
+      "rowSha256": "344197f4cee9b30c168324f3188e6d67e73eaa3e74ca2a3310bba600bdff555c",
+      "excerptSha256": "0942ed8352b34bf7b9ab82819c847ff615ebc32fc0bead73a45f126d890f9b6b"
+    },
+    {
+      "id": "quest-33-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 33,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I hate those nasty timber wolves!  But I sure like eating wolf steaks...  Bring me tough wolf meat and I will exchange it for something you'll find useful.$B$BTough wolf meat is gathered from hunting the timber wolves and young wolves wandering the Northshire countryside.",
+      "sourceId": "classicdb",
+      "rowSha256": "e16cb355de5380d6384fd10b2d651995a00644d215462c003b41dc1c831be491",
+      "excerptSha256": "322b025c8054bfc667b33abf93d0e46858054883520bb4e4844e68fc4dcbcafa"
+    },
+    {
+      "id": "quest-388-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 388,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Nikova Raskol of Stormwind wants you to collect 10 Red Wool Bandanas.",
+      "sourceId": "questie",
+      "rowSha256": "baa3c59332c4b1b3f4843be5758d36267d127fa305f264428f26a1f27db62f5a",
+      "excerptSha256": "78707db50c113bcd0fcee9d668e1e8f25f394755854cba600283bf8e6c5264bc"
+    },
+    {
+      "id": "quest-2821-request",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2821,
+        "locale": "enUS",
+        "field": "request"
+      },
+      "excerpt": "A stack of ten thick yeti hides will net you a choice of one of my crafted items.  Because I care about quality, I am able to ensure you'll get a good item!$B$BIf you can't seem to find yetis, I know where some might be.  Try looking just inland of the Forgotten Coast, around Feral Scar Vale.",
+      "sourceId": "classicdb",
+      "rowSha256": "0c534957aaf844f46081a05863dc911881fa621df658f751c566bd50fb253c95",
+      "excerptSha256": "e29947625eaba8fbfc646943e55aec64e8670558f9282651ff706ccb10c93a88"
+    },
+    {
+      "id": "book-4649-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 4649,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "The Hand of Dagun\n  \nAncient texts claim that claws of Dagun excrete a poison that does not kill his prey, but mutates it into something else -- a member of the old races.  Its value to us is unquestioned.\n\nDagun lives in the deep sea, but is regularly enticed to the surface by a tribe of Mirefin Murlocs in Dustwallow Marsh.  Their oracles summon him with an enchanted sea kelp.  If you kill enough oracles you'll find the kelp.  Then place it on the Murloc altar, and Dagun will come.",
+      "sourceId": "classicdb",
+      "rowSha256": "366daaaf6815a3e720de5a3ea17204246db4227ebbaed4d5c9a98fc0fdbbc565",
+      "excerptSha256": "ca831e6c582fe3b15f1d963d11d85fa8021083a01eb08ef993ff94d9fc76228d"
+    },
+    {
+      "id": "book-174746-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 174746,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "This anvil is the property of Jordan Stilwell - Please do NOT use!\n\n- Jordan",
+      "sourceId": "classicdb",
+      "rowSha256": "7207df3e8117501139cdf1cb8dd60a0ca086f069a737601ddec252d7c03c7ceb",
+      "excerptSha256": "dbe6e4fd9847fa2f738758534260234b9ac2923ef6f4f8af6c33992997df0636"
+    },
+    {
+      "id": "book-5790-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 5790,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "A while back, at the Explorers' League headquarters in Ironforge, I remember a lecture given by Chief Archeologist Greywhisker. The old chap made mention of such a god, one which was revered by the strange elves of Darnassus because of his rumored altruistic nature--\n\nBah! One moment. I hear snorting outside the tent. Surely just some thistle boars trying to get at my apple stash....",
+      "sourceId": "classicdb",
+      "rowSha256": "8ab278d8eec521d012363d1458450deb73143ab8613027b6a1cff002a453cd44",
+      "excerptSha256": "739cc2247ec7744278ad073bce5818ebf6cf7b3e1fc59eadf70ff4bfd6ade1ae"
+    },
+    {
+      "id": "book-22344-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 22344,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "INTRODUCTION, continued...$B$BThe brazier itself functions just as the Brazier of Beckoning did. Simply place it within range of any of the five haunted loci and it will invoke the spirits of the dead.$B$BAs a side note, because I know that you'll be interested in knowing, the Banner of Provocation can be used in similar fashion at the arena in Blackrock Depths. Be sure to teach Theldren and his goons a lesson for me every time you get a chance when you're there.$B$BRead on should you desire further enlightment.",
+      "sourceId": "classicdb",
+      "rowSha256": "834c22b70b5ad3d737af02119fe2cd6880a1c950d5cad492bd9a62aa3078de7a",
+      "excerptSha256": "374c173a81a58e4ed8122a10006d1032fed9185d222a7fd9acee61b8270e46f6"
+    },
+    {
+      "id": "book-2730-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 2730,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Just as I was about to question Ajeck's lack of interest in the day's hunting strategy, she reached for her quiver, drew an arrow and unleashed a shot right towards poor Barnil.  But it was not Barnil that Ajeck was shooting at.  For when Barnil stepped aside, mouth agape, a large river crocilisk floated to the surface with Ajeck's arrow perfectly placed between his two large eyes.",
+      "sourceId": "classicdb",
+      "rowSha256": "a581d70d043e1a25e9ae30a5f8b7d742da537326abb486470af813835640f375",
+      "excerptSha256": "3980fcb218ab3673847078a6cebd3a76c9691005819c4dddf2ae3cf32f136448"
+    },
+    {
+      "id": "quest-1644-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1644,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Bless their hearts, most of them have no families because of the Scourge attacks in the last decade.$B$BMy husband John collects the materials for me to make the shirts and pants for the children, but I haven't even had time to do that. I've been too focused on keeping food on their plates, and a roof over their heads.$B$BWhat's that? You'd be willing to help? Oh, thank the Light, and thank you, $N.$B$BIf you could bring me some linen cloth so I can sew clothes for the kids, that would help me out so much.",
+      "sourceId": "classicdb",
+      "rowSha256": "b1a2f4258f6eaba8f238821490aee2e2df259584d7e8ff41c79ad333a2024853",
+      "excerptSha256": "6f8cf4e8d09e872b328e0152a82ed0e7f6a5bb4e73300d838adebc8262a0fcc1"
+    },
+    {
+      "id": "quest-673-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 673,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "There is no doubt in my mind that a powerful warlock resides within the walls of Stromgarde. From time to time, using an arcane magical relic, this warlock has summoned forth terrible demons in large numbers. We must remove the source of his energy.$B$BFind the warlock and kill him. Bring me whatever magical object you find on his person, and I will take steps to destroy it and see that its power is not used to taint this land any longer.",
+      "sourceId": "classicdb",
+      "rowSha256": "61c4d22b2c0ed3adab726c9a9a1b46122c839d090648341ce7c087be6a9ea2ee",
+      "excerptSha256": "cfe44895bf76c2d443467ae8e3a6062a8a38c504596e390b9a0cfe5c9935eb2e"
+    },
+    {
+      "id": "quest-717-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 717,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "It has become obvious that we cannot ensure that Blacklash and Hematus will remain imprisoned in Lethlor. That black dragons have taken up residence there, and that the ogres managed to steal the Sign indicates that more drastic measures will have to be taken.$B$BThe drakes' prison is maintained by three runestones that may only be retrieved using the Sign of the Earth. Those runestones can then be used to break the seal which imprisons them.$B$B$n... assure that their dreams are eternal.",
+      "sourceId": "classicdb",
+      "rowSha256": "de261b4f5e442d6816015f776c6ce97e78340433366e26cd9d27f1fd2f4a2609",
+      "excerptSha256": "c8ff6fd0689e2af4bcd890aec78e5b137e68e79089b89f0b6ec0071632f7040f"
+    },
+    {
+      "id": "quest-318-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 318,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Rejold Barleybrew experiments with his brews.  Some of them taste good, some bad, and some...well, some will lay all but the stoutest dwarf flat.$B$BHe lives at Brewnall Village, west of Kharanos, and one of his drinks, Evershine, is what I want.  It'll help keep me warm while I'm on the cold road.$B$BAnd...the blessed stuff burns so hot I can throw it in Jetsteam's furnace for a burst of power!  That little tactic has gotten me out of more than one tight spot.",
+      "sourceId": "classicdb",
+      "rowSha256": "1392f34c47caa94b4fec9fc45a71f88e519c91771abf7a33cf6a51b2fc7c95ec",
+      "excerptSha256": "08c1b32078ac9c3a55561ae71c39e73343fdf154ca38a7850dbfea3cb8cf5bb5"
+    },
+    {
+      "id": "quest-11-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 11,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Gnolls, brutish creatures with no decent business in these lands, have been seen along the borders of Elwynn Forest.  A large pack of them, many more than we can handle alone, have infested the woods south of the guard tower yonder.  Another group has infested the areas near Stone Cairn Lake to the east.$B$BThe Stormwind Army will commend whomever helps kill them.  Bring me their painted gnoll armbands as proof of your deed.",
+      "sourceId": "classicdb",
+      "rowSha256": "84a499176ccc42e6c612d229f5462af9bbeab2c71462861d6bba757b8e20a5f1",
+      "excerptSha256": "1a9a22f6becdb4f8ef368be9caa4dd221be211046e2da194f354725d8224f485"
+    },
+    {
+      "id": "quest-412-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 412,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Upon further analysis of the Gnomeregan situation, it would appear as though we not only failed to eradicate the troggs but we also happened to turn most of the gnomish race into horrific, mindless, evil-doing leper gnomes.$B$BOzzie and I plan to reverse the horrible leper effect with our latest invention: The Recombobulator.  The machine is almost complete but we are in dire need of some Restabilization Cogs and Gyromechanic Gears.  Retrieve some from the leper gnomes out front of Gnomeregan for us.",
+      "sourceId": "classicdb",
+      "rowSha256": "ef48723ab4eeb943c4e0a7be9cea713dc7add9268a05ea0e306ebcadc88cdf53",
+      "excerptSha256": "7117496177bab964d3e4a52bd2dc66fd774d719d11773c98dbf3091f0d160dc7"
+    },
+    {
+      "id": "quest-875-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 875,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Hahaha, $n. Back for more? Good, I like to hear that.$B$BThis time I want you to assassinate some of the harpy lieutenants in the Dry Hills. Only Witchwing Slayers can be lieutenants, and you can tell them apart by the rings they carry. They are a nasty bunch, but they lead some of the underlings in that area. Taking out 6 of them will be a decisive strike against their matriarchy.$B$BMake sure they die painfully, $n. We want those harpy wenches to know the idiocy of picking fights with the Horde.",
+      "sourceId": "classicdb",
+      "rowSha256": "6d4e15efd52daf0c973c5000ccd4fb05541e80f373a02d13b56a6ce22e7d7aad",
+      "excerptSha256": "6a75c6b5ac20917a5bcb58a6f19fd8951bdc9469200746f9b5964c8ff7c15523"
+    },
+    {
+      "id": "quest-243-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 243,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "You will be headed to the Tanaris desert, testing the tissue consistency of the basilisks, scorpids, and hyena native there.  Obtain tissue samples and use them with the testing kit in tow; expect a chunk of the samples to fail.  I need eight acceptable samples of each creature type.$B$BIn addition, the goblins of Gadgetzan have a power source that must be used with this kind of modified kit.  Speak to Chief Engineer Bilgewhizzle and acquire one for the kit.$B$BReturn to me only when you are successful.",
+      "sourceId": "classicdb",
+      "rowSha256": "89e88e7f9b56ed37264089a3eefe71bcd63a33ecd112119e47313511db85a8be",
+      "excerptSha256": "f8e712f2227fadfd3ee94e2e82a817bb200d653b1f42647d98aa7fc1bc43b42e"
+    },
+    {
+      "id": "quest-706-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 706,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "As an apprentice to Feranor Steeltoe, I learned his special technique for imbuing weapons with fiery enchantments. Last I heard of him, he was working at a smithy with a hunting party up in Lordaeron.$B$BI can't tell you too many of the details about the process, but I can tell you it requires blood from a rare, still-beating black drake whelp's heart. I don't have much to do waiting for word from Ironforge. If you bring me a heart from the whelps in Lethlor Ravine, I'll show you my skill!",
+      "sourceId": "classicdb",
+      "rowSha256": "007d9daaab1c969b13f85e601d06aeac933009c4a3c41486cabdc20c748582e3",
+      "excerptSha256": "861ec2ac7e2c4f4d2fbf4ce5ed89d06494a1ea68cadcae779b5ef6d0fe45cece"
+    },
+    {
+      "id": "quest-83-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 83,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Defias gang in Northshire wears burlap masks, but the Defias in Elwynn wear linen which I can use to make fine linen goods.$B$BBring me red linen bandanas and I'll use them to fashion something for you.$B$BDefias gang members have camps pocketed throughout Elwynn.",
+      "sourceId": "classicdb",
+      "rowSha256": "e4465a65507f7560dceb42aeeb3d9942b215f329c54c3932959ec405cfecb98c",
+      "excerptSha256": "e87568680f519e949d9f188b1575e2abbac12b66613f06337125fdddc41724cd"
+    },
+    {
+      "id": "quest-851-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 851,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The centaur Verog the Dervish wanders the Barrens, and will be difficult to find.  But he is based at the centaur command tent at the Stagnant Oasis to the southeast.  It may be possible to draw him to you.$B$BTravel to the Stagnant Oasis to the southeast and attack centaur near the command tent.  It will be dangerous, but if you can kill enough centaur then they should raise an alarm.  And Verog will come.$B$BBring me his head and I will place it with Barak Kodobane's.",
+      "sourceId": "classicdb",
+      "rowSha256": "59003e91c6e2c36db0ceded0361679ef91474609d6b3f9524484092a6d613cfc",
+      "excerptSha256": "5359a9425798c28de4e8ebee0c2b6742c7f7cd08ace979586d4d97bbf4dc551c"
+    },
+    {
+      "id": "book-2007-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 2007,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Rising from the ocean, a tower of water, Neptulon sent the great Krakken to doomed I'lalai. So huge were their forms that jungles of kelp swayed through their limbs, and leviathans swam through bodies.$B$BThe largest Krakken then raised his arms high and crashed them into the sea, sending waves about him. And they raged toward I'lalai.",
+      "sourceId": "classicdb",
+      "rowSha256": "a770ce4ff78f68e72e9afd4feda6bce73ec175828e37d5be2c80800bc7937f44",
+      "excerptSha256": "ad115e7f307c1fd2564e565b67a3ccebf8b8716d7caf6c6c2bb4b21014fa3b35"
+    },
+    {
+      "id": "quest-655-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 655,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "It is still clear to me, like yesterday... So many years without hope, with wood and steel to bind me to this terrible place. Then finally, finally! There was the Warchief. Doomhammer in his midnight plate, his warhammer held high.$B$BIt was... too terrible... That the blow of a coward would strike down our greatest hero. From behind he charged on his horse, and then his lance ran him through... I fell to my knees. What hope was there? What hope is there...",
+      "sourceId": "classicdb",
+      "rowSha256": "6b6b5473688cbc95d199f9fe4eedabd4c41d0e3c007cef6e1087ed039ee5cd92",
+      "excerptSha256": "26f88ca23715b55c228210955db5fa3519207ee5c777419e4eaf2edcbcea4cd8"
+    },
+    {
+      "id": "quest-480-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 480,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "An archmage of great power is overseeing the reactivation of the ley energy node. With the progress they have made, our only hope of stopping them is by killing him. It will be difficult, he is no doubt protected by many other mages and warders.$B$BYou must go, and you must dispatch him quickly. When he is dead, retrieve his staff for me. Go now.",
+      "sourceId": "classicdb",
+      "rowSha256": "a08f80ebd62d310043eb008ea9e3be20b994ee776f84b9e73d8db9b82d8eb91f",
+      "excerptSha256": "de6601fb44089160817c1640c620fdd314cf0785ac289443990c6b0a314c5ff3"
+    },
+    {
+      "id": "quest-185-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 185,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "When I was but a young girl, my father trained me in the art of tiger hunting.$B$BYou'll find the young felines much easier to track and slay.  For this reason, we'll start you out easy.  One can often find young tigers near the expedition camp.$B$BTest your tracking skills and see if you can hunt some of the beasts down.",
+      "sourceId": "classicdb",
+      "rowSha256": "63c0788402b9d60db07fa0756de3eeec7e0bff275a7a243d736f7352558195fd",
+      "excerptSha256": "8b85148c690ce0fdffda43f82ee61233323af87c21f465bdae9d144bae0299c2"
+    },
+    {
+      "id": "quest-209-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 209,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "It's expensive and hard to kill enough tigers to support the export of tiger fangs to the islands in the South Seas. Luckily, we've developed a technique that allows us to take mundane horn-like objects and turn them into undetectable forgeries.$B$BThe closest match we've found, amazingly, are the tusks of the Skullsplitter trolls.$B$BHey, before you say anything, what the buyer doesn't know doesn't hurt them, am I right? Bring me a large number of them so we can get to work on the monthly shipment!",
+      "sourceId": "classicdb",
+      "rowSha256": "04b4c0a7a87bbdd91e8b8329b974e2193649da7e7a4d6cb6d7e2e3007d47b077",
+      "excerptSha256": "567ca521cf78ea68587386501ee0da8404420ed8cf80ffa9415d92ff33fffd8e"
+    },
+    {
+      "id": "quest-25-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 25,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "If you want to be useful, then why don't you do something about the situation near Talondeep Path?$B$BThe transports between Ashenvale and Stonetalon are at a standstill because of the lake coming alive and attacking anything that gets close... which means anyone on the path.  What'd be even more useful than just putting the hammer down on the water elementals there is someone scouting the gazebo on Mystral Lake - the one that has a solid view of the Alliance outpost there.$B$BYou up for being useful?",
+      "sourceId": "classicdb",
+      "rowSha256": "fc493e3b9516b37af29ff529ad40f930ee3112526b61c935c12d6bab9f43cf37",
+      "excerptSha256": "9fd0e1a438ce12eed5a2e161e726abc9f82345a0d07c6fc103ba2c70055697f1"
+    },
+    {
+      "id": "quest-422-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 422,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "How Arugal gained acceptance within the Kirin Tor is beyond me.  His spell-casting knowledge seemed as transparent as a blown glass bauble.$B$BWhat's important now is learning exactly what magic Arugal used so that I can turn it against him and secure Silverpine Forest for the Dark Lady.$B$BArugal first stayed at the wheat farm just north of the bridge.  One of the Deathstalkers reported seeing some spellbooks but could not secure them.  Retrieve for me the spell labeled Remedy of Arugal from those books.",
+      "sourceId": "classicdb",
+      "rowSha256": "7bedf3f8795cc2e31b47dfe35ff69de681810986df6fc0eae691ca4fff5e52b2",
+      "excerptSha256": "1da6e8280a0f3dda37c453217a4bc33064f76c453d148f1b68e1767acc044b2c"
+    },
+    {
+      "id": "quest-122-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 122,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I need some underbelly scales from black dragon whelps to pay for the shoes Argus sent me from Goldshire.  If you can get 6 of them for me, then I can pay Argus with some... and have enough left to fashion something for you.$B$BBlack dragon whelps are often flying around south of Lakeshire, but they like to wander.  You might have to just keep an eye out and hunt them when you see them.",
+      "sourceId": "classicdb",
+      "rowSha256": "e3e16df753d73a8d3b80d7f7115c5db06a0a3ce5ba49c2eb5fbc0546d81fcc67",
+      "excerptSha256": "34ac7aaa7f12ee80d993dce6b990c6272b8e995e419f69d9e7f10db7e53785f4"
+    },
+    {
+      "id": "quest-4763-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4763,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Fill the Empty Cleansing Bowl at the Auberdine Moonwell.\n\nGather a sample of fruit, nut, and grain from the northern Blackwood furbolg camps.\n\nMix the bowl and place it near the bonfire closest to the Cliffspring River at the northern camp, thus summoning the satyr corruptor.\n\nTake the Talisman of Corruption and bring it to Thundris Windweaver in Auberdine.",
+      "sourceId": "questie",
+      "rowSha256": "2d2f8fd5c62bb263651fc8680098cfa542ba648f7d03698b479183c7ced3e166",
+      "excerptSha256": "d7d4812fc4463c619b8e1eca79e08859c9650b2029468eb64ed4206b78a62b7c"
+    },
+    {
+      "id": "quest-60-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 60,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Hello, $ggood sir:my lady;!  Do you have a moment?$B$BMy brother and I run an apothecary in Stormwind, and I'm here to gather large candles for their wax.  Can you help me?$B$BYou can get large candles from kobolds, and I hear rumors that kobolds are infesting the Elwynn mines ... the Fargodeep mine to the south and Jasperlode Mine to the east.  I suggest looking for candles in one of those places.",
+      "sourceId": "classicdb",
+      "rowSha256": "5bc4cb533ea5f4576095bc0736474b2661c3fb7ffa8a95039e533710e082455e",
+      "excerptSha256": "cc3f8848c1ef03569a4b878dfc715730a97922e2f2d84c3c905b284b87af728b"
+    },
+    {
+      "id": "quest-150-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 150,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Murlocs are becoming a problem.  Larger groups of the fishmen are dropping anchor along the shores of Lake Everstill and fishing up a storm!  We need them gone before they eat all the fish in the lake!$B$BHunt murlocs!  Bring me eight of their fins and I might have something for you...",
+      "sourceId": "classicdb",
+      "rowSha256": "463cbcac02421beb30ee191c1aa9c65200198674270cbdeec83b78b98fe61829",
+      "excerptSha256": "b9cc6f061b458f6c6ac504f29c6cef37b59a5b8ab04e349caad95f45b3e54f6b"
+    },
+    {
+      "id": "quest-197-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 197,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Because you proved yourself to be such a go-getter in the jungle, let me tell you about a ferocious raptor that even I have failed to kill.  Ajeck here calls this wily raptor Tethis.$B$BIf you want to prove yourself a true master, kill Tethis and bring me his talon.  It would be a feat that no other big game hunter has accomplished.",
+      "sourceId": "classicdb",
+      "rowSha256": "ee969e2c6752967cae80f8ba8bbe705ea984e16a622c5f4dc87c4fdb59c9ce68",
+      "excerptSha256": "dd007218a66d9609bf696d8c77c63fde4976d4c042b9b1401fc8d32b1baf03de"
+    },
+    {
+      "id": "quest-747-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 747,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "You have a promising air about you, and will prove yourself to the tribe. Perhaps someday soon you will be welcomed into the great city of Thunder Bluff. But before that can happen you must prove yourself to my father, Chief Hawkwind.$B$BUp here on Red Cloud Mesa we pride ourselves on keen hunting skills. Tauren hunt out of necessity and for sport. Our supply of meats has run low and we require feathers for clothing. Hunt the nearby plainstriders and prove yourself by resupplying the village.",
+      "sourceId": "classicdb",
+      "rowSha256": "97b04630dc8dc557b6cb7ec5bc09fe02a79117e2fb8f7f6a84369104f44ce62c",
+      "excerptSha256": "5af4fb9c456fd48dbc99a48afb7ba7de1feeb6a09a568f76bb736c8277e1ac55"
+    },
+    {
+      "id": "book-2082-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 2082,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Here lies Uther the Lightbringer\nFirst Paladin - Founder of the Order of the Silver Hand\n\nUther lived and died to defend the kingdom of Lordaeron. Though he was betrayed by his most beloved student, we believe that his spirit lives on. He continues to watch over us, even as the shadows close in around our ruined land. His light is the light of all humanity - and so long as we honor his example, it shall never fade. \n                  - Anonymous",
+      "sourceId": "classicdb",
+      "rowSha256": "fa382a003a170a741a790efc4acee196efb03f101142d94f2d36d913e54280fb",
+      "excerptSha256": "dc028d67b62432f7708771fa430e56c6067f600c7ebd2f751e35cf946f5ada54"
+    },
+    {
+      "id": "book-175736-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175736,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "When the world was sundered by the Well of Eternity's implosion, the earthen were deeply affected. Reeling with the pain of the earth itself, the earthen lost much of their identity and sealed themselves within the stone chambers where they were first created. Uldaman, Uldum, Ulduar... these were the names of the ancient Titan cities where the earthen first took shape and form. Buried deep beneath the world, the earthen rested in peace for nearly eight thousand years.",
+      "sourceId": "classicdb",
+      "rowSha256": "b5e4a19b517efa9249e6bf374bcb7e347dc7cf56cd6fcca86b69945ddb42e8a7",
+      "excerptSha256": "2dc5987177106cdf688625bd5ce95cc5ae99fca0b7e96051a1a901ad3ef5ecd7"
+    },
+    {
+      "id": "quest-2946-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2946,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "We want you to take the miniature discs you found to the sealed gates of Uldum.  We... we aren't sure what will happen when you do this.$B$BThis sounds risky, sure, we acknowledge that.  It might, however, do nothing.  You might need to use the discs on something.  Perhaps the doors unlock when you have the discs in your possession.  Be open to try anything, and be ready for anything to happen.$B$BWhen you've found out what happens, return to Ironforge.  We'll have a lot to analyze when you're done!",
+      "sourceId": "classicdb",
+      "rowSha256": "af4a4d8976c9c6e16e5b8b0ff67a574dfdbd4aeeb1d212bd04521b1497fa2da9",
+      "excerptSha256": "2d3d6ffceca00ff11d5075309634e633af2c86db4a7d0d5561d7974eeceb5fb1"
+    },
+    {
+      "id": "quest-2946-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2946,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring the miniature platinum discs to the gates of Uldum in Tanaris and look for clues as to the connection between the two.",
+      "sourceId": "questie",
+      "rowSha256": "f4deaad213caf6856b56ac25ba7f2aa35f6214bb65c14a8348dd1b0567b3b745",
+      "excerptSha256": "bd0e9c7d19348c1278953dd8fa1696837af6a541b9f81a547f02d133e1f277ab"
+    },
+    {
+      "id": "quest-5501-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5501,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "We're sitting on a goldmine here, I tell you - a goldmine!  Kodo bones will change the world forever... I have customers making furniture, music instruments, and even blasting powder out of them.$B$BThere's a caravan that comes by and picks up my kodo bones and then sells them at Shadowprey Village.  If you can travel to the kodo graveyard south of here and bring me ten kodo bones, I'll give you something in return.  Is it a deal?",
+      "sourceId": "classicdb",
+      "rowSha256": "65f18e3623d1a4cf866e9128bb71f5b062d24f8e19305ef5e3a53ecce6b9802a",
+      "excerptSha256": "0a08c55f1f96fbed1b06737c5dcc9054940ce9cf7372e8ea1b0bf993579c9967"
+    },
+    {
+      "id": "name-spell-1953",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1953,
+        "locale": "enUS"
+      },
+      "excerpt": "Blink",
+      "sourceId": "client",
+      "rowSha256": "00cef800df58f4e19581debe0623d7e093d7571bb068b36babcce14c454d7d42",
+      "excerptSha256": "a37430e22cd01df02ad1264610c5e986270e285b15cb764b7b1ed6ac73c499d1"
+    },
+    {
+      "id": "name-spell-description-1953",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1953,
+        "locale": "enUS"
+      },
+      "excerpt": "Teleports the caster 20 yards forward, unless something is in the way.  Also frees the caster from stuns and bonds.",
+      "sourceId": "client",
+      "rowSha256": "7a5c7e8cf19054b7b98cc015db3df6e7b9c18d5a4bd225aeefa554934dd8cb04",
+      "excerptSha256": "ed912c0b1fb5254734ae26d5f1b17c5cb5f339b6da2c57ab7a41faa1c318cede"
+    },
+    {
+      "id": "name-spell-5782",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 5782,
+        "locale": "enUS"
+      },
+      "excerpt": "Fear",
+      "sourceId": "client",
+      "rowSha256": "b56915ce05d03b1e7006c034dbb98df8a2d6a6bf31233a7b38a2f127d14bb136",
+      "excerptSha256": "140262b32b0c98dfc6afb74b287d2df7f50e0645cea8c1dd907c793699180ee2"
+    },
+    {
+      "id": "name-spell-description-5782",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5782,
+        "locale": "enUS"
+      },
+      "excerpt": "Strikes fear in the enemy, causing it to run in fear for up to $d.  Damage caused may interrupt the effect.  Only 1 target can be feared at a time.",
+      "sourceId": "client",
+      "rowSha256": "e576684a042f4313700b629da1056ee4804d88f654480950cd48589eacbc6a44",
+      "excerptSha256": "3066af7356a3b829bd9e30b044beb34963c7d8951934415df6664e3ffd8ef981"
+    },
+    {
+      "id": "name-spell-100",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 100,
+        "locale": "enUS"
+      },
+      "excerpt": "Charge",
+      "sourceId": "client",
+      "rowSha256": "366ce14312e208835dfb2e41e8eaa52d1d236928b607320bb94d50ec0e897ce2",
+      "excerptSha256": "ff9f88ce353a222860a9f826971a2b2ee3da6b06c696d67537285890506d4bda"
+    },
+    {
+      "id": "name-spell-description-100",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 100,
+        "locale": "enUS"
+      },
+      "excerpt": "Charge an enemy, generate $/10;s2 rage, and stun it for $7922d.  Cannot be used in combat.",
+      "sourceId": "client",
+      "rowSha256": "ae17b8d35c4671873ab004260b63b4d2d00817fbbf4d7983de0913ac96989583",
+      "excerptSha256": "6d5ed694363d50e6aa913dc7af23198be6fff1b27d9448126eb3596fb242af0f"
+    },
+    {
+      "id": "name-spell-772",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 772,
+        "locale": "enUS"
+      },
+      "excerpt": "Rend",
+      "sourceId": "client",
+      "rowSha256": "5c03b67e9e7e7e11e8a74ec195063e50d329ff7c012eb645d16397fd74cff1c3",
+      "excerptSha256": "1970f0b8296f232467039303c68747408b13debd425f51f7a5aea5d3ed5d9da2"
+    },
+    {
+      "id": "name-spell-description-772",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 772,
+        "locale": "enUS"
+      },
+      "excerpt": "Wounds the target causing them to bleed for $o1 damage over $d.",
+      "sourceId": "client",
+      "rowSha256": "269e634318fdf48a5011463721f1c83654a4110235bb862cb3544a17d31d3c86",
+      "excerptSha256": "26f9f556049bec0f6da4654586fa54adf8863ec5ad8c6a0b44d3042a5fe2da14"
+    },
+    {
+      "id": "name-spell-1766",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1766,
+        "locale": "enUS"
+      },
+      "excerpt": "Kick",
+      "sourceId": "client",
+      "rowSha256": "1c36a8c0b0bba51eaa86cb2923b848507c0613ee525fe95b67793d1045eb5c75",
+      "excerptSha256": "37ca3cfb5d8522c2e1abecd50bc7e484c47aa288dcb4b51b466a68264966b1f9"
+    },
+    {
+      "id": "name-spell-description-1766",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1766,
+        "locale": "enUS"
+      },
+      "excerpt": "A quick kick that injures a single foe for $s1 damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.",
+      "sourceId": "client",
+      "rowSha256": "1e9c75f7a529123f5bf404fb046858c759da3a58d1e45218ca1164f736d9511b",
+      "excerptSha256": "3eb2933fcb2cd4f1c4d1c991bca093644afae8402c5bdaba10c91f4f939e17a8"
+    },
+    {
+      "id": "name-spell-1776",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1776,
+        "locale": "enUS"
+      },
+      "excerpt": "Gouge",
+      "sourceId": "client",
+      "rowSha256": "7b4ec77a4fb23bc1f0ff21a1f780063335e1e9f7cf303c3e81c1087405406da6",
+      "excerptSha256": "c986898e8e37a24255bd276c3fd03a4168216f3910d3cff9bcad5fb64fd176fe"
+    },
+    {
+      "id": "name-spell-description-1776",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1776,
+        "locale": "enUS"
+      },
+      "excerpt": "Causes $s1 damage, incapacitating the opponent for $d, and turns off your attack.  Target must be facing you.  Any damage caused will revive the target.  Awards $s2 combo $lpoint:points;.",
+      "sourceId": "client",
+      "rowSha256": "dc9550aa41f7fa7716a9215b96425086e6d16c6fe667c3ed0657b0259868998f",
+      "excerptSha256": "3e535db1af5b686915934b71a4baf84f454df54b4f13bcdd6ffd9ef8d9f7be29"
+    },
+    {
+      "id": "name-spell-1966",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1966,
+        "locale": "enUS"
+      },
+      "excerpt": "Feint",
+      "sourceId": "client",
+      "rowSha256": "d3abcb0f9c139c7b5d5b9a2c66de3cf8d71575c2dccee159e7dc68b718b958e7",
+      "excerptSha256": "82a1660a47a16b62387019e11169ab6c4b5ad0682fc9a6aaefb1a0fe0f459b3a"
+    },
+    {
+      "id": "name-spell-description-1966",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1966,
+        "locale": "enUS"
+      },
+      "excerpt": "Performs a feint, causing no damage but lowering your threat by a small amount, making the enemy less likely to attack you.",
+      "sourceId": "client",
+      "rowSha256": "1fc716ccdcd2d4189077ded7c12382ce60f0c7b5d60dc5036d336d132b72368e",
+      "excerptSha256": "9eb3efe647466d3fc45317cb4b635de707191cb2bc0f012a73e00f71c482f8ad"
+    },
+    {
+      "id": "name-spell-8676",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 8676,
+        "locale": "enUS"
+      },
+      "excerpt": "Ambush",
+      "sourceId": "client",
+      "rowSha256": "8f29083a30e4c522a5ffd7a45faaca357c1fce65eb445b117dd5609021f80a91",
+      "excerptSha256": "a29c74269a8c224dc302f1e9140f2d3147828dfd130f6b79698cee3ba9fb17e6"
+    },
+    {
+      "id": "name-spell-description-8676",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 8676,
+        "locale": "enUS"
+      },
+      "excerpt": "Ambush the target, causing $s2% weapon damage plus 70 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards $s3 combo $lpoint:points;.",
+      "sourceId": "client",
+      "rowSha256": "f51a264cf7139b6c263e32bbbeb20f32c7dae76613dd826e148f81dfffccb01f",
+      "excerptSha256": "657d39010c7a8154b80c7aa62328ab91d2fa353082d043b69abf9cf31f5ed580"
+    },
+    {
+      "id": "name-spell-703",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 703,
+        "locale": "enUS"
+      },
+      "excerpt": "Garrote",
+      "sourceId": "client",
+      "rowSha256": "f6280412655d2bfdfbaddfbb3ff6b36dfd378742ddf9fc3ddc424a8aafb2c2bf",
+      "excerptSha256": "d90110b424037f664cffdd47d36e69cb3f71bff3c69e20ba1f517b9ec383555a"
+    },
+    {
+      "id": "name-spell-description-703",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 703,
+        "locale": "enUS"
+      },
+      "excerpt": "Garrote the enemy, causing $o1 damage over $d, increased by your Attack Power.  Must be stealthed and behind the target.  Awards $s2 combo $lpoint:points;.",
+      "sourceId": "client",
+      "rowSha256": "590b579ff142e22fa6ac03ee6f40bdc827f2ee9135063ff2349b5246d54a053e",
+      "excerptSha256": "b1bff06ea3faf3032c1d141c99fe783fb45c19266887432b7dc662bc860b99c3"
+    },
+    {
+      "id": "name-spell-2094",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 2094,
+        "locale": "enUS"
+      },
+      "excerpt": "Blind",
+      "sourceId": "client",
+      "rowSha256": "2803981f382c74830b33132f9f83fea66e8aa19d210dc4f79a48fd8b95660741",
+      "excerptSha256": "64c82aaed1b4155efc23d5cfcea6ec22f8ee5826dd26f5f1274e44fe905d4fb1"
+    },
+    {
+      "id": "name-spell-description-2094",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2094,
+        "locale": "enUS"
+      },
+      "excerpt": "Blinds the target, causing it to wander disoriented for up to $d.  Any damage caused will remove the effect.",
+      "sourceId": "client",
+      "rowSha256": "4d38731b7dd4c1d514f6e1bd9a41029b127d5f2be75fc32036499d586f2a7263",
+      "excerptSha256": "d5403db41c2a2652fe3df255ba5f7118f79f2ecc1572b97b414a971d4f9e30c4"
+    },
+    {
+      "id": "name-spell-1856",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1856,
+        "locale": "enUS"
+      },
+      "excerpt": "Vanish",
+      "sourceId": "client",
+      "rowSha256": "33dcd3263e55f74763ba39f6550e7ec4875b2f32ab42d43d6212d674da652606",
+      "excerptSha256": "cca4f8f0f3c732d2493471fa737a95ff0cab6eb1a2e6acf74b62ecabb0986b0b"
+    },
+    {
+      "id": "name-spell-description-1856",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1856,
+        "locale": "enUS"
+      },
+      "excerpt": "Allows the rogue to vanish from sight, entering an improved stealth mode for $11327d.  Also breaks movement impairing effects.",
+      "sourceId": "client",
+      "rowSha256": "20372afc74b7a6bd40890a96d956baf98ca14afab0a3a2717d56b015f464569a",
+      "excerptSha256": "531b450010fe46c0b1068ab859f6f17f1717cb0ecfbd795f2f825339178c6eb5"
+    },
+    {
+      "id": "name-spell-2983",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 2983,
+        "locale": "enUS"
+      },
+      "excerpt": "Sprint",
+      "sourceId": "client",
+      "rowSha256": "76f8f89dd8249da3ed5cb975dbcfab4ca8d6b35fd75646053e857cb318606105",
+      "excerptSha256": "fd04788626e5f87b3b22b2b855bddaae2f1ee43956232d2fa57c5afa7d3f09b9"
+    },
+    {
+      "id": "name-spell-description-2983",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2983,
+        "locale": "enUS"
+      },
+      "excerpt": "Increases the rogue's movement speed by $s1% for $d.  Does not break stealth.",
+      "sourceId": "client",
+      "rowSha256": "60a6757cc958b68a4279778f846eeb6046704eb2cf07b49f7f64e35328319c5c",
+      "excerptSha256": "80ecd97329081a86a0a02c62869555bc49d258ba4caebf164be1004e09f2152c"
+    },
+    {
+      "id": "name-spell-710",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 710,
+        "locale": "enUS"
+      },
+      "excerpt": "Banish",
+      "sourceId": "client",
+      "rowSha256": "77a955eef966c052864621f5fd19eb090784a75e8f97801558ca2104519a9ecc",
+      "excerptSha256": "37bae5c7966cd0b190dbb947ea529b96f88b4f90f1a8d516266056d8aee663e3"
+    },
+    {
+      "id": "name-spell-description-710",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 710,
+        "locale": "enUS"
+      },
+      "excerpt": "Banishes the enemy target, preventing all action but making it invulnerable for up to $d.  Only one target can be banished at a time.  Only works on Demons and Elementals.",
+      "sourceId": "client",
+      "rowSha256": "a7cfbeafc72dac4a8a0f5794ed477c0393d158b6ed919511b44435267cc830fa",
+      "excerptSha256": "574c105f90433eb65351fb0c38b6d0f4558fb8bcb4d23b0e07ca19281bbfef86"
+    },
+    {
+      "id": "name-spell-5176",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 5176,
+        "locale": "enUS"
+      },
+      "excerpt": "Wrath",
+      "sourceId": "client",
+      "rowSha256": "69ca8de17c08baa2512e9081b48ba0094c7ac054490b5fe4a0a6151fbc23159b",
+      "excerptSha256": "119acf47524fde99876be2236aa55b13ce5e36be2bf7c17371714763659e050d"
+    },
+    {
+      "id": "name-spell-description-5176",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5176,
+        "locale": "enUS"
+      },
+      "excerpt": "Causes $s1 Nature damage to the target.",
+      "sourceId": "client",
+      "rowSha256": "91c1a19324c62c4740bafa1b26195f003da2ca5cb43a59d2936a0fb9f6f0ddb0",
+      "excerptSha256": "ac2cd775ca10ebc9534b4ecfb0da92903009ae43033826026a655c9ee9f2216b"
+    },
+    {
+      "id": "name-spell-139",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 139,
+        "locale": "enUS"
+      },
+      "excerpt": "Renew",
+      "sourceId": "client",
+      "rowSha256": "48c76661af2c6e8362e5fecc2d4a8811017ccdf6d71928c484144104a29756d4",
+      "excerptSha256": "90c1689b0b74f032be5f870df39094e6f77e0441963a2576a5d203fe664b5590"
+    },
+    {
+      "id": "name-spell-description-139",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 139,
+        "locale": "enUS"
+      },
+      "excerpt": "Heals the target of $o1 damage over $d.",
+      "sourceId": "client",
+      "rowSha256": "f198ea058c129ca688c4bfd2d816fa22a8c02ed798a2cd4d5162f7ef8e3030b8",
+      "excerptSha256": "beb60afc015992b71ea460a295c8e211568df695293e8a65117ce67af7f7b029"
+    },
+    {
+      "id": "name-spell-585",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 585,
+        "locale": "enUS"
+      },
+      "excerpt": "Smite",
+      "sourceId": "client",
+      "rowSha256": "dd9527b8a18badd4a85fe5d7bfbdd07420585571a3a29ecfccd57e1fd805d57d",
+      "excerptSha256": "f2df74bd99eb5d2087462817264a1b9f0becc96353a67b98a7401ca7e5a5109a"
+    },
+    {
+      "id": "name-spell-description-585",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 585,
+        "locale": "enUS"
+      },
+      "excerpt": "Smite an enemy for $s1 Holy damage.",
+      "sourceId": "client",
+      "rowSha256": "b45e5504e1fd3c51bffb25579ec7f5b6dc896fad1ec9b6fb46c0faeee1307b77",
+      "excerptSha256": "5f5d3a00ac200cd6f4081528572c74c34b48d0711e666dad34fc240ee7d79e62"
+    },
+    {
+      "id": "name-spell-20484",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 20484,
+        "locale": "enUS"
+      },
+      "excerpt": "Rebirth",
+      "sourceId": "client",
+      "rowSha256": "10fdc77205186c90ee566bbca0f59a77f8cd81fcf3c5d28063299e88b90517a9",
+      "excerptSha256": "5a9307f8e79238721d64c4082925408b8aa91d03af8e666027dfdc298710859f"
+    },
+    {
+      "id": "name-spell-description-20484",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 20484,
+        "locale": "enUS"
+      },
+      "excerpt": "Returns the spirit to the body, restoring a dead target to life with $s1 health and $q mana.",
+      "sourceId": "client",
+      "rowSha256": "5d0e2adfafaa3be23c73d0af33b2026d09a41c199a673fddff83def84707e244",
+      "excerptSha256": "ac9f5c2a4b4f8071e67749603315035f6d3a5e77b38269afbc2803d4899d0547"
+    },
+    {
+      "id": "name-spell-9005",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 9005,
+        "locale": "enUS"
+      },
+      "excerpt": "Pounce",
+      "sourceId": "client",
+      "rowSha256": "f2a3bb9e7e54b41e9e2672a5955c04477ba38f937141af915d5e831bf7102569",
+      "excerptSha256": "706a5cdec2608e34262b1ab36b3d8ff24e87054b4041ddf2a63e9083775430c9"
+    },
+    {
+      "id": "name-spell-description-9005",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 9005,
+        "locale": "enUS"
+      },
+      "excerpt": "Pounce, stunning the target for $d and causing $9007o1 damage over $9007d.  Must be prowling and behind the target.  Awards $s3 combo $lpoint:points;.",
+      "sourceId": "client",
+      "rowSha256": "26aa43549c4c9ad5b898f462007682e3026589beff30d7e7316662261c4cfb03",
+      "excerptSha256": "8334a41dd591ac2d9e7c7d7085a85fbb610cb61953fdd9704dce2d9a7a8cbe98"
+    },
+    {
+      "id": "name-spell-5215",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 5215,
+        "locale": "enUS"
+      },
+      "excerpt": "Prowl",
+      "sourceId": "client",
+      "rowSha256": "777c258a2ce3c1bdf205a1c1c9a0e51aa6bc305f0cced6719c65c761be8d0fd0",
+      "excerptSha256": "a1c335317372cd4afd4ff838b2352eb9694af8ad1c78394a50af1611c9e83fe7"
+    },
+    {
+      "id": "name-spell-description-5215",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5215,
+        "locale": "enUS"
+      },
+      "excerpt": "Allows the Druid to prowl around, but reduces your movement speed by $s2%.  Lasts until cancelled.",
+      "sourceId": "client",
+      "rowSha256": "3299ba1fdee6bb55c31418dde0dc15b07d3a79f9b33dd2edee6cbf6f185ca58b",
+      "excerptSha256": "00b4c88b6be96ea941eccfc11c9c8076f39e3d6e4d1942fb06c66e0544de7df5"
+    },
+    {
+      "id": "name-spell-1742",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1742,
+        "locale": "enUS"
+      },
+      "excerpt": "Cower",
+      "sourceId": "client",
+      "rowSha256": "f2af6fce18a89ac283a45f9d0c488b1ed9913c08a99e0c55835c4fc594d74a1c",
+      "excerptSha256": "fe076b79550ddc030aba738f03045d432072bf991a4e35a88efa2b9568eee649"
+    },
+    {
+      "id": "name-spell-description-1742",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1742,
+        "locale": "enUS"
+      },
+      "excerpt": "Cower, causing no damage but lowering your threat, making the enemy less likely to attack you.",
+      "sourceId": "client",
+      "rowSha256": "8982212b58ec16eba41853963c8a7267bab7ab1bdd7a587ea981707caafb672e",
+      "excerptSha256": "2848d0e80d942167609672143e52997aa55860539f33c37632f4ccf10fcf106e"
+    },
+    {
+      "id": "name-spell-2649",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 2649,
+        "locale": "enUS"
+      },
+      "excerpt": "Growl",
+      "sourceId": "client",
+      "rowSha256": "41adf9c85c69c904e86b0ecfa60029b81f1cf9868664182b4a82d051f7a89084",
+      "excerptSha256": "defa6dd1729947f6d9e0cea0edea319d5a4b4591aace0fd69f4b4b06068f273a"
+    },
+    {
+      "id": "name-spell-description-2649",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2649,
+        "locale": "enUS"
+      },
+      "excerpt": "Taunt the target, increasing the likelihood the creature will focus attacks on you.",
+      "sourceId": "client",
+      "rowSha256": "9aae992c61ea210ad48b61b319e9e3f1fd81fd325b7ab1fe4ef1cae50b5ece17",
+      "excerptSha256": "ff8950a529f5dcb46a75ee109d4e9663ce352d2921f39d3d1f0b826e4d68cb4d"
+    },
+    {
+      "id": "name-spell-779",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 779,
+        "locale": "enUS"
+      },
+      "excerpt": "Swipe",
+      "sourceId": "client",
+      "rowSha256": "88b4870e8939c25b7c403f9a036655aa626b56c09a8cf3494b52b935a178e654",
+      "excerptSha256": "3f275d858425700456cc0acbc2c3ee28a7ac38148288438596f9a3d0115048a0"
+    },
+    {
+      "id": "name-spell-description-779",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 779,
+        "locale": "enUS"
+      },
+      "excerpt": "Swipe $x1 nearby enemies, inflicting $s1 damage.",
+      "sourceId": "client",
+      "rowSha256": "728bcdd7b7a4149d216620ea0d95dd0ec057f1262160e4ce1de905504704c1ef",
+      "excerptSha256": "f112837009ee0e4f5f5d59c58c06d611f0c5c71b7a5c0ed059c377fc1872cc52"
+    },
+    {
+      "id": "name-spell-467",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 467,
+        "locale": "enUS"
+      },
+      "excerpt": "Thorns",
+      "sourceId": "client",
+      "rowSha256": "cd023451baa453a0c5a08d03511a39f391cc0b110f169e2516d2c70c8f4ac458",
+      "excerptSha256": "d20c5a45f3025088460d38e73c274a5fd9f4f827c9638a3a19df97edd875790c"
+    },
+    {
+      "id": "name-spell-description-467",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 467,
+        "locale": "enUS"
+      },
+      "excerpt": "Thorns sprout from the friendly target causing $s1 Nature damage to attackers when hit.  Lasts $d.",
+      "sourceId": "client",
+      "rowSha256": "e33eb81585d5ab1be3f2ff6f82f17402860c57d23b4f59b156ed4de62848b6b0",
+      "excerptSha256": "1e32dc5e48f7bf525dc622544e67781197d611baa01ac79aa966a15cde4f261c"
+    },
+    {
+      "id": "name-spell-370",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 370,
+        "locale": "enUS"
+      },
+      "excerpt": "Purge",
+      "sourceId": "client",
+      "rowSha256": "85e28137344f820746ba4246cf3d24b44ac04eaa50f8f06900b5638b6e892cad",
+      "excerptSha256": "17c60a21a9c25fc473780f26530b4e91506f4f5efdc61d14e01b5951750c8a0f"
+    },
+    {
+      "id": "name-spell-description-370",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 370,
+        "locale": "enUS"
+      },
+      "excerpt": "Purges the enemy target, removing $m1 magic $leffect:effects;.",
+      "sourceId": "client",
+      "rowSha256": "6f84e53ea2cebe3cc292490aa6d09a8bbfb4fa806aecd447c262709f7f0ca29a",
+      "excerptSha256": "55770046b574117164f9e303432ec27361be199acf1a4df086618804af4a48c1"
+    },
+    {
+      "id": "name-spell-4987",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 4987,
+        "locale": "enUS"
+      },
+      "excerpt": "Cleanse",
+      "sourceId": "client",
+      "rowSha256": "bf0cd5fae0bccc2758a5a282e563343d7cf6343fe4269409621aa75e32148e84",
+      "excerptSha256": "16552a8aec42fa2fc8dc3b68236f1de0ad18ebacc4006082b2cd52f4b03d6f56"
+    },
+    {
+      "id": "name-spell-description-4987",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 4987,
+        "locale": "enUS"
+      },
+      "excerpt": "Cleanses a friendly target, removing $s1 poison effect, $s2 disease effect, and $s3 magic effect.",
+      "sourceId": "client",
+      "rowSha256": "200998a316aa609c59f80936e2a2960e891b2613a94780d534e3b3446f364f7a",
+      "excerptSha256": "7d665428358884e22bfeb1a8401a4b2a2027859f58b8f2764fddbd41de91d68f"
+    },
+    {
+      "id": "name-spell-2948",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 2948,
+        "locale": "enUS"
+      },
+      "excerpt": "Scorch",
+      "sourceId": "client",
+      "rowSha256": "9a7ec751ee7a96c233d861512993d68a1cb8d2401e8cd4efc66a2292c3c5bff0",
+      "excerptSha256": "0b83ab087e27f9dc5d9f96187b5f25dfd234050c2c110cf9ed22e1de76c965ac"
+    },
+    {
+      "id": "name-spell-description-2948",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2948,
+        "locale": "enUS"
+      },
+      "excerpt": "Scorch the enemy for $s1 Fire damage.",
+      "sourceId": "client",
+      "rowSha256": "ddfff6c4ba7a4d7c698e1a3a989f1b522d1a35acad9efa13a14f0406028cd127",
+      "excerptSha256": "3529dc99d1533aee668b46a1f42a7c3b7b9f420364af2af1b0d1835c59bf77ab"
+    },
+    {
+      "id": "name-spell-5211",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 5211,
+        "locale": "enUS"
+      },
+      "excerpt": "Bash",
+      "sourceId": "client",
+      "rowSha256": "3be1511f271c403d0cdb0eb839f08639dfd4e1d3bae095e36822f27994e27770",
+      "excerptSha256": "d1e9567da9a8a4b0c43da0791da1d2594cf5d7b78547fea132d06bccc1b06091"
+    },
+    {
+      "id": "name-spell-description-5211",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5211,
+        "locale": "enUS"
+      },
+      "excerpt": "Stuns the target for $d.",
+      "sourceId": "client",
+      "rowSha256": "7dfda060c3adc4c8ddd3707847ded7a1c64c8518c2f90342349c56278accb4a0",
+      "excerptSha256": "b8aafbda8dd507a6f6dffc42aafd5d70308732cfc5458f51d23c74a82d46a8ac"
+    },
+    {
+      "id": "name-spell-5308",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 5308,
+        "locale": "enUS"
+      },
+      "excerpt": "Execute",
+      "sourceId": "client",
+      "rowSha256": "ee1b79376532a439f44e3c46ca3c086b0ce0bbd89670fd7a554d51556aa9b85a",
+      "excerptSha256": "e3a67d9540e9a204f7dc4aa9d44a0ec652856cfa932a21196bf9df23aa0e4cd1"
+    },
+    {
+      "id": "name-spell-description-5308",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5308,
+        "locale": "enUS"
+      },
+      "excerpt": "Attempt to finish off a wounded foe, causing $s1 damage and converting each extra point of rage into $*10;F1 additional damage.  Only usable on enemies that have 20% or less health.",
+      "sourceId": "client",
+      "rowSha256": "fabd7018a4bbb47da3774bbc777f035d3c3d2da7a4f35e4c5f689bf9c0cf9b9d",
+      "excerptSha256": "56ada44c2fd149ace6d870f2b0018e210dfe2f2be38be8a5b94673587d54b60f"
+    },
+    {
+      "id": "name-spell-6552",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 6552,
+        "locale": "enUS"
+      },
+      "excerpt": "Pummel",
+      "sourceId": "client",
+      "rowSha256": "944aa764cdf6c88e684acf788ed7e0ce1f50b9975abedee32517265ceb46641f",
+      "excerptSha256": "122473b54afafd28e461eaf83f9511629601512042cad17271e58368a797163a"
+    },
+    {
+      "id": "name-spell-description-6552",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 6552,
+        "locale": "enUS"
+      },
+      "excerpt": "Pummel the target for $s1 damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.",
+      "sourceId": "client",
+      "rowSha256": "d57d6f6993ca67c4c58fd75a6cccf70bed4c54edab29af114f0a65b275bd4fe6",
+      "excerptSha256": "6c70b689fc890173053239015b78cb0a6428d9ed2dc3cbbb4555f345d3cc57cf"
+    },
+    {
+      "id": "name-spell-1784",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1784,
+        "locale": "enUS"
+      },
+      "excerpt": "Stealth",
+      "sourceId": "client",
+      "rowSha256": "e2dc86805075f7c184430218bb9e9100129f683ad25e307d2dfdc01e4fe4abf7",
+      "excerptSha256": "526a40a447ddd7aa52d34bb62dbf1da04dc4aba8403769d239ade80893ffef7a"
+    },
+    {
+      "id": "name-spell-description-1784",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1784,
+        "locale": "enUS"
+      },
+      "excerpt": "Allows the rogue to sneak around, but reduces your speed by $s3%.  Lasts until cancelled.",
+      "sourceId": "client",
+      "rowSha256": "6e7f469b74aff4c6c3b982e054bfbbf3ce13255dfa7c2b2e6b5d756076e6196e",
+      "excerptSha256": "af461661cb78e4a6a04c15e6f5639fcde792eb624d49e58b611134c65ccdedfb"
+    },
+    {
+      "id": "name-spell-5277",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 5277,
+        "locale": "enUS"
+      },
+      "excerpt": "Evasion",
+      "sourceId": "client",
+      "rowSha256": "51d5ae2438c06cdd127b4a9e4d1ac98013177dcad9ff3d5f475089aa07a817ab",
+      "excerptSha256": "3643dd816bb8e97a8ce28589d18507c131d49e0d67d64cebcb22d9bcc2b79e6a"
+    },
+    {
+      "id": "name-spell-description-5277",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5277,
+        "locale": "enUS"
+      },
+      "excerpt": "The rogue's dodge chance will increase by $s1% for $d.",
+      "sourceId": "client",
+      "rowSha256": "62a6764710f47fe4e024cc8f8d875c2aef04e3301bc10024d21897dd6eda6cf4",
+      "excerptSha256": "ee37dc7e8b50092f6789641823a52de7c4522c27d547310682657536ea6508d0"
+    },
+    {
+      "id": "name-spell-586",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 586,
+        "locale": "enUS"
+      },
+      "excerpt": "Fade",
+      "sourceId": "client",
+      "rowSha256": "09481f2c4798488d59655da650cd1f32bcd3ccd85493950f43625b11b67e1182",
+      "excerptSha256": "9efb597c915414fd84e20eedf169e945155c3408df8c13fb82385ca7b96174b7"
+    },
+    {
+      "id": "name-spell-description-586",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 586,
+        "locale": "enUS"
+      },
+      "excerpt": "Fade out, discouraging enemies from attacking you for $d.",
+      "sourceId": "client",
+      "rowSha256": "52e96986584e46b26cb18c2d2b78634c37830c619aaf3d9159546b32f615731d",
+      "excerptSha256": "236478365c3d7dfad1244140bc65aee76e4a3b8bd623187ee9974497c5e9c42c"
+    },
+    {
+      "id": "name-spell-118",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 118,
+        "locale": "enUS"
+      },
+      "excerpt": "Polymorph",
+      "sourceId": "client",
+      "rowSha256": "6408c352e018153329bdd765fe909f7ee72f72a14e9fce1f644a9122076bd8ca",
+      "excerptSha256": "e9737018aa3155460c798d0eca1f20434d07e5c40b6d062bca0d31180830a243"
+    },
+    {
+      "id": "name-spell-description-118",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 118,
+        "locale": "enUS"
+      },
+      "excerpt": "Transforms the enemy into a sheep, forcing it to wander around for up to $d.  While wandering, the sheep cannot attack or cast spells but will regenerate very quickly.  Any damage will transform the target back into its normal form.  Only one target can be polymorphed at a time.  Only works on Beasts, Humanoids and Critters.",
+      "sourceId": "client",
+      "rowSha256": "cde9ce6b3da0ed9e2b8c4a8f33adda9f86a4c3fa0dff4d3f635fdb26014b2ab4",
+      "excerptSha256": "bbdd6e587e7cb7f5660fccfdde1f84c45236f67ef945a8185b67d2b9b400207f"
+    },
+    {
+      "id": "name-spell-133",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 133,
+        "locale": "enUS"
+      },
+      "excerpt": "Fireball",
+      "sourceId": "client",
+      "rowSha256": "1da4f8e1e45b1d55ab446ebcaa379810b0a234b34e7822bcac85d87c8c7235e2",
+      "excerptSha256": "cc173df6702cba90cfae123f149085dc44e3f6c660816c528f063c75083e5a9e"
+    },
+    {
+      "id": "name-spell-description-133",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 133,
+        "locale": "enUS"
+      },
+      "excerpt": "Hurls a fiery ball that causes $s1 Fire damage and an additional $o2 Fire damage over $d.",
+      "sourceId": "client",
+      "rowSha256": "017ba33ec23476f69bea02daef7b7c456625b076b3e94656fe86d15709cfd77d",
+      "excerptSha256": "2f1abcd96aca8017a40662b8f433337d143b323478f10ecdb9eaa690a8ad457a"
+    },
+    {
+      "id": "name-spell-8921",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 8921,
+        "locale": "enUS"
+      },
+      "excerpt": "Moonfire",
+      "sourceId": "client",
+      "rowSha256": "ee11b477f6bce1a8cd6c38b84fe2df83989c4185ac578cd22a65e589cacb13a7",
+      "excerptSha256": "45d38ba0005635e69d0cec2307d3a7a2c4a7709de4250a548c6e6b2c7689ed82"
+    },
+    {
+      "id": "name-spell-description-8921",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 8921,
+        "locale": "enUS"
+      },
+      "excerpt": "Burns the enemy for $s2 Arcane damage and then an additional $o1 Arcane damage over $d.",
+      "sourceId": "client",
+      "rowSha256": "8b7beb64216c9a1faf05e691f65518f90f0a1f246fed3cbeb1ada400acbfa63a",
+      "excerptSha256": "36e2c39d10780eaf5283da5a9653d2c3f9e74cb8f5b208801b5f63fc7f23db29"
+    },
+    {
+      "id": "name-spell-774",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 774,
+        "locale": "enUS"
+      },
+      "excerpt": "Rejuvenation",
+      "sourceId": "client",
+      "rowSha256": "8fcec13058543403933605be6767b060f2cdbf136c7124f863068b7d22f149f0",
+      "excerptSha256": "f8a66e812c8c3d3fb50f5b7e7df3e0135a88b95349a9609526a8d94915d81d23"
+    },
+    {
+      "id": "name-spell-description-774",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 774,
+        "locale": "enUS"
+      },
+      "excerpt": "Heals the target for $o1 over $d.",
+      "sourceId": "client",
+      "rowSha256": "893d0ee62123aa22f2b183e6390055469b331a0fd78d1c096250fb920be083ef",
+      "excerptSha256": "f7e8f556a845ed35511ddf341b3b02a63bbb92aa943899d7d03ad06f5996acd6"
+    },
+    {
+      "id": "name-spell-2912",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 2912,
+        "locale": "enUS"
+      },
+      "excerpt": "Starfire",
+      "sourceId": "client",
+      "rowSha256": "7e2697b8645226beeeb91d719171204ce5fececd5352faf9703860a4900934ba",
+      "excerptSha256": "e09d9a93d0d353fe0d2159cd47acf4b8da1e40480fc131cd16b3688ae249adeb"
+    },
+    {
+      "id": "name-spell-description-2912",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2912,
+        "locale": "enUS"
+      },
+      "excerpt": "Causes $s1 Arcane damage to the target.",
+      "sourceId": "client",
+      "rowSha256": "3bcdba2b7cf8306efa3eb2afe11376b87ddc52367050723a01c8dcb9b1a7cdba",
+      "excerptSha256": "0a89aa3b1acb025a856645995ffb5c7aea51fcab988b9786ffbfdf86bcafe446"
+    },
+    {
+      "id": "name-spell-8936",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 8936,
+        "locale": "enUS"
+      },
+      "excerpt": "Regrowth",
+      "sourceId": "client",
+      "rowSha256": "b283f9feba2890ccb5daaf8bded7976f8898c3bc7891b1a1b292f2fa284651e2",
+      "excerptSha256": "7774fb54d233da6e9169ef7dc4111a46645377e4c9d6d239ec54b052a8420b39"
+    },
+    {
+      "id": "name-spell-description-8936",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 8936,
+        "locale": "enUS"
+      },
+      "excerpt": "Heals a friendly target for $s1 and another $o2 over $d.",
+      "sourceId": "client",
+      "rowSha256": "d0a92a2053ab9a9e97e61ac00ddc2a700f4e10d2d4abcfd1b8d11bfb02c1ab8d",
+      "excerptSha256": "8f5d3ba8cd1365912f3684fd9672c8d46efe3ffc018593a7c9eb0164fc279a27"
+    },
+    {
+      "id": "name-spell-7386",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 7386,
+        "locale": "enUS"
+      },
+      "excerpt": "Sunder Armor",
+      "sourceId": "client",
+      "rowSha256": "809e5691b22261e1d4f430e2570148f0025a92f8c07fc414dfe53febacdd8ef3",
+      "excerptSha256": "14e0824a08b0032a44915501dd921dd1737b9b454a1efbc34f91887b9f5aa3c6"
+    },
+    {
+      "id": "name-spell-description-7386",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 7386,
+        "locale": "enUS"
+      },
+      "excerpt": "Sunders the target's armor, reducing it by $s1 per Sunder Armor and causes a high amount of threat.  Can be applied up to 5 times.  Lasts $d.",
+      "sourceId": "client",
+      "rowSha256": "1756509e8e32e651b006c33d5dfc8eed08f3af5dccc13f040748589732b60186",
+      "excerptSha256": "cfcdffec5ccc5a2a406dec886720b1e9521b75fbde2917c8dc8130d78b294961"
+    },
+    {
+      "id": "name-spell-116",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 116,
+        "locale": "enUS"
+      },
+      "excerpt": "Frostbolt",
+      "sourceId": "client",
+      "rowSha256": "4d6705e230ea570201bd256214c13a34ae3197b415de8672db4b8ef83cdf38e8",
+      "excerptSha256": "7e68419da539725d2749a1a1caaaba271a97311f1f3f5b8bc9f6ba0bd14b1e04"
+    },
+    {
+      "id": "name-spell-description-116",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 116,
+        "locale": "enUS"
+      },
+      "excerpt": "Launches a bolt of frost at the enemy, causing ${$m2$*$<frostdamage>} to ${$M2*$<frostdamage>}  Frost damage and slowing movement speed by $s1% for $d.",
+      "sourceId": "client",
+      "rowSha256": "2788730d98afdf58cd920e85b3de6b0853c57c67e7688c8ae887485c86f9d2b0",
+      "excerptSha256": "337ccb9ec24a75e25ed65496f241a1cb97b8ee29aad03b237e1354ccae413e2b"
+    },
+    {
+      "id": "name-spell-122",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 122,
+        "locale": "enUS"
+      },
+      "excerpt": "Frost Nova",
+      "sourceId": "client",
+      "rowSha256": "202aaa5407c898b1df57c41be318bcdf0d0c9bd71f88b11ee5e3ea5064b41b85",
+      "excerptSha256": "f66731e97d31e54ad93d4355a9968d6463e37d462063691bf11123f7bc1230ef"
+    },
+    {
+      "id": "name-spell-description-122",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 122,
+        "locale": "enUS"
+      },
+      "excerpt": "Blasts enemies near the caster for ${$m1*$<frostdamage>} to ${$M1*$<frostdamage>} Frost damage and freezes them in place for up to $d.  Damage caused may interrupt the effect.",
+      "sourceId": "client",
+      "rowSha256": "caab0ccfabbc2784cf23647f800d6d5b04f865035ff9ecc400f076a1497c9583",
+      "excerptSha256": "9a49740c463a1aa82c01ce16c5e0df1f666a5eb3176e873b09430c0ec7f3bb2c"
+    },
+    {
+      "id": "name-spell-689",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 689,
+        "locale": "enUS"
+      },
+      "excerpt": "Drain Life",
+      "sourceId": "client",
+      "rowSha256": "e209d0e9177c3012b88e85059a4e6e538c83186f438d2dd8ad3edb47871bce37",
+      "excerptSha256": "74cad17c31008099357993b586191e7162efb2672159118226d0e0b56be4f586"
+    },
+    {
+      "id": "name-spell-description-689",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 689,
+        "locale": "enUS"
+      },
+      "excerpt": "Transfers $s1 health every second from the target to the caster.  Lasts $d.",
+      "sourceId": "client",
+      "rowSha256": "7f116c52a6ea0ad709096c94cbda6d7b584d331c6859729f87c823ba9c018174",
+      "excerptSha256": "ea798fa9042f390282c20847eec1645d44fae671a8ebe6b5d1a85c4558099cee"
+    },
+    {
+      "id": "name-spell-686",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 686,
+        "locale": "enUS"
+      },
+      "excerpt": "Shadow Bolt",
+      "sourceId": "client",
+      "rowSha256": "abdd5448d2c76d820370605d4ff2eaeb2edc93b3180abe47108d683b4e798d80",
+      "excerptSha256": "cc8879913d8ae79e9b4e12207856ff717d1e060b83bc32124a90fb14f38a1ffd"
+    },
+    {
+      "id": "name-spell-description-686",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 686,
+        "locale": "enUS"
+      },
+      "excerpt": "Sends a shadowy bolt at the enemy, causing $s1 Shadow damage.",
+      "sourceId": "client",
+      "rowSha256": "f3617176e515d5cf4f96ac96743664e2492927f9aadc4fc3e0935676520bb5c6",
+      "excerptSha256": "f627ad03c27f4995d4f2ac19ec91ab898bdc65b55975254ee67ca8ad4446153e"
+    },
+    {
+      "id": "book-21583-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 21583,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "Yet, as the seemingly endless ages passed, the night elves' civilization expanded both territorially and culturally. Their temples, roads, and dwelling places stretched across the breadth of the dark continent. Azshara, the night elves' beautiful and gifted Queen, built an immense, wondrous palace on the Well's shore that housed her favored servitors within its bejeweled halls.",
+      "sourceId": "classicdb",
+      "rowSha256": "d708aa4d7cef11ed3a93c4acce8c948d37fb26e82dbdee9afcb759a75e82edd5",
+      "excerptSha256": "1c385c2c08e70a0511e909094ae5a36f69c826518dd640c88d154e507cdb42a8"
+    },
+    {
+      "id": "book-175724-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175724,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Over time, demonic entities made their way into the Titans' worlds from the Twisting Nether, and the Pantheon elected its greatest warrior, Sargeras, to act as its first line of defense. A noble giant of molten bronze, Sargeras carried out his duties for countless millennia, seeking out and destroying these demons wherever he could find them. Over the eons, Sargeras encountered two powerful demonic races, both of which were bent on gaining power and dominance over the physical universe.",
+      "sourceId": "classicdb",
+      "rowSha256": "b83dc22b69f0711bf1547559ff2ff1c9f23939e82ee78f3986568379039ed919",
+      "excerptSha256": "450d96ca2ec38315710a013471dfe1aa7e25a0e048553b2165cbc472b64c43d2"
+    },
+    {
+      "id": "book-175731-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175731,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "As the centuries passed, the night elves' new society grew strong and expanded throughout the budding forest that they came to call Ashenvale. Many of the creatures and species that were abundant before the Great Sundering, such as furbolgs and quilboars, reappeared and flourished in the land. Under the druids' benevolent leadership, the night elves enjoyed an era of unprecedented peace and tranquility under the stars.",
+      "sourceId": "classicdb",
+      "rowSha256": "3b463600e0375b96e8013cb1bc83c23bdcf4866822a41cbaf9ce1a0e2f81fe9f",
+      "excerptSha256": "a00b7fdb5da7b2c4cd3215cb905ba621a04861bc24eb9490b4373a0885952752"
+    },
+    {
+      "id": "book-175739-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "The dwarves of Ironforge Mountain lived in peace for many long centuries. However, their society grew too large within the confines of their mountain cities. Though the mighty High King, Modimus Anvilmar, ruled over all dwarves with justice and wisdom, three powerful factions had arisen amongst the dwarven society.",
+      "sourceId": "classicdb",
+      "rowSha256": "c118267a7e4563dd95224f543b29ef296f302b94509b0547040f1795d3d881e0",
+      "excerptSha256": "f8e79024b8a717b05c39fd58e9829dfbcb81848d602d2fd3110eb11e0a03a772"
+    },
+    {
+      "id": "quest-245-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 245,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Hail, $c. Perhaps you've seen those spiders that have taken over the western border? The eight-legged menaces are too much for us to handle, and the Commander hasn't enough manpower to spare so far from Darkshire.$B$BI hate to ask this of you, but you seem like you might be able to handle them. I can't promise you anything of great value, but I can reward you if you can help root out the filthy bugs.$B$BOh, and a word of advice, you'll want to avoid their venom if you can.",
+      "sourceId": "classicdb",
+      "rowSha256": "f3cb4fea685ab279f56596f4af30628b33dfadf8f9e835081737460702f640f0",
+      "excerptSha256": "e0dcf89ec80947229f7fda74df2becde7e386d7e602f966747de18222fc8e7f5"
+    },
+    {
+      "id": "quest-151-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 151,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Poor Old Blanchy!  Such a tired beast after all the work we put her through. I fed her before we left the farm, but we weren't expecting the wagon to break on us. If you could bring her a few handfuls of oats from the fields, I'd be grateful.$B$BI bet you could find some around all of the farms in Westfall, if you can steer clear of those horrific machines that have taken over. There are several farms southwest of here.",
+      "sourceId": "classicdb",
+      "rowSha256": "7116c7563e1de76ffb7ed0375acdab4ead0218f96322af404cdc3845a479d4c6",
+      "excerptSha256": "f1d5f2b7881e65a4b26ab08b8d50fd79ff282904cdf2bbc806de171ab3eb97fe"
+    },
+    {
+      "id": "quest-6085-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6085,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Use the Taming Rod to tame an Ice Claw Bear. Practice your skills, then return the Taming Rod to Grif Wildheart in Kharanos.",
+      "sourceId": "questie",
+      "rowSha256": "774cee4f461d12ddbcc38416a925f14293a2bfc671367152041532c18179a591",
+      "excerptSha256": "3268efe929b488239f756e84b574f36ad03d87f82a105b91975f67eec2ddd55d"
+    },
+    {
+      "id": "quest-1525-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1525,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "But you did not come here for a history lesson, did you? You came for the Eternal Flame and fire totem.$B$BThe first step is to create a sapta and bind you to the flame.$B$BI can create the fire sapta for you if you bring me two items. The first is fire tar, a simple item usually carried by Razormane spellcasters in eastern Barrens.$B$BThe second item will be more dangerous: a reagent pouch from one of the cultists of the Burning Blade. You can find them in a cave above the ravines northeast of Razor Hill.",
+      "sourceId": "classicdb",
+      "rowSha256": "befdc0702c4458ca32d409ff1c85b1f2654b77d5b62c61e56b97e5325664370d",
+      "excerptSha256": "a3294b32253b33e6dee6866677f9ab81eb71d2ec40a289da703041d5e88987af"
+    },
+    {
+      "id": "quest-116-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 116,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I find myself in quite a pinch here, $N.  The bottles are close to running dry.  The latest booze shipment is long overdue.  The orc invasion has been hell.$B$BPerhaps you can go to work for me?$B$BI need you to pick up a keg of Thunderbrew Lager from Grimbooze Thunderbrew in the Westfall hills, a cask of Merlot from Stormwind, a bottle of Moonshine from Darkshire and a skin of Sweet Rum from Goldshire.  Bring those back to me and I will see to it you are rewarded.",
+      "sourceId": "classicdb",
+      "rowSha256": "7c3dd8d524c6b879420d80b74f623517ec606fd60810e384048804ec4abdd2b4",
+      "excerptSha256": "3d9a636527bae233d39c827ea6b481c6e7b8310e356faf1f4bc6750ec71eee38"
+    },
+    {
+      "id": "quest-383-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 383,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "These will need to be taken to my superior, Executor Zygand, in Brill. With this information, we'll be able to deal a decisive blow to the Scarlet Crusade. Your services have been useful here in Deathknell, but I need someone to deliver this to Zygand, and I believe he'll be able to find you more appropriate work.$B$BTake the road north out of Deathknell. Soon after entering Tirisfal proper, you'll hit a crossroads. Take the eastern fork, and keep going east. You'll pass Cold Hearth Manor along the way.",
+      "sourceId": "classicdb",
+      "rowSha256": "8239bd132aa17856fee719bdb4b3bcc198daae82cd41e82ccbb22cf440d39c71",
+      "excerptSha256": "89813165bedb70086812ad920ad43ee788692196ec6a49315ae8ec7ed8c6ee55"
+    },
+    {
+      "id": "quest-4243-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4243,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Unfortunately, something's happened to one of my greatest inventions. You've seen mechanical squirrels, yes? Well, to get closer to the apes of Un'Goro Crater, I created a mechanical ape to blend in with their kind--I call her A-Me 01.$B$BShe has scrying gems for eyes so I could see everything she saw. She made it to Fungal Rock--the apes' lair--just east of here, and that's when I lost contact. The last thing I saw was one of their alpha males rushing up to say hello to her!$B$BCan you help me find her?",
+      "sourceId": "classicdb",
+      "rowSha256": "c6144486762ad583c1a941ce78c871515cd405cca65497aa67f4a425e2ae1584",
+      "excerptSha256": "1145f3dfdee950883adf229295f6d6571c3af283042248fae214eb2fd6189915"
+    },
+    {
+      "id": "quest-470-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 470,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "On my weekly visit to Ironbeard's Tomb I was attacked by dreadful, dripping oozes! Naturally, I panicked.$B$BI threw my bag at one, but it didn't do anything! The ooze just sucked it right up... Luckily, it did give me enough time to get away.$B$BThe bad news is that I really need to get the contents of my bag!$B$BI don't know which ooze I threw my bag at; they all looked the same! Ironbeard's Tomb is northeast of here, near Dun Modr. Thank you so much!",
+      "sourceId": "classicdb",
+      "rowSha256": "5e47d9cd0a5ce4c6cd77a2ced081a063c26209f8a09ccc9f55802e4291ed5d0f",
+      "excerptSha256": "fc2b0e99049a9228501f65c31148bb2ec4b845a9b7b849229f0b17248aa57f51"
+    },
+    {
+      "id": "name-spell-2657",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 2657,
+        "locale": "enUS"
+      },
+      "excerpt": "Smelt Copper",
+      "sourceId": "client",
+      "rowSha256": "365db0357a6da223abb7973af08686e61c73f2d7ad6082e6cc4008e57eb72e30",
+      "excerptSha256": "bb41714741845cad8e00b266e8b1ae6a513a057102e7c2bf1ce08b0ce01e4289"
+    },
+    {
+      "id": "name-spell-description-2657",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2657,
+        "locale": "enUS"
+      },
+      "excerpt": "Allows the miner to smelt a chunk of copper ore into a copper bar.  Smelting copper requires a forge.",
+      "sourceId": "client",
+      "rowSha256": "9e0e05ac95c34398cea0bc7e921c19c8ba21861505bdf0543b89f0f8529d218a",
+      "excerptSha256": "983526760e20373742d98a016e8c24f3c87d922a52518c66eb0f8f8561733d0e"
+    },
+    {
+      "id": "quest-328-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 328,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Although no mention of Private Thorsen is found in these records, hidden within the binding of one of Herod's ledger books is a small, brass key.$B$BAnd after further study of his notes, a few references to a \"secure strongbox\" are contained among various papers.  The box is somewhere within the Stockpile - the cavern complex at the back of Kurzen's Compound.$B$BIf this secure strongbox is found, and the small brass key can open it, then perhaps the mystery behind Thorsen's detection will be revealed.",
+      "sourceId": "classicdb",
+      "rowSha256": "284cc459dfc085b5d28db52827f4173a638e36703f3ad61a8c25445f8cdab5a2",
+      "excerptSha256": "593fc90cee8012999990ed4b0e57511957ec94efe6489d5f779dc318420ed551"
+    },
+    {
+      "id": "quest-110-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 110,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I'm going to spend some time taking a look at Scrimshank's surveying gear... as well as putting his personal effects in order.  I get the sneaking feeling behind my ears that this isn't the last loss we'll be facing against these bugs.$B$BI'd like for you to check in with Alchemist Pestlezugg to see if he has had a chance to process the insect parts we sent him.  If they're ready, bring them to me.",
+      "sourceId": "classicdb",
+      "rowSha256": "6069ef26d08d68ec34588bea879765e6a4ff89ba227d2b80a96bc50ef0f78131",
+      "excerptSha256": "acb025bfd7e5115b4c82bd5867ede6b40ce1df26527e829bd904db64a2e4a806"
+    },
+    {
+      "id": "quest-10-reward",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 10,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "He was a good goblin, young Scrimshank.  Let's hope that his demise was not in vain by what he was able to record with his surveying equipment.$B$BIt seems as though we have quite the situation on our hands here with these bugs.  They're way too cunning for their own good, and the research we've done so far is shaping up to indicate that they might even be under the controlling influence of a third party!  If this is the case, then it bodes ill for not only Gadgetzan, but the whole desert!",
+      "sourceId": "classicdb",
+      "rowSha256": "9193591d04f678f3fa9655952417d2a5f5de035cb29b40abb62f9da3a78f5f83",
+      "excerptSha256": "9ad8ebb56241072b705d780436240131622a969b357b2cd215818e6bf36473d6"
+    },
+    {
+      "id": "quest-1001-reward",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1001,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "The Buzzbox hums to life soon after you place the Thresher Eyes inside. There is a moment of static before you hear a familiar tiny voice call out.$B$B\"Crawler wine is the best...\" *hic*$B$B\"What? Oh, you fixed it already? Wow, you're a fasht one. Sho, would ya like to fix another?\"$B$BYou believe you hear a liquid being poured into a cup, followed by loud gulping sounds.",
+      "sourceId": "classicdb",
+      "rowSha256": "3feec4747217923fc3bb79f52b52c5b65a86823611bd4d167bb6a031e5ef540e",
+      "excerptSha256": "c5a2308eaf410f49f4d76329065228b74a8fff7cab59c7859ba3ec63949aac37"
+    },
+    {
+      "id": "quest-502-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 502,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Ah, nothing like the smell of fresh blood in the foothills!$B$BNow we'll mix in a touch of this and a little of that and let the real fun begin!  What I have created with this blood, I like to call an Elixir of Pain.  If my calculations are correct this concoction could be the start of something very beautiful for Lady Sylvanas.  But what we need is a test.$B$BTake this elixir out to the northern farm in Hillsbrad Fields to the southwest.  Let's see how Farmer Ray's little dog Stanley likes this \"treat.\"",
+      "sourceId": "classicdb",
+      "rowSha256": "eaae0e9a7fb7fa4b57ee1af4ba22385ab3f0db510b5ccaf6e63b642463d1d1b5",
+      "excerptSha256": "91284b090466ae86003e913732cb07deca3506583cd9948e74dfda176fbca001"
+    },
+    {
+      "id": "quest-347-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 347,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Rethban Ore is named after the man who first found it, Bart Rethban.  When smelted it's not as strong as iron, but its ore has a dark, flat color that some scribes use in their dyes.  It can be found in the Rethban Caverns, north of here.$B$BWe usually have some in stock, but we're too busy preparing for Orc attacks to gather any.  And besides...Redridge Gnolls are now living in the Rethban Caverns and their Drudgers are gathering the ore themselves.$B$BSo if you need some, you'll have to get it yourself.",
+      "sourceId": "classicdb",
+      "rowSha256": "7bd02481781503ac9679295e8bb9e3a12f7059534a4b94720b1b07ce97b6356f",
+      "excerptSha256": "a5a355349382977d6f53b9c7506a585e7be4b67e42fdd7deed683f7d965a8e30"
+    },
+    {
+      "id": "quest-1389-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1389,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The lost ones who live in the Fallow Sanctuary look as we look, but they are monsters... driven mad by the rigors of our journey to Azeroth.  Once our brethren, they now live in the Fallow Sanctuary to the east, catching or killing any who wander near.$B$BAnd they have stolen something sacred to us--draenethyst crystals.$B$BWe lack the force to enter the Fallow Sanctuary and reclaim our stolen draenethyst from among their huts and campfires, but without those crystals... we too may lose our way.",
+      "sourceId": "classicdb",
+      "rowSha256": "319266c263c00a23ac091f246b1f794773e35a8d488cf672549caec8276d35dc",
+      "excerptSha256": "eb4550969a44a43b5a9c687f5712507f2743e99515eb2d6769870cb345aef5ef"
+    },
+    {
+      "id": "quest-139-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 139,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Searching through the barrel you discover another piece of parchment.  This one reads:  Now from this here barrel, face ye North.  Straight as the crow flies, keep ye walkin' till you see the empty jug next to the lone windmill on the sea bluffs.  If ye poke around that jug, ye just might find what you're lookin' for.",
+      "sourceId": "classicdb",
+      "rowSha256": "5258b0ce600282ac9cf53635e2882a4fc02e3871588678b202f43bd045aedf34",
+      "excerptSha256": "b70cf5278170f41a739891c3125609c551868ee8396c99eb1232223c32791d13"
+    },
+    {
+      "id": "quest-140-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 140,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Sure enough, deep within the Old Jug there is another clue to Sander's treasure.  The ink has run in some places and the paper smells like whiskey but you can make out some of the text:  Now that ye found me ol' whiskey jug, you're almost to the treasure!  Just face West from the bottle and walk down to the shore.  Once ye get to the water, keep going!  Swim straight west till you find the island with me treasure chest!",
+      "sourceId": "classicdb",
+      "rowSha256": "3bae19de26f74829221961888b823eaa84926b00110aadea3c35f90874675b9f",
+      "excerptSha256": "311e0f53a625aedc359dc12f43b244fae77049778fdccca903a21e80d2873e51"
+    },
+    {
+      "id": "quest-418-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 418,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "There's never a shortage of empty bellies here in Thelsamar, kids running in and out, workers from the excavation coming in after  a hard day's work. We're famous for our blood sausages, I don't suppose you've ever tried them?$B$BNo? Well, around here you've got to work for your meals, and don't think just because you're a fancy $c, you'll be any exception.$B$BI'll need bear meat, boar intestines for the casings, and spider ichor for spice. You get me some of those, and leave the cooking to Vidra!",
+      "sourceId": "classicdb",
+      "rowSha256": "97b08047466e219a34935c2343005af76dea360ffd6af1e69403bbede99a3504",
+      "excerptSha256": "29f2091fcbf958f7ba93ff3b98b04b97cc46052b4008e91511f147c57b3a2c05"
+    },
+    {
+      "id": "book-1293-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 1293,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Oddly enough, Morganth turned on his Orcish cohorts shortly after their wretched victory.  The Warlock constructed an arcane tower in the Northeast, and has used his powers to build a small army of Shadowhide Gnolls to serve his malicious biddings.  Both Orc and Man have fallen victim to the viscous brutes that serve the Warlock.  As to what betrayal took place between Morganth and Gath'Ilzogg, the Blackrock Warlord, one can only speculate at this point.",
+      "sourceId": "classicdb",
+      "rowSha256": "bc6da881fa464fdb0b2a012cf740f7320cada80cef6288de499630113a6fde4e",
+      "excerptSha256": "b2bc331a8e9c11528a174af9ae374c8f2e84c3248bdaca6de384a4b4984300ea"
+    },
+    {
+      "id": "quest-37-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 37,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "A few days ago we sent two Guards, Rolf and Malakai, to investigate along the river, and they have not yet returned.  To complete my report, I must know what happened to those men.$B$BTravel north along the river and find the guards... or their remains.",
+      "sourceId": "classicdb",
+      "rowSha256": "6af7b2ce771a24c16ad1eddf3a0c9164b718b8797e83782b48615ca8e63cf094",
+      "excerptSha256": "d91dfdaa8f3bf599ce892748baba3c3bad56dae23c30ed6140c97ca4c8984705"
+    },
+    {
+      "id": "name-spell-6533",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 6533,
+        "locale": "enUS"
+      },
+      "excerpt": "Net",
+      "sourceId": "client",
+      "rowSha256": "3928df72844d2272d7321d464eb6a3b662aa4d631bf72f64b22892a9aad64a4b",
+      "excerptSha256": "660fb2c41d028988b2093656a80d3ae99bc67cd0d5acca5c6063793819b15881"
+    },
+    {
+      "id": "name-spell-description-6533",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 6533,
+        "locale": "enUS"
+      },
+      "excerpt": "Immobilizes an enemy for $d.",
+      "sourceId": "client",
+      "rowSha256": "17906017eb59359f8e6a90727424d15ce4762f84539ef42718d8122a1e3a37e7",
+      "excerptSha256": "3bebad1ceff328cac92f4bbde20e960077034a424df5dd633bde522dada02c2b"
+    },
+    {
+      "id": "quest-88-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 88,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Brackwells have a prize-winning pig, Princess.  The sow is HUGE, and she got that way from sneaking over here and eating my veggies!$B$BSo before she comes to our fields...Princess must die!  Bring me her collar as proof of the deed and I'll give you something for your time!$B$BPrincess is usually over at the Brackwell Pumpkin Patch, to the east and beyond the Maclure farm.  Get her before she gets hungry and comes back here!",
+      "sourceId": "classicdb",
+      "rowSha256": "e695a7d47129ee6204a78402faa268fd5719add90befd910abf6531fef8b15c7",
+      "excerptSha256": "f281ab58ffc83e7227acc36e5d85fe38a6245d7ad4d42642ebf32903321265ea"
+    },
+    {
+      "id": "quest-210-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 210,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I do most of the cooking at the camp.  And it used to be a lot of work, until I bought a mechanical cooking pot from a goblin merchant in Booty Bay.  The pot is a wonder!  It saved me countless hours...until it broke!$B$BCan you take the pot back to the goblin for me so he can fix it?  His name is Krazek.",
+      "sourceId": "classicdb",
+      "rowSha256": "a7cc27f826e569707a03e8b491d309a2ac7bc35de369ba3fdf1e405e05f24c69",
+      "excerptSha256": "636afdcc3c28083a812d2cd304ec1d00edf85de97972a50f70f28620fd362081"
+    },
+    {
+      "id": "quest-1452-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1452,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Hiccup!$B$BSo that crazy fool Brohann sent ya? My we had quite an adventure...Hiccup!$B$BIf ya want me to tell ya what happened down in the swamp, I'm gonna need me something stiff to drink. It wasn't a pretty scene, ya see. Hiccup!$B$BTell ya what... bring me what I need to whip up a Kalimdor Kocktail and I'll tell ya all about it.$B$BGonna need some Roc gizzards from Tanaris... and let's see... some Groddoc and Ironfur livers from Feralas...$B$BA nice stiff Kalimdor Kocktail... that'll get me talking!",
+      "sourceId": "classicdb",
+      "rowSha256": "613b321a1fbe216e0ab3b659da80c1f7e139b428ae739040ac8ded4b4152b3b7",
+      "excerptSha256": "b90f7a1a36c5d0d150e6e15f65b0fa2c8c96e52fbad46470a2a3c8d5d09d1a1e"
+    },
+    {
+      "id": "quest-313-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 313,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Driving a Siege Engine isn't for everyone.  It takes an iron grip and nerves of steel...lucky I have both!  How about you?  How's your mettle?  Want to prove it to me?$B$BWell...I'm looking to make my engine, Trollplow, a little more cozy.  How about you get me a heap of Wendigo Manes from the Grizzled Den, west of Kharanos.  Those manes would make a great rug for Trollplow's inside deck!",
+      "sourceId": "classicdb",
+      "rowSha256": "f62cb12fe499d3d25600ace36f067b6d342e45c0b620e29c0e337f9d307b4e22",
+      "excerptSha256": "5ddd3dec8b2c17f58132519b2f1fcd5d499cfc3505373b90df2abf5ebee2ed76"
+    },
+    {
+      "id": "quest-8542-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8542,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Lok'tar, $r, I'm sure you already know that we're going to war at Ahn'Qiraj with the insects. But first the Warchief has decided that we're going to do something called 'prepare'. Though I'd rather be sharpening weapons and hammering armor into shape, I'm proud to have been chosen to be in charge of tin bar collection here. But I cannot do that without your help.$B$BSo I need you to go out and make tin bars and bring them back to me here. I think I'm going to need more than I can count.$B",
+      "sourceId": "classicdb",
+      "rowSha256": "4e06569eca06c9a2ad7d10e6b6f55d05119d0f9ee4f43dad79b33ef1db7e113d",
+      "excerptSha256": "0300120fc6f7c99ecc280de1c1a5a29be9ad7c1f8751b44f2280a8a2f68b69d7"
+    },
+    {
+      "id": "name-spell-2659",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 2659,
+        "locale": "enUS"
+      },
+      "excerpt": "Smelt Bronze",
+      "sourceId": "client",
+      "rowSha256": "0aca8e4bea50c543296b1a2915cbe3e074b5b9006db04e2a7a62a80122068b9d",
+      "excerptSha256": "2ea357292095655c8d2a2ba4bf2c2f4a84ec48ec05f831c826ab89e0e44f1179"
+    },
+    {
+      "id": "name-spell-description-2659",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2659,
+        "locale": "enUS"
+      },
+      "excerpt": "Allows the miner to smelt a tin bar and a copper bar together into two bronze bars.  Smelting bronze requires a forge.",
+      "sourceId": "client",
+      "rowSha256": "4c92026ab4f3e453dd5b11888701ef3386675169a25f49488f00add35c63233e",
+      "excerptSha256": "cffd49c856f8849c508fcb92ca00c3b17679f4de851601871bbf6fd9d60bcedd"
+    },
+    {
+      "id": "quest-704-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 704,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The last report I received from Agmond is troubling, more so now that he's dead!  He mentioned that his diggers uncovered \"ancient urns\" at the dig site outside Uldaman.  I fear that the urns he found at that site incited the troggs, just as did the idols I found here.$B$BI need you to get those urns for our studies.  Go to the Uldaman site, gather the urns, then return to me.",
+      "sourceId": "classicdb",
+      "rowSha256": "34a88fa489dcd43d95d4c8f4100166680d7d79a1f6a120680aa0daf89f18b2a0",
+      "excerptSha256": "91c7edd314c5a7676789cb6dd1a9e7be0cfeac91b47e28cc6fef562ca1b571d3"
+    },
+    {
+      "id": "quest-7488-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7488,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The mage Lethtendris, a vicious blood elf whose brutality is matched only by her twisted addiction to magic, has fled into Dire Maul.  She has created a device, a web to ensnare the magical energies of that place and we fear that, if left unchecked, she will cause irreparable damage to our world!$B$BStop her, $N.  Find her and retrieve her web.  She is likely near the satyrs in Warpwood Quarter of Dire Maul.  Bring the web to me so that its power may be released safely back into the wilds...",
+      "sourceId": "classicdb",
+      "rowSha256": "c499f05a305b18ff8255b36373e25e643f7f655452b8f59c1a60ce9c31a03ef9",
+      "excerptSha256": "874164dd0ffd8c48ba177cdd0398f2d0ee0c36e26ec750d89fa3c2e60bff98c0"
+    },
+    {
+      "id": "name-spell-2658",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 2658,
+        "locale": "enUS"
+      },
+      "excerpt": "Smelt Silver",
+      "sourceId": "client",
+      "rowSha256": "9f91689f2a37e40f8ca2c286b56b32b11f9606774407bbd5d8bd4959888bb84f",
+      "excerptSha256": "9628245a5bc4b148abafc38b0f99952f669e476bcd6fda657a8d7eb454c1df70"
+    },
+    {
+      "id": "name-spell-description-2658",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2658,
+        "locale": "enUS"
+      },
+      "excerpt": "Allows the miner to smelt a chunk of silver ore into a silver bar.  Smelting silver requires a forge.",
+      "sourceId": "client",
+      "rowSha256": "53c6b9f1a3b739930b439f4ee8e95156ea70dd005066f9ae9b71609fb0afd1a5",
+      "excerptSha256": "6cd4e19a3073ec26480531885dbe4e82d51ad0d51edeac865ff5481d2a7fd205"
+    },
+    {
+      "id": "quest-321-reward",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 321,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "This chest is waterlogged, and its siding broken. Many claw marks mar both the inside and outside of the chest...as if Murlocs have searched through it and stolen its treasure.$B$BBut tucked deep within the chest is a single Lightforge Ingot. Unfortunately, many more will be needed if enough metal to fashion a weapon is to be gained.",
+      "sourceId": "classicdb",
+      "rowSha256": "82d890fa473059599ca2d8f7c76d6466111ab0cee902d5357e502b505390df68",
+      "excerptSha256": "d9d586d5476b5ff85d143686bedd7238af1c048c1dc7a3a2549a5b83677710e7"
+    },
+    {
+      "id": "quest-3638-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 3638,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Goblin engineering is about practical uses for high profit and higher explosive power!  Our schemata allow us to make powerful bombs and mighty weaponry; the manual you read covered this.$B$BThe manual also covered our ages old oath of secrecy on our schemata.  Once you become a goblin engineer, that's that.  There is no access to gnome engineering at all.$B$BIf you still want to become a goblin engineer, sign this document pledging life-long secrecy and speak with me again.  Think about it carefully, $N.",
+      "sourceId": "classicdb",
+      "rowSha256": "e59b228d1bae96f05f9782c25fd4f333da5927566b2dd9208445ee398050e96a",
+      "excerptSha256": "f68becb887473b0b2429f695d38e06084c11f0e757b54891959a37f240c00f91"
+    },
+    {
+      "id": "quest-864-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 864,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "\"Here you go, the power source is safely removed and the data is preserved.  Well, safe journeys and all that.  Hope the nefarious science experiment worked out for you and all.\"$B$BThe goblin turns away from you to attend to the demands of the Gadgetzan Water Company.  You secure the sealed testing kit for the journey back to the Undercity.  Apothecary Zinge waits for you and the sealed field testing kit there.",
+      "sourceId": "classicdb",
+      "rowSha256": "65c0486a0caf1bc4cd6616aa5534e033339c4b99d9f56825016328299eb9b937",
+      "excerptSha256": "72ac4b231355fd040a46946c210168cde074aa18df319ba122208c4e46133bf3"
+    },
+    {
+      "id": "quest-864-reward",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 864,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "I will analyze this data immediately. Perhaps Keever's insanity will prove to be my genius after all.$B$BAs for you... you are useful to me, and I reward quite well those who remain useful. Take this item, this coin, and most importantly my thanks along with them.$B$BCheck back with me from time to time - I wager that our working together on this project is not at an end.",
+      "sourceId": "classicdb",
+      "rowSha256": "49f23f310d6d5ed0880c627a512008c002476c9bda20ca13e7b5ce4c0aa4bf47",
+      "excerptSha256": "63989bc6f641c9d386eec3905d169c210a501d2f57ec96ee740fad185f672292"
+    },
+    {
+      "id": "quest-94-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 94,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "My rival, Morganth, is a vicious mage of great power who lives in the Tower of Ilgalar in Redridge.  I have developed a means of spying on him, the Eye of Azora, and can now view him from afar.$B$BBut to study his thoughts ... I require further aid.$B$BIf you are willing, then take my Glyph of Azora to the Tower of Ilgalar.  Place it upon the Lion Statue near the Tower.$B$BWhen this is done, the power of Azora will grant visions of Morganth's future plans.",
+      "sourceId": "classicdb",
+      "rowSha256": "21ccb755d08733eee647db6565a8f06c55464674ce45eb0afe9180d56171120b",
+      "excerptSha256": "e343710d0cbd660c013477aa28f15881804755d8c08136d4a43aa40272bc8fa4"
+    },
+    {
+      "id": "name-spell-1079",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1079,
+        "locale": "enUS"
+      },
+      "excerpt": "Rip",
+      "sourceId": "client",
+      "rowSha256": "1f179cba75821d15abbc93cc90cad16ff59a76988afef5ee734e8fdca9104679",
+      "excerptSha256": "60cf0d7e6d7f3abe793534177265d47b0759dad50bd6638ff67bc4a90ff65949"
+    },
+    {
+      "id": "name-spell-description-1079",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1079,
+        "locale": "enUS"
+      },
+      "excerpt": "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power:\r\n   1 point  : ${$<ticks>*$<mult>*($m1+$b1)} damage over $d.\r\n   2 points: ${$<ticks>*$<mult>*($m1+2*$b1)} damage over $d.\r\n   3 points: ${$<ticks>*$<mult>*($m1+3*$b1)} damage over $d.\r\n   4 points: ${$<ticks>*$<mult>*($m1+4*$b1)} damage over $d.\r\n   5 points: ${$<ticks>*$<mult>*($m1+5*$b1)} damage over $d.",
+      "sourceId": "client",
+      "rowSha256": "31e7bb60142508e4d78e4b60f7475af00b2819d71fa3863d83f9c94f59fde7a5",
+      "excerptSha256": "6333d9108ecd2b05e64d4f3a5b635e662b253a6e5116d12b1399f39b723d9819"
+    },
+    {
+      "id": "name-spell-11641",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 11641,
+        "locale": "enUS"
+      },
+      "excerpt": "Hex",
+      "sourceId": "client",
+      "rowSha256": "89f6bedc107dd42f0ed22ac2c09de70ddd5a6a5ec485fd4b16b40a1067f8f55f",
+      "excerptSha256": "69493e6f1a6957cad7e3ece5267a57e8a8ed035b5ea5fd7e360ce9eb2405c30b"
+    },
+    {
+      "id": "name-spell-description-11641",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 11641,
+        "locale": "enUS"
+      },
+      "excerpt": "Transforms an enemy into a frog, rendering it unable to attack or cast spells for $d.",
+      "sourceId": "client",
+      "rowSha256": "1d26fba4046da26efcb18f61e465457c8038495ae120c2a1fb76e2be6099e769",
+      "excerptSha256": "ae7af843ca183a421e074b11dd1e79afa63bb705faad2f2bda4d486b152c46c9"
+    },
+    {
+      "id": "name-spell-13705",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 13705,
+        "locale": "enUS"
+      },
+      "excerpt": "Precision",
+      "sourceId": "client",
+      "rowSha256": "e09cd0a22b4ff9b7e40b1ebd4953e2a554f92579d6d9e8c21a206656a8742a25",
+      "excerptSha256": "b5d65f0ae389b60297c51acb9d3f3ee1e5b846deeb84a90fd69ccdfadca7c331"
+    },
+    {
+      "id": "name-spell-description-13705",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 13705,
+        "locale": "enUS"
+      },
+      "excerpt": "Increases your chance to hit with melee weapons by $s1%.",
+      "sourceId": "client",
+      "rowSha256": "34e9e3530464f832ef30b7d084a5e6268496a54f51e6a72acb79b4d888ce3ab7",
+      "excerptSha256": "052ad2bcd7dc7884826af47fba0bbdfcaac22be83df5be42cddf8737d39a4f3e"
+    },
+    {
+      "id": "name-spell-433",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 433,
+        "locale": "enUS"
+      },
+      "excerpt": "Food",
+      "sourceId": "client",
+      "rowSha256": "5822cb95e4142fc3b5ff867530b143f90fe476c0998d090468dd75ffecb9688e",
+      "excerptSha256": "e4eb18069d65aaa901cecb66371155f389643796428e9d54c5f5127c91ab3fdc"
+    },
+    {
+      "id": "name-spell-description-433",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 433,
+        "locale": "enUS"
+      },
+      "excerpt": "Restores $o1 health over $d.  Must remain seated while eating.",
+      "sourceId": "client",
+      "rowSha256": "fafd4742b3196d08f5502684d2ad3a4b1142e546901037423fe11a4467f2afcb",
+      "excerptSha256": "a25576e03a61b0dba4e0fee3211e0701c51ef8f5e15ee00a51946ae6f324e61a"
+    },
+    {
+      "id": "book-21004-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 21004,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Here lies Grommash Hellscream, Chieftain of the Warsong Clan$B$BIn many ways, the curse of our people began and ended with Grom.$BHis name meant 'giants heart' in our ancient tongue. He earned that \nname a hundred-fold as he stood alone before the demon Mannoroth$B- and won our freedom with his blood.$B$BLok'Tar ogar, big brother. May the Warsong never fade.$B$B-Thrall, Warchief of the Horde",
+      "sourceId": "classicdb",
+      "rowSha256": "fb9d52d4896b68b931ed14ca0d30f43dd0277826a9f86b2647c448306c8a5dd6",
+      "excerptSha256": "3ef32e68e8cac1525bc8727c647360324d5cc44c0fb9e7f10314273f2e4d6859"
+    },
+    {
+      "id": "quest-344-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 344,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Stresses of Iron?  Yes, I know the book.  Quite a good one, written by the Dwarven miner Margulf Blaggon a few decades ago.  He spent most his time deep in the mountains of Khaz Modan, digging ore.  Smart fellow!$B$BBut where was I?  Oh yes, the Stresses of Iron!  I'm afraid the book was moved to the Northshire Abbey.  The caretaker of the Abbey's library, Brother Paxton, wanted to make a copy of the book for his own shelves.$B$BBut that was months ago.  I wonder why it's taking him so long...",
+      "sourceId": "classicdb",
+      "rowSha256": "6e2cafde624a0f8b130bf6ab9542d88f36b4c0da703bf75e4e12ef2f85400a6d",
+      "excerptSha256": "953b7605733c6f060e7bbc80ec2bfc05374a102a8cb8ebb9d47a843cc1a2a3d0"
+    },
+    {
+      "id": "quest-4297-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4297,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Sprite darters are omnivores--that means they eat both meat and vegetation. If your egg here's gonna hatch, we best be prepared. Some good eats for these little guys are flanks of meat, raw and juicy, believe it or not. I was never able to find out why, but it has somethin' to do with Elune's plan for the elves... maybe they were to be protectors or somethin', I don't know.$B$BI'll take care of the egg for now, why don't you get me some good Silvermane stalker flanks for 'em to eat when he's hatched.",
+      "sourceId": "classicdb",
+      "rowSha256": "08d4561078d72dc9ae46c07952cf60a359d22f14f688d4b68ee67cf6ff26c414",
+      "excerptSha256": "c92a9905fb9e752439e284b70754b5ed878ffac151f770f04d7fb7b452537b70"
+    },
+    {
+      "id": "quest-348-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 348,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Sick...so...very s-s-sick....$B$B...have contracted Stranglethorn Fever...deadly v-v-virus...$B$B...only cure...is...is...to eat the heart of M-m-m-m-mokk the Savage...elusive white beast...$B$B...Witch doctor Unbagwa...only one who can s-s-summon....$B$B...seek Unbagwa in hidden cave on southern cape...$B$B...hurry...dying...dying....",
+      "sourceId": "classicdb",
+      "rowSha256": "f1d71724b996a2178adc5fdeeb7fb14b984b3d5cf49784ec48005358fae6c2f5",
+      "excerptSha256": "07a965c4cbc22f4292a0990cb8de0f246f01ca6b2a0a2612ff44865dc36f42cf"
+    },
+    {
+      "id": "quest-49-objectives",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 49,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Grimbooze Thunderbrew wants a Sack of Barley, a Sack of Rye and a Sack of Corn.",
+      "sourceId": "questie",
+      "rowSha256": "a80a02a33ec1ce50910672d34529298eaf2ab608e2a70e3eaa632e0cded6d9c5",
+      "excerptSha256": "509d1d6bfe1a225b8dfe4ef3a966215d7f5f9bd9e984c21c58944202ea874625"
     }
   ]
 }

@@ -44,3 +44,28 @@ it("verifies a structured name without pretending it is a prose quotation", () =
     verifyCitation(citation, () => ({ source: "client", name: 123 })),
   ).toThrow("expected a string");
 });
+
+it("verifies raw spell descriptions without resolving tooltip placeholders", () => {
+  const citation = CitationSchema.parse({
+    id: "spell-description-renew",
+    locator: { table: "name", kind: "spell_description", id: 139, locale: "enUS" },
+    excerpt: "Heals the target of $o1 damage over $d.",
+  });
+  const result = verifyCitation(citation, () => ({
+    source: "client",
+    name: citation.excerpt,
+  }));
+  expect(result.excerpt).toContain("$o1");
+  expect(() =>
+    verifyCitation(citation, () => ({
+      source: "client",
+      name: "Heals the target of 100 damage over 15 seconds.",
+    })),
+  ).toThrow("not an exact substring");
+  expect(() =>
+    CitationSchema.parse({
+      ...citation,
+      locator: { ...citation.locator, kind: "spell_discription" },
+    }),
+  ).toThrow();
+});

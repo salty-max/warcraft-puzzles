@@ -84,7 +84,7 @@ minimal unsatisfiable core or a guarantee that adding one matching word repairs 
 The engine applies arc consistency and forced-word exclusion, not a full all-different
 matching algorithm or layout generation.
 
-## First baseline: what it establishes
+## Historical first baseline
 
 The initial configuration has 18 original layouts across 5×5, 7×7, 9×9, 11×11 and 13×13,
 three seeds and two cohorts: all 100 seed answers, and the 55 proper names alone. All
@@ -98,15 +98,25 @@ dense Warcraft crosswords are impossible. The name-only control is from the same
 seed, not the older unrestricted name-list experiment. No claim about improvement over
 that historical experiment follows.
 
-The current five-letter pool has no answers beginning with A, I, O or U. In an open 5×5,
-every letter in the first Across answer must also start a Down answer. No current
-five-letter word meets that support constraint. This is a concrete crossing-coverage
-problem that total word counts missed.
+At that baseline, the five-letter pool had no answers beginning with A, I, O or U. In an
+open 5×5, every letter in the first Across answer must also start a Down answer. No
+current five-letter word met that support constraint. This was a concrete
+crossing-coverage problem that total word counts missed.
 
 Two useful diagnostic targets are `bridge-9`, which needs nineteen distinct three-letter
-words against twelve available, and `bridge-13`, which needs ten four-letter words
-against eight. Those deficits are lower bounds for those layouts only. Adding seven and
-two words respectively does not guarantee fills.
+words against twelve then available, and `bridge-13`, which needs ten four-letter words
+against eight then available. Those deficits are lower bounds for those layouts only.
+Adding seven and two words respectively does not guarantee fills.
+
+## Expanded bank
+
+The [first expansion](seed-expansion.md) increases the bank to 342 answers and the suite
+to 29 layouts. All original layouts remain. Eight full-bank layouts now fail length
+preflight; the other twenty-one fail crossing/uniqueness search. All 174 cases across
+three seeds and two cohorts are unsatisfiable, with none budget-limited. The five-letter
+pool now covers initial A, E, I, O and U. That improvement still does not produce a
+valid fill. The [current report](fill-benchmark.md) is generated and replayed in CI; the
+[100-answer report](benchmarks/seed-100.md) is historical.
 
 ## Next content batch
 

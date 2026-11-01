@@ -5,12 +5,12 @@ belongs to Warcraft. Answers can be recognisable names or ordinary English words
 supported Warcraft connection. The historical boundary is the end of Wrath of the Lich
 King.
 
-**Current milestone: grid feasibility.** This repository contains the first 100
-answer–clue–hint triads, source references, strict content contracts, a tested grid
-engine and a reproducible fill benchmark. It does not contain the player application
-yet. The seed remains unapproved for publication pending cold solving in finished grids.
-The first benchmark found no fills in its 18 diagnostic layouts; see its limits and
-vocabulary findings below.
+**Current milestone: grid feasibility.** This repository contains 342 answer–clue–hint
+triads, source references, strict content contracts, a tested grid engine and a
+reproducible fill benchmark. It does not contain the player application yet. The seed
+remains unapproved for publication pending cold solving in finished grids. The expanded
+benchmark found no fills in its 29 diagnostic layouts. The bank still needs broader
+crossing coverage; see the measured results and limits below.
 
 ## Run the checks
 
@@ -47,6 +47,8 @@ pnpm benchmark:check
   multi-word world names, everyday play and useful short crossings.
 - [`docs/seed-review.md`](docs/seed-review.md) records the latest refinements to clues,
   hints and provisional difficulty.
+- [`docs/seed-expansion.md`](docs/seed-expansion.md) records the first 242-answer
+  expansion, its evidence, additional layouts and comparison with the original seed.
 - [`docs/editorial.md`](docs/editorial.md) defines eligibility, hints, review and
   source-update rules.
 - [`docs/testing.md`](docs/testing.md) explains checks and their limits.
@@ -102,10 +104,10 @@ The current evidence comes from `wow-data`'s pinned Classic database: game text 
 [CMaNGOS Classic DB](https://github.com/cmangos/classic-db) and
 [QuestieDB](https://github.com/Questie/QuestieDB), plus exact client names provided
 through [wago.tools](https://wago.tools). Frozen source versions and license metadata
-are recorded in the snapshot. Client labels establish spelling, while the text passages
-support the actual clue facts. Selected game-text excerpts retain their original rights
-and are not licensed as this project's original writing. Public export and
-source-attribution review remain required before publication.
+are recorded in the snapshot. Client labels establish spelling, while text passages and
+spell descriptions support the actual clue facts. Selected game-text excerpts retain
+their original rights and are not licensed as this project's original writing. Public
+export and source-attribution review remain required before publication.
 
 World of Warcraft belongs to Blizzard Entertainment. This is an independent fan project,
 not affiliated with or endorsed by Blizzard.

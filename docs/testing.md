@@ -32,7 +32,7 @@ checking does not rewrite measured artifacts. Full seed runs never auto-approve 
 Machine timings are observations outside the deterministic CI contract. See
 [the engine guide](grid-engine.md) for the exact search and diagnostic limits.
 
-The full 100-entry seed is checked in the test suite without an external database. An
+The full 342-entry bank is checked in the test suite without an external database. An
 optional source-replay command checks the private research input separately. No tests
 are silently skipped because an external source is missing. The normal CI workflow must
 be runnable by a new contributor with the repository alone.
@@ -42,6 +42,11 @@ removed only in the grid. Report tests distinguish total answer length from the 
 component word. The SQLite fixture exercises prose and structured-name locators, and
 malformed name fields fail verification. Overlap reports are tested for stable ordering
 so the most heavily reused passages appear first.
+
+Spell-name and spell-description locators replay against the synthetic SQLite fixture.
+Tests preserve raw tooltip placeholders and reject a fabricated resolved quotation or
+misspelled locator kind. They do not infer spell numbers or automatically certify an
+ability's historical introduction from the current client.
 
 ## CI and dependencies
 

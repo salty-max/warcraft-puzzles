@@ -76,6 +76,18 @@ it("replays book, quest and name citations against a real read-only SQLite fixtu
   database
     .prepare("INSERT INTO name VALUES (?, ?, ?, ?, ?)")
     .run("area", 1, "enUS", "Dun Morogh", "classicdb");
+  database
+    .prepare("INSERT INTO name VALUES (?, ?, ?, ?, ?)")
+    .run("spell", 139, "enUS", "Renew", "classicdb");
+  database
+    .prepare("INSERT INTO name VALUES (?, ?, ?, ?, ?)")
+    .run(
+      "spell_description",
+      139,
+      "enUS",
+      "Heals the target of $o1 damage over $d.",
+      "classicdb",
+    );
   database.close();
   editorial.citations.push({
     id: "quest-citation",
@@ -86,6 +98,16 @@ it("replays book, quest and name citations against a real read-only SQLite fixtu
     id: "area-name",
     locator: { table: "name", kind: "area", id: 1, locale: "enUS" },
     excerpt: "Dun Morogh",
+  });
+  editorial.citations.push({
+    id: "spell-renew",
+    locator: { table: "name", kind: "spell", id: 139, locale: "enUS" },
+    excerpt: "Renew",
+  });
+  editorial.citations.push({
+    id: "spell-renew-description",
+    locator: { table: "name", kind: "spell_description", id: 139, locale: "enUS" },
+    excerpt: "Heals the target of $o1 damage over $d.",
   });
   writeFileSync(catalogue, JSON.stringify(editorial));
   const args = [
@@ -100,7 +122,7 @@ it("replays book, quest and name citations against a real read-only SQLite fixtu
   const result = command("refresh-evidence", args);
   expect(result.status, result.stderr).toBe(0);
   const snapshot = SnapshotSchema.parse(JSON.parse(readFileSync(output, "utf8")));
-  expect(snapshot.evidence).toHaveLength(3);
+  expect(snapshot.evidence).toHaveLength(5);
   expect(command("refresh-evidence", [...args, "--check"]).status).toBe(0);
   expect(readFileSync(databasePath)).toEqual(before);
 
