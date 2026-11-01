@@ -143,11 +143,10 @@ fill is necessary; a filled grid with miserable answers still fails editorial re
 Have the editor rank results without seeing the generator's scores when practical.
 
 Choose a default size from the results and phone testing. Aim for a compact daily taking
-roughly five to ten minutes, explicitly a hypothesis until playtested. Prefer fully
-checked letters, connected white cells and no two-letter answers. Rotational symmetry is
-a preference, not a reason to accept poor vocabulary. A sparse criss-cross is an
-alternative product choice if dense grids remain unsatisfactory, not an automatic
-fallback.
+roughly five to ten minutes, explicitly a hypothesis until playtested. Use partially
+checked grids, connected white cells and no two-letter answers. Measure crossing support
+during review. Rotational symmetry is optional. Fully checked layouts remain comparison
+research, with no requirement to satisfy them before making playable puzzles.
 
 ### Step D: finish and playtest seven puzzles
 
@@ -162,41 +161,38 @@ release.
 
 ### Immediate next work from the current seed
 
-The repository has 357 evidence-checked triads for 342 distinct answers, including
-multi-word entries. Fifteen clue variants were added for the Medium trial without adding
-new answer vocabulary. Existing entries and the first save identity remain unchanged.
-The primary format is now explicitly **partially checked**, following the user's
-clarification that full crossing coverage is not a requirement.
+The repository has 416 evidence-checked triads for 342 distinct answers. The
+seven-puzzle pilot is constructed: two Easy, three Medium and two Hard candidates, with
+86 slots and 84 distinct answers. The five new puzzles add 59 clue/hint variants against
+existing sources. Original entries, both previously played layouts and their solve
+identities remain unchanged.
 
-The [benchmark](fill-benchmark.md) runs the same search and budgets for two partial
-layouts and 29 fully checked comparison layouts. Both partial layouts fill. The latter
-still return zero fills. The shapes differ, and the partial examples were selected from
-authored puzzles, so these numbers are regression evidence rather than an unbiased
-success-rate comparison. The result no longer equates fully checked failures with an
-absence of playable grids.
+The owner completed the first Easy blind and found it interesting but easy. The first
+Medium was significantly harder, challenging but fair, with useful crossings. It is the
+Medium reference for this pilot and solver. No solve time or assistance counts were
+supplied. New difficulty labels remain provisional, and neither feedback nor automated
+checks grants formal publication approval.
 
-The owner reports completing the first trial blind, finding it interesting but easy. The
-page was simplified following copy feedback. No time or assistance counts were supplied,
-and no formal publication approvals were granted. The next trial has fifteen entries,
-familiar answers and indirect clues, with no repeats from the first. Its Medium label
-remains provisional.
+The [pilot report](pilot-report.md) records checking, reuse and the remaining limits.
+All seven exact partial layouts also fill through independent constraint search in the
+[benchmark](fill-benchmark.md). The 29 fully checked comparison layouts still fail.
+These groups are different shapes and the partial examples are authored positive
+controls, so this does not establish an unbiased automatic-generation success rate.
 
-1. Blind-solve the Medium trial. Assess clue ambiguity, checking help, assistance and
-   phone input. Preserve both trial artifacts for comparison.
-2. Continue towards a seven-puzzle pilot: two Easy, three Medium, two Hard candidates.
-   Difficulty comes from clueing and supported knowledge, with no padding from obscure
-   loot or forgettable quest names. Record construction effort, answer reuse and solves.
-3. Select the daily shape and a credible production cadence from the pilot. Existing
-   research floors of two crossings and 40% checking per answer are provisional, not
-   immutable crossword rules. Review actual solving rather than imposing full checking.
-4. Build the production stack and first lore/streak features after the core is
-   convincing. Real-phone keyboard and screen-reader verification remain release gates.
+1. Blind-solve the five new candidates. Assess fairness, deductions, hints and actual
+   crossing help. The 2-crossing/40% research floor is provisional, not a universal
+   rule.
+2. Revise labels and clues from feedback, then obtain broader faction/class experience
+   and actual phone/screen-reader trials. Maintain separate entry and grid approvals.
+3. Measure editorial work and repeat spacing over a longer sample before committing to a
+   daily cadence. This batch was not timed as a production workflow.
+4. Complete the sourced lore-page trial and build the production stack and first
+   lore/streak features once the puzzle experience is convincing.
 
-The trial has typed player-state logic and local build/serve tooling, with browser and
-accessibility checks. It does not implement the production Next.js application,
-accounts, editorial service, public schedule or economy. The deliverable at this gate is
-two reviewable playtests, followed by the remaining five pilot puzzles if the format
-succeeds.
+The compact pilot index is navigation only. The prototype does not implement the
+production Next.js application, accounts, a public release schedule, server persistence
+or reward economy. Seven mechanically valid candidates demonstrate a reviewable content
+set, with five human solves and production sustainability still outstanding.
 
 ## 3. The content system
 

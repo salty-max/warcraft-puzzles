@@ -1,0 +1,70 @@
+{
+  "id": "medium-3",
+  "title": "Medium 3",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "medium-3",
+    "rows": [
+      "#####.##",
+      "###.....",
+      "#####.#.",
+      "####....",
+      "####.##.",
+      "###.....",
+      "#.#.##.#",
+      ".......#",
+      "#.#.##.#",
+      "#......#",
+      "###.####",
+      "###.####"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "8A",
+      "entryId": "medium-3-durotar"
+    },
+    {
+      "slotId": "7D",
+      "entryId": "medium-3-cult"
+    },
+    {
+      "slotId": "6D",
+      "entryId": "medium-3-purge"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "medium-3-throne"
+    },
+    {
+      "slotId": "5D",
+      "entryId": "medium-3-scourge"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "medium-3-swipe"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "medium-3-forge"
+    },
+    {
+      "slotId": "2A",
+      "entryId": "medium-3-staff"
+    },
+    {
+      "slotId": "1D",
+      "entryId": "medium-3-rage"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "medium-3-bear"
+    },
+    {
+      "slotId": "4D",
+      "entryId": "medium-3-bow"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "easy-2",
+  "title": "Easy 2",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "easy-2",
+    "rows": [
+      "######.##",
+      "###....##",
+      "####.#...",
+      "####...#.",
+      "####.#...",
+      "####...#.",
+      "####.#.##",
+      ".#####.##",
+      "...#...##",
+      ".#.#.####",
+      ".#...####",
+      "...######"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "1D",
+      "entryId": "easy-2-stormwind"
+    },
+    {
+      "slotId": "6A",
+      "entryId": "easy-2-bar"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "easy-2-oak"
+    },
+    {
+      "slotId": "8A",
+      "entryId": "easy-2-sow"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "easy-2-ambush"
+    },
+    {
+      "slotId": "2A",
+      "entryId": "easy-2-pact"
+    },
+    {
+      "slotId": "12A",
+      "entryId": "easy-2-led"
+    },
+    {
+      "slotId": "12D",
+      "entryId": "easy-2-log"
+    },
+    {
+      "slotId": "13A",
+      "entryId": "easy-2-bag"
+    },
+    {
+      "slotId": "5D",
+      "entryId": "easy-2-king"
+    },
+    {
+      "slotId": "7A",
+      "entryId": "easy-2-men"
+    },
+    {
+      "slotId": "11D",
+      "entryId": "easy-2-ruby"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "easy-2-air"
+    },
+    {
+      "slotId": "9D",
+      "entryId": "easy-2-oasis"
+    },
+    {
+      "slotId": "14A",
+      "entryId": "easy-2-spy"
+    }
+  ]
+}

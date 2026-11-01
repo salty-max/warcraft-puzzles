@@ -46,10 +46,8 @@ jobs:
           name: quality-reports
           path: |
             coverage/
-            docs/seed-report.md
+            docs/*-report.md
             docs/fill-benchmark.md
-            docs/prototype-report.md
-            docs/medium-report.md
             playwright-report/
             test-results/
           retention-days: 14

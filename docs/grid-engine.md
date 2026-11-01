@@ -156,7 +156,7 @@ compiler. It still enforces valid runs, connected cells, consistent crossings an
 answers. The construction-review floor remains separate from structural search.
 
 The benchmark labels each layout's checking rule, reports crossing-cell counts and
-summarises results by format before listing individual runs. The two partial layouts
+summarises results by format before listing individual runs. The seven partial layouts
 come from authored pilots. Successful fills are independently inspected, may differ from
 authored placements and remain unapproved for publication. These are positive controls,
 not a claim that any arbitrary partial layout can be filled or that all automatic fills

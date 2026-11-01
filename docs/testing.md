@@ -35,7 +35,7 @@ checking does not rewrite measured artifacts. Full seed runs never auto-approve 
 Machine timings are observations outside the deterministic CI contract. See
 [the engine guide](grid-engine.md) for the exact search and diagnostic limits.
 
-The full 357-triad bank (342 distinct answers) is checked in the test suite without an
+The full 416-triad bank (342 distinct answers) is checked in the test suite without an
 external database. An optional source-replay command checks the private research input
 separately. No tests are silently skipped because an external source is missing. The
 normal CI workflow must be runnable by a new contributor with the repository alone.
@@ -139,3 +139,17 @@ artifact checks. A cross-puzzle journey verifies that Medium progress resumes wi
 altering the first solve. A fingerprint regression protects the first puzzle's existing
 save identity. Alternate clue variants are validated as triads while distinct answer
 coverage remains 342.
+
+## Seven-puzzle integrity
+
+The pilot manifest validates the seven identities, the 2/3/2 difficulty mix and unique
+output/report names. Reserved names and traversal are rejected before loading files.
+Every authored arrangement passes the same independent content, layout, crossing and
+complete-fill checks. Regression assertions preserve both previously played solve keys.
+The generated report measures 86 slots, 84 distinct answers and a maximum of two uses.
+
+New browser journeys solve and reload all five added puzzles, navigate among seven
+independent partial saves, and follow every portable-index link without remote requests.
+All seven grids receive the five responsive sizes and axe A/AA scans in Chromium,
+Firefox and WebKit. Screenshots are inspection artifacts, not pixel-baseline assertions.
+No real-phone keyboard or manual screen-reader result is implied by those scans.

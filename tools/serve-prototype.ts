@@ -1,12 +1,16 @@
 import { createServer } from "node:http";
 import { readFileSync } from "node:fs";
+import { PilotSchema, trialRoute, trialAsset } from "./pilot.ts";
 const paths = new Map([
-  ["/", ["index.html", "text/html; charset=utf-8"]],
-  ["/medium", ["medium-index.html", "text/html; charset=utf-8"]],
+  ["/pilot", ["pilot-index.html", "text/html; charset=utf-8"]],
   ["/style.css", ["style.css", "text/css; charset=utf-8"]],
   ["/player.js", ["player.js", "text/javascript; charset=utf-8"]],
   ["/model.js", ["model.js", "text/javascript; charset=utf-8"]],
 ]);
+for (const trial of PilotSchema.parse(
+  JSON.parse(readFileSync("content/puzzles/pilot.json", "utf8")),
+).trials)
+  paths.set(trialRoute(trial), [trialAsset(trial), "text/html; charset=utf-8"]);
 const port = Number(process.env.PROTOTYPE_PORT ?? 4173);
 createServer((request, response) => {
   const file = paths.get(request.url ?? "");

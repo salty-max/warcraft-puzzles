@@ -5,32 +5,35 @@ belongs to Warcraft. Answers can be recognisable names or ordinary English words
 supported Warcraft connection. The historical boundary is the end of Wrath of the Lich
 King.
 
-**Current milestone: two playable pilot puzzles.** The repository contains 357 sourced
-answer–clue–hint triads for 342 distinct answers, a tested grid engine and a benchmark
-that distinguishes the primary partially checked format from the fully checked
-comparison. Both playable layouts fill independently in the benchmark. The owner found
-the first trial interesting but easy. The second targets Medium and awaits a blind
-solve. No entries or puzzles have formal publication approvals.
+**Current milestone: seven playable pilot candidates.** There are two Easy, three Medium
+and two Hard puzzles, built from 342 distinct answers with 416 sourced triads. The pilot
+has 86 answer slots and 84 distinct answers. Only two answers repeat, each appearing
+twice. The owner found the first Easy interesting but easy, and the first Medium
+challenging but fair with useful crossings. The five new difficulty labels await blind
+solving. Formal publication approvals remain pending.
 
-## Try the construction trial
+## Play the pilot
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm prototype:dev
 ```
 
-Open the printed local URL for Easy, or `/medium` for Medium. The build also creates
-`.cache/prototype/playtest.html` (Easy) and `.cache/prototype/medium.html` (Medium),
-self-contained files you can open in a browser without a server or network. Browser-file
-saving depends on the browser's local-storage policy. Both versions have whole-answer
-input, shared crossings, hints, reveals, checks, local saving and a confirmed reset.
-Answers are included locally for checking. This is a playtest, with no accounts, daily
-schedule or reward economy. The selected production stack remains in the plan.
+Open `/pilot` at the printed local URL. Alternatively, open
+`.cache/prototype/pilot.html` in a browser: it links seven self-contained files that
+need no server or network. The original `playtest.html` and `medium.html` are preserved,
+with their existing solve identities. The page heading links back to the puzzle list.
 
-See the [Easy report](docs/prototype-report.md), [Medium report](docs/medium-report.md)
-and [split fill results](docs/fill-benchmark.md). **Blind-solve Medium before
-constructing the other five pilot puzzles.** The first puzzle and its save identity
-remain intact.
+The player supports whole-answer input, shared crossings, hints, reveals, checks,
+per-puzzle local saving and a confirmed reset. Browser-file saving depends on local
+storage policy. Answers are included locally for checking. This prototype has no
+accounts, public schedule or rewards. The production stack remains in the plan.
+
+See [the pilot report](docs/pilot-report.md) for grid measurements, feedback and answer
+reuse, and [the split benchmark](docs/fill-benchmark.md) for independently searched
+partially checked fills and the optional fully checked comparison. All seven partial
+layouts fill. They are authored positive controls, not a random sample of grid shapes or
+evidence for an annual publishing capacity.
 
 ## Run the checks
 
@@ -105,15 +108,14 @@ validation passing does not authorise publishing the seed as finished puzzles.
 
 ## Next milestones
 
-1. Blind-solve the Medium trial. Record solve time, ambiguous clues, assistance use,
-   unchecked-letter frustration and phone input issues.
-2. If it holds up, construct the remaining five pilot puzzles and measure construction
-   time, repeat concentration and actual solve quality. Expand vocabulary to solve
-   demonstrated gaps. Bulk collection is paused.
-3. Choose the format from that evidence, then build the production Next.js player,
-   editorial workspace and first lore/streak features.
-4. Extend the existing browser and accessibility checks with production persistence,
-   release rollover, integration tests and build checks as those features arrive.
+1. Blind-solve the five new candidates. Record time, assistance, ambiguous clues,
+   difficult crossings and phone input issues. Recalibrate or rewrite where needed.
+2. Measure editorial effort and longer-term answer spacing before choosing a daily
+   cadence. Bulk collection remains paused until construction identifies useful gaps.
+3. Complete the associated sourced lore-page trial, then build the selected production
+   Next.js player, editorial workspace and first lore/streak features.
+4. Extend browser/accessibility checks with production persistence, release rollover,
+   integration tests and build checks as those features arrive.
 
 The selected production target is the owner's **existing Vercel Pro plan**, with
 PostgreSQL on Neon. No additional Vercel subscription is needed. This repository has not

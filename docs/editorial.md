@@ -82,7 +82,7 @@ expansion.
 4. `approved`: a completed cold pass permits publication at entry level.
 5. `rejected`: retained as a record, excluded from publication.
 
-The current 357 triads cover 342 distinct answers and remain `evidence-checked`. The
+The current 416 triads cover 342 distinct answers and remain `evidence-checked`. The
 automated gate requires an explicit cold reviewer and a current content digest for
 approved entries. It does not impersonate a human reviewer or auto-approve a successful
 source query. Final grid review is an additional milestone after entry review.
@@ -132,3 +132,10 @@ no overlap with the first twelve and fifteen alternate source-backed triads. Ele
 clues are provisionally medium, four are easy footholds. Difficulty comes from less
 direct wording and associations, with useful hints retained. The new grid and entry
 count also differ, so a change in solve time cannot be attributed to clue wording alone.
+
+The seven-candidate pilot retains both solved puzzles and their save fingerprints. Five
+new grids add 59 alternate triads without changing the original 357. Hard candidates
+combine deeper lore associations with easier footholds. No clue needs to be obscure
+merely because its puzzle targets Hard. All new labels need blind-solve calibration. The
+pilot report records actual answer reuse rather than treating every slot as a fresh
+answer. No formal entry/grid approvals are inferred from positive owner feedback.

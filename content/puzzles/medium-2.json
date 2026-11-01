@@ -1,0 +1,70 @@
+{
+  "id": "medium-2",
+  "title": "Medium 2",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "medium-2",
+    "rows": [
+      "##....##",
+      "##.#.###",
+      ".....###",
+      "##.#####",
+      "##.....#",
+      "##.#.#.#",
+      "#......#",
+      "#.##.#.#",
+      ".....#.#",
+      "#.##.#.#",
+      "#.#.....",
+      "####.###"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "6D",
+      "entryId": "medium-2-execute"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "medium-2-curse"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "medium-2-cower"
+    },
+    {
+      "slotId": "5D",
+      "entryId": "medium-2-ragnaros"
+    },
+    {
+      "slotId": "7A",
+      "entryId": "medium-2-plague"
+    },
+    {
+      "slotId": "1D",
+      "entryId": "medium-2-council"
+    },
+    {
+      "slotId": "3A",
+      "entryId": "medium-2-gouge"
+    },
+    {
+      "slotId": "8A",
+      "entryId": "medium-2-jaina"
+    },
+    {
+      "slotId": "7D",
+      "entryId": "medium-2-plate"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "medium-2-ale"
+    },
+    {
+      "slotId": "1A",
+      "entryId": "medium-2-clan"
+    }
+  ]
+}

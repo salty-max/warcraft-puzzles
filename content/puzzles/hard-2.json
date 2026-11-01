@@ -1,0 +1,74 @@
+{
+  "id": "hard-2",
+  "title": "Hard 2",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "hard-2",
+    "rows": [
+      "####.#####",
+      "####.#....",
+      "####...#.#",
+      "##...#...#",
+      "##.#.#.#.#",
+      "##...#....",
+      "##.#.#.#.#",
+      ".........#",
+      "##.#.#.#.#",
+      "#.........",
+      "##.###.#.#",
+      "######.###"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "2D",
+      "entryId": "hard-2-frostmourne"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "hard-2-northrend"
+    },
+    {
+      "slotId": "5D",
+      "entryId": "hard-2-kirintor"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "hard-2-dunmorogh"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "hard-2-silverhand"
+    },
+    {
+      "slotId": "1D",
+      "entryId": "hard-2-shadowbolt"
+    },
+    {
+      "slotId": "7A",
+      "entryId": "hard-2-raw"
+    },
+    {
+      "slotId": "2A",
+      "entryId": "hard-2-fish"
+    },
+    {
+      "slotId": "6A",
+      "entryId": "hard-2-owl"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "hard-2-kid"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "hard-2-air"
+    },
+    {
+      "slotId": "8A",
+      "entryId": "hard-2-tree"
+    }
+  ]
+}

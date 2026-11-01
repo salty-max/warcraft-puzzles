@@ -16618,6 +16618,2071 @@
         "coldReviewer": null,
         "notes": "Alternate clue and hint reviewed against the selected existing source passages for the second pilot. Familiar answer retained, no later-era facts introduced. Difficulty provisional. No cold approval."
       }
+    },
+    {
+      "id": "easy-2-stormwind",
+      "answer": {
+        "display": "Stormwind",
+        "grid": "STORMWIND",
+        "enumeration": [9],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "VanCleef was responsible for rebuilding Stormwind after the First War.",
+        "evidenceIds": ["quest-141-details", "quest-135-details"]
+      },
+      "clue": {
+        "text": "City rebuilt by Edwin VanCleef's Stonemasons",
+        "evidenceIds": ["quest-141-details", "quest-135-details"]
+      },
+      "hint": {
+        "text": "Their guild carried out the reconstruction.",
+        "evidenceIds": ["quest-141-details", "quest-135-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "add42c6be3a0c0721eae3ac565aa6de3e3e8695ff473ff73c032c47164d51c40",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-bar",
+      "answer": {
+        "display": "BAR",
+        "grid": "BAR",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Smelt Copper turns copper ore into a copper bar.",
+        "evidenceIds": ["name-spell-2657", "name-spell-description-2657"]
+      },
+      "clue": {
+        "text": "Copper ingot made by smelting ore",
+        "evidenceIds": ["name-spell-2657", "name-spell-description-2657"]
+      },
+      "hint": {
+        "text": "A solid block of metal.",
+        "evidenceIds": ["name-spell-2657", "name-spell-description-2657"]
+      },
+      "difficulty": "easy",
+      "topics": ["materials", "crafting"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "b3506cf456c772837c555d6e0c933acab47defccb6c47e6211ba34f024a3dd6b",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-oak",
+      "answer": {
+        "display": "OAK",
+        "grid": "OAK",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "A brewing riddle called for a barrel of charred oak.",
+        "evidenceIds": ["quest-53-details"]
+      },
+      "clue": {
+        "text": "Acorn-bearing wood specified for a brewer's barrel",
+        "evidenceIds": ["quest-53-details"]
+      },
+      "hint": {
+        "text": "A familiar hardwood tree.",
+        "evidenceIds": ["quest-53-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["materials", "food"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "b4a6bfea7fa498918f858ed815257c63dc173822409e8dab5eac6ce97aa3c77c",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-sow",
+      "answer": {
+        "display": "SOW",
+        "grid": "SOW",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "The Brackwells' pig Princess was described as a sow.",
+        "evidenceIds": ["quest-88-details"]
+      },
+      "clue": {
+        "text": "Adult female pig, like Princess",
+        "evidenceIds": ["quest-88-details"]
+      },
+      "hint": {
+        "text": "Use the animal's sex, rather than its name.",
+        "evidenceIds": ["quest-88-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["creatures"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "4efb4eff6b591665c930abb0f66efdf10d26aac3e692254e3d04d241db883868",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-ambush",
+      "answer": {
+        "display": "AMBUSH",
+        "grid": "AMBUSH",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Ambush requires stealth, a position behind the target and a dagger in the main hand.",
+        "evidenceIds": ["name-spell-8676", "name-spell-description-8676"]
+      },
+      "clue": {
+        "text": "Surprise attack from behind with a dagger",
+        "evidenceIds": ["name-spell-8676", "name-spell-description-8676"]
+      },
+      "hint": {
+        "text": "Requires stealth and a dagger in the main hand.",
+        "evidenceIds": ["name-spell-8676", "name-spell-description-8676"]
+      },
+      "difficulty": "easy",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "bc67b2295ee92832c027e5dca05d4a55b77d091f8071ce533e7e01c0b465d940",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-pact",
+      "answer": {
+        "display": "PACT",
+        "grid": "PACT",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Druids agreed to sleep for centuries with their spirits roaming the Emerald Dream.",
+        "evidenceIds": ["book-175730-8"]
+      },
+      "clue": {
+        "text": "Agreement that bound druids to long periods of sleep",
+        "evidenceIds": ["book-175730-8"]
+      },
+      "hint": {
+        "text": "Think of a solemn agreement.",
+        "evidenceIds": ["book-175730-8"]
+      },
+      "difficulty": "easy",
+      "topics": ["druids", "history"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "5b2363763aa6a87f8d72215eedbd7bf216715fe9c275a78610b7a3fa1a58305a",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-led",
+      "answer": {
+        "display": "LED",
+        "grid": "LED",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Lady Vashj led the naga that helped Illidan reach the Broken Isles.",
+        "evidenceIds": ["book-175759-6"]
+      },
+      "clue": {
+        "text": "Commanded, as Vashj did the naga",
+        "evidenceIds": ["book-175759-6"]
+      },
+      "hint": {
+        "text": "Past tense of lead.",
+        "evidenceIds": ["book-175759-6"]
+      },
+      "difficulty": "easy",
+      "topics": ["history"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "ae1438a44687f88136120f62a2e044fcd3a5b02de90654a544d13dc9acb9cf72",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-log",
+      "answer": {
+        "display": "LOG",
+        "grid": "LOG",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Horde forces cut forest to power their war machines near Warsong Gulch.",
+        "evidenceIds": ["quest-7871-details"]
+      },
+      "clue": {
+        "text": "Cut tree trunk, from the Horde's forest-felling",
+        "evidenceIds": ["quest-7871-details"]
+      },
+      "hint": {
+        "text": "A length of timber.",
+        "evidenceIds": ["quest-7871-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["materials", "places"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "01a7187aa63ba162a76c1a25782f7c96f0ae0be2da772f10aab1d3acdfa137e5",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-bag",
+      "answer": {
+        "display": "BAG",
+        "grid": "BAG",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "An ooze swallowed a visitor's bag near Ironbeard's Tomb.",
+        "evidenceIds": ["quest-470-details"]
+      },
+      "clue": {
+        "text": "Sack swallowed by an ooze near Ironbeard's Tomb",
+        "evidenceIds": ["quest-470-details"]
+      },
+      "hint": {
+        "text": "A flexible container for belongings.",
+        "evidenceIds": ["quest-470-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["objects"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "48ec4f21b2a3ee876232a7e1595b7df64f1bf2319a2e5ddbea8fb8d5bb7e575d",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-king",
+      "answer": {
+        "display": "KING",
+        "grid": "KING",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Arthas murdered his father, King Terenas.",
+        "evidenceIds": ["book-175756-4", "book-175756-2"]
+      },
+      "clue": {
+        "text": "Terenas's royal rank",
+        "evidenceIds": ["book-175756-4", "book-175756-2"]
+      },
+      "hint": {
+        "text": "His son Arthas held the lesser rank of prince.",
+        "evidenceIds": ["book-175756-4", "book-175756-2"]
+      },
+      "difficulty": "easy",
+      "topics": ["titles"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "3e9309e25e2e293fdf0314feaa4e15b808acd2a4742da06bdc4fe5bce1263bfd",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-men",
+      "answer": {
+        "display": "MEN",
+        "grid": "MEN",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "A report called the missing guards Rolf and Malakai men.",
+        "evidenceIds": ["quest-37-details"]
+      },
+      "clue": {
+        "text": "Plural of man, used for two missing guards",
+        "evidenceIds": ["quest-37-details"]
+      },
+      "hint": {
+        "text": "An irregular plural.",
+        "evidenceIds": ["quest-37-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["peoples"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "691fde123c6a8746dcbee2e6bcbeaa986f23e850373c56cbe4d511d1763fd6c5",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-ruby",
+      "answer": {
+        "display": "RUBY",
+        "grid": "RUBY",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "A journal writer sought a ruby in Uldaman amid conflict between dwarves and troggs.",
+        "evidenceIds": ["book-7668-5"]
+      },
+      "clue": {
+        "text": "Red gemstone sought in Uldaman",
+        "evidenceIds": ["book-7668-5"]
+      },
+      "hint": {
+        "text": "A precious stone associated with red.",
+        "evidenceIds": ["book-7668-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["materials", "places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "f07ff77278081f21088dfafb8e807b5666726d8cff8bfc2da1be74207c69d391",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-air",
+      "answer": {
+        "display": "AIR",
+        "grid": "AIR",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Shaman training includes an air totem.",
+        "evidenceIds": ["quest-1531-details"]
+      },
+      "clue": {
+        "text": "Breathable element of a shamanic totem",
+        "evidenceIds": ["quest-1531-details"]
+      },
+      "hint": {
+        "text": "Think of the atmosphere.",
+        "evidenceIds": ["quest-1531-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["elements", "classes"],
+      "exposure": "horde",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "1615e73e59640444403f9850005d2e2c746aeb00fc35ea0e944d3b7c0ca5a37d",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-oasis",
+      "answer": {
+        "display": "OASIS",
+        "grid": "OASIS",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "The Stagnant Oasis in the Barrens held a centaur command tent.",
+        "evidenceIds": ["quest-851-details"]
+      },
+      "clue": {
+        "text": "Watered refuge in dry country, like the Stagnant one",
+        "evidenceIds": ["quest-851-details"]
+      },
+      "hint": {
+        "text": "A patch of habitable land in an arid region.",
+        "evidenceIds": ["quest-851-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "horde",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "35ab7a5b3313467fc054352d3b2615a458d81570bf81b0ba604c1ed98cb6ea81",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "easy-2-spy",
+      "answer": {
+        "display": "SPY",
+        "grid": "SPY",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Thorsen's discovery led his allies to suspect a spy among them.",
+        "evidenceIds": ["quest-200-details"]
+      },
+      "clue": {
+        "text": "Secret informer suspected among Kurzen's opponents",
+        "evidenceIds": ["quest-200-details"]
+      },
+      "hint": {
+        "text": "Someone who gathers information covertly.",
+        "evidenceIds": ["quest-200-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["roles"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "9954ec582bf0a766206ff861ffb8b1a6880d06877bbadb63512d8fb24d600d53",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-execute",
+      "answer": {
+        "display": "EXECUTE",
+        "grid": "EXECUTE",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Execute is usable on severely wounded enemies and converts extra rage into damage.",
+        "evidenceIds": ["name-spell-5308", "name-spell-description-5308"]
+      },
+      "clue": {
+        "text": "Finish a foe once only a fifth of its health remains",
+        "evidenceIds": ["name-spell-5308", "name-spell-description-5308"]
+      },
+      "hint": {
+        "text": "Extra rage can increase this attack's damage.",
+        "evidenceIds": ["name-spell-5308", "name-spell-description-5308"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "19f363e1fe6ad703c7a05866278a587b12b8ad8f99d9e11ddd8c26bc5e81035f",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-curse",
+      "answer": {
+        "display": "CURSE",
+        "grid": "CURSE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The orcs' bloodlust was described as a curse.",
+        "evidenceIds": ["book-175742-5", "book-175742-4"]
+      },
+      "clue": {
+        "text": "Mannoroth's gift left this behind its borrowed strength",
+        "evidenceIds": ["book-175742-5", "book-175742-4"]
+      },
+      "hint": {
+        "text": "The supernatural affliction behind the orcs' bloodlust.",
+        "evidenceIds": ["book-175742-5", "book-175742-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["orcs"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "03141b8c70bce031d7e61a259495ca01e9e4dddefa3ca3683815ed936a808bd5",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-cower",
+      "answer": {
+        "display": "COWER",
+        "grid": "COWER",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Cower lowers threat without causing damage.",
+        "evidenceIds": ["name-spell-1742", "name-spell-description-1742"]
+      },
+      "clue": {
+        "text": "Crouch in fear, and become a less inviting target",
+        "evidenceIds": ["name-spell-1742", "name-spell-description-1742"]
+      },
+      "hint": {
+        "text": "An ability that lowers threat without causing damage.",
+        "evidenceIds": ["name-spell-1742", "name-spell-description-1742"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "86b494e3c97f1dabd379bd521abe5ba5b822d63c7e4d6748fb222013c6a65907",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-ragnaros",
+      "answer": {
+        "display": "Ragnaros",
+        "grid": "RAGNAROS",
+        "enumeration": [8],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Ragnaros was freed by Thaurissan's call and devastated the mountains.",
+        "evidenceIds": ["book-175739-11"]
+      },
+      "clue": {
+        "text": "Thaurissan's summons brought a volcano with him",
+        "evidenceIds": ["book-175739-11"]
+      },
+      "hint": {
+        "text": "An elemental lord of fire.",
+        "evidenceIds": ["book-175739-11"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "63e6a41869ba12c082c6c451897191b051f8d557846bf47ad5ade247d8625402",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-plague",
+      "answer": {
+        "display": "PLAGUE",
+        "grid": "PLAGUE",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Kel'Thuzad and his cult released the plague of undeath.",
+        "evidenceIds": ["book-175756-1", "book-175754-14"]
+      },
+      "clue": {
+        "text": "What turned Lordaeron's epidemic into an undead army",
+        "evidenceIds": ["book-175756-1", "book-175754-14"]
+      },
+      "hint": {
+        "text": "A contagious outbreak of disease.",
+        "evidenceIds": ["book-175756-1", "book-175754-14"]
+      },
+      "difficulty": "medium",
+      "topics": ["scourge"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "57a3a96e59e8527291fcd4286f8b5605374a7cb98164a50fc9810e6589c35836",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-council",
+      "answer": {
+        "display": "COUNCIL",
+        "grid": "COUNCIL",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Gul'dan founded the Shadow Council with Kil'jaeden's help.",
+        "evidenceIds": ["book-175741-9"]
+      },
+      "clue": {
+        "text": "Shadow government Kil'jaeden helped Gul'dan build",
+        "evidenceIds": ["book-175741-9"]
+      },
+      "hint": {
+        "text": "A secret sect that spread warlock magic among the orcs.",
+        "evidenceIds": ["book-175741-9"]
+      },
+      "difficulty": "medium",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "f0502336f377831bf8ec73e264d7920cef5e29856959408f74910a6ded51299c",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-gouge",
+      "answer": {
+        "display": "GOUGE",
+        "grid": "GOUGE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Gouge incapacitates a target that must face the attacker, and damage ends the effect.",
+        "evidenceIds": ["name-spell-1776", "name-spell-description-1776"]
+      },
+      "clue": {
+        "text": "Face-to-face incapacitation broken by further damage",
+        "evidenceIds": ["name-spell-1776", "name-spell-description-1776"]
+      },
+      "hint": {
+        "text": "Its ordinary meaning is to cut out a hollow.",
+        "evidenceIds": ["name-spell-1776", "name-spell-description-1776"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "35acbcfbca38f27e40e82a6f13862da8b2d9225fea490af9c83c52181741ee7d",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-jaina",
+      "answer": {
+        "display": "Jaina",
+        "grid": "JAINA",
+        "enumeration": [5],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Jaina Proudmoore's forces built the port city of Theramore.",
+        "evidenceIds": ["book-175763-4"]
+      },
+      "clue": {
+        "text": "Proudmoore behind a port off Dustwallow's eastern coast",
+        "evidenceIds": ["book-175763-4"]
+      },
+      "hint": {
+        "text": "Her followers built Theramore.",
+        "evidenceIds": ["book-175763-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "8fea2eb921c9a7c13c50ee2155c07f1c499d608d3e846e9ab7e041ffd6ae7aec",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-plate",
+      "answer": {
+        "display": "PLATE",
+        "grid": "PLATE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "A witness recalled Doomhammer in midnight plate before a rider killed him from behind.",
+        "evidenceIds": ["quest-655-details"]
+      },
+      "clue": {
+        "text": "Doomhammer's midnight armour, by type",
+        "evidenceIds": ["quest-655-details"]
+      },
+      "hint": {
+        "text": "Armour made from solid metal pieces.",
+        "evidenceIds": ["quest-655-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["equipment", "history"],
+      "exposure": "horde",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "1ceb9d2d068d99e9161fb5505dadfed14f8b6ecf9f3ff339a50397737b407489",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-ale",
+      "answer": {
+        "display": "ALE",
+        "grid": "ALE",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar short English word recoverable through a Warcraft fact and its crossings."
+      },
+      "fact": {
+        "text": "The Thunderbrew Distillery in Kharanos stored Thunder Ale in barrels.",
+        "evidenceIds": ["quest-310-objectives"]
+      },
+      "clue": {
+        "text": "What a brewer's Kharanos barrel holds, in general",
+        "evidenceIds": ["quest-310-objectives"]
+      },
+      "hint": {
+        "text": "A kind of beer.",
+        "evidenceIds": ["quest-310-objectives"]
+      },
+      "difficulty": "easy",
+      "topics": ["food"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "21629e1d8480749c211ad33630535aa703ee949c1332efa221e6cb899e2ab5dd",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-2-clan",
+      "answer": {
+        "display": "CLAN",
+        "grid": "CLAN",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Warsong and Frostwolf were orc clans.",
+        "evidenceIds": ["book-175752-4", "book-175752-5"]
+      },
+      "clue": {
+        "text": "Orcish kin-group, whether Frostwolf or Warsong",
+        "evidenceIds": ["book-175752-4", "book-175752-5"]
+      },
+      "hint": {
+        "text": "A group built around shared ancestry.",
+        "evidenceIds": ["book-175752-4", "book-175752-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["orcs"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "809bd0d5d38e6f4bd87734a34a0c8034bc6119e9df9a61b564704aa6167357a5",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-durotar",
+      "answer": {
+        "display": "Durotar",
+        "grid": "DUROTAR",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Thrall's orcs named Durotar after his father.",
+        "evidenceIds": ["book-175763-2", "book-175752-5"]
+      },
+      "clue": {
+        "text": "A tauren-aided founding honoured Thrall's murdered father",
+        "evidenceIds": ["book-175763-2", "book-175752-5"]
+      },
+      "hint": {
+        "text": "His father was Durotan.",
+        "evidenceIds": ["book-175763-2", "book-175752-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "4647bf3e4136d1f16473603a651d57881f8973010e7220eed29201af3e43801a",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-cult",
+      "answer": {
+        "display": "CULT",
+        "grid": "CULT",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Kel'Thuzad founded the Cult of the Damned.",
+        "evidenceIds": ["book-175754-9", "book-175754-7"]
+      },
+      "clue": {
+        "text": "The brotherhood Kel'Thuzad gathered in disguise",
+        "evidenceIds": ["book-175754-9", "book-175754-7"]
+      },
+      "hint": {
+        "text": "Complete the name: ___ of the Damned.",
+        "evidenceIds": ["book-175754-9", "book-175754-7"]
+      },
+      "difficulty": "medium",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "89cc3d53888533c356e51e2588eddeae1ddb98876db5e671b5df3fb5f90a3599",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-purge",
+      "answer": {
+        "display": "PURGE",
+        "grid": "PURGE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Purge removes magic effects from an enemy target.",
+        "evidenceIds": ["name-spell-370", "name-spell-description-370"]
+      },
+      "clue": {
+        "text": "A cleansing meant for a hostile target",
+        "evidenceIds": ["name-spell-370", "name-spell-description-370"]
+      },
+      "hint": {
+        "text": "Removes magic effects from an enemy.",
+        "evidenceIds": ["name-spell-370", "name-spell-description-370"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "d14732d6a71726448b56617df2a811c627f43a37e55d2242cecb318ebb3d8474",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-throne",
+      "answer": {
+        "display": "THRONE",
+        "grid": "THRONE",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Ner'zhul was imprisoned within the Frozen Throne.",
+        "evidenceIds": ["book-175761-1", "book-175761-4"]
+      },
+      "clue": {
+        "text": "What Illidan damaged to make Ner'zhul's power leak away",
+        "evidenceIds": ["book-175761-1", "book-175761-4"]
+      },
+      "hint": {
+        "text": "The prison was also described as frozen.",
+        "evidenceIds": ["book-175761-1", "book-175761-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["objects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "fd8a28832fae1f376656f54620acd6903185d380a5593ac249df0155047d5173",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-scourge",
+      "answer": {
+        "display": "Scourge",
+        "grid": "SCOURGE",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Kel'Thuzad named the growing undead army the Scourge.",
+        "evidenceIds": ["book-175754-14"]
+      },
+      "clue": {
+        "text": "Kel'Thuzad named this army for the harm it would do",
+        "evidenceIds": ["book-175754-14"]
+      },
+      "hint": {
+        "text": "The Lich King's army of the dead.",
+        "evidenceIds": ["book-175754-14"]
+      },
+      "difficulty": "medium",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "5a3502e52761f68578ea64ff71a8d15e82eee73e76f2950b76ae98ac7a51e180",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-swipe",
+      "answer": {
+        "display": "SWIPE",
+        "grid": "SWIPE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Swipe damages nearby enemies.",
+        "evidenceIds": ["name-spell-779", "name-spell-description-779"]
+      },
+      "clue": {
+        "text": "Several close targets take damage from the same attack",
+        "evidenceIds": ["name-spell-779", "name-spell-description-779"]
+      },
+      "hint": {
+        "text": "Its ordinary meaning is a broad, sweeping stroke.",
+        "evidenceIds": ["name-spell-779", "name-spell-description-779"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "9d30906286941cacacd00b0b29c2ac97ef1d5357e3c886c7097cce5f4cfdcd18",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-forge",
+      "answer": {
+        "display": "FORGE",
+        "grid": "FORGE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The dwarves built a mighty forge and named the surrounding city Ironforge.",
+        "evidenceIds": ["book-175736-5"]
+      },
+      "clue": {
+        "text": "Mountain hearth that gave a dwarven city its name",
+        "evidenceIds": ["book-175736-5"]
+      },
+      "hint": {
+        "text": "Think of a smith's furnace.",
+        "evidenceIds": ["book-175736-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["crafting"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "3c3c4680416dfcff61a0eafd7f2b8f18c0258d58e2557bc353b75246702ac623",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-staff",
+      "answer": {
+        "display": "STAFF",
+        "grid": "STAFF",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "An archmage overseeing a ley node carried a staff that adventurers were asked to retrieve.",
+        "evidenceIds": ["quest-480-details"]
+      },
+      "clue": {
+        "text": "Archmage's long casting implement, taken at a ley node",
+        "evidenceIds": ["quest-480-details"]
+      },
+      "hint": {
+        "text": "A wizard's long rod.",
+        "evidenceIds": ["quest-480-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["equipment", "magic"],
+      "exposure": "horde",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "bfe593fe50e6fa970e9729f4711cfa4fadb175ed13b581a13fb57f7800958d0a",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-rage",
+      "answer": {
+        "display": "RAGE",
+        "grid": "RAGE",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Charge generated rage.",
+        "evidenceIds": ["name-spell-100", "name-spell-description-100"]
+      },
+      "clue": {
+        "text": "A rush earns this resource while leaving its victim helpless",
+        "evidenceIds": ["name-spell-100", "name-spell-description-100"]
+      },
+      "hint": {
+        "text": "Think of the combat resource whose name means anger.",
+        "evidenceIds": ["name-spell-100", "name-spell-description-100"]
+      },
+      "difficulty": "medium",
+      "topics": ["classes"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "28dbbb2de05d7f83098e6a0caaa633c871fdcbfba26cf7908b99640070c527ef",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-bear",
+      "answer": {
+        "display": "BEAR",
+        "grid": "BEAR",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Ursangous was a bear whose paw served as an Ashenvale Hunt trophy.",
+        "evidenceIds": ["quest-23-details"]
+      },
+      "clue": {
+        "text": "An Ashenvale hunter proves this kill with a paw",
+        "evidenceIds": ["quest-23-details"]
+      },
+      "hint": {
+        "text": "A large, shaggy forest mammal.",
+        "evidenceIds": ["quest-23-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["creatures"],
+      "exposure": "horde",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "6cab68cf502bd032b10c4e47480d15c217ad509f6272cf112c4da8fd43b0b778",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "medium-3-bow",
+      "answer": {
+        "display": "BOW",
+        "grid": "BOW",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Daryl offered a bow or gun for completing a timed buzzard hunt in Loch Modan.",
+        "evidenceIds": ["quest-257-details"]
+      },
+      "clue": {
+        "text": "The stringed alternative to Daryl's gun",
+        "evidenceIds": ["quest-257-details"]
+      },
+      "hint": {
+        "text": "It sends arrows towards the target.",
+        "evidenceIds": ["quest-257-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["equipment"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "86e13aaba553280cb6f911d4695b53216c3e97d89d3c29f6b49d790cd2061a68",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-drainlife",
+      "answer": {
+        "display": "Drain Life",
+        "grid": "DRAINLIFE",
+        "enumeration": [5, 4],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Drain Life transfers health from its target to its caster over time.",
+        "evidenceIds": ["name-spell-689", "name-spell-description-689"]
+      },
+      "clue": {
+        "text": "Gaining health by taking it, one second at a time",
+        "evidenceIds": ["name-spell-689", "name-spell-description-689"]
+      },
+      "hint": {
+        "text": "This spell transfers health from a target to its caster.",
+        "evidenceIds": ["name-spell-689", "name-spell-description-689"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "95f02fd4fad73eb255f1840b20d7f22307747e9eb0e00fc1bbe6ac00dfad3990",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-oldgods",
+      "answer": {
+        "display": "Old Gods",
+        "grid": "OLDGODS",
+        "enumeration": [3, 4],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "Recognisable world, gameplay, people or faction vocabulary, with the full familiar multi-word form preserved."
+      },
+      "fact": {
+        "text": "The Twilight's Hammer believed in the Old Gods, whom the Titans had chained beneath the world.",
+        "evidenceIds": ["quest-6565-details", "book-175725-5"]
+      },
+      "clue": {
+        "text": "Those chained when elementals lost their hold on the world",
+        "evidenceIds": ["quest-6565-details", "book-175725-5"]
+      },
+      "hint": {
+        "text": "Twilight's Hammer worshipped these ancient powers.",
+        "evidenceIds": ["quest-6565-details", "book-175725-5"]
+      },
+      "difficulty": "hard",
+      "topics": ["deities", "factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "57dfd433353e88431e630e50789510ecdc67b9f3e39e00ccdd6d98fcfb04621c",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-axe",
+      "answer": {
+        "display": "AXE",
+        "grid": "AXE",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Mosshide gnolls cut Wetlands wood with axes.",
+        "evidenceIds": ["quest-276-details"]
+      },
+      "clue": {
+        "text": "Mosshide tool that turns Wetlands timber into fuel",
+        "evidenceIds": ["quest-276-details"]
+      },
+      "hint": {
+        "text": "A sharp-headed tool for felling trees.",
+        "evidenceIds": ["quest-276-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["equipment", "creatures"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "1e0d75e9f8943ed573ee27af91c1a0569551a8c208b3c656ce30d4912e0dfc44",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-onyxiaslair",
+      "answer": {
+        "display": "Onyxia's Lair",
+        "grid": "ONYXIASLAIR",
+        "enumeration": [7, 4],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "Recognisable world, gameplay, people or faction vocabulary, with the full familiar multi-word form preserved."
+      },
+      "fact": {
+        "text": "The Drakefire Amulet opened Onyxia's lair in Dustwallow Marsh.",
+        "evidenceIds": ["quest-6602-reward", "quest-6502-reward", "name-area-2159"]
+      },
+      "clue": {
+        "text": "Where marshland wards yield to drakefire worn at the neck",
+        "evidenceIds": ["quest-6602-reward", "quest-6502-reward", "name-area-2159"]
+      },
+      "hint": {
+        "text": "An amulet opens the way to this dragon's home in Dustwallow.",
+        "evidenceIds": ["quest-6602-reward", "quest-6502-reward", "name-area-2159"]
+      },
+      "difficulty": "hard",
+      "topics": ["raids", "kalimdor"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "54ffbce190b0822b7295e467f863cf4e620b0c947af9426f659a44dd20137fab",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-tyrande",
+      "answer": {
+        "display": "Tyrande",
+        "grid": "TYRANDE",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Tyrande was loved by both brothers, but her heart belonged to Malfurion.",
+        "evidenceIds": ["book-175727-8"]
+      },
+      "clue": {
+        "text": "The priestess whose choice deepened one brother's resentment",
+        "evidenceIds": ["book-175727-8"]
+      },
+      "hint": {
+        "text": "Both Stormrage brothers loved her.",
+        "evidenceIds": ["book-175727-8"]
+      },
+      "difficulty": "hard",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "73762c6060206918da8422eaa994c7e728d1034e66cca87d44050b574f7b65d5",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-inn",
+      "answer": {
+        "display": "INN",
+        "grid": "INN",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar short English word recoverable through a Warcraft fact and its crossings."
+      },
+      "fact": {
+        "text": "The Lion's Pride Inn was in Goldshire and offered rest, food and drink.",
+        "evidenceIds": ["quest-107-details", "quest-2158-details"]
+      },
+      "clue": {
+        "text": "Goldshire's Lion's Pride, by business",
+        "evidenceIds": ["quest-107-details", "quest-2158-details"]
+      },
+      "hint": {
+        "text": "A place for rest, food and drink.",
+        "evidenceIds": ["quest-107-details", "quest-2158-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["towns", "travel"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "f45ac14ce224ec2c68f6dbf6e4d6a2d53bb8ebfb8e939d5c525fbdecf54f75aa",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-dodge",
+      "answer": {
+        "display": "DODGE",
+        "grid": "DODGE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Evasion increases the rogue's dodge chance.",
+        "evidenceIds": ["name-spell-5277", "name-spell-description-5277"]
+      },
+      "clue": {
+        "text": "The avoidance Evasion makes more likely",
+        "evidenceIds": ["name-spell-5277", "name-spell-description-5277"]
+      },
+      "hint": {
+        "text": "Move aside to escape a blow.",
+        "evidenceIds": ["name-spell-5277", "name-spell-description-5277"]
+      },
+      "difficulty": "medium",
+      "topics": ["classes"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "38073b7a9645851da2279b88106d256fbc3fdbdf9bd91a4fc9c7ef72857ae3f5",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-horde",
+      "answer": {
+        "display": "Horde",
+        "grid": "HORDE",
+        "enumeration": [5],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "The Horde became a loose coalition of Thrall's orcs, tauren and Darkspear trolls.",
+        "evidenceIds": ["book-175763-3"]
+      },
+      "clue": {
+        "text": "The juggernaut that became a coalition once its curse ended",
+        "evidenceIds": ["book-175763-3"]
+      },
+      "hint": {
+        "text": "Thrall led its orcs alongside tauren and Darkspear trolls.",
+        "evidenceIds": ["book-175763-3"]
+      },
+      "difficulty": "hard",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "b2c68f2c56c632bcecf9619a41a3f76e89601e46d7a21867fc0331b96a6ee8a1",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-earth",
+      "answer": {
+        "display": "EARTH",
+        "grid": "EARTH",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Neltharion was given dominion over the earth and deep places.",
+        "evidenceIds": ["book-175726-7"]
+      },
+      "clue": {
+        "text": "The domain Khaz'goroth entrusted to a black wyrm",
+        "evidenceIds": ["book-175726-7"]
+      },
+      "hint": {
+        "text": "Neltharion became its warder.",
+        "evidenceIds": ["book-175726-7"]
+      },
+      "difficulty": "hard",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "1f7b345a56336f2e298614a0cf83c74a408fed92a7dc3ae55f66c5da0c546a0e",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-1-mail",
+      "answer": {
+        "display": "MAIL",
+        "grid": "MAIL",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Grelin was expected to be eager to receive his mail.",
+        "evidenceIds": ["quest-234-details"]
+      },
+      "clue": {
+        "text": "Awaited at Grelin's camp, yet also a fighter's covering",
+        "evidenceIds": ["quest-234-details"]
+      },
+      "hint": {
+        "text": "Here it means letters and parcels.",
+        "evidenceIds": ["quest-234-details"]
+      },
+      "difficulty": "medium",
+      "topics": ["objects"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "20559edcd7e5db99874cdea4e0d824efcd6857cde0b37c944951c26b611a6187",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "New pilot clue and hint reviewed against the selected existing passages. Familiar answer retained. Provisional clue difficulty, with easier footholds inside harder grids. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-frostmourne",
+      "answer": {
+        "display": "Frostmourne",
+        "grid": "FROSTMOURNE",
+        "enumeration": [11],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Arthas took up the cursed runeblade Frostmourne in Northrend.",
+        "evidenceIds": ["book-175756-3", "book-175756-4"]
+      },
+      "clue": {
+        "text": "The prince sought salvation in it and lost his soul",
+        "evidenceIds": ["book-175756-3", "book-175756-4"]
+      },
+      "hint": {
+        "text": "A cursed runeblade.",
+        "evidenceIds": ["book-175756-3", "book-175756-4"]
+      },
+      "difficulty": "hard",
+      "topics": ["artifacts"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "185873202354c23046701aac57f8264a6b16d32f01ebc751406aafe755e87f64",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-northrend",
+      "answer": {
+        "display": "Northrend",
+        "grid": "NORTHREND",
+        "enumeration": [9],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Arthas and his nerubian allies raced Illidan's forces to Icecrown Glacier in Northrend.",
+        "evidenceIds": ["book-175761-4"]
+      },
+      "clue": {
+        "text": "Land where Arthas and his nerubian allies raced Illidan to a glacier",
+        "evidenceIds": ["book-175761-4"]
+      },
+      "hint": {
+        "text": "The glacier was Icecrown.",
+        "evidenceIds": ["book-175761-4"]
+      },
+      "difficulty": "hard",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "a8e3ab0195fa11600d7aba5db78a3af6f859d6a49ec8bcb612ddd486f2d311e0",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-kirintor",
+      "answer": {
+        "display": "Kirin Tor",
+        "grid": "KIRINTOR",
+        "enumeration": [5, 3],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "The Kirin Tor ruled Dalaran and included Kel'Thuzad.",
+        "evidenceIds": ["book-175754-1"]
+      },
+      "clue": {
+        "text": "The ruling council that counted a student of forbidden necromancy among its seniors",
+        "evidenceIds": ["book-175754-1"]
+      },
+      "hint": {
+        "text": "Kel'Thuzad held a senior place in it.",
+        "evidenceIds": ["book-175754-1"]
+      },
+      "difficulty": "hard",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "088c98010605e237907717892d1136bfb818f55a3de6d4b5446ac24c82126cef",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-dunmorogh",
+      "answer": {
+        "display": "Dun Morogh",
+        "grid": "DUNMOROGH",
+        "enumeration": [3, 6],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "Recognisable world, gameplay, people or faction vocabulary, with the full familiar multi-word form preserved."
+      },
+      "fact": {
+        "text": "Kharanos lies in Dun Morogh, and adventurers there are directed up to Ironforge.",
+        "evidenceIds": ["quest-4128-details", "quest-2997-details", "name-area-1"]
+      },
+      "clue": {
+        "text": "Region containing the distillery at Kharanos",
+        "evidenceIds": ["quest-4128-details", "quest-2997-details", "name-area-1"]
+      },
+      "hint": {
+        "text": "From here, young paladins were sent up to Ironforge.",
+        "evidenceIds": ["quest-4128-details", "quest-2997-details", "name-area-1"]
+      },
+      "difficulty": "medium",
+      "topics": ["zones", "eastern-kingdoms"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "13d8b9d9917dc0ba43ff0d7d4dd47a60cf559ef82f81c608fc76a465484bc45f",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-silverhand",
+      "answer": {
+        "display": "Silver Hand",
+        "grid": "SILVERHAND",
+        "enumeration": [6, 4],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "Recognisable world, gameplay, people or faction vocabulary, with the full familiar multi-word form preserved."
+      },
+      "fact": {
+        "text": "Uther was a paladin whose death devastated the Order of the Silver Hand.",
+        "evidenceIds": ["quest-5845-details", "book-175756-1"]
+      },
+      "clue": {
+        "text": "A fallen standard marked Taelan's renunciation of this order",
+        "evidenceIds": ["quest-5845-details", "book-175756-1"]
+      },
+      "hint": {
+        "text": "Uther's paladin order.",
+        "evidenceIds": ["quest-5845-details", "book-175756-1"]
+      },
+      "difficulty": "hard",
+      "topics": ["factions", "classes"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "9569bb5ca4ca2c885706c3288398fe958bfd960cd6062f1958d3313a3af155af",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-shadowbolt",
+      "answer": {
+        "display": "Shadow Bolt",
+        "grid": "SHADOWBOLT",
+        "enumeration": [6, 4],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Shadow Bolt sends a shadowy projectile that causes Shadow damage.",
+        "evidenceIds": ["name-spell-686", "name-spell-description-686"]
+      },
+      "clue": {
+        "text": "A missile whose school is already written into its name",
+        "evidenceIds": ["name-spell-686", "name-spell-description-686"]
+      },
+      "hint": {
+        "text": "Think of a dark projectile.",
+        "evidenceIds": ["name-spell-686", "name-spell-description-686"]
+      },
+      "difficulty": "medium",
+      "topics": ["spells", "magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "9b48c9624172572bfdeaaaad86afa01ad3563515c66a52bfa42b82bb746ab1f7",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-raw",
+      "answer": {
+        "display": "RAW",
+        "grid": "RAW",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Raw meat was requested to feed a sprite darter after it hatched.",
+        "evidenceIds": ["quest-4297-details"]
+      },
+      "clue": {
+        "text": "How the meat for a sprite darter hatchling should be prepared",
+        "evidenceIds": ["quest-4297-details"]
+      },
+      "hint": {
+        "text": "Uncooked, rather than roasted or boiled.",
+        "evidenceIds": ["quest-4297-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["food", "creatures"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "ffc3637accf935d2888cfbc60eb5bc033c89808a2f49dc633be060d30c71fc4d",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-fish",
+      "answer": {
+        "display": "FISH",
+        "grid": "FISH",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Murlocs moving up eastern Elwynn's streams scared away fish.",
+        "evidenceIds": ["quest-40-details"]
+      },
+      "clue": {
+        "text": "What eastern Elwynn's swimming invaders scare away",
+        "evidenceIds": ["quest-40-details"]
+      },
+      "hint": {
+        "text": "An angler's quarry.",
+        "evidenceIds": ["quest-40-details"]
+      },
+      "difficulty": "medium",
+      "topics": ["creatures"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "9a2fd74a8f4ff9347cd0bc636f221aec0e9c13fbc433006453bf523b2c81631d",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-owl",
+      "answer": {
+        "display": "OWL",
+        "grid": "OWL",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "A forest reagent request included Strigid Owl Feathers.",
+        "evidenceIds": ["quest-488-details"]
+      },
+      "clue": {
+        "text": "The Strigid source of a forest worker's feather reagent",
+        "evidenceIds": ["quest-488-details"]
+      },
+      "hint": {
+        "text": "Think of a hooting bird.",
+        "evidenceIds": ["quest-488-details"]
+      },
+      "difficulty": "medium",
+      "topics": ["creatures"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "ae1273bb2073d69a03628681c4870517619f4c80bdfd2a687a3b92786d60bbdc",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-kid",
+      "answer": {
+        "display": "KID",
+        "grid": "KID",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Familiar Warcraft vocabulary or a recoverable English word with a specific sourced Warcraft connection. Full familiar ability names are preserved."
+      },
+      "fact": {
+        "text": "Thelsamar's cook described children running in and out among the hungry people to feed.",
+        "evidenceIds": ["quest-418-details"]
+      },
+      "clue": {
+        "text": "A Thelsamar youngster, or a goat's offspring",
+        "evidenceIds": ["quest-418-details"]
+      },
+      "hint": {
+        "text": "An informal word for a child.",
+        "evidenceIds": ["quest-418-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["peoples"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "25c6473a13c1a9f266f977c479e4dab55f62cb37f810b9abb80fb0c529d86b85",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-air",
+      "answer": {
+        "display": "AIR",
+        "grid": "AIR",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Shaman training includes an air totem.",
+        "evidenceIds": ["quest-1531-details"]
+      },
+      "clue": {
+        "text": "The totem element carried on every breeze",
+        "evidenceIds": ["quest-1531-details"]
+      },
+      "hint": {
+        "text": "Think of the atmosphere.",
+        "evidenceIds": ["quest-1531-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["elements", "classes"],
+      "exposure": "horde",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "1615e73e59640444403f9850005d2e2c746aeb00fc35ea0e944d3b7c0ca5a37d",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
+    },
+    {
+      "id": "hard-2-tree",
+      "answer": {
+        "display": "TREE",
+        "grid": "TREE",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "Recognisable world vocabulary or an ordinary English word recoverable through the Warcraft context, semantic wording and crossings."
+      },
+      "fact": {
+        "text": "Mosshide gnolls cut Wetlands trees to fuel their fires.",
+        "evidenceIds": ["quest-277-details"]
+      },
+      "clue": {
+        "text": "Mosshide fuel source, with roots and a trunk",
+        "evidenceIds": ["quest-277-details"]
+      },
+      "hint": {
+        "text": "A tall, woody plant.",
+        "evidenceIds": ["quest-277-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["materials", "places"],
+      "exposure": "alliance",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-seven-pilot-source-pass-2026-11-01",
+        "evidenceDigest": "6ccb265aef277506a79cb4253b227ea9f4ba09c3cbebb81bc573abdb9e9246e2",
+        "contentDigest": null,
+        "coldReviewer": null,
+        "notes": "Reviewed against the selected existing passages. The northern journey clue uses the Icecrown race rather than duplicating the blade fact. Difficulty provisional; easier footholds retained. No human approval granted."
+      }
     }
   ]
 }

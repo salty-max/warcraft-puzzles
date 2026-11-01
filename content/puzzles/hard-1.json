@@ -1,0 +1,67 @@
+{
+  "id": "hard-1",
+  "title": "Hard 1",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "hard-1",
+    "rows": [
+      "########.#",
+      "########.#",
+      "###.......",
+      "###.#.##.#",
+      "##.......#",
+      "###.#.####",
+      "###...####",
+      "###.#.####",
+      "#.#.#.####",
+      "....#.####",
+      "#.#...####",
+      "#.#.######",
+      "#.....####"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "3D",
+      "entryId": "hard-1-drainlife"
+    },
+    {
+      "slotId": "2A",
+      "entryId": "hard-1-oldgods"
+    },
+    {
+      "slotId": "8A",
+      "entryId": "hard-1-axe"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "hard-1-onyxiaslair"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "hard-1-tyrande"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "hard-1-inn"
+    },
+    {
+      "slotId": "1D",
+      "entryId": "hard-1-dodge"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "hard-1-horde"
+    },
+    {
+      "slotId": "6D",
+      "entryId": "hard-1-earth"
+    },
+    {
+      "slotId": "7A",
+      "entryId": "hard-1-mail"
+    }
+  ]
+}

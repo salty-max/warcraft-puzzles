@@ -36,7 +36,7 @@ it("replays the real seed and all committed layouts without approving content", 
   ).toBe(true);
   expect(runBenchmark(editorial, snapshot, input)).toEqual(result);
   expect(new Set(result.layouts.map((layout) => layout.width))).toEqual(
-    new Set([5, 7, 9, 11, 12, 13]),
+    new Set([5, 7, 8, 9, 10, 11, 12, 13]),
   );
   expect(result.cases).toHaveLength(
     result.layouts.length * 2 * result.config.seeds.length,
@@ -49,7 +49,7 @@ it("replays the real seed and all committed layouts without approving content", 
       .every((run) => run.result.status === "solved"),
   ).toBe(true);
   expect(result.layouts.filter((layout) => layout.checking === "partial")).toHaveLength(
-    2,
+    7,
   );
   expect(
     result.cases
