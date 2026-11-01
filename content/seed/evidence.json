@@ -1,0 +1,967 @@
+{
+  "schemaVersion": 1,
+  "database": {
+    "game": "classic",
+    "sha256": "3ab3d15e3500a1680ec634568f2a9aaf4daafab12dceaf76690e900e6e29bbc8"
+  },
+  "sources": [
+    {
+      "id": "classicdb",
+      "version": "28ef6259c782928b08a8dc9cacf6bc02e64f2b29",
+      "url": "https://github.com/cmangos/classic-db",
+      "license": "GPL-3.0"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "book-175752-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Seeking the truth of his own origins, Thrall traveled north to find the legendary Frostwolf clan. Thrall learned that Gul'dan had exiled the Frostwolves during the early days of the First War. He also discovered that he was the son and heir of the orc hero Durotan, the true chieftain of the Frostwolves who had been murdered in the wilds nearly twenty years before.",
+      "sourceId": "classicdb",
+      "rowSha256": "a671dd804273a26f2a4cc6ed1a28f8caaee6ed81d3154f2c24e317ce4eedb157",
+      "excerptSha256": "fe5f541f2e03b3d7d9db034f47488d2f9b3bf492d1a4d6f8c587471c6910d997"
+    },
+    {
+      "id": "book-175740-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175740,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Time passed, and Aegwynn gave birth to her son in a secluded grove. Naming the boy Medivh, which means \"keeper of secrets\" in the high elven tongue, Aegwynn believed that the boy would mature to become the next Guardian. Unfortunately the malignant spirit of Sargeras, which had been hiding inside her, had possessed the defenseless child while it was still in her womb. Aegwynn had no idea that the world's newest Guardian was already possessed by its greatest nemesis.",
+      "sourceId": "classicdb",
+      "rowSha256": "5ef27c074a95ef30486a1b9584aa26e046618cf8b3f728fba75a6ca01568c00e",
+      "excerptSha256": "cf55d4806b30e32ce43a3f0e4e85b9846a7dc480f80568cdabc4c7e2c80f2cd5"
+    },
+    {
+      "id": "book-175727-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "It fell to Malfurion Stormrage to find help for his beleaguered people. Stormrage, whose own brother, Illidan, practiced the Highborne's magics, was incensed by the growing corruption amongst the upper class. Convincing Illidan to forsake his dangerous obsession, Malfurion set out to find Cenarius and muster a resistance force.",
+      "sourceId": "classicdb",
+      "rowSha256": "62f593f156f1c7df648a43f96c02be41064fc906a827561b021573cf9a7678e2",
+      "excerptSha256": "4111b1b8089181fdd3b9f69ceb9b7403be4c041c2b9671dd95e4495cb6ef3194"
+    },
+    {
+      "id": "book-175726-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Eonar also blessed Alexstrasza's younger sister, the lithe green dragon Ysera, with a portion of nature's influence. Ysera fell into an eternal trance, bound to the waking Dream of Creation. Known as the Dreamer, she would watch over the growing wilds of the world from her verdant realm, the Emerald Dream.",
+      "sourceId": "classicdb",
+      "rowSha256": "f3063132e2144fb6e76776848e6b21743e364a91383c8003d34aecf6f60694b8",
+      "excerptSha256": "43348db881d2f78b91412728feb85c24fee8a1487459ece67fe2cec094669a82"
+    },
+    {
+      "id": "book-175727-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Queen Azshara, overwhelmed by the terrible ecstasy of her magic, fell victim to Sargeras' undeniable power and agreed to grant him entrance to her world. Even her Highborne servitors gave themselves over to magic's inevitable corruption and began to worship Sargeras as their god. To show their allegiance to the Legion, the Highborne aided their queen in opening a vast, swirling portal within the depths of the Well of Eternity.",
+      "sourceId": "classicdb",
+      "rowSha256": "3dacc316f91302b7c2cea89738133ceb2a11d9adcb8761e0b2acd56b6c515185",
+      "excerptSha256": "7fe647ae87d79ed1dcc8a0a1796993bc343b2a16199bd53295866b62e03f9ac0"
+    },
+    {
+      "id": "book-175756-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175756,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Though the sword did grant him unfathomable power, it also stole his soul and transformed him into the greatest of the Lich King's death knights. With his soul cast aside and his sanity shattered, Arthas led the Scourge against his own kingdom. Ultimately, Arthas murdered his own father, King Terenas, and crushed Lordaeron under the Lich King's iron heel.",
+      "sourceId": "classicdb",
+      "rowSha256": "434729f01616a301f52aa8138bbec79f8867cacaa7ae52e0e32e2c8a0ae880e3",
+      "excerptSha256": "4d547ac184bba47f1e55fc4d0c24c3e1414a7d424b1d1a9a83b804dba4e07031"
+    },
+    {
+      "id": "book-175756-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175756,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "As the ranks of the undead swept across Lordaeron, Terenas' only son, Prince Arthas, took up the fight against the Scourge. Arthas succeeded in killing Kel'Thuzad, but even so, the undead ranks swelled with every soldier that fell defending the land. Frustrated and stymied by the seemingly unstoppable enemy, Arthas took increasingly extreme steps to conquer them. Finally Arthas' comrades warned him that he was losing his hold on his humanity.",
+      "sourceId": "classicdb",
+      "rowSha256": "7d1fd46cf65bc10832caca024a0d87d568fb82d478d738f93d644f94fdef0d2b",
+      "excerptSha256": "2e50530690496d4931fafbc9da01bafaa9285a23330794fab628936cda5af26a"
+    },
+    {
+      "id": "book-175729-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175729,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "Knowing full well where Illidan's ruthless schemes would eventually lead, Malfurion decided to deal with his power-crazed brother once and for all. With Cenarius' help, Malfurion sealed Illidan within a vast underground barrow prison, where he would remain chained and powerless until the end of time. To ensure his brother's containment, Malfurion empowered the young warden, Maiev Shadowsong, to be Illidan's personal jailor.",
+      "sourceId": "classicdb",
+      "rowSha256": "f336cedbfa60492be8d283bc4f8314b285d765062185349aea7fcfad61ff377a",
+      "excerptSha256": "bfd1bf16caee554136c28081690d14476b156446fabe6050f4a482321f410ac1"
+    },
+    {
+      "id": "book-175745-11",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175745,
+        "locale": "enUS",
+        "idx": 11
+      },
+      "excerpt": "Choosing to follow his instincts, Lothar stormed Medivh's tower-fortress of Karazhan with the help of the wizard's young apprentice, Khadgar. Khadgar and Lothar succeeded in vanquishing the possessed Guardian, whom they confirmed to be the source of the conflict.",
+      "sourceId": "classicdb",
+      "rowSha256": "7f13fed0d4f2f8da23097b195a9bf0e32e0d4711a33e3420ca3396a6716fe658",
+      "excerptSha256": "990ad3bd58c4e8253bd53d46867a071ea47e576e730445e9176ebf7fb8f2902e"
+    },
+    {
+      "id": "book-175752-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "Under the tutelage of the venerable shaman Drek'Thar, Thrall studied his people's ancient shamanistic culture, which had been forgotten under Gul'dan's evil rule. Over time, Thrall became a powerful shaman and took his rightful place as chieftain of the exiled Frostwolves. Empowered by the elements themselves and driven to find his destiny, Thrall set off to free the captive clans and heal his race of demonic corruption.",
+      "sourceId": "classicdb",
+      "rowSha256": "c1747d3f3b3cb3aaf39cb20a241b5051b022d769522f703655d1d014ec338c9b",
+      "excerptSha256": "624cd096e6de81003ff1e38f80f7736789a6cc9eb8f3d13cd453d31087f8baaf"
+    },
+    {
+      "id": "book-175741-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175741,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "The young orc became an avid student of demonic magic and developed into the most powerful mortal warlock in history. He taught other young orcs the arcane arts and strove to eradicate the orcs' shamanistic traditions. Gul'dan showed a new brand of magic to his brethren, a terrible new power that reeked of doom.",
+      "sourceId": "classicdb",
+      "rowSha256": "64a400209d03f279638bc58b6a1b25d88c0e5ebc3cb5bc1822f443729f637ce0",
+      "excerptSha256": "7edfb00627fe38d427d1af5ebfba199e521d72c9ca53111f84a95c34205633c8"
+    },
+    {
+      "id": "book-175730-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Alexstrasza the red, Ysera the green, and Nozdormu the bronze descended upon the druids' tranquil glades and surveyed the fruits of the night elves' labors. Malfurion, who had become an arch-druid of immense power, greeted the mighty dragons and told them about the creation of the new Well of Eternity.",
+      "sourceId": "classicdb",
+      "rowSha256": "85ea7dc757f38763bd0882b63ed2ebb1a9ac032c1dc8ad0a292dad48abf8142e",
+      "excerptSha256": "8d61fb5b982ec6b976feae5716f23b2b5dea2925bb5d03b149a996005aaa35f6"
+    },
+    {
+      "id": "book-175756-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175756,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "After preparing for many long months, Kel'Thuzad and his Cult of the Damned finally struck the first blow by releasing the plague of undeath upon Lordaeron. Uther and his fellow paladins investigated the infected regions in the hope of finding a way to stop the plague. Despite their efforts, the plague continued to spread and threatened to tear the Alliance apart.",
+      "sourceId": "classicdb",
+      "rowSha256": "77dfcceb5fd6c115c9831a4e74645782a93922f397131219437b2bcaa97a4709",
+      "excerptSha256": "593de0a7b83c2f7d3f0d679e95a52594d9e8af748983d28383e1d3eef891d527"
+    },
+    {
+      "id": "book-175757-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175757,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Arthas and his Scourge invaded Quel'Thalas and laid siege to the elves' crumbling defenses. Sylvanas Windrunner, the Ranger-General of Silvermoon, put up a valiant fight, but Arthas eventually eradicated the high elf army and battled through to the Sunwell. In a cruel gesture of his dominance, he even raised Sylvanas' defeated body as a banshee, cursed to endless undeath in the service of Quel'Thalas' conqueror.",
+      "sourceId": "classicdb",
+      "rowSha256": "0fced782873f1a69ef98f9d6d996974abde2cb0d9d92a46fea07976ad722d7b8",
+      "excerptSha256": "15d72f3e0274bd638c0a4c0b8c1159b4eaa9c6ab6400e17b193b801c1754c95f"
+    },
+    {
+      "id": "book-175757-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175757,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Ultimately, Arthas submerged Kel'Thuzad's remains within the holy waters of the Sunwell. Although the potent waters of Eternity were fouled by this act, Kel'Thuzad was reborn as a sorcerous lich. Resurrected as a far more powerful being, Kel'Thuzad explained the next phase of the Lich King's plan.",
+      "sourceId": "classicdb",
+      "rowSha256": "90ea8b841cbaa1bf8be8621673f7d139aedb1020418f492cb64baf2cf91c7916",
+      "excerptSha256": "1cc53a011b9daad4233cc3ca318d9951379a83f4942d213a03cd92c97565158b"
+    },
+    {
+      "id": "book-175725-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175725,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "The Titans empowered a number of races to help them fashion the world. To help them carve out the fathomless caverns beneath the earth, the Titans created the dwarf-like earthen from magical, living stone. To help them dredge out the seas and lift the land from the sea floor, the Titans created the immense but gentle sea giants. For many ages the Titans moved and shaped the earth, until at last there remained one perfect continent.",
+      "sourceId": "classicdb",
+      "rowSha256": "703e7c0378c240bc39ed3d6b40c6536470f1357dc682644aefb9b9c2c10dc520",
+      "excerptSha256": "d2d9932248e9c72448b3d04f3a2abe24ba14d45e2528b4f95c99c08e11dfc2b1"
+    },
+    {
+      "id": "book-175726-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "Khaz'goroth, the Titan shaper and forger of the world, bestowed some of his vast power upon the mighty black wyrm, Neltharion. The great-hearted Neltharion, known afterwards as the Earth-Warder, was given dominion over the earth and the deep places of the world. He embodied the strength of the world and served as Alexstrasza's greatest supporter.",
+      "sourceId": "classicdb",
+      "rowSha256": "4ac7d190ce3b002fb40657c2290a636cd30364849fb8cea5730ef8e772ea0403",
+      "excerptSha256": "0487c052432da7ee599c4b3c3a0ca6ade6bbd7305e079b6512aad903e93c0ef3"
+    },
+    {
+      "id": "book-175726-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Aman'Thul, the Highfather of the Pantheon, bestowed a portion of his cosmic power upon the massive bronze dragon, Nozdormu. The Highfather empowered Nozdormu to guard time itself and police the ever-spinning pathways of fate and destiny. The stoic, honorable Nozdormu became known as the Timeless One.",
+      "sourceId": "classicdb",
+      "rowSha256": "965da80d0754caf4f25d7e4e844d49ee6fa0c69439b32da0666be2c2ec182866",
+      "excerptSha256": "a22b15630c984f4f8762ba23993b76215bb25d99939725a58102131c00f1f550"
+    },
+    {
+      "id": "book-175726-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "Norgannon, the Titan lore keeper and master-magician, granted the blue dragon, Malygos, a portion of his vast power. From then on, Malygos would be known as the Spell-Weaver, the guardian of magic and hidden arcanum.",
+      "sourceId": "classicdb",
+      "rowSha256": "afff3b76a4182ac18cad47cad9050c7cd5e68deed1148aa447b58dcbb09d3a16",
+      "excerptSha256": "a83852d717a60beeba24ef93add261b4988a9e6029f6ec9688a5a9af6cd61512"
+    },
+    {
+      "id": "book-175726-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Eonar, the Titan patron of all life, gave a portion of her power to the red leviathan, Alexstrasza. Ever after, Alexstrasza would be known as the Life-Binder, and she would work to safeguard all living creatures within the world. Due to her supreme wisdom and limitless compassion for all living things, Alexstrasza was crowned the Dragonqueen and given dominion over her kind.",
+      "sourceId": "classicdb",
+      "rowSha256": "78727fb290b4cbd41764dae91faa08596996c99872da4e12932f604cbc92fea8",
+      "excerptSha256": "395c2759e23d24b47c2fe7ff84c3a0e82217713d9d115520a81e2c3454b5a574"
+    },
+    {
+      "id": "book-175739-11",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 11
+      },
+      "excerpt": "Ragnaros the Firelord, immortal lord of all fire elementals, had been banished by the Titans when the world was young. Now, freed by Thaurissan's call, Ragnaros erupted into being once again. Ragnaros' apocalyptic rebirth into Azeroth shattered the Redridge Mountains and created a raging volcano at the center of the devastation.",
+      "sourceId": "classicdb",
+      "rowSha256": "af442cf8aecee927b8cc11923b1bbd91d60a16c536cfe977a71fb6b658d5e76d",
+      "excerptSha256": "765ac2d4f5d7f2d305a5c72d7b1ca2634b2d2f2a99c9b2eea2b07f7876324b69"
+    },
+    {
+      "id": "book-175730-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Alexstrasza, the Lifebinder, placed a single, enchanted acorn within the heart of the Well of Eternity. The acorn, activated by the potent, magical waters, sprung to life as a colossal tree. The mighty tree's roots grew from the Well's waters, and its verdant canopy seemed to scrape the roof of the sky.",
+      "sourceId": "classicdb",
+      "rowSha256": "85a66d5f0df2b9978fafc36f0c858f89ebf3d602450e20b50459c4b2f9ba0f72",
+      "excerptSha256": "4219f7b7cefa0af0cb60da9e653aedc186af9cbcddbe874c64cadce8e47f729a"
+    },
+    {
+      "id": "book-175730-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "The night elf druids, including Malfurion himself, were bound to the Dream through the World Tree. As part of the mystical pact, the druids agreed to sleep for centuries at a time so that their spirits could roam the infinite paths of Ysera's Dreamways. Though the druids were grieved at the prospect of losing so many years of their lives to hibernation, they selflessly agreed to uphold their bargain with Ysera.",
+      "sourceId": "classicdb",
+      "rowSha256": "ab2293b53c93677ad030f0a5442c722d796b8829cc46c1ccc72d36561ee94a39",
+      "excerptSha256": "435d2406f1b0921a8420d221ade3f83b56ee0270aa593101556c01153f525d67"
+    },
+    {
+      "id": "book-175748-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175748,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "When the time was right, Kil'jaeden explained the mission for which he had created the Lich King. Ner'zhul was to spread a plague of death and terror across Azeroth that would snuff out human civilization forever. All those who died from the dreaded plague would arise as the undead, and their spirits would be bound to Ner'zhul's iron will forever.",
+      "sourceId": "classicdb",
+      "rowSha256": "e0ccede3104c170396f7a79d7f267b711180b1ca5a4d7007f2b4ee3d4a4c5442",
+      "excerptSha256": "e016364bbd97eccdb706e4c95c22aa0b2519e39e44459aa9b5c950846b99704d"
+    },
+    {
+      "id": "book-175754-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Kel'Thuzad returned to Lordaeron in disguise, and over the span of three years, he used his fortune and intellect to gather a clandestine brotherhood of like-minded men and women. The brotherhood, which he called the Cult of the Damned, promised its acolytes social equality and eternal life on Azeroth in exchange for their service and obedience to Ner'zhul.",
+      "sourceId": "classicdb",
+      "rowSha256": "4a49ff4a993dbb438aa44807f1297087ef66ebca625ffc138b9afd0d5598b268",
+      "excerptSha256": "87ec64158ec490ad258b6b2fd27f3765f6bb68d0c91fe34639240e65f61296bf"
+    },
+    {
+      "id": "book-175741-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175741,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Kil'jaeden, seeking to tighten his hold over the orcs, helped Gul'dan found the Shadow Council, a secretive sect that manipulated the clans and spread the use of warlock magics throughout Draenor. As more and more orcs began to wield warlock magics, the gentle fields and streams of Draenor began to blacken and fade. Over time, the vast prairies the orcs had called home for generations withered away, leaving only red barren soil. The demon energies were slowly killing the world.",
+      "sourceId": "classicdb",
+      "rowSha256": "a6aac39bd83ea7a77281ec0ed4950ba2e415dcc59c7829c4db8ef9375202d42e",
+      "excerptSha256": "faa663149f350af0743b3a87183f405d988224fbc457f6ddaad522ab41366b1c"
+    },
+    {
+      "id": "book-175742-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175742,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Kil'jaeden knew that the orc clans were almost ready, but he needed to be certain of their ultimate loyalty. In secret, he had the Shadow Council summon Mannoroth the Destructor, the living vessel of destruction and rage. Gul'dan called the clan chieftains together and convinced them that drinking Mannoroth's raging blood would make them utterly invincible.",
+      "sourceId": "classicdb",
+      "rowSha256": "65cc53d6f99e5682cd74c557961d0abce1b8ea76f9dad10706a8bc670e7e86c9",
+      "excerptSha256": "d5a73de8c940faa12ae154d2c9f1a32b6f9e2baedf1707e4bdf7fb921e723c60"
+    },
+    {
+      "id": "book-175742-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175742,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Consumed with the curse of this new bloodlust, the orcs sought to unleash their fury on any who stood before them. Sensing that the time had come, Gul'dan united the warring clans into a single unstoppable Horde.",
+      "sourceId": "classicdb",
+      "rowSha256": "c186dbccd28fbb2662d6f6d02ea71b64f0737ecbc36a577591a9fdf9fad71da0",
+      "excerptSha256": "3d16f75f6976bcf01289a137a4df15a8f54911735ce3a517676778f08e55b264"
+    },
+    {
+      "id": "book-175752-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "The chief warden of the internment camps, Aedelas Blackmoore, watched over the captive orcs from his prison-stronghold, Durnholde. One orc in particular had always held his interest: the orphaned infant he had found nearly eighteen years before. Blackmoore had raised the young male as a favored slave and named him Thrall. Blackmoore taught the orc about tactics, philosophy, and combat. Thrall was even trained as a gladiator. All the while, the corrupt warden sought to mold the orc into a weapon.",
+      "sourceId": "classicdb",
+      "rowSha256": "d69b373040bcded455278de7bad15a960d431f0ddb1f066c53cc02902402ccb9",
+      "excerptSha256": "943d62abc577d8d79feb8376f61d4052921da8441359550e1d92adb8623dd04d"
+    },
+    {
+      "id": "book-175752-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Thrall took up Doomhammer's legendary warhammer and donned his black plate-armor to become the new warchief of the Horde. During the following months, Thrall's small but volatile Horde laid waste to the internment camps and stymied the Alliance's best efforts to counter his clever strategies. Encouraged by his best friend and mentor, Grom Hellscream, Thrall worked to ensure that his people would never be slaves again.",
+      "sourceId": "classicdb",
+      "rowSha256": "9151be6076b3fce4a403853d405b6ee270243f9df82e3da1da45c44722f5584f",
+      "excerptSha256": "e7b78384045a68df7ac0a19078fccda36f1b54c2d0c446de688ef6b189015fd7"
+    },
+    {
+      "id": "book-21581-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 21581,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Turalyon, Lothar's most trusted lieutenant, took up Lothar's bloodstained shield and rallied his grief-stricken brethren for a vicious counterattack. Under the ragged standards of both Lordaeron and Azeroth, Turalyon's troops slaughtered the bulk of Doomhammer's remaining forces in a glorious, but terrible rout.",
+      "sourceId": "classicdb",
+      "rowSha256": "0e7e2b3a88f50d67539ce9c4aebe2f826945a4e1acca1e0ffef7ceb7333a387b",
+      "excerptSha256": "152161248bfc0a9ed27bd5f91f941b1aaf88de16cf53b98cbdbe13ac1d08f546"
+    },
+    {
+      "id": "book-175745-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175745,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Through a joint effort, Medivh and the warlocks of the Shadow Council opened the dimensional gateway known as the Dark Portal. This portal bridged the distance between Azeroth and Draenor, and it was large enough that armies might pass through it. Gul'dan dispatched orc scouts through the portal to survey the lands which they would conquer. The returning scouts assured the Shadow Council that the world of Azeroth was ripe for the taking.",
+      "sourceId": "classicdb",
+      "rowSha256": "47fba3013613b27772ab7668fe1e02136ab7f667606284291182a9ba152af0bd",
+      "excerptSha256": "e1a1d9e3f278e3830cff8d2d6131329ec0497fea72d4e0ddcb8e3d53a522f650"
+    },
+    {
+      "id": "book-175745-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175745,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "Still convinced that Gul'dan's corruption would destroy his people, Durotan spoke out against the warlocks once more. The brave warrior claimed that warlocks were destroying the purity of the orcish spirit and that this reckless invasion would be their doom. Gul'dan, unable to risk killing such a popular hero, was forced to exile Durotan and his Frostwolf Clan into the far reaches of this new world.",
+      "sourceId": "classicdb",
+      "rowSha256": "b11094797aa1e6a891c48d316441f0b074eb3889ff9dab86296cade72ded1c2b",
+      "excerptSha256": "47c24dd34c8884f15ab44e6141924bf634db837ca565da9c100934f49fbe3ddc"
+    },
+    {
+      "id": "book-175730-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "The immense tree would be an everlasting symbol of the night elves' bond with nature, and its life-giving energies would extend out to heal the rest of the world over time. The night elves' gave their World Tree the new name Nordrassil, which meant \"crown of the heavens\" in their native tongue.",
+      "sourceId": "classicdb",
+      "rowSha256": "d836dbe90a9a00a14a09b284c6d5cfbfbf9d4a974bdf335774eba15e0baa9713",
+      "excerptSha256": "e1891d4d918006e64d69149b9cd9c1ea81925bb550a1a35baeab73b1c2357794"
+    },
+    {
+      "id": "book-175725-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175725,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "At the continent's center, the Titans crafted a lake of scintillating energies. The lake, which they named the Well of Eternity, was to be the fount of life for the world. Its potent energies would nurture the bones of the world and empower life to take root in the land's rich soil. Over time, plants, trees, monsters, and creatures of every kind began to thrive on the primordial continent.",
+      "sourceId": "classicdb",
+      "rowSha256": "93b4caf2eda666b7ac7e72d493e633ce355dd22cfdd3545ae3071b5bd2f06045",
+      "excerptSha256": "5f277a3b3f9714dbb8afafcff2e5f4ca501ebbf87fc8500e26f284706768431f"
+    },
+    {
+      "id": "book-175736-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175736,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "They named their land Khaz Modan, or \"Mountain of Khaz\", in honor of the Titan shaper, Khaz'goroth. Constructing an altar for their Titan father, the dwarves crafted a mighty forge within the heart of the mountain. Thus, the city that grew around the forge would be called Ironforge ever after.",
+      "sourceId": "classicdb",
+      "rowSha256": "ac56b9068d714c798476a021790530169992353c4cc556674a00a00a577c8b6c",
+      "excerptSha256": "f7f2eeda7276c5edaaf6dd6aca49dc3dc214e6eb7b844e85a27557751ab6f38a"
+    },
+    {
+      "id": "book-175739-12",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 12
+      },
+      "excerpt": "The volcano, known as Blackrock Mountain, was bordered by the Searing Gorge to the north and the Burning Steppes to the south. Though Thaurissan was killed by the forces he had unleashed, his surviving brethren were ultimately enslaved by Ragnaros and his elementals. They remain within the depths of Blackrock to this day.",
+      "sourceId": "classicdb",
+      "rowSha256": "d0eccc66f8d5bc6ed910d12d9bc9aad9f47db135b5f2a08f80ff0376162be20e",
+      "excerptSha256": "6652c049787f9f10ba56bff164e8192465f9759283b691cac3f5f57dcab94c3f"
+    },
+    {
+      "id": "book-175739-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "For a time the three factions kept a tenuous peace, but tensions erupted when High King Anvilmar passed away from old age. The three ruling clans went to war for control of Ironforge itself. The dwarf civil war raged under the earth for many years. Eventually the Bronzebeards, who had the largest standing army, banished the Dark Irons and Wildhammers from under the mountain.",
+      "sourceId": "classicdb",
+      "rowSha256": "d6d897a0e22439bb3b4e789ec67dcaacece0f93e41c56118e2cb9969ee6515d3",
+      "excerptSha256": "4280700fc51dd91d097e2e1b35bc7d872bf98abbffa0c1263a672194265b62c5"
+    },
+    {
+      "id": "book-175761-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175761,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Ner'zhul, the Lich King, knew that his time was short. Imprisoned within the Frozen Throne, he suspected that Kil'jaeden would send his agents to destroy him. The damage caused by Illidan's spell had ruptured the Frozen Throne; thus, the Lich King was losing his power daily. Desperate to save himself, he called his greatest mortal servant to his side: the death knight Prince Arthas.",
+      "sourceId": "classicdb",
+      "rowSha256": "049add5e031132c61af8f76511f36a51f0232e72e8ce3b3457126c8bdfd5ab9e",
+      "excerptSha256": "a03eef74ba4f80452aec2aca51d91ae242b35c17b027473cfb8378ab10d11789"
+    },
+    {
+      "id": "book-175748-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175748,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Holding Ner'zhul's spirit helpless in stasis, Kil'jaeden gave him one last chance to serve the Legion or suffer eternal torment. Once again, Ner'zhul recklessly agreed to the demon's pact. Ner'zhul's spirit was placed within a specially crafted block of diamond-hard ice gathered from the far reaches of the Twisting Nether.",
+      "sourceId": "classicdb",
+      "rowSha256": "7def2c6f7a715075b9b2e7798c1a9f53657b8b6e50a98cab5fcb84697c114283",
+      "excerptSha256": "776b399bccb6c7d5a439016b7a92d27af88668e6efc30188a6ed47084dcdaf20"
+    },
+    {
+      "id": "book-175759-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175759,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "During the Legion's invasion of Ashenvale, Illidan was released from his barrow prison after ten thousand years of captivity. Though he sought to appease his comrades, he soon reverted to true form and consumed the energies of a powerful warlock artifact known as the Skull of Gul'dan.",
+      "sourceId": "classicdb",
+      "rowSha256": "6af5f0b6b3c3663769117a0934e6f63f428e87c0cf2e3063762f9081e263ef2d",
+      "excerptSha256": "8eb161fefa149b41c684cf9045f7a69d34993e7b4856f6d8d443fb50dbb5e609"
+    },
+    {
+      "id": "book-175727-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "The beautiful young priestess, Tyrande, agreed to accompany the brothers in the name of Elune. Though Malfurion and Illidan shared a love for the idealistic priestess, Tyrande's heart belonged to Malfurion alone. Illidan resented his brother's budding romance with Tyrande, but knew that his heartache was nothing compared to the pain of his magical addiction.",
+      "sourceId": "classicdb",
+      "rowSha256": "51907b31596d2b8d87362524b53e4b20a3779f42fb40800081492247e5668c16",
+      "excerptSha256": "43988c2e68d378b44d1b120a5e736cbe66af31166bb481e1dc9e58319d932028"
+    },
+    {
+      "id": "book-175727-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Illidan, who had grown dependent on magic's empowering energies, struggled to keep control of his nearly overwhelming hunger to tap the Well's energies once again. However, with Tyrande's patient support, he was able to restrain himself and help his brother find the reclusive demigod, Cenarius.",
+      "sourceId": "classicdb",
+      "rowSha256": "299412fca907fefdbd84894b4c30a843986ef4838325a2f921c93751271b58e5",
+      "excerptSha256": "926fc07c5a1f966e5e9c57ed97a964da20b0157751aa838878dad83091b2d433"
+    },
+    {
+      "id": "book-175727-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "The Highborne's reckless use of magic sent ripples of energy spiraling out from the Well of Eternity and into the Great Dark Beyond. The streaming ripples of energy were felt by terrible alien minds. Sargeras - the Great Enemy of all life, the Destroyer of Worlds - felt the potent ripples and was drawn to their distant point of origin.",
+      "sourceId": "classicdb",
+      "rowSha256": "cb711b281a7f6d802a4547a5dd43195c101889d6e8442f50c8e268e3bded28e8",
+      "excerptSha256": "ea5c2c79a120f4d43946e7573a95ab638eb69409a3edc31f5e90237549b434ee"
+    },
+    {
+      "id": "book-175727-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Sargeras gathered his vast Burning Legion and made his way towards the unsuspecting world of Azeroth. The Legion was comprised of a million screaming demons, all ripped from the far corners of the universe, and the demons hungered for conquest. Sargeras' lieutenants, Archimonde the Defiler and Mannoroth the Destructor, prepared their infernal minions to strike.",
+      "sourceId": "classicdb",
+      "rowSha256": "0e04d92757b5926245e79bf0b93d2ccbabf5001c01dc5bfd3fcf1479ac13bad7",
+      "excerptSha256": "21e70ee4f4a90293fb542ea5519878e87c7e66342ec4460044a0929f4f996739"
+    },
+    {
+      "id": "book-175740-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175740,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "The proud Aegwynn planned to give birth to a son whom she would divest her power to. She had no intention of allowing the Order of Tirisfal to manipulate her successor as they had tried to manipulate her. Traveling to the southern nation of Azeroth, Aegwynn found the perfect man to father her son: a skilled human magician known as Nielas Aran.",
+      "sourceId": "classicdb",
+      "rowSha256": "8d194c49b00e512d6b45174126dc9a4dcdd140f30f1a7fdd36dbf1921e33eb31",
+      "excerptSha256": "8f84c474ca2cd231eac5c03ec19138ec3af1ab6994c2ff0024a93adc8ef553ab"
+    },
+    {
+      "id": "book-175756-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175756,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Arthas' fear and resolve proved to be his ultimate undoing. He tracked the plague's source to Northrend, intending to end its threat forever. Instead, Prince Arthas eventually fell prey to the Lich King's tremendous power. Believing that it would save his people, Arthas took up the cursed runeblade, Frostmourne.",
+      "sourceId": "classicdb",
+      "rowSha256": "a26b82f2f52a1b021f9b7d003c4bc8cdf88a8b60d4d68d4723bb2dcdc0fe4578",
+      "excerptSha256": "ae75c7eb5ec90018e15ad60f502a3f099bc19f2d214117f92229bdd45ea060c8"
+    },
+    {
+      "id": "book-175727-13",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 13
+      },
+      "excerpt": "As the battle raged across the burning fields of Kalimdor, a terrible turn of events unfolded. The details of the event have been lost to time, but it is known that Neltharion, the Dragon Aspect of the Earth, went mad during a critical engagement against the Burning Legion. He began to split apart as flame and rage erupted from his dark hide. Renaming himself Deathwing, the burning dragon turned on his brethren and drove the five dragonflights from the field of battle.",
+      "sourceId": "classicdb",
+      "rowSha256": "0f35dcec6dcb622dba59b27af4db7abad031b0d5e56e099536921da0bc078de9",
+      "excerptSha256": "b416022ba7d0d5ad85dfde8867ba152bfe52528896badfac52eda8a6b1fd4293"
+    },
+    {
+      "id": "book-175763-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175763,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "The remaining Alliance forces under Jaina Proudmoore settled in southern Kalimdor. Off the eastern coast of Dustwallow Marsh, they built the rugged port city of Theramore. There, the humans and their dwarven allies worked to survive in a land that would always be hostile to them. Though the defenders of Durotar and Theramore kept the tentative truce with one another, the fragile colonial serenity was not meant to last.",
+      "sourceId": "classicdb",
+      "rowSha256": "8b793b2bfeb3c1ee853f135548c2cc8aa79651dc53a0ae57c559436b18378a57",
+      "excerptSha256": "d5e9f73476a6d2b88ba7c7687f955625c83b6a0a8fbbb28e36d9633a2d2df3e1"
+    },
+    {
+      "id": "book-175748-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175748,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Encased within the frozen cask, Ner'zhul felt his consciousness expand ten thousand-fold. Warped by the demon's chaotic powers, Ner'zhul became a spectral being of unfathomable power. At that moment, the orc known as Ner'zhul was shattered forever, and the Lich King was born.",
+      "sourceId": "classicdb",
+      "rowSha256": "1f59e958ca62b3b20140aaff8b31e19f2fe19fe3545a5c145f835f0d80cdb085",
+      "excerptSha256": "2215fb38ee6be61889a5ddebad63528737767fe06f5532834e39868efd49cae9"
+    },
+    {
+      "id": "book-175759-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175759,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "He called in some old Highborne debts and lured the serpentine naga from their dark undersea lairs. Led by the cunning witch Lady Vashj the naga helped Illidan reach the Broken Isles, where Sargeras' Tomb was rumored to be located.",
+      "sourceId": "classicdb",
+      "rowSha256": "ad4160e67d6118e13afc6b4f2018b78273b0e6ce16231397149ecfc6958e2626",
+      "excerptSha256": "671cb4fa6f83b96037bc73fdc144b4729d6d4882a7341622405d6b8abfa41822"
+    },
+    {
+      "id": "book-175725-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175725,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "As twilight fell on the final day of their labors, the Titans named the continent Kalimdor: \"land of eternal starlight\".",
+      "sourceId": "classicdb",
+      "rowSha256": "c7b79c8405f847bf0c2285eb202418d7afe093f3419c4b1f6fc5829fe450194f",
+      "excerptSha256": "a15fb0cd3f7e7de4196f91a7140de7c8328a7ab83a8fbe13811595bcbc33209e"
+    },
+    {
+      "id": "book-175759-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175759,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Knowing that Kil'jaeden would not be pleased with his failure to destroy the Frozen Throne, Illidan fled to the barren dimension known as Outland: the last remnants of Draenor, the orcs' former homeworld. There he planned to evade Kil'jaeden's wrath and plan his next moves.",
+      "sourceId": "classicdb",
+      "rowSha256": "745222e39ef1e9f4f331f35ac3974ccfd6e54e5c4043ddc952c9945f6f542044",
+      "excerptSha256": "543ee453a26e9a1531d54b2ce5886c7ea9926613b8f729f600d9e3dcdd88a62e"
+    },
+    {
+      "id": "book-175754-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "There were a handful of powerful individuals scattered throughout the world who heard the Lich King's mental summons from Northrend. Most notable of them was the archmage of Dalaran, Kel'Thuzad, who was one of senior members of the Kirin Tor, Dalaran's ruling council. He had been considered a maverick for years due to his insistence on studying the forbidden arts of necromancy.",
+      "sourceId": "classicdb",
+      "rowSha256": "0fa5ba149e4b3235607638a6ee2e19f99cfbc606a91e2a13ffcff84d31c450e3",
+      "excerptSha256": "0fbd27ebfd507a971049d70cc54dd3b93efe7c3e1e51e44a6fc5c300d9c99ac5"
+    },
+    {
+      "id": "quest-141-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 141,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Stonemasons' Guild was run by a man named Edwin VanCleef.  VanCleef was responsible for rebuilding Stormwind after the orcs razed it in the First War.  Apparently, VanCleef and his men were unhappy with their treatment by the King after the reconstruction was complete.  That just might explain a thing or two.$B$BI have written a more detailed account for your Master in Westfall.  Take this to him at once!",
+      "sourceId": "classicdb",
+      "rowSha256": "a55d843bb6f868822f6fc18cb00dff863094ea88acae58544bc4b86215ab30b6",
+      "excerptSha256": "4fa2297db308c55235e2155870f5e3f8d62d4038beb4d5d66f529ef8a112718e"
+    },
+    {
+      "id": "book-175763-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175763,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Thrall led the orcs to the continent of Kalimdor, where they founded a new homeland with the help of their tauren brethren. Naming their new land Durotar after Thrall's murdered father, the orcs settled down to rebuild their once-glorious society.",
+      "sourceId": "classicdb",
+      "rowSha256": "1d7a721bcf415ef464bfeb1ba7c1ba6f20167447726ea1318a672fb256ca1907",
+      "excerptSha256": "a3136381ccea75f8cadf98c6cf8fad33c63f3549482570249ba4824f1d4b678a"
+    },
+    {
+      "id": "book-175729-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175729,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Illidan, having survived the Sundering as well, had reached Hyjal summit long before Malfurion and the night elves. In his mad bid to maintain the flows of magic in the world, Illidan had poured his vials, which contained the precious waters from the Well of Eternity, into the mountain lake.",
+      "sourceId": "classicdb",
+      "rowSha256": "c12fc26745823be23189aeeb47d8c2911292ddc6888ede627dbd3591db61da40",
+      "excerptSha256": "8187e772a204a14206d0d76cafa786fec38f116e96900ab1c33f9d823bc90d54"
+    },
+    {
+      "id": "book-175754-14",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 14
+      },
+      "excerpt": "The cultists under Kel'Thuzad were eager to die and be raised again in their dark lord's service. They exulted in the prospect of immortality through undeath. As the plague spread, more and more feral zombies arose in the northlands. Kel'Thuzad looked upon the Lich King's growing army and named it the Scourge, for soon it would march upon the gates of Lordaeron and scour humanity from the face of the world.",
+      "sourceId": "classicdb",
+      "rowSha256": "dcf7a4e94d64dcb046201483e17851d1402d816f86069ebcf4bf21e1a497facc",
+      "excerptSha256": "a359a1c9e4bf0cb5a98713f0024953d9fe3c27d728a8711870207e4433fe0076"
+    },
+    {
+      "id": "book-175761-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175761,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Ultimately, Sylvanas and her rebel undead (known as the Forsaken) claimed the ruined capital city of Lordaeron as their own. Constructing their own bastion beneath the wrecked city, the Forsaken vowed to defeat the Scourge and drive Kel'Thuzad and his minions from the land.",
+      "sourceId": "classicdb",
+      "rowSha256": "8d784e22f3e850e9728580588ee59d408a3a98aa1e22106e9e0baac82666cb44",
+      "excerptSha256": "f1f489b73af0e08edebdd1f7d104dd9dbcfb774f74362c6996b0828495714de1"
+    },
+    {
+      "id": "book-175729-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175729,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "Concerned that destroying the new Well might bring about an even greater catastrophe, the night elves resolved to leave it be. However, Malfurion declared that they would never practice the arts of magic again. Under Cenarius' watchful eye, they began to study the ancient arts of druidism that would enable them to heal the ravaged earth and re-grow their beloved forests at the base of Mount Hyjal.",
+      "sourceId": "classicdb",
+      "rowSha256": "96aa783a5ede940b00d8632991857c2a35bf3bda00a83778fc9052e5efd7da46",
+      "excerptSha256": "e0f0fb0729b67eb7e88586430dfe694b8113c46ad5a7345850358c7c30687b0f"
+    },
+    {
+      "id": "book-175754-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "The Lich King was pleased with his latest conscript. He promised Kel'Thuzad immortality and great power in exchange for his loyalty and obedience. Eager for dark knowledge and power, Kel'Thuzad accepted his first great mission: to go into the world of men and found a new religion that would worship the Lich King as a god.",
+      "sourceId": "classicdb",
+      "rowSha256": "1cfa65eba5c4385fc67568304629b6321a5615e72afdb643f61e9c694b5fa46b",
+      "excerptSha256": "a9e68d813b885d880621652b0658df8585a3c48cdda0d9c62a34614f9fce2a28"
+    },
+    {
+      "id": "book-175742-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175742,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Led by Grom Hellscream, all the clan chiefs except Durotan drank and thereby sealed their fates as slaves to the Burning Legion. Empowered by Mannoroth's rage, the chieftains unwittingly extended this subjugation to their unsuspecting brethren.",
+      "sourceId": "classicdb",
+      "rowSha256": "c8b6c7aa84774af3945aa587b5d631f88d076ac73e025d11e735f1ae09f465bb",
+      "excerptSha256": "c15930ed755869f1f923929c0422ec52805dcfd28abd581b08baa852725fe886"
+    },
+    {
+      "id": "book-175752-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "To symbolize his people's rebirth, Thrall returned to Blackmoore's fortress of Durnholde and put a decisive end to his former master's plans by laying siege to the internment camps. This victory was not without its price: during the liberation of one camp, Doomhammer fell in battle.",
+      "sourceId": "classicdb",
+      "rowSha256": "5b24a2019cb6179dd0ed3178aa56a6f4df490f54f9288e043a2a4d355fd48c0f",
+      "excerptSha256": "04996fdf42038b25525a8933bf0990c7daf6877c4397e4b78f82d1a50a745ff3"
+    },
+    {
+      "id": "book-175761-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175761,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Weakened, but determined to save his master, Arthas reached Northrend only to find Illidan's naga and blood elves waiting for him. He and his nerubian allies raced against Illidan's forces to reach the Icecrown Glacier and defend the Frozen Throne.",
+      "sourceId": "classicdb",
+      "rowSha256": "c9c55f372d9fee14b3dbd2048c7570954ced0c2c9ebaa0ff6045749dd3a6da63",
+      "excerptSha256": "d72e2ce51cbaf1ef81a7428b0d024f71938704f0c25215ea4861d14be3a1c8c8"
+    },
+    {
+      "id": "book-175729-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175729,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "As the weary mass of night elves landed upon the shores of the new land, they found that the holy mountain, Hyjal, had survived the catastrophe. Seeking to establish a new home for themselves, Malfurion and the night elves climbed the slopes of Hyjal and reached its windswept summit. As they descended into the wooded bowl, nestled between the mountain's enormous peaks, they found a small, tranquil lake. To their horror, they found that the lake's waters had been fouled by magic.",
+      "sourceId": "classicdb",
+      "rowSha256": "c7165f4392bf91c825ca95d75ea54f6812ef58ab3b103c13209d374a2f6185d8",
+      "excerptSha256": "e033860d8a87591e9962b3be89e78503c628056c9305f49623c98e284f2ba200"
+    },
+    {
+      "id": "book-175727-10",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 10
+      },
+      "excerpt": "Cenarius, who dwelt within the sacred Moonglades of the distant Mount Hyjal, agreed to help the night elves by finding the ancient dragons and enlisting their aid. The dragons, led by the great red leviathan, Alexstrasza, agreed to send their mighty flights to engage the demons and their infernal masters.",
+      "sourceId": "classicdb",
+      "rowSha256": "852864575a908ceb27a6cd02090177e51492d0b36b745214998c7c312b90c885",
+      "excerptSha256": "d25d3cfee87afcec8a154e4592b8e32ae7aa13cb4c8bc69ab0b9278bd94ebefa"
+    },
+    {
+      "id": "book-175754-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Leaving behind his fortune and prestigious political standing, Kel'Thuzad abandoned the ways of the Kirin Tor and left Dalaran forever. Prodded by the Lich King's persistent voice in his mind, he sold his vast holdings and stored away his fortunes. Traveling alone over many leagues of both land and sea, he finally reached the frozen shores of Northrend.",
+      "sourceId": "classicdb",
+      "rowSha256": "d665d2d531ce8f5bb05b42597b3273bc20dcf9a52ae6678ee71cc23af8189952",
+      "excerptSha256": "b51d4be9b1ac20e14f494047bf85f0607c110858bc9e7ea738a1b6ed2615b8a1"
+    },
+    {
+      "id": "quest-135-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 135,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I wonder what Wiley meant when he mentioned the Stonemasons.  Perhaps that was a slip of tongue.  Could the Defias gang be related to the Stonemasons?  Only one man would know for sure:  Mathias Shaw, head of SI:7. Show him Wiley's Note and see if he has anything to add to this growing mystery. If you have trouble finding Shaw, check the Barracks in Old Town.",
+      "sourceId": "classicdb",
+      "rowSha256": "c1e0cef855c9ec0a66a872efaa387f0ef89610855753213cb433e6ff3a210256",
+      "excerptSha256": "bea1d1fe43c4805d50f806d1e5d1f8d730968f5868b68fd78bdc84eeb4ff6aaf"
+    }
+  ]
+}

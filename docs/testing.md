@@ -1,0 +1,63 @@
+# Testing and maintenance
+
+`pnpm check` is the single local and CI entry point. It runs:
+
+1. Prettier checks, including data and documentation.
+2. ESLint with type-aware rules and zero warnings.
+3. TypeScript strict checking, including unchecked-index and optional-field checks.
+4. Vitest with coverage thresholds, negative cases and deterministic property tests.
+5. Structural and semantic research-content validation for every committed triad.
+6. A check that the generated editorial report matches its inputs.
+
+Content-engine coverage gates are 95% for statements/lines/functions and 90% for
+branches. These thresholds are regression guards, not evidence that the content is
+correct or every future feature is tested. Source query failure, stale source reviews,
+post-Wrath facts, missing hint evidence, duplicate IDs, explicit answer leaks and edited
+approvals all have deliberate failure tests. Property tests exercise spelling and
+enumeration across generated valid inputs with a fixed seed, so a failure is
+reproducible.
+
+The full 100-entry seed is checked in the test suite without an external database. An
+optional source-replay command checks the private research input separately. No tests
+are silently skipped because an external source is missing. The normal CI workflow must
+be runnable by a new contributor with the repository alone.
+
+## CI and dependencies
+
+The Checks workflow runs the same command on Ubuntu Linux, matching the server's
+operating-system family. Browser coverage will exercise Chromium, Firefox and WebKit
+when the player exists. Real iOS Safari and Android keyboard checks remain separate
+release checks; Linux WebKit alone does not prove iPhone compatibility. Actions are
+pinned to verified commit SHAs, token permissions are read-only and the job has a
+timeout. Coverage and the editorial report are saved as artifacts. A separate
+`pnpm check:security` audit includes development dependencies and fails on
+moderate-or-higher advisories.
+
+Dependencies and the package manager are pinned. Installs use the frozen lockfile, a
+minimum package release age and strict peer compatibility. Dependabot proposes weekly
+package and action updates. Review them through the full checks instead of silently
+following latest releases. TypeScript is pinned to 6.0.3 because the current type-aware
+ESLint parser supports versions below 6.1.0. Upgrading to the newer compiler before its
+tooling supports it would undermine reliability.
+
+The workspace overrides transitive `minimatch` to 11.0.1 to address
+[GHSA-g3hv-75wg-m249](https://github.com/advisories/GHSA-g3hv-75wg-m249). Remove the
+override when the lint tooling naturally resolves a patched compatible version, after
+the full checks pass. Do not suppress the advisory to make the audit green.
+
+Remote CI has not run until the repository is hosted and pushed. After creating the
+remote, enable required status checks, disallow force pushes to `main` and verify a
+deliberately failing pull request cannot merge. These are repository settings, not
+guarantees a YAML file can provide.
+
+## Application gates to add with implementation
+
+Before the player becomes public, require tests for grid validity, player state, save
+migrations, hint accounting, source/era eligibility, midnight release/cache rollover and
+editor authorization. Add PostgreSQL integration tests, production build checks,
+Playwright journeys in Chromium/Firefox/WebKit, accessibility scans and visual
+regression coverage when the corresponding application exists.
+
+Real-phone keyboard testing, screen-reader assessment, clue fairness, source licensing
+review and backup/restore drills remain explicit human/release checks. An automated
+green result cannot replace them.

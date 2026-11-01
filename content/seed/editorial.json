@@ -1,0 +1,4255 @@
+{
+  "schemaVersion": 1,
+  "locale": "enUS",
+  "cutoff": "wrath",
+  "citations": [
+    {
+      "id": "book-175752-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Seeking the truth of his own origins, Thrall traveled north to find the legendary Frostwolf clan. Thrall learned that Gul'dan had exiled the Frostwolves during the early days of the First War. He also discovered that he was the son and heir of the orc hero Durotan, the true chieftain of the Frostwolves who had been murdered in the wilds nearly twenty years before."
+    },
+    {
+      "id": "book-175740-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175740,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Time passed, and Aegwynn gave birth to her son in a secluded grove. Naming the boy Medivh, which means \"keeper of secrets\" in the high elven tongue, Aegwynn believed that the boy would mature to become the next Guardian. Unfortunately the malignant spirit of Sargeras, which had been hiding inside her, had possessed the defenseless child while it was still in her womb. Aegwynn had no idea that the world's newest Guardian was already possessed by its greatest nemesis."
+    },
+    {
+      "id": "book-175727-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "It fell to Malfurion Stormrage to find help for his beleaguered people. Stormrage, whose own brother, Illidan, practiced the Highborne's magics, was incensed by the growing corruption amongst the upper class. Convincing Illidan to forsake his dangerous obsession, Malfurion set out to find Cenarius and muster a resistance force."
+    },
+    {
+      "id": "book-175726-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Eonar also blessed Alexstrasza's younger sister, the lithe green dragon Ysera, with a portion of nature's influence. Ysera fell into an eternal trance, bound to the waking Dream of Creation. Known as the Dreamer, she would watch over the growing wilds of the world from her verdant realm, the Emerald Dream."
+    },
+    {
+      "id": "book-175727-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Queen Azshara, overwhelmed by the terrible ecstasy of her magic, fell victim to Sargeras' undeniable power and agreed to grant him entrance to her world. Even her Highborne servitors gave themselves over to magic's inevitable corruption and began to worship Sargeras as their god. To show their allegiance to the Legion, the Highborne aided their queen in opening a vast, swirling portal within the depths of the Well of Eternity."
+    },
+    {
+      "id": "book-175756-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175756,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Though the sword did grant him unfathomable power, it also stole his soul and transformed him into the greatest of the Lich King's death knights. With his soul cast aside and his sanity shattered, Arthas led the Scourge against his own kingdom. Ultimately, Arthas murdered his own father, King Terenas, and crushed Lordaeron under the Lich King's iron heel."
+    },
+    {
+      "id": "book-175756-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175756,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "As the ranks of the undead swept across Lordaeron, Terenas' only son, Prince Arthas, took up the fight against the Scourge. Arthas succeeded in killing Kel'Thuzad, but even so, the undead ranks swelled with every soldier that fell defending the land. Frustrated and stymied by the seemingly unstoppable enemy, Arthas took increasingly extreme steps to conquer them. Finally Arthas' comrades warned him that he was losing his hold on his humanity."
+    },
+    {
+      "id": "book-175729-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175729,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "Knowing full well where Illidan's ruthless schemes would eventually lead, Malfurion decided to deal with his power-crazed brother once and for all. With Cenarius' help, Malfurion sealed Illidan within a vast underground barrow prison, where he would remain chained and powerless until the end of time. To ensure his brother's containment, Malfurion empowered the young warden, Maiev Shadowsong, to be Illidan's personal jailor."
+    },
+    {
+      "id": "book-175745-11",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175745,
+        "locale": "enUS",
+        "idx": 11
+      },
+      "excerpt": "Choosing to follow his instincts, Lothar stormed Medivh's tower-fortress of Karazhan with the help of the wizard's young apprentice, Khadgar. Khadgar and Lothar succeeded in vanquishing the possessed Guardian, whom they confirmed to be the source of the conflict."
+    },
+    {
+      "id": "book-175752-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "Under the tutelage of the venerable shaman Drek'Thar, Thrall studied his people's ancient shamanistic culture, which had been forgotten under Gul'dan's evil rule. Over time, Thrall became a powerful shaman and took his rightful place as chieftain of the exiled Frostwolves. Empowered by the elements themselves and driven to find his destiny, Thrall set off to free the captive clans and heal his race of demonic corruption."
+    },
+    {
+      "id": "book-175741-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175741,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "The young orc became an avid student of demonic magic and developed into the most powerful mortal warlock in history. He taught other young orcs the arcane arts and strove to eradicate the orcs' shamanistic traditions. Gul'dan showed a new brand of magic to his brethren, a terrible new power that reeked of doom."
+    },
+    {
+      "id": "book-175730-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Alexstrasza the red, Ysera the green, and Nozdormu the bronze descended upon the druids' tranquil glades and surveyed the fruits of the night elves' labors. Malfurion, who had become an arch-druid of immense power, greeted the mighty dragons and told them about the creation of the new Well of Eternity."
+    },
+    {
+      "id": "book-175756-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175756,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "After preparing for many long months, Kel'Thuzad and his Cult of the Damned finally struck the first blow by releasing the plague of undeath upon Lordaeron. Uther and his fellow paladins investigated the infected regions in the hope of finding a way to stop the plague. Despite their efforts, the plague continued to spread and threatened to tear the Alliance apart."
+    },
+    {
+      "id": "book-175757-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175757,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Arthas and his Scourge invaded Quel'Thalas and laid siege to the elves' crumbling defenses. Sylvanas Windrunner, the Ranger-General of Silvermoon, put up a valiant fight, but Arthas eventually eradicated the high elf army and battled through to the Sunwell. In a cruel gesture of his dominance, he even raised Sylvanas' defeated body as a banshee, cursed to endless undeath in the service of Quel'Thalas' conqueror."
+    },
+    {
+      "id": "book-175757-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175757,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Ultimately, Arthas submerged Kel'Thuzad's remains within the holy waters of the Sunwell. Although the potent waters of Eternity were fouled by this act, Kel'Thuzad was reborn as a sorcerous lich. Resurrected as a far more powerful being, Kel'Thuzad explained the next phase of the Lich King's plan."
+    },
+    {
+      "id": "book-175725-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175725,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "The Titans empowered a number of races to help them fashion the world. To help them carve out the fathomless caverns beneath the earth, the Titans created the dwarf-like earthen from magical, living stone. To help them dredge out the seas and lift the land from the sea floor, the Titans created the immense but gentle sea giants. For many ages the Titans moved and shaped the earth, until at last there remained one perfect continent."
+    },
+    {
+      "id": "book-175726-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "Khaz'goroth, the Titan shaper and forger of the world, bestowed some of his vast power upon the mighty black wyrm, Neltharion. The great-hearted Neltharion, known afterwards as the Earth-Warder, was given dominion over the earth and the deep places of the world. He embodied the strength of the world and served as Alexstrasza's greatest supporter."
+    },
+    {
+      "id": "book-175726-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Aman'Thul, the Highfather of the Pantheon, bestowed a portion of his cosmic power upon the massive bronze dragon, Nozdormu. The Highfather empowered Nozdormu to guard time itself and police the ever-spinning pathways of fate and destiny. The stoic, honorable Nozdormu became known as the Timeless One."
+    },
+    {
+      "id": "book-175726-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "Norgannon, the Titan lore keeper and master-magician, granted the blue dragon, Malygos, a portion of his vast power. From then on, Malygos would be known as the Spell-Weaver, the guardian of magic and hidden arcanum."
+    },
+    {
+      "id": "book-175726-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175726,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Eonar, the Titan patron of all life, gave a portion of her power to the red leviathan, Alexstrasza. Ever after, Alexstrasza would be known as the Life-Binder, and she would work to safeguard all living creatures within the world. Due to her supreme wisdom and limitless compassion for all living things, Alexstrasza was crowned the Dragonqueen and given dominion over her kind."
+    },
+    {
+      "id": "book-175739-11",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 11
+      },
+      "excerpt": "Ragnaros the Firelord, immortal lord of all fire elementals, had been banished by the Titans when the world was young. Now, freed by Thaurissan's call, Ragnaros erupted into being once again. Ragnaros' apocalyptic rebirth into Azeroth shattered the Redridge Mountains and created a raging volcano at the center of the devastation."
+    },
+    {
+      "id": "book-175730-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Alexstrasza, the Lifebinder, placed a single, enchanted acorn within the heart of the Well of Eternity. The acorn, activated by the potent, magical waters, sprung to life as a colossal tree. The mighty tree's roots grew from the Well's waters, and its verdant canopy seemed to scrape the roof of the sky."
+    },
+    {
+      "id": "book-175730-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "The night elf druids, including Malfurion himself, were bound to the Dream through the World Tree. As part of the mystical pact, the druids agreed to sleep for centuries at a time so that their spirits could roam the infinite paths of Ysera's Dreamways. Though the druids were grieved at the prospect of losing so many years of their lives to hibernation, they selflessly agreed to uphold their bargain with Ysera."
+    },
+    {
+      "id": "book-175748-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175748,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "When the time was right, Kil'jaeden explained the mission for which he had created the Lich King. Ner'zhul was to spread a plague of death and terror across Azeroth that would snuff out human civilization forever. All those who died from the dreaded plague would arise as the undead, and their spirits would be bound to Ner'zhul's iron will forever."
+    },
+    {
+      "id": "book-175754-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Kel'Thuzad returned to Lordaeron in disguise, and over the span of three years, he used his fortune and intellect to gather a clandestine brotherhood of like-minded men and women. The brotherhood, which he called the Cult of the Damned, promised its acolytes social equality and eternal life on Azeroth in exchange for their service and obedience to Ner'zhul."
+    },
+    {
+      "id": "book-175741-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175741,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Kil'jaeden, seeking to tighten his hold over the orcs, helped Gul'dan found the Shadow Council, a secretive sect that manipulated the clans and spread the use of warlock magics throughout Draenor. As more and more orcs began to wield warlock magics, the gentle fields and streams of Draenor began to blacken and fade. Over time, the vast prairies the orcs had called home for generations withered away, leaving only red barren soil. The demon energies were slowly killing the world."
+    },
+    {
+      "id": "book-175742-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175742,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Kil'jaeden knew that the orc clans were almost ready, but he needed to be certain of their ultimate loyalty. In secret, he had the Shadow Council summon Mannoroth the Destructor, the living vessel of destruction and rage. Gul'dan called the clan chieftains together and convinced them that drinking Mannoroth's raging blood would make them utterly invincible."
+    },
+    {
+      "id": "book-175742-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175742,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Consumed with the curse of this new bloodlust, the orcs sought to unleash their fury on any who stood before them. Sensing that the time had come, Gul'dan united the warring clans into a single unstoppable Horde."
+    },
+    {
+      "id": "book-175752-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "The chief warden of the internment camps, Aedelas Blackmoore, watched over the captive orcs from his prison-stronghold, Durnholde. One orc in particular had always held his interest: the orphaned infant he had found nearly eighteen years before. Blackmoore had raised the young male as a favored slave and named him Thrall. Blackmoore taught the orc about tactics, philosophy, and combat. Thrall was even trained as a gladiator. All the while, the corrupt warden sought to mold the orc into a weapon."
+    },
+    {
+      "id": "book-175752-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Thrall took up Doomhammer's legendary warhammer and donned his black plate-armor to become the new warchief of the Horde. During the following months, Thrall's small but volatile Horde laid waste to the internment camps and stymied the Alliance's best efforts to counter his clever strategies. Encouraged by his best friend and mentor, Grom Hellscream, Thrall worked to ensure that his people would never be slaves again."
+    },
+    {
+      "id": "book-21581-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 21581,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Turalyon, Lothar's most trusted lieutenant, took up Lothar's bloodstained shield and rallied his grief-stricken brethren for a vicious counterattack. Under the ragged standards of both Lordaeron and Azeroth, Turalyon's troops slaughtered the bulk of Doomhammer's remaining forces in a glorious, but terrible rout."
+    },
+    {
+      "id": "book-175745-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175745,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Through a joint effort, Medivh and the warlocks of the Shadow Council opened the dimensional gateway known as the Dark Portal. This portal bridged the distance between Azeroth and Draenor, and it was large enough that armies might pass through it. Gul'dan dispatched orc scouts through the portal to survey the lands which they would conquer. The returning scouts assured the Shadow Council that the world of Azeroth was ripe for the taking."
+    },
+    {
+      "id": "book-175745-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175745,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "Still convinced that Gul'dan's corruption would destroy his people, Durotan spoke out against the warlocks once more. The brave warrior claimed that warlocks were destroying the purity of the orcish spirit and that this reckless invasion would be their doom. Gul'dan, unable to risk killing such a popular hero, was forced to exile Durotan and his Frostwolf Clan into the far reaches of this new world."
+    },
+    {
+      "id": "book-175730-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "The immense tree would be an everlasting symbol of the night elves' bond with nature, and its life-giving energies would extend out to heal the rest of the world over time. The night elves' gave their World Tree the new name Nordrassil, which meant \"crown of the heavens\" in their native tongue."
+    },
+    {
+      "id": "book-175725-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175725,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "At the continent's center, the Titans crafted a lake of scintillating energies. The lake, which they named the Well of Eternity, was to be the fount of life for the world. Its potent energies would nurture the bones of the world and empower life to take root in the land's rich soil. Over time, plants, trees, monsters, and creatures of every kind began to thrive on the primordial continent."
+    },
+    {
+      "id": "book-175736-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175736,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "They named their land Khaz Modan, or \"Mountain of Khaz\", in honor of the Titan shaper, Khaz'goroth. Constructing an altar for their Titan father, the dwarves crafted a mighty forge within the heart of the mountain. Thus, the city that grew around the forge would be called Ironforge ever after."
+    },
+    {
+      "id": "book-175739-12",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 12
+      },
+      "excerpt": "The volcano, known as Blackrock Mountain, was bordered by the Searing Gorge to the north and the Burning Steppes to the south. Though Thaurissan was killed by the forces he had unleashed, his surviving brethren were ultimately enslaved by Ragnaros and his elementals. They remain within the depths of Blackrock to this day."
+    },
+    {
+      "id": "book-175739-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "For a time the three factions kept a tenuous peace, but tensions erupted when High King Anvilmar passed away from old age. The three ruling clans went to war for control of Ironforge itself. The dwarf civil war raged under the earth for many years. Eventually the Bronzebeards, who had the largest standing army, banished the Dark Irons and Wildhammers from under the mountain."
+    },
+    {
+      "id": "book-175761-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175761,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Ner'zhul, the Lich King, knew that his time was short. Imprisoned within the Frozen Throne, he suspected that Kil'jaeden would send his agents to destroy him. The damage caused by Illidan's spell had ruptured the Frozen Throne; thus, the Lich King was losing his power daily. Desperate to save himself, he called his greatest mortal servant to his side: the death knight Prince Arthas."
+    },
+    {
+      "id": "book-175748-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175748,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Holding Ner'zhul's spirit helpless in stasis, Kil'jaeden gave him one last chance to serve the Legion or suffer eternal torment. Once again, Ner'zhul recklessly agreed to the demon's pact. Ner'zhul's spirit was placed within a specially crafted block of diamond-hard ice gathered from the far reaches of the Twisting Nether."
+    },
+    {
+      "id": "book-175759-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175759,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "During the Legion's invasion of Ashenvale, Illidan was released from his barrow prison after ten thousand years of captivity. Though he sought to appease his comrades, he soon reverted to true form and consumed the energies of a powerful warlock artifact known as the Skull of Gul'dan."
+    },
+    {
+      "id": "book-175727-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "The beautiful young priestess, Tyrande, agreed to accompany the brothers in the name of Elune. Though Malfurion and Illidan shared a love for the idealistic priestess, Tyrande's heart belonged to Malfurion alone. Illidan resented his brother's budding romance with Tyrande, but knew that his heartache was nothing compared to the pain of his magical addiction."
+    },
+    {
+      "id": "book-175727-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Illidan, who had grown dependent on magic's empowering energies, struggled to keep control of his nearly overwhelming hunger to tap the Well's energies once again. However, with Tyrande's patient support, he was able to restrain himself and help his brother find the reclusive demigod, Cenarius."
+    },
+    {
+      "id": "book-175727-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "The Highborne's reckless use of magic sent ripples of energy spiraling out from the Well of Eternity and into the Great Dark Beyond. The streaming ripples of energy were felt by terrible alien minds. Sargeras - the Great Enemy of all life, the Destroyer of Worlds - felt the potent ripples and was drawn to their distant point of origin."
+    },
+    {
+      "id": "book-175727-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Sargeras gathered his vast Burning Legion and made his way towards the unsuspecting world of Azeroth. The Legion was comprised of a million screaming demons, all ripped from the far corners of the universe, and the demons hungered for conquest. Sargeras' lieutenants, Archimonde the Defiler and Mannoroth the Destructor, prepared their infernal minions to strike."
+    },
+    {
+      "id": "book-175740-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175740,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "The proud Aegwynn planned to give birth to a son whom she would divest her power to. She had no intention of allowing the Order of Tirisfal to manipulate her successor as they had tried to manipulate her. Traveling to the southern nation of Azeroth, Aegwynn found the perfect man to father her son: a skilled human magician known as Nielas Aran."
+    },
+    {
+      "id": "book-175756-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175756,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Arthas' fear and resolve proved to be his ultimate undoing. He tracked the plague's source to Northrend, intending to end its threat forever. Instead, Prince Arthas eventually fell prey to the Lich King's tremendous power. Believing that it would save his people, Arthas took up the cursed runeblade, Frostmourne."
+    },
+    {
+      "id": "book-175727-13",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 13
+      },
+      "excerpt": "As the battle raged across the burning fields of Kalimdor, a terrible turn of events unfolded. The details of the event have been lost to time, but it is known that Neltharion, the Dragon Aspect of the Earth, went mad during a critical engagement against the Burning Legion. He began to split apart as flame and rage erupted from his dark hide. Renaming himself Deathwing, the burning dragon turned on his brethren and drove the five dragonflights from the field of battle."
+    },
+    {
+      "id": "book-175763-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175763,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "The remaining Alliance forces under Jaina Proudmoore settled in southern Kalimdor. Off the eastern coast of Dustwallow Marsh, they built the rugged port city of Theramore. There, the humans and their dwarven allies worked to survive in a land that would always be hostile to them. Though the defenders of Durotar and Theramore kept the tentative truce with one another, the fragile colonial serenity was not meant to last."
+    },
+    {
+      "id": "book-175748-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175748,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Encased within the frozen cask, Ner'zhul felt his consciousness expand ten thousand-fold. Warped by the demon's chaotic powers, Ner'zhul became a spectral being of unfathomable power. At that moment, the orc known as Ner'zhul was shattered forever, and the Lich King was born."
+    },
+    {
+      "id": "book-175759-6",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175759,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "He called in some old Highborne debts and lured the serpentine naga from their dark undersea lairs. Led by the cunning witch Lady Vashj the naga helped Illidan reach the Broken Isles, where Sargeras' Tomb was rumored to be located."
+    },
+    {
+      "id": "book-175725-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175725,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "As twilight fell on the final day of their labors, the Titans named the continent Kalimdor: \"land of eternal starlight\"."
+    },
+    {
+      "id": "book-175759-9",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175759,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "Knowing that Kil'jaeden would not be pleased with his failure to destroy the Frozen Throne, Illidan fled to the barren dimension known as Outland: the last remnants of Draenor, the orcs' former homeworld. There he planned to evade Kil'jaeden's wrath and plan his next moves."
+    },
+    {
+      "id": "book-175754-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "There were a handful of powerful individuals scattered throughout the world who heard the Lich King's mental summons from Northrend. Most notable of them was the archmage of Dalaran, Kel'Thuzad, who was one of senior members of the Kirin Tor, Dalaran's ruling council. He had been considered a maverick for years due to his insistence on studying the forbidden arts of necromancy."
+    },
+    {
+      "id": "quest-141-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 141,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Stonemasons' Guild was run by a man named Edwin VanCleef.  VanCleef was responsible for rebuilding Stormwind after the orcs razed it in the First War.  Apparently, VanCleef and his men were unhappy with their treatment by the King after the reconstruction was complete.  That just might explain a thing or two.$B$BI have written a more detailed account for your Master in Westfall.  Take this to him at once!"
+    },
+    {
+      "id": "book-175763-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175763,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Thrall led the orcs to the continent of Kalimdor, where they founded a new homeland with the help of their tauren brethren. Naming their new land Durotar after Thrall's murdered father, the orcs settled down to rebuild their once-glorious society."
+    },
+    {
+      "id": "book-175729-5",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175729,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Illidan, having survived the Sundering as well, had reached Hyjal summit long before Malfurion and the night elves. In his mad bid to maintain the flows of magic in the world, Illidan had poured his vials, which contained the precious waters from the Well of Eternity, into the mountain lake."
+    },
+    {
+      "id": "book-175754-14",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 14
+      },
+      "excerpt": "The cultists under Kel'Thuzad were eager to die and be raised again in their dark lord's service. They exulted in the prospect of immortality through undeath. As the plague spread, more and more feral zombies arose in the northlands. Kel'Thuzad looked upon the Lich King's growing army and named it the Scourge, for soon it would march upon the gates of Lordaeron and scour humanity from the face of the world."
+    },
+    {
+      "id": "book-175761-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175761,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Ultimately, Sylvanas and her rebel undead (known as the Forsaken) claimed the ruined capital city of Lordaeron as their own. Constructing their own bastion beneath the wrecked city, the Forsaken vowed to defeat the Scourge and drive Kel'Thuzad and his minions from the land."
+    },
+    {
+      "id": "book-175729-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175729,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "Concerned that destroying the new Well might bring about an even greater catastrophe, the night elves resolved to leave it be. However, Malfurion declared that they would never practice the arts of magic again. Under Cenarius' watchful eye, they began to study the ancient arts of druidism that would enable them to heal the ravaged earth and re-grow their beloved forests at the base of Mount Hyjal."
+    },
+    {
+      "id": "book-175754-7",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "The Lich King was pleased with his latest conscript. He promised Kel'Thuzad immortality and great power in exchange for his loyalty and obedience. Eager for dark knowledge and power, Kel'Thuzad accepted his first great mission: to go into the world of men and found a new religion that would worship the Lich King as a god."
+    },
+    {
+      "id": "book-175742-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175742,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Led by Grom Hellscream, all the clan chiefs except Durotan drank and thereby sealed their fates as slaves to the Burning Legion. Empowered by Mannoroth's rage, the chieftains unwittingly extended this subjugation to their unsuspecting brethren."
+    },
+    {
+      "id": "book-175752-8",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "To symbolize his people's rebirth, Thrall returned to Blackmoore's fortress of Durnholde and put a decisive end to his former master's plans by laying siege to the internment camps. This victory was not without its price: during the liberation of one camp, Doomhammer fell in battle."
+    },
+    {
+      "id": "book-175761-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175761,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Weakened, but determined to save his master, Arthas reached Northrend only to find Illidan's naga and blood elves waiting for him. He and his nerubian allies raced against Illidan's forces to reach the Icecrown Glacier and defend the Frozen Throne."
+    },
+    {
+      "id": "book-175729-4",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175729,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "As the weary mass of night elves landed upon the shores of the new land, they found that the holy mountain, Hyjal, had survived the catastrophe. Seeking to establish a new home for themselves, Malfurion and the night elves climbed the slopes of Hyjal and reached its windswept summit. As they descended into the wooded bowl, nestled between the mountain's enormous peaks, they found a small, tranquil lake. To their horror, they found that the lake's waters had been fouled by magic."
+    },
+    {
+      "id": "book-175727-10",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175727,
+        "locale": "enUS",
+        "idx": 10
+      },
+      "excerpt": "Cenarius, who dwelt within the sacred Moonglades of the distant Mount Hyjal, agreed to help the night elves by finding the ancient dragons and enlisting their aid. The dragons, led by the great red leviathan, Alexstrasza, agreed to send their mighty flights to engage the demons and their infernal masters."
+    },
+    {
+      "id": "book-175754-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175754,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Leaving behind his fortune and prestigious political standing, Kel'Thuzad abandoned the ways of the Kirin Tor and left Dalaran forever. Prodded by the Lich King's persistent voice in his mind, he sold his vast holdings and stored away his fortunes. Traveling alone over many leagues of both land and sea, he finally reached the frozen shores of Northrend."
+    },
+    {
+      "id": "quest-135-details",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 135,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I wonder what Wiley meant when he mentioned the Stonemasons.  Perhaps that was a slip of tongue.  Could the Defias gang be related to the Stonemasons?  Only one man would know for sure:  Mathias Shaw, head of SI:7. Show him Wiley's Note and see if he has anything to add to this growing mystery. If you have trouble finding Shaw, check the Barracks in Old Town."
+    }
+  ],
+  "entries": [
+    {
+      "id": "father",
+      "answer": {
+        "display": "FATHER",
+        "grid": "FATHER",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Thrall was Durotan's son and heir.",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "clue": {
+        "text": "Durotan's relationship to Thrall",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "hint": {
+        "text": "Think of the older generation in this family.",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["family"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d00e73a9ecb8c1f1c9bb3d4c38eaadffdbe69d6ab0e0ec609bfcf167cc419264",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "mother",
+      "answer": {
+        "display": "MOTHER",
+        "grid": "MOTHER",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Aegwynn gave birth to Medivh.",
+        "evidenceIds": ["book-175740-5"]
+      },
+      "clue": {
+        "text": "Aegwynn's relationship to Medivh",
+        "evidenceIds": ["book-175740-5"]
+      },
+      "hint": {
+        "text": "She gave birth to the future Guardian.",
+        "evidenceIds": ["book-175740-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["family"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "e78bea0d390e29173d0af02c24932f9eb2c2be6b19e949d75e23bef7773cd99c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "son",
+      "answer": {
+        "display": "SON",
+        "grid": "SON",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Thrall was Durotan's son and heir.",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "clue": {
+        "text": "Thrall's relationship to Durotan",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "hint": {
+        "text": "He is the younger of these two orcs.",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["family"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d00e73a9ecb8c1f1c9bb3d4c38eaadffdbe69d6ab0e0ec609bfcf167cc419264",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "brother",
+      "answer": {
+        "display": "BROTHER",
+        "grid": "BROTHER",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Illidan and Malfurion were brothers.",
+        "evidenceIds": ["book-175727-7"]
+      },
+      "clue": {
+        "text": "Illidan's relationship to Malfurion",
+        "evidenceIds": ["book-175727-7"]
+      },
+      "hint": {
+        "text": "They share parents, as well as a surname.",
+        "evidenceIds": ["book-175727-7"]
+      },
+      "difficulty": "easy",
+      "topics": ["family"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "9c58888f85a3534457e3362e2c1f172e71dba317bc9ea568427bbabd3ac6cda7",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "sister",
+      "answer": {
+        "display": "SISTER",
+        "grid": "SISTER",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Ysera was Alexstrasza's younger sister.",
+        "evidenceIds": ["book-175726-5"]
+      },
+      "clue": {
+        "text": "Ysera's relationship to Alexstrasza",
+        "evidenceIds": ["book-175726-5"]
+      },
+      "hint": {
+        "text": "These two Aspects belong to the same family.",
+        "evidenceIds": ["book-175726-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["family"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "9ab244d8f502b2194bb204929fd59f01f5efcf66f62750b4ed058be5f9dc03cb",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "queen",
+      "answer": {
+        "display": "QUEEN",
+        "grid": "QUEEN",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Azshara ruled as queen and her Highborne served her.",
+        "evidenceIds": ["book-175727-4"]
+      },
+      "clue": {
+        "text": "Azshara's royal title",
+        "evidenceIds": ["book-175727-4"]
+      },
+      "hint": {
+        "text": "She ruled over the Highborne.",
+        "evidenceIds": ["book-175727-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["titles"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "2a3d2c4fcc7f90b6ba7b5df32f62167e1fd29231df7a8c3f1622bae85b5290c7",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "king",
+      "answer": {
+        "display": "KING",
+        "grid": "KING",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Arthas murdered his father, King Terenas.",
+        "evidenceIds": ["book-175756-4", "book-175756-2"]
+      },
+      "clue": {
+        "text": "Terenas's royal title",
+        "evidenceIds": ["book-175756-4", "book-175756-2"]
+      },
+      "hint": {
+        "text": "Arthas was a prince during his father's reign.",
+        "evidenceIds": ["book-175756-4", "book-175756-2"]
+      },
+      "difficulty": "easy",
+      "topics": ["titles"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "3e9309e25e2e293fdf0314feaa4e15b808acd2a4742da06bdc4fe5bce1263bfd",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "prince",
+      "answer": {
+        "display": "PRINCE",
+        "grid": "PRINCE",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Arthas was Prince Arthas, the son of Terenas.",
+        "evidenceIds": ["book-175756-2", "book-175756-4"]
+      },
+      "clue": {
+        "text": "Arthas's title before he became a death knight",
+        "evidenceIds": ["book-175756-2", "book-175756-4"]
+      },
+      "hint": {
+        "text": "His father Terenas occupied the throne.",
+        "evidenceIds": ["book-175756-2", "book-175756-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["titles"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "3e9309e25e2e293fdf0314feaa4e15b808acd2a4742da06bdc4fe5bce1263bfd",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "warden",
+      "answer": {
+        "display": "WARDEN",
+        "grid": "WARDEN",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Malfurion appointed the warden Maiev Shadowsong as Illidan's jailor.",
+        "evidenceIds": ["book-175729-7"]
+      },
+      "clue": {
+        "text": "Maiev's calling as Illidan's jailer",
+        "evidenceIds": ["book-175729-7"]
+      },
+      "hint": {
+        "text": "Her duty was to keep the prisoner contained.",
+        "evidenceIds": ["book-175729-7"]
+      },
+      "difficulty": "medium",
+      "topics": ["titles"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "b84ad394132e5f8b0420eae9d48614c3bf700d6aaca9a89396ae16fea6ca2a69",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "guardian",
+      "answer": {
+        "display": "GUARDIAN",
+        "grid": "GUARDIAN",
+        "enumeration": [8],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Aegwynn intended Medivh to become the next Guardian.",
+        "evidenceIds": ["book-175740-5"]
+      },
+      "clue": {
+        "text": "The office Aegwynn intended Medivh to inherit",
+        "evidenceIds": ["book-175740-5"]
+      },
+      "hint": {
+        "text": "Its power was entrusted to one successor.",
+        "evidenceIds": ["book-175740-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["titles"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "e78bea0d390e29173d0af02c24932f9eb2c2be6b19e949d75e23bef7773cd99c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "apprentice",
+      "answer": {
+        "display": "APPRENTICE",
+        "grid": "APPRENTICE",
+        "enumeration": [10],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Khadgar was Medivh's apprentice and helped Lothar defeat him.",
+        "evidenceIds": ["book-175745-11"]
+      },
+      "clue": {
+        "text": "Khadgar's role under Medivh before the fall of Karazhan",
+        "evidenceIds": ["book-175745-11"]
+      },
+      "hint": {
+        "text": "He was the younger wizard learning from a master.",
+        "evidenceIds": ["book-175745-11"]
+      },
+      "difficulty": "medium",
+      "topics": ["roles"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "427148a555bf1449875be07291592c5a16f311f54194ca012803d6e088741e08",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "shaman",
+      "answer": {
+        "display": "SHAMAN",
+        "grid": "SHAMAN",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Thrall studied under Drek'Thar and became a powerful shaman.",
+        "evidenceIds": ["book-175752-6"]
+      },
+      "clue": {
+        "text": "Thrall's calling, learned under Drek'Thar",
+        "evidenceIds": ["book-175752-6"]
+      },
+      "hint": {
+        "text": "He learned to draw power from the elements.",
+        "evidenceIds": ["book-175752-6"]
+      },
+      "difficulty": "easy",
+      "topics": ["classes"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "8c58dfb12e8b3af0552575c0f0e784a3c7dab17cd12fbdcdfc4b5939a6d13407",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "warlock",
+      "answer": {
+        "display": "WARLOCK",
+        "grid": "WARLOCK",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Gul'dan became a warlock and taught demonic magic to other orcs.",
+        "evidenceIds": ["book-175741-8"]
+      },
+      "clue": {
+        "text": "Gul'dan's calling after embracing demonic magic",
+        "evidenceIds": ["book-175741-8"]
+      },
+      "hint": {
+        "text": "His teaching displaced older orcish spiritual traditions.",
+        "evidenceIds": ["book-175741-8"]
+      },
+      "difficulty": "easy",
+      "topics": ["classes"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "8c8b228d883db5217bae3841aff6cfb2890c496bf9eedd893fca9a2e80f4a007",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "druid",
+      "answer": {
+        "display": "DRUID",
+        "grid": "DRUID",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Malfurion had become an arch-druid.",
+        "evidenceIds": ["book-175730-2", "book-175729-8"]
+      },
+      "clue": {
+        "text": "Malfurion's nature-bound calling",
+        "evidenceIds": ["book-175730-2", "book-175729-8"]
+      },
+      "hint": {
+        "text": "His magic helps heal the land and its forests.",
+        "evidenceIds": ["book-175730-2", "book-175729-8"]
+      },
+      "difficulty": "easy",
+      "topics": ["classes"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "6478a6bfbe882ebca95e438ca7f0827c60e123e4e1e9ed07577532fd601c5c1b",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "paladin",
+      "answer": {
+        "display": "PALADIN",
+        "grid": "PALADIN",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Uther and his fellow paladins investigated the plague.",
+        "evidenceIds": ["book-175756-1"]
+      },
+      "clue": {
+        "text": "Uther's holy warrior calling",
+        "evidenceIds": ["book-175756-1"]
+      },
+      "hint": {
+        "text": "He investigated the plague alongside others of this order.",
+        "evidenceIds": ["book-175756-1"]
+      },
+      "difficulty": "easy",
+      "topics": ["classes"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "b3b07dd0b9cdac738b75ff51e8457161f2b8593b183336a8f138b368d8e5e60c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "banshee",
+      "answer": {
+        "display": "BANSHEE",
+        "grid": "BANSHEE",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Arthas raised Sylvanas as a banshee after defeating her.",
+        "evidenceIds": ["book-175757-2"]
+      },
+      "clue": {
+        "text": "What Arthas raised Sylvanas as after her defeat",
+        "evidenceIds": ["book-175757-2"]
+      },
+      "hint": {
+        "text": "Her new existence was a spectral form of undeath.",
+        "evidenceIds": ["book-175757-2"]
+      },
+      "difficulty": "medium",
+      "topics": ["creatures"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "0be8fc37a39d667b26e1fe696831ab6bdadc80954007c56cd67fb4ac2c56c088",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "lich",
+      "answer": {
+        "display": "LICH",
+        "grid": "LICH",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Kel'Thuzad was reborn in the Sunwell as a sorcerous lich.",
+        "evidenceIds": ["book-175757-3"]
+      },
+      "clue": {
+        "text": "Kel'Thuzad's undead form after his rebirth in the Sunwell",
+        "evidenceIds": ["book-175757-3"]
+      },
+      "hint": {
+        "text": "His rebirth took place in corrupted holy waters.",
+        "evidenceIds": ["book-175757-3"]
+      },
+      "difficulty": "medium",
+      "topics": ["creatures"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "06e808f87acc9226a9bff0afa6b8d793bf3451f9f82b06b97244a204fba48bfd",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "stone",
+      "answer": {
+        "display": "STONE",
+        "grid": "STONE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The Titans created the earthen from magical living stone.",
+        "evidenceIds": ["book-175725-6"]
+      },
+      "clue": {
+        "text": "The living material from which the Titans made the earthen",
+        "evidenceIds": ["book-175725-6"]
+      },
+      "hint": {
+        "text": "The clue is in their rocky origins.",
+        "evidenceIds": ["book-175725-6"]
+      },
+      "difficulty": "easy",
+      "topics": ["materials"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "aa641137e16376ae021f52ad127867810331fc5e508e8d780fa42eb70343f727",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "earth",
+      "answer": {
+        "display": "EARTH",
+        "grid": "EARTH",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Neltharion was given dominion over the earth and deep places.",
+        "evidenceIds": ["book-175726-7"]
+      },
+      "clue": {
+        "text": "Neltharion's domain as a Dragon Aspect",
+        "evidenceIds": ["book-175726-7"]
+      },
+      "hint": {
+        "text": "His charge included the world's deep places.",
+        "evidenceIds": ["book-175726-7"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "1f7b345a56336f2e298614a0cf83c74a408fed92a7dc3ae55f66c5da0c546a0e",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "time",
+      "answer": {
+        "display": "TIME",
+        "grid": "TIME",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Nozdormu was empowered to guard time.",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "clue": {
+        "text": "What Nozdormu was charged with guarding",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "hint": {
+        "text": "His duty concerns the past and future.",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "6ac7364c089f740b7e65747b40aee37600cd24efaa25471c7d270ebcba94ea0f",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "magic",
+      "answer": {
+        "display": "MAGIC",
+        "grid": "MAGIC",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Malygos became the guardian of magic and hidden arcanum.",
+        "evidenceIds": ["book-175726-6"]
+      },
+      "clue": {
+        "text": "Malygos's domain as the Spell-Weaver",
+        "evidenceIds": ["book-175726-6"]
+      },
+      "hint": {
+        "text": "His charge included hidden arcanum.",
+        "evidenceIds": ["book-175726-6"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "78a5fb9025ec3b63397c092a559645078e66520da6f88c0ab5d3dd6060c0cb43",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "life",
+      "answer": {
+        "display": "LIFE",
+        "grid": "LIFE",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Alexstrasza was charged with safeguarding living creatures.",
+        "evidenceIds": ["book-175726-4"]
+      },
+      "clue": {
+        "text": "What Alexstrasza was charged with safeguarding",
+        "evidenceIds": ["book-175726-4"]
+      },
+      "hint": {
+        "text": "Her duty extended to all living creatures.",
+        "evidenceIds": ["book-175726-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "7e85339dd38d3eaceaa0c30c72b9cdeb09e7a503d55025800bfdf955324921c2",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "red",
+      "answer": {
+        "display": "RED",
+        "grid": "RED",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Alexstrasza was a red dragon.",
+        "evidenceIds": ["book-175726-4"]
+      },
+      "clue": {
+        "text": "Alexstrasza's dragonflight colour",
+        "evidenceIds": ["book-175726-4"]
+      },
+      "hint": {
+        "text": "The Life-Binder is this hue.",
+        "evidenceIds": ["book-175726-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "7e85339dd38d3eaceaa0c30c72b9cdeb09e7a503d55025800bfdf955324921c2",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "green",
+      "answer": {
+        "display": "GREEN",
+        "grid": "GREEN",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Ysera was a green dragon.",
+        "evidenceIds": ["book-175726-5"]
+      },
+      "clue": {
+        "text": "Ysera's dragonflight colour",
+        "evidenceIds": ["book-175726-5"]
+      },
+      "hint": {
+        "text": "The Dreamer's scales share a hue with the forest.",
+        "evidenceIds": ["book-175726-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "9ab244d8f502b2194bb204929fd59f01f5efcf66f62750b4ed058be5f9dc03cb",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "blue",
+      "answer": {
+        "display": "BLUE",
+        "grid": "BLUE",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Malygos was a blue dragon.",
+        "evidenceIds": ["book-175726-6"]
+      },
+      "clue": {
+        "text": "Malygos's dragonflight colour",
+        "evidenceIds": ["book-175726-6"]
+      },
+      "hint": {
+        "text": "The Spell-Weaver is this hue.",
+        "evidenceIds": ["book-175726-6"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "78a5fb9025ec3b63397c092a559645078e66520da6f88c0ab5d3dd6060c0cb43",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "black",
+      "answer": {
+        "display": "BLACK",
+        "grid": "BLACK",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Neltharion was a black dragon.",
+        "evidenceIds": ["book-175726-7"]
+      },
+      "clue": {
+        "text": "Neltharion's dragonflight colour",
+        "evidenceIds": ["book-175726-7"]
+      },
+      "hint": {
+        "text": "This is the Earth-Warder's hue.",
+        "evidenceIds": ["book-175726-7"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "1f7b345a56336f2e298614a0cf83c74a408fed92a7dc3ae55f66c5da0c546a0e",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "bronze",
+      "answer": {
+        "display": "BRONZE",
+        "grid": "BRONZE",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Nozdormu was a bronze dragon.",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "clue": {
+        "text": "Nozdormu's dragonflight colour",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "hint": {
+        "text": "The Timeless One's hue is also a metal alloy.",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "6ac7364c089f740b7e65747b40aee37600cd24efaa25471c7d270ebcba94ea0f",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "fire",
+      "answer": {
+        "display": "FIRE",
+        "grid": "FIRE",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Ragnaros was the lord of fire elementals.",
+        "evidenceIds": ["book-175739-11"]
+      },
+      "clue": {
+        "text": "The element over which Ragnaros rules",
+        "evidenceIds": ["book-175739-11"]
+      },
+      "hint": {
+        "text": "His rebirth devastated the Redridge Mountains.",
+        "evidenceIds": ["book-175739-11"]
+      },
+      "difficulty": "easy",
+      "topics": ["elements"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "63e6a41869ba12c082c6c451897191b051f8d557846bf47ad5ade247d8625402",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "acorn",
+      "answer": {
+        "display": "ACORN",
+        "grid": "ACORN",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Alexstrasza planted an enchanted acorn in the Well of Eternity.",
+        "evidenceIds": ["book-175730-4"]
+      },
+      "clue": {
+        "text": "What Alexstrasza planted to grow the World Tree",
+        "evidenceIds": ["book-175730-4"]
+      },
+      "hint": {
+        "text": "It was a small seed before the Well's waters awakened it.",
+        "evidenceIds": ["book-175730-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["objects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d7ee818053c7ccfcc5b58448d373400ad417d2147fb917549c26e1d95781e5c7",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "tree",
+      "answer": {
+        "display": "TREE",
+        "grid": "TREE",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Nordrassil grew as a colossal tree from an enchanted acorn.",
+        "evidenceIds": ["book-175730-4"]
+      },
+      "clue": {
+        "text": "What Nordrassil is",
+        "evidenceIds": ["book-175730-4"]
+      },
+      "hint": {
+        "text": "Its canopy grew above roots in the Well of Eternity.",
+        "evidenceIds": ["book-175730-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["nature"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d7ee818053c7ccfcc5b58448d373400ad417d2147fb917549c26e1d95781e5c7",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "roots",
+      "answer": {
+        "display": "ROOTS",
+        "grid": "ROOTS",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The World Tree's roots grew from the Well's waters.",
+        "evidenceIds": ["book-175730-4"]
+      },
+      "clue": {
+        "text": "Parts of Nordrassil that grew into the Well's waters",
+        "evidenceIds": ["book-175730-4"]
+      },
+      "hint": {
+        "text": "They anchored the immense plant from below.",
+        "evidenceIds": ["book-175730-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["nature"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d7ee818053c7ccfcc5b58448d373400ad417d2147fb917549c26e1d95781e5c7",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "sleep",
+      "answer": {
+        "display": "SLEEP",
+        "grid": "SLEEP",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The druids agreed to sleep while their spirits roamed the Dream.",
+        "evidenceIds": ["book-175730-8"]
+      },
+      "clue": {
+        "text": "What the druids agreed to do while their spirits roamed the Dream",
+        "evidenceIds": ["book-175730-8"]
+      },
+      "hint": {
+        "text": "Their pact required centuries of slumber.",
+        "evidenceIds": ["book-175730-8"]
+      },
+      "difficulty": "easy",
+      "topics": ["druids"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "5b2363763aa6a87f8d72215eedbd7bf216715fe9c275a78610b7a3fa1a58305a",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "plague",
+      "answer": {
+        "display": "PLAGUE",
+        "grid": "PLAGUE",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Kel'Thuzad and his cult released the plague of undeath.",
+        "evidenceIds": ["book-175756-1"]
+      },
+      "clue": {
+        "text": "The Cult of the Damned's means of spreading undeath",
+        "evidenceIds": ["book-175756-1"]
+      },
+      "hint": {
+        "text": "Uther investigated the infection as it spread.",
+        "evidenceIds": ["book-175756-1"]
+      },
+      "difficulty": "easy",
+      "topics": ["scourge"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "b3b07dd0b9cdac738b75ff51e8457161f2b8593b183336a8f138b368d8e5e60c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "undead",
+      "answer": {
+        "display": "UNDEAD",
+        "grid": "UNDEAD",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Victims of the plague were to rise as undead bound to Ner'zhul.",
+        "evidenceIds": ["book-175748-7"]
+      },
+      "clue": {
+        "text": "What the victims of the Lich King's plague rose as",
+        "evidenceIds": ["book-175748-7"]
+      },
+      "hint": {
+        "text": "Death did not keep them from serving Ner'zhul.",
+        "evidenceIds": ["book-175748-7"]
+      },
+      "difficulty": "easy",
+      "topics": ["creatures"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "755c0a1fe228da419df4f0b2a3bb4f4c36b0d1c64b006916fd627dc40b419730",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "cult",
+      "answer": {
+        "display": "CULT",
+        "grid": "CULT",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Kel'Thuzad founded the Cult of the Damned.",
+        "evidenceIds": ["book-175754-9", "book-175754-7"]
+      },
+      "clue": {
+        "text": "Kind of organisation in the name of Kel'Thuzad's Damned",
+        "evidenceIds": ["book-175754-9", "book-175754-7"]
+      },
+      "hint": {
+        "text": "Its members worshipped the Lich King.",
+        "evidenceIds": ["book-175754-9", "book-175754-7"]
+      },
+      "difficulty": "easy",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "89cc3d53888533c356e51e2588eddeae1ddb98876db5e671b5df3fb5f90a3599",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "council",
+      "answer": {
+        "display": "COUNCIL",
+        "grid": "COUNCIL",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Gul'dan founded the Shadow Council with Kil'jaeden's help.",
+        "evidenceIds": ["book-175741-9"]
+      },
+      "clue": {
+        "text": "The Shadow ___, Gul'dan's secretive organisation",
+        "evidenceIds": ["book-175741-9"]
+      },
+      "hint": {
+        "text": "It manipulated the orc clans through warlock magic.",
+        "evidenceIds": ["book-175741-9"]
+      },
+      "difficulty": "easy",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "f0502336f377831bf8ec73e264d7920cef5e29856959408f74910a6ded51299c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "clan",
+      "answer": {
+        "display": "CLAN",
+        "grid": "CLAN",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Durotan led the Frostwolf clan and Thrall was his heir.",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "clue": {
+        "text": "The Frostwolves are this kind of orcish group",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "hint": {
+        "text": "Durotan led it before Thrall claimed his inheritance.",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["orcs"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d00e73a9ecb8c1f1c9bb3d4c38eaadffdbe69d6ab0e0ec609bfcf167cc419264",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "blood",
+      "answer": {
+        "display": "BLOOD",
+        "grid": "BLOOD",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Gul'dan urged the chieftains to drink Mannoroth's blood.",
+        "evidenceIds": ["book-175742-3", "book-175742-4"]
+      },
+      "clue": {
+        "text": "What Grom drank from Mannoroth",
+        "evidenceIds": ["book-175742-3", "book-175742-4"]
+      },
+      "hint": {
+        "text": "The drink bound the chieftains to the Legion.",
+        "evidenceIds": ["book-175742-3", "book-175742-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["orcs"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d186c4f2c7935d8be7a8b9fe6de3ece9e1d63570fcae7e8b0e80c69a2ca59413",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "curse",
+      "answer": {
+        "display": "CURSE",
+        "grid": "CURSE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The orcs' bloodlust was described as a curse.",
+        "evidenceIds": ["book-175742-5", "book-175742-4"]
+      },
+      "clue": {
+        "text": "The bloodlust afflicting the orcs was one",
+        "evidenceIds": ["book-175742-5", "book-175742-4"]
+      },
+      "hint": {
+        "text": "Their new power came with a terrible binding.",
+        "evidenceIds": ["book-175742-5", "book-175742-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["orcs"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "03141b8c70bce031d7e61a259495ca01e9e4dddefa3ca3683815ed936a808bd5",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "slave",
+      "answer": {
+        "display": "SLAVE",
+        "grid": "SLAVE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Blackmoore raised Thrall as a slave.",
+        "evidenceIds": ["book-175752-1"]
+      },
+      "clue": {
+        "text": "What Blackmoore raised Thrall as",
+        "evidenceIds": ["book-175752-1"]
+      },
+      "hint": {
+        "text": "He was held in captivity at Durnholde.",
+        "evidenceIds": ["book-175752-1"]
+      },
+      "difficulty": "easy",
+      "topics": ["orcs"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "b921b19d6c46eae17c7fd6536034323c14230616fcb0173dc4149a05aa6259c8",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "gladiator",
+      "answer": {
+        "display": "GLADIATOR",
+        "grid": "GLADIATOR",
+        "enumeration": [9],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Thrall was trained as a gladiator by Blackmoore.",
+        "evidenceIds": ["book-175752-1"]
+      },
+      "clue": {
+        "text": "The arena fighter Blackmoore trained Thrall to become",
+        "evidenceIds": ["book-175752-1"]
+      },
+      "hint": {
+        "text": "His upbringing included tactics and combat.",
+        "evidenceIds": ["book-175752-1"]
+      },
+      "difficulty": "medium",
+      "topics": ["roles"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "b921b19d6c46eae17c7fd6536034323c14230616fcb0173dc4149a05aa6259c8",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "warchief",
+      "answer": {
+        "display": "WARCHIEF",
+        "grid": "WARCHIEF",
+        "enumeration": [8],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Thrall took up Doomhammer's arms and became warchief.",
+        "evidenceIds": ["book-175752-9", "book-175752-8"]
+      },
+      "clue": {
+        "text": "Thrall's title as leader of the Horde",
+        "evidenceIds": ["book-175752-9", "book-175752-8"]
+      },
+      "hint": {
+        "text": "He assumed this office after Doomhammer fell.",
+        "evidenceIds": ["book-175752-9", "book-175752-8"]
+      },
+      "difficulty": "easy",
+      "topics": ["titles"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "53a79481460b651b64c4bc8cc3c8b4410aa6b9a639260d87f5af3c7fa9df86c7",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "shield",
+      "answer": {
+        "display": "SHIELD",
+        "grid": "SHIELD",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Turalyon took up Lothar's shield and rallied the troops.",
+        "evidenceIds": ["book-21581-4"]
+      },
+      "clue": {
+        "text": "What Turalyon took up from Lothar before rallying his troops",
+        "evidenceIds": ["book-21581-4"]
+      },
+      "hint": {
+        "text": "It was a bloodstained piece of defensive equipment.",
+        "evidenceIds": ["book-21581-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["equipment"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "580d76d317aa092648e8098f7d5c603733d03eaa00548e05392c5f2ee050d568",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "portal",
+      "answer": {
+        "display": "PORTAL",
+        "grid": "PORTAL",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The Dark Portal linked Azeroth and Draenor.",
+        "evidenceIds": ["book-175745-5"]
+      },
+      "clue": {
+        "text": "The Dark ___ linking Azeroth and Draenor",
+        "evidenceIds": ["book-175745-5"]
+      },
+      "hint": {
+        "text": "The gateway was large enough for armies to pass through.",
+        "evidenceIds": ["book-175745-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "1231aeab04bf749132625f2ba734df065d7872eab894e8378b4be12a7f87876c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "exile",
+      "answer": {
+        "display": "EXILE",
+        "grid": "EXILE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Gul'dan exiled Durotan and the Frostwolf clan.",
+        "evidenceIds": ["book-175745-6"]
+      },
+      "clue": {
+        "text": "The punishment Gul'dan imposed on Durotan and the Frostwolves",
+        "evidenceIds": ["book-175745-6"]
+      },
+      "hint": {
+        "text": "They were driven away after Durotan opposed the invasion.",
+        "evidenceIds": ["book-175745-6"]
+      },
+      "difficulty": "medium",
+      "topics": ["history"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "cc70df8e6ec0351830d17fdbdb632fcf3c6dcbe63d481711ca9d3bba99531431",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "crown",
+      "answer": {
+        "display": "CROWN",
+        "grid": "CROWN",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Nordrassil's name meant crown of the heavens.",
+        "evidenceIds": ["book-175730-5"]
+      },
+      "clue": {
+        "text": "Nordrassil's name means this 'of the heavens'",
+        "evidenceIds": ["book-175730-5"]
+      },
+      "hint": {
+        "text": "It is a royal headpiece in the translated name.",
+        "evidenceIds": ["book-175730-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["language"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "7e701a565a4e7e05799b412a38b8ee956dcdc232d443e931f996d4c5496576f0",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "lake",
+      "answer": {
+        "display": "LAKE",
+        "grid": "LAKE",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The Titans crafted the Well of Eternity as a lake.",
+        "evidenceIds": ["book-175725-7", "book-175725-8"]
+      },
+      "clue": {
+        "text": "The original Well of Eternity was this kind of body of water",
+        "evidenceIds": ["book-175725-7", "book-175725-8"]
+      },
+      "hint": {
+        "text": "The Titans made it at the centre of ancient Kalimdor.",
+        "evidenceIds": ["book-175725-7", "book-175725-8"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "1b3d6ea9594ec9d938a25c51d645fd7c4af94ae54091f3620abfcb9c51227293",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "forge",
+      "answer": {
+        "display": "FORGE",
+        "grid": "FORGE",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The dwarves built a mighty forge and named the surrounding city Ironforge.",
+        "evidenceIds": ["book-175736-5"]
+      },
+      "clue": {
+        "text": "The dwarven workshop at the heart of Ironforge's name",
+        "evidenceIds": ["book-175736-5"]
+      },
+      "hint": {
+        "text": "The dwarves built it inside their mountain.",
+        "evidenceIds": ["book-175736-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["crafting"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "3c3c4680416dfcff61a0eafd7f2b8f18c0258d58e2557bc353b75246702ac623",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "mountain",
+      "answer": {
+        "display": "MOUNTAIN",
+        "grid": "MOUNTAIN",
+        "enumeration": [8],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Blackrock Mountain bordered Searing Gorge and the Burning Steppes.",
+        "evidenceIds": ["book-175739-12"]
+      },
+      "clue": {
+        "text": "Blackrock, by landform",
+        "evidenceIds": ["book-175739-12"]
+      },
+      "hint": {
+        "text": "Its borders include Searing Gorge and the Burning Steppes.",
+        "evidenceIds": ["book-175739-12"]
+      },
+      "difficulty": "easy",
+      "topics": ["geography"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "61f038a99a15f0d0179eada68e050333e5654edaefbb49277c588f4cbbc6041c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "volcano",
+      "answer": {
+        "display": "VOLCANO",
+        "grid": "VOLCANO",
+        "enumeration": [7],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Ragnaros's rebirth created a volcano in the Redridge Mountains.",
+        "evidenceIds": ["book-175739-11", "book-175739-12"]
+      },
+      "clue": {
+        "text": "What Ragnaros's rebirth created at Blackrock",
+        "evidenceIds": ["book-175739-11", "book-175739-12"]
+      },
+      "hint": {
+        "text": "It erupted amid the devastation of the Redridge Mountains.",
+        "evidenceIds": ["book-175739-11", "book-175739-12"]
+      },
+      "difficulty": "medium",
+      "topics": ["geography"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "c0340ae517c8622bb9b445a1c5efad86c857121fd9c5053b82dd80c255230786",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "war",
+      "answer": {
+        "display": "WAR",
+        "grid": "WAR",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "The three dwarven clans went to war for control of Ironforge.",
+        "evidenceIds": ["book-175739-4"]
+      },
+      "clue": {
+        "text": "The conflict of the Three Hammers",
+        "evidenceIds": ["book-175739-4"]
+      },
+      "hint": {
+        "text": "The dwarven clans fought for control of Ironforge.",
+        "evidenceIds": ["book-175739-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["history"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "3e8496fee03a38828a3af6866d0db3455ffe81178cf534d66196b7ee931c4cb8",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "throne",
+      "answer": {
+        "display": "THRONE",
+        "grid": "THRONE",
+        "enumeration": [6],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Ner'zhul was imprisoned within the Frozen Throne.",
+        "evidenceIds": ["book-175761-1", "book-175761-4"]
+      },
+      "clue": {
+        "text": "The Frozen ___ that imprisoned the Lich King",
+        "evidenceIds": ["book-175761-1", "book-175761-4"]
+      },
+      "hint": {
+        "text": "Arthas raced Illidan to reach it.",
+        "evidenceIds": ["book-175761-1", "book-175761-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["objects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "fd8a28832fae1f376656f54620acd6903185d380a5593ac249df0155047d5173",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "ice",
+      "answer": {
+        "display": "ICE",
+        "grid": "ICE",
+        "enumeration": [3],
+        "kind": "ordinary",
+        "familiarity": "established",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Ner'zhul's spirit was placed in a block of diamond-hard ice.",
+        "evidenceIds": ["book-175748-4"]
+      },
+      "clue": {
+        "text": "The substance of Ner'zhul's original prison",
+        "evidenceIds": ["book-175748-4"]
+      },
+      "hint": {
+        "text": "Kil'jaeden gathered it from the Twisting Nether.",
+        "evidenceIds": ["book-175748-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["materials"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "a26397406fa641595f331b8cdd6cd791f86890eaec402ea87f292a14d6d937fe",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "soul",
+      "answer": {
+        "display": "SOUL",
+        "grid": "SOUL",
+        "enumeration": [4],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Frostmourne stole Arthas's soul.",
+        "evidenceIds": ["book-175756-4"]
+      },
+      "clue": {
+        "text": "What Frostmourne took from Arthas",
+        "evidenceIds": ["book-175756-4"]
+      },
+      "hint": {
+        "text": "The cursed blade's power came at a personal spiritual cost.",
+        "evidenceIds": ["book-175756-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["magic"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "7a0c421782d516169337fdbefdebe5ec3875e7c0a05ed69f99cd04fc520e6590",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "skull",
+      "answer": {
+        "display": "SKULL",
+        "grid": "SKULL",
+        "enumeration": [5],
+        "kind": "ordinary",
+        "familiarity": "broad",
+        "rationale": "A familiar English word recoverable from a specific Warcraft connection."
+      },
+      "fact": {
+        "text": "Illidan consumed the energies of the Skull of Gul'dan.",
+        "evidenceIds": ["book-175759-1"]
+      },
+      "clue": {
+        "text": "The ___ of Gul'dan, whose power Illidan consumed",
+        "evidenceIds": ["book-175759-1"]
+      },
+      "hint": {
+        "text": "This artifact was named for part of a warlock's head.",
+        "evidenceIds": ["book-175759-1"]
+      },
+      "difficulty": "easy",
+      "topics": ["objects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "a01b6f074f3ea3c1f4a467d069befcb81f62a4dcc34a30bbf53f299d4d54ae30",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "thrall",
+      "answer": {
+        "display": "Thrall",
+        "grid": "THRALL",
+        "enumeration": [6],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Thrall was Durotan's son and heir.",
+        "evidenceIds": ["book-175752-5", "book-175752-6", "book-175752-9"]
+      },
+      "clue": {
+        "text": "Durotan's son, who became warchief of the Horde",
+        "evidenceIds": ["book-175752-5", "book-175752-6", "book-175752-9"]
+      },
+      "hint": {
+        "text": "Drek'Thar taught him the ways of the elements.",
+        "evidenceIds": ["book-175752-5", "book-175752-6", "book-175752-9"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "5aec05e3b7940649345a64cdb776a5808b360a333346401e64a7e5da9fdcd970",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "durotan",
+      "answer": {
+        "display": "Durotan",
+        "grid": "DUROTAN",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Durotan was Thrall's father and chieftain of the Frostwolves.",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "clue": {
+        "text": "Thrall's father and the Frostwolves' former chieftain",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "hint": {
+        "text": "His son travelled north to learn about his origins.",
+        "evidenceIds": ["book-175752-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d00e73a9ecb8c1f1c9bb3d4c38eaadffdbe69d6ab0e0ec609bfcf167cc419264",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "illidan",
+      "answer": {
+        "display": "Illidan",
+        "grid": "ILLIDAN",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Malfurion imprisoned his brother Illidan and appointed Maiev his jailor.",
+        "evidenceIds": ["book-175729-7", "book-175729-4"]
+      },
+      "clue": {
+        "text": "Malfurion's brother, once imprisoned beneath Hyjal",
+        "evidenceIds": ["book-175729-7", "book-175729-4"]
+      },
+      "hint": {
+        "text": "Maiev was appointed to keep him confined.",
+        "evidenceIds": ["book-175729-7", "book-175729-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "01fa5517fc7d6e9320476be6eb885fd4dbca0b40a0d19dfebea9c44201815474",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "malfurion",
+      "answer": {
+        "display": "Malfurion",
+        "grid": "MALFURION",
+        "enumeration": [9],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Malfurion sought Cenarius's help against the Burning Legion.",
+        "evidenceIds": ["book-175727-7"]
+      },
+      "clue": {
+        "text": "The Stormrage brother who sought Cenarius's help against the Legion",
+        "evidenceIds": ["book-175727-7"]
+      },
+      "hint": {
+        "text": "Illidan was his brother.",
+        "evidenceIds": ["book-175727-7"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "9c58888f85a3534457e3362e2c1f172e71dba317bc9ea568427bbabd3ac6cda7",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "tyrande",
+      "answer": {
+        "display": "Tyrande",
+        "grid": "TYRANDE",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Tyrande accompanied the brothers in the name of Elune.",
+        "evidenceIds": ["book-175727-8"]
+      },
+      "clue": {
+        "text": "The priestess who joined the Stormrage brothers against the Legion",
+        "evidenceIds": ["book-175727-8"]
+      },
+      "hint": {
+        "text": "She accompanied them in Elune's name.",
+        "evidenceIds": ["book-175727-8"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "73762c6060206918da8422eaa994c7e728d1034e66cca87d44050b574f7b65d5",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "elune",
+      "answer": {
+        "display": "Elune",
+        "grid": "ELUNE",
+        "enumeration": [5],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Tyrande accompanied the brothers in the name of Elune.",
+        "evidenceIds": ["book-175727-8"]
+      },
+      "clue": {
+        "text": "The deity in whose name Tyrande accompanied the Stormrage brothers",
+        "evidenceIds": ["book-175727-8"]
+      },
+      "hint": {
+        "text": "The travelling companion was a priestess.",
+        "evidenceIds": ["book-175727-8"]
+      },
+      "difficulty": "easy",
+      "topics": ["deities"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "73762c6060206918da8422eaa994c7e728d1034e66cca87d44050b574f7b65d5",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "cenarius",
+      "answer": {
+        "display": "Cenarius",
+        "grid": "CENARIUS",
+        "enumeration": [8],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Malfurion and Illidan sought the demigod Cenarius.",
+        "evidenceIds": ["book-175727-9", "book-175727-10"]
+      },
+      "clue": {
+        "text": "The demigod Malfurion sought for help against the Legion",
+        "evidenceIds": ["book-175727-9", "book-175727-10"]
+      },
+      "hint": {
+        "text": "He enlisted dragons to aid the night elves.",
+        "evidenceIds": ["book-175727-9", "book-175727-10"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "3cf2a9302ca9e757f63672d977e0411582482a7317f161509d8f95f80c5b8e90",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "azshara",
+      "answer": {
+        "display": "Azshara",
+        "grid": "AZSHARA",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Azshara and her Highborne aided Sargeras's entrance.",
+        "evidenceIds": ["book-175727-4"]
+      },
+      "clue": {
+        "text": "The queen whose Highborne opened a way for Sargeras",
+        "evidenceIds": ["book-175727-4"]
+      },
+      "hint": {
+        "text": "The gateway lay within the Well of Eternity.",
+        "evidenceIds": ["book-175727-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "2a3d2c4fcc7f90b6ba7b5df32f62167e1fd29231df7a8c3f1622bae85b5290c7",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "sargeras",
+      "answer": {
+        "display": "Sargeras",
+        "grid": "SARGERAS",
+        "enumeration": [8],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Sargeras was drawn to the energies of the Well of Eternity.",
+        "evidenceIds": ["book-175727-1", "book-175727-3"]
+      },
+      "clue": {
+        "text": "The Legion's master who coveted the Well of Eternity",
+        "evidenceIds": ["book-175727-1", "book-175727-3"]
+      },
+      "hint": {
+        "text": "He was known as the Destroyer of Worlds.",
+        "evidenceIds": ["book-175727-1", "book-175727-3"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "b808986853ff188898b113af7b037735f67276d7689fd82a19b46ae352570879",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "archimonde",
+      "answer": {
+        "display": "Archimonde",
+        "grid": "ARCHIMONDE",
+        "enumeration": [10],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Archimonde the Defiler served as a lieutenant of Sargeras.",
+        "evidenceIds": ["book-175727-3"]
+      },
+      "clue": {
+        "text": "The Defiler among Sargeras's lieutenants",
+        "evidenceIds": ["book-175727-3"]
+      },
+      "hint": {
+        "text": "He prepared the invasion alongside Mannoroth.",
+        "evidenceIds": ["book-175727-3"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "cfaa50c6fb436c4ad1038deba7b4b18402cfa5821f3c46cfcb03e2cdbfec9772",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "mannoroth",
+      "answer": {
+        "display": "Mannoroth",
+        "grid": "MANNOROTH",
+        "enumeration": [9],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Mannoroth's blood was offered to the orc chieftains.",
+        "evidenceIds": ["book-175742-3", "book-175742-4"]
+      },
+      "clue": {
+        "text": "The being whose blood Grom and other orc chieftains drank",
+        "evidenceIds": ["book-175742-3", "book-175742-4"]
+      },
+      "hint": {
+        "text": "Gul'dan presented his blood as a source of invincibility.",
+        "evidenceIds": ["book-175742-3", "book-175742-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d186c4f2c7935d8be7a8b9fe6de3ece9e1d63570fcae7e8b0e80c69a2ca59413",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "medivh",
+      "answer": {
+        "display": "Medivh",
+        "grid": "MEDIVH",
+        "enumeration": [6],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Aegwynn named her son Medivh and intended him as the next Guardian.",
+        "evidenceIds": ["book-175740-5"]
+      },
+      "clue": {
+        "text": "Aegwynn's son, intended to inherit the Guardian's power",
+        "evidenceIds": ["book-175740-5"]
+      },
+      "hint": {
+        "text": "His name meant keeper of secrets.",
+        "evidenceIds": ["book-175740-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "e78bea0d390e29173d0af02c24932f9eb2c2be6b19e949d75e23bef7773cd99c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "aegwynn",
+      "answer": {
+        "display": "Aegwynn",
+        "grid": "AEGWYNN",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Aegwynn planned to bear a son and give him her power.",
+        "evidenceIds": ["book-175740-3", "book-175740-5"]
+      },
+      "clue": {
+        "text": "Medivh's mother and a Guardian of Tirisfal",
+        "evidenceIds": ["book-175740-3", "book-175740-5"]
+      },
+      "hint": {
+        "text": "She chose her son to succeed her.",
+        "evidenceIds": ["book-175740-3", "book-175740-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "d18eb58cb0842016ec070ed5345244b6faf19334cb22ffe38b0f278b0f0ce6d2",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "khadgar",
+      "answer": {
+        "display": "Khadgar",
+        "grid": "KHADGAR",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Khadgar helped Lothar defeat Medivh in Karazhan.",
+        "evidenceIds": ["book-175745-11"]
+      },
+      "clue": {
+        "text": "Medivh's apprentice who helped Lothar defeat him",
+        "evidenceIds": ["book-175745-11"]
+      },
+      "hint": {
+        "text": "The confrontation took place in Karazhan.",
+        "evidenceIds": ["book-175745-11"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "427148a555bf1449875be07291592c5a16f311f54194ca012803d6e088741e08",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "arthas",
+      "answer": {
+        "display": "Arthas",
+        "grid": "ARTHAS",
+        "enumeration": [6],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Prince Arthas pursued the plague to Northrend and took up Frostmourne.",
+        "evidenceIds": ["book-175756-3"]
+      },
+      "clue": {
+        "text": "The prince who took up Frostmourne while pursuing the plague",
+        "evidenceIds": ["book-175756-3"]
+      },
+      "hint": {
+        "text": "His quest led him to Northrend.",
+        "evidenceIds": ["book-175756-3"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "ec7f345feb74f320fb15db06a1ea3bd214d3551ad799555f775b61f354c83078",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "terenas",
+      "answer": {
+        "display": "Terenas",
+        "grid": "TERENAS",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Arthas murdered his father King Terenas.",
+        "evidenceIds": ["book-175756-4"]
+      },
+      "clue": {
+        "text": "The king murdered by his own son, Arthas",
+        "evidenceIds": ["book-175756-4"]
+      },
+      "hint": {
+        "text": "The fallen prince turned against his own kingdom.",
+        "evidenceIds": ["book-175756-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "7a0c421782d516169337fdbefdebe5ec3875e7c0a05ed69f99cd04fc520e6590",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "sylvanas",
+      "answer": {
+        "display": "Sylvanas",
+        "grid": "SYLVANAS",
+        "enumeration": [8],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Sylvanas Windrunner defended Silvermoon before Arthas raised her.",
+        "evidenceIds": ["book-175757-2"]
+      },
+      "clue": {
+        "text": "The Windrunner raised as a banshee by Arthas",
+        "evidenceIds": ["book-175757-2"]
+      },
+      "hint": {
+        "text": "She had defended Silvermoon as Ranger-General.",
+        "evidenceIds": ["book-175757-2"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "0be8fc37a39d667b26e1fe696831ab6bdadc80954007c56cd67fb4ac2c56c088",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "ragnaros",
+      "answer": {
+        "display": "Ragnaros",
+        "grid": "RAGNAROS",
+        "enumeration": [8],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Ragnaros was freed by Thaurissan's call and devastated the mountains.",
+        "evidenceIds": ["book-175739-11"]
+      },
+      "clue": {
+        "text": "The elemental lord disastrously summoned by Thaurissan",
+        "evidenceIds": ["book-175739-11"]
+      },
+      "hint": {
+        "text": "His arrival created the volcano at Blackrock.",
+        "evidenceIds": ["book-175739-11"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "63e6a41869ba12c082c6c451897191b051f8d557846bf47ad5ade247d8625402",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "ysera",
+      "answer": {
+        "display": "Ysera",
+        "grid": "YSERA",
+        "enumeration": [5],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Ysera was the green dragon known as the Dreamer.",
+        "evidenceIds": ["book-175726-5"]
+      },
+      "clue": {
+        "text": "The green Aspect known as the Dreamer",
+        "evidenceIds": ["book-175726-5"]
+      },
+      "hint": {
+        "text": "Alexstrasza was her older sister.",
+        "evidenceIds": ["book-175726-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "9ab244d8f502b2194bb204929fd59f01f5efcf66f62750b4ed058be5f9dc03cb",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "malygos",
+      "answer": {
+        "display": "Malygos",
+        "grid": "MALYGOS",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Malygos was the blue dragon and Spell-Weaver.",
+        "evidenceIds": ["book-175726-6"]
+      },
+      "clue": {
+        "text": "The blue Aspect known as the Spell-Weaver",
+        "evidenceIds": ["book-175726-6"]
+      },
+      "hint": {
+        "text": "Norgannon entrusted him with guarding magic.",
+        "evidenceIds": ["book-175726-6"]
+      },
+      "difficulty": "medium",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "78a5fb9025ec3b63397c092a559645078e66520da6f88c0ab5d3dd6060c0cb43",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "nozdormu",
+      "answer": {
+        "display": "Nozdormu",
+        "grid": "NOZDORMU",
+        "enumeration": [8],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Nozdormu was the bronze dragon empowered to guard time.",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "clue": {
+        "text": "The bronze Aspect known as the Timeless One",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "hint": {
+        "text": "Aman'Thul entrusted him with guarding time.",
+        "evidenceIds": ["book-175726-3"]
+      },
+      "difficulty": "medium",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "6ac7364c089f740b7e65747b40aee37600cd24efaa25471c7d270ebcba94ea0f",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "deathwing",
+      "answer": {
+        "display": "Deathwing",
+        "grid": "DEATHWING",
+        "enumeration": [9],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Neltharion renamed himself Deathwing and attacked his brethren.",
+        "evidenceIds": ["book-175727-13"]
+      },
+      "clue": {
+        "text": "The name Neltharion adopted when he turned against the other flights",
+        "evidenceIds": ["book-175727-13"]
+      },
+      "hint": {
+        "text": "He had been the Aspect of the Earth.",
+        "evidenceIds": ["book-175727-13"]
+      },
+      "difficulty": "easy",
+      "topics": ["aspects"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "673ccd21f73cbfe9503856f03ac07ed9225b97fda8c09983784458c4feed905c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "jaina",
+      "answer": {
+        "display": "Jaina",
+        "grid": "JAINA",
+        "enumeration": [5],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Jaina Proudmoore's forces built the port city of Theramore.",
+        "evidenceIds": ["book-175763-4"]
+      },
+      "clue": {
+        "text": "The Proudmoore who founded Theramore with surviving Alliance forces",
+        "evidenceIds": ["book-175763-4"]
+      },
+      "hint": {
+        "text": "They settled off the coast of Dustwallow Marsh.",
+        "evidenceIds": ["book-175763-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "8fea2eb921c9a7c13c50ee2155c07f1c499d608d3e846e9ab7e041ffd6ae7aec",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "guldan",
+      "answer": {
+        "display": "Gul'dan",
+        "grid": "GULDAN",
+        "enumeration": [6],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Gul'dan founded the Shadow Council with Kil'jaeden's help.",
+        "evidenceIds": ["book-175741-9"]
+      },
+      "clue": {
+        "text": "The warlock who secretly manipulated the clans through the Shadow Council",
+        "evidenceIds": ["book-175741-9"]
+      },
+      "hint": {
+        "text": "Kil'jaeden helped him found the organisation.",
+        "evidenceIds": ["book-175741-9"]
+      },
+      "difficulty": "easy",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "f0502336f377831bf8ec73e264d7920cef5e29856959408f74910a6ded51299c",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "nerzhul",
+      "answer": {
+        "display": "Ner'zhul",
+        "grid": "NERZHUL",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Ner'zhul was transformed into the Lich King.",
+        "evidenceIds": ["book-175748-5", "book-175748-4"]
+      },
+      "clue": {
+        "text": "The orc shaman transformed into the first Lich King",
+        "evidenceIds": ["book-175748-5", "book-175748-4"]
+      },
+      "hint": {
+        "text": "Kil'jaeden confined his spirit in a block of ice.",
+        "evidenceIds": ["book-175748-5", "book-175748-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "23dea3196a9075257f638367da4059d598b6a58a7ad992ac0dd0ecea5a8ff2c9",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "maiev",
+      "answer": {
+        "display": "Maiev",
+        "grid": "MAIEV",
+        "enumeration": [5],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Maiev Shadowsong was appointed Illidan's jailor.",
+        "evidenceIds": ["book-175729-7"]
+      },
+      "clue": {
+        "text": "Illidan's Shadowsong jailer",
+        "evidenceIds": ["book-175729-7"]
+      },
+      "hint": {
+        "text": "Malfurion appointed this warden to watch his brother.",
+        "evidenceIds": ["book-175729-7"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "b84ad394132e5f8b0420eae9d48614c3bf700d6aaca9a89396ae16fea6ca2a69",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "vashj",
+      "answer": {
+        "display": "Vashj",
+        "grid": "VASHJ",
+        "enumeration": [5],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Lady Vashj led the naga aiding Illidan's journey.",
+        "evidenceIds": ["book-175759-6"]
+      },
+      "clue": {
+        "text": "The naga lady who helped Illidan reach the Broken Isles",
+        "evidenceIds": ["book-175759-6"]
+      },
+      "hint": {
+        "text": "She led the serpentine allies he called from the sea.",
+        "evidenceIds": ["book-175759-6"]
+      },
+      "difficulty": "medium",
+      "topics": ["characters"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "ae1438a44687f88136120f62a2e044fcd3a5b02de90654a544d13dc9acb9cf72",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "frostmourne",
+      "answer": {
+        "display": "Frostmourne",
+        "grid": "FROSTMOURNE",
+        "enumeration": [11],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Arthas took up the cursed runeblade Frostmourne in Northrend.",
+        "evidenceIds": ["book-175756-3", "book-175756-4"]
+      },
+      "clue": {
+        "text": "The cursed blade Arthas took up in Northrend",
+        "evidenceIds": ["book-175756-3", "book-175756-4"]
+      },
+      "hint": {
+        "text": "It granted power while taking his soul.",
+        "evidenceIds": ["book-175756-3", "book-175756-4"]
+      },
+      "difficulty": "easy",
+      "topics": ["artifacts"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "185873202354c23046701aac57f8264a6b16d32f01ebc751406aafe755e87f64",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "kalimdor",
+      "answer": {
+        "display": "Kalimdor",
+        "grid": "KALIMDOR",
+        "enumeration": [8],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "The Titans named the continent Kalimdor, land of eternal starlight.",
+        "evidenceIds": ["book-175725-8"]
+      },
+      "clue": {
+        "text": "The continent the Titans named 'land of eternal starlight'",
+        "evidenceIds": ["book-175725-8"]
+      },
+      "hint": {
+        "text": "The name was given at the end of their labours.",
+        "evidenceIds": ["book-175725-8"]
+      },
+      "difficulty": "medium",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "a40e3a85b65239c7150867b5728b837a4c0b085d27a2e7cc0590cd6cbc9eb2f8",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "northrend",
+      "answer": {
+        "display": "Northrend",
+        "grid": "NORTHREND",
+        "enumeration": [9],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Arthas tracked the plague's source to Northrend.",
+        "evidenceIds": ["book-175756-3"]
+      },
+      "clue": {
+        "text": "The northern land where Arthas pursued the plague's source",
+        "evidenceIds": ["book-175756-3"]
+      },
+      "hint": {
+        "text": "His pursuit there led him to a cursed runeblade.",
+        "evidenceIds": ["book-175756-3"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "ec7f345feb74f320fb15db06a1ea3bd214d3551ad799555f775b61f354c83078",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "outland",
+      "answer": {
+        "display": "Outland",
+        "grid": "OUTLAND",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Illidan fled to Outland, the remnants of Draenor.",
+        "evidenceIds": ["book-175759-9"]
+      },
+      "clue": {
+        "text": "The remnant of Draenor where Illidan fled Kil'jaeden's wrath",
+        "evidenceIds": ["book-175759-9"]
+      },
+      "hint": {
+        "text": "His refuge lay beyond Azeroth.",
+        "evidenceIds": ["book-175759-9"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "92ae334c87610b51ee44526994ad8563bace71abc225d3df230979a5d4701ad3",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "draenor",
+      "answer": {
+        "display": "Draenor",
+        "grid": "DRAENOR",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "The Dark Portal linked Azeroth and Draenor.",
+        "evidenceIds": ["book-175745-5", "book-175759-9"]
+      },
+      "clue": {
+        "text": "The orcs' homeworld linked to Azeroth by the Dark Portal",
+        "evidenceIds": ["book-175745-5", "book-175759-9"]
+      },
+      "hint": {
+        "text": "The gateway allowed the invading armies to cross.",
+        "evidenceIds": ["book-175745-5", "book-175759-9"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "82c1d60b1a148cdb67de2f4e7940ad47e1c4bd872140bc7f2c1d8c1f828c4455",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "dalaran",
+      "answer": {
+        "display": "Dalaran",
+        "grid": "DALARAN",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Kel'Thuzad was an archmage of Dalaran and a member of the Kirin Tor.",
+        "evidenceIds": ["book-175754-1", "book-175754-3"]
+      },
+      "clue": {
+        "text": "The city whose Kirin Tor counted Kel'Thuzad among its members",
+        "evidenceIds": ["book-175754-1", "book-175754-3"]
+      },
+      "hint": {
+        "text": "He abandoned its ruling council to seek the Lich King.",
+        "evidenceIds": ["book-175754-1", "book-175754-3"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "7b825d3b0593fde981a0756a6f0d2893200daae8e70baf3537feb2a9db40d853",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "ironforge",
+      "answer": {
+        "display": "Ironforge",
+        "grid": "IRONFORGE",
+        "enumeration": [9],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "The dwarves named their city Ironforge after its mighty forge.",
+        "evidenceIds": ["book-175736-5"]
+      },
+      "clue": {
+        "text": "The dwarven city named for the great workshop in its mountain",
+        "evidenceIds": ["book-175736-5"]
+      },
+      "hint": {
+        "text": "Its founders honoured Khaz'goroth.",
+        "evidenceIds": ["book-175736-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "3c3c4680416dfcff61a0eafd7f2b8f18c0258d58e2557bc353b75246702ac623",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "stormwind",
+      "answer": {
+        "display": "Stormwind",
+        "grid": "STORMWIND",
+        "enumeration": [9],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "VanCleef was responsible for rebuilding Stormwind after the First War.",
+        "evidenceIds": ["quest-141-details", "quest-135-details"]
+      },
+      "clue": {
+        "text": "The city Edwin VanCleef rebuilt after the orcs razed it",
+        "evidenceIds": ["quest-141-details", "quest-135-details"]
+      },
+      "hint": {
+        "text": "His Stonemasons' Guild became part of the Defias story.",
+        "evidenceIds": ["quest-141-details", "quest-135-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "add42c6be3a0c0721eae3ac565aa6de3e3e8695ff473ff73c032c47164d51c40",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "theramore",
+      "answer": {
+        "display": "Theramore",
+        "grid": "THERAMORE",
+        "enumeration": [9],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Jaina's Alliance forces built the port city of Theramore.",
+        "evidenceIds": ["book-175763-4"]
+      },
+      "clue": {
+        "text": "The port Jaina's forces built off Dustwallow Marsh",
+        "evidenceIds": ["book-175763-4"]
+      },
+      "hint": {
+        "text": "The settlers included humans and dwarves.",
+        "evidenceIds": ["book-175763-4"]
+      },
+      "difficulty": "medium",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "8fea2eb921c9a7c13c50ee2155c07f1c499d608d3e846e9ab7e041ffd6ae7aec",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "durotar",
+      "answer": {
+        "display": "Durotar",
+        "grid": "DUROTAR",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Thrall's orcs named Durotar after his father.",
+        "evidenceIds": ["book-175763-2"]
+      },
+      "clue": {
+        "text": "The orcs' new homeland named for Thrall's murdered father",
+        "evidenceIds": ["book-175763-2"]
+      },
+      "hint": {
+        "text": "They settled there after reaching Kalimdor.",
+        "evidenceIds": ["book-175763-2"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "aa869b1e84ac8f5c4baea4037f93f5ab0a5d128f11c55cbbcb20f70ad41c5358",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "hyjal",
+      "answer": {
+        "display": "Hyjal",
+        "grid": "HYJAL",
+        "enumeration": [5],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Illidan poured the Well's waters into a lake at Hyjal's summit.",
+        "evidenceIds": ["book-175729-5"]
+      },
+      "clue": {
+        "text": "The mountain where Illidan made a new Well of Eternity",
+        "evidenceIds": ["book-175729-5"]
+      },
+      "hint": {
+        "text": "He poured preserved waters into a lake at its summit.",
+        "evidenceIds": ["book-175729-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "dd875eeeaaa1c5d5c29e326bb356d89bec26bdcb1796df7958484ee424aaa2da",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "nordrassil",
+      "answer": {
+        "display": "Nordrassil",
+        "grid": "NORDRASSIL",
+        "enumeration": [10],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "The World Tree was named Nordrassil, crown of the heavens.",
+        "evidenceIds": ["book-175730-5"]
+      },
+      "clue": {
+        "text": "The World Tree whose name means 'crown of the heavens'",
+        "evidenceIds": ["book-175730-5"]
+      },
+      "hint": {
+        "text": "The night elves named it in their own tongue.",
+        "evidenceIds": ["book-175730-5"]
+      },
+      "difficulty": "medium",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "7e701a565a4e7e05799b412a38b8ee956dcdc232d443e931f996d4c5496576f0",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "sunwell",
+      "answer": {
+        "display": "Sunwell",
+        "grid": "SUNWELL",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Arthas submerged Kel'Thuzad's remains in the Sunwell to revive him.",
+        "evidenceIds": ["book-175757-3"]
+      },
+      "clue": {
+        "text": "The source Arthas used to restore Kel'Thuzad",
+        "evidenceIds": ["book-175757-3"]
+      },
+      "hint": {
+        "text": "The rite returned him as a lich.",
+        "evidenceIds": ["book-175757-3"]
+      },
+      "difficulty": "easy",
+      "topics": ["places"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "06e808f87acc9226a9bff0afa6b8d793bf3451f9f82b06b97244a204fba48bfd",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "scourge",
+      "answer": {
+        "display": "Scourge",
+        "grid": "SCOURGE",
+        "enumeration": [7],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Kel'Thuzad named the growing undead army the Scourge.",
+        "evidenceIds": ["book-175754-14"]
+      },
+      "clue": {
+        "text": "The name Kel'Thuzad gave the Lich King's growing army",
+        "evidenceIds": ["book-175754-14"]
+      },
+      "hint": {
+        "text": "Its ranks swelled as the plague spread.",
+        "evidenceIds": ["book-175754-14"]
+      },
+      "difficulty": "easy",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "5a3502e52761f68578ea64ff71a8d15e82eee73e76f2950b76ae98ac7a51e180",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "forsaken",
+      "answer": {
+        "display": "Forsaken",
+        "grid": "FORSAKEN",
+        "enumeration": [8],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Sylvanas and her rebel undead were known as the Forsaken.",
+        "evidenceIds": ["book-175761-3"]
+      },
+      "clue": {
+        "text": "The name taken by Sylvanas's rebel undead",
+        "evidenceIds": ["book-175761-3"]
+      },
+      "hint": {
+        "text": "They claimed the ruined capital of Lordaeron.",
+        "evidenceIds": ["book-175761-3"]
+      },
+      "difficulty": "easy",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "7e3ee9199b4675506b9ba5fbf064db78f69fb993fba4236d23cdf26a30606036",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "kirintor",
+      "answer": {
+        "display": "Kirin Tor",
+        "grid": "KIRINTOR",
+        "enumeration": [5, 3],
+        "kind": "proper",
+        "familiarity": "established",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "The Kirin Tor ruled Dalaran and included Kel'Thuzad.",
+        "evidenceIds": ["book-175754-1"]
+      },
+      "clue": {
+        "text": "Dalaran's ruling council, once home to Kel'Thuzad",
+        "evidenceIds": ["book-175754-1"]
+      },
+      "hint": {
+        "text": "He was a senior member before turning to the Lich King.",
+        "evidenceIds": ["book-175754-1"]
+      },
+      "difficulty": "medium",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "088c98010605e237907717892d1136bfb818f55a3de6d4b5446ac24c82126cef",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "defias",
+      "answer": {
+        "display": "Defias",
+        "grid": "DEFIAS",
+        "enumeration": [6],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "The Defias investigation connected VanCleef to the Stonemasons' Guild.",
+        "evidenceIds": ["quest-141-details", "quest-135-details"]
+      },
+      "clue": {
+        "text": "The Brotherhood whose roots Shaw traced to the Stonemasons",
+        "evidenceIds": ["quest-141-details", "quest-135-details"]
+      },
+      "hint": {
+        "text": "Edwin VanCleef led the guild that rebuilt Stormwind.",
+        "evidenceIds": ["quest-141-details", "quest-135-details"]
+      },
+      "difficulty": "easy",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "add42c6be3a0c0721eae3ac565aa6de3e3e8695ff473ff73c032c47164d51c40",
+        "contentDigest": null
+      }
+    },
+    {
+      "id": "horde",
+      "answer": {
+        "display": "Horde",
+        "grid": "HORDE",
+        "enumeration": [5],
+        "kind": "proper",
+        "familiarity": "broad",
+        "rationale": "A prominent Warcraft figure, place, organisation or iconic artifact, eligible for cold review."
+      },
+      "fact": {
+        "text": "Gul'dan united the orc clans into the Horde.",
+        "evidenceIds": ["book-175742-5"]
+      },
+      "clue": {
+        "text": "The united force Gul'dan forged from the warring orc clans",
+        "evidenceIds": ["book-175742-5"]
+      },
+      "hint": {
+        "text": "Their new bloodlust drove them toward conquest.",
+        "evidenceIds": ["book-175742-5"]
+      },
+      "difficulty": "easy",
+      "topics": ["factions"],
+      "exposure": "shared",
+      "disclosedBy": "vanilla",
+      "status": "evidence-checked",
+      "review": {
+        "evidenceReviewer": "codex-source-pass-2026-11-01",
+        "coldReviewer": null,
+        "notes": "Source-backed seed. Difficulty and clue fairness await a cold solve in a completed grid.",
+        "evidenceDigest": "be299caa3c29de6897125f5fe60bb2f26b373169c5ff04d54502a295fcf5cbd4",
+        "contentDigest": null
+      }
+    }
+  ]
+}

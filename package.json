@@ -1,0 +1,40 @@
+{
+  "name": "warcraft-puzzles",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Source-backed Warcraft crosswords, covering history through Wrath of the Lich King",
+  "type": "module",
+  "packageManager": "pnpm@11.18.0",
+  "engines": {
+    "node": "26.x"
+  },
+  "scripts": {
+    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm content:check && pnpm content:report:check",
+    "lint": "eslint . --max-warnings 0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest",
+    "check:security": "pnpm audit --audit-level moderate",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "content:check": "node tools/check-content.ts",
+    "content:report": "node tools/report-content.ts",
+    "content:report:check": "node tools/report-content.ts --check",
+    "content:refresh": "node tools/refresh-evidence.ts",
+    "content:verify-sources": "node tools/refresh-evidence.ts --check"
+  },
+  "dependencies": {
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@vitest/coverage-v8": "5.0.5",
+    "prettier": "3.9.10",
+    "@eslint/js": "10.0.1",
+    "eslint": "10.14.0",
+    "fast-check": "4.10.2",
+    "typescript-eslint": "8.72.1",
+    "typescript": "6.0.3",
+    "vitest": "5.0.5"
+  }
+}
