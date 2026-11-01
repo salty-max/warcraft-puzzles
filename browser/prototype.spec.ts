@@ -272,6 +272,52 @@ test("a composition never wipes a crossing's letter, even when it shrinks or is 
   await send("", true);
   await expect(letterAt(page, molten.cells[0]!)).toHaveText("N");
   await expect(letterAt(page, molten.cells[1]!)).toHaveText("X");
+  /* The composition overwrites the crossing's letter and a shorter one puts it back. */
+  await send("MO", true);
+  await expect(letterAt(page, molten.cells[1]!)).toHaveText("O");
+  await send("M", true);
+  await expect(letterAt(page, molten.cells[1]!)).toHaveText("X");
+});
+
+test("a button used mid-composition ends it, so a stale copy cannot undo the button", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.locator(`[data-cell="${molten.cells[0]}"]`).click();
+  const send = (value: string) =>
+    page.evaluate((text) => {
+      const keys = document.getElementById("keys") as HTMLInputElement;
+      keys.value = text;
+      keys.dispatchEvent(new InputEvent("input", { isComposing: true, bubbles: true }));
+    }, value);
+  await send("M");
+  /* A press that does not move focus, as on WebKit, where buttons are not focused by a tap. */
+  await page.evaluate(() => document.getElementById("reveal")!.click());
+  await expect(letterAt(page, molten.cells[3]!)).toHaveText(molten.answer[3]!);
+  /* The input method starts afresh after the button, and the reveal stays whole. */
+  await send("Q");
+  await expect(letterAt(page, molten.cells[3]!)).toHaveText(molten.answer[3]!);
+  await expectEntry(
+    page,
+    { ...molten, cells: molten.cells.slice(2) },
+    molten.answer.slice(2),
+  );
+  await expect(page.locator("#keys")).not.toBeFocused();
+});
+
+test("check closes the keyboard and a composition, even when the button does not take focus", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.locator(`[data-cell="${molten.cells[0]}"]`).click();
+  await page.evaluate(() => {
+    const keys = document.getElementById("keys") as HTMLInputElement;
+    keys.value = "M";
+    keys.dispatchEvent(new InputEvent("input", { isComposing: true, bubbles: true }));
+  });
+  await expect(page.locator("#keys")).toBeFocused();
+  await page.evaluate(() => document.getElementById("check")!.click());
+  await expect(page.locator("#keys")).not.toBeFocused();
 });
 
 test("a commit that differs from the composed word replaces it, and a cancelled composition keeps it", async ({

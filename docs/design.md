@@ -46,7 +46,8 @@ family's look, shaped for a puzzle board and not a journal.
   never doubles, a shrinking or replaced word puts back exactly what it overwrote
   (including a crossing's letter) and a cancelled composition keeps what was shown.
   Firefox ends a composition before its last input and Chrome after it, and both are
-  handled. The input method's own keys are left to it.
+  handled. Using a square, a clue, Hint, Reveal or Check ends a composition, so a stale
+  copy never undoes what was just done. The input method's own keys are left to it.
 - **Focus after a button:** Hint and Reveal return to the grid only if the player
   pressed them while typing, so a phone keyboard does not reopen over the board. Check
   never does and closes the keyboard, so the marked squares stay in view.

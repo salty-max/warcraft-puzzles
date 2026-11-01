@@ -126,6 +126,7 @@ function edit(next: { state: typeof state; cursor: Cursor }) {
   paint();
 }
 function choose(entry: PlayEntry, focus = true) {
+  endComposition();
   cursor = startCursor(state, entry);
   setText("feedback", "");
   paint();
@@ -168,6 +169,7 @@ for (let row = 0; row < puzzle.height; row++) {
       letter.setAttribute("aria-hidden", "true");
       button.append(number, letter);
       button.addEventListener("click", () => {
+        endComposition();
         cursor =
           cell === cursor.cell
             ? toggleDirection(puzzle, cursor)
@@ -273,6 +275,15 @@ keys.addEventListener("input", (event) => {
   } else if (now) edit(typed(from, now));
   keys.value = "";
 });
+/** Something else took over: the saved copy is stale, so the composition ends here. */
+function endComposition() {
+  if (!before) return;
+  /* Last, because some browsers commit the composition while the value is cleared or the
+     field blurs: that input must still find the copy, and then changes nothing. */
+  keys.value = "";
+  keys.blur();
+  before = undefined;
+}
 keys.addEventListener("compositionend", () => {
   /* Firefox sends its last input after this event, Chrome before it: wait, then tidy up. */
   setTimeout(() => {
@@ -307,17 +318,20 @@ get("next").addEventListener("click", () => {
   move(1);
 });
 get("hint").addEventListener("click", (event) => {
+  endComposition();
   state = useHint(state, cursor.entry.id);
   persist();
   paint();
   if (typing(event)) focusKeys();
 });
 get("reveal").addEventListener("click", (event) => {
+  endComposition();
   edit({ state: revealAnswer(state, cursor.entry), cursor });
   setText("feedback", "Answer revealed.");
   if (typing(event)) focusKeys();
 });
 get("check").addEventListener("click", () => {
+  endComposition();
   state = { ...state, checks: state.checks + 1 };
   marked = new Set(wrongCells(puzzle, state));
   persist();
