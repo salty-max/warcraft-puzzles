@@ -1,0 +1,75 @@
+{
+  "id": "play-1",
+  "title": "Playset 1",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "bank-b-9x13",
+    "rows": [
+      "###.....#",
+      "#####.#.#",
+      "###.#.#.#",
+      "#........",
+      "###.#.#.#",
+      "###.###.#",
+      "##......#",
+      "##.######",
+      ".....##.#",
+      "##.#.....",
+      "##.#.##.#",
+      "##.#.##.#",
+      "#........"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "1A",
+      "entryId": "druid"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "uldum"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "durotan"
+    },
+    {
+      "slotId": "4D",
+      "entryId": "medium-wrath"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "maraudon"
+    },
+    {
+      "slotId": "6A",
+      "entryId": "shaman"
+    },
+    {
+      "slotId": "6D",
+      "entryId": "medium-3-scourge"
+    },
+    {
+      "slotId": "7A",
+      "entryId": "trogg"
+    },
+    {
+      "slotId": "8D",
+      "entryId": "ghoul"
+    },
+    {
+      "slotId": "9D",
+      "entryId": "satyr"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "hyjal"
+    },
+    {
+      "slotId": "11A",
+      "entryId": "hellfire"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { EditorialSchema, SnapshotSchema } from "../packages/content/src/schema.
 import { validateCatalogue } from "../packages/content/src/validate.ts";
 import {
   LayoutSchema,
+  checkingFloorIssues,
   compilePartiallyCheckedLayout,
   inspectPartiallyCheckedFill,
 } from "../packages/crossword/src/index.ts";
@@ -49,8 +50,10 @@ export function prepareResearchPuzzle(
     checked: slot.crossings.length,
     length: slot.length,
   }));
-  if (measurements.some((m) => m.checked < 2 || m.checked / m.length < 0.4)) {
-    throw new Error("Trial entries need two crossings and at least 40% checking");
+  if (checkingFloorIssues(grid).length) {
+    throw new Error(
+      `Trial entries miss the checking floor (2 crossings, 40% up to 7 letters, 3 beyond, no more than 4 unchecked in a row): ${checkingFloorIssues(grid)[0]!.message}`,
+    );
   }
   const entries = grid.slots.map((slot) => {
     const placement = puzzle.placements.find((p) => p.slotId === slot.id)!;

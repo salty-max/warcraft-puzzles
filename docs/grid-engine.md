@@ -141,11 +141,15 @@ without inventing a one-letter clue. They still reject two-letter runs, orphan c
 disconnected shapes, missing entries, inconsistent crossings and repeated answers.
 Numbering counts actual entry starts only.
 
-The research-puzzle validator adds a trial-specific floor of two crossings and 40%
-checking per answer, then projects the current triads into the local player. It checks
-simple cross-prompt spelling leaks and binds local saves to a puzzle/wording
-fingerprint. None of those checks grants publication approval. The
-[trial report](prototype-report.md) records the actual construction and its weaknesses.
+The research-puzzle validator adds a trial-specific checking floor
+(`checkingFloorIssues`, `packages/crossword/src/floor.ts`, changed 1 November 2026 on
+the owner's go): every answer needs two crossings and 40% checking up to seven letters,
+a flat three crossings beyond, and no more than four unchecked letters in a row. The old
+flat 40% asked for four crossings on a nine-letter name and nothing filled. It then
+projects the current triads into the local player. It checks simple cross-prompt
+spelling leaks and binds local saves to a puzzle/wording fingerprint. None of those
+checks grants publication approval. The [trial report](prototype-report.md) records the
+actual construction and its weaknesses.
 
 ## Primary format and split fill results
 
@@ -161,3 +165,29 @@ come from authored pilots. Successful fills are independently inspected, may dif
 authored placements and remain unapproved for publication. These are positive controls,
 not a claim that any arbitrary partial layout can be filled or that all automatic fills
 have good clues.
+
+## Layouts for the rebuilt bank (1 November 2026)
+
+The seven authored layouts were drawn for three- to five-letter words and fill none of
+the rebuilt bank (370 answers, mostly 8 to 13 letters). Seven new partially checked
+layouts, `bank-*` in `content/benchmarks/layouts.json` (9x11, 9x13, 10x12, ten to twelve
+answers, no slot under five letters), all fill in the benchmark, each in 5 to 9 search
+states. They came from a throwaway annealer over the cells (validity, the floor, arc
+consistency against the bank, then the real filler), not from a committed generator.
+
+What that search showed, and what it can't:
+
+- With the old 40% floor no layout of 9x11 to 13x15 filled. At the new floor only 9x11,
+  9x13 and 10x12 shapes did, and an 11x13 never did. A word adds a factor of about (pool
+  size) x 0.0635^(crossings/2) to the number of fills, so three crossings per answer is
+  break-even and the old floor was past it.
+- These layouts are barely fillable, not flexible. Against random 65% samples of the
+  bank (a stand-in for answers locked out by the cooldown) they fill 0 to 13% of the
+  time, and under a real rolling cooldown the playset builder gets three days
+  (`node tools/build-playset.ts`). Four to seven five-letter slots per puzzle against 33
+  distinct five-letter answers in the bank is the pinch, then nine-letter slots
+  against 69.
+- Asking the annealer for fewer five-letter slots found no fill at all.
+- A layout that fills at one seed is a positive control. The bank cannot sustain a daily
+  under the 90-day cooldown at its present size: twelve answers a day for ninety days is
+  about 1,080 distinct answers against 370.

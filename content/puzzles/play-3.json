@@ -1,0 +1,70 @@
+{
+  "id": "play-3",
+  "title": "Playset 3",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "bank-c-10x12",
+    "rows": [
+      "#######.##",
+      "........##",
+      ".##.###.##",
+      ".........#",
+      ".##.#.#.##",
+      ".#.....###",
+      "###.#.####",
+      "#.###.##.#",
+      "#.###.##.#",
+      ".........#",
+      "#.###.##.#",
+      "#........."
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "1D",
+      "entryId": "elune"
+    },
+    {
+      "slotId": "2A",
+      "entryId": "diremaul"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "dwarf"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "eredar"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "auberdine"
+    },
+    {
+      "slotId": "5D",
+      "entryId": "dunmorogh"
+    },
+    {
+      "slotId": "6A",
+      "entryId": "jaina"
+    },
+    {
+      "slotId": "7D",
+      "entryId": "blink"
+    },
+    {
+      "slotId": "8D",
+      "entryId": "ysera"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "highborne"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "kelthuzad"
+    }
+  ]
+}

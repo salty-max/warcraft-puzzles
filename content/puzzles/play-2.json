@@ -1,0 +1,75 @@
+{
+  "id": "play-2",
+  "title": "Playset 2",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "bank-a-9x13",
+    "rows": [
+      "#.....#.#",
+      "#.##.##.#",
+      "#.#.....#",
+      "#.##.##.#",
+      ".........",
+      "#.##.####",
+      ".........",
+      "#.######.",
+      "###.##.#.",
+      ".........",
+      "###.##.#.",
+      "##.......",
+      "###.##.##"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "1A",
+      "entryId": "smite"
+    },
+    {
+      "slotId": "1D",
+      "entryId": "sargeras"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "terenas"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "hydra"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "dryad"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "secondwar"
+    },
+    {
+      "slotId": "6A",
+      "entryId": "darkspear"
+    },
+    {
+      "slotId": "7D",
+      "entryId": "raptor"
+    },
+    {
+      "slotId": "8D",
+      "entryId": "moira"
+    },
+    {
+      "slotId": "9D",
+      "entryId": "magni"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "pyroblast"
+    },
+    {
+      "slotId": "11A",
+      "entryId": "draenor"
+    }
+  ]
+}

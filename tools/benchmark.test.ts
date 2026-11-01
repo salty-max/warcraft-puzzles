@@ -57,7 +57,7 @@ it("replays the live and cut entries together on all committed layouts without a
       .every((run) => run.result.status === "solved"),
   ).toBe(true);
   expect(result.layouts.filter((layout) => layout.checking === "partial")).toHaveLength(
-    7,
+    14,
   );
   expect(
     result.cases
@@ -66,6 +66,13 @@ it("replays the live and cut entries together on all committed layouts without a
   ).toBe(true);
   expect(benchmarkReport(result, editorial)).toContain("Partially checked (primary)");
   expect(JSON.stringify([editorial, snapshot])).toBe(before);
+  // The rebuilt bank alone, no restored cuts, fills the layouts drawn for it.
+  const live = runBenchmark(loaded.editorial, snapshot, input);
+  const own = live.cases.filter(
+    (run) => run.layoutId.startsWith("bank-") && run.cohort === "all-triads",
+  );
+  expect(own.length).toBeGreaterThan(0);
+  expect(own.every((run) => run.result.status === "solved")).toBe(true);
 });
 
 it("exports independently validated success examples with original triad metadata", () => {

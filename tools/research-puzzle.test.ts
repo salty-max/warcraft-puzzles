@@ -110,7 +110,9 @@ describe("authored construction trial", () => {
   });
   it("rejects a complete arrangement with too few helpful crossings", () => {
     const f = synthetic(6);
-    expect(() => prepareResearchPuzzle(f.raw, f.editorial, f.snapshot)).toThrow("40%");
+    expect(() => prepareResearchPuzzle(f.raw, f.editorial, f.snapshot)).toThrow(
+      "has 2 crossings, needs 3",
+    );
   });
 });
 

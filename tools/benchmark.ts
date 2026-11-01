@@ -23,7 +23,7 @@ export const BenchmarkConfigSchema = z
         LayoutSchema.extend({ checking: z.enum(["full", "partial"]).default("full") }),
       )
       .min(1)
-      .max(40),
+      .max(60),
   })
   .refine(
     (config) => new Set(config.seeds).size === config.seeds.length,
@@ -162,6 +162,7 @@ export function benchmarkReport(benchmark: Benchmark, editorial: Editorial): str
     "Partially checked grids are the primary construction format. Fully checked layouts remain a comparison.",
     "Both use the same bank, search algorithm and budgets. Each layout declares its checking rule. The groups contain different shapes and are not a controlled success-rate comparison.",
     "The partial layouts below came from authored puzzles. They are positive controls and regression cases, not an unbiased estimate of generation success.",
+    "The bank-* layouts were fitted to this exact bank by a search, so their solves are controls too, not a fill rate.",
     "A solved benchmark fill may choose different answers from the authored puzzle. It proves structural fillability, not clue fairness.",
     "",
     "| Format | Full-bank layouts | Solved layouts | Limited layouts |",
