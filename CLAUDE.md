@@ -76,8 +76,8 @@ dispatch session) opens one session per task with the role's brief (the `dispatc
 skill). A card's title starts with its role: `[content] Cut the padding`.
 
 The build order: content first (cut, fix, grow toward 1,000 answers through the gates),
-a go/no-go at 500 good answers, then front (the crossing-wipe fix), engine (seed test,
-cooldown, a daily builder), back (dated serving).
+a go/no-go at 500 good answers, then front (the grid-typing redesign is done, see
+`docs/design.md`), engine (seed test, cooldown, a daily builder), back (dated serving).
 
 Files no role owns (`package.json`, the lockfile, `CLAUDE.md`, CI, `vitest.config.ts`,
 `docs/testing.md`, `docs/production-plan.md`) belong to whichever card changes them, and

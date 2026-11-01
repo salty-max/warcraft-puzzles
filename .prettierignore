@@ -2,3 +2,4 @@ pnpm-lock.yaml
 coverage
 node_modules
 harness/
+.claude/settings.local.json

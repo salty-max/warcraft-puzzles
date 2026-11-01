@@ -1,5 +1,5 @@
 import { createServer } from "node:http";
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { PilotSchema, trialRoute, trialAsset } from "./pilot.ts";
 const paths = new Map([
   ["/pilot", ["pilot-index.html", "text/html; charset=utf-8"]],
@@ -7,6 +7,9 @@ const paths = new Map([
   ["/player.js", ["player.js", "text/javascript; charset=utf-8"]],
   ["/model.js", ["model.js", "text/javascript; charset=utf-8"]],
 ]);
+paths.set("/favicon.svg", ["favicon.svg", "image/svg+xml"]);
+for (const name of readdirSync("web/fonts").filter((file) => file.endsWith(".woff2")))
+  paths.set(`/fonts/${name}`, [`fonts/${name}`, "font/woff2"]);
 for (const trial of PilotSchema.parse(
   JSON.parse(readFileSync("content/puzzles/pilot.json", "utf8")),
 ).trials)
@@ -22,7 +25,7 @@ createServer((request, response) => {
   response.setHeader("X-Content-Type-Options", "nosniff");
   response.setHeader(
     "Content-Security-Policy",
-    "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'",
+    "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'",
   );
   response.setHeader("Content-Type", file[1]!);
   response.end(readFileSync(`.cache/prototype/${file[0]}`));

@@ -2,88 +2,99 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
     <meta name="robots" content="noindex,nofollow" />
-    <meta name="theme-color" content="#173b35" />
+    <meta name="theme-color" content="#120d09" />
     <title>Warcraft crossword</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/style.css" />
     <script src="/player.js" type="module"></script>
   </head>
   <body>
-    <a href="#answer" class="skip">Skip to answer entry</a>
-    <main>
+    <a href="#keys" class="skip">Skip to the puzzle</a>
+    <main class="play">
       <header class="masthead">
-        <h1>
-          <a href="__PILOT_LINK__" aria-label="All crosswords">Warcraft crossword</a>
+        <a class="back" href="__PILOT_LINK__">All crosswords</a>
+        <h1 class="title-gilded">Warcraft crossword</h1>
+        <p class="rule" aria-hidden="true"></p>
+        <div class="masthead-row">
           <span class="difficulty">__DIFFICULTY__</span>
-        </h1>
-        <details class="instructions">
-          <summary>How to play</summary>
-          <p id="input-help">
-            Choose a clue and type the whole answer. Spaces are optional. Brackets show
-            word lengths. Tap a crossing again to switch direction. Hints, reveals and
-            checks are recorded with your solve.
-          </p>
-        </details>
+          <details class="how">
+            <summary>How to play</summary>
+            <p id="input-help">
+              Tap a square and type, the letters fill the word as you go. Tap the same
+              square again, or press space, to turn between across and down. Squares
+              where two words cross keep their letters. Brackets show word lengths.
+              Hints, reveals and checks are recorded with your solve.
+            </p>
+          </details>
+        </div>
       </header>
-      <section id="complete" class="completion" hidden aria-labelledby="complete-title">
-        <h2 id="complete-title">Puzzle complete.</h2>
-        <p id="completion-summary"></p>
-      </section>
       <div class="workspace">
-        <section class="board" aria-label="Puzzle and answer entry">
-          <div class="active-card">
-            <div class="clue-nav">
-              <button id="previous" aria-label="Previous clue">←</button>
+        <section class="board" aria-label="Puzzle">
+          <section id="complete" class="completion" hidden role="status">
+            <h2 class="title-gilded">Puzzle complete</h2>
+            <p id="completion-summary"></p>
+            <a class="btn btn-primary" href="__PILOT_LINK__">All crosswords</a>
+          </section>
+          <div id="clue-bar" class="clue-bar">
+            <button id="previous" class="round" aria-label="Previous clue">
+              &#8249;
+            </button>
+            <div class="clue-body">
               <p id="active-label" class="eyebrow"></p>
-              <button id="next" aria-label="Next clue">→</button>
+              <p id="active-clue" class="clue" aria-live="polite"></p>
+              <p id="hint-text" class="hint-text" aria-live="polite"></p>
+              <p id="feedback" class="feedback" role="status"></p>
             </div>
-            <p id="active-clue" aria-live="polite"></p>
-            <form id="answer-form">
-              <label for="answer">Your answer <span id="pattern"></span></label>
-              <div class="answer-line">
-                <input
-                  id="answer"
-                  name="answer"
-                  type="text"
-                  autocomplete="off"
-                  autocapitalize="characters"
-                  spellcheck="false"
-                  aria-describedby="active-clue input-help"
-                  maxlength="60"
-                /><button type="submit" aria-label="Enter answer and go to next clue">
-                  ↵
-                </button>
-              </div>
-            </form>
+            <button id="next" class="round" aria-label="Next clue">&#8250;</button>
           </div>
-          <table id="grid" aria-label="Crossword grid. Choose a square or a clue.">
-            <tbody></tbody>
-          </table>
-          <div class="progress-line">
-            <span id="progress"></span><button id="check">Check puzzle</button>
+          <div class="tablet">
+            <div class="grid-wrap">
+              <table id="grid" aria-label="Crossword grid. Choose a square, then type.">
+                <tbody></tbody>
+              </table>
+            </div>
+            <p id="where" class="sr-only" aria-live="polite"></p>
+            <input
+              id="keys"
+              name="letters"
+              type="text"
+              autocomplete="off"
+              autocapitalize="characters"
+              autocorrect="off"
+              spellcheck="false"
+              enterkeyhint="next"
+              aria-describedby="input-help"
+              maxlength="60"
+            />
           </div>
-          <div class="help-actions">
-            <button id="hint">Get a hint</button
-            ><button id="reveal">Reveal this answer</button
-            ><button id="reset">Start over</button>
+          <p id="progress" class="progress"></p>
+          <div class="actions">
+            <button id="hint" class="btn">Get a hint</button>
+            <button id="reveal" class="btn">Reveal this answer</button>
+            <button id="check" class="btn btn-primary">Check puzzle</button>
+            <button id="reset" class="btn btn-quiet">Start over</button>
           </div>
-          <p id="hint-text" class="hint-text" hidden></p>
-          <p id="feedback" role="status"></p>
-          <p id="storage-warning" hidden>
+          <p id="storage-warning" class="warning" hidden>
             Progress could not be saved. Keep this tab open to continue playing.
           </p>
         </section>
-        <section class="clues" aria-label="Clues">
-          <div>
-            <h2>Across <span>→</span></h2>
-            <ol id="across"></ol>
-          </div>
-          <div>
-            <h2>Down <span>↓</span></h2>
-            <ol id="down"></ol>
-          </div>
-        </section>
+        <div class="clues-frame">
+          <section class="clues" aria-label="Clues">
+            <div class="clue-panel">
+              <h2>Across <span aria-hidden="true">&#8594;</span></h2>
+              <ol id="across"></ol>
+            </div>
+            <div class="clue-panel">
+              <h2>Down <span aria-hidden="true">&#8595;</span></h2>
+              <ol id="down"></ol>
+            </div>
+          </section>
+        </div>
       </div>
       <footer>
         Unofficial Warcraft fan project. Not affiliated with Blizzard Entertainment.
@@ -93,8 +104,8 @@
       <h2 id="reset-title">Start again?</h2>
       <p>This clears your letters and assistance record for this puzzle.</p>
       <form method="dialog">
-        <button value="cancel">Keep playing</button
-        ><button value="reset">Clear this puzzle</button>
+        <button class="btn" value="cancel">Keep playing</button>
+        <button class="btn btn-primary" value="reset">Clear this puzzle</button>
       </form>
     </dialog>
     <script type="application/json" id="puzzle-data">

@@ -24,10 +24,12 @@ Open `/pilot` at the printed local URL. Alternatively, open
 need no server or network. The original `playtest.html` and `medium.html` are preserved,
 with their existing solve identities. The page heading links back to the puzzle list.
 
-The player supports whole-answer input, shared crossings, hints, reveals, checks,
-per-puzzle local saving and a confirmed reset. Browser-file saving depends on local
-storage policy. Answers are included locally for checking. This prototype has no
-accounts, public schedule or rewards. The production stack remains in the plan.
+The player takes letters straight into the grid, with shared crossings that keep their
+letters, hints, reveals, a Check that marks wrong squares, per-puzzle local saving and a
+confirmed reset. Its look is described in [the design note](docs/design.md).
+Browser-file saving depends on local storage policy. Answers are included locally for
+checking. This prototype has no accounts, public schedule or rewards. The production
+stack remains in the plan.
 
 See [the pilot report](docs/pilot-report.md) for grid measurements, feedback and answer
 reuse, and [the split benchmark](docs/fill-benchmark.md) for independently searched

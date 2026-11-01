@@ -19,9 +19,9 @@ checks.
 
 1. Read the brief you are given. Write only the files it names and those your role owns.
    Anything outside them, stop and say so in your report.
-2. Phone first: test at 375 px with touch, type in the grid and the answer box, and
-   assert that a crossing's letters survive. Screenshot what you change at phone width
-   and say where the screenshots are.
+2. Phone first: test at 375 px with touch, type in the grid, and assert that a
+   crossing's letters survive. Screenshot what you change at phone width and say where
+   the screenshots are.
 3. Run your role's checks quietly before you report:
    `bun harness/q.ts check -- pnpm check` (or the narrower check the brief names while
    you iterate).

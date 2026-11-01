@@ -12,10 +12,10 @@ The player's page, phone first.
 
 - Mobile-first acceptance: phone, tablet and desktop layouts, touch, the phone keyboard,
   no sideways scroll at 375 px. Screenshot it at phone width.
-- **Crossings are the point.** The first fix: typing in the answer box must not wipe
-  letters a crossing entry gave (`web/player.ts`, `web/model.ts`, the audit's worst code
-  finding), and a focused grid cell takes letters. Tests assert the shared letter
-  survives.
+- **Crossings are the point.** Letters are typed straight into the grid and a square
+  shared by two words keeps its letter (the redesign of 1 November 2026, see
+  `docs/design.md`). Tests assert the shared letter survives. Keep the cursor logic in
+  `web/model.ts`, where the coverage gate sees it.
 - Feedback a player needs (Check's result) is in view of the clue being worked, on a
   phone too.
 - Accessibility: axe passes, the live region announces only what changed, arrow keys

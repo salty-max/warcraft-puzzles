@@ -1,4 +1,10 @@
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import {
+  copyFileSync,
+  mkdirSync,
+  readFileSync,
+  readdirSync,
+  writeFileSync,
+} from "node:fs";
 import ts from "typescript";
 import { format, resolveConfig } from "prettier";
 import { preparePilot, trialAsset, trialRoute } from "./pilot.ts";
@@ -25,6 +31,20 @@ for (const name of ["player", "model"]) {
 }
 const style = readFileSync("web/style.css", "utf8");
 writeFileSync(`${output}/style.css`, style);
+mkdirSync(`${output}/fonts`, { recursive: true });
+const fonts = readdirSync("web/fonts").filter((name) => name.endsWith(".woff2"));
+for (const name of fonts) copyFileSync(`web/fonts/${name}`, `${output}/fonts/${name}`);
+/** The crest on the tab: a gold diamond on the night. */
+const favicon =
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#120d09"/><path d="M16 4l11 12-11 12L5 16z" fill="#c9a227"/><path d="M16 9l6 7-6 7-6-7z" fill="#2a1d12"/></svg>';
+writeFileSync(`${output}/favicon.svg`, favicon);
+/** The offline files carry their fonts and icon inside, so they need no server. */
+const standaloneStyle = style.replace(
+  /url\("\/fonts\/([^"]+)"\)/g,
+  (_, name: string) =>
+    `url("data:font/woff2;base64,${readFileSync(`web/fonts/${name}`).toString("base64")}")`,
+);
+const inlineIcon = `data:image/svg+xml;base64,${Buffer.from(favicon).toString("base64")}`;
 const standalonePlayer = ts.transpileModule(readFileSync("web/player.ts", "utf8"), {
   compilerOptions: { target: ts.ScriptTarget.ES2024, module: ts.ModuleKind.ESNext },
   transformers: {
@@ -44,17 +64,21 @@ for (const trial of trials) {
       "<title>Warcraft crossword</title>",
       `<title>${trials.indexOf(trial) + 1}. ${trial.label} · Warcraft crossword</title>`,
     )
-    .replace("__PUZZLE_JSON__", JSON.stringify(playable).replace(/</g, "\\u003c"))
-    .replace("__DIFFICULTY__", trial.label);
-  const normalHtml = html.replace("__PILOT_LINK__", "/pilot");
-  const portableHtml = html.replace("__PILOT_LINK__", "pilot.html");
+    .replace("__PUZZLE_JSON__", () => JSON.stringify(playable).replace(/</g, "\\u003c"))
+    .replace("__DIFFICULTY__", () => trial.label);
+  const normalHtml = html.replaceAll("__PILOT_LINK__", "/pilot");
+  const portableHtml = html.replaceAll("__PILOT_LINK__", "pilot.html");
   writeFileSync(`${output}/${trialAsset(trial)}`, normalHtml);
   writeFileSync(
     `${output}/${trial.portable}.html`,
     portableHtml
       .replace(
         '<link rel="stylesheet" href="/style.css" />',
-        () => `<style>${style}</style>`,
+        () => `<style>${standaloneStyle}</style>`,
+      )
+      .replace(
+        '<link rel="icon" href="/favicon.svg" type="image/svg+xml" />',
+        () => `<link rel="icon" href="${inlineIcon}" type="image/svg+xml" />`,
       )
       .replace(
         '<script src="/player.js" type="module"></script>',
@@ -110,15 +134,20 @@ for (const trial of trials) {
   );
 }
 
+const gems = {
+  Easy: "\u25c6\u25c7\u25c7",
+  Medium: "\u25c6\u25c6\u25c7",
+  Hard: "\u25c6\u25c6\u25c6",
+};
 const links = (portable: boolean) =>
   trials
     .map(
       (trial, index) =>
-        `<li><a href="${portable ? trial.portable + ".html" : trialRoute(trial)}">${index + 1}. ${trial.label}</a></li>`,
+        `<li><a href="${portable ? trial.portable + ".html" : trialRoute(trial)}"><span class="no">${index + 1}</span> <span class="level">${trial.label}</span> <span class="gems" aria-hidden="true">${gems[trial.label]}</span> <span class="meta">${trial.playable.entries.length} clues, ${trial.playable.width} by ${trial.playable.height}</span></a></li>`,
     )
     .join("");
 const indexPage = (portable: boolean) =>
-  `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Crosswords</title>${portable ? `<style>${style}</style>` : '<link rel="stylesheet" href="/style.css">'}</head><body><main class="pilot-index"><h1>Crosswords</h1><ol class="pilot-list">${links(portable)}</ol><footer>Unofficial Warcraft fan project. Not affiliated with Blizzard Entertainment.</footer></main></body></html>`;
+  `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#120d09"><title>Crosswords</title>${portable ? `<link rel="icon" href="${inlineIcon}" type="image/svg+xml"><style>${standaloneStyle}</style>` : '<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css">'}</head><body><main class="archive"><header class="masthead"><h1 class="title-gilded">Warcraft crossword</h1><p class="rule" aria-hidden="true"></p></header><p class="archive-intro">${trials.length} trial puzzles. Choose one and type straight into the grid. Your letters are saved on this device.</p><ol class="pilot-list">${links(portable)}</ol><footer>Unofficial Warcraft fan project. Not affiliated with Blizzard Entertainment.</footer></main></body></html>`;
 writeFileSync(`${output}/pilot.html`, indexPage(true));
 writeFileSync(`${output}/pilot-index.html`, indexPage(false));
 const summary = [
