@@ -1,0 +1,7290 @@
+[
+  {
+    "grid": "WAR",
+    "name": "War",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 531,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "OLD",
+    "name": "OLD",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 430,
+    "kinds": ["forever-only:faction"],
+    "rejected": true
+  },
+  {
+    "grid": "PET",
+    "name": "Pet",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 330,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "RED",
+    "name": "Red",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 153,
+    "kinds": ["faction"]
+  },
+  {
+    "grid": "INN",
+    "name": "Inn",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 142,
+    "kinds": ["object"],
+    "rejected": true
+  },
+  {
+    "grid": "CAT",
+    "name": "Cat",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 121,
+    "kinds": ["creature", "creature_family"],
+    "rejected": true
+  },
+  {
+    "grid": "EAT",
+    "name": "Eat",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 82,
+    "kinds": ["forever-only:spell"],
+    "rejected": true
+  },
+  {
+    "grid": "BOY",
+    "name": "Boy",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 57,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SKY",
+    "name": "Sky",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 55,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "DIG",
+    "name": "Dig",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 50,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "BAT",
+    "name": "Bat",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 47,
+    "kinds": ["creature_family", "object"],
+    "rejected": true
+  },
+  {
+    "grid": "ROT",
+    "name": "Rot",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 38,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DOG",
+    "name": "Dog",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 24,
+    "kinds": ["creature"],
+    "rejected": true
+  },
+  {
+    "grid": "DRY",
+    "name": "Dry",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 24,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "KEG",
+    "name": "Keg",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 24,
+    "kinds": ["object"]
+  },
+  {
+    "grid": "RAT",
+    "name": "Rat",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 17,
+    "kinds": ["creature"],
+    "rejected": true
+  },
+  {
+    "grid": "NET",
+    "name": "Net",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 16,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "MAX",
+    "name": "Max",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 13,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "OWL",
+    "name": "Owl",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 11,
+    "kinds": ["creature_family"],
+    "rejected": true
+  },
+  {
+    "grid": "UNA",
+    "name": "Una",
+    "len": 3,
+    "pool": "glue",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FIRE",
+    "name": "Fire",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 1724,
+    "kinds": ["object", "skill_line", "spell"],
+    "rejected": true
+  },
+  {
+    "grid": "HOLY",
+    "name": "Holy",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 642,
+    "kinds": ["skill_line"]
+  },
+  {
+    "grid": "MANY",
+    "name": "Many",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 642,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "FEAR",
+    "name": "Fear",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 370,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "CAMP",
+    "name": "Camp",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 365,
+    "kinds": ["forever-only:area"]
+  },
+  {
+    "grid": "AREA",
+    "name": "Area",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 361,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "RUNE",
+    "name": "Rune",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 351,
+    "kinds": ["object"],
+    "rejected": true
+  },
+  {
+    "grid": "HEAL",
+    "name": "Heal",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 305,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "CITY",
+    "name": "City",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 284,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "RAGE",
+    "name": "Rage",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 266,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "BEAR",
+    "name": "Bear",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 237,
+    "kinds": ["creature_family"],
+    "rejected": true
+  },
+  {
+    "grid": "BOOK",
+    "name": "Book",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 203,
+    "kinds": ["object"]
+  },
+  {
+    "grid": "GOLD",
+    "name": "\"Gold\"",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 201,
+    "kinds": ["forever-only:item"],
+    "rejected": true
+  },
+  {
+    "grid": "TEST",
+    "name": "Test",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 169,
+    "kinds": ["object"]
+  },
+  {
+    "grid": "NOTE",
+    "name": "Note",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 160,
+    "kinds": ["forever-only:object"]
+  },
+  {
+    "grid": "AXES",
+    "name": "Axes",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 157,
+    "kinds": ["skill_line"]
+  },
+  {
+    "grid": "BLUE",
+    "name": "Blue",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 154,
+    "kinds": ["faction"]
+  },
+  {
+    "grid": "LADY",
+    "name": "Lady",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 154,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WIND",
+    "name": "Wind",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 122,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "FISH",
+    "name": "Fish",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 118,
+    "kinds": ["forever-only:spell"],
+    "rejected": true
+  },
+  {
+    "grid": "GROW",
+    "name": "Grow",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 113,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "AURA",
+    "name": "Aura",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 110,
+    "kinds": ["object"],
+    "rejected": true
+  },
+  {
+    "grid": "FOOD",
+    "name": "Food",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 104,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "FOOL",
+    "name": "Fool",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 104,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "BURN",
+    "name": "Burn",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 101,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FLEE",
+    "name": "Flee",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 101,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "HIDE",
+    "name": "Hide",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 101,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "ROBE",
+    "name": "Robe",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 97,
+    "kinds": ["object"]
+  },
+  {
+    "grid": "ARMS",
+    "name": "Arms",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 93,
+    "kinds": ["skill_line"]
+  },
+  {
+    "grid": "STUN",
+    "name": "Stun",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 89,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "FARM",
+    "name": "Farm",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 84,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "CLAW",
+    "name": "Claw",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 79,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "BANK",
+    "name": "Bank",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 74,
+    "kinds": ["object"]
+  },
+  {
+    "grid": "SLOW",
+    "name": "Slow",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 70,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SPOT",
+    "name": "Spot",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 68,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TRAP",
+    "name": "Trap",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 68,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "LAVA",
+    "name": "Lava",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 65,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "HEAT",
+    "name": "heat",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 61,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TORN",
+    "name": "Torn",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 60,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "PREY",
+    "name": "Prey",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 55,
+    "kinds": ["faction", "spell"]
+  },
+  {
+    "grid": "BITE",
+    "name": "Bite",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 53,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "BOMB",
+    "name": "Bomb",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 49,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ROOT",
+    "name": "Root",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 47,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "FEED",
+    "name": "Feed",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 45,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TRIP",
+    "name": "Trip",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 40,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LASH",
+    "name": "Lash",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 39,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "GIRL",
+    "name": "Girl",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 38,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MACE",
+    "name": "Mace",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 33,
+    "kinds": ["forever-only:item"],
+    "rejected": true
+  },
+  {
+    "grid": "BIND",
+    "name": "Bind",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 31,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SLAM",
+    "name": "Slam",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 31,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "CAGE",
+    "name": "Cage",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 29,
+    "kinds": ["object"]
+  },
+  {
+    "grid": "CRAB",
+    "name": "Crab",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 29,
+    "kinds": ["creature", "creature_family"],
+    "rejected": true
+  },
+  {
+    "grid": "ROAR",
+    "name": "Roar",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 29,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "TENT",
+    "name": "Tent",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 28,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "BAIT",
+    "name": "Bait",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 26,
+    "kinds": ["forever-only:item"]
+  },
+  {
+    "grid": "KICK",
+    "name": "Kick",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 26,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "SWIM",
+    "name": "Swim",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 25,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "GATE",
+    "name": "Gate",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 24,
+    "kinds": ["object"]
+  },
+  {
+    "grid": "SNOW",
+    "name": "Snow",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 23,
+    "kinds": ["forever-only:object"],
+    "rejected": true
+  },
+  {
+    "grid": "RIFT",
+    "name": "Rift",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 22,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "JOHN",
+    "name": "John",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 21,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FANG",
+    "name": "Fang",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 20,
+    "kinds": ["creature"],
+    "rejected": true
+  },
+  {
+    "grid": "SPIT",
+    "name": "Spit",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 19,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SALT",
+    "name": "Salt",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 18,
+    "kinds": ["forever-only:item"]
+  },
+  {
+    "grid": "BASH",
+    "name": "Bash",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 17,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "TOSS",
+    "name": "Toss",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 17,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "COAL",
+    "name": "Coal",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 15,
+    "kinds": ["forever-only:item"],
+    "rejected": true
+  },
+  {
+    "grid": "WORM",
+    "name": "Worm",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 15,
+    "kinds": ["forever-only:object"]
+  },
+  {
+    "grid": "PITY",
+    "name": "Pity",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 14,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DEER",
+    "name": "Deer",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 13,
+    "kinds": ["creature"],
+    "rejected": true
+  },
+  {
+    "grid": "FROG",
+    "name": "Frog",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 13,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LIFT",
+    "name": "Lift",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 13,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "NINE",
+    "name": "Nine",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 13,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "LEAP",
+    "name": "Leap",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 12,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SLIP",
+    "name": "Slip",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 12,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "BUFF",
+    "name": "Buff",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "RAZE",
+    "name": "Raze",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JADE",
+    "name": "Jade",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 10,
+    "kinds": ["creature-elite"],
+    "rejected": true
+  },
+  {
+    "grid": "MEND",
+    "name": "Mend",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 10,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "MIST",
+    "name": "Mist",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ROPE",
+    "name": "Rope",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 9,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "DAZE",
+    "name": "Daze",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LOOM",
+    "name": "Loom",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 8,
+    "kinds": ["forever-only:item"]
+  },
+  {
+    "grid": "SING",
+    "name": "Sing",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 8,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "EMMA",
+    "name": "Emma",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 7,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "WISP",
+    "name": "Wisp",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 7,
+    "kinds": ["creature"],
+    "rejected": true
+  },
+  {
+    "grid": "BANE",
+    "name": "Bane",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TICK",
+    "name": "Tick",
+    "len": 4,
+    "pool": "glue",
+    "mentions": 6,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ONU",
+    "name": "Onu",
+    "len": 3,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MODR",
+    "name": "Modr",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 21,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "NOGG",
+    "name": "Nogg",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KROG",
+    "name": "Krog",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RWAG",
+    "name": "Rwag",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "EGAN",
+    "name": "Egan",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "QUAE",
+    "name": "Quae",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "THOR",
+    "name": "Thor",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "UMPI",
+    "name": "Umpi",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ZOLO",
+    "name": "Zolo",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ADOS",
+    "name": "Ados",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "GOLM",
+    "name": "Golm",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "GORN",
+    "name": "Gorn",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NERU",
+    "name": "Neru",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "SUMI",
+    "name": "Sumi",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TEPA",
+    "name": "Tepa",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TUMI",
+    "name": "Tumi",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ZGGI",
+    "name": "Zggi",
+    "len": 4,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RUINS",
+    "name": "Ruins",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 190,
+    "kinds": ["forever-only:area"]
+  },
+  {
+    "grid": "BURNS",
+    "name": "Burns",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 121,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "IMPSY",
+    "name": "Impsy",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "URKYO",
+    "name": "Ur'kyo",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "QUINN",
+    "name": "Quinn",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RAYNE",
+    "name": "Rayne",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "RINJI",
+    "name": "Rin'ji",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "THORK",
+    "name": "Thork",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WARUG",
+    "name": "Warug",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "OZZIE",
+    "name": "Ozzie",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ZENGU",
+    "name": "Zengu",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MIRAN",
+    "name": "Miran",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RINGO",
+    "name": "Ringo",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FRANG",
+    "name": "Frang",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NAGAZ",
+    "name": "Nagaz",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TYMOR",
+    "name": "Tymor",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "AHANU",
+    "name": "Ahanu",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DARCY",
+    "name": "Darcy",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DRULL",
+    "name": "Drull",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "HALEH",
+    "name": "Haleh",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "KRUSK",
+    "name": "Krusk",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LORAX",
+    "name": "Lorax",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LUMAK",
+    "name": "Lumak",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MAIAH",
+    "name": "Mai'ah",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NIPSY",
+    "name": "Nipsy",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "OGRON",
+    "name": "Ogron",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SAEAN",
+    "name": "Saean",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SAYGE",
+    "name": "Sayge",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SAYOC",
+    "name": "Sayoc",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "TALEN",
+    "name": "Talen",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ZARGH",
+    "name": "Zargh",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ANAYA",
+    "name": "Anaya",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DOGOL",
+    "name": "Do'gol",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DORAS",
+    "name": "Doras",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "HUKKU",
+    "name": "Hukku",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "KEBOK",
+    "name": "Kebok",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MIJAN",
+    "name": "Mijan",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "SOBOZ",
+    "name": "Soboz",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "THARG",
+    "name": "Tharg",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ZAMJA",
+    "name": "Zamja",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ARNOK",
+    "name": "Arnok",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GRELL",
+    "name": "Grell",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature", "faction"],
+    "rejected": true
+  },
+  {
+    "grid": "GRURK",
+    "name": "Grurk",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MAGAR",
+    "name": "Magar",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SALFA",
+    "name": "Salfa",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SAROK",
+    "name": "Sarok",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TAZAN",
+    "name": "Tazan",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "THUND",
+    "name": "Thund",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TOOGA",
+    "name": "Tooga",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "UZZEK",
+    "name": "Uzzek",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WHUUT",
+    "name": "Whuut",
+    "len": 5,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BODLEY",
+    "name": "Bodley",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 55,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MOKVAR",
+    "name": "Mokvar",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 46,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KORMOK",
+    "name": "Kormok",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "VOLCOR",
+    "name": "Volcor",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ARYGOS",
+    "name": "Arygos",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "POZZIK",
+    "name": "Pozzik",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JARIEN",
+    "name": "Jarien",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 12,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "JEDIGA",
+    "name": "Jediga",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 12,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "VARGUS",
+    "name": "Vargus",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 12,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GORMUL",
+    "name": "Gor'mul",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SOTHOS",
+    "name": "Sothos",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "THOTAR",
+    "name": "Thotar",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TORGAN",
+    "name": "Tor'gan",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KRAZEK",
+    "name": "Krazek",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DEVRAK",
+    "name": "Devrak",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "KADRAK",
+    "name": "Kadrak",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MARCUS",
+    "name": "Marcus",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "OGTINC",
+    "name": "Ogtinc",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KIBLER",
+    "name": "Kibler",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LINKEN",
+    "name": "Linken",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "XAVIAN",
+    "name": "Xavian",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "ANILIA",
+    "name": "Anilia",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DORIUS",
+    "name": "Dorius",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GORNEK",
+    "name": "Gornek",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SCOOTY",
+    "name": "Scooty",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SYURNA",
+    "name": "Syurna",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GNOARN",
+    "name": "Gnoarn",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GOLDIR",
+    "name": "Gol'dir",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JORGEN",
+    "name": "Jorgen",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KORRAN",
+    "name": "Korran",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "STOLEY",
+    "name": "Stoley",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TAIJIN",
+    "name": "Tai'jin",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "HULDAR",
+    "name": "Huldar",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JEZIBA",
+    "name": "Jeziba",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KENJAI",
+    "name": "Ken'jai",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KILRAM",
+    "name": "Kilram",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LARION",
+    "name": "Larion",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MOSARN",
+    "name": "Mosarn",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MUIGIN",
+    "name": "Muigin",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "OLEMMA",
+    "name": "Ol' Emma",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHADRA",
+    "name": "Shadra",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "TOKKAR",
+    "name": "Tok'Kar",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TYRION",
+    "name": "Tyrion",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "VAELAN",
+    "name": "Vaelan",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "VECTUS",
+    "name": "Vectus",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "BAELOG",
+    "name": "Baelog",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "GASHER",
+    "name": "Gasher",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "GAZROG",
+    "name": "Gazrog",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JEEVEE",
+    "name": "J'eevee",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MARGOZ",
+    "name": "Margoz",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NARTOK",
+    "name": "Nartok",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "PIZNIK",
+    "name": "Piznik",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "REZLAK",
+    "name": "Rezlak",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHANDA",
+    "name": "Shanda",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TETHIS",
+    "name": "Tethis",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "VAGASH",
+    "name": "Vagash",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ZULLOR",
+    "name": "Zul'Lor",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "BENGOR",
+    "name": "Bengor",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DIGRAT",
+    "name": "Dig Rat",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FAHRAD",
+    "name": "Fahrad",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FARUZA",
+    "name": "Faruza",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FEUGEN",
+    "name": "Feugen",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "GAZBAN",
+    "name": "Gazban",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "HGARTH",
+    "name": "Hgarth",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KAMARI",
+    "name": "Kamari",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KAPLAK",
+    "name": "Kaplak",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KRAKLE",
+    "name": "Krakle",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MELYNN",
+    "name": "Me'lynn",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NAFIEN",
+    "name": "Nafien",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RHINAG",
+    "name": "Rhinag",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHREEV",
+    "name": "Shreev",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "URSIUS",
+    "name": "Ursius",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "YELMAK",
+    "name": "Yelmak",
+    "len": 6,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DELIANA",
+    "name": "Deliana",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 46,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "STABLES",
+    "name": "Stables",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 26,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "MYZRAEL",
+    "name": "Myzrael",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 23,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "TABETHA",
+    "name": "Tabetha",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 18,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "YENNIKU",
+    "name": "Yenniku",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 16,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DAZALAR",
+    "name": "Dazalar",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DENALAN",
+    "name": "Denalan",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NARALEX",
+    "name": "Naralex",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "CHROMIE",
+    "name": "Chromie",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MOLTHOR",
+    "name": "Molthor",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ORALIUS",
+    "name": "Oralius",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SNAPJAW",
+    "name": "Snapjaw",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JENSHAN",
+    "name": "Jen'shan",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "HEMATUS",
+    "name": "Hematus",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ISALIEN",
+    "name": "Isalien",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "SKUERTO",
+    "name": "Skuerto",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "IVERRON",
+    "name": "Iverron",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FIZZLES",
+    "name": "Fizzles",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "IRONFOE",
+    "name": "Ironfoe",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "KELDRAN",
+    "name": "Keldran",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LEXLORT",
+    "name": "Lexlort",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NIMBOYA",
+    "name": "Nimboya",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TELONIS",
+    "name": "Telonis",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WYRMBOG",
+    "name": "Wyrmbog",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "DADANGA",
+    "name": "Dadanga",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MATHIEL",
+    "name": "Mathiel",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHIKRIK",
+    "name": "Shikrik",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TAJARRI",
+    "name": "Tajarri",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TECHBOT",
+    "name": "Techbot",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ZANKAJA",
+    "name": "Zankaja",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DRUMFEL",
+    "name": "Drum Fel",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GARTHOK",
+    "name": "Gar'Thok",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GORTESH",
+    "name": "Gor'tesh",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GRIMLOK",
+    "name": "Grimlok",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "HANASHI",
+    "name": "Hanashi",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MAKRURA",
+    "name": "Makrura",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["faction"],
+    "rejected": true
+  },
+  {
+    "grid": "MCGAVAN",
+    "name": "McGavan",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MIKHAIL",
+    "name": "Mikhail",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TOGTHAR",
+    "name": "Tog'thar",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TRANREK",
+    "name": "Tran'rek",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ULATHEK",
+    "name": "Ulathek",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "UNTHUWA",
+    "name": "Un'Thuwa",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DUSKBAT",
+    "name": "Duskbat",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GORLASH",
+    "name": "Gorlash",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "GRAWMUG",
+    "name": "Grawmug",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GRINGER",
+    "name": "Gringer",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "HELBOAR",
+    "name": "Helboar",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature", "spell"]
+  },
+  {
+    "grid": "JOCASTE",
+    "name": "Jocaste",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MAIZOTH",
+    "name": "Mai'Zoth",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "MUGTHOL",
+    "name": "Mug'thol",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "SINDALL",
+    "name": "Sin'Dall",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "THERZOK",
+    "name": "Therzok",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "XAVARIC",
+    "name": "Xavaric",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BIGWILL",
+    "name": "Big Will",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GNASHER",
+    "name": "Gnasher",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "HALYCON",
+    "name": "Halycon",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "KIMJAEL",
+    "name": "Kim'jael",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KORGHAN",
+    "name": "Kor'ghan",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LEGACKI",
+    "name": "Legacki",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MUSHGOG",
+    "name": "Mushgog",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ORKALAR",
+    "name": "Or'Kalar",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "QUENTIN",
+    "name": "Quentin",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "QUIXXIL",
+    "name": "Quixxil",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RAHAURO",
+    "name": "Rahauro",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "STALAGG",
+    "name": "Stalagg",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ULAELEK",
+    "name": "Ula'elek",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WORGPUP",
+    "name": "Worg Pup",
+    "len": 7,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "CRAFTING",
+    "name": "Crafting",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 53,
+    "kinds": ["forever-only:area"]
+  },
+  {
+    "grid": "HIVEZORA",
+    "name": "Hive'Zora",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 33,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "HIVEASHI",
+    "name": "Hive'Ashi",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 22,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "ANDORGOS",
+    "name": "Andorgos",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 18,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "FELHOUND",
+    "name": "Felhound",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 17,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NATPAGLE",
+    "name": "Nat Pagle",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TYRSHAND",
+    "name": "Tyr's Hand",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "FIRELORD",
+    "name": "Firelord",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "MORGANTH",
+    "name": "Morganth",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "GORETUSK",
+    "name": "Goretusk",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 12,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHENTHUL",
+    "name": "Shenthul",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 12,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LARKORWI",
+    "name": "Lar'korwi",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LUNACLAW",
+    "name": "Lunaclaw",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NEGOLASH",
+    "name": "Negolash",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "KINELORY",
+    "name": "Kinelory",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KROSHIUS",
+    "name": "Kroshius",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "VETHSERA",
+    "name": "Vethsera",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "CRAGBOAR",
+    "name": "Crag Boar",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DRIZZLIK",
+    "name": "Drizzlik",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GRIMCLAW",
+    "name": "Grimclaw",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature", "item-rare+"]
+  },
+  {
+    "grid": "ZANDOZAN",
+    "name": "Zando'zan",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ROKORHAN",
+    "name": "Rok Orhan",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DUNGAROK",
+    "name": "Dun Garok",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "KERNOBEE",
+    "name": "Kernobee",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "OBSIDION",
+    "name": "Obsidion",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "RAZZERIC",
+    "name": "Razzeric",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHYROTAM",
+    "name": "Shy-Rotam",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "VOIDZONE",
+    "name": "Void Zone",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature", "spell"]
+  },
+  {
+    "grid": "YEHKINYA",
+    "name": "Yeh'kinya",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ANSEKHWA",
+    "name": "Ansekhwa",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "BARTLEBY",
+    "name": "Bartleby",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DRAZZILB",
+    "name": "Draz'Zilb",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JESRIMON",
+    "name": "Jes'rimon",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MELISARA",
+    "name": "Melisara",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MERIDETH",
+    "name": "Merideth",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "NIGHTRUN",
+    "name": "Night Run",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "REDROCKS",
+    "name": "Red Rocks",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "THELDREN",
+    "name": "Theldren",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "AINETHIL",
+    "name": "Ainethil",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BAZZALAN",
+    "name": "Bazzalan",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "CAMPBOFF",
+    "name": "Camp Boff",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "ELANARIA",
+    "name": "Elanaria",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FROSTMAW",
+    "name": "Frostmaw",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GAERIYAN",
+    "name": "Gaeriyan",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GANZULAH",
+    "name": "Gan'zulah",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GOGGEROC",
+    "name": "Goggeroc",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ISHAAWAK",
+    "name": "Isha Awak",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ITHARIUS",
+    "name": "Itharius",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JDCOLLIE",
+    "name": "J.D. Collie",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MORROGAL",
+    "name": "Mor'rogal",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "OWATANKA",
+    "name": "Owatanka",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "PANDACUB",
+    "name": "Panda Cub",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RAGECLAW",
+    "name": "Rageclaw",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RAVASAUR",
+    "name": "Ravasaur",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RENATAKI",
+    "name": "Renataki",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "SPROGGER",
+    "name": "Sprogger",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ZILBAGOB",
+    "name": "Zilbagob",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["encounter"]
+  },
+  {
+    "grid": "AKZELOTH",
+    "name": "Ak'Zeloth",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ALYISSIA",
+    "name": "Alyissia",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ANATHERA",
+    "name": "Anathera",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ARRACHEA",
+    "name": "Arra'chea",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BRUMERAN",
+    "name": "Brumeran",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "DARIANNA",
+    "name": "Darianna",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ELFARRAN",
+    "name": "Elfarran",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "FELZERUL",
+    "name": "Fel'zerul",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GOLDROAD",
+    "name": "Gold Road",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "IRISLAKE",
+    "name": "Iris Lake",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "MIRELORD",
+    "name": "Mire Lord",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MURKDEEP",
+    "name": "Murkdeep",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "PUSILLIN",
+    "name": "Pusillin",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "SEAGIANT",
+    "name": "Sea Giant",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "UTHELNAY",
+    "name": "Uthel'nay",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WARRIDER",
+    "name": "War Rider",
+    "len": 8,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ELDERRISE",
+    "name": "Elder Rise",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 28,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "SOUTHSEAS",
+    "name": "South Seas",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 21,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "SHARPBEAK",
+    "name": "Sharpbeak",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TERENTHIS",
+    "name": "Terenthis",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RAVENHILL",
+    "name": "Raven Hill",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "ROCKBITER",
+    "name": "Rockbiter",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BAELMODAN",
+    "name": "Bael Modan",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "HIGHPERCH",
+    "name": "Highperch",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["area"],
+    "rejected": true
+  },
+  {
+    "grid": "NEWAVALON",
+    "name": "New Avalon",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "AMETHARAN",
+    "name": "Ameth'Aran",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "BLACKWING",
+    "name": "Blackwing",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KINWEELAY",
+    "name": "Kin'weelay",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "REBELCAMP",
+    "name": "Rebel Camp",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "VISHKOZUS",
+    "name": "Vish Kozus",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "BLACKLASH",
+    "name": "Blacklash",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "SHAELDRYN",
+    "name": "Shael'dryn",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "CYCLONIAN",
+    "name": "Cyclonian",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "SKULKROCK",
+    "name": "Skulk Rock",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "ARKONARIN",
+    "name": "Arko'narin",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GAMMERITA",
+    "name": "Gammerita",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "MADAMEEVA",
+    "name": "Madame Eva",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MALAKAJIN",
+    "name": "Malaka'jin",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "NUMBERTWO",
+    "name": "Number Two",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "CHIMAEROK",
+    "name": "Chimaerok",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "DENMOTHER",
+    "name": "Den Mother",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GHOSTHOWL",
+    "name": "Ghost Howl",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "BESSELETH",
+    "name": "Besseleth",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "BHAGTHERA",
+    "name": "Bhag'thera",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "BLOODPIKE",
+    "name": "Bloodpike",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "CHEFGRUAL",
+    "name": "Chef Grual",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DIRTMOUND",
+    "name": "Dirt Mound",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature", "object"]
+  },
+  {
+    "grid": "ESKHANDAR",
+    "name": "Eskhandar",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GAHZRANKA",
+    "name": "Gahz'ranka",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "KALIREMIK",
+    "name": "Kali Remik",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MANGECLAW",
+    "name": "Mangeclaw",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHADUMBRA",
+    "name": "Shadumbra",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHRIKEBAT",
+    "name": "Shrike Bat",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "SKYCALLER",
+    "name": "Skycaller",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "URSANGOUS",
+    "name": "Ursangous",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "XAVATHRAS",
+    "name": "Xavathras",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "AGOLWATHA",
+    "name": "Agol'watha",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "ALGAZGATE",
+    "name": "Algaz Gate",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "BELLYGRUB",
+    "name": "Bellygrub",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BLINDMARY",
+    "name": "Blind Mary",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DUSTDEVIL",
+    "name": "Dust Devil",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ECHEYAKEE",
+    "name": "Echeyakee",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FARMERRAY",
+    "name": "Farmer Ray",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FEYDRAGON",
+    "name": "Fey Dragon",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KARLBORAN",
+    "name": "Karl Boran",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KHANSHAKA",
+    "name": "Khan Shaka",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LYLANDRIS",
+    "name": "Lylandris",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "NIGHTLASH",
+    "name": "Nightlash",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NORTHDALE",
+    "name": "Northdale",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "RANSHALLA",
+    "name": "Ranshalla",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RINGOFLAW",
+    "name": "Ring of Law",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["encounter"]
+  },
+  {
+    "grid": "SAGEBLADE",
+    "name": "Sageblade",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "SARLTOOTH",
+    "name": "Sarltooth",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "STEELSNAP",
+    "name": "Steelsnap",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "THARILZUN",
+    "name": "Tharil'zun",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "THERYLUNE",
+    "name": "Therylune",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "VIZZKLICK",
+    "name": "Vizzklick",
+    "len": 9,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LUMBERMILL",
+    "name": "Lumber Mill",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 56,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "SHADOWGLEN",
+    "name": "Shadowglen",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 27,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "PLAGUEWOOD",
+    "name": "Plaguewood",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 23,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "DEATHKNELL",
+    "name": "Deathknell",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 21,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "SOULFLAYER",
+    "name": "Soulflayer",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 20,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "MORBENTFEL",
+    "name": "Morbent Fel",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 16,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "FALLENHERO",
+    "name": "Fallen Hero",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "CRYPTFIEND",
+    "name": "Crypt Fiend",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "HUNTERRISE",
+    "name": "Hunter Rise",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "TOWERPOINT",
+    "name": "Tower Point",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "SHADOWFANG",
+    "name": "Shadowfang",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 12,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "SPIRITRISE",
+    "name": "Spirit Rise",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 12,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "SHADOWHOLD",
+    "name": "Shadow Hold",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["area", "map"]
+  },
+  {
+    "grid": "CALANDRATH",
+    "name": "Calandrath",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FORESTSONG",
+    "name": "Forest Song",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "TERRORDALE",
+    "name": "Terrordale",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "KRANALFISS",
+    "name": "Kranal Fiss",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "STONEWATCH",
+    "name": "Stonewatch",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "WARDENHARO",
+    "name": "Warden Haro",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LEPERGNOME",
+    "name": "Leper Gnome",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "PEDDLEFEET",
+    "name": "Peddlefeet",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BASHALARAN",
+    "name": "Bashal'Aran",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "GATHILZOGG",
+    "name": "Gath'Ilzogg",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "RANEYORICK",
+    "name": "Rane Yorick",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ZIZFIZZIKS",
+    "name": "Ziz Fizziks",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FENRISISLE",
+    "name": "Fenris Isle",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "MAGMATOTEM",
+    "name": "Magma Totem",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature", "spell"]
+  },
+  {
+    "grid": "MISTRUNNER",
+    "name": "Mistrunner",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "PTERRORDAX",
+    "name": "Pterrordax",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RAGGEDJOHN",
+    "name": "Ragged John",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "AQUEMENTAS",
+    "name": "Aquementas",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "EYEOFCTHUN",
+    "name": "Eye of C'Thun",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite", "item-rare+"]
+  },
+  {
+    "grid": "FLAMECREST",
+    "name": "Flame Crest",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "FLAMEWAKER",
+    "name": "Flamewaker",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "KHANHRATHA",
+    "name": "Khan Hratha",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "LAKOTAMANI",
+    "name": "Lakota'mani",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SORROWHILL",
+    "name": "Sorrow Hill",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "THEOCRITUS",
+    "name": "Theocritus",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "UTHERSTOMB",
+    "name": "Uther's Tomb",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "VALORSREST",
+    "name": "Valor's Rest",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "VESPRYSTUS",
+    "name": "Vesprystus",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "ALEXIBAROV",
+    "name": "Alexi Barov",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "CHROMAGGUS",
+    "name": "Chromaggus",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "DEATHCLASP",
+    "name": "Deathclasp",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "FRAYISLAND",
+    "name": "Fray Island",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "ISHAMUHALE",
+    "name": "Ishamuhale",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KAROSRAZOK",
+    "name": "Karos Razok",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "MAXANANVOL",
+    "name": "Maxan Anvol",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MIRRORLAKE",
+    "name": "Mirror Lake",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "OAKENSCOWL",
+    "name": "Oakenscowl",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "OLDMURKEYE",
+    "name": "Old Murk-Eye",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "OROKKOMOSH",
+    "name": "Orokk Omosh",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RUNEBROKER",
+    "name": "Rune Broker",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "SHADRAALOR",
+    "name": "Shadra'Alor",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "SHARLINDRA",
+    "name": "Sharlindra",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHARPTALON",
+    "name": "Sharptalon",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SICKLYDEER",
+    "name": "Sickly Deer",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TELFJOOLAM",
+    "name": "Telf Joolam",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ANDRONGANT",
+    "name": "Andron Gant",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "COLARADEAN",
+    "name": "Colara Dean",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "CRAGCOYOTE",
+    "name": "Crag Coyote",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DAVIDTRIAS",
+    "name": "David Trias",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FARMERGETZ",
+    "name": "Farmer Getz",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GOSHEKFARM",
+    "name": "Go'Shek Farm",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "JOHNTURNER",
+    "name": "John Turner",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KORMEKSHUT",
+    "name": "Kormek's Hut",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "LADYSEVINE",
+    "name": "Lady Sevine",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "MAGUSTIRTH",
+    "name": "Magus Tirth",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MOKTARKRIN",
+    "name": "Moktar Krin",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "OLDBLANCHY",
+    "name": "Old Blanchy",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "OTHOMOJIKO",
+    "name": "Otho Moji'ko",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "POLARTUNIC",
+    "name": "Polar Tunic",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "RAZORSEDGE",
+    "name": "Razor's Edge",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "RIGGLEFUZZ",
+    "name": "Rigglefuzz",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHAOLWATHA",
+    "name": "Shaol'watha",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "STRAHNBRAD",
+    "name": "Strahnbrad",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "TOXICSLIME",
+    "name": "Toxic Slime",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "XANDIVIOUS",
+    "name": "Xandivious",
+    "len": 10,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "YOJAMBAISLE",
+    "name": "Yojamba Isle",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 33,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "BLACKFATHOM",
+    "name": "Blackfathom",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 30,
+    "kinds": ["faction"]
+  },
+  {
+    "grid": "MANGLETOOTH",
+    "name": "Mangletooth",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 18,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "AELTHALYSTE",
+    "name": "Aelthalyste",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 16,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BORWILDMANE",
+    "name": "Bor Wildmane",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 16,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NETHERGARDE",
+    "name": "Nethergarde",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["faction"]
+  },
+  {
+    "grid": "LAKEALAMETH",
+    "name": "Lake Al'Ameth",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "MORGRAYHOOF",
+    "name": "Mor Grayhoof",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 13,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "HORDEFORCES",
+    "name": "Horde Forces",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 12,
+    "kinds": ["faction"]
+  },
+  {
+    "grid": "MOONSTALKER",
+    "name": "Moonstalker",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "CRYSTALLAKE",
+    "name": "Crystal Lake",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "EMBERSTRIFE",
+    "name": "Emberstrife",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "NIJELSPOINT",
+    "name": "Nijel's Point",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "DEEPRUNTRAM",
+    "name": "Deeprun Tram",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["area", "map"]
+  },
+  {
+    "grid": "BLAZERUNNER",
+    "name": "Blazerunner",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "GUARDTHOMAS",
+    "name": "Guard Thomas",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "INCENDOSAUR",
+    "name": "Incendosaur",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ABERCROMBIE",
+    "name": "Abercrombie",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BARONVARDUS",
+    "name": "Baron Vardus",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ICECLAWBEAR",
+    "name": "Ice Claw Bear",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TAURENDRUID",
+    "name": "Tauren Druid",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "THISTLEBEAR",
+    "name": "Thistle Bear",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "AJECKROUACK",
+    "name": "Ajeck Rouack",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "CLERKDALTRY",
+    "name": "Clerk Daltry",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ELLINGTRIAS",
+    "name": "Elling Trias",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "IVARTHEFOUL",
+    "name": "Ivar the Foul",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JORNSKYSEER",
+    "name": "Jorn Skyseer",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LETHTENDRIS",
+    "name": "Lethtendris",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "MYSTRALLAKE",
+    "name": "Mystral Lake",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "PAVALREETHE",
+    "name": "Paval Reethe",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "POOLOFTEARS",
+    "name": "Pool of Tears",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "ROLANDSDOOM",
+    "name": "Roland's Doom",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "SAVAGEGUARD",
+    "name": "Savage Guard",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "SNOWLEOPARD",
+    "name": "Snow Leopard",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SURFCRAWLER",
+    "name": "Surf Crawler",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TKASHIRUINS",
+    "name": "Tkashi Ruins",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "BAYOFSTORMS",
+    "name": "Bay of Storms",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "KAMDEEPFURY",
+    "name": "Kam Deepfury",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "LIVINGFLAME",
+    "name": "Living Flame",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature", "spell"]
+  },
+  {
+    "grid": "MORGANSTERN",
+    "name": "Morgan Stern",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MOTTLEDBOAR",
+    "name": "Mottled Boar",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SPIRITTOTEM",
+    "name": "Spirit Totem",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature", "spell"]
+  },
+  {
+    "grid": "ALCAZISLAND",
+    "name": "Alcaz Island",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "BELNISTRASZ",
+    "name": "Belnistrasz",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DEXTRENWARD",
+    "name": "Dextren Ward",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "EVASARKHOFF",
+    "name": "Eva Sarkhoff",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "FALDIRSCOVE",
+    "name": "Faldir's Cove",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "FORESTSEDGE",
+    "name": "Forest's Edge",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "GUBBERBLUMP",
+    "name": "Gubber Blump",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "HEROESVIGIL",
+    "name": "Heroes' Vigil",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "LADYSATHRAH",
+    "name": "Lady Sathrah",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LORDMELENAS",
+    "name": "Lord Melenas",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MILTONSHEAF",
+    "name": "Milton Sheaf",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SOLMHARGRIN",
+    "name": "Solm Hargrin",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "STINGLASHER",
+    "name": "Stinglasher",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WYNNELARSON",
+    "name": "Wynne Larson",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ALAMARGRIMM",
+    "name": "Alamar Grimm",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ARGENTGUARD",
+    "name": "Argent Guard",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BAZILTHREDD",
+    "name": "Bazil Thredd",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite", "encounter"]
+  },
+  {
+    "grid": "CAMPAPARAJE",
+    "name": "Camp Aparaje",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "CHIEFMURGUT",
+    "name": "Chief Murgut",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DALTONSHORN",
+    "name": "Dalton's Horn",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "DOCTORMARSH",
+    "name": "Doctor Marsh",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DONALOSGOOD",
+    "name": "Donal Osgood",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "DOOMBRINGER",
+    "name": "Doombringer",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "DREAMVISION",
+    "name": "Dream Vision",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature", "spell"]
+  },
+  {
+    "grid": "GLACIALVEST",
+    "name": "Glacial Vest",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "HEARTSEEKER",
+    "name": "Heartseeker",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "HEATEDBLADE",
+    "name": "Heated Blade",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "ICEFLOWLAKE",
+    "name": "Iceflow Lake",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "KEZANSTAINT",
+    "name": "Kezan's Taint",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "LILLIANVOSS",
+    "name": "Lillian Voss",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["encounter"]
+  },
+  {
+    "grid": "MADMAGGLISH",
+    "name": "Mad Magglish",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "MIZJAHRUINS",
+    "name": "Mizjah Ruins",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "PIPQUICKWIT",
+    "name": "Pip Quickwit",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "POLARGLOVES",
+    "name": "Polar Gloves",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "PRAIRIEWOLF",
+    "name": "Prairie Wolf",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "QUINNYORICK",
+    "name": "Quinn Yorick",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SERGEANTBLY",
+    "name": "Sergeant Bly",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "SERGEHINOTT",
+    "name": "Serge Hinott",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SIMONTANNER",
+    "name": "Simon Tanner",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TARINDRELLA",
+    "name": "Tarindrella",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WASHTEPAWNE",
+    "name": "Washte Pawne",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WELDONBAROV",
+    "name": "Weldon Barov",
+    "len": 11,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "CENARIONHOLD",
+    "name": "Cenarion Hold",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 130,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "REFUGEPOINTE",
+    "name": "Refuge Pointe",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 39,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "TWINEMPERORS",
+    "name": "Twin Emperors",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 20,
+    "kinds": ["encounter"]
+  },
+  {
+    "grid": "SHADOWSTRIKE",
+    "name": "Shadow Strike",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 19,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "SHADYRESTINN",
+    "name": "Shady Rest Inn",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 19,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "KANDROSTRASZ",
+    "name": "Kandrostrasz",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 18,
+    "kinds": ["creature-elite"],
+    "rejected": true
+  },
+  {
+    "grid": "FREEWINDPOST",
+    "name": "Freewind Post",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 16,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "PLAINSTRIDER",
+    "name": "Plainstrider",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 16,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "THUNDERHEART",
+    "name": "Thunderheart",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 15,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "IRONDEEPMINE",
+    "name": "Irondeep Mine",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "MAESTRASPOST",
+    "name": "Maestra's Post",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "STONEWATCHER",
+    "name": "Stone Watcher",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 14,
+    "kinds": ["forever-only:creature"]
+  },
+  {
+    "grid": "NEXUSCRYSTAL",
+    "name": "Nexus Crystal",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 12,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "DALSONSTEARS",
+    "name": "Dalson's Tears",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "YAWSHARPMANE",
+    "name": "Yaw Sharpmane",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 11,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "JENEUSANCREA",
+    "name": "Je'neu Sancrea",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SEARINGBLADE",
+    "name": "Searing Blade",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "SPUTTERVALVE",
+    "name": "Sputtervalve",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 10,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "UTHEKTHEWISE",
+    "name": "Uthek the Wise",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 9,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "AGAMANDMILLS",
+    "name": "Agamand Mills",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["area", "object"]
+  },
+  {
+    "grid": "CAPTAINNIALS",
+    "name": "Captain Nials",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 8,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DRANDROFFERS",
+    "name": "Dran Droffers",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DUKEHYDRAXIS",
+    "name": "Duke Hydraxis",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "KRELDIGUNGOR",
+    "name": "Kreldig Ungor",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LAKEELUNEARA",
+    "name": "Lake Elune'ara",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "LORDARKKOROC",
+    "name": "Lord Arkkoroc",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "MASTERGADRIN",
+    "name": "Master Gadrin",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "NARAWILDMANE",
+    "name": "Nara Wildmane",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "PUTRESSDIARY",
+    "name": "Putress' Diary",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "VERNEROSGOOD",
+    "name": "Verner Osgood",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 7,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LORDAZRETHOC",
+    "name": "Lord Azrethoc",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "SHAKESOBREEN",
+    "name": "Shakes O'Breen",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TOWEROFAZORA",
+    "name": "Tower of Azora",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "WINTERAXHOLD",
+    "name": "Winterax Hold",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 6,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "BEGGARSHAUNT",
+    "name": "Beggar's Haunt",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "BROTHERANTON",
+    "name": "Brother Anton",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GRYTHTHURDEN",
+    "name": "Gryth Thurden",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "JENNEACANNON",
+    "name": "Jennea Cannon",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LUCANCORDELL",
+    "name": "Lucan Cordell",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MENNETCARKAD",
+    "name": "Mennet Carkad",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SPRITEDARTER",
+    "name": "Sprite Darter",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 5,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "COLLINMAUREN",
+    "name": "Collin Mauren",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DEPUTYFELDON",
+    "name": "Deputy Feldon",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DEPUTYRAINER",
+    "name": "Deputy Rainer",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DEZESNOWBANE",
+    "name": "Deze Snowbane",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "FARWATCHPOST",
+    "name": "Far Watch Post",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "FOREMANOSLOW",
+    "name": "Foreman Oslow",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GRARKLORKRUB",
+    "name": "Grark Lorkrub",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "HELMSBEDLAKE",
+    "name": "Helm's Bed Lake",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "JERNHORNHELM",
+    "name": "Jern Hornhelm",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MILLYOSWORTH",
+    "name": "Milly Osworth",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MOUNTAINLION",
+    "name": "Mountain Lion",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RAGESCARYETI",
+    "name": "Rage Scar Yeti",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "RANAZJARISLE",
+    "name": "Ranazjar Isle",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "SALMASALDEAN",
+    "name": "Salma Saldean",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SIRRAVONINDI",
+    "name": "Sirra Von'Indi",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SPIRITHEALER",
+    "name": "Spirit Healer",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "THRANKHORMAN",
+    "name": "Thran Khorman",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WINNAHAZZARD",
+    "name": "Winna Hazzard",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ZENNFOULHOOF",
+    "name": "Zenn Foulhoof",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 4,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ADELEFIELDER",
+    "name": "Adele Fielder",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "AGENTKEARNEN",
+    "name": "Agent Kearnen",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ANCIENTCHEST",
+    "name": "Ancient Chest",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+", "object"]
+  },
+  {
+    "grid": "AZURETEMPLAR",
+    "name": "Azure Templar",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "BILLYMACLURE",
+    "name": "Billy Maclure",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BLOODAXEWORG",
+    "name": "Bloodaxe Worg",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BLUFFWATCHER",
+    "name": "Bluffwatcher",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "BROTHERNEALS",
+    "name": "Brother Neals",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "CHEMISTFUELY",
+    "name": "Chemist Fuely",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "COMARVILLARD",
+    "name": "Comar Villard",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "CRAGPOOLLAKE",
+    "name": "Cragpool Lake",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "DALINDAMALEM",
+    "name": "Dalinda Malem",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "DEATHBRINGER",
+    "name": "Deathbringer",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "DEPUTYWILLEM",
+    "name": "Deputy Willem",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "EARTHANDFIRE",
+    "name": "Earth and Fire",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "ELENIAHAYDON",
+    "name": "Elenia Haydon",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "EYEOFKILROGG",
+    "name": "Eye of Kilrogg",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature", "spell"]
+  },
+  {
+    "grid": "FOREMANBONDS",
+    "name": "Foreman Bonds",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GLACIALCLOAK",
+    "name": "Glacial Cloak",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "HEADOFONYXIA",
+    "name": "Head of Onyxia",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+"]
+  },
+  {
+    "grid": "HERMITORTELL",
+    "name": "Hermit Ortell",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "HOARYTEMPLAR",
+    "name": "Hoary Templar",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "JORAHANNISON",
+    "name": "Jorah Annison",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "KROMSTOUTARM",
+    "name": "Krom Stoutarm",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LADYHOTESHEM",
+    "name": "Lady Hoteshem",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature-elite"]
+  },
+  {
+    "grid": "LAVINIACROWE",
+    "name": "Lavinia Crowe",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "LORDSHALZARU",
+    "name": "Lord Shalzaru",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "MORGANPESTLE",
+    "name": "Morgan Pestle",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "ORMSTONEHOOF",
+    "name": "Orm Stonehoof",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "PALEMANEROCK",
+    "name": "Palemane Rock",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["area"]
+  },
+  {
+    "grid": "POLARBRACERS",
+    "name": "Polar Bracers",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["item-rare+", "spell"]
+  },
+  {
+    "grid": "RHAGGARMASON",
+    "name": "Rhag Garmason",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "SHADEOFELURA",
+    "name": "Shade of Elura",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "TALINKEENEYE",
+    "name": "Talin Keeneye",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "VELORANITELY",
+    "name": "Velora Nitely",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "WATCHERBIGGS",
+    "name": "Watcher Biggs",
+    "len": 12,
+    "pool": "lore",
+    "mentions": 3,
+    "kinds": ["creature"]
+  },
+  {
+    "grid": "GUNS",
+    "name": "Guns",
+    "len": 4,
+    "pool": "spell",
+    "mentions": 70,
+    "kinds": ["skill_line", "spell"]
+  },
+  {
+    "grid": "BOWS",
+    "name": "Bows",
+    "len": 4,
+    "pool": "spell",
+    "mentions": 69,
+    "kinds": ["skill_line", "spell"]
+  },
+  {
+    "grid": "BUGS",
+    "name": "Bugs",
+    "len": 4,
+    "pool": "spell",
+    "mentions": 28,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "RATS",
+    "name": "Rats",
+    "len": 4,
+    "pool": "spell",
+    "mentions": 13,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "COMBO",
+    "name": "Combo",
+    "len": 5,
+    "pool": "spell",
+    "mentions": 196,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "STATS",
+    "name": "Stats",
+    "len": 5,
+    "pool": "spell",
+    "mentions": 52,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "WANDS",
+    "name": "Wands",
+    "len": 5,
+    "pool": "spell",
+    "mentions": 36,
+    "kinds": ["skill_line", "spell"]
+  },
+  {
+    "grid": "SEALS",
+    "name": "Seals",
+    "len": 5,
+    "pool": "spell",
+    "mentions": 34,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "GEARS",
+    "name": "Gears",
+    "len": 5,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "FLAMES",
+    "name": "Flames",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 74,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "CURSES",
+    "name": "Curses",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 57,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "STAVES",
+    "name": "Staves",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 36,
+    "kinds": ["skill_line", "spell"]
+  },
+  {
+    "grid": "SCARED",
+    "name": "Scared",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 20,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ARROWS",
+    "name": "Arrows",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "SMOKEY",
+    "name": "Smokey",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "AVATAR",
+    "name": "Avatar",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LOCKON",
+    "name": "Lock On",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "GOHOME",
+    "name": "Go Home",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SPEARS",
+    "name": "Spears",
+    "len": 6,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DWARVEN",
+    "name": "Dwarven",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 86,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "POISONS",
+    "name": "Poisons",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 79,
+    "kinds": ["skill_line", "spell"],
+    "rejected": true
+  },
+  {
+    "grid": "CHARGED",
+    "name": "Charged",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 55,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ASPECTS",
+    "name": "Aspects",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 50,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "WARLORD",
+    "name": "Warlord",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 46,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "CATFORM",
+    "name": "Cat Form",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 42,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ATTUNED",
+    "name": "Attuned",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 18,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "WELLFED",
+    "name": "Well Fed",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 18,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "RIPTIDE",
+    "name": "Riptide",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 15,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LIFETAP",
+    "name": "Life Tap",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MAGGOTS",
+    "name": "Maggots",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "PLACING",
+    "name": "Placing",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "PLANTED",
+    "name": "Planted",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SNOWMAN",
+    "name": "Snowman",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "CLEANED",
+    "name": "Cleaned",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ICECLAW",
+    "name": "Ice Claw",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FADEOUT",
+    "name": "Fade Out",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "STANCES",
+    "name": "Stances",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "SUNFIRE",
+    "name": "Sunfire",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TANGLED",
+    "name": "Tangled",
+    "len": 7,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "COOLDOWN",
+    "name": "Cooldown",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 231,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "DEFEATED",
+    "name": "Defeated",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 105,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "LEGGINGS",
+    "name": "Leggings",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 72,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "TELEPORT",
+    "name": "Teleport",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 72,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "STACKING",
+    "name": "Stacking",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 48,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TRACKING",
+    "name": "Tracking",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 43,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "WEAKENED",
+    "name": "Weakened",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 42,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "BEARFORM",
+    "name": "Bear Form",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 40,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FIRSTAID",
+    "name": "First Aid",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 32,
+    "kinds": ["object", "skill_line", "spell"],
+    "rejected": true
+  },
+  {
+    "grid": "BANISHED",
+    "name": "Banished",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 31,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "CLEANSED",
+    "name": "Cleansed",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 29,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "REDEEMED",
+    "name": "Redeemed",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 19,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SMELTING",
+    "name": "Smelting",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 16,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "FIRENOVA",
+    "name": "Fire Nova",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 14,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "STARFALL",
+    "name": "Starfall",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 14,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SOULFIRE",
+    "name": "Soul Fire",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 13,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "MINDFLAY",
+    "name": "Mind Flay",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 12,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "KILLSHOT",
+    "name": "Kill Shot",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MINDSEYE",
+    "name": "Mind's Eye",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "POLEARMS",
+    "name": "Polearms",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["skill_line", "spell"]
+  },
+  {
+    "grid": "ACIDRAIN",
+    "name": "Acid Rain",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "HOLYFIRE",
+    "name": "Holy Fire",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FOCUSING",
+    "name": "Focusing",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LOCKEDIN",
+    "name": "Locked In",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "JADEFIRE",
+    "name": "Jadefire",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "WINGCLIP",
+    "name": "Wing Clip",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FIREWARD",
+    "name": "Fire Ward",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "HEALSELF",
+    "name": "Heal Self",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LAVALASH",
+    "name": "Lava Lash",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "VANISHED",
+    "name": "Vanished",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "WINDWALL",
+    "name": "Windwall",
+    "len": 8,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ATTACKING",
+    "name": "Attacking",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 117,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ENCHANTED",
+    "name": "Enchanted",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 104,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "SUMMONING",
+    "name": "Summoning",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 104,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "RESTORING",
+    "name": "Restoring",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 33,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "CROSSBOWS",
+    "name": "Crossbows",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 29,
+    "kinds": ["skill_line", "spell"]
+  },
+  {
+    "grid": "LAVABURST",
+    "name": "Lava Burst",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 29,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "CHAINHEAL",
+    "name": "Chain Heal",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 23,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ANTIMAGIC",
+    "name": "Anti-Magic",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 19,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "HOLYPOWER",
+    "name": "Holy Power",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 19,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FIREBLAST",
+    "name": "Fire Blast",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 17,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FROSTTRAP",
+    "name": "Frost Trap",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 16,
+    "kinds": ["object", "spell"]
+  },
+  {
+    "grid": "FLASHHEAL",
+    "name": "Flash Heal",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 14,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SWIMSPEED",
+    "name": "Swim Speed",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 12,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DRAINMANA",
+    "name": "Drain Mana",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "STONESKIN",
+    "name": "Stone Skin",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DRAINSOUL",
+    "name": "Drain Soul",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "BLOODPACT",
+    "name": "Blood Pact",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FRESHMEAT",
+    "name": "Fresh Meat",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "HOLYWRATH",
+    "name": "Holy Wrath",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LIFEBLOOM",
+    "name": "Lifebloom",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SILITHYST",
+    "name": "Silithyst",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "STARSURGE",
+    "name": "Starsurge",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TAMEBEAST",
+    "name": "Tame Beast",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "HORDEFLAG",
+    "name": "Horde Flag",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["object", "spell"]
+  },
+  {
+    "grid": "ICESHARDS",
+    "name": "Ice Shards",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MINDSPIKE",
+    "name": "Mind Spike",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "BONEARMOR",
+    "name": "Bone Armor",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "CHAOSBOLT",
+    "name": "Chaos Bolt",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "EARTHBIND",
+    "name": "Earthbind",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FROZENORB",
+    "name": "Frozen Orb",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LIFEDRAIN",
+    "name": "Life Drain",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SHOCKWAVE",
+    "name": "Shockwave",
+    "len": 9,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SPELLPOWER",
+    "name": "Spell Power",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 30,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "WARBRINGER",
+    "name": "Warbringer",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 29,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LIGHTFORGE",
+    "name": "Lightforge",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 28,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FLAMESHOCK",
+    "name": "Flame Shock",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 22,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SHIELDSLAM",
+    "name": "Shield Slam",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 18,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FIRESHIELD",
+    "name": "Fire Shield",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 16,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "HOLYSHIELD",
+    "name": "Holy Shield",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 15,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LESSERHEAL",
+    "name": "Lesser Heal",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 15,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MANASPRING",
+    "name": "Mana Spring",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 13,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SHAPESHIFT",
+    "name": "Shapeshift",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 13,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "SHADOWLASH",
+    "name": "Shadow Lash",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "STARSHARDS",
+    "name": "Starshards",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SUBJUGATED",
+    "name": "Subjugated",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "ARCANESHOT",
+    "name": "Arcane Shot",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LASHOFPAIN",
+    "name": "Lash of Pain",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LIVINGBOMB",
+    "name": "Living Bomb",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MOLTENRAIN",
+    "name": "Molten Rain",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "WILDGROWTH",
+    "name": "Wild Growth",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TOUGHSHELL",
+    "name": "Tough Shell",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "GRACEOFAIR",
+    "name": "Grace of Air",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SABERSLASH",
+    "name": "Saber Slash",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SHADOWBURN",
+    "name": "Shadowburn",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "STONEGUARD",
+    "name": "Stone Guard",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "VIPERSTING",
+    "name": "Viper Sting",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "CUREPOISON",
+    "name": "Cure Poison",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MAINGAUCHE",
+    "name": "Main Gauche",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MANAPOTION",
+    "name": "Mana Potion",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MOUNTSPEED",
+    "name": "Mount Speed",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "POWERSURGE",
+    "name": "Power Surge",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SPELLSTONE",
+    "name": "Spellstone",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TIGERSFURY",
+    "name": "Tiger's Fury",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TREEOFLIFE",
+    "name": "Tree of Life",
+    "len": 10,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ATTACKPOWER",
+    "name": "Attack Power %",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 704,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MARKOFHONOR",
+    "name": "Mark of Honor",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 41,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "THUNDERBREW",
+    "name": "Thunderbrew",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 40,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "EXTRAATTACK",
+    "name": "Extra Attack",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 39,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TRANSFORMED",
+    "name": "Transformed",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 39,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "HEALINGWAVE",
+    "name": "Healing Wave",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 37,
+    "kinds": ["spell"],
+    "rejected": true
+  },
+  {
+    "grid": "GREATERHEAL",
+    "name": "Greater Heal",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 32,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DREAMWALKER",
+    "name": "Dreamwalker",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 26,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "PLAGUEHEART",
+    "name": "Plagueheart",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 25,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ARCANEBLAST",
+    "name": "Arcane Blast",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 21,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SEARINGPAIN",
+    "name": "Searing Pain",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 21,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SKELETONKEY",
+    "name": "Skeleton Key",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 18,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "EARTHSHIELD",
+    "name": "Earth Shield",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 17,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FISTWEAPONS",
+    "name": "Fist Weapons",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 15,
+    "kinds": ["skill_line", "spell"]
+  },
+  {
+    "grid": "DIVINELIGHT",
+    "name": "Divine Light",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 14,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SHADOWFLAME",
+    "name": "Shadow Flame",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 13,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DIVINESTORM",
+    "name": "Divine Storm",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 12,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SHIELDBLOCK",
+    "name": "Shield Block",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 12,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "AQUATICFORM",
+    "name": "Aquatic Form",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "BAKEDSALMON",
+    "name": "Baked Salmon",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MININGSKILL",
+    "name": "Mining Skill",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "MOLTENBLAST",
+    "name": "Molten Blast",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "RUNECARVING",
+    "name": "Runecarving",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "BEARWITNESS",
+    "name": "Bear Witness",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FROZENSOLID",
+    "name": "Frozen Solid",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "RALLYINGCRY",
+    "name": "Rallying Cry",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ROASTRAPTOR",
+    "name": "Roast Raptor",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "STONESHIELD",
+    "name": "Stoneshield",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "WATERSHIELD",
+    "name": "Water Shield",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "MOONKINFORM",
+    "name": "Moonkin Form",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SHADOWFIEND",
+    "name": "Shadowfiend",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DAWNSGAMBIT",
+    "name": "Dawn's Gambit",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["object", "spell"]
+  },
+  {
+    "grid": "HEALINGRAIN",
+    "name": "Healing Rain",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "STATICSHOCK",
+    "name": "Static Shock",
+    "len": 11,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SELFDESTRUCT",
+    "name": "Self Destruct",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 77,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FLASHOFLIGHT",
+    "name": "Flash of Light",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 52,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "HEALINGTOUCH",
+    "name": "Healing Touch",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 43,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "FIELDMARSHAL",
+    "name": "Field Marshal",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 36,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DIREBEARFORM",
+    "name": "Dire Bear Form",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 35,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "INSTRUCTIONS",
+    "name": "Instructions",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 30,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "SHADOWCLEAVE",
+    "name": "Shadow Cleave",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 25,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "THICKLEATHER",
+    "name": "Thick Leather",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 25,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SERPENTSTING",
+    "name": "Serpent Sting",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 22,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "RAPTORSTRIKE",
+    "name": "Raptor Strike",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 17,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SYMBOLOFLIFE",
+    "name": "Symbol of Life",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 15,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "LIGHTLEATHER",
+    "name": "Light Leather",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 12,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "CLEARCASTING",
+    "name": "Clearcasting",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "HEAVYLEATHER",
+    "name": "Heavy Leather",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 11,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "BALEFIREBOLT",
+    "name": "Balefire Bolt",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SACREDSHIELD",
+    "name": "Sacred Shield",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SCORPIDSTING",
+    "name": "Scorpid Sting",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SOOTHINGKISS",
+    "name": "Soothing Kiss",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 10,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "DEADLYPOISON",
+    "name": "Deadly Poison",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 9,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "BEINGWATCHED",
+    "name": "Being Watched",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["forever-only:spell"]
+  },
+  {
+    "grid": "WYVERNSTRIKE",
+    "name": "Wyvern Strike",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 8,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "ALLIANCEFLAG",
+    "name": "Alliance Flag",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["object", "spell"]
+  },
+  {
+    "grid": "DEVOTIONAURA",
+    "name": "Devotion Aura",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "SLICEANDDICE",
+    "name": "Slice and Dice",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "VIDEREELIXIR",
+    "name": "Videre Elixir",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "WESTFALLSTEW",
+    "name": "Westfall Stew",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "WINTERSCHILL",
+    "name": "Winter's Chill",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 7,
+    "kinds": ["spell"]
+  },
+  {
+    "grid": "TAINTEDBLOOD",
+    "name": "Tainted Blood",
+    "len": 12,
+    "pool": "spell",
+    "mentions": 6,
+    "kinds": ["spell"]
+  }
+]
