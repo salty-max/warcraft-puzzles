@@ -5,67 +5,66 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-c-9x13",
+    "id": "bank-l3-10x12",
     "rows": [
-      ".........",
-      "#.###.##.",
-      "#.###.##.",
-      "#........",
-      "#.###.##.",
-      "#.#######",
-      "#.##.####",
-      "#.....###",
-      "#.##.#.#.",
-      ".........",
-      "#.##.#.#.",
-      "####.#.#.",
-      "#........"
+      "####.##.##",
+      "#.........",
+      "##.#.##.##",
+      "........##",
+      "##.#.###.#",
+      "#.........",
+      "####.###.#",
+      "#.######.#",
+      "..........",
+      "#.####.#.#",
+      "#........#",
+      "######.###"
     ]
   },
   "placements": [
     {
-      "slotId": "1A",
-      "entryId": "ghostwolf"
+      "slotId": "1D",
+      "entryId": "remulos"
     },
     {
       "slotId": "2D",
-      "entryId": "huntersmark"
+      "entryId": "pain"
     },
     {
-      "slotId": "3D",
-      "entryId": "whelp"
+      "slotId": "3A",
+      "entryId": "ashenvale"
     },
     {
       "slotId": "4D",
-      "entryId": "feint"
+      "entryId": "strom"
     },
     {
       "slotId": "5A",
-      "entryId": "turalyon"
+      "entryId": "maraudon"
     },
     {
       "slotId": "6D",
-      "entryId": "centaur"
+      "entryId": "garrote"
     },
     {
       "slotId": "7A",
-      "entryId": "maiev"
+      "entryId": "immolthar"
     },
     {
       "slotId": "8D",
-      "entryId": "moira"
+      "entryId": "lich-t3"
     },
     {
-      "slotId": "9D",
-      "entryId": "sting"
+      "slotId": "9A",
+      "entryId": "silvermoon"
     },
     {
-      "slotId": "10A",
-      "entryId": "frostbolt"
+      "slotId": "10D",
+      "entryId": "mail-t3"
     },
     {
       "slotId": "11A",
-      "entryId": "saurfang"
+      "entryId": "hellfire"
     }
   ]
 }

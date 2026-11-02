@@ -436,7 +436,8 @@ the other weak group. The numbers are a floor.
   needed a day.
 - Six playset days build in a row (play-1 to play-6). Day 7 fails at any cooldown.
 - Allowing 3-4 letter slots in the layouts did not help the search: the annealer used
-  none.
+  none. (Superseded the same day: with the length mix a hard input the playset builds 17
+  days, see `docs/grid-engine.md`, "Layouts for the rebuilt bank".)
 - The twin rule (`packages/crossword/src/twins.ts`) keeps answers apart that are spelt
   out in another's prompts, share a cited row, or are the head or tail of another.
 - classic.db and forever.db have almost no five-letter names left: tranche 2 found 10,

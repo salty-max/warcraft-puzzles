@@ -5,61 +5,66 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-d-9x11",
+    "id": "bank-l4-10x12",
     "rows": [
-      "###.##.#.",
-      "##.......",
-      "###.##.#.",
-      "#........",
-      "###.##.#.",
-      "####.....",
-      ".##.##.#.",
-      ".........",
-      ".##.##.#.",
-      ".##.##.#.",
-      ".....###."
+      "##.#.##.##",
+      "#........#",
+      "##.#.##.##",
+      "..........",
+      "####.#####",
+      "####.....#",
+      "####.###.#",
+      "#.####.#.#",
+      ".........#",
+      "#.####.#.#",
+      "..........",
+      "########.#"
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "magni"
+      "entryId": "ruin"
     },
     {
       "slotId": "2D",
-      "entryId": "darnassian"
+      "entryId": "alchemy-t3"
     },
     {
       "slotId": "3D",
-      "entryId": "thermaplugg"
+      "entryId": "wall"
     },
     {
       "slotId": "4A",
-      "entryId": "kargath"
+      "entryId": "quilboar"
     },
     {
       "slotId": "5A",
-      "entryId": "amnennar"
+      "entryId": "jinthaalor"
     },
     {
       "slotId": "6A",
-      "entryId": "musha"
+      "entryId": "maiev"
     },
     {
       "slotId": "7D",
-      "entryId": "trogg"
+      "entryId": "vanndar"
     },
     {
       "slotId": "8D",
-      "entryId": "totem"
+      "entryId": "lion-t3"
     },
     {
-      "slotId": "9A",
-      "entryId": "razorhill"
+      "slotId": "9D",
+      "entryId": "idle"
     },
     {
       "slotId": "10A",
-      "entryId": "gnome"
+      "entryId": "kiljaeden"
+    },
+    {
+      "slotId": "11A",
+      "entryId": "gnomeregan"
     }
   ]
 }

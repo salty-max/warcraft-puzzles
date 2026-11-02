@@ -1,0 +1,67 @@
+{
+  "id": "play-7",
+  "title": "Playset 7",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "bank-l8-9x13",
+    "rows": [
+      "#.#.#.###",
+      "........#",
+      "#.#.#.###",
+      "#.#......",
+      "#.#.##.##",
+      "........#",
+      "#.#.##.##",
+      "#.####.##",
+      "#.##.#.##",
+      "........#",
+      "#.##.#.##",
+      "#.#....##",
+      "####.####"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "1D",
+      "entryId": "deadwindpass"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "dunmodr"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "mind"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "nerubian"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "medivh"
+    },
+    {
+      "slotId": "6D",
+      "entryId": "innervate"
+    },
+    {
+      "slotId": "7A",
+      "entryId": "wildvine"
+    },
+    {
+      "slotId": "8D",
+      "entryId": "herod-t3"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "jaedenar"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "gore"
+    }
+  ]
+}

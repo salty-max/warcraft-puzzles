@@ -5,67 +5,61 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-c-9x13",
+    "id": "bank-l6-9x11",
     "rows": [
+      "###.#....",
+      "###.#.##.",
+      "#.#.#.##.",
       ".........",
-      "#.###.##.",
-      "#.###.##.",
-      "#........",
-      "#.###.##.",
-      "#.#######",
-      "#.##.####",
-      "#.....###",
-      "#.##.#.#.",
+      "#.#.####.",
+      ".....###.",
+      "#.#.#....",
+      "#.#.#.###",
       ".........",
-      "#.##.#.#.",
-      "####.#.#.",
-      "#........"
+      "#.#.#.###",
+      "#.#######"
     ]
   },
   "placements": [
     {
-      "slotId": "1A",
-      "entryId": "evocation"
+      "slotId": "1D",
+      "entryId": "thistletea"
+    },
+    {
+      "slotId": "2A",
+      "entryId": "pact-t3"
     },
     {
       "slotId": "2D",
-      "entryId": "varimathras"
+      "entryId": "peon"
     },
     {
       "slotId": "3D",
-      "entryId": "troll"
+      "entryId": "tanaris"
     },
     {
       "slotId": "4D",
-      "entryId": "nijel"
+      "entryId": "orgrimmar"
     },
     {
       "slotId": "5A",
-      "entryId": "immolate"
+      "entryId": "frostnova"
     },
     {
-      "slotId": "6D",
-      "entryId": "gazlowe"
-    },
-    {
-      "slotId": "7A",
-      "entryId": "hyjal"
-    },
-    {
-      "slotId": "8D",
-      "entryId": "hydra"
-    },
-    {
-      "slotId": "9D",
+      "slotId": "6A",
       "entryId": "brill"
     },
     {
-      "slotId": "10A",
-      "entryId": "lashlayer"
+      "slotId": "7A",
+      "entryId": "pass"
     },
     {
-      "slotId": "11A",
-      "entryId": "dunemaul"
+      "slotId": "7D",
+      "entryId": "post"
+    },
+    {
+      "slotId": "8A",
+      "entryId": "emberseer"
     }
   ]
 }

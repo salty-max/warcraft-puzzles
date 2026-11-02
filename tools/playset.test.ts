@@ -15,20 +15,32 @@ const snapshot = read("content/seed/evidence.json");
 describe("layouts drawn for the rebuilt bank", () => {
   const config = BenchmarkConfigSchema.parse(read("content/benchmarks/layouts.json"));
   const layouts = config.layouts.filter((layout) => layout.id.startsWith("bank-"));
-  it("meet the checking floor and need no three or four letter answer", () => {
-    expect(layouts.length).toBeGreaterThanOrEqual(7);
+  it("meet the checking floor and the length budget the supply allows", () => {
+    expect(layouts).toHaveLength(8);
     for (const layout of layouts) {
       const grid = compilePartiallyCheckedLayout({ id: layout.id, rows: layout.rows });
       expect(checkingFloorIssues(grid)).toEqual([]);
-      expect(grid.slots.every((slot) => slot.length >= 5)).toBe(true);
+      const count = (from: number, to: number) =>
+        grid.slots.filter((slot) => slot.length >= from && slot.length <= to).length;
+      // About 0.5 five-letter answers a day are free under the 90-day cooldown.
+      expect(count(3, 99)).toBeGreaterThanOrEqual(9);
+      expect(count(3, 99)).toBeLessThanOrEqual(13);
+      expect(count(5, 5)).toBeLessThanOrEqual(1);
+      expect(count(3, 4)).toBeGreaterThanOrEqual(2);
+      expect(count(3, 4)).toBeLessThanOrEqual(4);
+      expect(count(6, 6)).toBeLessThanOrEqual(2);
+      expect(count(11, 99)).toBeLessThanOrEqual(1);
+      expect(count(7, 10)).toBeGreaterThanOrEqual(3);
     }
   });
 });
 
 describe("the playset", () => {
-  const days = ["play-1", "play-2", "play-3", "play-4", "play-5", "play-6"].map((id) =>
-    prepareResearchPuzzle(read(`content/puzzles/${id}.json`), editorial, snapshot),
-  );
+  const days = [1, 2, 3, 4, 5, 6, 7, 8]
+    .map((day) => `play-${day}`)
+    .map((id) =>
+      prepareResearchPuzzle(read(`content/puzzles/${id}.json`), editorial, snapshot),
+    );
   it("loads through the research validator", () => {
     for (const day of days)
       expect(day.playable.entries.length).toBeGreaterThanOrEqual(9);

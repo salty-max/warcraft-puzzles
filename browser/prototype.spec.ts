@@ -20,10 +20,31 @@ const trials = preparePlayset(
 const { entries } = trials[0]!.playable;
 const total = new Set(entries.flatMap((entry) => entry.cells)).size;
 const GO = trials[0]!.route;
-/** Sapta, 4 down: a free first square, a crossing at the second and the fifth. */
-const molten = entries.find((entry) => entry.id === "4D")!;
-const cross = entries.find((entry) => entry.id === "5A")!;
-const mainLabel = "4 down (5)";
+/**
+ * The first down answer of five letters or more that starts on a free square and
+ * crosses an across answer inside its body, so the tests below can type it, step
+ * through its crossing and leave the crossing's letter alone. Found, not named, because
+ * the playset changes with the layouts.
+ */
+const pair = entries
+  .filter((entry) => entry.direction === "down" && entry.cells.length >= 5)
+  .flatMap((down) =>
+    entries
+      .filter((other) => other.direction === "across")
+      .map((across) => ({ down, across })),
+  )
+  .filter(({ down, across }) => {
+    const at = down.cells.findIndex((cell) => across.cells.includes(cell));
+    const free = !entries.some(
+      (other) => other !== down && other.cells.includes(down.cells[0]!),
+    );
+    return free && at >= 1 && at <= down.cells.length - 2;
+  })[0]!;
+const molten = pair.down;
+const cross = pair.across;
+const labelOf = (entry: (typeof entries)[number]) =>
+  `${entry.number} ${entry.direction} (${entry.cells.length})`;
+const mainLabel = labelOf(molten);
 const A = molten.answer;
 
 test("typing in the grid fills the word, keeps crossings and saves assistance", async ({
@@ -32,7 +53,7 @@ test("typing in the grid fills the word, keeps crossings and saves assistance", 
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   await page.goto(GO);
-  await expect(page.locator("#active-label")).toHaveText("1 across (5)");
+  await expect(page.locator("#active-label")).toHaveText(labelOf(entries[0]!));
   await typeEntry(page, molten);
   await expectEntry(page, molten);
   await page.getByRole("button", { name: "Get a hint" }).click();

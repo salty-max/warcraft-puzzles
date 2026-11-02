@@ -5,57 +5,66 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-e-9x11",
+    "id": "bank-l7-10x12",
     "rows": [
-      "#.####.##",
-      "#........",
-      "#.####.#.",
-      ".........",
-      "#.##.#.#.",
-      "####.#.#.",
-      "##.#.#.##",
-      "#........",
-      "##.#.####",
-      "##.#.####",
-      "##.....##"
+      "##.#.##.##",
+      "#........#",
+      "##.#.##.##",
+      "#.........",
+      "#.##.#####",
+      "........##",
+      "#.##.#.###",
+      "#.####.###",
+      "#.####....",
+      "#.####.#.#",
+      ".........#",
+      "#.####.#.#"
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "gnoll"
+      "entryId": "bell"
     },
     {
       "slotId": "2D",
-      "entryId": "arcanite"
+      "entryId": "madoran"
     },
     {
-      "slotId": "3A",
-      "entryId": "nozdormu"
+      "slotId": "3D",
+      "entryId": "ouro"
     },
     {
-      "slotId": "4D",
-      "entryId": "uldum"
+      "slotId": "4A",
+      "entryId": "cenarius"
     },
     {
       "slotId": "5A",
-      "entryId": "blackhand"
+      "entryId": "bloodhoof"
     },
     {
-      "slotId": "6D",
-      "entryId": "kaelthas"
+      "slotId": "5D",
+      "entryId": "bloodsail"
+    },
+    {
+      "slotId": "6A",
+      "entryId": "forsaken"
     },
     {
       "slotId": "7D",
-      "entryId": "jaina"
+      "entryId": "evasion"
     },
     {
       "slotId": "8A",
-      "entryId": "pantheon"
+      "entryId": "shiv"
     },
     {
-      "slotId": "9A",
-      "entryId": "anshe"
+      "slotId": "9D",
+      "entryId": "isle"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "wizardoil"
     }
   ]
 }

@@ -5,57 +5,57 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-e-9x11",
+    "id": "bank-l5-9x11",
     "rows": [
-      "#.####.##",
-      "#........",
-      "#.####.#.",
+      "#####....",
+      "#####.##.",
+      "#.###.##.",
+      "#.###....",
+      "#.###.##.",
+      "#.#.#.###",
       ".........",
-      "#.##.#.#.",
-      "####.#.#.",
-      "##.#.#.##",
-      "#........",
-      "##.#.####",
-      "##.#.####",
-      "##.....##"
+      "#.#.#.###",
+      "....#####",
+      "#.#.#####",
+      "#....####"
     ]
   },
   "placements": [
     {
+      "slotId": "1A",
+      "entryId": "mine"
+    },
+    {
       "slotId": "1D",
-      "entryId": "dryad"
+      "entryId": "moonfire"
     },
     {
       "slotId": "2D",
-      "entryId": "grommash"
+      "entryId": "eonar"
     },
     {
-      "slotId": "3A",
-      "entryId": "medium-2-ragnaros"
+      "slotId": "3D",
+      "entryId": "thalanaar"
     },
     {
-      "slotId": "4D",
-      "entryId": "strom"
+      "slotId": "4A",
+      "entryId": "nova"
     },
     {
-      "slotId": "5A",
-      "entryId": "magearmor"
+      "slotId": "5D",
+      "entryId": "gordok"
     },
     {
-      "slotId": "6D",
-      "entryId": "alliance"
+      "slotId": "6A",
+      "entryId": "magocrats"
     },
     {
-      "slotId": "7D",
-      "entryId": "harpy"
+      "slotId": "7A",
+      "entryId": "ward"
     },
     {
       "slotId": "8A",
-      "entryId": "karazhan"
-    },
-    {
-      "slotId": "9A",
-      "entryId": "ysera"
+      "entryId": "rake"
     }
   ]
 }

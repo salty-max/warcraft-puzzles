@@ -12,7 +12,7 @@ import { prepareResearchPuzzle } from "./research-puzzle.ts";
  */
 const { values } = parseArgs({
   options: {
-    days: { type: "string", default: "7" },
+    days: { type: "string", default: "8" },
     cooldown: { type: "string", default: "90" },
     prefix: { type: "string", default: "bank-" },
   },

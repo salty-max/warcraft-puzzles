@@ -5,65 +5,66 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-b-9x11",
+    "id": "bank-l2-10x12",
     "rows": [
-      "####.....",
-      "#####.##.",
-      "#.###.##.",
-      ".........",
-      "#.###.##.",
-      "#.####.#.",
-      ".........",
-      ".###.#.##",
-      ".....#.##",
-      ".###.....",
-      ".###.####"
+      "###.#.###.",
+      "##........",
+      "###.#.###.",
+      "#.........",
+      "#####.###.",
+      "#####.###.",
+      "#.........",
+      ".##.#.####",
+      ".##.###.##",
+      ".........#",
+      ".##.###.##",
+      ".........#"
     ]
   },
   "placements": [
     {
-      "slotId": "1A",
-      "entryId": "herod-t3"
+      "slotId": "1D",
+      "entryId": "boar-t3"
     },
     {
       "slotId": "2D",
-      "entryId": "eonar"
+      "entryId": "zalazane"
     },
     {
       "slotId": "3D",
-      "entryId": "draenor"
+      "entryId": "prestor"
     },
     {
-      "slotId": "4D",
-      "entryId": "sapta"
+      "slotId": "4A",
+      "entryId": "dolanaar"
     },
     {
       "slotId": "5A",
-      "entryId": "warglaive"
+      "entryId": "darnassus"
     },
     {
-      "slotId": "6D",
-      "entryId": "neeru"
-    },
-    {
-      "slotId": "7A",
-      "entryId": "darkspear"
+      "slotId": "6A",
+      "entryId": "secondwar"
     },
     {
       "slotId": "7D",
-      "entryId": "druid"
+      "entryId": "charge"
     },
     {
       "slotId": "8D",
-      "entryId": "shred"
+      "entryId": "medium-wrath"
     },
     {
-      "slotId": "9A",
-      "entryId": "uther"
+      "slotId": "9D",
+      "entryId": "naga"
     },
     {
       "slotId": "10A",
-      "entryId": "elune"
+      "entryId": "astranaar"
+    },
+    {
+      "slotId": "11A",
+      "entryId": "hiveregal"
     }
   ]
 }
