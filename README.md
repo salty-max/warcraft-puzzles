@@ -5,24 +5,20 @@ belongs to Warcraft. Answers can be recognisable names or ordinary English words
 supported Warcraft connection. The historical boundary is the end of Wrath of the Lich
 King.
 
-**Current milestone: seven playable pilot candidates.** There are two Easy, three Medium
-and two Hard puzzles, built from 342 distinct answers with 416 sourced triads. The pilot
-has 86 answer slots and 84 distinct answers. Only two answers repeat, each appearing
-twice. The owner found the first Easy interesting but easy, and the first Medium
-challenging but fair with useful crossings. The five new difficulty labels await blind
-solving. Formal publication approvals remain pending.
+**Current milestone: six consecutive puzzles from the rebuilt bank** (`play-1` to
+`play-6`), playable in the prototype. They carry no cold-solve approval yet.
 
-## Play the pilot
+## Play the puzzles
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm prototype:dev
 ```
 
-Open `/pilot` at the printed local URL. Alternatively, open
-`.cache/prototype/pilot.html` in a browser: it links seven self-contained files that
-need no server or network. The original `playtest.html` and `medium.html` are preserved,
-with their existing solve identities. The page heading links back to the puzzle list.
+Open <http://127.0.0.1:4173/> for the list of every `content/puzzles/play-N.json`, in
+order, and pick one. Each puzzle is also at `/play-N`. The page heading links back to
+the list. The seven research puzzles that came before (and their reports, now history)
+are no longer served.
 
 The player takes letters straight into the grid, with shared crossings that keep their
 letters, hints, reveals, a Check that marks wrong squares, per-puzzle local saving and a
@@ -31,11 +27,11 @@ Browser-file saving depends on local storage policy. Answers are included locall
 checking. This prototype has no accounts, public schedule or rewards. The production
 stack remains in the plan.
 
-See [the pilot report](docs/pilot-report.md) for grid measurements, feedback and answer
-reuse, and [the split benchmark](docs/fill-benchmark.md) for independently searched
-partially checked fills and the optional fully checked comparison. All seven partial
-layouts fill. They are authored positive controls, not a random sample of grid shapes or
-evidence for an annual publishing capacity.
+See [the split benchmark](docs/fill-benchmark.md) for independently searched partially
+checked fills and the optional fully checked comparison. All 14 partial layouts fill,
+the seven legacy ones and the bank-a to bank-g layouts the play puzzles use. They are
+authored positive controls, not a random sample of grid shapes or evidence for an annual
+publishing capacity.
 
 ## Run the checks
 

@@ -123,10 +123,10 @@ pixel-baseline assertions. These desktop-engine runs do not establish actual iOS
 keyboard behaviour or a manual screen-reader pass.
 
 The prototype build compiles the same TypeScript player and state model into local
-assets and a portable HTML file. Normal checks use committed evidence and never require
-a private database. Local answers are present for checking, so this prototype provides
-no competitive anti-cheat guarantee. Cold-solve approval, daily capacity and production
-readiness remain separate gates.
+assets. Normal checks use committed evidence and never require a private database. Local
+answers are present for checking, so this prototype provides no competitive anti-cheat
+guarantee. Cold-solve approval, daily capacity and production readiness remain separate
+gates.
 
 The fill solver also runs the explicit partial format with the same search strategy and
 budgets. A generated-bank property test compares it to an independent exhaustive
@@ -140,16 +140,11 @@ altering the first solve. A fingerprint regression protects the first puzzle's e
 save identity. Alternate clue variants are validated as triads while distinct answer
 coverage remains 342.
 
-## Seven-puzzle integrity
+## Playset integrity
 
-The pilot manifest validates the seven identities, the 2/3/2 difficulty mix and unique
-output/report names. Reserved names and traversal are rejected before loading files.
-Every authored arrangement passes the same independent content, layout, crossing and
-complete-fill checks. Regression assertions preserve both previously played solve keys.
-The generated report measures 86 slots, 84 distinct answers and a maximum of two uses.
-
-New browser journeys solve and reload all five added puzzles, navigate among seven
-independent partial saves, and follow every portable-index link without remote requests.
-All seven grids receive the five responsive sizes and axe A/AA scans in Chromium,
-Firefox and WebKit. Screenshots are inspection artifacts, not pixel-baseline assertions.
-No real-phone keyboard or manual screen-reader result is implied by those scans.
+The prototype serves every `content/puzzles/play-N.json`, whatever their count. Each
+goes through `prepareResearchPuzzle`, the validator the engine uses, in
+`tools/prototype-set.ts`, and its id must match its file name. The browser tests open
+the archive, check its order, titles and numbers, and open, type into and complete
+puzzles from it. The seven legacy research puzzles are no longer served, but their test
+replays them against the old bank.

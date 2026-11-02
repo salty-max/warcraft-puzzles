@@ -694,16 +694,16 @@ dialog form {
   font: 1.15rem/1.4 var(--book);
   color: var(--muted);
 }
-.pilot-list {
+.puzzle-list {
   display: grid;
   gap: 0.75rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.pilot-list a {
+.puzzle-list a {
   display: grid;
-  grid-template-columns: 3.2rem minmax(0, 1fr) auto;
+  grid-template-columns: 3.2rem minmax(0, 1fr);
   align-items: center;
   gap: 0.25rem 1rem;
   min-height: 4.5rem;
@@ -721,35 +721,28 @@ dialog form {
     0 0 0 4px var(--gold),
     var(--shadow);
 }
-.pilot-list a:hover {
+.puzzle-list a:hover {
   box-shadow:
     inset 0 0 30px rgb(120 80 30 / 0.2),
     0 0 0 3px var(--leather),
     0 0 0 4px var(--gold-bright),
     0 0 22px rgb(232 199 90 / 0.4);
 }
-.pilot-list .no {
+.puzzle-list .no {
   grid-row: span 2;
   font: 700 2rem/1 var(--display);
   color: var(--page-title);
   text-align: center;
 }
-.pilot-list .level {
+.puzzle-list .level {
   font: 700 1.05rem/1.2 var(--display);
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
-.pilot-list .meta {
+.puzzle-list .meta {
   grid-column: 2;
   font: 1.05rem/1.2 var(--book);
   color: var(--ink-faded);
-}
-.pilot-list .gems {
-  grid-row: span 2;
-  grid-column: 3;
-  font-size: 1.1rem;
-  letter-spacing: 0.15em;
-  color: var(--ember);
 }
 
 @media (prefers-reduced-motion: reduce) {

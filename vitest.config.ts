@@ -13,7 +13,7 @@ export default defineConfig({
         "tools/evidence.ts",
         "tools/benchmark.ts",
         "tools/research-puzzle.ts",
-        "tools/pilot.ts",
+        "tools/prototype-set.ts",
         "web/model.ts",
       ],
       exclude: ["packages/content/src/index.ts", "packages/crossword/src/index.ts"],

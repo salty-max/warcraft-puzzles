@@ -9,7 +9,7 @@ benchmark.
 - `packages/content/` schema and validation (shared with content: say so on the card
   when a change reaches the triads' shape)
 - `content/benchmarks/`, the layouts in `content/puzzles/*.json`
-- `tools/benchmark*`, `tools/pilot*`, `tools/research-puzzle*`
+- `tools/benchmark*`, `tools/prototype-set*`, `tools/research-puzzle*`
 - `docs/grid-engine.md`, `docs/fill-benchmark.md`
 
 ## Rules

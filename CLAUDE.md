@@ -21,7 +21,7 @@ Node 26 and pnpm 11.18.0, as pinned.
 | content                     | `pnpm content:check`, `pnpm content:report` (keeps `docs/seed-report.md` in step)                                  |
 | sources                     | `pnpm content:verify-sources --database "$WOW_DATA_DB"`, `pnpm content:refresh --database …` (a deliberate update) |
 | engine                      | `pnpm test`, `pnpm benchmark:run`, `pnpm benchmark:check`                                                          |
-| the page                    | `pnpm prototype:dev`, `pnpm test:browser`                                                                          |
+| the page                    | `pnpm prototype:dev` (http://127.0.0.1:4173/), `pnpm test:browser`                                                 |
 
 `WOW_DATA_DB` is wow-data's Classic database, by default
 `~/code/wow-addons/wow-data/.cache/db/classic.db` (the `.cache/classic.db` beside it is
@@ -117,7 +117,7 @@ Skills: `child` (the user's, opens and closes a session), with this repository's
 - `docs/grid-engine.md`, `docs/fill-benchmark.md`: the engine and its benchmark
 - `docs/production-plan.md`: the plan (its server stack waits for the bank's gate)
 - `docs/progression-design.md`: streaks and the lorebook, not built
-- `docs/pilot-report.md` and the per-puzzle reports: the seven candidates
+- `docs/pilot-report.md` and the per-puzzle reports: the seven old candidates, history
 
 <!-- harness:start -->
 
