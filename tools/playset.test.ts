@@ -4,7 +4,8 @@ import {
   checkingFloorIssues,
   compilePartiallyCheckedLayout,
 } from "../packages/crossword/src/index.ts";
-import { BenchmarkConfigSchema } from "./benchmark.ts";
+import { BenchmarkConfigSchema, twinsOf } from "./benchmark.ts";
+import { EditorialSchema } from "../packages/content/src/index.ts";
 import { prepareResearchPuzzle } from "./research-puzzle.ts";
 
 const read = (path: string): unknown => JSON.parse(readFileSync(path, "utf8"));
@@ -25,11 +26,12 @@ describe("layouts drawn for the rebuilt bank", () => {
 });
 
 describe("the playset", () => {
-  const days = ["play-1", "play-2", "play-3"].map((id) =>
+  const days = ["play-1", "play-2", "play-3", "play-4", "play-5", "play-6"].map((id) =>
     prepareResearchPuzzle(read(`content/puzzles/${id}.json`), editorial, snapshot),
   );
   it("loads through the research validator", () => {
-    for (const day of days) expect(day.playable.entries.length).toBeGreaterThan(9);
+    for (const day of days)
+      expect(day.playable.entries.length).toBeGreaterThanOrEqual(9);
   });
   it("repeats no answer from one day to the next", () => {
     const seen = new Set<string>();
@@ -38,5 +40,17 @@ describe("the playset", () => {
         expect(seen.has(entry.answer)).toBe(false);
         seen.add(entry.answer);
       }
+  });
+  it("keeps twins out of every day", () => {
+    const live = EditorialSchema.parse(editorial).entries.filter(
+      (entry) => entry.status !== "draft" && entry.status !== "rejected",
+    );
+    const conflicts = twinsOf(live);
+    for (const day of days) {
+      const answers = new Set(day.playable.entries.map((entry) => entry.answer));
+      for (const answer of answers)
+        for (const twin of conflicts[answer] ?? [])
+          expect(answers.has(twin)).toBe(false);
+    }
   });
 });

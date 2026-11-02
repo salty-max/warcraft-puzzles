@@ -8,10 +8,30 @@ import {
   fillPartiallyCheckedGrid,
   inspectFill,
   inspectPartiallyCheckedFill,
+  twinConflicts,
 } from "../packages/crossword/src/index.ts";
 import type { FillResult } from "../packages/crossword/src/index.ts";
 import { sha256, validateCatalogue } from "../packages/content/src/index.ts";
 import type { Editorial, Snapshot } from "../packages/content/src/index.ts";
+
+/** The twin rule's input from triads: prompts and cited rows (packages/crossword/src/twins.ts). */
+export const twinsOf = (entries: Editorial["entries"]) =>
+  twinConflicts(
+    entries.map((entry) => ({
+      grid: entry.answer.grid,
+      text: [entry.clue.text, entry.hint.text, entry.fact.text],
+      rows: [
+        ...new Set([
+          ...entry.fact.evidenceIds,
+          ...entry.clue.evidenceIds,
+          ...entry.hint.evidenceIds,
+        ]),
+      ],
+    })),
+  );
+
+const TWIN_NOTE =
+  "Every fill also obeys the twin rule: an answer spelt out in another's clue, hint or fact, cited from the same row, or the head or tail of another (NOVA, FROSTNOVA) never shares a puzzle.";
 
 export const BenchmarkConfigSchema = z
   .strictObject({
@@ -53,6 +73,7 @@ export function runBenchmark(
   snapshot: Snapshot,
   input: unknown,
   onCase?: (measurement: BenchmarkMeasurement) => void,
+  { twins = false }: { twins?: boolean } = {},
 ) {
   const issues = validateCatalogue(editorial, snapshot);
   if (issues.length) throw new Error(`Invalid research catalogue: ${issues[0]!.code}`);
@@ -94,6 +115,7 @@ export function runBenchmark(
   });
   for (const layout of config.layouts)
     for (const cohort of cohorts) {
+      const conflicts = twins ? twinsOf(cohort.entries) : undefined;
       const bank = cohort.entries.map((entry) => ({
         id: entry.id,
         grid: entry.answer.grid,
@@ -105,7 +127,11 @@ export function runBenchmark(
           layout.checking === "partial" ? fillPartiallyCheckedGrid : fillGrid;
         const inspect =
           layout.checking === "partial" ? inspectPartiallyCheckedFill : inspectFill;
-        const result = fill(shape, bank, { seed, nodeLimit: config.nodeLimit });
+        const result = fill(shape, bank, {
+          seed,
+          nodeLimit: config.nodeLimit,
+          conflicts,
+        });
         if (onCase)
           onCase({
             layoutId: layout.id,
@@ -132,7 +158,8 @@ export function runBenchmark(
     schemaVersion: 1 as const,
     mode: "unpublished-research" as const,
     algorithm: ALGORITHM_VERSION,
-    inputSha256: sha256(JSON.stringify({ editorial, snapshot, config })),
+    twins,
+    inputSha256: sha256(JSON.stringify({ editorial, snapshot, config, twins })),
     config,
     layouts,
     cohorts: cohorts.map((cohort) => ({
@@ -163,6 +190,7 @@ export function benchmarkReport(benchmark: Benchmark, editorial: Editorial): str
     "Both use the same bank, search algorithm and budgets. Each layout declares its checking rule. The groups contain different shapes and are not a controlled success-rate comparison.",
     "The partial layouts below came from authored puzzles. They are positive controls and regression cases, not an unbiased estimate of generation success.",
     "The bank-* layouts were fitted to this exact bank by a search, so their solves are controls too, not a fill rate.",
+    ...(benchmark.twins ? [TWIN_NOTE] : []),
     "A solved benchmark fill may choose different answers from the authored puzzle. It proves structural fillability, not clue fairness.",
     "",
     "| Format | Full-bank layouts | Solved layouts | Limited layouts |",

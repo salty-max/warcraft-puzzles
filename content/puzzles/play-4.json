@@ -1,0 +1,61 @@
+{
+  "id": "play-4",
+  "title": "Playset 4",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "bank-e-9x11",
+    "rows": [
+      "#.####.##",
+      "#........",
+      "#.####.#.",
+      ".........",
+      "#.##.#.#.",
+      "####.#.#.",
+      "##.#.#.##",
+      "#........",
+      "##.#.####",
+      "##.#.####",
+      "##.....##"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "1D",
+      "entryId": "dryad"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "grommash"
+    },
+    {
+      "slotId": "3A",
+      "entryId": "medium-2-ragnaros"
+    },
+    {
+      "slotId": "4D",
+      "entryId": "strom"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "magearmor"
+    },
+    {
+      "slotId": "6D",
+      "entryId": "alliance"
+    },
+    {
+      "slotId": "7D",
+      "entryId": "harpy"
+    },
+    {
+      "slotId": "8A",
+      "entryId": "karazhan"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "ysera"
+    }
+  ]
+}

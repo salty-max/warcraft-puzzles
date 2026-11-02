@@ -2,7 +2,7 @@ import { writeFileSync } from "node:fs";
 import { parseArgs } from "node:util";
 import { fillPartiallyCheckedGrid } from "../packages/crossword/src/index.ts";
 import { loadCatalogue, readJson, root } from "./io.ts";
-import { BenchmarkConfigSchema } from "./benchmark.ts";
+import { BenchmarkConfigSchema, twinsOf } from "./benchmark.ts";
 import { prepareResearchPuzzle } from "./research-puzzle.ts";
 
 /**
@@ -25,6 +25,7 @@ const layouts = config.layouts.filter((layout) => layout.id.startsWith(values.pr
 const live = editorial.entries.filter(
   (entry) => entry.status !== "draft" && entry.status !== "rejected",
 );
+const conflicts = twinsOf(live);
 const grids = new Map(live.map((entry) => [entry.id, entry.answer.grid]));
 const used: string[][] = [];
 for (let day = 1; day <= Number(values.days); day++) {
@@ -38,7 +39,7 @@ for (let day = 1; day <= Number(values.days); day++) {
     const result = fillPartiallyCheckedGrid(
       { id: layout.id, rows: layout.rows },
       bank,
-      { seed: day * 1000 + attempt, nodeLimit: config.nodeLimit },
+      { seed: day * 1000 + attempt, nodeLimit: config.nodeLimit, conflicts },
     );
     if (result.status !== "solved") continue;
     const puzzle = {

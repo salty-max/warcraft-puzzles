@@ -166,28 +166,34 @@ authored placements and remain unapproved for publication. These are positive co
 not a claim that any arbitrary partial layout can be filled or that all automatic fills
 have good clues.
 
-## Layouts for the rebuilt bank (1 November 2026)
+## Layouts for the rebuilt bank (1 and 2 November 2026)
 
-The seven authored layouts were drawn for three- to five-letter words and fill none of
-the rebuilt bank (370 answers, mostly 8 to 13 letters). Seven new partially checked
-layouts, `bank-*` in `content/benchmarks/layouts.json` (9x11, 9x13, 10x12, ten to twelve
-answers, no slot under five letters), all fill in the benchmark, each in 5 to 9 search
-states. They came from a throwaway annealer over the cells (validity, the floor, arc
-consistency against the bank, then the real filler), not from a committed generator.
+The seven authored layouts were drawn for three- to five-letter words. Seven `bank-*`
+layouts (`content/benchmarks/layouts.json`: 9x11, 9x13, 10x12, nine to thirteen answers,
+no slot under five letters) were found on the grown bank (787 triads, 761 distinct
+answers) by a throwaway annealer over the cells (validity, the floor, arc consistency
+against the bank, then the real filler), not a committed generator. All seven fill the
+live bank in the benchmark, with the twin rule on. They are fitted to this bank, so
+their solves are controls, not a fill rate.
 
 What that search showed, and what it can't:
 
-- With the old 40% floor no layout of 9x11 to 13x15 filled. At the new floor only 9x11,
-  9x13 and 10x12 shapes did, and an 11x13 never did. A word adds a factor of about (pool
-  size) x 0.0635^(crossings/2) to the number of fills, so three crossings per answer is
-  break-even and the old floor was past it.
-- These layouts are barely fillable, not flexible. Against random 65% samples of the
-  bank (a stand-in for answers locked out by the cooldown) they fill 0 to 13% of the
-  time, and under a real rolling cooldown the playset builder gets three days
-  (`node tools/build-playset.ts`). Four to seven five-letter slots per puzzle against 33
-  distinct five-letter answers in the bank is the pinch, then nine-letter slots
-  against 69.
-- Asking the annealer for fewer five-letter slots found no fill at all.
-- A layout that fills at one seed is a positive control. The bank cannot sustain a daily
-  under the 90-day cooldown at its present size: twelve answers a day for ninety days is
-  about 1,080 distinct answers against 370.
+- With the old flat 40% floor no layout of 9x11 to 13x15 filled. At the new floor 9x11,
+  9x13, 10x12 and 11x13 shapes fill, but 11x13 never survived the robustness test.
+- Robustness: each layout is filled against 24 random 65% samples of the bank (a
+  stand-in for answers locked out by the cooldown). The seven kept fill 8% to 46% of
+  them. The first bank's layouts managed 0 to 13%.
+- Rolling cooldown: `node tools/build-playset.ts` builds six puzzles in a row, and day
+  seven has no fill. It does not matter whether the cooldown is 7 or 90 days, so the
+  limit is the supply of answers, not the window.
+- Supply per length, divided by 90 days: 5 letters 49 answers (0.5 a day), 6: 55 (0.6),
+  7: 76 (0.8), 8: 101 (1.1), 9: 151 (1.7), 10: 89 (1.0), 11: 53 (0.6), 12: 39 (0.4), 3
+  and 4 letters 16 and 65. These layouts spend four to eight five-letter answers a day.
+  Asking the annealer for fewer five-letter slots found no fill. A daily under a 90-day
+  cooldown needs about 1,000 distinct answers at ten a day, and a length mix in the
+  layouts that matches the bank's.
+- The twin rule (`twinConflicts`, passed to the fill as `conflicts`) keeps two answers
+  out of one puzzle when one is spelt out in the other's clue, hint or fact, they are
+  cited from the same row, or one is the head or tail of the other (NOVA, FROSTNOVA). It
+  over-excludes a little. The editor's twin groups that these do not catch are still
+  prose in `docs/seed-selection.md`.

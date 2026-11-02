@@ -29,6 +29,7 @@ const benchmark = runBenchmark(
   snapshot,
   config,
   values.check ? undefined : (sample) => measurements.push(sample),
+  { twins: true },
 );
 const elapsedMs = performance.now() - started;
 const output =

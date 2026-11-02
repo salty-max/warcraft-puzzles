@@ -5,71 +5,65 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-b-9x13",
+    "id": "bank-b-9x11",
     "rows": [
-      "###.....#",
-      "#####.#.#",
-      "###.#.#.#",
-      "#........",
-      "###.#.#.#",
-      "###.###.#",
-      "##......#",
-      "##.######",
-      ".....##.#",
-      "##.#.....",
-      "##.#.##.#",
-      "##.#.##.#",
-      "#........"
+      "####.....",
+      "#####.##.",
+      "#.###.##.",
+      ".........",
+      "#.###.##.",
+      "#.####.#.",
+      ".........",
+      ".###.#.##",
+      ".....#.##",
+      ".###.....",
+      ".###.####"
     ]
   },
   "placements": [
     {
       "slotId": "1A",
-      "entryId": "druid"
+      "entryId": "herod-t3"
     },
     {
       "slotId": "2D",
-      "entryId": "uldum"
+      "entryId": "eonar"
     },
     {
       "slotId": "3D",
-      "entryId": "durotan"
+      "entryId": "draenor"
     },
     {
       "slotId": "4D",
-      "entryId": "medium-wrath"
+      "entryId": "sapta"
     },
     {
       "slotId": "5A",
-      "entryId": "maraudon"
-    },
-    {
-      "slotId": "6A",
-      "entryId": "shaman"
+      "entryId": "warglaive"
     },
     {
       "slotId": "6D",
-      "entryId": "medium-3-scourge"
+      "entryId": "neeru"
     },
     {
       "slotId": "7A",
-      "entryId": "trogg"
+      "entryId": "darkspear"
+    },
+    {
+      "slotId": "7D",
+      "entryId": "druid"
     },
     {
       "slotId": "8D",
-      "entryId": "ghoul"
+      "entryId": "shred"
     },
     {
-      "slotId": "9D",
-      "entryId": "satyr"
+      "slotId": "9A",
+      "entryId": "uther"
     },
     {
       "slotId": "10A",
-      "entryId": "hyjal"
-    },
-    {
-      "slotId": "11A",
-      "entryId": "hellfire"
+      "entryId": "elune"
     }
   ]
 }

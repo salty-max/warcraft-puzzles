@@ -5,66 +5,61 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-c-10x12",
+    "id": "bank-d-9x11",
     "rows": [
-      "#######.##",
-      "........##",
-      ".##.###.##",
-      ".........#",
-      ".##.#.#.##",
-      ".#.....###",
-      "###.#.####",
-      "#.###.##.#",
-      "#.###.##.#",
-      ".........#",
-      "#.###.##.#",
-      "#........."
+      "###.##.#.",
+      "##.......",
+      "###.##.#.",
+      "#........",
+      "###.##.#.",
+      "####.....",
+      ".##.##.#.",
+      ".........",
+      ".##.##.#.",
+      ".##.##.#.",
+      ".....###."
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "elune"
-    },
-    {
-      "slotId": "2A",
-      "entryId": "diremaul"
+      "entryId": "magni"
     },
     {
       "slotId": "2D",
-      "entryId": "dwarf"
+      "entryId": "darnassian"
     },
     {
       "slotId": "3D",
-      "entryId": "eredar"
+      "entryId": "thermaplugg"
     },
     {
       "slotId": "4A",
-      "entryId": "auberdine"
+      "entryId": "kargath"
     },
     {
-      "slotId": "5D",
-      "entryId": "dunmorogh"
+      "slotId": "5A",
+      "entryId": "amnennar"
     },
     {
       "slotId": "6A",
-      "entryId": "jaina"
+      "entryId": "musha"
     },
     {
       "slotId": "7D",
-      "entryId": "blink"
+      "entryId": "trogg"
     },
     {
       "slotId": "8D",
-      "entryId": "ysera"
+      "entryId": "totem"
     },
     {
       "slotId": "9A",
-      "entryId": "highborne"
+      "entryId": "razorhill"
     },
     {
       "slotId": "10A",
-      "entryId": "kelthuzad"
+      "entryId": "gnome"
     }
   ]
 }

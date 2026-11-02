@@ -1,0 +1,71 @@
+{
+  "id": "play-5",
+  "title": "Playset 5",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "bank-c-9x13",
+    "rows": [
+      ".........",
+      "#.###.##.",
+      "#.###.##.",
+      "#........",
+      "#.###.##.",
+      "#.#######",
+      "#.##.####",
+      "#.....###",
+      "#.##.#.#.",
+      ".........",
+      "#.##.#.#.",
+      "####.#.#.",
+      "#........"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "1A",
+      "entryId": "evocation"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "varimathras"
+    },
+    {
+      "slotId": "3D",
+      "entryId": "troll"
+    },
+    {
+      "slotId": "4D",
+      "entryId": "nijel"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "immolate"
+    },
+    {
+      "slotId": "6D",
+      "entryId": "gazlowe"
+    },
+    {
+      "slotId": "7A",
+      "entryId": "hyjal"
+    },
+    {
+      "slotId": "8D",
+      "entryId": "hydra"
+    },
+    {
+      "slotId": "9D",
+      "entryId": "brill"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "lashlayer"
+    },
+    {
+      "slotId": "11A",
+      "entryId": "dunemaul"
+    }
+  ]
+}

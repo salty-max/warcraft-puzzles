@@ -9,6 +9,8 @@ const OptionsSchema = z.strictObject({
   seed: z.number().int().min(0).max(0xffffffff),
   nodeLimit: z.number().int().min(1).max(1000000),
   timeLimitMs: z.number().positive().finite().optional(),
+  /** Grid words that must not share a puzzle (see twins.ts), keyed by grid word. */
+  conflicts: z.record(z.string(), z.array(z.string())).optional(),
 });
 export type FillOptions = z.infer<typeof OptionsSchema>;
 export type LengthDeficit = {
@@ -80,6 +82,21 @@ function searchGrid(
     const count = words.filter((word) => word.grid.length === length).length;
     if (count < slots)
       lengthDeficits.push({ length, slots, words: count, missing: slots - count });
+  }
+  const wordIndex = new Map(words.map((word, index) => [word.grid, index]));
+  const conflictsOf = new Map<number, Set<number>>();
+  for (const [grid, others] of Object.entries(options.conflicts ?? {})) {
+    const from = wordIndex.get(grid);
+    if (from === undefined) continue;
+    for (const other of others) {
+      const to = wordIndex.get(other);
+      if (to === undefined || to === from) continue;
+      for (const [a, b] of [
+        [from, to],
+        [to, from],
+      ] as const)
+        conflictsOf.set(a, (conflictsOf.get(a) ?? new Set<number>()).add(b));
+    }
   }
   const deadEnds = new Map<string, DeadEnd>();
   let limit: FillResult["limit"] = null;
@@ -157,6 +174,8 @@ function searchGrid(
             other !== index && domain.length === 1 ? domain : [],
           ),
         );
+        for (const forced of [...forcedElsewhere])
+          for (const twin of conflictsOf.get(forced) ?? []) forcedElsewhere.add(twin);
         const support = slot.crossings.map((crossing) => ({
           crossing,
           letters: new Set(

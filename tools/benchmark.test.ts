@@ -67,7 +67,9 @@ it("replays the live and cut entries together on all committed layouts without a
   expect(benchmarkReport(result, editorial)).toContain("Partially checked (primary)");
   expect(JSON.stringify([editorial, snapshot])).toBe(before);
   // The rebuilt bank alone, no restored cuts, fills the layouts drawn for it.
-  const live = runBenchmark(loaded.editorial, snapshot, input);
+  const live = runBenchmark(loaded.editorial, snapshot, input, undefined, {
+    twins: true,
+  });
   const own = live.cases.filter(
     (run) => run.layoutId.startsWith("bank-") && run.cohort === "all-triads",
   );

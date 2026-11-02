@@ -1,0 +1,61 @@
+{
+  "id": "play-6",
+  "title": "Playset 6",
+  "status": "research",
+  "format": "partially-checked",
+  "coldSolve": null,
+  "layout": {
+    "id": "bank-e-9x11",
+    "rows": [
+      "#.####.##",
+      "#........",
+      "#.####.#.",
+      ".........",
+      "#.##.#.#.",
+      "####.#.#.",
+      "##.#.#.##",
+      "#........",
+      "##.#.####",
+      "##.#.####",
+      "##.....##"
+    ]
+  },
+  "placements": [
+    {
+      "slotId": "1D",
+      "entryId": "gnoll"
+    },
+    {
+      "slotId": "2D",
+      "entryId": "arcanite"
+    },
+    {
+      "slotId": "3A",
+      "entryId": "nozdormu"
+    },
+    {
+      "slotId": "4D",
+      "entryId": "uldum"
+    },
+    {
+      "slotId": "5A",
+      "entryId": "blackhand"
+    },
+    {
+      "slotId": "6D",
+      "entryId": "kaelthas"
+    },
+    {
+      "slotId": "7D",
+      "entryId": "jaina"
+    },
+    {
+      "slotId": "8A",
+      "entryId": "pantheon"
+    },
+    {
+      "slotId": "9A",
+      "entryId": "anshe"
+    }
+  ]
+}
