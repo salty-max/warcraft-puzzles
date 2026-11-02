@@ -174,70 +174,96 @@ triads, 761 distinct answers) but spent four to eight five-letter answers a day 
 a supply of about 0.5 a day under the 90-day cooldown, so `node tools/build-playset.ts`
 stopped at day 7 at any cooldown. The limit was the length mix, not the window.
 
-The eight `bank-l1` to `bank-l8` layouts (`content/benchmarks/layouts.json`: 9x11, 9x13,
-10x12, nine to eleven answers) replace them. The method, a throwaway annealer kept out
-of the repository, not a committed generator:
+The first family, `bank-l1` to `bank-l8` (9x11 to 10x12 and 9x13, nine to eleven
+answers, one budget for all), took the playset to day 17. On 2 November the day-18
+failure was diagnosed, and the family was widened to fourteen layouts by archetype
+(below). The method, a throwaway annealer kept out of the repository, not a committed
+generator:
 
-- **The length mix is a hard input, derived from supply.** Supply per length, divided by
-  90 days: 5 letters 49 answers (0.5 a day), 6: 55 (0.6), 7: 76 (0.8), 8: 101 (1.1), 9:
-  151 (1.7), 10: 89 (1.0), 11: 53 (0.6), 12: 39 (0.4), 3 and 4 letters 16 and 65. The
-  budget a layout must meet, or the cell is rejected outright (a penalty of 100 against
-  a cost of 0 to 30): at most one five-letter slot, two to four slots of three or four
-  letters (glue, the relaxed plain-word rule), at most two six-letter slots, at most one
-  of eleven or more, the rest of seven to ten, nine to thirteen slots in all. The
-  earlier "3-4 letter slots did not help" only showed that an annealer which was never
-  forced to use them did not.
-- **Moves and cost.** Start from a valid shape, flip one or two cells, keep it only if
-  it compiles (`compilePartiallyCheckedLayout`), passes `checkingFloorIssues` and keeps
-  the budget. The cost then adds the real filler on the live bank (4,000 nodes, twin
-  rule on) and, if that fills, four fixed random 65% samples of the bank (6 per sample
-  that fails). Eight runs of ten minutes (four starting shapes, two seeds). Shapes that
-  filled the full bank and all four samples were collected (about 19,000, mostly
-  neighbours of each other).
-- **Selection.** 300 of those, 6 samples each, then the best 30 on 24 other samples,
-  then eight kept that differ by at least 14 cells.
+- **The length mix is a hard input per archetype.** Supply per length is the bank
+  divided by 90 days: 3-4 letters 0.9 a day, 5: 0.5, 6: 0.6, 7: 0.8, 8: 1.1, 9: 1.7, 10:
+  1.0, 11: 0.6, 12: 0.4, 13 and longer 0.74 in all (38 of those 67 answers have 14 to 17
+  letters and fit no layout here, so the placeable supply is 0.32 for 13 letters and
+  about 8.0 answers a day in all). A candidate that leaves its archetype's slot ranges
+  (glue, five, six, 7-8, 9-10, 11+, total) is rejected outright (a penalty of 100
+  against a cost of 0 to 30).
+- **Moves and cost.** Flip one or two cells, keep the shape only if it compiles
+  (`compilePartiallyCheckedLayout`), passes `checkingFloorIssues` and every border row
+  and column holds a white cell (so a 10x13 really is 10x13). The cost adds the real
+  filler on the live bank (twin rule on) and four fixed random 65% samples. Six
+  archetypes, two to four seeds each, seven to eight minutes a run.
+- **Selection.** Up to 200 candidates per archetype on 24 random 65% samples (mulberry32
+  12345), then the best that differ by at least 8 cells. The fresh figure below uses 24
+  samples from mulberry32 777777 (node limit 10,000, fill seed 11).
+
+The fourteen layouts, in the file's order, which is the builder's rotation (it starts at
+the second layout on day 1, so nothing maps a day to a weekday yet). Widths stay at 9 or
+10 so a phone cell stays near 31 to 35px; the long answers (11 to 13 letters) run down
+the 13-tall grids.
+
+| archetype | layouts                         | grid  | answers  | no five | what it spends                            |
+| --------- | ------------------------------- | ----- | -------- | ------- | ----------------------------------------- |
+| light     | `light-1`, `light-2`, `light-3` | 9x11  | 7 to 8   | yes     | one or two glue, 8-9 letters, one 11      |
+| fives     | `fives-1`, `fives-2`            | 10x12 | 10       | no      | one five and one glue, 9s                 |
+| mid       | `mid-1`                         | 10x12 | 10       | yes     | one glue, a six, 7-8 letters              |
+| spine     | `spine-1`, `spine-2`, `spine-3` | 10x13 | 8 to 9   | yes     | one glue, a spine of 11, 12 or 13 letters |
+| glue      | `glue-1`                        | 9x11  | 9        | no      | three glue and one five                   |
+| big       | `big-1` to `big-4`              | 10x13 | 10 to 11 | `big-4` | two glue, a five, mostly 8-9 letters      |
+
+Eight of the fourteen spend no five-letter answer (`light-1` to `light-3`, `mid-1`,
+`spine-1` to `spine-3`, `big-4`). Fresh-sample robustness (24 random 65% samples of the
+bank, twin rule on): `light-1` 0.96, `light-2` 0.58, `fives-1` 0.88, `fives-2` 0.67,
+`mid-1` 0.63, `spine-1` 0.54, `glue-1` 0.88, `big-1` 0.96, `big-2` 1.00, `big-3` 0.83;
+`light-3`, `spine-2`, `spine-3` and `big-4` (the lean ones that spend 11 to 13 letter
+answers) are 0.21 to 0.46 and appear in the rotation only because the builder falls
+through to the next layout when one fails.
 
 What it showed, and what it can't:
 
-- Robustness, each layout filled against 24 random 65% samples of the bank (a stand-in
-  for answers locked out by the cooldown, which really removes the recent answers, not
-  random ones). The old seven filled 0 to 11 of 24 (0% to 46%) on the samples the new
-  ones were picked on, 0 to 11 of 24 on a fresh set. The new eight filled 23 or 24 of 24
-  on the first set and 18 to 24 of 24 on the fresh one (75% to 100%). The first set
-  selected them, so the fresh one is the number to quote. The samples are drawn with a
-  mulberry32 generator seeded 12345 (the selection set) and 777777 (the fresh set), the
-  annealer's four with 999, all over the live bank in file order at a 0.65 keep rate, a
-  node limit of 10,000 and fill seed 11. The annealer's scripts are not in the
-  repository, so these figures can be re-checked only by rewriting them.
-- Rolling cooldown: `node tools/build-playset.ts --days 30` builds 17 puzzles in a row
-  under the 90-day cooldown and day 18 has no fill (it built six and stopped at day 7
-  before). The layouts repeat from day 9, which is fine for a build and not for a daily:
-  a real rotation needs more layouts, or the bank to grow. The committed playset keeps
-  eight days, one per layout (the tool's default of `--days 8`).
-- The new layouts spend at most one five-letter answer (two have none), two to four glue
-  answers (all four letters in practice, the annealer found no use for three) and the
-  bulk at seven to nine letters. The bank's five-letter answers (49) are now needed at
-  about 1 a day, against 0.5 supplied. The run stops at day 18, so something else (not
-  measured here) runs dry first: check `lengthDeficits` and the dead ends before the
-  next change.
+- **What ran dry first was the glue, not the fives.** The first family spent 53 of the
+  65 four-letter answers in 17 days (3.1 a day against 0.72 supplied) and left 12. At
+  day 18 `lengthDeficits` was empty on all eight layouts and each died in one to six
+  nodes at a four-letter slot. Restoring only the four-letter answers made all eight
+  fill again, restoring 3, 5, 6, 11 or 12 letters none, 7 to 10 one each. The twin rule
+  does not bite (off, still none fill). The earlier worry that fives at about 1 a day
+  would run out was wrong: 13 fives were spent in 17 days.
+- **The rotation does not meet supply.** Averaged over the fourteen layouts the family
+  uses, per day: 3-4 letters 1.50 (supply 0.9), 5: 0.43 (0.5), 6: 0.50 (0.6), 7: 1.36
+  (0.8), 8: 1.57 (1.1), 9: 2.64 (1.7), 10: 0.64 (1.0), 11: 0.43 (0.6), 12: 0.14 (0.4),
+  13 letters 0.07 (0.32 placeable), and 9.3 answers a day against about 8.0 placeable.
+  Glue, 7, 8 and 9 are over, 10 and longer are under. Layouts that lean on the long
+  answers fill poorly on the bank as it stands (an annealer asked for zero glue found
+  none that fills even at 20,000 nodes), so a layout with fewer, longer answers is
+  fragile, not free.
+- Rolling cooldown: `node tools/build-playset.ts --days 90` builds 25 puzzles in a row
+  under the 90-day cooldown and day 26 has no fill (the first family stopped at 17). At
+  day 26 the four-letter answers are down to 21 (44 spent, 1.8 a day) and the nines to
+  84 distinct (67 spent), so the next walls are glue and 9s together. Several days fall
+  back to the same layout three times in a row (`glue-1` on days 16 to 18, `big-3` on
+  days 22 to 24) because the builder tries the rotation's next layout only after one
+  fails. That is what a supply-aware picker is for (not built, see the card). A shorter
+  cooldown on four-letter answers alone (20 days, a number only, the 90-day rule stands)
+  still stops at day 25. The committed playset keeps eight days (the tool's default of
+  `--days 8`).
 - They are fitted to this bank, so their solves are controls, not a fill rate. A
   different bank, or a cooldown that bites on the nine- and ten-letter names, will move
   the budget. A daily under a 90-day cooldown still needs about 1,000 distinct answers
   at ten a day.
-- Word ladders. Few, long answers with about 24% of cells checked (15 of 62 on a 10x12,
-  against 27% in the old seven) are a long run of rungs joined by single crossings: the
-  solver gets less from the crossings and leans on the clue, which for a long name is
-  the word game's best case and for a plain word its worst (the plain-word rule). The
-  shapes at 390px read as a lattice of long rows with a few verticals, the 9x13 with a
-  twelve-letter spine. They are playable but do not feel like a classic crossword.
-  Cold-solving a built puzzle with its crossings is the check to run before one is
-  released.
-- Phone: cells are 31.5px on the 10x12 shapes and 35px on the 9-wide ones at 390px, the
-  grid and the active clue are on screen together, the controls sit below the fold on
-  the 9x13. `pnpm test:browser` runs the layout and accessibility checks at 320, 390,
-  768, 1280 and 844 wide, in Chromium, Firefox and WebKit, on all eight puzzles, 105
-  passing. Its typing tests now find their down answer in the first puzzle instead of
-  naming one, so they follow the playset.
+- Word ladders. Few, long answers with about 24% of cells checked (21% to 26% across the
+  fourteen layouts, 24% overall, against 27% in the old seven) are a long run of rungs
+  joined by single crossings: the solver gets less from the crossings and leans on the
+  clue, which for a long name is the word game's best case and for a plain word its
+  worst (the plain-word rule). The shapes read as a lattice of long rows with a few
+  verticals, the 10x13 spines with an 11 to 13 letter answer down the middle. They are
+  playable but do not feel like a classic crossword. Cold-solving a built puzzle with
+  its crossings is the check to run before one is released, and has not been done here.
+- Phone: cells are 31.5px on the 10-wide shapes and 35px on the 9-wide ones at 390px,
+  the grid and the active clue are on screen together, the controls sit below the fold
+  on the 13-tall shapes. `pnpm test:browser` runs the layout and accessibility checks at
+  320, 390, 768, 1280 and 844 wide, in Chromium, Firefox and WebKit, on all eight
+  puzzles, 117 passing (after `pnpm prototype:build`, the served page is a build). Its
+  typing tests now find their down answer in the first puzzle instead of naming one, so
+  they follow the playset.
 - The twin rule (`twinConflicts`, passed to the fill as `conflicts`) keeps two answers
   out of one puzzle when one is spelt out in the other's clue, hint or fact, they are
   cited from the same row, or one is the head or tail of the other (NOVA, FROSTNOVA). It

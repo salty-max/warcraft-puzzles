@@ -5,66 +5,62 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-l2-10x12",
+    "id": "bank-fives-1-10x12",
     "rows": [
-      "###.#.###.",
-      "##........",
-      "###.#.###.",
-      "#.........",
-      "#####.###.",
-      "#####.###.",
-      "#.........",
-      ".##.#.####",
-      ".##.###.##",
+      "##.####.##",
       ".........#",
-      ".##.###.##",
-      ".........#"
+      "##.#.##.##",
+      "#........#",
+      "##.#.##.##",
+      "#.........",
+      "##.#.##.##",
+      "#.##.###.#",
+      "#.........",
+      "#.##.###.#",
+      ".........#",
+      "#.########"
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "boar-t3"
+      "entryId": "moonkin"
     },
     {
       "slotId": "2D",
-      "entryId": "zalazane"
+      "entryId": "dalaran"
     },
     {
-      "slotId": "3D",
-      "entryId": "prestor"
+      "slotId": "3A",
+      "entryId": "rhokdelar"
     },
     {
-      "slotId": "4A",
-      "entryId": "dolanaar"
+      "slotId": "4D",
+      "entryId": "dreadsteed"
     },
     {
       "slotId": "5A",
-      "entryId": "darnassus"
+      "entryId": "infernal"
     },
     {
       "slotId": "6A",
-      "entryId": "secondwar"
+      "entryId": "mindblast"
     },
     {
       "slotId": "7D",
-      "entryId": "charge"
+      "entryId": "whelp"
     },
     {
       "slotId": "8D",
-      "entryId": "medium-wrath"
+      "entryId": "lake"
     },
     {
-      "slotId": "9D",
-      "entryId": "naga"
+      "slotId": "9A",
+      "entryId": "hiveregal"
     },
     {
       "slotId": "10A",
-      "entryId": "astranaar"
-    },
-    {
-      "slotId": "11A",
-      "entryId": "hiveregal"
+      "entryId": "bloodrage"
     }
   ]
 }

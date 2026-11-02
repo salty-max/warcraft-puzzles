@@ -5,66 +5,59 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-l4-10x12",
+    "id": "bank-spine-1-10x13",
     "rows": [
-      "##.#.##.##",
-      "#........#",
-      "##.#.##.##",
-      "..........",
-      "####.#####",
-      "####.....#",
-      "####.###.#",
+      "####.#.###",
+      "###....###",
+      "#.##.#.###",
+      ".......###",
+      "#.##.#.#.#",
+      "#.#.......",
+      "#.##.#.#.#",
       "#.####.#.#",
       ".........#",
       "#.####.#.#",
       "..........",
+      "########.#",
       "########.#"
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "ruin"
+      "entryId": "feralas"
     },
     {
       "slotId": "2D",
-      "entryId": "alchemy-t3"
+      "entryId": "mindcontrol"
     },
     {
-      "slotId": "3D",
-      "entryId": "wall"
+      "slotId": "3A",
+      "entryId": "yeti"
     },
     {
-      "slotId": "4A",
-      "entryId": "quilboar"
+      "slotId": "4D",
+      "entryId": "auberdine"
     },
     {
       "slotId": "5A",
-      "entryId": "jinthaalor"
+      "entryId": "outland"
     },
     {
-      "slotId": "6A",
-      "entryId": "maiev"
+      "slotId": "6D",
+      "entryId": "darkshore"
     },
     {
-      "slotId": "7D",
-      "entryId": "vanndar"
+      "slotId": "7A",
+      "entryId": "madoran"
     },
     {
-      "slotId": "8D",
-      "entryId": "lion-t3"
+      "slotId": "8A",
+      "entryId": "fireworks"
     },
     {
-      "slotId": "9D",
-      "entryId": "idle"
-    },
-    {
-      "slotId": "10A",
-      "entryId": "kiljaeden"
-    },
-    {
-      "slotId": "11A",
-      "entryId": "gnomeregan"
+      "slotId": "9A",
+      "entryId": "peacebloom"
     }
   ]
 }

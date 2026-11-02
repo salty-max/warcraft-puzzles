@@ -57,7 +57,7 @@ it("replays the live and cut entries together on all committed layouts without a
       .every((run) => run.result.status === "solved"),
   ).toBe(true);
   expect(result.layouts.filter((layout) => layout.checking === "partial")).toHaveLength(
-    15,
+    21,
   );
   expect(
     result.cases

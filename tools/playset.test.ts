@@ -15,23 +15,40 @@ const snapshot = read("content/seed/evidence.json");
 describe("layouts drawn for the rebuilt bank", () => {
   const config = BenchmarkConfigSchema.parse(read("content/benchmarks/layouts.json"));
   const layouts = config.layouts.filter((layout) => layout.id.startsWith("bank-"));
-  it("meet the checking floor and the length budget the supply allows", () => {
-    expect(layouts).toHaveLength(8);
-    for (const layout of layouts) {
-      const grid = compilePartiallyCheckedLayout({ id: layout.id, rows: layout.rows });
+  const counts = layouts.map((layout) => {
+    const grid = compilePartiallyCheckedLayout({ id: layout.id, rows: layout.rows });
+    const count = (from: number, to: number) =>
+      grid.slots.filter((slot) => slot.length >= from && slot.length <= to).length;
+    return { layout, grid, count };
+  });
+  it("meet the checking floor and each slot-length bound", () => {
+    expect(layouts).toHaveLength(14);
+    for (const { grid, count } of counts) {
       expect(checkingFloorIssues(grid)).toEqual([]);
-      const count = (from: number, to: number) =>
-        grid.slots.filter((slot) => slot.length >= from && slot.length <= to).length;
-      // About 0.5 five-letter answers a day are free under the 90-day cooldown.
-      expect(count(3, 99)).toBeGreaterThanOrEqual(9);
-      expect(count(3, 99)).toBeLessThanOrEqual(13);
+      expect(count(3, 99)).toBeGreaterThanOrEqual(7);
+      expect(count(3, 99)).toBeLessThanOrEqual(11);
       expect(count(5, 5)).toBeLessThanOrEqual(1);
-      expect(count(3, 4)).toBeGreaterThanOrEqual(2);
-      expect(count(3, 4)).toBeLessThanOrEqual(4);
+      expect(count(3, 4)).toBeGreaterThanOrEqual(1);
+      expect(count(3, 4)).toBeLessThanOrEqual(3);
       expect(count(6, 6)).toBeLessThanOrEqual(2);
-      expect(count(11, 99)).toBeLessThanOrEqual(1);
-      expect(count(7, 10)).toBeGreaterThanOrEqual(3);
+      expect(count(11, 99)).toBeLessThanOrEqual(2);
+      expect(count(7, 13)).toBeGreaterThanOrEqual(5);
     }
+  });
+  it("vary: some spend a five-letter answer and some do not, in several sizes", () => {
+    const withFive = counts.filter(({ count }) => count(5, 5) === 1).length;
+    expect(withFive).toBeGreaterThanOrEqual(3);
+    expect(counts.length - withFive).toBeGreaterThanOrEqual(8);
+    const sizes = new Set(
+      layouts.map((layout) => `${layout.rows[0]!.length}x${layout.rows.length}`),
+    );
+    expect(sizes.size).toBeGreaterThanOrEqual(3);
+    // Glue ran dry first: the family may not drift above today's 1.5 a day (supply 0.9).
+    const glue =
+      counts.reduce((sum, { count }) => sum + count(3, 4), 0) / counts.length;
+    expect(glue).toBeLessThanOrEqual(1.5);
+    const answers = counts.map(({ count }) => count(3, 99));
+    expect(Math.max(...answers) - Math.min(...answers)).toBeGreaterThanOrEqual(3);
   });
 });
 
@@ -43,7 +60,7 @@ describe("the playset", () => {
     );
   it("loads through the research validator", () => {
     for (const day of days)
-      expect(day.playable.entries.length).toBeGreaterThanOrEqual(9);
+      expect(day.playable.entries.length).toBeGreaterThanOrEqual(7);
   });
   it("repeats no answer from one day to the next", () => {
     const seen = new Set<string>();

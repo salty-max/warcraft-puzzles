@@ -5,61 +5,67 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-l6-9x11",
+    "id": "bank-big-1-10x13",
     "rows": [
-      "###.#....",
-      "###.#.##.",
-      "#.#.#.##.",
-      ".........",
-      "#.#.####.",
-      ".....###.",
-      "#.#.#....",
-      "#.#.#.###",
-      ".........",
-      "#.#.#.###",
-      "#.#######"
+      "####.##.##",
+      "#........#",
+      "##.#.##.##",
+      "..........",
+      "##.#######",
+      "#.........",
+      "##.###.#.#",
+      "#.####.#.#",
+      ".........#",
+      "#.####.#.#",
+      ".........#",
+      "#.####.#.#",
+      "########.#"
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "thistletea"
-    },
-    {
-      "slotId": "2A",
-      "entryId": "pact-t3"
+      "entryId": "tree-t3"
     },
     {
       "slotId": "2D",
-      "entryId": "peon"
+      "entryId": "nova"
     },
     {
-      "slotId": "3D",
-      "entryId": "tanaris"
+      "slotId": "3A",
+      "entryId": "everlook"
     },
     {
       "slotId": "4D",
-      "entryId": "orgrimmar"
+      "entryId": "voljin-t3"
     },
     {
       "slotId": "5A",
-      "entryId": "frostnova"
+      "entryId": "hard-2-silverhand"
     },
     {
       "slotId": "6A",
-      "entryId": "brill"
-    },
-    {
-      "slotId": "7A",
-      "entryId": "pass"
+      "entryId": "wind-stone"
     },
     {
       "slotId": "7D",
-      "entryId": "post"
+      "entryId": "tanaris"
     },
     {
-      "slotId": "8A",
-      "entryId": "emberseer"
+      "slotId": "8D",
+      "entryId": "nathanos"
+    },
+    {
+      "slotId": "9D",
+      "entryId": "dryad"
+    },
+    {
+      "slotId": "10A",
+      "entryId": "argelmach"
+    },
+    {
+      "slotId": "11A",
+      "entryId": "malfurion"
     }
   ]
 }

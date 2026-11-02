@@ -5,66 +5,62 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-l3-10x12",
+    "id": "bank-mid-1-10x12",
     "rows": [
       "####.##.##",
-      "#.........",
-      "##.#.##.##",
-      "........##",
-      "##.#.###.#",
-      "#.........",
-      "####.###.#",
-      "#.######.#",
-      "..........",
+      "#........#",
+      "#.##.##.##",
+      ".........#",
+      "#.##.##.##",
+      "#.#.......",
+      "#.##.###.#",
       "#.####.#.#",
       "#........#",
-      "######.###"
+      "#.####.#.#",
+      "#.........",
+      "########.#"
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "remulos"
+      "entryId": "fandral"
     },
     {
       "slotId": "2D",
-      "entryId": "pain"
+      "entryId": "orcish"
     },
     {
       "slotId": "3A",
-      "entryId": "ashenvale"
+      "entryId": "manaburn"
     },
     {
-      "slotId": "4D",
-      "entryId": "strom"
+      "slotId": "3D",
+      "entryId": "moltencore"
+    },
+    {
+      "slotId": "4A",
+      "entryId": "bloodsail"
     },
     {
       "slotId": "5A",
-      "entryId": "maraudon"
+      "entryId": "banshee"
     },
     {
       "slotId": "6D",
-      "entryId": "garrote"
+      "entryId": "earthen"
     },
     {
-      "slotId": "7A",
-      "entryId": "immolthar"
+      "slotId": "7D",
+      "entryId": "pass"
     },
     {
-      "slotId": "8D",
-      "entryId": "lich-t3"
+      "slotId": "8A",
+      "entryId": "owlbeast"
     },
     {
       "slotId": "9A",
-      "entryId": "silvermoon"
-    },
-    {
-      "slotId": "10D",
-      "entryId": "mail-t3"
-    },
-    {
-      "slotId": "11A",
-      "entryId": "hellfire"
+      "entryId": "echoisles"
     }
   ]
 }

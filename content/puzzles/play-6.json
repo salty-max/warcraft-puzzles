@@ -5,66 +5,67 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-l7-10x12",
+    "id": "bank-big-2-10x13",
     "rows": [
       "##.#.##.##",
-      "#........#",
+      "#.........",
       "##.#.##.##",
       "#.........",
-      "#.##.#####",
-      "........##",
-      "#.##.#.###",
-      "#.####.###",
-      "#.####....",
+      "##.####.##",
+      "..........",
+      "##.###.###",
       "#.####.#.#",
       ".........#",
-      "#.####.#.#"
+      "#.####.#.#",
+      "#........#",
+      "######.#.#",
+      "######.###"
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "bell"
+      "entryId": "warsong"
     },
     {
       "slotId": "2D",
-      "entryId": "madoran"
+      "entryId": "boar-t3"
     },
     {
       "slotId": "3D",
-      "entryId": "ouro"
+      "entryId": "qiraji"
     },
     {
       "slotId": "4A",
-      "entryId": "cenarius"
+      "entryId": "razorhill"
     },
     {
       "slotId": "5A",
-      "entryId": "bloodhoof"
-    },
-    {
-      "slotId": "5D",
-      "entryId": "bloodsail"
+      "entryId": "astranaar"
     },
     {
       "slotId": "6A",
-      "entryId": "forsaken"
+      "entryId": "mindvision"
     },
     {
       "slotId": "7D",
-      "entryId": "evasion"
+      "entryId": "saurfang"
     },
     {
-      "slotId": "8A",
-      "entryId": "shiv"
+      "slotId": "8D",
+      "entryId": "ward"
     },
     {
       "slotId": "9D",
-      "entryId": "isle"
+      "entryId": "smite"
     },
     {
       "slotId": "10A",
-      "entryId": "wizardoil"
+      "entryId": "maelstrom"
+    },
+    {
+      "slotId": "11A",
+      "entryId": "darkpact"
     }
   ]
 }

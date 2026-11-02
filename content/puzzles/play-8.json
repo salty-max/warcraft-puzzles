@@ -5,66 +5,62 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-l1-10x12",
+    "id": "bank-fives-2-10x12",
     "rows": [
       "##.####.##",
-      "#.........",
+      "#........#",
       "##.#.##.##",
-      "##........",
-      "####.##.##",
-      ".........#",
-      "#.##.##.##",
-      "#.######.#",
       "..........",
-      "#.####.#.#",
+      "##.#.##.##",
+      "#.........",
+      "####.##.##",
+      "#.##.###.#",
       ".........#",
-      "#.####.###"
+      "#.##.###.#",
+      ".........#",
+      "########.#"
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "rend-t3"
+      "entryId": "danath"
     },
     {
       "slotId": "2D",
-      "entryId": "citrine"
+      "entryId": "vanndar"
     },
     {
       "slotId": "3A",
-      "entryId": "deathwing"
+      "entryId": "karazhan"
     },
     {
       "slotId": "4D",
-      "entryId": "thrall"
+      "entryId": "ashbringer"
     },
     {
       "slotId": "5A",
-      "entryId": "darkiron"
+      "entryId": "anachronos"
     },
     {
       "slotId": "6A",
-      "entryId": "trollbane"
+      "entryId": "therazane"
     },
     {
       "slotId": "7D",
-      "entryId": "medium-rebirth"
+      "entryId": "naga"
     },
     {
       "slotId": "8D",
-      "entryId": "doom-t3"
+      "entryId": "gnome"
     },
     {
       "slotId": "9A",
-      "entryId": "mindvision"
+      "entryId": "taragaman"
     },
     {
-      "slotId": "10D",
-      "entryId": "shot"
-    },
-    {
-      "slotId": "11A",
-      "entryId": "stoneform"
+      "slotId": "10A",
+      "entryId": "nathrezim"
     }
   ]
 }

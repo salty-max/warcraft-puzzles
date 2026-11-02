@@ -5,63 +5,53 @@
   "format": "partially-checked",
   "coldSolve": null,
   "layout": {
-    "id": "bank-l8-9x13",
+    "id": "bank-light-2-9x11",
     "rows": [
-      "#.#.#.###",
-      "........#",
-      "#.#.#.###",
-      "#.#......",
-      "#.#.##.##",
-      "........#",
-      "#.#.##.##",
-      "#.####.##",
-      "#.##.#.##",
-      "........#",
-      "#.##.#.##",
-      "#.#....##",
-      "####.####"
+      "#.###.###",
+      ".........",
+      "#.###.##.",
+      ".........",
+      "#.###.##.",
+      "#.###.##.",
+      ".......#.",
+      "###.#.##.",
+      "#........",
+      "###.#.###",
+      "#####.###"
     ]
   },
   "placements": [
     {
       "slotId": "1D",
-      "entryId": "deadwindpass"
+      "entryId": "taurahe"
     },
     {
       "slotId": "2D",
-      "entryId": "dunmodr"
+      "entryId": "tremortotem"
     },
     {
-      "slotId": "3D",
-      "entryId": "mind"
+      "slotId": "3A",
+      "entryId": "magocrats"
     },
     {
-      "slotId": "4A",
-      "entryId": "nerubian"
+      "slotId": "4D",
+      "entryId": "sargeras"
     },
     {
       "slotId": "5A",
-      "entryId": "medivh"
+      "entryId": "orgrimmar"
     },
     {
-      "slotId": "6D",
-      "entryId": "innervate"
+      "slotId": "6A",
+      "entryId": "medium-rebirth"
     },
     {
-      "slotId": "7A",
-      "entryId": "wildvine"
+      "slotId": "7D",
+      "entryId": "idle"
     },
     {
-      "slotId": "8D",
-      "entryId": "herod-t3"
-    },
-    {
-      "slotId": "9A",
-      "entryId": "jaedenar"
-    },
-    {
-      "slotId": "10A",
-      "entryId": "gore"
+      "slotId": "8A",
+      "entryId": "silithus"
     }
   ]
 }
