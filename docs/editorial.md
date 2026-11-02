@@ -97,6 +97,86 @@ To review a change: inspect its source passages, era and wording, record the rev
 identity, then update only that entry's review digest. Bulk stamping a new digest is not
 a review. A future editor workflow will enforce and audit this transition on the server.
 
+## Lore research
+
+Since 2 November 2026 (the owner's direction) a triad is made in two halves. The
+**answer** is a name wow-data confirms by id (classic.db or forever.db: it exists, its
+spelling, its kind). The **clue and hint** are original prose written from a research
+dossier about the lore: who or what it is, what it did, its history, its relations, what
+it means in the world. Spawns, drops, vendors, coordinates and loot tables are not clue
+material.
+
+**Dossiers** live in `content/research/<batch>.json` (schema:
+`packages/content/src/research.ts`), one per answer: the wow-data entity, three to six
+facts, what was dropped and why. A fact is `lore` (a web source), `game` (an in-game
+text, a wow-data row), `spelling` (a cue from the answer's own letters, hints only) or
+`inference` (from named facts, read by the fact-checker). Every lore or game fact has a
+source passage (exact, under 25 words) and `established`: the earliest canon source that
+discloses it, with its date.
+
+**Sources.** warcraft.wiki.gg is the main one, read through
+`node tools/research-fetch.ts "<Title>"`, which prints each sentence with the reference
+that covers it and pins the revision. A reference covers the sentence before it, never
+the ones after, and a sentence without one is not enough alone. An in-game book or text
+is cited as a `game` source (`readable_page`, `quest_text`), which the verifier checks,
+whenever wow-data holds it. Only when it doesn't may its wiki transcription stand as the
+game's words, cited as "the in-game book itself" with its patch, and the fact-checker
+confirms from the page's patch history that the wording predates 4.0.1 (Cataclysm
+rewrote many books). `Ref WoWCV1-3` in a printed reference is the Chronicle. Blizzard's
+own pages and pre-2011 Wayback copies of WoWWiki are allowed as `manual` sources, read
+by the fact-checker. Not allowed: Wowpedia (it blocks scripted reads, warcraft.wiki.gg
+is its fork), Wowhead comments, forums, fan fiction, the Warcraft RPG books (non-canon),
+Hearthstone. A summary from WebFetch is never a passage: it paraphrases.
+
+**Era by disclosure.** A fact counts only if a canon source released before 12 October
+2010 states it: patch 4.0.1, Cataclysm's first pre-patch, not the box on 7 December. The
+pre-patches (4.0.1, 4.0.3a's Shattering), the Chronicle (2016-2018), _The Shattering_
+novel (August 2010, a Cataclysm tie-in) and every later quest, novel or comic don't
+count, even about old events. `content:check` refuses those by name too. A row in
+classic.db doesn't prove vanilla: it holds 2024-25 rows too. Dates the researcher uses
+most (give the full day for anything in October 2010 or a 2010 year alone):
+
+| Source                                              | Released                           |
+| --------------------------------------------------- | ---------------------------------- |
+| Warcraft: Orcs and Humans manual                    | 1994                               |
+| Warcraft II manual, Beyond the Dark Portal manual   | 1995, 1996                         |
+| Warcraft III and The Frozen Throne manuals          | 2002, 2003                         |
+| Lord of the Clans, Of Blood and Honor               | 2000                               |
+| Day of the Dragon, The Last Guardian                | 2001, 2002                         |
+| War of the Ancients trilogy                         | 2004-2005                          |
+| Cycle of Hatred, Rise of the Horde                  | 2006                               |
+| Warcraft: Legends (manga)                           | 2006-2009                          |
+| Tides of Darkness                                   | 2007                               |
+| Beyond the Dark Portal (novel), Night of the Dragon | 2008                               |
+| Arthas: Rise of the Lich King                       | 2009                               |
+| Stormrage                                           | 2010-03                            |
+| The Shattering                                      | 2010, a Cataclysm tie-in: excluded |
+| World of Warcraft: Chronicle                        | 2016-2018: excluded                |
+
+In-game texts are dated by the patch that added them (the wiki's "Patch changes").
+
+**Copyright.** Passages are evidence, short, only in the dossier. Clues and hints are
+our own words: `content:check` refuses any run shared with a passage or a `says` line
+that holds four of the writer's own words (names don't count). Each batch carries a CC
+BY-SA attribution line, each passage its URL.
+
+**Checks.**
+`node tools/verify-research.ts --database <classic.db> --forever <forever.db>` proves
+each answer's entity, each wiki passage in its pinned revision and each game passage in
+its row, and writes `content/seed/research-evidence.json`. CI replays that snapshot
+offline in `pnpm content:check`, with the dates, the fact ids, the letter-count, leak
+and echo rules. The fact-checker reads what no tool can: does the passage say what the
+fact claims, is the reference canon and dated right, is it retconned later, does the
+clue claim only what its facts hold. A clue may name another banked answer (the owner's
+choice, 2 November 2026): `content:check --notes` lists them, the twin rule keeps the
+pair out of one grid.
+
+**Voice.** A lore-literate player talking to another, dry and a little wry, never cute
+or purple. A clue tells a piece of the story: a deed, a relation, a consequence, a
+place's history. The clue goes in by one road, the hint by another. Easy is what most
+who did the content know, medium a true but less travelled piece of lore, hard deeper
+reading with the same clarity.
+
 ## Source snapshots
 
 The seed reads `readable_page`, `quest_text` and curated `name` records through

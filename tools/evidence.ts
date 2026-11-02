@@ -30,3 +30,40 @@ export function verifyCitation(citation: Citation, read: EvidenceReader) {
     excerptSha256: sha256(citation.excerpt),
   };
 }
+
+export type ReadOnlyDatabase = {
+  prepare(sql: string): { get(...args: (string | number)[]): unknown };
+};
+
+/** One parameterised query per citable table, shared by the seed and the research. */
+export function readSourceRow(database: ReadOnlyDatabase, locator: Locator) {
+  const row =
+    locator.table === "readable_page"
+      ? database
+          .prepare(
+            "SELECT * FROM readable_page WHERE kind = ? AND id = ? AND locale = ? AND idx = ?",
+          )
+          .get(locator.kind, locator.id, locator.locale, locator.idx)
+      : locator.table === "quest_text"
+        ? database
+            .prepare(
+              "SELECT * FROM quest_text WHERE quest_id = ? AND locale = ? AND field = ?",
+            )
+            .get(locator.quest_id, locator.locale, locator.field)
+        : database
+            .prepare("SELECT * FROM name WHERE kind = ? AND id = ? AND locale = ?")
+            .get(locator.kind, locator.id, locator.locale);
+  return row as Record<string, unknown> | undefined;
+}
+
+/** The answer's game name by id, in English. */
+export function readEntityName(
+  database: ReadOnlyDatabase,
+  kind: string,
+  id: number,
+): string | undefined {
+  const row = database
+    .prepare("SELECT name FROM name WHERE kind = ? AND id = ? AND locale = 'enUS'")
+    .get(kind, id) as { name?: unknown } | undefined;
+  return typeof row?.name === "string" ? row.name : undefined;
+}

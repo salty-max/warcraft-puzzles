@@ -34,8 +34,10 @@ never need it: they read the committed `content/seed/evidence.json`.
 - Scope: Warcraft lore disclosed through the end of Wrath, with no later retcons.
 - Every playable entry is an answer-clue-hint triad with evidence for both prompts.
 - Do not pad the answer bank with obscure quest titles, routine loot or minor NPCs.
-- Source facts come through `wow-data` exports or its read-only SQLite interface. No
-  private database or local absolute path may be needed by normal CI.
+- Answers come through `wow-data` (classic.db, forever.db) by id, exports or its
+  read-only SQLite interface. Lore facts come from the allowed lore sources at a pinned
+  revision (`docs/editorial.md`, "Lore research"). Normal CI needs neither a private
+  database, a local absolute path nor the network.
 - Research checks passing never auto-approve an entry or completed puzzle.
 - Source changes invalidate evidence reviews. Wording changes invalidate approvals.
 - Run `pnpm check` after changes. Do not weaken coverage thresholds to pass a change.
@@ -62,8 +64,11 @@ never need it: they read the committed `content/seed/evidence.json`.
 - British English (honour, grey, colour), game names as the game spells them. Plain
   ASCII in content files. No semicolons in anything a player reads (clues, hints, facts,
   the page): two sentences, a comma, or a rewrite.
-- Every clue's claim follows from its cited excerpt, not only shares words with it.
-  Check by id:
+- Every claim in a clue or hint is a fact in the answer's research dossier, with its
+  source and the date it was first disclosed (before 12 October 2010, patch 4.0.1).
+  Clues are our own words, never a source's sentence, and never a spawn, drop or vendor.
+  Older triads stand on wow-data excerpts until rewritten: their claims follow from the
+  excerpt, checked by id with
   `bun ~/code/wow-addons/wow-data/bin/card.ts <npc|object|quest|item|place> <id>`.
 - No other project's private files: wow-data's database by path, nothing read from the
   addons.
@@ -94,15 +99,16 @@ The `reviewer`, `architect` and `editor` pick Opus in their own frontmatter.
 ## Helpers and skills
 
 In this repository's `.claude/`, so every session opened here finds them, called in the
-foreground. The four role agents write files (never commit, one writer at a time), the
-others are read-only. The cold-solver gets its clues in the prompt and no tools, never
-this repository.
+foreground. The four role agents and the researcher write files (never commit, one
+writer at a time), the others are read-only. The cold-solver gets its clues in the
+prompt and no tools, never this repository.
 
 | Helper                               | Model  | When                                                             |
 | ------------------------------------ | ------ | ---------------------------------------------------------------- |
 | `reviewer`                           | Opus   | every role, before each commit (the packet first)                |
 | `architect`                          | Opus   | a plan, the same error twice, before a big change is called done |
 | `editor`                             | Opus   | content, once per batch: voice, fairness, the bank's balance     |
+| `researcher`                         | Sonnet | content: an answer's lore dossier from the wiki, sources pinned  |
 | `fact-checker`                       | Sonnet | content: each changed triad against its rows by id               |
 | `cold-solver`                        | Sonnet | content and releases: clues answered blind                       |
 | `content`, `engine`, `front`, `back` | Sonnet | a role's task handed to a subagent                               |

@@ -8,17 +8,29 @@ description:
 
 # A content change
 
-## 1. Source first
+## 1. Research first
 
-For a new or changed fact, find the row first: a quest, a book page, a name, by id
-(`bun ~/code/wow-addons/wow-data/bin/card.ts <kind> <id>`). The citation's excerpt is
-copied exactly from that row. Lore after Wrath is out, whatever the source.
+The answer comes from wow-data by id
+(`bun ~/code/wow-addons/wow-data/bin/card.ts <kind> <id>`). The clue and hint come from
+lore research: a dossier per answer in `content/research/<batch>.json`, written by the
+`researcher` helper (`docs/editorial.md`, "Lore research"). Then prove it:
+
+```bash
+node tools/verify-research.ts --database "$WOW_DATA_DB" --forever ~/code/wow-addons/wow-data/.cache/db/forever.db
+```
+
+Lore disclosed after Wrath (12 October 2010, patch 4.0.1) is out, whatever the source.
+Older triads still stand on wow-data excerpts until they are rewritten.
 
 ## 2. Write the triad
 
-The rules in `CLAUDE.md` and `docs/roles/content.md`: a plain word only with a clue that
-needs Warcraft, the hint adds something the clue didn't say, British English, ASCII, no
-semicolons. Prefer Warcraft's own names.
+From the dossier only, never the wiki pages (the writer is Opus at high effort, a
+subagent per batch). The voice guide is in `docs/editorial.md`: a deed, a relation, a
+history, never a spawn, drop or vendor. The clue takes one route, the hint another. The
+rules in `CLAUDE.md` and `docs/roles/content.md`: a plain word only with a clue that
+needs Warcraft, British English, ASCII, no semicolons, no letter counts, never four
+words in a row from a passage. `pnpm content:check --notes` lists clues that name
+another banked answer (allowed, avoid where it's easy).
 
 ## 3. Refresh and validate
 

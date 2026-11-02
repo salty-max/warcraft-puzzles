@@ -90,6 +90,11 @@ export const EntrySchema = z.strictObject({
   // Eligibility uses disclosure era, not the date an event supposedly occurred.
   disclosedBy: EraSchema,
   status: z.enum(["draft", "evidence-checked", "reviewed", "approved", "rejected"]),
+  // The research dossier behind the clue and hint: "<batch>#<answer grid>".
+  dossier: z
+    .string()
+    .regex(/^[a-z][a-z0-9-]*#[A-Z]{3,30}$/)
+    .optional(),
   review: z.strictObject({
     evidenceReviewer: text,
     evidenceDigest: digest,

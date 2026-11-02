@@ -1,6 +1,11 @@
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { EditorialSchema, SnapshotSchema } from "../packages/content/src/index.ts";
+import {
+  EditorialSchema,
+  ResearchSchema,
+  ResearchSnapshotSchema,
+  SnapshotSchema,
+} from "../packages/content/src/index.ts";
 
 export const root = fileURLToPath(new URL("../", import.meta.url));
 
@@ -23,4 +28,32 @@ export function loadCatalogue(editorialPath?: string, evidencePath?: string) {
       ),
     ),
   };
+}
+
+export const researchDir = new URL("../content/research/", import.meta.url);
+export const researchSnapshotPath = new URL(
+  "../content/seed/research-evidence.json",
+  import.meta.url,
+);
+
+/** Every research batch, `content/research/<batch>.json`. */
+export function loadResearch(dir: URL = researchDir) {
+  let files: string[];
+  try {
+    files = readdirSync(dir)
+      .filter((file) => file.endsWith(".json"))
+      .sort();
+  } catch {
+    return [];
+  }
+  return files.map((file) => ResearchSchema.parse(readJson(new URL(file, dir))));
+}
+
+export function loadResearchSnapshot(path: URL | string = researchSnapshotPath) {
+  try {
+    return ResearchSnapshotSchema.parse(readJson(path));
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") return undefined;
+    throw error;
+  }
 }

@@ -8,7 +8,9 @@ November 2026) found the engine sound and the bank thin.
 - `content/seed/editorial.json` (answers, facts, clues, hints, citations)
 - `content/seed/evidence.json` (only through `pnpm content:refresh`)
 - the content tools: `tools/check-content.ts`, `tools/refresh-evidence.ts`,
-  `tools/report-content.ts`, `tools/evidence.ts`, `tools/io.ts`
+  `tools/report-content.ts`, `tools/evidence.ts`, `tools/io.ts`, the research tools
+  (`tools/wiki.ts`, `tools/research-fetch.ts`, `tools/verify-research.ts`,
+  `tools/dossier-view.ts`) and `content/research/`
 - the words in `content/puzzles/*.json` (the layout is engine's)
 - `docs/editorial.md`, `docs/seed-*.md`, the per-puzzle reports' editorial notes
 

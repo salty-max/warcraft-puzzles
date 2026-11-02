@@ -3,7 +3,7 @@ import { createReadStream, readFileSync, writeFileSync } from "node:fs";
 import { DatabaseSync } from "node:sqlite";
 import { parseArgs } from "node:util";
 import { SnapshotSchema } from "../packages/content/src/index.ts";
-import { verifyCitation } from "./evidence.ts";
+import { readSourceRow, verifyCitation } from "./evidence.ts";
 import type { SourceRow } from "./evidence.ts";
 import { loadEditorial } from "./io.ts";
 
@@ -29,27 +29,11 @@ try {
   const editorial = loadEditorial(values.catalogue);
   const evidence = editorial.citations.map((citation) =>
     verifyCitation(citation, (locator) => {
-      const row =
-        locator.table === "readable_page"
-          ? database
-              .prepare(
-                "SELECT * FROM readable_page WHERE kind = ? AND id = ? AND locale = ? AND idx = ?",
-              )
-              .get(locator.kind, locator.id, locator.locale, locator.idx)
-          : locator.table === "quest_text"
-            ? database
-                .prepare(
-                  "SELECT * FROM quest_text WHERE quest_id = ? AND locale = ? AND field = ?",
-                )
-                .get(locator.quest_id, locator.locale, locator.field)
-            : database
-                .prepare("SELECT * FROM name WHERE kind = ? AND id = ? AND locale = ?")
-                .get(locator.kind, locator.id, locator.locale);
-      if (!row) return undefined;
-      if (typeof row.source !== "string") {
+      const row = readSourceRow(database, locator);
+      if (row && typeof row.source !== "string") {
         throw new Error(`${citation.id}: invalid source row`);
       }
-      return row as SourceRow;
+      return row as SourceRow | undefined;
     }),
   );
   const sources = [...new Set(evidence.map((item) => item.sourceId))]
