@@ -140,3 +140,105 @@ tool list in this build), so read the rate as a floor for a real player.
 - Source pages are shared: a few lore books feed up to nine answers each. The "no source
   page twice in a week" rule will need a weekly builder that counts them.
 - The cooldown and Horde balance (67 Alliance to 39 Horde) want more Horde towns.
+
+## Results of the second tranche
+
+Run on 2 November 2026. Aim: 396 toward 800 distinct answers, weighted to five- and
+nine-letter names (the engine's finding), a reserve of glue words, and the weak pools.
+
+| Measure                             |    Before |      After |
+| ----------------------------------- | --------: | ---------: |
+| Live triads (not `rejected`)        |       396 |        614 |
+| Distinct answers                    |       370 |        588 |
+| Names (`proper`) / dictionary words |  312 / 84 |  505 / 109 |
+| Distinct answers of 3-4 / 5 letters |    8 / 33 |    15 / 43 |
+| Distinct answers of 9 / 10+ letters |  69 / 130 |  128 / 201 |
+| Alliance / Horde / shared           | 67/39/290 | 106/83/433 |
+
+218 new triads stand, 132 short of the 350 asked and 212 short of 800 distinct answers.
+The cause is the source, not effort. wow-data holds Vanilla only, and the agents found
+that most famous names have no usable row (every Naxxramas and Ahn'Qiraj boss, most
+Molten Core and Zul'Gurub bosses, every Outland and Northrend place). 244 drafts were
+merged, 18 were cut at the gates and 8 more after the review. Five-letter names are the
+hardest: only 10 new ones survived (Baine, Eonar, Jin'do, Omokk, Strom, Zanza, Flare,
+Shred, Sting, Totem), so the engine's five-letter bottleneck is eased from 33 to 43, not
+solved. The Wrath-name exception (sourcing a short named list from the wiki) is still
+unused, and is the one lever that would add five-letter Northrend names.
+
+### How the gates went
+
+Four content agents wrote places, people and bosses, tribes and factions, spells and
+items, then glue and breadth (the first glue agent stalled and was replaced). Two
+fact-checkers read 205 triads (about 60 problems: unsupported adjectives, a reversed
+direction, wrong victims, clues that name another banked answer, letter counts left in
+clue text). The cold-solver scored round one at 55%. A repair pass rewrote 157 and cut
+one, the round-two glue gate rewrote 26 and cut five (TOME, LAVA, MANA, DOOM, FEL: the
+first two rest on Season of Discovery rows, the others are dictionary words with no
+honest Warcraft clue). A third fact-check of the rewrites, one editor pass (Opus) and a
+last repair pass (98 rewritten, 12 cut) closed it. 18 triads were cut after the gates.
+
+### Blind solve (clues only, no crossings)
+
+The 218 live new clues, each at its last round (a clue untouched after its first solve
+keeps that result, a rewritten clue is scored on its final text): **60%** solved
+exactly. The rewritten set alone, which holds the hard residue, scored 40% in its last
+round, so the figure is lower than tranche 1's 67% and is a floor.
+
+| Category             | Clues | Solved |
+| -------------------- | ----: | -----: |
+| People               |    30 |    73% |
+| Places               |    50 |    70% |
+| Items                |    15 |    60% |
+| Spells and abilities |    44 |    56% |
+| Cosmology and events |    11 |    54% |
+| Tribes and creatures |    31 |    55% |
+| Factions             |    11 |    45% |
+| Bosses               |    19 |    36% |
+| Glue words           |     7 |    71% |
+
+| Length             | Clues | Solved |
+| ------------------ | ----: | -----: |
+| 3-4 letters (glue) |     7 |    71% |
+| 5 letters          |    10 |    50% |
+| 6-8 letters        |    71 |    66% |
+| 9 letters          |    59 |    62% |
+| 10 or more         |    71 |    52% |
+
+Easy 91%, medium 67%, hard 32%. The editor's verdict moved 38 clues that a blind solver
+misses twice but a player could reach with crossings to `hard`. The weak pools are the
+same as in tranche 1: bosses (only errand quest text in Vanilla data) and factions.
+
+### The glue words
+
+The user allows short plain words back only where they sit naturally in the game.
+Thirty-two were drafted and seven stand: MOJO, LOA, MAUL, RAKE, WYRM, VOID and WELL. The
+rest (ORC-sized words like ELF, ALE, MANA, TOME, FEL, DOOM, LAVA among them) failed the
+bar: Vanilla rows give them as bare spell tooltips, item flavour, errand text or Season
+of Discovery rows. Seven glue words is far short of the reserve of 100 the layouts would
+like, and more will not come from this database. If the layouts need 3-4 letter fill,
+the honest options are more of the checked squares, or a deliberate glue list sourced
+from the game's interface strings (wow-data's `client_GlobalStrings`), a decision for
+the owner.
+
+### What is still open
+
+- Spells carry no class: wow-data names a class for almost none of them. The editor
+  noted this causes most spell misses. A class column would come from the client
+  SkillLineAbility table, a wow-data task, not a clue rewrite.
+- 22 hints only restate their clue and nothing in the database gave a better one.
+- Source pages: the aspects book (object 175726) feeds about ten answers. The weekly
+  builder has to count by book, not by page.
+- Pairs that never share a puzzle (about 30 groups in the editor's notes, among them
+  MITHRIL and TRUESILVER, FELCLOTH and MOONCLOTH, STROM and STROMGARDE, VALTHALAK and
+  DRAKKISATH, BADLANDS and KARGATH).
+- Horde stands at 83 against 106 Alliance, better than 39 against 67.
+- The reviewer found plain-word clues that are definitions (LEVITATE, TAUNT, HIBERNATE,
+  DISTRACT, DISENGAGE, COUNTERATTACK, RIPOSTE, SEDUCTION): cut, since no row names a
+  class to anchor them. HERBALISM, ABOMINATION and PANTHEON stay but are the next to
+  trim.
+- Near-twin pairs exist only as prose here. Sharp ones: ELDRETHALAS (hint "also called
+  Dire Maul") with MAUL, ASTRALRECALL (hint names the Innkeeper) with INNKEEPER,
+  DRAKKISATH with DRAGONSPAWN and VALTHALAK, MITHRIL with TRUESILVER, ARCANITE with
+  THORIUM. The builder needs them as data before a fill can put both in one grid.
+- `vitest.config.ts` gets `testTimeout: 30000`: the two benchmark tests replay the whole
+  bank on every layout and timed out at 5 s under coverage once the bank grew.

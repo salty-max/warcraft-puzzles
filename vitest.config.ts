@@ -2,6 +2,8 @@ import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
+    // The benchmark tests replay the whole bank on every layout, which outgrew 5 s under coverage.
+    testTimeout: 30000,
     include: ["packages/**/*.test.ts", "tools/**/*.test.ts", "web/**/*.test.ts"],
     coverage: {
       provider: "v8",
