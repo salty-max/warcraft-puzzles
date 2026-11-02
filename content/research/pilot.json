@@ -1,0 +1,4567 @@
+{
+  "schemaVersion": 1,
+  "batch": "pilot",
+  "attribution": "Lore passages quoted from warcraft.wiki.gg (CC BY-SA 4.0), each with its URL and revision.",
+  "dossiers": [
+    {
+      "answer": "Edwin VanCleef",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 639
+      },
+      "facts": [
+        {
+          "id": "stonemason-guildmaster",
+          "kind": "game",
+          "says": "He was the head of the Stonemasons' Guild, the builders who raised Stormwind again after the orcs razed it in the First War.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 141,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "The Stonemasons' Guild was run by a man named Edwin VanCleef."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 141,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "VanCleef was responsible for rebuilding Stormwind after the orcs razed it in the First War."
+            }
+          ],
+          "established": {
+            "by": "Quest: The Defias Brotherhood (Westfall)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "cheated-and-riot",
+          "kind": "game",
+          "says": "The nobles refused to pay the guild for the rebuilding. He turned down a government job out of loyalty to his men, led a riot, left the city and swore revenge.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 389,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "The nobles refused to pay us for our work."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 389,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "He led a riot and left the city, swearing revenge."
+            }
+          ],
+          "established": {
+            "by": "Quest: Bazil Thredd",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "lieutenant-thredd",
+          "kind": "game",
+          "says": "His lieutenant was Bazil Thredd, who was held prisoner in the Stormwind Stockade.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 389,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "His lieutenant, Bazil Thredd, might know more about VanCleef's plans. He's being held prisoner in the Stockade."
+            }
+          ],
+          "established": {
+            "by": "Quest: Bazil Thredd",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "defias-head-killed",
+          "kind": "game",
+          "says": "He led the Defias Brotherhood, and adventurers were sent to kill him and bring his head to the Westfall militia. His death was called the start of the end for the gang.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 166,
+                  "locale": "enUS",
+                  "field": "objectives"
+                }
+              },
+              "passage": "Kill Edwin VanCleef and bring his head to Gryan Stoutmantle."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 166,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "With VanCleef dead, this marks the beginning of the end for the Defias Brotherhood."
+            }
+          ],
+          "established": {
+            "by": "Quest: The Defias Brotherhood (Westfall)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "unsent-letter-baros",
+          "kind": "game",
+          "says": "On his body was an unsent letter to Baros Alexston, the city architect, who remembered him as a peerless fighter, an idealist and a romantic consumed by revenge.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 373,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "an unsent letter. It is addressed to Baros Alexston, the City Architect of Stormwind"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 373,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "He was a peerless fighter in his younger years."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 373,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "Revenge has consumed him."
+            }
+          ],
+          "established": {
+            "by": "Quest: The Unsent Letter",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "head-end-of-brotherhood",
+          "kind": "lore",
+          "says": "Adventurers took his head to Gryan Stoutmantle, who declared that this marked the end of the Defias Brotherhood.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Edwin_VanCleef",
+              "revid": 6958192,
+              "passage": "severed his head for Gryan Stoutmantle, who said that this event marked the end of the Defias Brotherhood",
+              "cites": "The Defias Brotherhood (7)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Quest: The Defias Brotherhood (7)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "He was childhood friends with Mathias Shaw, who trained him as a rogue (Shawreport).",
+          "why": "The reference is an item/report whose release date is not shown on the page, and nothing pre-2011 could be confirmed."
+        },
+        {
+          "says": "He led the construction of Nethergarde Keep (ref: Beyond the Dark Portal).",
+          "why": "The reference is ambiguous between the 1996 expansion and the 2008 novel and the sentence cannot be tied to either, dropped rather than guessed."
+        },
+        {
+          "says": "Katrana Prestor manipulated both the nobles and the Stonemasons, and Queen Tiffin died in the riot.",
+          "why": "[no ref] on the wiki; the Tiffin detail is also from the 2008-9 comic, not verifiable with the printed refs."
+        },
+        {
+          "says": "His appearance, tactics, longbow and rapier, and his Defias founding backstory in detail (Lands of Conflict, Dark Factions).",
+          "why": "Warcraft RPG books are not canon."
+        },
+        {
+          "says": "His daughter Vanessa VanCleef leads the Brotherhood (A Vision of the Past).",
+          "why": "Cataclysm-era (2010-12), after the cutoff."
+        }
+      ]
+    },
+    {
+      "answer": "Hogger",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 448
+      },
+      "facts": [
+        {
+          "id": "bounty-on-hogger",
+          "kind": "game",
+          "says": "The Stormwind Army placed a generous bounty on this huge gnoll prowling south-western Elwynn, who overpowered every attempt to capture him",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 176,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "A huge gnoll, Hogger, is prowling the woods in southwestern Elwynn."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 176,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "The Stormwind Army has placed a generous bounty on the Gnoll."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 176,
+                  "field": "details",
+                  "locale": "enUS"
+                }
+              },
+              "passage": "He has overpowered all attempts at his capture."
+            }
+          ],
+          "established": {
+            "by": "Quest: Wanted: Hogger",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "defias-allies",
+          "kind": "lore",
+          "says": "The Riverpaw gnolls of Elwynn raided farms and villages throughout Elwynn Forest and were working with the Defias Brotherhood, who armed them and gave them leadership.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Hogger",
+              "revid": 6907090,
+              "passage": "They were conspiring with the Defias Brotherhood, which was equipping them with weapons, tactical leadership, and magic.",
+              "cites": "The Collector (Classic) | The Defias Brotherhood (2) | The World of Warcraft Townhall/Beastiary#Gnoll",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Quest: The Defias Brotherhood (2), The Collector",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "The Riverpaw pack raided farms and villages after the Third War, and Hogger was its chieftain.",
+          "why": "[no ref] on the wiki, and no wow-data quest text calls him chieftain."
+        },
+        {
+          "says": "After the Cataclysm he was arrested, held in the Stockade, led a breakout and was killed (WANTED: Hogger, The Gnoll King).",
+          "why": "Cataclysm quests, after the cutoff."
+        },
+        {
+          "says": "Hogger's Trousers are kept in the Stockade as a morale memento (Exploring Azeroth: The Eastern Kingdoms).",
+          "why": "The book is from 2012."
+        },
+        {
+          "says": "Fame as the first elite a human meets, 666 health, jokes, BlizzCon 2009 raid, Hearthstone card, Heroes of the Storm.",
+          "why": "Player and meta culture, not in-world lore, and Hearthstone does not count."
+        }
+      ],
+      "notes": "Thin: two real facts, the bounty and the Defias link. His fame is gameplay culture, not lore. Fair clue material is the Elwynn gnoll with a bounty, but the in-world lore is shallow."
+    },
+    {
+      "answer": "Onyxia",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 10184
+      },
+      "facts": [
+        {
+          "id": "deathwing-daughter",
+          "kind": "game",
+          "says": "She was the daughter of the black dragon lord Deathwing and the twin of Nefarian, the tyrant of Blackrock Spire.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 1170,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "the daughter of the black dragonlord, Deathwing"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6403,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Lady Prestor is Onyxia: Brood of Deathwing, twin to the tyrant of the Spire, Nefarian."
+            }
+          ],
+          "established": {
+            "by": "Quests: The Brood of Onyxia, The Great Masquerade",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "lady-prestor-disguise",
+          "kind": "game",
+          "says": "In Stormwind she lived as Lady Katrana Prestor, a noble at court who held the kingdom in her captivating gaze.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6403,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Lady Prestor is Onyxia"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6403,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "For too long she has held our kingdom in her captivating gaze."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 4185,
+                  "locale": "enUS",
+                  "field": "objectives"
+                }
+              },
+              "passage": "after speaking with Lady Katrana Prestor."
+            }
+          ],
+          "established": {
+            "by": "Quest: The Great Masquerade",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "controls-bolvar",
+          "kind": "game",
+          "says": "Through a medallion she kept Highlord Bolvar Fordragon a puppet in mind and body, and the same medallion gave him glimpses of her own mind.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6403,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Even the Highlord is controlled by her trickery - a puppet."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6403,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "This medallion is what held my mind and body captive."
+            }
+          ],
+          "established": {
+            "by": "Quest: The Great Masquerade",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "brood-in-dustwallow",
+          "kind": "game",
+          "says": "Her brood invaded Stonemaul Village in Dustwallow Marsh and scattered whelps and eggs around the Wyrmbog, where she was believed to have her lair.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 1170,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Stonemaul Village was invaded by the brood of Onyxia."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 1172,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Make haste to Wyrmbog in the south of Dustwallow Marsh."
+            }
+          ],
+          "established": {
+            "by": "Quests: The Brood of Onyxia",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "head-trophy",
+          "kind": "game",
+          "says": "After she was slain, her head was carried to the Horde's warchief Thrall in Orgrimmar and to Highlord Bolvar Fordragon in Stormwind.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7495,
+                  "locale": "enUS",
+                  "field": "objectives"
+                }
+              },
+              "passage": "Take the Head of Onyxia to Highlord Bolvar Fordragon in Stormwind."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7490,
+                  "locale": "enUS",
+                  "field": "objectives"
+                }
+              },
+              "passage": "Take the Head of Onyxia to Thrall in Orgrimmar."
+            }
+          ],
+          "established": {
+            "by": "Quests: Victory for the Alliance / Horde",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "helps-nefarian",
+          "kind": "lore",
+          "says": "With her brother Nefarian she worked to rebuild the black dragonflight after Deathwing left.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Onyxia",
+              "revid": 6957771,
+              "passage": "with the aid of his sister Onyxia and the orchestrations of their human personas, Nefarian worked toward replenishing the black dragonflight",
+              "cites": "World of Warcraft: The Burning Crusade Game Manual, pg. 6",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft: The Burning Crusade Game Manual, pg. 6",
+            "date": "2007",
+            "era": "tbc"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "She manipulated the Stonemasons-nobles feud so that Queen Tiffin died, then had King Varian abducted by the Defias.",
+          "why": "Wiki prints [no ref] and the detail is from the 2008-09 comic and Wolfheart; no verifiable pre-2011 canon source on the page."
+        },
+        {
+          "says": "She was slain and beheaded in her lair by King Varian (comic issues 14-15).",
+          "why": "The comic is not tied to a printed date, and the quest facts already cover the head."
+        },
+        {
+          "says": "She was reanimated by Nefarian after the Cataclysm and destroyed in the Blackwing Descent.",
+          "why": "Cataclysm, after the cutoff."
+        },
+        {
+          "says": "Her wish to hold Stormwind via the Stonemasons' dispute (Shaw's Report), and the Defias dealings.",
+          "why": "Source is an item whose release can't be dated from the page."
+        },
+        {
+          "says": "Her Chromie encounter at Visage Day, Wrathion cloak, Wyrmrest Temple.",
+          "why": "Cataclysm and later."
+        }
+      ]
+    },
+    {
+      "answer": "Mother Smolderweb",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 10596
+      },
+      "facts": [
+        {
+          "id": "mothers-milk-poison",
+          "kind": "game",
+          "says": "Blackrock orcs spoke of 'Mother's Milk', one of the most potent poisons in the world, named after her. She is the big spider in the Skitterweb cave in the heart of Blackrock Spire.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 4866,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "They call it 'Mother's Milk', named after Mother Smolderweb, the big nasty spider in the Skitterweb cave."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 4866,
+                  "locale": "enUS",
+                  "field": "objectives"
+                }
+              },
+              "passage": "In the heart of Blackrock Spire you will find Mother Smolderweb."
+            }
+          ],
+          "established": {
+            "by": "Quest: Mother's Milk",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Dark Iron dwarves dug into her lair centuries ago and released her into the spire, and her brood swells so that even Blackhand's forces fear her domain.",
+          "why": "[no ref] on the wiki, no wow-data text, nothing to date."
+        },
+        {
+          "says": "She is a crystal spider mini-boss and source of the Smolderweb Hatchling pet.",
+          "why": "Gameplay, not lore."
+        }
+      ],
+      "notes": "Too thin to clue fairly as lore: one fact (the poison Mother's Milk is named after her, found in Blackrock Spire). Everything else on the page is unreferenced or gameplay. Recommend using the answer only as glue or dropping it."
+    },
+    {
+      "answer": "Ragnaros",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 11502
+      },
+      "facts": [
+        {
+          "id": "summoned-by-thaurissan",
+          "kind": "lore",
+          "says": "Thaurissan sought a supernatural minion to turn his war in his favour and called on ancient powers",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Ragnaros",
+              "revid": 6932845,
+              "passage": "Thaurissan, seeking to summon a supernatural minion that would turn the tide of the war back to his favor called upon the ancient powers",
+              "cites": "Game Guide/Raid Areas#Molten Core",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Official Game Guide: Raid Areas, Molten Core",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "old-gods-general",
+          "kind": "game",
+          "says": "He is called a general of the Old Gods, a far greater evil than anything in this world, in the fiery depths",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 3907,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "A general of the Old Gods! IN OUR WORLD!"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 3907,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "A far greater evil than anything that exists in this world resides in those fiery depths."
+            }
+          ],
+          "established": {
+            "by": "Quest: Disharmony of Fire",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "rules-dark-iron",
+          "kind": "game",
+          "says": "His sacred arms and armaments favour Dark Iron",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6642,
+                  "locale": "enUS",
+                  "field": "request"
+                }
+              },
+              "passage": "The sacred arms and armaments of Ragnaros favor Dark Iron."
+            }
+          ],
+          "established": {
+            "by": "Quest: Favor Amongst the Brotherhood, Dark Iron Ore",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "minions",
+          "kind": "game",
+          "says": "His minions include Lord Incendius in Blackrock Depths, and Ambassador Infernus, whom he sent to Angor Fortress to mind the Shadowforge dwarves seeking artifacts in Uldaman.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 4263,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Lord Incendius is purported to be a minion of Ragnaros!"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 762,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Ambassador Infernus was sent to Angor Fortress by Ragnaros himself to mind the Shadowforge seeking lost artifacts in Uldaman."
+            }
+          ],
+          "established": {
+            "by": "Quests: Incendius!, An Ambassador of Evil",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "thunderaan-essence",
+          "kind": "lore",
+          "says": "He divided what was left of Thunderaan, the Prince of Air, between his servants Baron Geddon and Garr",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Ragnaros",
+              "revid": 6932845,
+              "passage": "Ragnaros divided what remained between his servants, Baron Geddon and Garr.",
+              "cites": "Highlord Demitrian#Dialogue",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "NPC dialogue: Highlord Demitrian",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "golem-army",
+          "kind": "lore",
+          "says": "He found the secret of making life from stone and meant to build an army of golems to conquer all of Blackrock Mountain.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Ragnaros",
+              "revid": 6932845,
+              "passage": "Ragnaros had uncovered the secret to creating life from stone and plans to build an army of unstoppable golems",
+              "cites": "Game Guide/World Dungeons#Blackrock Depths",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Official Game Guide: World Dungeons, Blackrock Depths",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "freed-by-call",
+          "kind": "game",
+          "says": "Ragnaros, lord of fire elementals banished by the Titans, was freed by Thaurissan's call and erupted back into the world",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "object",
+                  "id": 175739,
+                  "idx": 11,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "Now, freed by Thaurissan's call, Ragnaros erupted into being once again."
+            }
+          ],
+          "established": {
+            "by": "The War of the Three Hammers (in-game book, Ironforge)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "thaurissan-killed",
+          "kind": "game",
+          "says": "Thaurissan was killed by the forces he unleashed, and his surviving Dark Irons were enslaved by Ragnaros",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "object",
+                  "id": 175739,
+                  "idx": 12,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "Though Thaurissan was killed by the forces he had unleashed, his surviving brethren were ultimately enslaved by Ragnaros"
+            }
+          ],
+          "established": {
+            "by": "The War of the Three Hammers (in-game book, Ironforge)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "He was the first Elemental Lord of fire, a lieutenant of the Old Gods, banished by Tyr and Odyn to the Firelands (Chronicle, Libram of Ancient Kings).",
+          "why": "Chronicle (2016-18) and an RPG-adjacent book do not count."
+        },
+        {
+          "says": "He besieged Mount Hyjal and was destroyed in the Firelands during the Cataclysm.",
+          "why": "Cataclysm, after the cutoff."
+        },
+        {
+          "says": "Lord Roccor was expelled from the Molten Core for angering him (Game Guide).",
+          "why": "Dungeon Journal reference mixed in, and the Game Guide sentence's date is not tied to a printed source."
+        },
+        {
+          "says": "Elemental wars, Elemental Sundering, Thaurissan siege of Grim Batol.",
+          "why": "[no ref] on the wiki."
+        }
+      ]
+    },
+    {
+      "answer": "Stalvan Mistmantle",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 315
+      },
+      "facts": [
+        {
+          "id": "tutor-from-silverpine",
+          "kind": "game",
+          "says": "Stalvan was a scholar from Silverpine who studied under Headmaster Crillian in Stormwind, then travelled and settled in Moonbrook in Westfall, where he ran a school for local children.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 889,
+                  "locale": "enUS",
+                  "idx": 1
+                }
+              },
+              "passage": "To the Honorable Headmaster Crillian,\n\nMy former Master"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 889,
+                  "locale": "enUS",
+                  "idx": 2
+                }
+              },
+              "passage": "I found myself tutoring the local children from the nearby farmlands."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 889,
+                  "locale": "enUS",
+                  "idx": 2
+                }
+              },
+              "passage": "From Silverpine to Stormwind and now Moonbrook"
+            }
+          ],
+          "established": {
+            "by": "Item: A Dusty Unsent Letter",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "forced-out-of-moonbrook",
+          "kind": "game",
+          "says": "Because of troubled events in the region he left his post as headmaster of the Moonbrook Schoolhouse and moved to Goldshire's Lion's Pride Inn, applying to tutor a noble family's children.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 910,
+                  "locale": "enUS",
+                  "idx": 1
+                }
+              },
+              "passage": "I was forced to abandon my post as Headmaster of the Moonbrook Schoolhouse."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 910,
+                  "locale": "enUS",
+                  "idx": 1
+                }
+              },
+              "passage": "where I take up temporary residence in the Lion's Pride Inn"
+            }
+          ],
+          "established": {
+            "by": "Item: An Undelivered Letter",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "tilloa-obsession",
+          "kind": "game",
+          "says": "His journal shows an obsession with a pupil, Tilloa. He believed she shared his feelings, but she introduced him to her suitor as just her tutor, 'Uncle Stalvan', a nice old man, which enraged him.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 938,
+                  "locale": "enUS",
+                  "idx": 1
+                }
+              },
+              "passage": "most certain that she shares the same feelings for me now."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 938,
+                  "locale": "enUS",
+                  "idx": 2
+                }
+              },
+              "passage": "Oh that's just my tutor, Uncle Stalvan. He's a nice old man."
+            }
+          ],
+          "established": {
+            "by": "Item: Muddy Journal Pages",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "madame-eva-premonition",
+          "kind": "game",
+          "says": "Madame Eva of Darkshire sensed through her cards that her granddaughter Alyssa was in danger, and the name Stalvan came to her. Adventurers followed the trail and executed him at his cottage north of town.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 66,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "A name came to me, the name of Stalvan."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 98,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "execute Stalvan, once and for all."
+            }
+          ],
+          "established": {
+            "by": "Quest: The Legend of Stalvan",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "tear-of-tilloa",
+          "kind": "game",
+          "says": "A small white flower in the Garden of Stalvan on the outskirts of Darkshire is known as the Tear of Tilloa.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 335,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "There is a flower growing in the Garden of Stalvan on the outskirts of Darkshire."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 335,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "This small white flower is known as the Tear of Tilloa."
+            }
+          ],
+          "established": {
+            "by": "Quest: A Noble Brew",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "He is an undead human who butchered Tilloa and her fiance with an axe, Stalvan's Reaper (wiki, Stalvan's Reaper).",
+          "why": "Tilloa's death by axe is the wiki's inference ('seems to'), the item was not confirmed."
+        },
+        {
+          "says": "After the Cataclysm Stalvan was slain by Darkshire agents, and his brother Tobias from Gilneas helped (Mistmantle's Revenge).",
+          "why": "Cataclysm, after the cutoff."
+        },
+        {
+          "says": "He studied under Crillian in Silverpine Forest, also tutor for Flintridge family (The Legend of Stalvan, An Undelivered Letter).",
+          "why": "Covered by the game-text facts, not repeated."
+        },
+        {
+          "says": "A massacre happened at the estate of a family he tutored, and the caretaker's father had to mop up the blood.",
+          "why": "Quest 72 does not tie Stalvan to the estate, fact-checker"
+        }
+      ]
+    },
+    {
+      "answer": "Bolvar Fordragon",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 1748,
+        "match": "part"
+      },
+      "facts": [
+        {
+          "id": "stormwind-warning-target",
+          "kind": "game",
+          "says": "Lakeshire's warning of Blackrock orcs allied with the black dragonflight had to be taken to Highlord Bolvar Fordragon in Stormwind, the man who could decide whether the capital sent aid.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 4184,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "You must take this information to Highlord Bolvar Fordragon in Stormwind at once!"
+            }
+          ],
+          "established": {
+            "by": "Quest: The True Masters",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "held-by-onyxia",
+          "kind": "game",
+          "says": "He was controlled by a medallion of the dragon Onyxia, who posed as Lady Prestor. It held his mind and body captive, and it also gave him access to her own mind and secrets.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6403,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Even the Highlord is controlled by her trickery - a puppet."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6403,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "This medallion is what held my mind and body captive."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6403,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "It is also what gave me access to Onyxia's own mind"
+            }
+          ],
+          "established": {
+            "by": "Quest: The Great Masquerade",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "would-not-act-without-proof",
+          "kind": "lore",
+          "says": "Marshal Windsor reportedly warned Bolvar of Lady Prestor's treachery, but Bolvar would not act without proof",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Bolvar_Fordragon",
+              "revid": 6939395,
+              "passage": "Marshal Reginald Windsor apparently had warned Bolvar of Lady Katrana Prestor's treachery but Bolvar would not act against her without proof.",
+              "cites": "Abandoned Hope",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Quest: Abandoned Hope",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "defias-pursuit-vs-prestor",
+          "kind": "lore",
+          "says": "He wanted to pursue the Defias and their backers until King Varian returned, while Lady Prestor tried to dismiss it as baseless speculation.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Bolvar_Fordragon",
+              "revid": 6939395,
+              "passage": "Bolvar sought to pursue the Defias and their backers until King Varian's return, Lady Prestor tried to belittle the issue",
+              "cites": "Warn Bolvar!",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Quest: Warn Bolvar!",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "wrathgate-command",
+          "kind": "lore",
+          "says": "In Northrend he established Wintergarde Keep in the Dragonblight and led a first crushing assault on the Lich King at the Wrathgate.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Bolvar_Fordragon",
+              "revid": 6939395,
+              "passage": "Bolvar established Wintergarde Keep in the Dragonblight, from where he led a first crushing assault against the Lich King",
+              "cites": "Naxxramas and the Fall of Wintergarde",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Quest: Naxxramas and the Fall of Wintergarde",
+            "date": "2008",
+            "era": "wrath"
+          }
+        },
+        {
+          "id": "shield-recovered",
+          "kind": "lore",
+          "says": "After the plague at the Wrathgate, only his shield was recovered, by Alliance adventurers at the request of the red dragon queen Alexstrasza, and returned to King Varian.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Battle_of_Angrathar_the_Wrathgate",
+              "revid": 6954487,
+              "passage": "Alliance survivors would recover Bolvar Fordragon's shield (though his remains were absent) at the behest of Alexstrasza",
+              "cites": "Reborn From The Ashes",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Quest: Reborn From The Ashes",
+            "date": "2008",
+            "era": "wrath"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "He became the new Lich King on the Frozen Throne after Arthas died, taking the Helm of Domination (Fall of the Lich King, patch 3.3, Dec 2009).",
+          "why": "The wiki prints [no ref] for every sentence, and it is not in wow-data, so no passage can stand on a reference. Strong fact, but unsourced here."
+        },
+        {
+          "says": "He was believed killed at the Wrathgate by the Forsaken plague after Putress's betrayal, but was saved by red dragon flame and captured by the Scourge.",
+          "why": "[no ref] on the wiki, except an Ultimate Visual Guide ref whose date could not be confirmed."
+        },
+        {
+          "says": "Everything about his daughter Taelia, the Maw, Shadowlands, Sylvanas.",
+          "why": "Shadowlands and later."
+        },
+        {
+          "says": "Regent Lord of Stormwind under King Anduin (Exploring Azeroth: Northrend and the game manual).",
+          "why": "The Exploring Azeroth book is 2012, and the manual sentence does not name him."
+        }
+      ],
+      "notes": "Name is BOLVAR FORDRAGON (part of 'Highlord Bolvar Fordragon'). The best-known lore (the new Lich King, 2009) has no referenced sentence on warcraft.wiki.gg, so it is listed as dropped."
+    },
+    {
+      "answer": "Mekkatorque",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 7937,
+        "match": "part"
+      },
+      "facts": [
+        {
+          "id": "grand-betrayal",
+          "kind": "game",
+          "says": "His chief advisor Thermaplugg betrayed him and all gnomes. The gnomes were driven from Gnomeregan, and adventurers were asked to kill the betrayer to begin retaking the city.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 2929,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Never did I expect that he would betray me and the entire gnomish people."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 2929,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "We will retake Gnomeregan"
+            }
+          ],
+          "established": {
+            "by": "Quest: The Grand Betrayal",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "chief-advisor",
+          "kind": "lore",
+          "says": "Sicco Thermaplugg served as his chief advisor for years while envy of the High Tinker's post slowly ate at his sanity.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque",
+              "revid": 6904069,
+              "passage": "Thermaplugg served as Mekkatorque's chief advisor for many years, continuing to covet the role of High Tinker",
+              "cites": "World of Warcraft: Game Manual, pg. 175",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft: Game Manual, pg. 175",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "led-exodus-to-ironforge",
+          "kind": "lore",
+          "says": "Unable to stem the trogg invasion, he led the surviving gnomes out of Gnomeregan to take refuge with their dwarven neighbours in Ironforge.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque",
+              "revid": 6904069,
+              "passage": "Mekkatorque was forced to swallow his pride and lead the surviving gnome population out of Gnomeregan to seek refuge",
+              "cites": "World of Warcraft manual, pg. 176",
+              "accessed": "2026-11-02"
+            },
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque",
+              "revid": 6904069,
+              "passage": "Unable to take any more deaths or hold back the Troggs",
+              "cites": "World of Warcraft manual, pg. 176",
+              "accessed": "2026-11-02"
+            },
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque",
+              "revid": 6904069,
+              "passage": "to seek refuge with their dwarven neighbors in Ironforge",
+              "cites": "World of Warcraft manual, pg. 176",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft: Game Manual, pg. 176",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "guilt-and-gas",
+          "kind": "lore",
+          "says": "He was left beside himself with guilt over the casualties of the invasion, and his guilt weighed on him.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque",
+              "revid": 6904069,
+              "passage": "Mekkatorque was left beside himself with guilt, the casualties of the invasion already high",
+              "cites": "World of Warcraft: Game Manual | Underdev Operation: Gnomeregan",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft: Game Manual",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "high-tinker-in-exile",
+          "kind": "lore",
+          "says": "In exile he kept leading the Gnomeregan Exiles from Tinker Town in Ironforge, aiding the Alliance across Azeroth.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque",
+              "revid": 6904069,
+              "passage": "Gelbin continued to lead the Gnomeregan Exiles from Tinker Town in Ironforge, aiding in Alliance operations across Azeroth",
+              "cites": "World of Warcraft: Game Manual, pg. 174",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft: Game Manual, pg. 174",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "beyond-dark-portal-tram",
+          "kind": "lore",
+          "says": "He kept General Turalyon informed about updates and problems, notably a problem of rats.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque",
+              "revid": 6904069,
+              "passage": "He kept General Turalyon informed about updates or problems, notably a problem of rats.",
+              "cites": "Beyond the Dark Portal, chapter 5",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Beyond the Dark Portal (novel, 2008), chapter 5",
+            "date": "2008",
+            "era": "wrath"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "He invented the first working mechanostrider, helped design the dwarven siege engine and the Deeprun Tram.",
+          "why": "Refs are 'Cut Short' (undated short story) or [no ref]."
+        },
+        {
+          "says": "He styled himself 'King of Gnomes' (Operation: Gnomeregan).",
+          "why": "Quest from Cataclysm, after the cutoff."
+        },
+        {
+          "says": "Reunified Gnomeregan and Mechagon and was crowned king of gnomes.",
+          "why": "[no ref], and post-Wrath."
+        },
+        {
+          "says": "He was fooled by Thermaplugg's body double in the Grand Betrayal.",
+          "why": "The 'facsimile' twist is not given by the quest text in wow-data."
+        }
+      ],
+      "notes": "Name is MEKKATORQUE (part of 'High Tinker Mekkatorque'; the wiki page is Gelbin Mekkatorque). The Beyond the Dark Portal chapter 5 date (2008) should be confirmed by the fact-checker against the novel's wiki page."
+    },
+    {
+      "answer": "Bloodsail Buccaneers",
+      "entity": {
+        "db": "classic",
+        "kind": "faction",
+        "id": 87
+      },
+      "facts": [
+        {
+          "id": "corsairs",
+          "kind": "game",
+          "says": "The Bloodsail Buccaneers are bloodthirsty pirates who plague merchant shipping, and the game names Booty Bay as their sworn enemy.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "name",
+                  "kind": "faction_description",
+                  "id": 87,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "These bloodthirsty corsairs are the bane of many a merchant in the high seas."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "name",
+                  "kind": "faction_description",
+                  "id": 87,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "Sworn enemies of Booty Bay."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft faction description (launch)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "booty-bay-plot",
+          "kind": "game",
+          "says": "Fleet-Master Firallon's orders plan one all-out naval assault on Booty Bay, with Revilgaz and Seahorn marked as targets",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 3921,
+                  "locale": "enUS",
+                  "idx": 1
+                }
+              },
+              "passage": "for we only got one shot at Booty Bay."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 3921,
+                  "locale": "enUS",
+                  "idx": 2
+                }
+              },
+              "passage": "I want the black spot placed on Revilgaz and Seahorn."
+            }
+          ],
+          "established": {
+            "by": "Bloodsail Orders (in-game item text)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "vancleef-deal",
+          "kind": "lore",
+          "says": "The pirates were secretly working with Edwin VanCleef and the Defias in the Deadmines, and their written orders tell the crew to salvage useful material for that project.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "readable_page",
+                  "kind": "item",
+                  "id": 3921,
+                  "locale": "enUS",
+                  "idx": 2
+                }
+              },
+              "passage": "salvaging anything that might be of use for our little project with VanCleef in the Deadmines."
+            },
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Bloodsail_Buccaneers",
+              "revid": 6477097,
+              "passage": "They also had a secret deal with Edwin VanCleef and his Defias Brotherhood in the Deadmines.",
+              "cites": "Bloodsail Orders (Classic)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Bloodsail Orders (in-game item text)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "blackwater-rivals",
+          "kind": "game",
+          "says": "Their rivals in Booty Bay are the Blackwater Raiders, who hire adventurers to scout the Bloodsail cove and assassinate the Bloodsail leadership",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 595,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "our rivals--those damned, dirty Bloodsail Buccaneers--have been spotted all over southern Stranglethorn."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 608,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "take some of your most skilled comrades out to Firallon's landing spot and assassinate the Bloodsail leadership."
+            }
+          ],
+          "established": {
+            "by": "Booty Bay quest chain (The Bloodsail Buccaneers)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "plunder-isle",
+          "kind": "lore",
+          "says": "Their home base is Bloodsail Hold on Plunder Isle, in the South Seas.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Bloodsail_Buccaneers",
+              "revid": 6477097,
+              "passage": "Their base is Bloodsail Hold on Plunder Isle in the South Seas.",
+              "cites": "Legends Volume 4: Bloodsail Buccaneer",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Legends Volume 4 (manga, Bloodsail Buccaneer story)",
+            "date": "2009-06-16",
+            "era": "wrath"
+          }
+        },
+        {
+          "id": "spelling",
+          "kind": "spelling",
+          "says": "Two words, the first is blood joined to a part of a ship, the second is a kind of pirate.",
+          "sources": []
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Least wealthy pirate group, no one survives a Bloodsail attack",
+          "why": "Cited to Traveler: The Spiral Path (2016), after the cutoff"
+        },
+        {
+          "says": "Crimson sails make enemies surrender",
+          "why": "Cited to Legion class hall followers"
+        },
+        {
+          "says": "Captain Jerias Bloodvein and the Garrote, Jimmy Blackridge story",
+          "why": "[no ref] and from Legends/Chronicle-era material"
+        },
+        {
+          "says": "Fleet Master Firallon retries the Booty Bay attack after the Cataclysm, Brashtide worgen crew",
+          "why": "Cataclysm quests (7 December 2010 and later)"
+        },
+        {
+          "says": "Admiral Eliza Goreblade and the Elemental Unrest",
+          "why": "Cataclysm and later"
+        }
+      ]
+    },
+    {
+      "answer": "Thorium Brotherhood",
+      "entity": {
+        "db": "classic",
+        "kind": "faction",
+        "id": 59
+      },
+      "facts": [
+        {
+          "id": "craftsmen",
+          "kind": "game",
+          "says": "The Brotherhood are dwarves famed for their craftsmanship who want to unlock the secrets of Blackrock Mountain.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "name",
+                  "kind": "faction_description",
+                  "id": 59,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "The dwarves of the Thorium Brotherhood epitomize excellence in craftsmanship and are bent on unlocking the secrets of Blackrock Mountain."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft faction description (Thorium Point, patch 1.5)",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "enemies-gorge",
+          "kind": "game",
+          "says": "Their lookouts blame stolen tools on jealous Dark Iron dwarves living in the Searing Gorge",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7728,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "stolen by unscrupulous and jealous Dark Iron dwarves that inhabit the Searing Gorge."
+            }
+          ],
+          "established": {
+            "by": "Quest 7728 text (Thorium Point, patch 1.5)",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "sulfuras-waiver",
+          "kind": "game",
+          "says": "The Brotherhood trades as a company, TB Ltd., and its contract warns buyers against trying to forge or find Sulfuras, Ragnaros's weapon.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7604,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Sulfuron ingot they are delivering to the Thorium Brotherhood (TB Ltd.) is genuine"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7604,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "attempting to build, forge, find, create, sell, or eat Sulfuras"
+            }
+          ],
+          "established": {
+            "by": "A Binding Contract (quest), patch 1.5",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "spelling",
+          "kind": "spelling",
+          "says": "Two words, the first is the radioactive element number ninety, the second is a word for a group of fellow members.",
+          "sources": []
+        }
+      ],
+      "dropped": [
+        {
+          "says": "They possess the knowledge to make Ragnaros's armaments but lack manpower",
+          "why": "[no ref] on the wiki and mixed with reputation grinding"
+        },
+        {
+          "says": "Reputation, recipes, vendors, Molten Core materials, Thorium Point quest givers",
+          "why": "Grind, vendors and drops, not lore"
+        },
+        {
+          "says": "As of Cataclysm the reputation is easier",
+          "why": "Cataclysm"
+        },
+        {
+          "says": "They are Dark Iron dwarves who broke away from the Dark Iron clan.",
+          "why": "Its cited quest (7604) does not say it, the defector framing looks like Cataclysm's Searing Gorge (reviewer, 2 Nov)"
+        }
+      ],
+      "notes": "Patch 1.5 date for the Thorium Point content is from the wiki page itself, the earliest known. Year only, the day was not confirmed."
+    },
+    {
+      "answer": "Cenarion Circle",
+      "entity": {
+        "db": "classic",
+        "kind": "faction",
+        "id": 609
+      },
+      "facts": [
+        {
+          "id": "guardians",
+          "kind": "game",
+          "says": "The druids of the Circle are guardians of nature whose home is the tranquil Moonglade.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "name",
+                  "kind": "faction_description",
+                  "id": 609,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "The druids of Cenarion Circle are guardians of nature and make their home in tranquil Moonglade."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft faction description (launch)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "cenarius-forms",
+          "kind": "game",
+          "says": "Druid shapeshifting is a gift from Cenarius, and a druid learns its next animal form from a Circle member in the village of Nighthaven in Moonglade.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 26,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "animal aspects that Cenarius has blessed us with the ability to change into"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 26,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "speak with Dendrite Starblaze of the Cenarion Circle there."
+            }
+          ],
+          "established": {
+            "by": "Druid class quest 26 (launch)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "hamuul-tauren",
+          "kind": "lore",
+          "says": "Hamuul Runetotem, a tauren, is the first tauren druid in nearly twenty generations and a leading figure of the Circle, so the order admits tauren.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Cenarion_Circle",
+              "revid": 6897746,
+              "passage": "Hamuul has become an honored member of the Cenarion Circle and is recognized as the first tauren druid in nearly twenty generations.",
+              "cites": "World of Warcraft: Game Manual, pg. 185",
+              "accessed": "2026-11-02"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 936,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "none other than Hamuul Runetotem is spearheading this research."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft Game Manual, p. 185",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "archdruids",
+          "kind": "game",
+          "says": "The Circle has Arch Druids as its leaders, Fandral Staghelm in Darnassus and Hamuul Runetotem in Thunder Bluff, and both lead research for it.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 3763,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "none other than Arch Druid Fandral Staghelm is spearheading this research."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 1000,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Speak with the Arch Druid Hamuul Runetotem on the Elder's Rise of Thunder Bluff"
+            }
+          ],
+          "established": {
+            "by": "Silithus-era Cenarion Circle quests (patch 1.9 at the latest)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "night-elf-tension",
+          "kind": "game",
+          "says": "Tension had grown between the night elves of Darnassus and the Circle in Moonglade.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 1123,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "There are growing tensions between the night elves of Darnassus and the Cenarion Circle in Moonglade."
+            }
+          ],
+          "established": {
+            "by": "Quest 1123 text (Silithus-era, patch 1.9 at the latest)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "silithus-war",
+          "kind": "game",
+          "says": "When the silithid threatened Azeroth, Circle forces gathered at Cenarion Hold in Silithus to fight them.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 8275,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Cenarion Circle forces are gathering in Silithus to take the fight to these wretched creatures"
+            }
+          ],
+          "established": {
+            "by": "Quest 8275 text (Silithus war effort, patch 1.9 at the latest)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Named after and blessed by Cenarius",
+          "why": "Cited to Ultimate Visual Guide, Updated and Expanded (after the cutoff)"
+        },
+        {
+          "says": "Founded by Malfurion to fight the worgen in the War of the Satyr, Ralaar Fangfire, the Scythe of Elune",
+          "why": "[no ref] or cited to Curse of the Worgen and later, Cataclysm-era or Chronicle"
+        },
+        {
+          "says": "Cenarion Hold built after the War of the Shifting Sands to guard C'Thun",
+          "why": "Cited to Exploring Azeroth: Kalimdor (2013)"
+        },
+        {
+          "says": "Andrassil, Yogg-Saron, the Emerald Nightmare origin",
+          "why": "Cited to Codex 162 and Chronicle-era material"
+        },
+        {
+          "says": "Tauren admitted over Staghelm's objection by Remulos",
+          "why": "Cited to the Cataclysm-era Moonglade quest"
+        },
+        {
+          "says": "Everything about Stormrage, Fandral as Druid of the Flame, Hyjal, the Fourth War and Legion",
+          "why": "Stormrage is 2010-03 but chapter-cited sentences about the Nightmare are mixed with Cataclysm retcons, and the rest is Cataclysm or later"
+        }
+      ]
+    },
+    {
+      "answer": "Argent Dawn",
+      "entity": {
+        "db": "classic",
+        "kind": "faction",
+        "id": 529
+      },
+      "facts": [
+        {
+          "id": "anti-scourge",
+          "kind": "game",
+          "says": "The Argent Dawn is an order dedicated to defending Azeroth from the Scourge, with strongholds in the Plaguelands.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "name",
+                  "kind": "faction_description",
+                  "id": 529,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "An organization focused on protecting Azeroth from the threat of the Scourge."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "name",
+                  "kind": "faction_description",
+                  "id": 529,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "Strongholds of the Argent Dawn can be found in the Eastern and Western Plaguelands."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft faction description (launch)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "scarlet-foes",
+          "kind": "game",
+          "says": "The Dawn despises the Scarlet Crusade as blasphemous zealots, and Duke Zverenhoff has adventurers destroy the Scarlet archivist Galford and burn his archives.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 5251,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Take for example, the Scarlet Crusade. Do you believe that their blind zealotry serves a greater good?"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 5251,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Blasphemers, one and all!"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 5251,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Destroy him and burn down his archives!"
+            }
+          ],
+          "established": {
+            "by": "Quest 5251 text (launch)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "balnazzar",
+          "kind": "game",
+          "says": "Adventurers who killed the Scarlet Grand Crusader found he was really a demon, a dreadlord and brother of Varimathras, and were told to bring proof to Duke Zverenhoff of the Dawn.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 5262,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "The Grand Crusader of the Scarlet Crusade a demon?"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 5262,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Duke Nicholas Zverenhoff must be told at once!"
+            }
+          ],
+          "established": {
+            "by": "Quest 5262 text (launch)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "scourge-invasion",
+          "kind": "game",
+          "says": "When the Scourge returned in greater numbers during the Scourge Invasion, the Dawn recruited anyone willing to fight and sent them to Light's Hope Chapel.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 9154,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "The Argent Dawn is recruiting all willing and capable men and women to defend our lands."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 9154,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "take this document to the Keeper of the Rolls at Light's Hope Chapel"
+            }
+          ],
+          "established": {
+            "by": "Quest 9154 text (Scourge Invasion, patch 1.11)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "naxxramas-and-crusade",
+          "kind": "game",
+          "says": "A quest offers the combined might of the Dawn and the Crusade to heroes who enter Naxxramas to destroy the Scourge, as Kel'Thuzad masses for another attack.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 9033,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "the combined might of the Dawn and the Crusade will be at your beck and call."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 9033,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Enter Naxxramas and destroy the Scourge within"
+            }
+          ],
+          "established": {
+            "by": "Quest 9033 text, Echoes of War (Scourge Invasion, patch 1.11)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "argent-crusade",
+          "kind": "lore",
+          "says": "After Arthas was driven off at Light's Hope, Tirion called for the order to unite with what was left of the Silver Hand",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Argent_Dawn",
+              "revid": 6957761,
+              "passage": "called for a union between the Argent Dawn and the remains of the Silver Hand in Lordaeron.",
+              "cites": "The Light of Dawn (quest)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "The Light of Dawn (quest), Death Knight starting zone, patch 3.0.2",
+            "date": "2008-10-14",
+            "era": "wrath"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Formed by those sickened by the Scarlet Crusade, first leader Raymond George",
+          "why": "Wiki reference is '?' (no reference), so not established"
+        },
+        {
+          "says": "Darion Mograine and the Naxxramas assault, Ashbringer comic events, the first Battle for Light's Hope Chapel",
+          "why": "Ashbringer comic issues and Chronicle130 references, date not shown by the wiki and Chronicle cited"
+        },
+        {
+          "says": "Argent Dawn in Warcraft III (A Scarlet Flame, War of the Damned)",
+          "why": "Anachronistic retcon, not clearly canon at the time"
+        },
+        {
+          "says": "Argent Dawn fighting at the Blasted Lands and Nethergarde when the Portal reopened",
+          "why": "First sentence is [no ref], second is a 2006-12 pre-patch quest and not a clean era"
+        },
+        {
+          "says": "Everything about Alexandros, Castillian and Varimathras plague, Kirkessen",
+          "why": "Cited to Ashbringer epilogue and Compendium of Fallen Heroes (RPG or later)"
+        },
+        {
+          "says": "Formed the Argent Crusade and sailed to Northrend (the second sentence)",
+          "why": "Wiki cites the Argent Crusade reputation page, kept only the Light of Dawn sentence"
+        }
+      ],
+      "notes": "Echoes of War is the quest name in wow-data for id 9033 (the 'Echoes of War' wiki ref also supports the Brotherhood of the Light, not used here). The wiki says the Dawn and the Crusade are allied at that point, the quest text is the source."
+    },
+    {
+      "answer": "Hydraxian Waterlords",
+      "entity": {
+        "db": "classic",
+        "kind": "faction",
+        "id": 749
+      },
+      "facts": [
+        {
+          "id": "island-home",
+          "kind": "game",
+          "says": "The Waterlords are elementals whose home is the islands east of Azshara, and they are sworn enemies of Ragnaros's armies.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "name",
+                  "kind": "faction_description",
+                  "id": 749,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "These elementals have made their home on the islands east of Azshara."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "name",
+                  "kind": "faction_description",
+                  "id": 749,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "Sworn enemies of the armies of Ragnaros."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft faction description (Molten Core era)",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "neptulon",
+          "kind": "lore",
+          "says": "They serve Neptulon, the Elemental Lord of water.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Hydraxian_Waterlords",
+              "revid": 6758496,
+              "passage": "a group of water elementals at the service of the Elemental Lord Neptulon.",
+              "cites": "A Hero's Reward",
+              "accessed": "2026-11-02"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6804,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "In it is a quantity of one aspect of Neptulon."
+            }
+          ],
+          "established": {
+            "by": "Quest 6804 text and A Hero's Reward (Hydraxis questline)",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "war-on-lesser-elements",
+          "kind": "game",
+          "says": "Duke Hydraxis explains that the elementals of water are at war with the lesser elements, and sends heroes against air and earth elementals in Silithus.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6805,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "We, the elementals of water, wage war with those beings of the lesser elements."
+            }
+          ],
+          "established": {
+            "by": "Quest 6805 text (Hydraxis questline)",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "emberseer",
+          "kind": "game",
+          "says": "Hydraxis tests heroes by sending them to Blackrock Spire to the Pyroguard Emberseer, a servant of fire held by orcs, and kill it.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6821,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "the orcs have captured a servant of fire, the Pyroguard Emberseer."
+            }
+          ],
+          "established": {
+            "by": "Quest 6821 text (Hydraxis questline)",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "plague-purity",
+          "kind": "game",
+          "says": "The Waterlords took offence when their scouts in the Eastern Plaguelands were infected by the Scourge's disease, calling it an affront to their purity.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 6804,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "The Waterlords cannot allow this affront to our purity!"
+            }
+          ],
+          "established": {
+            "by": "Quest 6804 text (Hydraxis questline)",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "The Waterlords' later fights in Azsuna, the Heart of Azeroth, Nazjatar, the Exodar",
+          "why": "Legion, BfA and Cataclysm-era quests"
+        },
+        {
+          "says": "Hydraxis leads Waterlords into the Molten Core after Thaurissan's death in Year 25 ADP",
+          "why": "[no ref] and a later timeline, not in vanilla"
+        },
+        {
+          "says": "Reputation grinding, Molten Core bosses, trash runs",
+          "why": "Grind not lore"
+        }
+      ],
+      "notes": "Year 2005 for the Hydraxis questline is an upper bound, the patch was not confirmed on the wiki."
+    },
+    {
+      "answer": "Mageroyal",
+      "entity": {
+        "db": "classic",
+        "kind": "item",
+        "id": 785
+      },
+      "facts": [
+        {
+          "id": "bungledorf",
+          "kind": "lore",
+          "says": "A Dalaran children's book tells of Bungledorf, the worst mage in the city",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/The_Worst_Mage_in_Dalaran:_A_Children's_Book",
+              "revid": 6884752,
+              "passage": "their pupil, Bungledorf, was the worst mage in Dalaran",
+              "cites": "the in-game book itself, transcribed on its page (object 192706, patch 3.0.2)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "The Worst Mage in Dalaran: A Children's Book (in-game book, patch 3.0.2)",
+            "date": "2008-10-14",
+            "era": "wrath"
+          }
+        },
+        {
+          "id": "bloom",
+          "kind": "lore",
+          "says": "Where the hapless boy had just been, a night elf druid trips over a crop of mageroyal that was not there a moment before",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/The_Worst_Mage_in_Dalaran:_A_Children's_Book",
+              "revid": 6884752,
+              "passage": "a glistening crop of mageroyal, its petals slowly unfurling into full bloom",
+              "cites": "the in-game book itself, transcribed on its page (object 192706, patch 3.0.2)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "The Worst Mage in Dalaran: A Children's Book (in-game book, patch 3.0.2)",
+            "date": "2008-10-14",
+            "era": "wrath"
+          }
+        },
+        {
+          "id": "druid",
+          "kind": "lore",
+          "says": "He took a night elf druid in tree form for a tree he had transformed",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/The_Worst_Mage_in_Dalaran:_A_Children's_Book",
+              "revid": 6884752,
+              "passage": "When he finally looked, the tree was replaced with a beautiful night elf.",
+              "cites": "the in-game book itself, transcribed on its page (object 192706, patch 3.0.2)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "The Worst Mage in Dalaran: A Children's Book (in-game book, patch 3.0.2)",
+            "date": "2008-10-14",
+            "era": "wrath"
+          }
+        },
+        {
+          "id": "name",
+          "kind": "spelling",
+          "says": "The name joins a spellcaster and royalty"
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Mentioned in The Worst Mage in Dalaran: A Children's Book (patch 3.0.2), described as glistening",
+          "why": "The wiki sentence is [no ref] and the book text is not in wow-data's readable_page (searched classic and forever for the book's text), so it cannot be sourced"
+        },
+        {
+          "says": "Edible, used in Delicious Chocolate Cake, Forest Moths feed on its nectar",
+          "why": "Recipe and critter trivia, the moth fact is not about the herb's lore"
+        },
+        {
+          "says": "Beta name was Common Magebloom, Mana Lily was inspired by it",
+          "why": "Development trivia, no ref"
+        },
+        {
+          "says": "Where it grows, who sells it, what it brews",
+          "why": "Spawns, vendors, recipes"
+        },
+        {
+          "says": "Forest Moths feed on its nectar",
+          "why": "No reference on the wiki"
+        },
+        {
+          "says": "Recipes and vendors",
+          "why": "Not clue material"
+        }
+      ],
+      "notes": "Lore-light herb. Its one story is a Dalaran children's book (Wrath). The book page is the in-game text itself, so its sentences carry no reference: the fact-checker confirms the transcription against the game."
+    },
+    {
+      "answer": "Black Lotus",
+      "entity": {
+        "db": "classic",
+        "kind": "item",
+        "id": 13468
+      },
+      "facts": [
+        {
+          "id": "spelling",
+          "kind": "spelling",
+          "says": "Two words, the first a colour of night, the second a water flower with symbolic meaning in Eastern lands.",
+          "sources": []
+        }
+      ],
+      "dropped": [
+        {
+          "says": "A rare herb gathered with Herbalism (300), used in flasks, found in Winterspring, Eastern Plaguelands, Burning Steppes, Silithus",
+          "why": "[no ref] and spawn data"
+        },
+        {
+          "says": "Smoked in hookahs with dreaming glory",
+          "why": "Cited to War Crimes (2015)"
+        },
+        {
+          "says": "Inspired by or a reference to the TCG card, or to a plant in other stories",
+          "why": "Real-world trivia, no ref"
+        }
+      ],
+      "notes": "TOO THIN: no pre-2010 in-world lore found in the wiki or in wow-data quest, readable or npc text. Its only role is as the rarest herb for the Flask of the Titans family, which is a recipe fact."
+    },
+    {
+      "answer": "Arcanite",
+      "entity": {
+        "db": "classic",
+        "kind": "item",
+        "id": 12360,
+        "match": "part"
+      },
+      "facts": [
+        {
+          "id": "transmute",
+          "kind": "game",
+          "says": "Arcanite is made by alchemists from a bar of thorium and an arcane crystal.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "name",
+                  "kind": "spell_description",
+                  "id": 17187,
+                  "locale": "enUS"
+                }
+              },
+              "passage": "Turns a bar of Thorium and an Arcane Crystal into Arcanite."
+            }
+          ],
+          "established": {
+            "by": "Transmute: Arcanite (spell description, launch)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "paladin-barding",
+          "kind": "game",
+          "says": "Arcanite bars form the plating of a paladin charger's barding, which is then blessed by the Ancient Equine Spirit in Dire Maul after Tendris Warpwood is slain.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7642,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "arcanite bars for the plating"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7643,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Your barding needs a special form of blessing, one from an appropriate spirit."
+            }
+          ],
+          "established": {
+            "by": "Paladin charger quest chain (quests 7642 and 7643)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "azshara-buoy",
+          "kind": "game",
+          "says": "An eccentric inventor, Narain Soothfancy, can craft an arcanite buoy that draws out a monstrous sea creature in the Bay of Storms, part of the Ahn'Qiraj opening quest line.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 8728,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "I am capable of creating an arcanite buoy"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 8729,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "you'll find that the best spot to cast this buoy is off the coast of Azshara, in the Bay of Storms."
+            }
+          ],
+          "established": {
+            "by": "Quests 8728 and 8729 (Ahn'Qiraj scepter quest line, patch 1.9)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "lodestone",
+          "kind": "game",
+          "says": "A warlock ritual needs a black lodestone, and making it requires arcanite",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7630,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "To make the lodestone, I require arcanite."
+            }
+          ],
+          "established": {
+            "by": "Quest 7630 text (Warlock epic mount quest chain)",
+            "date": "2005",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "spelling",
+          "kind": "spelling",
+          "says": "A metal named for arcane magic, with a mineral ending.",
+          "sources": []
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Grayish metal with a keener edge than any other, flexible springy armor",
+          "why": "Cited to the World of Warcraft RPG (non-canon)"
+        },
+        {
+          "says": "Needed for Enchanted Elementium, Season of Discovery currency, tier 3 quests",
+          "why": "Recipe, currency or grind facts"
+        },
+        {
+          "says": "Unused Arcanite Ore icon suggests mining in planning",
+          "why": "Development trivia"
+        }
+      ],
+      "notes": "Match is the part: the game name is Arcanite Bar. The wiki page for the item is almost all crafting uses, so the lore is thin, kept to in-game text. Quest dates are upper-bound years."
+    },
+    {
+      "answer": "Thunderfury",
+      "entity": {
+        "db": "classic",
+        "kind": "item",
+        "id": 19019,
+        "match": "part"
+      },
+      "facts": [
+        {
+          "id": "windseeker-prison",
+          "kind": "game",
+          "says": "Freeing Thunderaan the Windseeker from his prison takes both halves of his Bindings, elementium and the Essence of the Firelord, brought to Highlord Demitrian",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7786,
+                  "locale": "enUS",
+                  "field": "objectives"
+                }
+              },
+              "passage": "To free Thunderaan the Windseeker from his prison, you must present the right and left halves of the Bindings of the Windseeker"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7786,
+                  "locale": "enUS",
+                  "field": "objectives"
+                }
+              },
+              "passage": "and the Essence of the Firelord to Highlord Demitrian in Silithus."
+            }
+          ],
+          "established": {
+            "by": "Quest 7786 text (Thunderfury quest chain)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "firelord-link",
+          "kind": "game",
+          "says": "The hero must destroy the Firelord's corporeal form",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7786,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "It is you who must destroy the Firelord's corporeal form."
+            }
+          ],
+          "established": {
+            "by": "Quest 7786 text (Thunderfury quest chain)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "demitrian-vessel",
+          "kind": "game",
+          "says": "Highlord Demitrian, a servant of the Windseeker, presents a vessel from which the Windseeker is to be reborn.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7785,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Examine the vessel of his rebirth, mortal. It is from this that the Windseeker shall be reborn!"
+            }
+          ],
+          "established": {
+            "by": "Quest 7785 text (Thunderfury quest chain)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "betrayal",
+          "kind": "game",
+          "says": "Once the Windseeker is beaten, the hero takes his dormant blade and forces the treacherous Demitrian to use the gathered materials to awaken Thunderfury.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7787,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Take the dormant blade and force the lying wretch, Demitrian, to use the materials you provided for his betrayal to wake Thunderfury."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 7787,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "Please do not harm me! Take it! Take the blade!"
+            }
+          ],
+          "established": {
+            "by": "Quest 7787 text (Rise, Thunderfury!)",
+            "date": "2006",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "spelling",
+          "kind": "spelling",
+          "says": "A storm sound joined to rage, a legendary blade.",
+          "sources": []
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Prince of Air Thunderaan, Elemental Sundering, defeated by Ragnaros, Garr and Geddon after the First Age of Creation",
+          "why": "[no ref] on the wiki"
+        },
+        {
+          "says": "Highlord Demitrian recombined the talisman and crafted a blade to hold his master",
+          "why": "[no ref] on the wiki and the 2024 and Cataclysm-era rewrites"
+        },
+        {
+          "says": "Dwarf warrior Wray, Vortex Pinnacle revival, new Windlord, Earthen Ring",
+          "why": "Cataclysm (Vortex Pinnacle) and Legion quests, after the cutoff"
+        },
+        {
+          "says": "Hilt wrapped in black dragon hide",
+          "why": "Cited to More Magic and Mayhem (RPG, non-canon)"
+        },
+        {
+          "says": "Proc effects, quest costs, Barrens chat meme, inflatable version",
+          "why": "Mechanics or community trivia"
+        }
+      ],
+      "notes": "Quest dates are upper-bound years. The original Thunderfury quest text may carry 2024 retcon edits in classic.db rows, but quests 7785 to 7787 read as the original lines. Treat Thunderaan being the Prince of Air as drop, since only [no ref] wiki lines say it."
+    },
+    {
+      "answer": "Duskwood",
+      "entity": {
+        "db": "classic",
+        "kind": "area",
+        "id": 10
+      },
+      "facts": [
+        {
+          "id": "night-watch",
+          "kind": "game",
+          "says": "Darkshire's militia, the Night Watch, was raised because Stormwind gave up on the town once the evil magic seeped into the woods.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 146,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "The Night Watch was formed because Stormwind left us when this foul magic seeped into the land."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Night Watch reply, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "farthing-helps",
+          "kind": "game",
+          "says": "Stormwind has turned its back on Darkshire, yet Bishop Farthing in the Cathedral of Light is a wise, kind priest who helps the townsfolk.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 269,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Although Stormwind has forsaken Darkshire, Farthing is a kind soul and very wise."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Bishop Farthing, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "morbent-necromancer",
+          "kind": "game",
+          "says": "Morbent Fel is the necromancer behind the undead of the woods and is allied with the dark riders.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 323,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Morbent Fel is a necromancer, and an ally to the dark riders."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 268,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "I have seen these riders in Duskwood, and have seen them speak with the wizard Morbent Fel, at the Forlorn Rowe."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Morbent Fel quest chain, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "riders-slay-family",
+          "kind": "game",
+          "says": "The Dark Riders came down from Deadwind Pass and killed a farmer's family on his land in Duskwood.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 95,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Dark Riders from Deadwind Pass descended upon my farm and slaughtered my family"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Sven Yorgen's farm, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "grand-hamlet",
+          "kind": "lore",
+          "says": "The region is also known as Southern Elwynn Forest, and held two sizable towns, Grand Hamlet and Raven Hill",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Duskwood",
+              "revid": 6893454,
+              "passage": "Also known as \"Southern Elwynn Forest\", the region was the location of two sizable towns called Grand Hamlet and Raven Hill.",
+              "cites": "Legends Volume 2, Warrior: Divided",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Legends Volume 2 (manga)",
+            "date": "2008-11-11",
+            "era": "wrath"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Originally called Brightwood, a fiefdom of Stormwind",
+          "why": "Sole reference is the Chronicle (2016-2018)"
+        },
+        {
+          "says": "Cursed by fel magic unleashed when Medivh died",
+          "why": "Reference is a Hero's Call Board image from Cataclysm, not pre-2010"
+        },
+        {
+          "says": "Morbent Fel returned as a lich, Tobias Mistmantle and the Gilnean arrivals, Oliver Harris",
+          "why": "Cataclysm quests (2010-12 and later)"
+        },
+        {
+          "says": "Duskwood 'a realm of horror', the undead came with the Third War",
+          "why": "Lands of Conflict is a Warcraft RPG book, not canon"
+        },
+        {
+          "says": "Velinde Starsong, Jitters and the Scythe of Elune story on the Classic page",
+          "why": "Every sentence is [no ref] on the wiki, would need the in-game quest texts"
+        },
+        {
+          "says": "A manga says Duskwood fell into its dark state soon after the Second War, because of the darkness spreading out of Karazhan.",
+          "why": "The wiki gives it as a superseded account ('previously described as'), fact-checker, 2 Nov"
+        }
+      ]
+    },
+    {
+      "answer": "The Barrens",
+      "entity": {
+        "db": "classic",
+        "kind": "area",
+        "id": 17
+      },
+      "facts": [
+        {
+          "id": "naralex-dream",
+          "kind": "game",
+          "says": "A band of druids led by Naralex hoped to enter the Emerald Dream and restore the Barrens to the lush forest it had once been.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 1487,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Our great leader aspired to enter the Emerald Dream and help regrow these harsh lands back into the lush forest it once was."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Deviate Eradication, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "druids-fang",
+          "kind": "game",
+          "says": "The Wailing Caverns druids were a noble order meant to heal the Barrens, but they were twisted and now follow their own nightmares.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 914,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "They were part of an order of noble druids whose plan was to heal the Barrens"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Leaders of the Fang, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "forest-once",
+          "kind": "lore",
+          "says": "The Barrens used to be a thriving green forest, long before it became a dry plain.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Barrens",
+              "revid": 6402371,
+              "passage": "The Barrens were once a verdant, thriving forest",
+              "cites": "Naralex#Quotes | Deviate Eradication",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Naralex's lines and Deviate Eradication, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "after-sundering",
+          "kind": "lore",
+          "says": "After the Great Sundering, war and disaster turned the green valley into the harsh, sun-scorched plain of today.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Barrens",
+              "revid": 6402371,
+              "passage": "war and disaster raged across the land, turning this valley of nature into the harsh, sun-scorched plain it is today",
+              "cites": "Naralex#Quotes | Destiny Awaits!, pg. 16 | The Forgotten Pools (Classic) | Stormrage, chapter 2",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Stormrage (novel), chapter 2",
+            "date": "2010-03",
+            "era": "wrath"
+          }
+        },
+        {
+          "id": "long-march",
+          "kind": "lore",
+          "says": "In Warcraft III, Thrall's Horde and the Bloodhoof tauren marched through the Barrens, passing its oases and meeting Warsong warriors.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Barrens",
+              "revid": 6402371,
+              "passage": "The tauren and the Horde marched through the Barrens, visiting its oases and finding a group of Warsong warriors.",
+              "cites": "The Long March (WC3 Orc)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft III: Reign of Chaos, The Long March",
+            "date": "2002",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "neutral-buffer",
+          "kind": "lore",
+          "says": "A year before World of Warcraft, the Barrens counted as neutral ground between human Theramore and orcish Durotar.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Barrens",
+              "revid": 6402371,
+              "passage": "the Barrens was considered neutral territory, serving as a buffer between Theramore and Durotar.",
+              "cites": "Cycle of Hatred, chapter 1",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Cycle of Hatred (novel)",
+            "date": "2006",
+            "era": "tbc"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Tauren roamed the plains hunting kodo, sworn enemies of the centaur",
+          "why": "Exploring Azeroth: Kalimdor (2010 tie-in) and a Tauren race page, not safely pre-Cataclysm"
+        },
+        {
+          "says": "Lo'Gosh against the Legion, Then'Ralore outpost",
+          "why": "Warcraft RPG book / no reference"
+        },
+        {
+          "says": "Oases drying up",
+          "why": "The Shattering (Cataclysm tie-in)"
+        },
+        {
+          "says": "Barrens (Classic) page",
+          "why": "Only its description and RPG references, nothing usable"
+        }
+      ]
+    },
+    {
+      "answer": "The Deadmines",
+      "entity": {
+        "db": "classic",
+        "kind": "area",
+        "id": 1581
+      },
+      "facts": [
+        {
+          "id": "vancleef-stonemason",
+          "kind": "game",
+          "says": "Edwin VanCleef was a stonemason who led the work of rebuilding Stormwind after the orcs razed it in the First War.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 141,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "VanCleef was responsible for rebuilding Stormwind after the orcs razed it in the First War."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (VanCleef's origins, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "cheated-masons",
+          "kind": "game",
+          "says": "When the rebuilding was done the nobles refused to pay the Stonemasons, and VanCleef led a riot and left Stormwind swearing revenge.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 389,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "we were cheated. The nobles refused to pay us for our work."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 389,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "He led a riot and left the city, swearing revenge."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (VanCleef and the Stonemasons Guild, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "bandana-rank",
+          "kind": "game",
+          "says": "The Defias Brotherhood wears red bandanas, and the cloth they are made of shows a member's rank.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 214,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "the material from which these bandanas are made signifies the member's rank."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Defias bandanas, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "vancleef-fall",
+          "kind": "game",
+          "says": "With VanCleef killed, the militia of Westfall saw it as the start of the end for the Defias Brotherhood.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 166,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "With VanCleef dead, this marks the beginning of the end for the Defias Brotherhood."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (The assassination of VanCleef, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "gold-center",
+          "kind": "lore",
+          "says": "Before the First War the Deadmines were the greatest centre of gold production in human lands.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Deadmines",
+              "revid": 6459395,
+              "passage": "Prior to the First War, the Deadmines were the greatest gold production center in human lands.",
+              "cites": "Game Guide/World Dungeons#Deadmines",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft Game Guide, World Dungeons",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "goblin-shredder",
+          "kind": "game",
+          "says": "Gnomes sent adventurers into the mines for a working goblin shredder to power their drilling machines for retaking Gnomeregan.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 2040,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Deep in the Deadmines is a functional goblin shredder."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Gnomeregan shredder quest, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Captain Bramblebeard and crew killed by the Defias",
+          "why": "Reference is Deadmines: Sea'in Red (Cataclysm)"
+        },
+        {
+          "says": "Jerias Bloodvein, James Blackridge, Bloodsail Buccaneer",
+          "why": "Cataclysm quest"
+        },
+        {
+          "says": "Miners' League, Wilder and the undead miners",
+          "why": "Cataclysm quests (Oh Brother, Collecting Memories)"
+        },
+        {
+          "says": "Lothar held by ogres, Griselda and Turok",
+          "why": "[no ref] on the wiki, no pre-2010 source found"
+        },
+        {
+          "says": "Gold deposits a third of Stormwind's reserves, mines abandoned in the First War",
+          "why": "[no ref] on the wiki"
+        },
+        {
+          "says": "Brotherhood's juggernaught, VanCleef's daughter, Mathias Shaw",
+          "why": "Cataclysm sources, Exploring Azeroth"
+        }
+      ]
+    },
+    {
+      "answer": "Stranglethorn Vale",
+      "entity": {
+        "db": "classic",
+        "kind": "area",
+        "id": 33
+      },
+      "facts": [
+        {
+          "id": "kruul-invasion",
+          "kind": "lore",
+          "says": "Before the Burning Crusade opened, Highlord Kruul and a group of Legion demons invaded Stranglethorn Vale.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Stranglethorn_Vale",
+              "revid": 6758369,
+              "passage": "Stranglethorn Vale was invaded by a group of Burning Legion demons led by Highlord Kruul.",
+              "cites": "Dark Portal Opens",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "The Dark Portal Opens pre-launch event (patch 2.0.3)",
+            "date": "2007-01-09",
+            "era": "tbc"
+          }
+        },
+        {
+          "id": "mai-zoth-kurzen",
+          "kind": "game",
+          "says": "The ogre mage Mai'Zoth, who uses mind control, is blamed for corrupting the Colonel Kurzen.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 206,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "He is rumored to employ mind-controlling magic, and I am positive that he corrupted Kurzen."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (The Mind's Eye chain, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "darkspear-war",
+          "kind": "game",
+          "says": "The Darkspear trolls left Stranglethorn with Thrall but are still bound to a war with the Skullsplitter tribe.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 598,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Although the Darkspears no longer dwell in Stranglethorn, we are bound to our conflict with the Skullsplitters."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Darkspear quests, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "nesingwary",
+          "kind": "game",
+          "says": "Hemet Nesingwary, a dwarf and renowned Alliance war hero, runs a big game hunter's camp in the jungle.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 583,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "that dwarf over there is the one and only Hemet Nesingwary, renowned war hero of the Alliance and master big game hunter."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Nesingwary's camp, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "pirate-rivals",
+          "kind": "game",
+          "says": "Booty Bay's Blackwater Raiders are bitter rivals of the Bloodsail Buccaneers, and the Raiders insist the port is theirs.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 595,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "our rivals--those damned, dirty Bloodsail Buccaneers"
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 599,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Booty Bay will always be run by the Blackwater Raiders!"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Booty Bay pirate quests, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Gurubashi Empire civil war, Temple of Atal'Hakkar",
+          "why": "Reference is the Chronicle (2016-2018)"
+        },
+        {
+          "says": "Booty Bay held by the Steamwheedle Cartel before the First War",
+          "why": "Reference is a Chronicle image"
+        },
+        {
+          "says": "Stormwind's debt crippled by expanding into Stranglethorn",
+          "why": "Shaw's Report is a Cataclysm quest"
+        },
+        {
+          "says": "Three things Stranglethorn is noteworthy for",
+          "why": "Exploring Azeroth: The Eastern Kingdoms is a 2010 tie-in, date not safely pre-Cataclysm"
+        },
+        {
+          "says": "Kirygosa, Makasa Flintwill, Traveler content",
+          "why": "Before the Storm (2018) and Traveler (2016) are post-Wrath"
+        },
+        {
+          "says": "Blackwater Raiders make their home in Booty Bay",
+          "why": "Warcraft RPG book"
+        }
+      ]
+    },
+    {
+      "answer": "Fel",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 3864,
+        "match": "part"
+      },
+      "facts": [
+        {
+          "id": "eredar-burnt-worlds",
+          "kind": "lore",
+          "says": "The chaos magic of the eredar warlocks burnt out whole worlds and turned the native peoples into demons.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Fel",
+              "revid": 6955182,
+              "passage": "The chaos magics of the eredar warlocks have burnt out whole worlds and annihilated countless species over the eons, turning indigenous races into demons.",
+              "cites": "Warcraft III: Reign of Chaos manual#Warlock | Warcraft III: Reign of Chaos manual#Sargeras and the Betrayal",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft III: Reign of Chaos manual",
+            "date": "2002",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "orc-green-skin",
+          "kind": "lore",
+          "says": "Orcs whose clans had warlocks were already turning green before they were offered Mannoroth's blood.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Orc",
+              "revid": 6906065,
+              "passage": "All orcs with warlocks in their clan found their skin slowly turning green before they were ever offered the blood of the demon Mannoroth.",
+              "cites": "Rise of the Horde",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Rise of the Horde (novel)",
+            "date": "2006",
+            "era": "tbc"
+          }
+        },
+        {
+          "id": "draenor-blight",
+          "kind": "lore",
+          "says": "The orcs used demonic power so freely that it drained the life out of Draenor.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Fel",
+              "revid": 6955182,
+              "passage": "the demonic energies, used so freely and with no heed given as to their cost, leeched all that was wholesome and life-giving",
+              "cites": "Rise of the Horde, pg. 498",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Rise of the Horde (novel)",
+            "date": "2006",
+            "era": "tbc"
+          }
+        },
+        {
+          "id": "pit-lord-blood",
+          "kind": "lore",
+          "says": "Orcs who drank pit lord blood grew in size and strength, and even the weakest of these fel orcs is dangerous.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Orc",
+              "revid": 6906065,
+              "passage": "Orcs who drink the blood of a pit lord quickly grow in body mass and strength",
+              "cites": "Rise of the Horde | Fel Orc Scavengers",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Rise of the Horde (novel)",
+            "date": "2006",
+            "era": "tbc"
+          }
+        },
+        {
+          "id": "deadwood-furbolgs",
+          "kind": "game",
+          "says": "In Felwood, the Deadwood furbolgs are not evil by nature, the fel has polluted their minds.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 8461,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "The Deadwood tribe is evil, but it is the effects of the fel that pollutes their minds."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Deadwood furbolgs, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "green-glow",
+          "kind": "game",
+          "says": "Anything touched by the fel glows an eerie green and feels evil yet powerful.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 4120,
+                  "locale": "enUS",
+                  "field": "request"
+                }
+              },
+              "passage": "Everything touched by the fel emanates a strange green glow... I sense it is evil, but at the same time, very powerful."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Felwood quest, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "spelling-prefix",
+          "kind": "spelling",
+          "says": "FEL is the start of Felwood, Felguard and Felsteed.",
+          "sources": []
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Fel as the language of chaos, opposite of arcane",
+          "why": "Dave Kosak tweets (2015)"
+        },
+        {
+          "says": "Sargeras, Mardum, fel storm, demon hunters",
+          "why": "Legion-era (2016) references"
+        },
+        {
+          "says": "Kil'jaeden and the Shadow Pact, orcs wielding warlock magic",
+          "why": "History of Warcraft chapter, Chronicle (2016-2018)"
+        },
+        {
+          "says": "Dark Portal and the Fall of Stormwind, demonic corruption of Orgrim",
+          "why": "Reference is a later Blizzard text, not provably pre-2010"
+        },
+        {
+          "says": "Fel orc skin green, Mannoroth's blood, fel orcs (Fel page)",
+          "why": "[no ref] on the Fel page, so taken from the Orc page with its Rise of the Horde reference instead"
+        },
+        {
+          "says": "Fel-green blood elf eyes, Kael'thas' fel addiction",
+          "why": "Ask CDev (2011+) and unreferenced"
+        },
+        {
+          "says": "The warlock's demonic mount, the Felsteed, is a power a warlock earns through a quest.",
+          "why": "Quest 4490 does not say the Felsteed is earned by a quest, fact-checker"
+        }
+      ]
+    },
+    {
+      "answer": "Orc",
+      "entity": {
+        "db": "classic",
+        "kind": "race",
+        "id": 2
+      },
+      "facts": [
+        {
+          "id": "green-before-blood",
+          "kind": "lore",
+          "says": "Orcs with warlocks in their clans had begun to turn green before they ever drank Mannoroth's blood.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Orc",
+              "revid": 6906065,
+              "passage": "All orcs with warlocks in their clan found their skin slowly turning green before they were ever offered the blood of the demon Mannoroth.",
+              "cites": "Rise of the Horde",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Rise of the Horde (novel)",
+            "date": "2006",
+            "era": "tbc"
+          }
+        },
+        {
+          "id": "hellscream-frees",
+          "kind": "lore",
+          "says": "Grom Hellscream's sacrifice against Mannoroth finally freed the orcs from their curse, and their eyes returned to their old colour.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Orc",
+              "revid": 6906065,
+              "passage": "Only the sacrifice of Grom Hellscream against Mannoroth finally managed to free those orcs from their curse",
+              "cites": "The Death of Hellscream (WC3 Orc)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft III: Reign of Chaos, The Death of Hellscream",
+            "date": "2002",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "internment-resentment",
+          "kind": "lore",
+          "says": "Some orcs still resent the humans for putting them in internment camps.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Orc",
+              "revid": 6906065,
+              "passage": "Some orcs are still resentful for the humans putting them into internment camps.",
+              "cites": "Brawn (NPC)#Quotes | Cycle of Hatred, chapter 5, with the case of Byrok.",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Cycle of Hatred (novel)",
+            "date": "2006",
+            "era": "tbc"
+          }
+        },
+        {
+          "id": "shaman-honour",
+          "kind": "lore",
+          "says": "Among the orcs, every shaman the ancestors have spoken to is given equal respect, whatever their age or experience.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Orc",
+              "revid": 6906065,
+              "passage": "any shaman that has been spoken to by the spirits is given equal respect and honor regardless of age or experience.",
+              "cites": "Rise of the Horde, pg. 109: \"while shaman could certainly grow in skill over time, once the ancestors had appeared to them in visions they were all accorded equal honor and respect.\"",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Rise of the Horde (novel)",
+            "date": "2006",
+            "era": "tbc"
+          }
+        },
+        {
+          "id": "kodo-symbols",
+          "kind": "lore",
+          "says": "The huge kodos are symbols of orcish might and valour, and scatter enemy forces with their size.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Orc",
+              "revid": 6906065,
+              "passage": "The huge kodos, serving as symbols of orcish might and valor",
+              "cites": "Warcraft III: Reign of Chaos Game Manual",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft III: Reign of Chaos game manual",
+            "date": "2002",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "wyvern-riders",
+          "kind": "lore",
+          "says": "Wyverns were impressed by the orcs' honour and let them ride into battle in Kalimdor.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Orc",
+              "revid": 6906065,
+              "passage": "Impressed by the orcs' commitment to honor and victory, the wyverns allowed the orcs to ride them into combat",
+              "cites": "Warcraft III: Reign of Chaos Game Manual",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft III: Reign of Chaos game manual",
+            "date": "2002",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Orcs are one of the most prolific races",
+          "why": "Warcraft III Press Kit, not a lore text"
+        },
+        {
+          "says": "Orc models, eye colours in World of Warcraft, Legends Volume 4 rites",
+          "why": "Real-world / model references and thin lore"
+        },
+        {
+          "says": "Chronicle-based origin of orcs from ogres, clan histories",
+          "why": "Chronicle (2016-2018)"
+        }
+      ]
+    },
+    {
+      "answer": "Naga",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 1907,
+        "match": "part"
+      },
+      "facts": [
+        {
+          "id": "night-elf-history",
+          "kind": "game",
+          "says": "The night elves know the naga's strength and guile well, because the two peoples share a history.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 1008,
+                  "locale": "enUS",
+                  "field": "reward"
+                }
+              },
+              "passage": "the strength and guile of the naga is well known to the night elves. We know this, for we share a history with them."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Zoram Strand, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "twilight-alliance",
+          "kind": "game",
+          "says": "The Twilight's Hammer cult is believed to have allied with the naga in Blackfathom Deeps, on the coast of Ashenvale.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 1199,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "We believe that the Twilight's Hammer has allied with the naga and are amassing in Blackfathom Deeps on the coast of Ashenvale."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Blackfathom Deeps, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "deformed-race",
+          "kind": "game",
+          "says": "A night elf fears the blood elves will be deformed as the naga and the satyrs of Kalimdor were",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 1275,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Have they not witnessed what happened with the naga and with the satyrs of Kalimdor?"
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Blood elf warning quest, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "vashj-steamvault",
+          "kind": "lore",
+          "says": "Lady Vashj sent the naga of the Steamvaults to war with the Cenarion druids of Outland.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Naga",
+              "revid": 6911571,
+              "passage": "the naga operating the steam vaults end up at war with the druids, at the orders of Lady Vashj.",
+              "cites": "Orders from Lady Vashj (quest)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "The Burning Crusade, Orders from Lady Vashj",
+            "date": "2007",
+            "era": "tbc"
+          }
+        },
+        {
+          "id": "dalaran-ruins",
+          "kind": "lore",
+          "says": "In Warcraft III the naga seized the ruins of Dalaran so Illidan could use the Eye of Sargeras, and Maiev's Watchers pursued them.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Naga",
+              "revid": 6911571,
+              "passage": "took control of the ruins of Dalaran in Lordaeron, so that Illidan could perform his ritual",
+              "cites": "Terror of the Tides",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft III: The Frozen Throne, Terror of the Tides",
+            "date": "2003",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "darkscale-slain",
+          "kind": "lore",
+          "says": "Jaina Proudmoore, Rexxar, Rokhan and Chen Stormstout together destroyed Lady Darkscale and Scilla Murkshadow's naga forces.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Naga",
+              "revid": 6911571,
+              "passage": "Lady Darkscale, Scilla Murkshadow, and the rest of their naga forces were slain by the combined might of Jaina Proudmoore",
+              "cites": "Old Hatreds (WC3 Orc)",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft III: Reign of Chaos, Old Hatreds",
+            "date": "2002",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Naga were Highborne of Queen Azshara's court, changed by N'Zoth's pact after the Sundering",
+          "why": "Wiki sentences are [no ref] or Chronicle / Warbringers (CV1105) / Ultimate Visual Guide updated edition (2012)"
+        },
+        {
+          "says": "Azshara became the first naga, Nazjatar, Maelstrom empire",
+          "why": "Chronicle, Warbringers: Azshara (post-Wrath)"
+        },
+        {
+          "says": "Naga ordered to war on Neptulon, Azshara as sea witch in Darkshore",
+          "why": "Cataclysm and later"
+        },
+        {
+          "says": "Naga melting the polar ice caps",
+          "why": "Reference is a 2008 Wrath web feature on a page not in the allowed set and not fetchable here"
+        }
+      ]
+    },
+    {
+      "answer": "Ogre",
+      "entity": {
+        "db": "classic",
+        "kind": "creature",
+        "id": 211
+      },
+      "facts": [
+        {
+          "id": "first-war-aloof",
+          "kind": "lore",
+          "says": "In the First War the ogres crossed the Dark Portal but mostly kept out of the fighting, favouring lands the orcs did not frequent.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Ogre",
+              "revid": 6952726,
+              "passage": "During the First War, ogres ventured through the Dark Portal to Azeroth, but for the most part did not participate in the war",
+              "cites": "Warcraft: Orcs & Humans manual, Creatures of the Land, Ogre",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Orcs and Humans manual",
+            "date": "1994",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "guldan-enforcers",
+          "kind": "lore",
+          "says": "Gul'dan brought the ogres over after the First War to enforce order among the quarrelling orc clans.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Ogre",
+              "revid": 6952726,
+              "passage": "The ogres were brought through the Dark Portal by the orc warlock Gul'dan after the First War to act as enforcers",
+              "cites": "Warcraft II: Tides of Darkness manual, Ground Units of the Orcish Horde, Ogre",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft II: Tides of Darkness manual",
+            "date": "1995",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "ogre-magi-altars",
+          "kind": "lore",
+          "says": "Gul'dan created powerful two-headed ogre magi at the Altars of Storms, built from high elven runestones.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Ogre",
+              "revid": 6952726,
+              "passage": "Using the Altars of Storms created from high elven runestones, many powerful ogre magi were created to serve Gul'dan.",
+              "cites": "Warcraft II: Tides of Darkness manual, Ground Units of the Orcish Horde, Ogre-Mage",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft II: Tides of Darkness manual",
+            "date": "1995",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "orgrim-bodyguard",
+          "kind": "lore",
+          "says": "Orgrim Doomhammer kept a bodyguard of loyal ogre warriors during the Second War.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Ogre",
+              "revid": 6952726,
+              "passage": "Orgrim Doomhammer himself had a bodyguard of loyal ogre warriors.",
+              "cites": "Tides of Darkness",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft: Tides of Darkness (novel)",
+            "date": "2007",
+            "era": "tbc"
+          }
+        },
+        {
+          "id": "third-war-rally",
+          "kind": "lore",
+          "says": "During the Third War the ogre lords rallied what was left of their scattered people for some unknown purpose.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Ogre",
+              "revid": 6952726,
+              "passage": "During the Third War, many of the ogre lords rallied the remnants of their scattered people for some unknown purpose.",
+              "cites": "Warcraft III: Reign of Chaos manual, Creatures of Lordaeron & Northrend, Ogres",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft III: Reign of Chaos manual",
+            "date": "2002",
+            "era": "vanilla"
+          }
+        },
+        {
+          "id": "ogre-mounds",
+          "kind": "lore",
+          "says": "In the Second War ogres gathered at mounds to boost their endurance and strength with contests of hurling rocks.",
+          "sources": [
+            {
+              "url": "https://warcraft.wiki.gg/wiki/Ogre",
+              "revid": 6952726,
+              "passage": "ogres would congregate at mounds to enhance their endurance, strength, and speed",
+              "cites": "Warcraft II: Tides of Darkness manual, Orc Buildings, Ogre Mound",
+              "accessed": "2026-11-02"
+            }
+          ],
+          "established": {
+            "by": "Warcraft II: Tides of Darkness manual",
+            "date": "1995",
+            "era": "vanilla"
+          }
+        }
+      ],
+      "dropped": [
+        {
+          "says": "Native to Draenor, called Dawgar, Gorian Empire, Gog the Gronnslayer",
+          "why": "Chronicle 12 and Code (Warlords of Draenor)"
+        },
+        {
+          "says": "Descent from Grond, Breakers, ogron, orcs arose from ogres",
+          "why": "Legion / Chronicle (Chronicle 19), [no ref]"
+        },
+        {
+          "says": "Ogre lords keep gronn traits",
+          "why": "Townhall bestiary is TBC, but lore is of ogre lords not ogres; dropped as thin"
+        },
+        {
+          "says": "Ogres speak Orcish or Common, ogre magi stupider with two heads",
+          "why": "Chronicle 12 / fan quote page, not canon source"
+        }
+      ]
+    }
+  ],
+  "triads": [
+    {
+      "id": "edwin-vancleef-lore",
+      "answer": "Edwin VanCleef",
+      "clue": {
+        "text": "Guild head who rebuilt Stormwind, was stiffed by its nobles and swore revenge",
+        "facts": ["stonemason-guildmaster", "cheated-and-riot"]
+      },
+      "hint": {
+        "text": "A letter to Baros Alexston was found on his corpse, never sent",
+        "facts": ["unsent-letter-baros"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean.",
+        "coldSolve": {
+          "answer": "Edwin VanCleef",
+          "solved": true
+        },
+        "editor": "Keep."
+      }
+    },
+    {
+      "id": "hogger-lore",
+      "answer": "Hogger",
+      "clue": {
+        "text": "Elwynn gnoll who shrugged off every attempt to take him, so Stormwind's army priced his head",
+        "facts": ["bounty-on-hogger"]
+      },
+      "hint": {
+        "text": "The Defias armed the gnoll raiders of the woods he prowled",
+        "facts": ["defias-allies", "bounty-on-hogger"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Fixed: \"overpowered every attempt\" (quest 176), not the army chasing him. Reworded at review, checked by the reviewer against its rows.",
+        "coldSolve": {
+          "answer": "Hogger",
+          "solved": true
+        },
+        "editor": "Kept for fame, clue moved off the Wanted poster wording."
+      }
+    },
+    {
+      "id": "onyxia-lore",
+      "answer": "Onyxia",
+      "clue": {
+        "text": "Deathwing's daughter, who held Stormwind's court as Lady Katrana Prestor",
+        "facts": ["deathwing-daughter", "lady-prestor-disguise"]
+      },
+      "hint": {
+        "text": "Her medallion kept Bolvar on strings",
+        "facts": ["controls-bolvar"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Fixed: Katrana is cited to quest 4185.",
+        "coldSolve": {
+          "answer": "Onyxia",
+          "solved": true
+        },
+        "editor": "Keep."
+      }
+    },
+    {
+      "id": "ragnaros-lore",
+      "answer": "Ragnaros",
+      "clue": {
+        "text": "Answer to Thaurissan's call, which cost him his life and his people their freedom",
+        "facts": ["freed-by-call", "thaurissan-killed"]
+      },
+      "hint": {
+        "text": "Counted among the Old Gods' generals",
+        "facts": ["old-gods-general"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Fixed: the clue now rests on an in-game Ironforge book that names him (object 175739), not on a passage that stopped short of him.",
+        "coldSolve": {
+          "answer": "Ragnaros (likely)",
+          "solved": true
+        },
+        "editor": "Rewritten: grammar and an overclaim. Reworded again at review: the editor has not read the new wording."
+      }
+    },
+    {
+      "id": "stalvan-mistmantle-lore",
+      "answer": "Stalvan Mistmantle",
+      "clue": {
+        "text": "Moonbrook schoolmaster sure his pupil Tilloa returned his feelings, until she called him her kindly old uncle",
+        "facts": ["forced-out-of-moonbrook", "tilloa-obsession"]
+      },
+      "hint": {
+        "text": "A Darkshire garden bears his name, and its white flower bears hers",
+        "facts": ["tear-of-tilloa"]
+      },
+      "difficulty": "hard",
+      "status": "draft",
+      "gates": {
+        "factCheck": " Reworded at review, checked by the reviewer against its rows.",
+        "coldSolve": {
+          "answer": "no idea, a guess from the enumeration after the hint",
+          "solved": false
+        },
+        "editor": "Hint rewritten, relabelled hard. Still unsolved blind: needs a better clue or a cut. Reworded again at review: the editor has not read the new wording."
+      }
+    },
+    {
+      "id": "bolvar-fordragon-lore",
+      "answer": "Bolvar Fordragon",
+      "clue": {
+        "text": "Highlord who raised Wintergarde Keep and led the first strike at the Wrathgate",
+        "facts": ["wrathgate-command"]
+      },
+      "hint": {
+        "text": "Windsor is said to have warned him about Prestor. He wanted proof first.",
+        "facts": ["would-not-act-without-proof"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Fixed: the wiki hedges Windsor's warning, so the hint does too.",
+        "coldSolve": {
+          "answer": "Bolvar Fordragon",
+          "solved": true
+        },
+        "editor": "Keep."
+      }
+    },
+    {
+      "id": "mekkatorque-lore",
+      "answer": "Mekkatorque",
+      "clue": {
+        "text": "High Tinker who, losing his city to troggs, brought his people to Ironforge",
+        "facts": ["led-exodus-to-ironforge"]
+      },
+      "hint": {
+        "text": "Thermaplugg, his trusted advisor, sold him out",
+        "facts": ["grand-betrayal", "chief-advisor"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean, the troggs and Ironforge passages added at review.",
+        "coldSolve": {
+          "answer": "Mekkatorque",
+          "solved": true
+        },
+        "editor": "Keep."
+      }
+    },
+    {
+      "id": "bloodsail-buccaneers-lore",
+      "answer": "Bloodsail Buccaneers",
+      "clue": {
+        "text": "Pirates secretly working with VanCleef's Defias while plotting to storm Booty Bay",
+        "facts": ["vancleef-deal", "booty-bay-plot"]
+      },
+      "hint": {
+        "text": "The Blackwater Raiders' rivals, based on Plunder Isle",
+        "facts": ["blackwater-rivals", "plunder-isle"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean.",
+        "coldSolve": {
+          "answer": "Bloodsail Buccaneers",
+          "solved": true
+        },
+        "editor": "Keep."
+      }
+    },
+    {
+      "id": "thorium-brotherhood-lore",
+      "answer": "Thorium Brotherhood",
+      "clue": {
+        "text": "Dwarven master smiths bent on prising loose Blackrock Mountain's secrets",
+        "facts": ["craftsmen"]
+      },
+      "hint": {
+        "text": "As TB Ltd., their contract warns buyers off Sulfuras",
+        "facts": ["sulfuras-waiver"]
+      },
+      "difficulty": "medium",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Fixed twice: the Dark Iron defector claim had no pre-4.0.1 source, the clue now rests on the craft alone.",
+        "coldSolve": {
+          "answer": "Thorium Brotherhood (sure)",
+          "solved": true
+        },
+        "editor": "Clue rewritten, the TB Ltd. hint kept as a real in-game document. Reworded again at review: the editor has not read the new wording."
+      }
+    },
+    {
+      "id": "cenarion-circle-lore",
+      "answer": "Cenarion Circle",
+      "clue": {
+        "text": "Druid order at home in Moonglade, with Arch Druid Hamuul Runetotem in its ranks",
+        "facts": ["guardians", "archdruids", "hamuul-tauren"]
+      },
+      "hint": {
+        "text": "Its forces mustered at a hold in Silithus when the silithid rose",
+        "facts": ["silithus-war"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": " Reworded at review, checked by the reviewer against its rows.",
+        "coldSolve": {
+          "answer": "Cenarion Circle (sure)",
+          "solved": true
+        },
+        "editor": "Keep. Reworded again at review: the editor has not read the new wording."
+      }
+    },
+    {
+      "id": "argent-dawn-lore",
+      "answer": "Argent Dawn",
+      "clue": {
+        "text": "Order that called every willing hand to Light's Hope when the Scourge came back in force",
+        "facts": ["scourge-invasion"]
+      },
+      "hint": {
+        "text": "Tirion called for it to join the Silver Hand's last remnants",
+        "facts": ["argent-crusade"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Fixed: Tirion called for a union (The Light of Dawn), \"merged\" came from a post-cutoff guide.",
+        "coldSolve": {
+          "answer": "Argent Dawn",
+          "solved": true
+        },
+        "editor": "Rewritten: the first clue was the faction description."
+      }
+    },
+    {
+      "id": "hydraxian-waterlords-lore",
+      "answer": "Hydraxian Waterlords",
+      "clue": {
+        "text": "Elementals serving Neptulon from isles east of Azshara, sworn foes of Ragnaros's armies",
+        "facts": ["neptulon", "island-home"]
+      },
+      "hint": {
+        "text": "Plague in their scouts struck them as an insult to their purity",
+        "facts": ["plague-purity"]
+      },
+      "difficulty": "medium",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean.",
+        "coldSolve": {
+          "answer": "Hydraxian Waterlords (likely)",
+          "solved": true
+        },
+        "editor": "Keep."
+      }
+    },
+    {
+      "id": "thunderfury-lore",
+      "answer": "Thunderfury",
+      "clue": {
+        "text": "Blade taken dormant from the beaten Windseeker and forced awake by the lying Demitrian",
+        "facts": ["betrayal"]
+      },
+      "hint": {
+        "text": "Freeing the Windseeker takes the Firelord's essence, won by destroying him in the flesh",
+        "facts": ["windseeker-prison", "firelord-link"]
+      },
+      "difficulty": "medium",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Fixed: the sword is not the Windseeker's prison (quests 7785-7787), clue rebuilt on the betrayal and the vessel. Reworded at review, checked by the reviewer against its rows.",
+        "coldSolve": {
+          "answer": "Thunderfury (sure, \"Windseeker\" nearly gives it away)",
+          "solved": true
+        },
+        "editor": "Rewritten: the first draft echoed the old rejected clue. Reworded again at review: the editor has not read the new wording."
+      }
+    },
+    {
+      "id": "duskwood-lore",
+      "answer": "Duskwood",
+      "clue": {
+        "text": "Woods gone bad and written off by Stormwind, so Darkshire raised its own Night Watch",
+        "facts": ["night-watch"]
+      },
+      "hint": {
+        "text": "Also known as Southern Elwynn",
+        "facts": ["grand-hamlet"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Fixed: \"Southern Elwynn\" is another name, not a former one. The Karazhan account was superseded on the wiki and is dropped. Reworded at review, checked by the reviewer against its rows.",
+        "coldSolve": {
+          "answer": "Duskwood",
+          "solved": true
+        },
+        "editor": "Clue and hint swapped: the story was in the hint."
+      }
+    },
+    {
+      "id": "the-barrens-lore",
+      "answer": "The Barrens",
+      "clue": {
+        "text": "Dry plain Naralex's druids hoped to dream back into forest",
+        "facts": ["naralex-dream", "forest-once"]
+      },
+      "hint": {
+        "text": "Theramore and Durotar once shared it as neutral land",
+        "facts": ["neutral-buffer"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean.",
+        "coldSolve": {
+          "answer": "The Barrens",
+          "solved": true
+        },
+        "editor": "Keep."
+      }
+    },
+    {
+      "id": "the-deadmines-lore",
+      "answer": "The Deadmines",
+      "clue": {
+        "text": "Before the First War, the richest source of gold in human lands",
+        "facts": ["gold-center"]
+      },
+      "hint": {
+        "text": "Gnomes wanted a shredder from here to drill their way home",
+        "facts": ["goblin-shredder"]
+      },
+      "difficulty": "medium",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean.",
+        "coldSolve": {
+          "answer": "The Deadmines (likely)",
+          "solved": true
+        },
+        "editor": "Open: the hint is quest trivia, and the dossier lacks a Defias-hideout fact."
+      }
+    },
+    {
+      "id": "stranglethorn-vale-lore",
+      "answer": "Stranglethorn Vale",
+      "clue": {
+        "text": "Jungle where an ogre mage's sway is said to have turned Colonel Kurzen",
+        "facts": ["mai-zoth-kurzen"]
+      },
+      "hint": {
+        "text": "The Darkspear left it but are still at war with the Skullsplitters",
+        "facts": ["darkspear-war"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean.",
+        "coldSolve": {
+          "answer": "Stranglethorn Vale",
+          "solved": true
+        },
+        "editor": "Keep."
+      }
+    },
+    {
+      "id": "fel-lore",
+      "answer": "Fel",
+      "clue": {
+        "text": "Demonic power that turned warlock clans green and bled Draenor dry",
+        "facts": ["orc-green-skin", "draenor-blight"]
+      },
+      "hint": {
+        "text": "It fouled the Deadwood furbolgs' minds. Start of a wood, a guard and a steed",
+        "facts": ["deadwood-furbolgs", "spelling-prefix"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean.",
+        "coldSolve": {
+          "answer": "Fel",
+          "solved": true
+        },
+        "editor": "Hint rewritten. The cold-solver now calls it a giveaway."
+      }
+    },
+    {
+      "id": "orc-lore",
+      "answer": "Orc",
+      "clue": {
+        "text": "Race whose blood curse broke with Grom's sacrifice against Mannoroth",
+        "facts": ["hellscream-frees"]
+      },
+      "hint": {
+        "text": "A grudge over human internment camps lingers among some",
+        "facts": ["internment-resentment"]
+      },
+      "difficulty": "easy",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean.",
+        "coldSolve": {
+          "answer": "Orc",
+          "solved": true
+        },
+        "editor": "Keep."
+      }
+    },
+    {
+      "id": "naga-lore",
+      "answer": "Naga",
+      "clue": {
+        "text": "Illidan's allies who seized Dalaran's ruins so he could work his ritual with the Eye of Sargeras",
+        "facts": ["dalaran-ruins"]
+      },
+      "hint": {
+        "text": "A night elf fears blood elves will end up like them, or like the satyrs",
+        "facts": ["deformed-race"]
+      },
+      "difficulty": "medium",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Fixed: the deformation is a night elf's fear (quest 1275), not a stated fact. Reworded at review, checked by the reviewer against its rows.",
+        "coldSolve": {
+          "answer": "Naga (likely)",
+          "solved": true
+        },
+        "editor": "Rewritten: the clue opened on a bare \"They\". Reworded again at review: the editor has not read the new wording."
+      }
+    },
+    {
+      "id": "ogre-lore",
+      "answer": "Ogre",
+      "clue": {
+        "text": "Muscle Gul'dan brought in after the First War to keep the bickering clans in line",
+        "facts": ["guldan-enforcers"]
+      },
+      "hint": {
+        "text": "Doomhammer kept a loyal guard of them",
+        "facts": ["orgrim-bodyguard"]
+      },
+      "difficulty": "medium",
+      "status": "draft",
+      "gates": {
+        "factCheck": "Clean.",
+        "coldSolve": {
+          "answer": "Ogre (likely, Orc also fits)",
+          "solved": true
+        },
+        "editor": "Cold-solver: Ogre or Orc. Needs an ogre-only angle."
+      }
+    }
+  ],
+  "summary": "The pilot of the lore-research method (2 November 2026). 25 answers confirmed in classic.db, each with a dossier of facts from warcraft.wiki.gg at pinned revisions and from wow-data's own texts, every fact dated before patch 4.0.1. 21 triads written from the dossiers alone (Opus), then fact-checked, cold-solved blind and read by the editor. Four answers have dossiers but no triad: Black Lotus and Mother Smolderweb had no pre-Cataclysm lore to tell, Mageroyal (one children's book) and Arcanite (crafting only) were cut by the editor. The gates found 26 fact problems (3 high), 15 editorial ones and 8 more at review (Thorium's Dark Iron defectors had no pre-Cataclysm source), all fixed. A model solved 20 of 21 from the clue alone, the six clues reworded at review included (it knows lore better than most players). Open: Stalvan Mistmantle is too obscure as clued, Ogre reads as Ogre or Orc, Fel's hint gives it away, and the Deadmines hint is still quest trivia. None of these triads is in editorial.json yet."
+}

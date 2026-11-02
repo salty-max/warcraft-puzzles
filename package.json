@@ -9,7 +9,7 @@
     "node": "26.x"
   },
   "scripts": {
-    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm content:check && pnpm content:report:check && pnpm benchmark:check && pnpm prototype:check && pnpm test:browser",
+    "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm content:check && pnpm content:report:check && pnpm content:dossier:check && pnpm benchmark:check && pnpm prototype:check && pnpm test:browser",
     "lint": "eslint . --max-warnings 0",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --coverage",
@@ -32,7 +32,8 @@
     "prototype:serve": "node tools/serve-prototype.ts",
     "prototype:dev": "pnpm prototype:build && pnpm prototype:serve",
     "test:browser": "playwright test",
-    "test:browser:install": "playwright install chromium firefox webkit"
+    "test:browser:install": "playwright install chromium firefox webkit",
+    "content:dossier:check": "node tools/dossier-view.ts --check"
   },
   "dependencies": {
     "zod": "4.6.7"

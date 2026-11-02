@@ -19,6 +19,9 @@ lore research: a dossier per answer in `content/research/<batch>.json`, written 
 node tools/verify-research.ts --database "$WOW_DATA_DB" --forever ~/code/wow-addons/wow-data/.cache/db/forever.db
 ```
 
+`pnpm content:dossier <batch>` writes the batch's read-out, `docs/research-<batch>.md`
+(`pnpm check` fails when it is stale).
+
 Lore disclosed after Wrath (12 October 2010, patch 4.0.1) is out, whatever the source.
 Older triads still stand on wow-data excerpts until they are rewritten.
 

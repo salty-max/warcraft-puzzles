@@ -1,0 +1,1016 @@
+{
+  "schemaVersion": 1,
+  "databases": {
+    "classic": "3ab3d15e3500a1680ec634568f2a9aaf4daafab12dceaf76690e900e6e29bbc8",
+    "forever": "77ac50d13b033278e3bfeb9ae9d7693ca56b0564914cf397b16e9721c7f1b1cb"
+  },
+  "entities": [
+    {
+      "db": "classic",
+      "kind": "area",
+      "id": 10,
+      "name": "Duskwood",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "area",
+      "id": 1581,
+      "name": "The Deadmines",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "area",
+      "id": 17,
+      "name": "The Barrens",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "area",
+      "id": 33,
+      "name": "Stranglethorn Vale",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 10184,
+      "name": "Onyxia",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 10596,
+      "name": "Mother Smolderweb",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 11502,
+      "name": "Ragnaros",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 1748,
+      "name": "Highlord Bolvar Fordragon",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 1907,
+      "name": "Naga Explorer",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 211,
+      "name": "Ogre",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 315,
+      "name": "Stalvan Mistmantle",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 3864,
+      "name": "Fel Steed",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 448,
+      "name": "Hogger",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 639,
+      "name": "Edwin VanCleef",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "creature",
+      "id": 7937,
+      "name": "High Tinker Mekkatorque",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "faction",
+      "id": 529,
+      "name": "Argent Dawn",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "faction",
+      "id": 59,
+      "name": "Thorium Brotherhood",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "faction",
+      "id": 609,
+      "name": "Cenarion Circle",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "faction",
+      "id": 749,
+      "name": "Hydraxian Waterlords",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "faction",
+      "id": 87,
+      "name": "Bloodsail Buccaneers",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "item",
+      "id": 12360,
+      "name": "Arcanite Bar",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "item",
+      "id": 13468,
+      "name": "Black Lotus",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "item",
+      "id": 19019,
+      "name": "Thunderfury, Blessed Blade of the Windseeker",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "item",
+      "id": 785,
+      "name": "Mageroyal",
+      "inClassic": true
+    },
+    {
+      "db": "classic",
+      "kind": "race",
+      "id": 2,
+      "name": "Orc",
+      "inClassic": true
+    }
+  ],
+  "sources": [
+    {
+      "key": "game:classic:{\"table\":\"name\",\"kind\":\"faction_description\",\"id\":529,\"locale\":\"enUS\"}#347d23b5c7a6baff",
+      "passageSha256": "347d23b5c7a6baffba9cc85b0e51a476a13c90f57d66d6ff7acde01fa4238454",
+      "contentSha256": "4d207bea6d1ec0844d500a74709118dc6aa8103a4a27d7a44e9204efeb29465a"
+    },
+    {
+      "key": "game:classic:{\"table\":\"name\",\"kind\":\"faction_description\",\"id\":529,\"locale\":\"enUS\"}#d9858f507a995e06",
+      "passageSha256": "d9858f507a995e066a0af1e2c5c5ed8a1a0538892849b19481062b6f5c96640c",
+      "contentSha256": "4d207bea6d1ec0844d500a74709118dc6aa8103a4a27d7a44e9204efeb29465a"
+    },
+    {
+      "key": "game:classic:{\"table\":\"name\",\"kind\":\"faction_description\",\"id\":59,\"locale\":\"enUS\"}#8b710ff6bfc7899f",
+      "passageSha256": "8b710ff6bfc7899f2b2e3b7a34234fff6435e6b23569410979ff42a3bddf1d9e",
+      "contentSha256": "de36d4d83560aae54934b88fc66435682e2790022c86a9c167da178dd3979bf9"
+    },
+    {
+      "key": "game:classic:{\"table\":\"name\",\"kind\":\"faction_description\",\"id\":609,\"locale\":\"enUS\"}#2b5322a9bb2bfe60",
+      "passageSha256": "2b5322a9bb2bfe60313381695d45004ca1202ddfcedc1763281133823e1d50c4",
+      "contentSha256": "942b08b7bb397f39a46748b915796c3c49914d72e2ca11025b2598d3c7af0313"
+    },
+    {
+      "key": "game:classic:{\"table\":\"name\",\"kind\":\"faction_description\",\"id\":749,\"locale\":\"enUS\"}#5a9f62063c8e18d6",
+      "passageSha256": "5a9f62063c8e18d6e7c700eaf0f6786502c10020c7589545e1eb53e4c72e2664",
+      "contentSha256": "ef3979eca349337d4fb3fba301244a8a71397f3ef6ac794b21f3203906abe3e5"
+    },
+    {
+      "key": "game:classic:{\"table\":\"name\",\"kind\":\"faction_description\",\"id\":749,\"locale\":\"enUS\"}#99d1de9b4dbeb81d",
+      "passageSha256": "99d1de9b4dbeb81d81e6f32e09436c6af2292385136744d74237cb6988854182",
+      "contentSha256": "ef3979eca349337d4fb3fba301244a8a71397f3ef6ac794b21f3203906abe3e5"
+    },
+    {
+      "key": "game:classic:{\"table\":\"name\",\"kind\":\"faction_description\",\"id\":87,\"locale\":\"enUS\"}#906b5a1eba5fa1f8",
+      "passageSha256": "906b5a1eba5fa1f8e39a2807148fe35cc8690a491fba06a67ec9ef460386b05f",
+      "contentSha256": "971ca898826a255fbfab85b1b8b9047134789a7eb3efc0a1b3be860a912ea20b"
+    },
+    {
+      "key": "game:classic:{\"table\":\"name\",\"kind\":\"faction_description\",\"id\":87,\"locale\":\"enUS\"}#c1e9c80c1b1bae9c",
+      "passageSha256": "c1e9c80c1b1bae9cd6ae8d7d02a5205d9625147dec9058e2f23f718f46823c1a",
+      "contentSha256": "971ca898826a255fbfab85b1b8b9047134789a7eb3efc0a1b3be860a912ea20b"
+    },
+    {
+      "key": "game:classic:{\"table\":\"name\",\"kind\":\"spell_description\",\"id\":17187,\"locale\":\"enUS\"}#196602e5153b43ad",
+      "passageSha256": "196602e5153b43ad17e3cdd99277ad9cd9cda008f45af3836d59e9af3cf88026",
+      "contentSha256": "b5be1930527f1f68b22deee2a86c71ff912bf3a797cbff230eea8bbc4f3a127a"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1000,\"locale\":\"enUS\",\"field\":\"details\"}#860ea97e5bb73fe7",
+      "passageSha256": "860ea97e5bb73fe7208f76da6ca3af20548558f542d992aa3589d39371d70d7a",
+      "contentSha256": "c95268334f00ae372db641ab3353b229a52a6c22035f41f2d3e932ec5e7de4af"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1008,\"locale\":\"enUS\",\"field\":\"reward\"}#3db4d8913cb18326",
+      "passageSha256": "3db4d8913cb183269c509648990a08c179604a28e17f278a38aa5a55a27635ca",
+      "contentSha256": "c561121456431ef27dc469adb7c4d23d65bcde78fd451f965671c7408ef3f388"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1123,\"locale\":\"enUS\",\"field\":\"details\"}#54b6a944760b9264",
+      "passageSha256": "54b6a944760b9264fd0445485c0844fee7f930a5ee68083c1506f55dc0e606d3",
+      "contentSha256": "67821601de7b0e70e484346b6596f0f6d243cc1f87fa1e312b7741855a2e8b81"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1170,\"locale\":\"enUS\",\"field\":\"details\"}#53a44b822e9400c1",
+      "passageSha256": "53a44b822e9400c14600883b3141f2ba9c897772c27ec5c008691b1b1663ea9e",
+      "contentSha256": "e0f85034cd660ea8dad748e672f685d7d42f558a6857eb6430dd884dcfbfc048"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1170,\"locale\":\"enUS\",\"field\":\"details\"}#a595f0f710c2dc8d",
+      "passageSha256": "a595f0f710c2dc8d32f3405dd3135f9023cfe4900610b9ebb25d850d0c7f0dbc",
+      "contentSha256": "e0f85034cd660ea8dad748e672f685d7d42f558a6857eb6430dd884dcfbfc048"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1172,\"locale\":\"enUS\",\"field\":\"details\"}#987b4e2fbb93942e",
+      "passageSha256": "987b4e2fbb93942edfd36eddd1ccd4e2a78a8897df2ed4291b0733c5b690f2c9",
+      "contentSha256": "475cecb7fb515b341e4cd6886c9b4104a346a0b00dce57b5c7564460f1b59c79"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1199,\"locale\":\"enUS\",\"field\":\"details\"}#2bb91960490c817e",
+      "passageSha256": "2bb91960490c817ebfee624a3b6ff3fb6e0dee2b4cd74cbe0a3224619e62f670",
+      "contentSha256": "32b1d3047936903b493aa23dde0395cf65e55d825ae99dd0163a126be9151898"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1275,\"locale\":\"enUS\",\"field\":\"details\"}#37f58273d14096f8",
+      "passageSha256": "37f58273d14096f87b76bbc2953a3ddb60a167de54dc18fb2d2822c3b111a616",
+      "contentSha256": "f8874ad3a2fea6420d3daed6522f6e7ff96474feaf479c1b62eda0b712da6738"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":141,\"locale\":\"enUS\",\"field\":\"details\"}#aea89c349be0d0bb",
+      "passageSha256": "aea89c349be0d0bbe50c674a8d83dcac0266c717961fa096a32667d409ed2efa",
+      "contentSha256": "a55d843bb6f868822f6fc18cb00dff863094ea88acae58544bc4b86215ab30b6"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":141,\"locale\":\"enUS\",\"field\":\"details\"}#fe199c3e9062d349",
+      "passageSha256": "fe199c3e9062d3498cb1859da69dc9b3e931785dd9eadda0e35a30e5ca29d95c",
+      "contentSha256": "a55d843bb6f868822f6fc18cb00dff863094ea88acae58544bc4b86215ab30b6"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":146,\"locale\":\"enUS\",\"field\":\"details\"}#a967bd7808957a88",
+      "passageSha256": "a967bd7808957a88c276813063c2a84c77a9a4e77ba498b2fa5043af4c1a1962",
+      "contentSha256": "0f61bcb856ccd3fbfa4c5e5f3c8b7ca3e1c0bf740ca2d194088891e87dbe2647"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1487,\"locale\":\"enUS\",\"field\":\"details\"}#c03e6abf39cef3ec",
+      "passageSha256": "c03e6abf39cef3ec46d9301a8c1bb072b3683833f802f864d5b8883760ce3879",
+      "contentSha256": "9e46d74328e8f1fca0a8613b2f4937fdd3ae2bcce1578fafdc6d8e1765d3c00f"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":166,\"locale\":\"enUS\",\"field\":\"objectives\"}#e8108e19dd69267b",
+      "passageSha256": "e8108e19dd69267b035093284cbf9c9aef611a2ecdd965bc9ce6a40a6e158945",
+      "contentSha256": "7e50ab379027d352285f050dd6d0a8b49a6fbd2728103aaf9eead33a2861e3e9"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":166,\"locale\":\"enUS\",\"field\":\"reward\"}#3ccf1f1741636955",
+      "passageSha256": "3ccf1f17416369554a653d5c80966858f7c6f7d06a67b56a06c54dc69096304a",
+      "contentSha256": "c8f608bc05e96964198e1751e4e57e03873c33514009ef8c865474acc6277380"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":176,\"locale\":\"enUS\",\"field\":\"details\"}#1a133760c79877ca",
+      "passageSha256": "1a133760c79877ca4829a1c47cf13d089ecd3c5ec6fb419c153b8f5c7d887678",
+      "contentSha256": "77f4b9725e9e6429e4eddd67ef629ef3c16290734a0acf4298ca9a21a1694628"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":176,\"locale\":\"enUS\",\"field\":\"details\"}#4cc2d9e63cb44c4d",
+      "passageSha256": "4cc2d9e63cb44c4dd37536fbd08b85c2c30e66a9f916dd7dd024d310b5b5ce53",
+      "contentSha256": "77f4b9725e9e6429e4eddd67ef629ef3c16290734a0acf4298ca9a21a1694628"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":176,\"locale\":\"enUS\",\"field\":\"details\"}#a2121271c108f057",
+      "passageSha256": "a2121271c108f057747f8cd9b30c248d3d7bd1143d7a4f299b94457d05818a0c",
+      "contentSha256": "77f4b9725e9e6429e4eddd67ef629ef3c16290734a0acf4298ca9a21a1694628"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":2040,\"locale\":\"enUS\",\"field\":\"details\"}#d20383e26d18d7cf",
+      "passageSha256": "d20383e26d18d7cf774b5c976b7742a46afb1bb586ef115a6bc89b45352ee50c",
+      "contentSha256": "a3995f146bbd00f135df3daa10aa3a75e96b456d128524d775f5924c4eddb644"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":206,\"locale\":\"enUS\",\"field\":\"details\"}#82033ec523c78df7",
+      "passageSha256": "82033ec523c78df7a5b0c9b5c642889c3c86917eddaa1f5927516ef498cc9db6",
+      "contentSha256": "3f7bf4e8ca948f23d07691a362d3d1687cc989c178ff83bfbeb9e931468dc862"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":214,\"locale\":\"enUS\",\"field\":\"details\"}#a4598da07c07b3b3",
+      "passageSha256": "a4598da07c07b3b3bb32e3d1aacd6217fd207846c14dbbe3578a3bc024b93a3f",
+      "contentSha256": "680f6d1e1e763d44175e3adfa90ad8328046a17af93dab572315e31973a9174c"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":26,\"locale\":\"enUS\",\"field\":\"details\"}#0a623b53862cd6c0",
+      "passageSha256": "0a623b53862cd6c008d7404d80796c3bae08f6f0fae5c6c872cf4738dd460b48",
+      "contentSha256": "03eee7f25c77c3d54976efc8c48f62da3476b43102a99ad07e088ba742ea7f3b"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":26,\"locale\":\"enUS\",\"field\":\"details\"}#a808f5ec87f388d3",
+      "passageSha256": "a808f5ec87f388d3a2abc052e9f435301f34998a3142d33d8a1c1a190b78fa52",
+      "contentSha256": "03eee7f25c77c3d54976efc8c48f62da3476b43102a99ad07e088ba742ea7f3b"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":268,\"locale\":\"enUS\",\"field\":\"reward\"}#f42aa76ddaf25033",
+      "passageSha256": "f42aa76ddaf25033b215fd21cbe4ffadfd02d516e9f6e88c6d857f024fadb0a0",
+      "contentSha256": "39f4fc2f48c10fc8343d2eb0b8e51f6e989d3e7deda9989ef95e4425cf85ffa0"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":269,\"locale\":\"enUS\",\"field\":\"details\"}#67074c8d7c6f9eec",
+      "passageSha256": "67074c8d7c6f9eec718b2e273ef2ae3b280014f0ef017cb699744ec202c00108",
+      "contentSha256": "6912b1980e49bea16de23b2813792ac4b59737c9f3fcc21e69f3e08ebcb9138d"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":2929,\"locale\":\"enUS\",\"field\":\"details\"}#1bed50733f340f36",
+      "passageSha256": "1bed50733f340f3614ddd37c3952ac80b9ccd0790de9e658ade709035e9c7d2f",
+      "contentSha256": "4e3ebbce323e46eea79d23a2c668f16abf8e715d641949b1a65e103e56b63fec"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":2929,\"locale\":\"enUS\",\"field\":\"details\"}#63e98ce6c9398e0b",
+      "passageSha256": "63e98ce6c9398e0be4352a1cd1af8271ddc549d561a66dcbdc140a1b43fbc7b6",
+      "contentSha256": "4e3ebbce323e46eea79d23a2c668f16abf8e715d641949b1a65e103e56b63fec"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":323,\"locale\":\"enUS\",\"field\":\"details\"}#693c6cede8809b4e",
+      "passageSha256": "693c6cede8809b4eb23d3926d559f6c7c4f5e56b971b9aba9c882e124487509f",
+      "contentSha256": "2c2865f0eeb36833d1a9ec039855592cf8a78c514bcd3fa81e65ac716f8b4767"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":335,\"locale\":\"enUS\",\"field\":\"details\"}#8bba4d173c4c595b",
+      "passageSha256": "8bba4d173c4c595b58370455e96b6e5a29af4e718e070adf7c5af7c408d297e2",
+      "contentSha256": "76c26ec074c3294e4703ab96ac8df35edc619ed65ebbd356221c07b5aa380b2c"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":335,\"locale\":\"enUS\",\"field\":\"details\"}#edd04e1abd44f767",
+      "passageSha256": "edd04e1abd44f76755d6700a4fdf1a63fb5efa45b09b6fc230d8ff87863762ae",
+      "contentSha256": "76c26ec074c3294e4703ab96ac8df35edc619ed65ebbd356221c07b5aa380b2c"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":373,\"locale\":\"enUS\",\"field\":\"details\"}#d8520c2904a5cf1c",
+      "passageSha256": "d8520c2904a5cf1cf893ef09748ebe75483b119e10a2a6844dbbfad35459c22a",
+      "contentSha256": "195f78e689e316ac39678f06f5970bf4300b51e6bd58ee245134ad85713c436a"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":373,\"locale\":\"enUS\",\"field\":\"reward\"}#6a1be77abce8d804",
+      "passageSha256": "6a1be77abce8d804e0fe54b13c0d57d66fffdc0db7e8db47a0a091f493aeab3d",
+      "contentSha256": "4a91537d3d8231dea38089277b46ed9d33e480899f181d8b1389345c52f5daaa"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":373,\"locale\":\"enUS\",\"field\":\"reward\"}#9bd0acbcf433fc4f",
+      "passageSha256": "9bd0acbcf433fc4fc12000d6c0fd894f507065d643767633c5d3c9f01a5860e5",
+      "contentSha256": "4a91537d3d8231dea38089277b46ed9d33e480899f181d8b1389345c52f5daaa"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":3763,\"locale\":\"enUS\",\"field\":\"details\"}#41262c68582957d3",
+      "passageSha256": "41262c68582957d3c7471ec3a8064ba350c60d316ed7b6397ce64b77da99d343",
+      "contentSha256": "cd436f0d0524bc0175de1923f54a37e05a3cee4da753b24123c15a9ac577151a"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":389,\"locale\":\"enUS\",\"field\":\"details\"}#3dd1eb4dc9993769",
+      "passageSha256": "3dd1eb4dc99937698d9853a2ef5e95ad11a201442631aeaa4a5d8441eed68aa2",
+      "contentSha256": "7ec4444d661906ab34da090ab121f485e83c21e25de3e7d51d1804b3c75aced6"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":389,\"locale\":\"enUS\",\"field\":\"details\"}#74a0c0399aab97f7",
+      "passageSha256": "74a0c0399aab97f7584c6b972eb0b5e3460925783a652faa8bde08e25ceb8cdb",
+      "contentSha256": "7ec4444d661906ab34da090ab121f485e83c21e25de3e7d51d1804b3c75aced6"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":389,\"locale\":\"enUS\",\"field\":\"details\"}#914614b1591efe50",
+      "passageSha256": "914614b1591efe50a396d290d1d9be7efb0f44ab7f2d5de3acc6da82164dab07",
+      "contentSha256": "7ec4444d661906ab34da090ab121f485e83c21e25de3e7d51d1804b3c75aced6"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":389,\"locale\":\"enUS\",\"field\":\"details\"}#91cb9d6b683ad50b",
+      "passageSha256": "91cb9d6b683ad50b87477bb354badc3e5f107ab2d55d40968daf90985bbfea81",
+      "contentSha256": "7ec4444d661906ab34da090ab121f485e83c21e25de3e7d51d1804b3c75aced6"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":3907,\"locale\":\"enUS\",\"field\":\"reward\"}#171cd17464aa6de7",
+      "passageSha256": "171cd17464aa6de72553974f0edfa6628ff8336ba5ea867c24552b8c5bd262b0",
+      "contentSha256": "40f1557c168a165d4c93bffd482897babc831ef3331d2e25c4bee7582b2e9376"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":3907,\"locale\":\"enUS\",\"field\":\"reward\"}#eff7804703149999",
+      "passageSha256": "eff78047031499997dc0240857ccfee17652043166857692eaeb1d5326fdbce1",
+      "contentSha256": "40f1557c168a165d4c93bffd482897babc831ef3331d2e25c4bee7582b2e9376"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":4120,\"locale\":\"enUS\",\"field\":\"request\"}#bd60bdeb7f64455f",
+      "passageSha256": "bd60bdeb7f64455f54b08caa8143f156bb4e75fecc6e74ce255b3513e37cd662",
+      "contentSha256": "fe67f7376d671da8ed6f036abda251d28796bcbcd11672876de4eacdde16b5dc"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":4184,\"locale\":\"enUS\",\"field\":\"details\"}#c49fd11d21f9db99",
+      "passageSha256": "c49fd11d21f9db995878aa50d6becf93a438fd65e77d8762d5e194295ba9e5b7",
+      "contentSha256": "da1b3ff0f2754032b563f27b865ed6b21b2ff23a01d9b2d11e58e3a98b69aae2"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":4185,\"locale\":\"enUS\",\"field\":\"objectives\"}#47db0ed2052fe8fa",
+      "passageSha256": "47db0ed2052fe8fada628c288edd7aee6617f534700bea0db608bc9bf9b5076b",
+      "contentSha256": "38ae78084b26cbcc419cbb6f9f682a9745c012aeb7ab51de7cf5822341d3a455"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":4263,\"locale\":\"enUS\",\"field\":\"details\"}#58c08abe962d151b",
+      "passageSha256": "58c08abe962d151bee2b4dbf5dabae283fc5babd3a7f5958a8d65c5247c0bf20",
+      "contentSha256": "39bdfb5326fb164b8774b1f2401d376f0eafd7fb2b209dd99472ca9402a3fe64"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":4866,\"locale\":\"enUS\",\"field\":\"details\"}#061e5b0992619947",
+      "passageSha256": "061e5b0992619947934b77ecf31ddf86ac1957b1388e2a2bf784ab88c1772f5f",
+      "contentSha256": "36eb70757c14800ccb706bdf5aa8c78fb9f85d4b16f090c3ebd1c3b94bf3d26d"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":4866,\"locale\":\"enUS\",\"field\":\"objectives\"}#a1cbc88075cef510",
+      "passageSha256": "a1cbc88075cef510c3d6261911e1f63b00156f820d66a2942ece8b29e9c34366",
+      "contentSha256": "b4a56a07d76329b2e099612e6aa7c18643337f9b25a2ecd2286aca515140c517"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":5251,\"locale\":\"enUS\",\"field\":\"details\"}#2da797a1ce1d4cbd",
+      "passageSha256": "2da797a1ce1d4cbd32e6b2c52c11aea1f3df86b87c0b01aab1d5d95127d10ea5",
+      "contentSha256": "b341c58bd1e5e240d37dbdcc14da66c01b40ea7ba2593da22b2dfda5a344b062"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":5251,\"locale\":\"enUS\",\"field\":\"details\"}#5524a86c85860fd3",
+      "passageSha256": "5524a86c85860fd346138671f84340825dc17f4559a712c8d3227f50f731adcc",
+      "contentSha256": "b341c58bd1e5e240d37dbdcc14da66c01b40ea7ba2593da22b2dfda5a344b062"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":5251,\"locale\":\"enUS\",\"field\":\"details\"}#d6793b7a67dd28f5",
+      "passageSha256": "d6793b7a67dd28f51aae5898f0522f56827d5e1e2742300ccacaeb3fde7c9642",
+      "contentSha256": "b341c58bd1e5e240d37dbdcc14da66c01b40ea7ba2593da22b2dfda5a344b062"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":5262,\"locale\":\"enUS\",\"field\":\"details\"}#7a9b6171b8af0047",
+      "passageSha256": "7a9b6171b8af00475f0f8343166242daaf57f362cea5244938412ca63e62cfc2",
+      "contentSha256": "eb7a4c414d1d4e855f2aef6d207773242135e1a2acc58a4c29c6103ed3d16b27"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":5262,\"locale\":\"enUS\",\"field\":\"details\"}#8e5b0ea27179a5fd",
+      "passageSha256": "8e5b0ea27179a5fd6b62b1f36d3fea2f4078234005f35979675b99490d7f0f0b",
+      "contentSha256": "eb7a4c414d1d4e855f2aef6d207773242135e1a2acc58a4c29c6103ed3d16b27"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":583,\"locale\":\"enUS\",\"field\":\"details\"}#adb956c791a2b7de",
+      "passageSha256": "adb956c791a2b7de7ef4514f16c3d862038f465cb9b13545abe93f390224ec30",
+      "contentSha256": "3aaf99f4ee4f4875055ae8f7c351536e6863d32bb030d8c448a78946ae70acc8"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":595,\"locale\":\"enUS\",\"field\":\"details\"}#0109d37b1fd2f0a5",
+      "passageSha256": "0109d37b1fd2f0a5a69e959a45524c9dde4046d48c7c78c0340ce60aa7f48996",
+      "contentSha256": "69afedc24c5adc4d9f2abedfbaa195de32d0a55f0abecdfe424fc2ff62b2e32c"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":595,\"locale\":\"enUS\",\"field\":\"details\"}#310a491d11206769",
+      "passageSha256": "310a491d11206769e73a3926bdf766e1c04fa0ba49aaf7f0cb7fb4bc60af0bfe",
+      "contentSha256": "69afedc24c5adc4d9f2abedfbaa195de32d0a55f0abecdfe424fc2ff62b2e32c"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":598,\"locale\":\"enUS\",\"field\":\"details\"}#a67dae343a1b5144",
+      "passageSha256": "a67dae343a1b5144aab4a292b862f81740c12c40e2f0d780435e6a3d5cdd5339",
+      "contentSha256": "b801f7ddd42cb70d9d323aad98caea3a5e33f6b9df8d69239449ce469865d07d"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":599,\"locale\":\"enUS\",\"field\":\"details\"}#ef945914892b640f",
+      "passageSha256": "ef945914892b640ff298b719669c98c354f7e4ebe2d808f780096c5bc6d4c75e",
+      "contentSha256": "16251042dbf912e8650c80e9bd53dc641918903ce4ccfb1b00a0bfb2a98c5636"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":608,\"locale\":\"enUS\",\"field\":\"details\"}#16619d7529526a68",
+      "passageSha256": "16619d7529526a682066c8539e4b05a20cd51792fffeed2c2dd1516331367f2e",
+      "contentSha256": "fcef35015e71336ea23132a9aafc955e049ac493c812d80b19b1665d92e73034"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6403,\"locale\":\"enUS\",\"field\":\"details\"}#049209de15f7f8a8",
+      "passageSha256": "049209de15f7f8a8cd642e08e7053415080bcdb4e8702df59f3961f63d121e83",
+      "contentSha256": "0bdc215d7dc87ee5575bb09c9490816cf67a1e65e2b307fd3b4adfab80aa835c"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6403,\"locale\":\"enUS\",\"field\":\"details\"}#35ecf60e307a1eea",
+      "passageSha256": "35ecf60e307a1eea468301838765d118e95fa688f2b1252ecc9d02e3c45fa8b2",
+      "contentSha256": "0bdc215d7dc87ee5575bb09c9490816cf67a1e65e2b307fd3b4adfab80aa835c"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6403,\"locale\":\"enUS\",\"field\":\"details\"}#57f6a056692e2172",
+      "passageSha256": "57f6a056692e217261e739d26f0aec041ed2de9224b7a06efa8cc2ae4850bceb",
+      "contentSha256": "0bdc215d7dc87ee5575bb09c9490816cf67a1e65e2b307fd3b4adfab80aa835c"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6403,\"locale\":\"enUS\",\"field\":\"details\"}#7e370f986ca755f2",
+      "passageSha256": "7e370f986ca755f2bfad6667f0e88347ab16848d0cdc2fa06e92e6470d2f8f32",
+      "contentSha256": "0bdc215d7dc87ee5575bb09c9490816cf67a1e65e2b307fd3b4adfab80aa835c"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6403,\"locale\":\"enUS\",\"field\":\"reward\"}#16bceda2424213cf",
+      "passageSha256": "16bceda2424213cfc71f20705eae022ff7a44015f3f45a470598ebbfb3046089",
+      "contentSha256": "480439d24f5b329cb006b17634e0517cd87586c35c364abebebbafc54118305a"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6403,\"locale\":\"enUS\",\"field\":\"reward\"}#937bc9bbfa8040b5",
+      "passageSha256": "937bc9bbfa8040b59a19ce6ffed828ae8cfe2924e70891292a4162962daad9a7",
+      "contentSha256": "480439d24f5b329cb006b17634e0517cd87586c35c364abebebbafc54118305a"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":66,\"locale\":\"enUS\",\"field\":\"details\"}#23633a4c7349a569",
+      "passageSha256": "23633a4c7349a56966b2da20946ee839d021d2eb217f68e63d715e4258c53f0f",
+      "contentSha256": "622dad2c6b3870cb38163ab2d1cb3471048ee872b43508463e397d027109e5bd"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6642,\"locale\":\"enUS\",\"field\":\"request\"}#a042adcb59ac989b",
+      "passageSha256": "a042adcb59ac989b971997f0ee1158f0b7e04483a14289fdd87643d4b327ed37",
+      "contentSha256": "14111a30dc129ff10b1d7c71bfa67534914819b032ac3af7e0df6c3c236c9059"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6804,\"locale\":\"enUS\",\"field\":\"details\"}#74c44737be0112a7",
+      "passageSha256": "74c44737be0112a74c9ee6f50334aa80648190b64f06730fb219c479261be6b5",
+      "contentSha256": "ed46a0df5024d192e3ceeb503d031b256f17150e2ff93722b081bb5b461a46bb"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6804,\"locale\":\"enUS\",\"field\":\"details\"}#8fda9faf59946bdd",
+      "passageSha256": "8fda9faf59946bddc653a832c09ceeeca4fbfc1f2b925ff8cd3dbd93259ef372",
+      "contentSha256": "ed46a0df5024d192e3ceeb503d031b256f17150e2ff93722b081bb5b461a46bb"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6805,\"locale\":\"enUS\",\"field\":\"details\"}#55a8ee3958fc0aac",
+      "passageSha256": "55a8ee3958fc0aac7170f8ec407090d5b154637704ccce4164c0c756eac7ef98",
+      "contentSha256": "528a43ccca97822fa1147331b6238b133ab3ab85f87425b6fdfb0f7c313feabf"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":6821,\"locale\":\"enUS\",\"field\":\"details\"}#4f44fc76c04040bc",
+      "passageSha256": "4f44fc76c04040bc74df215a7cbee32e4501ec0441382b67ca7efc35f7b7654f",
+      "contentSha256": "0e4506619c9e32e05b3191fe08158ffd6bf72d787fce3766cbff9e926b54c6b1"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7490,\"locale\":\"enUS\",\"field\":\"objectives\"}#89f4236ae7aba4f7",
+      "passageSha256": "89f4236ae7aba4f74eaa3c48b589efe1bcf3715a9e2ec6248b30d4b3f54dd829",
+      "contentSha256": "5fbd8780d75965b39ae53e81ea11d2a1db81d6f7852c084f01c3428044d1c24a"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7495,\"locale\":\"enUS\",\"field\":\"objectives\"}#3ccc7135b2d37288",
+      "passageSha256": "3ccc7135b2d37288d8b7cf0b25e813a12d51cf7065e87f84eacc34723cf52df1",
+      "contentSha256": "e320fe9081f7ed6a8c53849717e438ce66d8587f5ae1f635e2f4fc3bce87e3d7"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7604,\"locale\":\"enUS\",\"field\":\"details\"}#618888aaee38c0bb",
+      "passageSha256": "618888aaee38c0bb0a2bde10afa6c0a877a97d3590c5ad9411158d18ad3b1b35",
+      "contentSha256": "3884309c2d64db913d88dc94fdddad3139119c3aa1de88f9027254c84bfce5e9"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7604,\"locale\":\"enUS\",\"field\":\"details\"}#a130cb5b1f1b4861",
+      "passageSha256": "a130cb5b1f1b4861a40c20df019fe7c51031a4538561b1d6694b9e00dee070a8",
+      "contentSha256": "3884309c2d64db913d88dc94fdddad3139119c3aa1de88f9027254c84bfce5e9"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":762,\"locale\":\"enUS\",\"field\":\"details\"}#f39a45a33a43eea5",
+      "passageSha256": "f39a45a33a43eea593c7187b377f67a04ae278b2262307b5f134f3b6da92e707",
+      "contentSha256": "b0dd10c9f81ea2a98221fc7a032af8e48c8a061bc6a79d012b443b1c2a5aaa76"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7630,\"locale\":\"enUS\",\"field\":\"details\"}#5484fd0f8a899a8f",
+      "passageSha256": "5484fd0f8a899a8f1da0a66148eba5df88a931277a619ee48f3d5cfdf7c0823d",
+      "contentSha256": "50f8ea653ec7d00b008d0126a78ffd0d21f6872ff382f542adedf91c7a5247f8"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7642,\"locale\":\"enUS\",\"field\":\"details\"}#5f5b6c1d3600fb9d",
+      "passageSha256": "5f5b6c1d3600fb9d03680216278e6d5cd3820b7737f1c54550cc10a68594a10c",
+      "contentSha256": "b2cde9e3a85ade96fc1d3d8cc93c666d208bd6527ecbdc007080473395af166b"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7643,\"locale\":\"enUS\",\"field\":\"details\"}#26661349cd835c22",
+      "passageSha256": "26661349cd835c22a8ed73f32643b230f5ca33ec832ec9e8b3706aacc45726c4",
+      "contentSha256": "166714080050410d87b283937326e06018ab53ce1092f592c77766392debaca6"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7728,\"locale\":\"enUS\",\"field\":\"details\"}#f0edf862101cd398",
+      "passageSha256": "f0edf862101cd3988a033e2e6f2a4a9e062165716ce88c9edb0772ac08c28201",
+      "contentSha256": "ff4bd2b333e3d18a5215ec172f3ebd7be2d65e1ab577604c32efed80d5c343bf"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7785,\"locale\":\"enUS\",\"field\":\"details\"}#b1cd3cfa98fcfdc6",
+      "passageSha256": "b1cd3cfa98fcfdc69e8a8c46d135f0963ce82ab2776fe1c4cd49f08241d27b99",
+      "contentSha256": "dafa2596afc8b52dafc0e52079d590a09bcc6a4e87e35dbfdbc0fb285333416f"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7786,\"locale\":\"enUS\",\"field\":\"details\"}#c5d86f53d8df13ae",
+      "passageSha256": "c5d86f53d8df13ae0827fe28e9eb344d98d4d26891bae4ec91803e48aaf9282b",
+      "contentSha256": "9ff6355dd2b0e859f0e877e338b43e9d7f90802c6645f83125a5fa771c1e54e0"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7786,\"locale\":\"enUS\",\"field\":\"objectives\"}#0631f0796662cc9d",
+      "passageSha256": "0631f0796662cc9d8861cb715b788c6fdb015a7ce411b6acbc9e286c191142f7",
+      "contentSha256": "1838b0aa59bfb9cc357608d8f47210018d2c47cbca21b0fd3ae69f891d2f1042"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7786,\"locale\":\"enUS\",\"field\":\"objectives\"}#40ad7467dbb030dc",
+      "passageSha256": "40ad7467dbb030dc7b859c0e38536112b37512ff9c950aaacc8b56b7db8b79ad",
+      "contentSha256": "1838b0aa59bfb9cc357608d8f47210018d2c47cbca21b0fd3ae69f891d2f1042"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7787,\"locale\":\"enUS\",\"field\":\"details\"}#60edf68db1e8e477",
+      "passageSha256": "60edf68db1e8e47760d2c1b4805ddd4f8bcd03209feaa78cca6873d0f7ca24f2",
+      "contentSha256": "236aefca23288200990ea6b7c660d3461a9398611c8c08303a4f1b2ef8b1349d"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":7787,\"locale\":\"enUS\",\"field\":\"reward\"}#13deaba3af546361",
+      "passageSha256": "13deaba3af5463611c16ebdbd037a24c03e06bfc6bdca56c8237877051969fe3",
+      "contentSha256": "b58d618091738de4e45b3d41f0f525cdbf79d534221e952569bc720a5f9bd190"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":8275,\"locale\":\"enUS\",\"field\":\"details\"}#950939adec01d948",
+      "passageSha256": "950939adec01d94803b7b0f004be3fb1aadf3fa704af5b343e849210f020385d",
+      "contentSha256": "83b4e74d67dc4ff616f1fd4995a405067a26729f647b04d3a6895c9d0416da65"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":8461,\"locale\":\"enUS\",\"field\":\"details\"}#0e320a98d5a3a789",
+      "passageSha256": "0e320a98d5a3a789f982986706a19410a8ca5deea90930d9b2bbefa871c3bfac",
+      "contentSha256": "15efe92ba8f9e2339df7cac61721d465c71e804f51ad208d70b326dbe29f7404"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":8728,\"locale\":\"enUS\",\"field\":\"details\"}#1e90cacfb259e227",
+      "passageSha256": "1e90cacfb259e22765ebf6e7382cc30e87cc7618d9dafc4e63db0c8ed5fdde8c",
+      "contentSha256": "929512770159e3e6542efd1a23be3733762cf7dfb45fec21609f73a3d76101df"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":8729,\"locale\":\"enUS\",\"field\":\"details\"}#339477aea5a35166",
+      "passageSha256": "339477aea5a35166a19cb95dac262ce1828a67c54104a75e4c1acff75be30b4f",
+      "contentSha256": "4f429f490118d7ba512db3d4c1c24324061a0ca666675baf0887569a65ae4799"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":9033,\"locale\":\"enUS\",\"field\":\"details\"}#69220ec6ab4f9245",
+      "passageSha256": "69220ec6ab4f92454d49ee6440b5fff9c59c65eb6bffab6479ae751350807847",
+      "contentSha256": "c2c85cd917080f46e7cff25d9ac2bb0f86c9dfa3f27fb5bdd0963dd6b60a0465"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":9033,\"locale\":\"enUS\",\"field\":\"details\"}#e738871f990728e1",
+      "passageSha256": "e738871f990728e1d9475cf7307e600bce8bc03bbc52ddaaadeaf630c41516d5",
+      "contentSha256": "c2c85cd917080f46e7cff25d9ac2bb0f86c9dfa3f27fb5bdd0963dd6b60a0465"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":914,\"locale\":\"enUS\",\"field\":\"details\"}#12c320b9fee2bdfc",
+      "passageSha256": "12c320b9fee2bdfc982a64c05de794fa6fe1035a46a0a42b42d897e79608c408",
+      "contentSha256": "9a59dad0549ed8bb8f571ba51a74309c8d871aa8b9a9b5daca4c195f30706887"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":9154,\"locale\":\"enUS\",\"field\":\"details\"}#63c0fe749d87e8c2",
+      "passageSha256": "63c0fe749d87e8c279b7c0aaaaa78fc72a37a49a16510be99404f22637e5160c",
+      "contentSha256": "344b6d62b3efb41dba9fc412cd4a50982a274e9c5b99dbfb84d1e9ee924e3dea"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":9154,\"locale\":\"enUS\",\"field\":\"details\"}#d09614ba8bc45338",
+      "passageSha256": "d09614ba8bc453380efb33bd0b80e76fd7b19bfb6ee2712e11b00fe32f7c2b1b",
+      "contentSha256": "344b6d62b3efb41dba9fc412cd4a50982a274e9c5b99dbfb84d1e9ee924e3dea"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":936,\"locale\":\"enUS\",\"field\":\"details\"}#bb774c77a1145257",
+      "passageSha256": "bb774c77a1145257bd8acf7a6922cbcc3473d65a7f99044d4c7ec2c0944aee34",
+      "contentSha256": "540fd706d917a0c6670a023516a3e4e0502432a6d5a6723959020d927f88a133"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":95,\"locale\":\"enUS\",\"field\":\"details\"}#9be413164c98f9e1",
+      "passageSha256": "9be413164c98f9e12497e62593cc8e760507502c5ba3e6e58b84d6ded222e480",
+      "contentSha256": "720a64eaacde48396335748990ec6cefd9b3d4a4e8c4572e7431db1d258239f7"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":98,\"locale\":\"enUS\",\"field\":\"details\"}#4d9122faceaaa6cb",
+      "passageSha256": "4d9122faceaaa6cbd9341076f3bbb8048231f9e51bf0a8ae8702a049a8e096d5",
+      "contentSha256": "486379ae4f5785ba7039ce0caccbdd9feac9ca60f523b687385b49b5748220b9"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":3921,\"locale\":\"enUS\",\"idx\":1}#f5872f87e97c2bf5",
+      "passageSha256": "f5872f87e97c2bf559913af49d242f84cea4807a596c7774ea18579bea8dfd50",
+      "contentSha256": "899703888cf29d7e9a57dd1b7314875bb54206e522e15a233140c2fb26df22e8"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":3921,\"locale\":\"enUS\",\"idx\":2}#08c123271513a99d",
+      "passageSha256": "08c123271513a99d23f51991d121091f0285be57fdac4af0082fc2a9ab027454",
+      "contentSha256": "4152c7ff5e3338ccf616393be443f55f7c47090a56df28558ae62f3f8dabbed1"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":3921,\"locale\":\"enUS\",\"idx\":2}#b6a132c270c295b6",
+      "passageSha256": "b6a132c270c295b696322558471107ba6b746d45557e6d2c06105dc8c210eaa3",
+      "contentSha256": "4152c7ff5e3338ccf616393be443f55f7c47090a56df28558ae62f3f8dabbed1"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":889,\"locale\":\"enUS\",\"idx\":1}#098cd55e40fdaed9",
+      "passageSha256": "098cd55e40fdaed9cd47ae60a1b5896238d3015302e36d9bc393bcdd751cc0b3",
+      "contentSha256": "49c1efaad73bed46fcce8d1792080ecf35d8251cffcf42bdbcdbba5493eb1ac6"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":889,\"locale\":\"enUS\",\"idx\":2}#0e12528b719a1d25",
+      "passageSha256": "0e12528b719a1d257be7ba7c4ac2593ee9dd3dfde11039117f2bee2a5072156e",
+      "contentSha256": "fe56995685739a998e9db001200e461d6d89ed7038031b61afaf55abab5c220b"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":889,\"locale\":\"enUS\",\"idx\":2}#97576a4b3138c09c",
+      "passageSha256": "97576a4b3138c09c9d9664a2e66099eb14975f3a44cec97cf276b735a0dea8c9",
+      "contentSha256": "fe56995685739a998e9db001200e461d6d89ed7038031b61afaf55abab5c220b"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":910,\"locale\":\"enUS\",\"idx\":1}#078a1f2e924be0d7",
+      "passageSha256": "078a1f2e924be0d7a7abff637fbb8f242cdcf485e0ad7f96589b5dd27659b09a",
+      "contentSha256": "dcd566ab52d2c25a87508ca1de79ee4ef5646b9d0509851bb06a68036dccb28d"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":910,\"locale\":\"enUS\",\"idx\":1}#0e075b060121ede2",
+      "passageSha256": "0e075b060121ede2a417ddfc687a7c5952c479c7bd7bfcacbe0c182239587479",
+      "contentSha256": "dcd566ab52d2c25a87508ca1de79ee4ef5646b9d0509851bb06a68036dccb28d"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":938,\"locale\":\"enUS\",\"idx\":1}#3ae49750cac10218",
+      "passageSha256": "3ae49750cac1021868fe925786d79109b8634c2aefcdf76d0c371f14ea9b7e60",
+      "contentSha256": "9be70b305c8ace08e5fe5789ad87f434d120a16cd5c586739fb976046a1dd463"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"item\",\"id\":938,\"locale\":\"enUS\",\"idx\":2}#262bd586b9e1fcfa",
+      "passageSha256": "262bd586b9e1fcfa173bc3696bcb4c7b36d9b3601250cbfb1f5c8ce68f0fcc90",
+      "contentSha256": "4aa832289b76cd0b65b64fd9fa3f47797fb6433a3e1037168b4a8522377d7e94"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"object\",\"id\":175739,\"locale\":\"enUS\",\"idx\":11}#fb8a4b736c2dc932",
+      "passageSha256": "fb8a4b736c2dc932cfb675f1d123fae1f775fa205747d7afdfed08fa9aa2f565",
+      "contentSha256": "af442cf8aecee927b8cc11923b1bbd91d60a16c536cfe977a71fb6b658d5e76d"
+    },
+    {
+      "key": "game:classic:{\"table\":\"readable_page\",\"kind\":\"object\",\"id\":175739,\"locale\":\"enUS\",\"idx\":12}#3bab82922b486491",
+      "passageSha256": "3bab82922b4864914993509014989b45ad45937a89801fa3907c496c338a62ac",
+      "contentSha256": "d0eccc66f8d5bc6ed910d12d9bc9aad9f47db135b5f2a08f80ff0376162be20e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Argent_Dawn@6957761#aee6f41249d543f5",
+      "passageSha256": "aee6f41249d543f59f38fa0d92a5b9a1187fc4dc743e2d0bf5a33cf6756f423f",
+      "contentSha256": "94d6323887590d2fc0bd7e040ea5a54dddb2b552c79a95c22cb8a945b7eca030"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Barrens@6402371#58d6b5440c6fe495",
+      "passageSha256": "58d6b5440c6fe49549ab26e8ac6bf85798621b066e1c2b5cbaed5b2bb4f9364e",
+      "contentSha256": "edb19c2de95a27488814a6db4fa17ddd162059bd9fd17c40b29a04cf15bbd711"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Barrens@6402371#729845a06a40ebef",
+      "passageSha256": "729845a06a40ebef006bc7f5309b890082d52da5eafba1afe2ac549c93c9a285",
+      "contentSha256": "edb19c2de95a27488814a6db4fa17ddd162059bd9fd17c40b29a04cf15bbd711"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Barrens@6402371#7675a012a16bc2e9",
+      "passageSha256": "7675a012a16bc2e9e24013b513b1fad68a1c22634b29503f1eff87c0f95c9e36",
+      "contentSha256": "edb19c2de95a27488814a6db4fa17ddd162059bd9fd17c40b29a04cf15bbd711"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Barrens@6402371#8a36c3842c0c84a0",
+      "passageSha256": "8a36c3842c0c84a0c74bdaa956a52c06c8067f1004227a42ac9d449b95c5dd8e",
+      "contentSha256": "edb19c2de95a27488814a6db4fa17ddd162059bd9fd17c40b29a04cf15bbd711"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Battle_of_Angrathar_the_Wrathgate@6954487#25c1543b3a3f2db4",
+      "passageSha256": "25c1543b3a3f2db405991c4345fa23183409604d802571e357c08e05f16aaffd",
+      "contentSha256": "944e505b28bbde8783521f2caccb7d58fd1ebcdadee5ab79fa87f82a004898bf"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Bloodsail_Buccaneers@6477097#879af694a56bb69c",
+      "passageSha256": "879af694a56bb69cdd2eb74daa65c468c62e4f130c427ed024951834dd9c7093",
+      "contentSha256": "71c5f5e9bc5a577adb16b61c0dbd653340f8591dac6065c39a01cd6eb9254a5e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Bloodsail_Buccaneers@6477097#8a0cc3bc5e913dcc",
+      "passageSha256": "8a0cc3bc5e913dcc7aeb945dc8595808201b9b134fd206010495fbc9ad275a5b",
+      "contentSha256": "71c5f5e9bc5a577adb16b61c0dbd653340f8591dac6065c39a01cd6eb9254a5e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Bolvar_Fordragon@6939395#41e00f6d8115c8d6",
+      "passageSha256": "41e00f6d8115c8d64838fef480b2c4d9ab1adcbc80d99e2a23125c7b768db18c",
+      "contentSha256": "c6ca4a788eb9ee453b11b716fd16de7a5f111b6ebe9e33bda6fbe632dfd299ab"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Bolvar_Fordragon@6939395#791608a9feafd015",
+      "passageSha256": "791608a9feafd015a0819a9abdfea6a6ad52f9f0d13c91c14ea3562d4ab0c5b7",
+      "contentSha256": "c6ca4a788eb9ee453b11b716fd16de7a5f111b6ebe9e33bda6fbe632dfd299ab"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Bolvar_Fordragon@6939395#7eed6915c40fb9af",
+      "passageSha256": "7eed6915c40fb9aff6349f78ae2eba0abe5d608fd151e9d348aabff5fae2828f",
+      "contentSha256": "c6ca4a788eb9ee453b11b716fd16de7a5f111b6ebe9e33bda6fbe632dfd299ab"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Cenarion_Circle@6897746#08026856ee90c4b7",
+      "passageSha256": "08026856ee90c4b763aeec8cc60d3c7f07ac218b805d990db9425cdbb305a9b5",
+      "contentSha256": "25120e9bf72d1fc4151a054c5e8d95318ced5808368ece5ca459bea12d4b581c"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Deadmines@6459395#ef642926de2891be",
+      "passageSha256": "ef642926de2891bef9a69ba1290abb5d24a2c95ad0bf90a56ab1b32ca39d0e47",
+      "contentSha256": "90bad71becf99386bc40741fcf1f5a9a8c83a8e9933ade4f50fa61f97f28a6d7"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Duskwood@6893454#9397ec77f479fea1",
+      "passageSha256": "9397ec77f479fea1a1ca3dee42ac40f4d62bcc3968e8ae5b4c91d76de280db5d",
+      "contentSha256": "225626e939d131387b45bf477fe5ad825703c6a5b108e986d5720e1fa5549d30"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Edwin_VanCleef@6958192#dd09b7c6f7362ad7",
+      "passageSha256": "dd09b7c6f7362ad788f6b53586fe81cc90577fef997f93a59230c1631c016ee7",
+      "contentSha256": "95a4a109209c84eed27c136652e898b7db47da19980dd09801e4fb318204a6d3"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Fel@6955182#dfc1f542f31db32d",
+      "passageSha256": "dfc1f542f31db32d3ce6f53ce6a3cf5e7e6fd5311516e926317ff68a720f249d",
+      "contentSha256": "ff4e12ee63a10c0cb184b2372fb574bc6a638053d0e643ecfed0bb0027a93eac"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Fel@6955182#f893287982be2c6a",
+      "passageSha256": "f893287982be2c6a71cc57081f78feef9bc99326b181e439084071339cc464ca",
+      "contentSha256": "ff4e12ee63a10c0cb184b2372fb574bc6a638053d0e643ecfed0bb0027a93eac"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque@6904069#2ddd7e7e85734867",
+      "passageSha256": "2ddd7e7e857348676600aa716e9eaed00165e45925d95d5cabeb6054576a2e07",
+      "contentSha256": "c615172422ac805daf7eeb44ad57ebdfd89c49ace0197d94a393483ce7ac7dcf"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque@6904069#50a68523257d66a5",
+      "passageSha256": "50a68523257d66a580296d5e15e788601ad886588cff27f264ef31c5ecb098f7",
+      "contentSha256": "c615172422ac805daf7eeb44ad57ebdfd89c49ace0197d94a393483ce7ac7dcf"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque@6904069#51081aa8e398361d",
+      "passageSha256": "51081aa8e398361d930902e34f2aec1981b99acc4bdf1c7ea937add3ed7713c6",
+      "contentSha256": "c615172422ac805daf7eeb44ad57ebdfd89c49ace0197d94a393483ce7ac7dcf"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque@6904069#701850be56234bf4",
+      "passageSha256": "701850be56234bf4d69932e8f91d6d9c334aaefad99c28d37c2bc62a2261b508",
+      "contentSha256": "c615172422ac805daf7eeb44ad57ebdfd89c49ace0197d94a393483ce7ac7dcf"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque@6904069#c08b1e3a9c152682",
+      "passageSha256": "c08b1e3a9c1526827895a8b9b2606eda39b59b908cf78bf537653912ec39606a",
+      "contentSha256": "c615172422ac805daf7eeb44ad57ebdfd89c49ace0197d94a393483ce7ac7dcf"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque@6904069#c36b41b4e6b8cb89",
+      "passageSha256": "c36b41b4e6b8cb89c2c3773a6606b65e37584101a1a63b561ffa3bc62e32df58",
+      "contentSha256": "c615172422ac805daf7eeb44ad57ebdfd89c49ace0197d94a393483ce7ac7dcf"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Gelbin_Mekkatorque@6904069#c87ed752573ed11e",
+      "passageSha256": "c87ed752573ed11eed65c299859b5f87b9e6450f3b018d2340fe09427f793056",
+      "contentSha256": "c615172422ac805daf7eeb44ad57ebdfd89c49ace0197d94a393483ce7ac7dcf"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Hogger@6907090#b16c51fd2f920602",
+      "passageSha256": "b16c51fd2f9206027257d40d8ade7433c28090a4a3d2b0e7e37c80467152e864",
+      "contentSha256": "918b76df3a26528dad4069ea0d859edae586c2cd73190165686478f8a9525b4e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Hydraxian_Waterlords@6758496#94b8e7d12e249d0f",
+      "passageSha256": "94b8e7d12e249d0f8413e6c325b64365c44a477ebd177f49a2244aa52df86fe9",
+      "contentSha256": "88a30cb5b370ef62edc6056ad22c55c9adafeb35c906179b75dfcfadb5d043bf"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Naga@6911571#2569807c4c3aa69b",
+      "passageSha256": "2569807c4c3aa69bc12ef2bf196602367b81a5ab4ff316e92b7b48c9d182c5e1",
+      "contentSha256": "b4fe68434ca0d2efb5d55c44cf7d6fef0c1640348ba7291ab0c3df2ede95fed6"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Naga@6911571#2cd9df3a104fdbe2",
+      "passageSha256": "2cd9df3a104fdbe2bd00cd7ca99077b0b591010b0e0f37fbd5aa8cf1022ede32",
+      "contentSha256": "b4fe68434ca0d2efb5d55c44cf7d6fef0c1640348ba7291ab0c3df2ede95fed6"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Naga@6911571#6e67f8a1718f6943",
+      "passageSha256": "6e67f8a1718f69437606332b2d7d53fad99a4171207f669c42484a93755b4953",
+      "contentSha256": "b4fe68434ca0d2efb5d55c44cf7d6fef0c1640348ba7291ab0c3df2ede95fed6"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Ogre@6952726#1572f8482f33dc5b",
+      "passageSha256": "1572f8482f33dc5b689a36f11ce703dde33993cd9812d2724d47c6152e7e6b93",
+      "contentSha256": "c66ced67e120819f1458d2450aabebc35f9071619be0e7b91860bc7bfc7aec0b"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Ogre@6952726#27aa1664647a7cd4",
+      "passageSha256": "27aa1664647a7cd4dbbe3adc01085aa6274f0f7861a02a9dbb5854d4c104e0b1",
+      "contentSha256": "c66ced67e120819f1458d2450aabebc35f9071619be0e7b91860bc7bfc7aec0b"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Ogre@6952726#55a4e02d12912551",
+      "passageSha256": "55a4e02d12912551e85f8b822dbbdc14dc10df7453331e689a5d269e37a86c54",
+      "contentSha256": "c66ced67e120819f1458d2450aabebc35f9071619be0e7b91860bc7bfc7aec0b"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Ogre@6952726#76225c4cc5be89d6",
+      "passageSha256": "76225c4cc5be89d6ca80771e0d8027a0dc5e8b42b96cdb1bbda1c197c86412e3",
+      "contentSha256": "c66ced67e120819f1458d2450aabebc35f9071619be0e7b91860bc7bfc7aec0b"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Ogre@6952726#aac1b5c4c3da21fd",
+      "passageSha256": "aac1b5c4c3da21fd1a1bca5eec93f024300351098d1975b049c83c4c427c035e",
+      "contentSha256": "c66ced67e120819f1458d2450aabebc35f9071619be0e7b91860bc7bfc7aec0b"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Ogre@6952726#f6435686f570d4c9",
+      "passageSha256": "f6435686f570d4c9063d8efacce9690402415a4e0d139abe908968fc0e77c40e",
+      "contentSha256": "c66ced67e120819f1458d2450aabebc35f9071619be0e7b91860bc7bfc7aec0b"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Onyxia@6957771#3e89cd9dad532d1e",
+      "passageSha256": "3e89cd9dad532d1e841740b32848d9cc44fd027ccab14d2423afa4dadf091e57",
+      "contentSha256": "98c4db1642d66e5fc993d3007b1ffbfc4d917aa6d78712a4c481484d100d60d8"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Orc@6906065#5567276b423d30df",
+      "passageSha256": "5567276b423d30df3024a053426959ed0bf3844c4580d96d21759bff76cfd6a5",
+      "contentSha256": "8738f16e2c9eb00816b09376df9efc1cd788d53ed6cfad05197d508779e6612e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Orc@6906065#78d8c70ed2dac06e",
+      "passageSha256": "78d8c70ed2dac06edb64ae9461ffb19577c6e804dd20688b580d4eaf865ecb1c",
+      "contentSha256": "8738f16e2c9eb00816b09376df9efc1cd788d53ed6cfad05197d508779e6612e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Orc@6906065#7efe70e6979c6f9e",
+      "passageSha256": "7efe70e6979c6f9e2f3a8763ccf8e64071cba1a94f9af6e5ee68b491de825122",
+      "contentSha256": "8738f16e2c9eb00816b09376df9efc1cd788d53ed6cfad05197d508779e6612e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Orc@6906065#7ff4f8ac6b99ce92",
+      "passageSha256": "7ff4f8ac6b99ce92439da8439e7667bd2678ab595bda412c9e348e302f1e5fb3",
+      "contentSha256": "8738f16e2c9eb00816b09376df9efc1cd788d53ed6cfad05197d508779e6612e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Orc@6906065#8ddd00ac0b7cb8b2",
+      "passageSha256": "8ddd00ac0b7cb8b24c7f78653c206f8d958624a7228a1812de225d2db878ae3a",
+      "contentSha256": "8738f16e2c9eb00816b09376df9efc1cd788d53ed6cfad05197d508779e6612e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Orc@6906065#a2dba66969f1d368",
+      "passageSha256": "a2dba66969f1d368219eee4b320fb1b64e718234c5230bbd322577371ae467a3",
+      "contentSha256": "8738f16e2c9eb00816b09376df9efc1cd788d53ed6cfad05197d508779e6612e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Orc@6906065#c1b7610ae1ed2fbe",
+      "passageSha256": "c1b7610ae1ed2fbe798ff9b34acb586a189d0f3d49ccca6f9c4f917f699479d7",
+      "contentSha256": "8738f16e2c9eb00816b09376df9efc1cd788d53ed6cfad05197d508779e6612e"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Ragnaros@6932845#6e15efa00e292b83",
+      "passageSha256": "6e15efa00e292b83c5a5e55209772d37a55496e666d47324c1f74e234bd4a0ba",
+      "contentSha256": "3a2abee2ca1555df638b8506fa8ad6e9c34f41886b914a102a32a1722afe5522"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Ragnaros@6932845#8cfd063a8f095c45",
+      "passageSha256": "8cfd063a8f095c45546b34e704291d35bc451a1f278e842affe8b8e0fb5d2d25",
+      "contentSha256": "3a2abee2ca1555df638b8506fa8ad6e9c34f41886b914a102a32a1722afe5522"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Ragnaros@6932845#c2680b4fda308832",
+      "passageSha256": "c2680b4fda30883219b7927aeab48ad8b4180008060204e4592aeab87cd973a0",
+      "contentSha256": "3a2abee2ca1555df638b8506fa8ad6e9c34f41886b914a102a32a1722afe5522"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/Stranglethorn_Vale@6758369#3dc846ddbe3e70f3",
+      "passageSha256": "3dc846ddbe3e70f3528597a319d0bbc51902b796d4a7a5b87f6c571be7c48d4c",
+      "contentSha256": "cd3b08642feda0fba19665d6a967e9d028b271b1c1850abae57ede30b823cf1c"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/The_Worst_Mage_in_Dalaran:_A_Children's_Book@6884752#51d388ed50d79069",
+      "passageSha256": "51d388ed50d7906936022d10aed5dda134ca951ab2663849b48e5c77cfc6c914",
+      "contentSha256": "0cbcdac628ee1143ec24e77ce3037c5ebde1e52f7aea3f14c53dbfac0b6b78fa"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/The_Worst_Mage_in_Dalaran:_A_Children's_Book@6884752#a84ad1793fe03539",
+      "passageSha256": "a84ad1793fe03539c68b4fc369bb4801af1cce3e1857618ba03bc51ebf33a7b7",
+      "contentSha256": "0cbcdac628ee1143ec24e77ce3037c5ebde1e52f7aea3f14c53dbfac0b6b78fa"
+    },
+    {
+      "key": "https://warcraft.wiki.gg/wiki/The_Worst_Mage_in_Dalaran:_A_Children's_Book@6884752#d3bcaf645000307d",
+      "passageSha256": "d3bcaf645000307deb1ced6286437fcc51533f1fdf0bf476e0c8dea8e80f714c",
+      "contentSha256": "0cbcdac628ee1143ec24e77ce3037c5ebde1e52f7aea3f14c53dbfac0b6b78fa"
+    }
+  ]
+}

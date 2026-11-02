@@ -117,6 +117,8 @@ export const ResearchSchema = z.strictObject({
   schemaVersion: z.literal(1),
   batch: IdentifierSchema,
   attribution: text,
+  // What the batch is and where it stands, at the top of its read-out.
+  summary: text.optional(),
   dossiers: z.array(DossierSchema).min(1),
   triads: z.array(TriadSchema).default([]),
 });
