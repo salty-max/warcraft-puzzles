@@ -5,9 +5,7 @@ description:
   and (for a puzzle) the crossing pattern. It has no tools: the session puts the clue
   list in the prompt, numbers instead of ids, the key kept by the session. Measures
   fairness and the plain-word problem."
-tools: TodoWrite
-disallowedTools:
-  Read, Write, Edit, NotebookEdit, Bash, Grep, Glob, WebFetch, WebSearch, Agent, Skill
+tools: []
 model: sonnet
 effort: medium
 maxTurns: 5
