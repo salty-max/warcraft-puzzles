@@ -82,6 +82,70 @@ adds none, every new triad is backed by a database row. Lore figures that the Va
 books and speech already narrate (Arthas, Sylvanas, Kel'Thuzad, Frostmourne) need no
 exception.
 
+## The Wrath list (parked)
+
+**Not exercised.** The owner limited the scope to classic and forever (wow-data's
+`classic.db` and `forever.db`) on 2 November 2026, so the third tranche adds no wiki or
+other external evidence and no schema for it. The list below and the editor's verdict on
+it are kept for the day the exception is used. The verdict, in short: cut
+HALLSOFLIGHTNING (16 letters), WESTGUARDKEEP, KOLTIRA, THASSARIAN, AZGALOR, JANALAI,
+HALAZZI, AKILZON and the plain words MAMMOTH, GARGOYLE and INSCRIPTION. Add PATCHWERK,
+SAPPHIRON, GROBBULUS, RAZUVIOUS, THADDIUS, HEIGAN, LOATHEB, GLUTH, BRANN, THRALLMAR,
+HONORHOLD, WARSONGHOLD, VALIANCEKEEP, SHADOWMOON, NIGHTBANE, DEATHGRIP, SARONITE, ALAR,
+VIOLETEYE, SHATTEREDSUN, ASHENVERDICT. Nine listed names (EXPLORERSLEAGUE, TIRION,
+BRANN, VARIAN, ZULJIN, MURADIN, VOLJIN, SAURFANG, VELEN) already have a Vanilla text row
+and take it, not the wiki. Many Outland and Northrend pages are mostly post-Wrath lore,
+so a fact-checker must hold any passage to patch 3.3.5. Twin sets (ICECROWNCITADEL and
+ICECROWN, WRATHGATE and WRATH, SONSOFHODIR and HODIR, ARCHAVON and VAULTOFARCHAVON and
+more) must never share a puzzle. Verdict: AGREED as a list to draft from.
+
+### The parked list
+
+Drafted 2 November 2026 while the exception above was approved. None of the tooling
+below was built (it was reverted when the scope narrowed), so read this as a proposal. A
+name here has no usable wow-data row, so it would be sourced from a wiki page. The rules
+would be:
+
+- **The passage.** Each such triad would cite a `wikiCitations` entry in
+  `editorial.json`: the page URL (warcraft.wiki.gg, or wowpedia.fandom.com), the page
+  title, the revision id and date it was read, and the exact passage, a substring of the
+  page's plain text. A `pnpm content:verify-wiki` tool would replay every passage
+  against its page (it needs the network, so `pnpm check` would skip it). The ids would
+  start `wiki-`.
+- **Kept apart.** The database snapshot (`evidence.json`) would hold no wiki rows. The
+  entry's `review.notes` would begin "Wiki exception:" and say what the page was (the
+  validator would refuse a wiki citation without it, and the marker without a citation).
+- **Wrath only.** Pages describe later events. A clue follows only from what a player
+  knew at the end of Wrath: the passage is chosen for that, and a fact that needs a
+  later expansion (Cataclysm and after) is out, whatever the page says. The fact-checker
+  checks this by name against the page.
+- **Everything else** still needs a wow-data row cited by id. A name wow-data does hold
+  (Arthas, Dalaran, Icecrown, Nerubian, Kel'Thuzad, Frostmourne) would take the row, not
+  the wiki.
+- Famous only: a Wrath player (or a Burning Crusade one for the Outland names) knows
+  each name without a quiz. No dungeon trash, no minor quest givers.
+
+The list, by pool, as the answer would stand in the grid, as first drafted. The editor's
+verdict above cuts or adds to it (HALLSOFLIGHTNING, WESTGUARDKEEP, KOLTIRA, THASSARIAN
+and the rest of the cut list are still in the table). It is a pool to draw from, not a
+quota.
+
+| Pool                    | Names                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Northrend places        | ULDUAR, DRAGONBLIGHT, ZULDRAK, WINTERGRASP, SHOLAZARBASIN, CRYSTALSONG, STORMPEAKS, HOWLINGFJORD, GRIZZLYHILLS, BOREANTUNDRA, UTGARDEKEEP, GUNDRAK, THENEXUS, THEOCULUS, VIOLETHOLD, HALLSOFSTONE, HALLSOFLIGHTNING, DRAKTHARONKEEP, AHNKAHET, ACHERUS, WRATHGATE, OBSIDIANSANCTUM, EYEOFETERNITY, VAULTOFARCHAVON, ICECROWNCITADEL, PITOFSARON, FORGEOFSOULS, RUBYSANCTUM, WYRMRESTTEMPLE, CONQUESTHOLD, VALGARDE, WESTGUARDKEEP, SCARLETENCLAVE |
+| Outland places          | SHATTRATH, NETHERSTORM, ZANGARMARSH, NAGRAND, TEROKKAR, BLADESEDGE, EXODAR, EVERSONG, GHOSTLANDS, AZUREMYST, BLOODMYST, BLACKTEMPLE, TEMPESTKEEP, SERPENTSHRINE, ZULAMAN, GRUULSLAIR, AUCHINDOUN                                                                                                                                                                                                                                                  |
+| Wrath bosses, figures   | YOGGSARON, ALGALON, MIMIRON, THORIM, HODIR, FREYA, IGNIS, VEZAX, KOLOGARN, RAZORSCALE, AURIAYA, SINDRAGOSA, ANUBARAK, SAURFANG, PUTRICIDE, MARROWGAR, DEATHWHISPER, LANATHEL, VALITHRIA, FESTERGUT, ROTFACE, HALION, SARTHARION, ARCHAVON, LOKEN, SKADI, TIRION, MURADIN, VARIAN, DARION, KOLTIRA, THASSARIAN                                                                                                                                     |
+| Burning Crusade figures | ZULJIN, VOLJIN, GARROSH, VELEN, AKAMA, LORTHEMAR, GRUUL, MAGTHERIDON, BRUTALLUS, KALECGOS, MURU, AZGALOR, NALORAKK, AKILZON, JANALAI, HALAZZI, MALACRASS, LEOTHERAS, GOREFIEND, VEREESA, ANVEENA, LIADRIN                                                                                                                                                                                                                                         |
+| Peoples, creatures      | VRYKUL, TUSKARR, DRAKKARI, TAUNKA, VALKYR, KALUAK, ETHEREAL, ARAKKOA, NAARU, MAGHAR, KURENAI, MAMMOTH, JORMUNGAR, PROTODRAKE, YMIRJAR, GARGOYLE                                                                                                                                                                                                                                                                                                   |
+| Factions                | ARGENTCRUSADE, WYRMRESTACCORD, SONSOFHODIR, EBONBLADE, FRENZYHEART, ORACLES, SUNREAVERS, SILVERCOVENANT, ALDOR, SCRYERS, SHATAR, LOWERCITY, SPOREGGAR, NETHERWING, ASHTONGUE, EXPLORERSLEAGUE                                                                                                                                                                                                                                                     |
+| Classes, crafts, items  | DEATHKNIGHT, INSCRIPTION, JEWELCRAFTING, GLYPH, RUNEFORGE, SHADOWMOURNE                                                                                                                                                                                                                                                                                                                                                                           |
+
+Priority: five letters (HODIR, FREYA, IGNIS, LOKEN, VEZAX, SKADI, VELEN, AKAMA, GRUUL,
+NAARU, ALDOR, SHATAR, GLYPH) and nine (YOGGSARON, PUTRICIDE, MARROWGAR, FESTERGUT,
+VALITHRIA, WRATHGATE, SHATTRATH, GOREFIEND, EBONBLADE, JORMUNGAR, LORTHEMAR, AZUREMYST,
+BLOODMYST, BRUTALLUS, LEOTHERAS, MALACRASS, LOWERCITY, SPOREGGAR, ASHTONGUE, RUNEFORGE,
+THEOCULUS), then bosses and factions, the two weakest blind-solve pools.
+
 ## Results of the first tranche
 
 Run on 1 November 2026. The cut and the first tranche are one change.
@@ -242,3 +306,111 @@ the owner.
   THORIUM. The builder needs them as data before a fill can put both in one grid.
 - `vitest.config.ts` gets `testTimeout: 30000`: the two benchmark tests replay the whole
   bank on every layout and timed out at 5 s under coverage once the bank grew.
+
+## Results of the third tranche
+
+Run on 2 November 2026. The owner limited the scope to classic and forever on the day,
+so the Wrath wiki exception stayed unused (see "The Wrath list (parked)"), and the owner
+lowered the minimum slot length to 3, so plain three- and four-letter words are welcome
+when the clue reads as part of the game. Every citation is a classic.db row (forever.db
+was only looked at: it holds Season of Discovery material and the refresh tool replays
+classic.db). No schema change was needed: every citation uses the existing locator
+kinds.
+
+| Measure                             |     Before |       After |
+| ----------------------------------- | ---------: | ----------: |
+| Live triads (not `rejected`)        |        614 |         787 |
+| Distinct answers                    |        588 |         761 |
+| Names (`proper`) / dictionary words |  505 / 109 |   611 / 176 |
+| Distinct answers of 3 / 4 letters   |     3 / 12 |     16 / 65 |
+| Distinct answers of 5 / 9 letters   |   43 / 128 |    49 / 151 |
+| Distinct answers of 10 or more      |        201 |         248 |
+| Alliance / Horde / shared           | 106/83/425 | 121/110/556 |
+
+Four pools were drafted by content agents (five agents) and run through the gates: short
+glue words (two agents, 81 drafted), trade goods and consumables (32), objects, holidays
+and languages (39) and the places, bosses, people and factions left over (68). 220
+drafts became 217 merged triads (two duplicates of each other were skipped). The
+fact-checkers read 218 and found about 60 problems (clues naming another banked answer,
+claims past their excerpt, hints that restate the clue), the repairs followed, the
+editor (Opus) read the lot once and cut 32 and rewrote 24 more, and a last fact-check of
+the rewrites found seven slips, now fixed. Six were cut after the fact-check of the
+leftovers (Gehennas, Shazzrah, Pyron, Kurinnaxx, Trol'kalar, Northdale) and seven before
+the editor (BEAR, TRIP, WEEK, KICK, EARTHMOTHER, LOVEISINTHEAIR, BOWS). 173 new triads
+stand.
+
+### What each pool gave
+
+| Pool                           | Drafted | Kept |
+| ------------------------------ | ------: | ---: |
+| Short glue words (3-4 letters) |      81 |   68 |
+| Trade goods and consumables    |      32 |   18 |
+| Objects, holidays, languages   |      39 |   32 |
+| Leftover places                |      23 |   21 |
+| Leftover bosses                |      22 |   15 |
+| Leftover people                |      15 |   16 |
+| Leftover factions and items    |       8 |    4 |
+
+(Kept counts are by source file and can overlap by one or two where two drafts shared an
+id. The leftover people figure includes a few the bosses agent tagged as people.)
+
+Trade goods are the poor pool: almost no herb, ore or bar has an item description, and
+the 4 and 5 letter ones the layouts want (Mageroyal, Briarthorn, Bruiseweed, Tigerseye,
+Malachite) appear in no quest or book row, so they cannot be cited. What survived is
+what a quest or a recipe spell actually says.
+
+### Blind solve (clues only, no crossings)
+
+Two rounds, by agents with no tools but the clue file: 150 clues (109 solved before the
+fact-check cuts) and 68 leftovers clues (45 solved). The 205 clues that stood when the
+editor read them solved **73%** (150). The first attempt scored 19% only because the
+solver gave up on most lines within 11 seconds, so it was rerun in two halves with an
+instruction to guess every line.
+
+| Length             | Clues | Solved |
+| ------------------ | ----: | -----: |
+| 3-4 letters (glue) |    78 |    90% |
+| 5 letters          |     6 |    67% |
+| 6-8 letters        |    36 |    64% |
+| 9 letters          |    25 |    56% |
+| 10 or more         |    60 |    65% |
+
+| Category                    | Clues | Solved |
+| --------------------------- | ----: | -----: |
+| Spell and ability fill-ins  |   ~45 |   ~95% |
+| Leftover people             |    16 |    75% |
+| Leftover places             |    23 |    65% |
+| Leftover bosses             |    22 |    55% |
+| Trade goods and consumables |    32 |    38% |
+
+The glue words that read as fill-in-the-blank on a spell or a game phrase (Frost ___,
+Drain ___, Shadow Word: ___) solve at about 95%. Trade goods solve at 38%, and the
+bosses with a shared clue template (the Zul'Gurub Edge of Madness four, cut to one) are
+the other weak group. The numbers are a floor.
+
+### What is still open
+
+- Fourteen new glue words complete a banked answer and say the same thing: PASS and
+  DEADWINDPASS, NOVA and FROSTNOVA, MIND and MINDCONTROL, LIFE and DRAINLIFE, COIL and
+  DEATHCOIL, ICE and ICEBLOCK, HOWL and HOWLOFTERROR, WALL and SHIELDWALL, WISH and
+  DEATHWISH, COLD and CONEOFCOLD, SHOT and MULTISHOT, MARK and HUNTERSMARK, VEIL and
+  WINTERVEIL, END and HALLOWSEND. They are the fill-in-the-blank shape the owner asked
+  for, so they stay, but a grid must never hold both halves: they count as twins, and
+  the distinct-answer figure (761) overstates the variety by that many.
+- Twin and look-alike sets exist only as prose (the editor's list, about 40 groups). The
+  most pressing: NOVA with FROSTNOVA, ALE with the Thunderbrew entries, GROM with
+  GROMMASH, PASS with DEADWINDPASS, TREE with NORDRASSIL, WALL with SHIELDWALL, MIND
+  with MINDCONTROL, FLAMEKEEPER with BONFIRE and MIDSUMMER, MAIL with DRAGONSCALE, the
+  Earthmother eyes (MUSHA, ANSHE, SHUHALO). A mechanical rule would catch most: an
+  answer found in another entry's clue or hint, or a shared citation row, keeps the two
+  out of one puzzle. That is an engine card.
+- About 25 of the new answers appear word for word in live clues from earlier tranches
+  (WINDRUNNER in SYLVANAS's hint, DEMONSOUL in RHONIN's, HINTERLANDS in four clues). The
+  twin rule above is the fix, not rewriting forty live clues.
+- Lore books supply many of the leftover names (object 175739 feeds 15 answers). The
+  weekly builder counts by book.
+- GREATFATHERWINTER is 17 letters and fits no layout. 38 answers are over 13 letters.
+- Five-letter answers grew only from 43 to 49. The bottleneck stays until the Wrath
+  exception is used or an interface-string glue list is allowed.
+- Paladin and shaman spells are thin (FURY is the only paladin one). Candidates for a
+  later tranche if classic.db holds the rows: MIGHT, KINGS, SHOCK, PURGE, AURA, SEAL.

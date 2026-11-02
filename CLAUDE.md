@@ -54,7 +54,9 @@ never need it: they read the committed `content/seed/evidence.json`.
 - **A plain word needs a Warcraft clue.** An ordinary English answer keeps only a clue a
   player cannot solve without Warcraft (the audit: 81% of answers were plain words, and
   a blind solver got 98% from the definition alone). Weight new answers to Warcraft's
-  own names.
+  own names. Since 2 November 2026 the cap and this rule do not bind 3-4 letter glue
+  words, where a plain word is welcome if the clue reads as part of the game (a spell or
+  phrase fill-in, an in-world role). Never quest trivia hung on a dictionary word.
 - **The cooldown:** no answer back within 90 days, and then with a fresh clue. No source
   page twice in a week's puzzles.
 - British English (honour, grey, colour), game names as the game spells them. Plain

@@ -23657,6 +23657,5002 @@
       "sourceId": "classicdb",
       "rowSha256": "fb9d52d4896b68b931ed14ca0d30f43dd0277826a9f86b2647c448306c8a5dd6",
       "excerptSha256": "ec63fad40853ecff9c772767e1f4cfc57b8c2f4862686c770e8ba3b18e958fb1"
+    },
+    {
+      "id": "ev-pass-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 95,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Dark Riders from Deadwind Pass descended upon my farm and slaughtered my family",
+      "sourceId": "classicdb",
+      "rowSha256": "720a64eaacde48396335748990ec6cefd9b3d4a4e8c4572e7431db1d258239f7",
+      "excerptSha256": "9be413164c98f9e12497e62593cc8e760507502c5ba3e6e58b84d6ded222e480"
+    },
+    {
+      "id": "ev-pass-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 2560,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "the fiends from Deadwind Pass have also staked claim",
+      "sourceId": "classicdb",
+      "rowSha256": "bf7540e4a89f3ecfb725be090309b99e7d7d998a845b9cfb8d206a36238a3fc1",
+      "excerptSha256": "0e1818d76b30db23b41b56602fe9ec9b1be48cc35b057f55379cc42b7227c1f3"
+    },
+    {
+      "id": "ev-sea-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 103,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "the lives of the sailors on The Great Sea whose ships come close to the perilous rocks of the coastline",
+      "sourceId": "classicdb",
+      "rowSha256": "90d33614e6571030fab3fa1d35e46741eacbcb0314f85cc79a92ec845c35411f",
+      "excerptSha256": "7c3209dc7b3093604f36b0c1a774e2847037cd4f9f6371e71480dcd491bf02a1"
+    },
+    {
+      "id": "ev-sea-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 152,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "You probably noticed all of the shipwrecks along the coast.  The Great Sea is treacherous indeed.",
+      "sourceId": "classicdb",
+      "rowSha256": "bee60bf87e1ba85f9693439d453b8f08bab96f77a892a3fe50ae1df88146dc92",
+      "excerptSha256": "75f656a5d4453aa228027979cc3b06aab166bd2d18efd3cb06128d819d2a4cfa"
+    },
+    {
+      "id": "ev-isle-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 442,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Now is the time to assault the Scourge's place of strength in Silverpine: Fenris Isle.",
+      "sourceId": "classicdb",
+      "rowSha256": "e9833c9559e9070fe41b80974f81e9efce9c939ee878be2d6ecc0b22ce8628c4",
+      "excerptSha256": "f82a8f57638d59fe0f69859d88e4c17cf05f385c52c2dc93f82dc1c2e3770411"
+    },
+    {
+      "id": "ev-isle-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 442,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "You must again go to the Isle and destroy Thule Ravenclaw.",
+      "sourceId": "classicdb",
+      "rowSha256": "e9833c9559e9070fe41b80974f81e9efce9c939ee878be2d6ecc0b22ce8628c4",
+      "excerptSha256": "99f8ed6e716323fef7b7977267b4036c7ad10cf5fd6ba926b751007e369a43f5"
+    },
+    {
+      "id": "ev-isle-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 438,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "looking east across Lordamere Lake, an opposing dock on Fenris Isle can be seen",
+      "sourceId": "classicdb",
+      "rowSha256": "66446c93aca47733f6d190d0ae448623bbf5bf13a36ce1f15d0d3ecdcebbda03",
+      "excerptSha256": "0fc91b3efe748b6e5be7748a8ba697620f8615a88c415d577c3b298c51138119"
+    },
+    {
+      "id": "ev-keep-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 549,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "They are currently known to be amassing in the ruins of Durnholde Keep, to the southeast of Tarren Mill.",
+      "sourceId": "classicdb",
+      "rowSha256": "deac98e991d7bfe2b651f4d2a3dca7d32ad51f5eaf9eee5898a9f14652a1781f",
+      "excerptSha256": "7c7edc9a154ded6c375a242e9a5f7dbb93c3ad0549058a1a4e22e6f6e4c9e1de"
+    },
+    {
+      "id": "ev-keep-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 549,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "A handsome reward is offered to all who bring proof of their deeds to High Executor Darthalia.",
+      "sourceId": "classicdb",
+      "rowSha256": "deac98e991d7bfe2b651f4d2a3dca7d32ad51f5eaf9eee5898a9f14652a1781f",
+      "excerptSha256": "8cf12758da532a04b929da133f6ecf4cce02f94657ed722839405b6288800a70"
+    },
+    {
+      "id": "ev-lake-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 127,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Lake Everstill is famous for its spotted sunfish.",
+      "sourceId": "classicdb",
+      "rowSha256": "e01a5cc3e754ec695535ea44a560ac33dc1bc86b37cf960d8992ffa7b9e71dde",
+      "excerptSha256": "ae436f00a5b18eed108a902f07ee169adf4b0529c31afe97abfb8ad6cef596db"
+    },
+    {
+      "id": "ev-lake-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 125,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Foreman Oslow of Lakeshire wants you to retrieve his toolbox from the bottom of Lake Everstill.",
+      "sourceId": "questie",
+      "rowSha256": "adfe46557369ddef9612d0352f47560af5c7c5ac38668bf072e5c346370851a6",
+      "excerptSha256": "a8ef625333c5e384c3b1b16af10024007ddbcd645dce2688dee825c865d146ac"
+    },
+    {
+      "id": "ev-mine-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 745,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "They camp north of the abbey and within the Echo Ridge Mine in alarming numbers.",
+      "sourceId": "classicdb",
+      "rowSha256": "fbfe5cab358a1fc6f4e607417e58703fbeee2c14c561016752df2ba69932608a",
+      "excerptSha256": "658bc7bd7e6bf2676e943b72b0d3e33fe8e1a10973030d4312135334801edcd8"
+    },
+    {
+      "id": "ev-mine-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 21,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Your previous investigations are proof that the Echo Ridge Mine needs purging.",
+      "sourceId": "classicdb",
+      "rowSha256": "00697222c3b249dcf5aecf163875a9fbbaf52ffe0f5a407596a96bedd784c0a6",
+      "excerptSha256": "25df003292ebcf45ec676168c4f870e83c198fe8dfdeed47f2150bbc058168ce"
+    },
+    {
+      "id": "ev-lamb-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1685,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "You'll find him in the basement of the Slaughtered Lamb tavern.",
+      "sourceId": "classicdb",
+      "rowSha256": "67d7fb31ab2e3cd655e881fe40afeab5dee5059b04e45f720c37d1450379e8b5",
+      "excerptSha256": "14d3a2007ee0a586b6bf319cf9ce707e09a74cd5297fbd89517a551e52afe01e"
+    },
+    {
+      "id": "ev-lamb-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1685,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "you might want to keep that particular location quiet",
+      "sourceId": "classicdb",
+      "rowSha256": "67d7fb31ab2e3cd655e881fe40afeab5dee5059b04e45f720c37d1450379e8b5",
+      "excerptSha256": "d81091fe4efb8f1e65982812eda63e07ee9f2826ebfa5748180d1d20f519068f"
+    },
+    {
+      "id": "ev-pig-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1638,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "he's usually in the Pig and Whistle tavern, in the Old Town of Stormwind",
+      "sourceId": "classicdb",
+      "rowSha256": "78e2d62ce7ce9ebc950aa2f36c8a1dda69b813bd698ab5149c37a03f0c63f69e",
+      "excerptSha256": "2d8906370a85e423ac403648e1aed138e2dd24531f7bc9c2311ea705889fd8ff"
+    },
+    {
+      "id": "ev-pig-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1638,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "let's see if your gut can handle a few mugs of the Pig and Whistle's strongest!!",
+      "sourceId": "classicdb",
+      "rowSha256": "bc57cec264b9e83a6421b8b89ac7dd58a2fc881694a794b9f6d17c2d39ca6ab4",
+      "excerptSha256": "760fa4641df7786cb2879b5f49e87389098c9f1f97dc9eb94d4b2998fab44df2"
+    },
+    {
+      "id": "ev-ale-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 311,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring the barrel of Thunder Ale to Marleth Barleybrew at the Brewnall Village.",
+      "sourceId": "questie",
+      "rowSha256": "74e2bd423f0350488c30c675db814998b31001dc70650426fe961a29e5c073c4",
+      "excerptSha256": "49e5e2a82ed90e258602e2ddfc245880999afee44c1980f132d37c769ae9094e"
+    },
+    {
+      "id": "ev-ale-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 310,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "In the basement of the Thunderbrew Distillery in Kharanos, replace a barrel of Thunder Ale with a Barrel of Barleybrew Scalder.",
+      "sourceId": "questie",
+      "rowSha256": "d26364a0f2dd533bc3e0362b553cb4c491b5844bdf239a39eea8ef92a913dde8",
+      "excerptSha256": "64f550eb7d19b5c58afad5462f208feba716d1e23d7da1704a3c034de4ba9d53"
+    },
+    {
+      "id": "ev-gong-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8743,
+        "locale": "enUS",
+        "field": "request"
+      },
+      "excerpt": "Steel yourself, $N; for once the Scarab Gong is rung, the gates of Ahn'Qiraj will be opened.",
+      "sourceId": "classicdb",
+      "rowSha256": "792e30c6c0f2a8032dc99d96c9aa4f9d5e59e2b20af40fcd5dc6c517661c5537",
+      "excerptSha256": "59087b9ce0e414f26b5150895d2bc3e11529d6c7c754e94e0e36dd4a26d86fa8"
+    },
+    {
+      "id": "ev-gong-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8742,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "You must wait for the armies of the Horde and the Alliance to arrive in Silithus before you may ring the Scarab Gong.",
+      "sourceId": "classicdb",
+      "rowSha256": "be2030ce80071f379aba080908baeb71b40d56d49516c7ed63bc9d956d9fd9fe",
+      "excerptSha256": "59f3a7c714e01d51b14c917c643b03dc3c415591dadf2dbde6c5d8df2409b879"
+    },
+    {
+      "id": "ev-grom-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 21004,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "In many ways, the curse of our people began and ended with Grom.",
+      "sourceId": "classicdb",
+      "rowSha256": "fb9d52d4896b68b931ed14ca0d30f43dd0277826a9f86b2647c448306c8a5dd6",
+      "excerptSha256": "59360017842edba05b1722f9df4286a6c2ab4f9e87a33eacbed847013ce53461"
+    },
+    {
+      "id": "ev-grom-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 21004,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "His name meant 'giants heart' in our ancient tongue.",
+      "sourceId": "classicdb",
+      "rowSha256": "fb9d52d4896b68b931ed14ca0d30f43dd0277826a9f86b2647c448306c8a5dd6",
+      "excerptSha256": "9d7a547c58f178581e0beb1a3fbbc478acc3bb1e3ebf9f198069eaa5a6a06fdd"
+    },
+    {
+      "id": "ev-grom-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 21004,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Lok'Tar ogar, big brother.",
+      "sourceId": "classicdb",
+      "rowSha256": "fb9d52d4896b68b931ed14ca0d30f43dd0277826a9f86b2647c448306c8a5dd6",
+      "excerptSha256": "6b36b3cc5cbfe94bb5f9bb0c96ecbe36f4c7d752ef5418e05ca120b74437dd0b"
+    },
+    {
+      "id": "ev-peon-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5441,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "They work hard gathering lumber from the trees of the valley, but they're always taking naps!",
+      "sourceId": "classicdb",
+      "rowSha256": "3b8104a09540507047ed05f77b9c18eb0c01373ecb3cb03edc43c0bf97a98650",
+      "excerptSha256": "099a7b1a92b737cfc55b32b82026c990bffedd1684283be71cc6551523b84ee4"
+    },
+    {
+      "id": "ev-peon-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5441,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "A good smack will get them right back to work!",
+      "sourceId": "classicdb",
+      "rowSha256": "3b8104a09540507047ed05f77b9c18eb0c01373ecb3cb03edc43c0bf97a98650",
+      "excerptSha256": "6fc33e2a8f3d3477cf60760b71bc03cdd8f54ac55d3c6ecdc7edf5b45e5d299b"
+    },
+    {
+      "id": "ev-peon-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5441,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Wake up 5 peons, then return the Foreman's Blackjack to Foreman Thazz'ril in the Valley of Trials.",
+      "sourceId": "questie",
+      "rowSha256": "5eec70a78bc8cbaeb987419ccc276612081182df5c1769960addc0eb81fc01d2",
+      "excerptSha256": "d0267ca20b67db0020ae3dfacc5cea0fd2c756ca23288f1cd42e062985d0a557"
+    },
+    {
+      "id": "ev-lich-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 105,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Inside the ruins of the city is where the lich - Araj the Summoner - holds dominion.",
+      "sourceId": "classicdb",
+      "rowSha256": "7708ba014c1dd064b464dc3ca3fc53dfa81e55a8a18d756e6cce4cb89ee15aac",
+      "excerptSha256": "82c326cdb80f962820308b643fbbe029624014a36f5f4e223851077d30458f06"
+    },
+    {
+      "id": "ev-lich-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 105,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "bring me a shard from his phylactery as proof!",
+      "sourceId": "classicdb",
+      "rowSha256": "7708ba014c1dd064b464dc3ca3fc53dfa81e55a8a18d756e6cce4cb89ee15aac",
+      "excerptSha256": "a1a71cce229efdedc85a2b7251ccb6eee8f5ff53ca09293d7daa575fb5fda936"
+    },
+    {
+      "id": "ev-ram-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7027,
+        "locale": "enUS",
+        "field": "request"
+      },
+      "excerpt": "Without your help, the Stormpike Ram Riders would not have mounts to ride into battle.",
+      "sourceId": "classicdb",
+      "rowSha256": "c1829b682fc5dc45f8c62f4180a6851a5613e285da130ebbe7be03df66c73b4e",
+      "excerptSha256": "cb6b1ada3ce2a9f004cc557f0e8666a2076214b0cbc3445efa0daa52574b56bb"
+    },
+    {
+      "id": "ev-ram-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7027,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "use the collar to snare one. When you have captured a ram, return it to me and I shall place it in our stable.",
+      "sourceId": "classicdb",
+      "rowSha256": "f9b60cb384856c646cd08d4aefd12f33a87067d450db21597021f07f01d73f2e",
+      "excerptSha256": "cecb1a3de65bf02e2e4915dd9d5858e4b46211c9eb357fb5c83bbd228f2d62fa"
+    },
+    {
+      "id": "ev-wolf-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7001,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "When we have enough wolves stabled, the Wolf Riders will rejoin their patrol on our front lines.",
+      "sourceId": "classicdb",
+      "rowSha256": "4fdef72a633dfd9133c27d8abcb2b31d98a58e9b235bce8cd195c10100d3a829",
+      "excerptSha256": "e6ddd8e57b82cd06fadaf79659ed034e3e31bdc30182ce4f6609b07b7c0f56aa"
+    },
+    {
+      "id": "ev-wolf-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7001,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "use the muzzle to tame the beast. Bring the tamed beast back to me so that I may place it in the stable.",
+      "sourceId": "classicdb",
+      "rowSha256": "4fdef72a633dfd9133c27d8abcb2b31d98a58e9b235bce8cd195c10100d3a829",
+      "excerptSha256": "6f3a154183b8302704374e0f7515b24b540bd4c685002f7a67f6118d22f442b4"
+    },
+    {
+      "id": "ev-boar-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6062,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "For your first assignment, take this taming rod and use it to tame a dire mottled boar.",
+      "sourceId": "classicdb",
+      "rowSha256": "b18813496fe4f14a94c514b0e63952554b5bd803e4d66550f37a798797df4599",
+      "excerptSha256": "a4370942bb8872818bed40fff8965efcb6bc269bcc77877175ba9008cb254425"
+    },
+    {
+      "id": "ev-boar-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6062,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Practice your skills in battle with the boar at your side, then return to me.",
+      "sourceId": "classicdb",
+      "rowSha256": "b18813496fe4f14a94c514b0e63952554b5bd803e4d66550f37a798797df4599",
+      "excerptSha256": "965211277ebf70ce0828e321cab0ac1926a2afdedf83542dce8bd4c1b80c5ec1"
+    },
+    {
+      "id": "ev-mage-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 9571,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "-Khelden Bremen, Mage Trainer",
+      "sourceId": "classicdb",
+      "rowSha256": "00bcf84e7a552d733bef0cfe0e6ddcffdfb0eb73940efd5a12e90617d5f9fecd",
+      "excerptSha256": "e9e2d03fc7c67b9b74a898a855393b64b478333fd4d777d5213c6883f02afda3"
+    },
+    {
+      "id": "ev-mage-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 9574,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "- Isabella, Mage Trainer",
+      "sourceId": "classicdb",
+      "rowSha256": "dce358a400eb73aad8d8741b8ea0064451fcc62120e08f3c6ad67412f1c0e882",
+      "excerptSha256": "680a3886270fc6970d51cc6420858e6982f469caee2e0c35712251cf32a5d481"
+    },
+    {
+      "id": "ev-lion-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2158,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "My best friend, Innkeeper Farley, runs the Lion's Pride.",
+      "sourceId": "classicdb",
+      "rowSha256": "e5140841e3ff641430d2784c8a9f825de377de6247009f7ceffa200b2da5fc35",
+      "excerptSha256": "b22f29f77444d3aa8437ab59816e9bdda3d55dfdf2e33c95e1f1ff51c62148f2"
+    },
+    {
+      "id": "ev-lion-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2158,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "If you tell him I sent you, he may give you the special discounted rates on food and drink.",
+      "sourceId": "classicdb",
+      "rowSha256": "e5140841e3ff641430d2784c8a9f825de377de6247009f7ceffa200b2da5fc35",
+      "excerptSha256": "8f54fc5472982c64114e930a7482da5d3f1ca4fc7c74111e5cfb9cb9796b4e87"
+    },
+    {
+      "id": "ev-doom-1-t3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 2560,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "It began with the finding of that cursed scythe in the mine they call Roland's Doom.",
+      "sourceId": "classicdb",
+      "rowSha256": "b6ea39d9281f2cc23280c155b8d6c55cdc4c26f38e4d17761468b89e7683b743",
+      "excerptSha256": "9ea1209a9561558c22e9289d2ec938ee48767f957ba63b89c97df0456a1f4a9a"
+    },
+    {
+      "id": "ev-doom-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 2560,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Roland's Doom became a place of vile death!",
+      "sourceId": "classicdb",
+      "rowSha256": "b6ea39d9281f2cc23280c155b8d6c55cdc4c26f38e4d17761468b89e7683b743",
+      "excerptSha256": "b1c27a513fa82d7f4833629f4389c32f66b070c0beedcab51d22d376e515741d"
+    },
+    {
+      "id": "ev-bell-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 18818,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "The Bell of Dethmoora, when ringing, bestows warlocks in the circle with vigor and energy.",
+      "sourceId": "classicdb",
+      "rowSha256": "a327888383ff169efb32c60fa8b52a90c6e75d1d6afa83133e2180b7d23a5dcd",
+      "excerptSha256": "0305b35a450492bd4fd42ea5b9f6d4d24ddddf189d35e89cd79a8447fb00247e"
+    },
+    {
+      "id": "ev-bell-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 18818,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "The Wheel of the Black March, when spinning, protects those in the circle from harm.",
+      "sourceId": "classicdb",
+      "rowSha256": "a327888383ff169efb32c60fa8b52a90c6e75d1d6afa83133e2180b7d23a5dcd",
+      "excerptSha256": "4d469dd8aa2bf90b2389627474402e49ba58a4245fe9cf5b81b9085cb8308d94"
+    },
+    {
+      "id": "ev-tree-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "The night elves' gave their World Tree the new name Nordrassil, which meant \"crown of the heavens\" in their native tongue.",
+      "sourceId": "classicdb",
+      "rowSha256": "d836dbe90a9a00a14a09b284c6d5cfbfbf9d4a974bdf335774eba15e0baa9713",
+      "excerptSha256": "2934b6fc9a71c29c92d72c902e29050240953cb72e999858b54c98cb7710f6d8"
+    },
+    {
+      "id": "ev-tree-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "as long as the colossal tree stood, the night elves would never age or fall prey to sickness or disease",
+      "sourceId": "classicdb",
+      "rowSha256": "7f9d3f5fc4e5b7d9fc4a70f72b8049127b6f7ed28c7a7b90c92b6e8a856c3a75",
+      "excerptSha256": "e0b225b0ca1bef35e9b3b9c28c63a4f5ecbb97ca1ee7227a8829a8aaf40485f5"
+    },
+    {
+      "id": "ev-den-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 9575,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Mai'ah be near da Den in da Valley of Trials.",
+      "sourceId": "classicdb",
+      "rowSha256": "7e06d8ae752b60c0d505cc075eaacbdd321652bcabab6f8754ac93868516c52c",
+      "excerptSha256": "12778d605059a9e789147db39e16ba14a076b7ff3b8458350fd2ff2d8fa1581b"
+    },
+    {
+      "id": "ev-den-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 9575,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "how magic bends to your will... not de other way 'round",
+      "sourceId": "classicdb",
+      "rowSha256": "7e06d8ae752b60c0d505cc075eaacbdd321652bcabab6f8754ac93868516c52c",
+      "excerptSha256": "89beb2bfca073a06ab828a0198df9d7cb13926070b9bcc115aed67a1a7e62211"
+    },
+    {
+      "id": "ev-pact-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175748,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "the demon grimly replied that the Blood Pact they had made long ago was still binding, and that Ner'zhul still had a purpose to serve",
+      "sourceId": "classicdb",
+      "rowSha256": "189ac221a50124c2b42f63f83d9be6634534d0d468b6a55a41c6593e08c924bb",
+      "excerptSha256": "345ac95e7d5e355eaa1fe65bc70c08b51756c66b817ceb27ff0d3005536eb7a3"
+    },
+    {
+      "id": "ev-pact-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175748,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Though Ner'zhul pleaded with the demon to release his spirit and grant him death",
+      "sourceId": "classicdb",
+      "rowSha256": "189ac221a50124c2b42f63f83d9be6634534d0d468b6a55a41c6593e08c924bb",
+      "excerptSha256": "856cbb67e3328f792f2a09d35c18c35cf4fe894ca4b3720f136e98ecdc164106"
+    },
+    {
+      "id": "ev-omen-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8868,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The beast Omen was once a hero of this world.  A wolf of great strength and fortune, Omen fought beside the heroes of the War of the Ancients until he succumbed to demonic magics.",
+      "sourceId": "classicdb",
+      "rowSha256": "86b7906e840980a05f0518e325263ef3e152a618f3520603fc49cbb676c56282",
+      "excerptSha256": "4be67470e621f229f653972ed455cebece4136a49210e00a256bde826c12d494"
+    },
+    {
+      "id": "ev-omen-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8862,
+        "locale": "enUS",
+        "field": "request"
+      },
+      "excerpt": "Stored within the candle is true moonlight, ready to be unleashed!$B$BThis light is harmless to most creatures, but you will find that Omen and his minions are burned and dazzled by it.",
+      "sourceId": "classicdb",
+      "rowSha256": "71b549cf7b1e71182ae9cf4886b3e240c07a10d67ae6a1e314555205710f3729",
+      "excerptSha256": "92d0aeacdb7e851ce9c1e844366c97fc14403e8bbe63bac1bb59c2facb71fe51"
+    },
+    {
+      "id": "ev-duke-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6805,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Kill 15 Dust Stormers and 15 Desert Rumblers and then return to Duke Hydraxis in Azshara.",
+      "sourceId": "questie",
+      "rowSha256": "9f24302672ab46d67f597fa749c21bc1c8337ad4adbe8409b713448c46702d07",
+      "excerptSha256": "abe314614e27700afbb1a15cc7f079043c2fbeb6d56f3693b07b5c306dd6db13"
+    },
+    {
+      "id": "ev-duke-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6030,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Deliver the book, \"Studies in Spirit Speaking\", to Duke Nicholas Zverenhoff at Light's Hope Chapel, Eastern Plaguelands.",
+      "sourceId": "questie",
+      "rowSha256": "ecfeec576836d7e8d0e602d1550a9f7b3a83703f6072ce1c080d84e1a415a8b2",
+      "excerptSha256": "c67c8af2a6077aa7414ec1f5b0484946aae94b98889d579c0561a00d009bb1ee"
+    },
+    {
+      "id": "ev-khan-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1365,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "killing its leader, Khan Dez'hepah",
+      "sourceId": "classicdb",
+      "rowSha256": "c5037f488266563896e4fdb760c1e8e77e8e0b816a83c9a07f7a7d983a07695a",
+      "excerptSha256": "ea12a4ec2706c1096d82f5d3cebbc80bc93d79aac0efdf4412fe5f75aef90013"
+    },
+    {
+      "id": "ev-khan-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1374,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Bring me the head of the Magram Khan, Jehn!",
+      "sourceId": "classicdb",
+      "rowSha256": "4777e4a3fc9e4b04b3d65d6114fa3f933b7c3e295a27967889bf3ec55712ad1a",
+      "excerptSha256": "112db863c483eea1335476177630c89951ccc423df1c80c2e365ced749463d03"
+    },
+    {
+      "id": "ev-khan-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1375,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "He is Khan Shaka, and I want his head!  I want to stare at his head and laugh at him!",
+      "sourceId": "classicdb",
+      "rowSha256": "92aff9d4e168bd44a5e3b88111e769dc11bae020a831d29552419a1be50c5c43",
+      "excerptSha256": "befed98636c0f59687a74b3a7441ec159293e167ce2f722c4b85c54f75888d5b"
+    },
+    {
+      "id": "ev-murk-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 104,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Lighthouse was black that night because Old Murk-Eye had scared the keeper's family off.",
+      "sourceId": "classicdb",
+      "rowSha256": "11ff803e28882dd8870b43e0e42783297bbc2caf1db84ceddf3c66f3e5cc72cf",
+      "excerptSha256": "26e92fa1a07f0ffbd935c1cd9a6b5691a096749edf95f8ddea932d11dd95ea88"
+    },
+    {
+      "id": "ev-murk-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 104,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Slay Old Murk-Eye if you see him along the shore and bring me one of his scales and I shall reward you.",
+      "sourceId": "classicdb",
+      "rowSha256": "11ff803e28882dd8870b43e0e42783297bbc2caf1db84ceddf3c66f3e5cc72cf",
+      "excerptSha256": "f7aee51a5a646ff9703bacca8997b5ce8ddde45339334d528c4f5faa106edadf"
+    },
+    {
+      "id": "ev-fel-1-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 323,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Morbent Fel is a necromancer, and an ally to the dark riders.",
+      "sourceId": "classicdb",
+      "rowSha256": "2c2865f0eeb36833d1a9ec039855592cf8a78c514bcd3fa81e65ac716f8b4767",
+      "excerptSha256": "693c6cede8809b4eb23d3926d559f6c7c4f5e56b971b9aba9c882e124487509f"
+    },
+    {
+      "id": "ev-fel-2-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 268,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "have seen them speak with the wizard Morbent Fel, at the Forlorn Rowe",
+      "sourceId": "classicdb",
+      "rowSha256": "39f4fc2f48c10fc8343d2eb0b8e51f6e989d3e7deda9989ef95e4425cf85ffa0",
+      "excerptSha256": "23b2aec61bd8869164639f4dd93492403d2cf75dae6945b04b17e55fdc4a0c5a"
+    },
+    {
+      "id": "ev-tyr-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6146,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Travel to Tyr's Hand, southeast of the Marris Stead.",
+      "sourceId": "questie",
+      "rowSha256": "82dc9188b44d63d619f9df03cb1a6d20fa12b3f28407de899d997ca01ce89f74",
+      "excerptSha256": "a519c82db8db6e227dadbf6dc6b2c65770a5dd4e5edfdf344f87a77916fd1859"
+    },
+    {
+      "id": "ev-tyr-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6146,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Once there, take a bite of the Rotten Apple.",
+      "sourceId": "questie",
+      "rowSha256": "82dc9188b44d63d619f9df03cb1a6d20fa12b3f28407de899d997ca01ce89f74",
+      "excerptSha256": "36dc8202d66d6c4b7ffee39ee99ec8bfd0cdfc6484d1a3a4fe9a42ed8780b09f"
+    },
+    {
+      "id": "ev-urok-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 12730,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "I challenged Urok Doomhowl and he stole my magic and cursed me.",
+      "sourceId": "classicdb",
+      "rowSha256": "759ad601d96b325f9a7ed96b142b0cb1af2ed3e5a177a81cff7c06864d6888d6",
+      "excerptSha256": "40622dcbda3420785da2e9a21a33fd312817041edbe472e347a250b173e4ee36"
+    },
+    {
+      "id": "ev-urok-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 12730,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Urok stays in the shadows and can only be summoned through a great challenge.",
+      "sourceId": "classicdb",
+      "rowSha256": "759ad601d96b325f9a7ed96b142b0cb1af2ed3e5a177a81cff7c06864d6888d6",
+      "excerptSha256": "6cb18460d1e186100c04f0471687eebe3069ef8f88b8b7b8a94afa3cbcdf4015"
+    },
+    {
+      "id": "ev-rend-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4941,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "It had been thought that Rend  was slain decades ago.",
+      "sourceId": "classicdb",
+      "rowSha256": "c69e049df0555204ed1543f36a8aef0b8591a3d9a85614a49af74a52ad1d8643",
+      "excerptSha256": "33352132cb7c437b8286a7d243fed918102f4df0123a71a93a85c07a293cf342"
+    },
+    {
+      "id": "ev-rend-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4974,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Rend dares make such grand claims because of the protection he is afforded by the black flight.",
+      "sourceId": "classicdb",
+      "rowSha256": "0e35430e826928d46085d6f739b2137a02b0ba57e24ac8dbe07d11ac779f5efb",
+      "excerptSha256": "6ffcd92eb73444194d12831d55a2068fa960f3a148bc18759a79ed3ac3fbae47"
+    },
+    {
+      "id": "ev-rend-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4974,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "will find a way to pass through the Halls of Ascension",
+      "sourceId": "classicdb",
+      "rowSha256": "0e35430e826928d46085d6f739b2137a02b0ba57e24ac8dbe07d11ac779f5efb",
+      "excerptSha256": "ff9c1e891f7e596554198b5f7d7850e728c3d0c0f1bdb09d8f9d0338b13cd1b4"
+    },
+    {
+      "id": "ev-hold-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8278,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Beetix Ficklespragg at Cenarion Hold in Silithus wants you to gather 3 Stonelash Pincer Stingers, 3 Stonelash Flayer Stingers and 3 Rock Stalker Fangs.",
+      "sourceId": "questie",
+      "rowSha256": "31110737f5d7474af568bfa5485e4b11274735118038c7d3a3964b56beb013aa",
+      "excerptSha256": "16ca56d671ec1d0da35d1f84292afac64cc3f9216a3a02fce02fa5ed873526db"
+    },
+    {
+      "id": "ev-hold-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8275,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Talk to Windcaller Proudhorn at Cenarion Hold in Silithus.",
+      "sourceId": "questie",
+      "rowSha256": "92fcca39fc446c65fc58d64c6bea70eae7cd1e1a517fbf8f57abbbb3fc6a15b1",
+      "excerptSha256": "83f3947a126d11f74ebcce0be34b8c477ad7805427d8ce4d7cffe9a4f33dd6c0"
+    },
+    {
+      "id": "ev-post-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1196,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Bring the filled phial to Rau Cliffrunner at the Freewind Post in southeastern Thousand Needles.",
+      "sourceId": "classicdb",
+      "rowSha256": "73734fcf5f498aca85f31a3772cdb61dd2a4e877d92e7756068ea29f176fbe83",
+      "excerptSha256": "699aa2d738df5cc41b2a6cb702258c823d6afb1d22fc4293a5a1c352ab0d5e20"
+    },
+    {
+      "id": "ev-post-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1150,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Go to the Roguefeather Den west of Freewind Post.",
+      "sourceId": "classicdb",
+      "rowSha256": "63142a93e139c63843b7c0f4843ce017fb174d8e605a7120f2f1cdefd328049f",
+      "excerptSha256": "6efa5a37f7ef9b48a554538457c9936f627a9dedc412e58723cc0423b613b2d0"
+    },
+    {
+      "id": "ev-nova-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 122,
+        "locale": "enUS"
+      },
+      "excerpt": "Frost Nova",
+      "sourceId": "client",
+      "rowSha256": "202aaa5407c898b1df57c41be318bcdf0d0c9bd71f88b11ee5e3ea5064b41b85",
+      "excerptSha256": "f66731e97d31e54ad93d4355a9968d6463e37d462063691bf11123f7bc1230ef"
+    },
+    {
+      "id": "ev-nova-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 122,
+        "locale": "enUS"
+      },
+      "excerpt": "Blasts enemies near the caster",
+      "sourceId": "client",
+      "rowSha256": "caab0ccfabbc2784cf23647f800d6d5b04f865035ff9ecc400f076a1497c9583",
+      "excerptSha256": "01e72257610407ab45b74b3231ac675b6766f8dfd240169532628a62b9211561"
+    },
+    {
+      "id": "ev-nova-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 122,
+        "locale": "enUS"
+      },
+      "excerpt": "freezes them in place for up to $d.  Damage caused may interrupt the effect.",
+      "sourceId": "client",
+      "rowSha256": "caab0ccfabbc2784cf23647f800d6d5b04f865035ff9ecc400f076a1497c9583",
+      "excerptSha256": "127fec29cca27b543a0478ba4f92faa92665e62b0a4b7e212681e0cdef1d1a6d"
+    },
+    {
+      "id": "ev-bolt-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 403,
+        "locale": "enUS"
+      },
+      "excerpt": "Lightning Bolt",
+      "sourceId": "client",
+      "rowSha256": "324a5a972c03537ea1f3ec3adc09ca1d54f08c2d3b9ca5b839fb9e2aebdd4889",
+      "excerptSha256": "6501d6e4ac16bd7d91b28cd7cd45032d91705b6770f10a4f48ef5e3d61d2d239"
+    },
+    {
+      "id": "ev-bolt-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 403,
+        "locale": "enUS"
+      },
+      "excerpt": "Casts a bolt of lightning at the target for $s1 Nature damage.",
+      "sourceId": "client",
+      "rowSha256": "c72478a4313a5bec0bb61c61b82cfa9623252ab24d0cc17460b7f0a8ec2b3056",
+      "excerptSha256": "8a81445e1c98e428d5ee85273147e9cf8cd262006aedfffc7592f9a19458df87"
+    },
+    {
+      "id": "ev-ward-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 6346,
+        "locale": "enUS"
+      },
+      "excerpt": "Fear Ward",
+      "sourceId": "client",
+      "rowSha256": "3700b0c7762e0785c5d903378073655533b25f9f36dedcb600a682639da8d49e",
+      "excerptSha256": "6eca03d5599d04a64613b784d4a6a981da8aead68dcaf1c2f5086815e232dab1"
+    },
+    {
+      "id": "ev-ward-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 6346,
+        "locale": "enUS"
+      },
+      "excerpt": "Wards the friendly target against Fear.  The next Fear effect used against the target will fail, using up the ward.",
+      "sourceId": "client",
+      "rowSha256": "9c58d5a44f16735b0a7774d9d8bd649914d00d61ce1c23c80bbd81234344f192",
+      "excerptSha256": "2e6f7a2c5b945b8531d749b1f9ae634aa07a6e631df11dfece8f897356a460b6"
+    },
+    {
+      "id": "ev-pain-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 589,
+        "locale": "enUS"
+      },
+      "excerpt": "Shadow Word: Pain",
+      "sourceId": "client",
+      "rowSha256": "09885994dbe5cc77edf399172cf7fd547aab21eaeaa4709b868bc6db427d3986",
+      "excerptSha256": "7d96b26e61460556a9a6feda1cadb5df4e027755d56d6cc6e39f82c4dfed07f3"
+    },
+    {
+      "id": "ev-pain-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 589,
+        "locale": "enUS"
+      },
+      "excerpt": "A word of darkness that causes $o1 Shadow damage over $d.",
+      "sourceId": "client",
+      "rowSha256": "f335c7b49ab94f6a13984738c5e5fb4e9ee19b1acf673073e82fe310a51a333b",
+      "excerptSha256": "cf8faec05c53d937bb843bb0c0342de144fe7b5e96f0db9c0d67ede663ad2afb"
+    },
+    {
+      "id": "ev-mind-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 605,
+        "locale": "enUS"
+      },
+      "excerpt": "Mind Control",
+      "sourceId": "client",
+      "rowSha256": "13816a0a2a9f6f4e37cd1e1e837d56a8535d3bfc2ac9c774de6d8deb00a44728",
+      "excerptSha256": "fc2feab8e0f150a00217954e9ff3ae1aba97e1a9b5938a6a7d5cb084bb20747c"
+    },
+    {
+      "id": "ev-mind-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 605,
+        "locale": "enUS"
+      },
+      "excerpt": "Controls a humanoid mind up to level $s1, but increases the time between its attacks by $s3%.",
+      "sourceId": "client",
+      "rowSha256": "e1b13934404db99a125dff311757f11137b3af2ee367c61fbf42faf01114f029",
+      "excerptSha256": "83ef3311964fecb8a5a9e065f7f896549ad518f82dca756a1207534a6f807277"
+    },
+    {
+      "id": "ev-life-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 689,
+        "locale": "enUS"
+      },
+      "excerpt": "Drain Life",
+      "sourceId": "client",
+      "rowSha256": "e209d0e9177c3012b88e85059a4e6e538c83186f438d2dd8ad3edb47871bce37",
+      "excerptSha256": "74cad17c31008099357993b586191e7162efb2672159118226d0e0b56be4f586"
+    },
+    {
+      "id": "ev-life-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 689,
+        "locale": "enUS"
+      },
+      "excerpt": "Transfers $s1 health every second from the target to the caster.  Lasts $d.",
+      "sourceId": "client",
+      "rowSha256": "7f116c52a6ea0ad709096c94cbda6d7b584d331c6859729f87c823ba9c018174",
+      "excerptSha256": "ea798fa9042f390282c20847eec1645d44fae671a8ebe6b5d1a85c4558099cee"
+    },
+    {
+      "id": "ev-coil-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 6789,
+        "locale": "enUS"
+      },
+      "excerpt": "Death Coil",
+      "sourceId": "client",
+      "rowSha256": "a3b5453fbe0d14a95c707a34a6dcb1e91c9034d91ecdc11be39e2f047a5a3aba",
+      "excerptSha256": "7fd6b587b24285800d414ec4e12e3c9965c745aa9a629afb7dc4aaa71ce4325a"
+    },
+    {
+      "id": "ev-coil-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 6789,
+        "locale": "enUS"
+      },
+      "excerpt": "Causes the enemy target to run in horror for $d and causes $s1 Shadow damage.  The caster gains 100% of the damage caused in health.",
+      "sourceId": "client",
+      "rowSha256": "be0c50a3ce4cdfedc105ada72790ed5b1066bf8e0a288911f8c233da1b329c6d",
+      "excerptSha256": "55bd26b96c35478a88aab0eff59b05bfb98f7fa4f4e479d78b38e7343f793eb7"
+    },
+    {
+      "id": "ev-ice-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 11958,
+        "locale": "enUS"
+      },
+      "excerpt": "Ice Block",
+      "sourceId": "client",
+      "rowSha256": "47def18f8af7561f0f8cef1ef451eb29ade4d343269c6cf3fd0fa9377cee6d5e",
+      "excerptSha256": "7353d906fac7ce1ba75427f7fc22d08b6dc4aa059c624c430707d17c9a021574"
+    },
+    {
+      "id": "ev-ice-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 11958,
+        "locale": "enUS"
+      },
+      "excerpt": "protecting you from all physical attacks and spells for $d, but during that time you cannot attack, move or cast spells.",
+      "sourceId": "client",
+      "rowSha256": "293bf30283e3bcbe6eb31b53a861b3c88ee7fd4f4a472c651ea4b546b33e1f08",
+      "excerptSha256": "b2671472aac331fd4913513c580d0ee655d7a72061fc4693a94e576210a1e7fa"
+    },
+    {
+      "id": "ev-howl-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 5484,
+        "locale": "enUS"
+      },
+      "excerpt": "Howl of Terror",
+      "sourceId": "client",
+      "rowSha256": "4491e74d4cb22d07ebe6dda498f4041ae9c4636fd5b79ebc22c0d8d87604fa80",
+      "excerptSha256": "917b1add2d14566a3434a9e549611e901f595677625ac1f169767885bed174b6"
+    },
+    {
+      "id": "ev-howl-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5484,
+        "locale": "enUS"
+      },
+      "excerpt": "flee in terror for $d.  Damage caused may interrupt the effect.",
+      "sourceId": "client",
+      "rowSha256": "e67e3114d4a7456415fe2140b669cce5c8aba9893edaded0ae0cc59d1efb9d6a",
+      "excerptSha256": "0f3bdede40a2749482ac324e9157101ce7925f010acfeacc739b78d12c55d19c"
+    },
+    {
+      "id": "ev-hawk-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 13165,
+        "locale": "enUS"
+      },
+      "excerpt": "Aspect of the Hawk",
+      "sourceId": "client",
+      "rowSha256": "ab466a830cf74b6081d5360ce12c0274944956d99173b75f40c60cd02d89d19a",
+      "excerptSha256": "48aae07fc560dc02a559fe17720f6cdb71db361429655e72950dfd5737557a8b"
+    },
+    {
+      "id": "ev-hawk-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 13165,
+        "locale": "enUS"
+      },
+      "excerpt": "increasing Ranged Attack Power by $s1.  Only one Aspect can be active at a time.",
+      "sourceId": "client",
+      "rowSha256": "f09d0b02c13dc54ab7df540ff32e3ac46b41f3f2d3e58bb684c088ae7e112c16",
+      "excerptSha256": "2924a7fbcaf1a069ade05a32c707000b652ad8e95a1b0bb77717169fb3d0f889"
+    },
+    {
+      "id": "ev-wall-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 871,
+        "locale": "enUS"
+      },
+      "excerpt": "Shield Wall",
+      "sourceId": "client",
+      "rowSha256": "3ebbf13670d81c69d615095228c08d9d3ff84a2b65477ebf50efde2ecc50ee6e",
+      "excerptSha256": "8d61ed61f25318cfcd393e18ec316f3e689bc67882924417711a8e82b84a9901"
+    },
+    {
+      "id": "ev-wall-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 871,
+        "locale": "enUS"
+      },
+      "excerpt": "Reduces the damage taken from melee attacks, ranged attacks and spells by $s1% for $d.",
+      "sourceId": "client",
+      "rowSha256": "6498ce845f6030c1a598f60de359467f411f4dcaf9f589bbfd217f70a89d9a59",
+      "excerptSha256": "7a4aa275e914d8e31c507ada39ef245dce0f2065cc23e0844d1bf65528ed6d1c"
+    },
+    {
+      "id": "ev-wish-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 12328,
+        "locale": "enUS"
+      },
+      "excerpt": "Death Wish",
+      "sourceId": "client",
+      "rowSha256": "cbf07a0526b7ed3a4780878eb16b1073cd36fef55543dfec8fe6ab9d1b705161",
+      "excerptSha256": "646b4d65bc3afb6f44db707d5d88040ecaab0f56d5cd1e713eefe370123eaa42"
+    },
+    {
+      "id": "ev-wish-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 12328,
+        "locale": "enUS"
+      },
+      "excerpt": "increases your physical damage by $s1% and makes you immune to Fear effects, but lowers your armor and all resistances by $s3%.",
+      "sourceId": "client",
+      "rowSha256": "f06467f49b4d18bde993501d005cad9fc79fe67024cc18dde2581b7a6053b0a9",
+      "excerptSha256": "8f6f72efacb8c0af1404964605d2a3def8e4a3967d3407111e317fb02882177c"
+    },
+    {
+      "id": "ev-rush-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 13750,
+        "locale": "enUS"
+      },
+      "excerpt": "Adrenaline Rush",
+      "sourceId": "client",
+      "rowSha256": "2f027557afed5e168b0a32de5541021f024f1a036d5135372b9b8cdd4db7c642",
+      "excerptSha256": "cd2f6d85c92e4169f867be79988c5ec0a55a09c6029ec286b65c144dc210c263"
+    },
+    {
+      "id": "ev-rush-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 13750,
+        "locale": "enUS"
+      },
+      "excerpt": "Increases your Energy regeneration rate by $s1% for $d.",
+      "sourceId": "client",
+      "rowSha256": "a29dbdb09323c731ef55ae69ac566102e4a091a468bcc55720c4b5a8e7d0d678",
+      "excerptSha256": "549e1818e949a83046c24f5288dc2bc4da325a4e9a22844613a1607de80fbe9f"
+    },
+    {
+      "id": "ev-dice-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 5171,
+        "locale": "enUS"
+      },
+      "excerpt": "Slice and Dice",
+      "sourceId": "client",
+      "rowSha256": "0a7c38072043d280a3a221cd4fc23f95ae4ca3eb6daaa71a097eab8156693555",
+      "excerptSha256": "23de25388bc95be0b6e30a68ae843618a97ca816c6e500265187324c4fef27f4"
+    },
+    {
+      "id": "ev-dice-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5171,
+        "locale": "enUS"
+      },
+      "excerpt": "Finishing move that increases melee attack speed by $s2%.  Lasts longer per combo point",
+      "sourceId": "client",
+      "rowSha256": "9f3fb175de26034301e78b7793868accaff8ab56f33ff74f9f6f1f2d9e1ab3af",
+      "excerptSha256": "c6199f72f5d496c6f6054b41b2519859a159fcfd279ebe39cb8db39b5372dc50"
+    },
+    {
+      "id": "ev-wild-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 21849,
+        "locale": "enUS"
+      },
+      "excerpt": "Gift of the Wild",
+      "sourceId": "client",
+      "rowSha256": "63c97ab1240bc0715d8256a65210b5c2597940afab49ce20998fc0aad96eb055",
+      "excerptSha256": "db031fadfdfef118cc2d13bdf24e0d9df5378a1d64416452b842bf80da1d9b44"
+    },
+    {
+      "id": "ev-wild-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 21849,
+        "locale": "enUS"
+      },
+      "excerpt": "Gives the Gift of the Wild to the target's party, increasing armor by $s1, all attributes by $s2 and all resistances by $s3 for $d.",
+      "sourceId": "client",
+      "rowSha256": "ae4ddca78a39c957f4e51d666b3cff35a0806a3b3ad63e09795d66b5cb8ccf7e",
+      "excerptSha256": "ae4af27013d655b3d524cb428703e9c708d8359232c58a9a9695e7b60867fa10"
+    },
+    {
+      "id": "ev-fury-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 25780,
+        "locale": "enUS"
+      },
+      "excerpt": "Righteous Fury",
+      "sourceId": "client",
+      "rowSha256": "fec50a8b91e11c07382d97d3bb1e84da62244c50ab8d36c27fabeb851c305d68",
+      "excerptSha256": "3a02c319e322756869ebf5410121e15cd63869063082c45dc04c348a6cdf5b9a"
+    },
+    {
+      "id": "ev-fury-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 25780,
+        "locale": "enUS"
+      },
+      "excerpt": "Increases the threat generated by your Holy attacks by $s1%.",
+      "sourceId": "client",
+      "rowSha256": "2cda5ebf0242fb4b231ef96387fbc46737e0fd43471870ac70e50a3363b4eb75",
+      "excerptSha256": "98c5f509bb1b89a244f201a4e571f9beb6d3902af0962800dedd00cd9530afb2"
+    },
+    {
+      "id": "ev-cold-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 120,
+        "locale": "enUS"
+      },
+      "excerpt": "Cone of Cold",
+      "sourceId": "client",
+      "rowSha256": "beaf50861541df45ea31a8775a852079a21544d9f7c77215d8443b2aabe245bf",
+      "excerptSha256": "9d6a11309ab760c7adf7f789a304644a566fb6ddaa894ad8939c0d7126afe4fe"
+    },
+    {
+      "id": "ev-cold-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 120,
+        "locale": "enUS"
+      },
+      "excerpt": "Targets in a cone in front of the caster take",
+      "sourceId": "client",
+      "rowSha256": "47cf1dd254a6f55289f93a11594bb22f76576953a1944875576ed5b85b3aad31",
+      "excerptSha256": "9292c01d477d315d5d76a3fae138a256d664979cd27718d6323cb7da9a5df3d5"
+    },
+    {
+      "id": "ev-cold-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 120,
+        "locale": "enUS"
+      },
+      "excerpt": "are slowed by $s1% for $d.",
+      "sourceId": "client",
+      "rowSha256": "47cf1dd254a6f55289f93a11594bb22f76576953a1944875576ed5b85b3aad31",
+      "excerptSha256": "8f7c70d9a92b6541cc338b6ac3547589bf43f7585ce2327777abf95ea62f1e85"
+    },
+    {
+      "id": "ev-shot-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 2643,
+        "locale": "enUS"
+      },
+      "excerpt": "Multi-Shot",
+      "sourceId": "client",
+      "rowSha256": "26c2260cf11db647b356db3f041bcc9a987a8ee17a91d0c9a435248a12a11576",
+      "excerptSha256": "641118bc550ae0df68f92823bf0c7fd0a5988920291d342bbe4ba9598989d78a"
+    },
+    {
+      "id": "ev-shot-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2643,
+        "locale": "enUS"
+      },
+      "excerpt": "Fires several missiles, hitting $x1 targets.",
+      "sourceId": "client",
+      "rowSha256": "51e768d691909a4f406d07c80c4e1acbf2ac943e550888998586ba9804102c99",
+      "excerptSha256": "863aee2c1832dfc9117b97f5352eb42b84bb536de84e486cc8ba7ed947967f84"
+    },
+    {
+      "id": "ev-mark-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1130,
+        "locale": "enUS"
+      },
+      "excerpt": "Hunter's Mark",
+      "sourceId": "client",
+      "rowSha256": "8708339147c36e10f23cf0fdd3b8e6ef6ce79ba295e0ed1afcf46293dae97c11",
+      "excerptSha256": "d3c050dcd5d3e90df06f42c2772e45b8e67b807196af064a26fcc5ce7007b678"
+    },
+    {
+      "id": "ev-mark-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1130,
+        "locale": "enUS"
+      },
+      "excerpt": "increasing the Ranged Attack Power of all attackers against that target by $s2.  In addition, the target of this ability can always be seen by the hunter whether it stealths or turns invisible.",
+      "sourceId": "client",
+      "rowSha256": "7d531db88eba9f0136e38914f88fbe7cdb14334b5446a4287ff6af980c0995c9",
+      "excerptSha256": "2b856c393b6ebb49e081ed3578c3bb6224f57f8c6ab7f587e821a556c52bb035"
+    },
+    {
+      "id": "ev-clap-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 6343,
+        "locale": "enUS"
+      },
+      "excerpt": "Thunder Clap",
+      "sourceId": "client",
+      "rowSha256": "726b022f1f2df2c0bd762f2934cf0e90a434d373454a70966476abf188d30004",
+      "excerptSha256": "80317fc30d1ddd9a28f64b989710f44f37471d5f55555bd21e649df4d02fe9eb"
+    },
+    {
+      "id": "ev-clap-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 6343,
+        "locale": "enUS"
+      },
+      "excerpt": "Blasts nearby enemies increasing the time between their attacks",
+      "sourceId": "client",
+      "rowSha256": "68bf7242872ff080923ec08efcf2d0634bba9ca5a3279a50cd81135fa61891f2",
+      "excerptSha256": "97f611f1b9a281e257686327dd818854c24f04abe1a3587aaf29d46ba8c73b6c"
+    },
+    {
+      "id": "ev-clap-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 6343,
+        "locale": "enUS"
+      },
+      "excerpt": "Will affect up to $i targets.",
+      "sourceId": "client",
+      "rowSha256": "68bf7242872ff080923ec08efcf2d0634bba9ca5a3279a50cd81135fa61891f2",
+      "excerptSha256": "364a54d9b84e359203cd04f272724949c4fa11ccf3ff03a58bf5b49a4265bcde"
+    },
+    {
+      "id": "ev-rip-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1079,
+        "locale": "enUS"
+      },
+      "excerpt": "Rip",
+      "sourceId": "client",
+      "rowSha256": "1f179cba75821d15abbc93cc90cad16ff59a76988afef5ee734e8fdca9104679",
+      "excerptSha256": "60cf0d7e6d7f3abe793534177265d47b0759dad50bd6638ff67bc4a90ff65949"
+    },
+    {
+      "id": "ev-rip-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1079,
+        "locale": "enUS"
+      },
+      "excerpt": "Finishing move that causes damage over time.  Damage increases per combo point and by your Attack Power:",
+      "sourceId": "client",
+      "rowSha256": "31e7bb60142508e4d78e4b60f7475af00b2819d71fa3863d83f9c94f59fde7a5",
+      "excerptSha256": "a1527ab9d6acd1c00c904f7c6118d0b768297e5b60fd38fb6603f76c4fc1878e"
+    },
+    {
+      "id": "ev-sap-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 6770,
+        "locale": "enUS"
+      },
+      "excerpt": "Sap",
+      "sourceId": "client",
+      "rowSha256": "b9a7f3f58a38098bd82e530d707b76ef4b19ef90dae1c6471243fd519c18e066",
+      "excerptSha256": "aba3be22737a5900a929d4bb8fef01bc06cb2e613a92ec743868b0e4b949e577"
+    },
+    {
+      "id": "ev-sap-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2070,
+        "locale": "enUS"
+      },
+      "excerpt": "Must be stealthed.  Only works on Humanoids that are not in combat.    Any damage caused will revive the target.",
+      "sourceId": "client",
+      "rowSha256": "b73b2e9c198b08713d015b6322817fabe7020bc5eec211a711da30cd20efc3a5",
+      "excerptSha256": "deea3f79acc046fd662de687d06390aae23d3aefdc6f5aaa0ed5fbd22ed839c7"
+    },
+    {
+      "id": "ev-fade-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 586,
+        "locale": "enUS"
+      },
+      "excerpt": "Fade",
+      "sourceId": "client",
+      "rowSha256": "09481f2c4798488d59655da650cd1f32bcd3ccd85493950f43625b11b67e1182",
+      "excerptSha256": "9efb597c915414fd84e20eedf169e945155c3408df8c13fb82385ca7b96174b7"
+    },
+    {
+      "id": "ev-fade-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 586,
+        "locale": "enUS"
+      },
+      "excerpt": "discouraging enemies from attacking you for $d.",
+      "sourceId": "client",
+      "rowSha256": "52e96986584e46b26cb18c2d2b78634c37830c619aaf3d9159546b32f615731d",
+      "excerptSha256": "2957039593ab66df09607ba66ffabcde39c3e16ca3e3f4864e3c49f1ca344bea"
+    },
+    {
+      "id": "ev-fade-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 9578,
+        "locale": "enUS"
+      },
+      "excerpt": "More effective than Fade (rank 1).",
+      "sourceId": "client",
+      "rowSha256": "bc129b01a83c515c2c6d8262de730ee27209cd3835b9da962cd24f62c0a0ef07",
+      "excerptSha256": "47f3d77f05c783cac478425d8a0186f6d1dc5b25c03c27ef3c98a40534e45818"
+    },
+    {
+      "id": "ev-hex-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 11641,
+        "locale": "enUS"
+      },
+      "excerpt": "Hex",
+      "sourceId": "client",
+      "rowSha256": "89f6bedc107dd42f0ed22ac2c09de70ddd5a6a5ec485fd4b16b40a1067f8f55f",
+      "excerptSha256": "69493e6f1a6957cad7e3ece5267a57e8a8ed035b5ea5fd7e360ce9eb2405c30b"
+    },
+    {
+      "id": "ev-hex-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 11641,
+        "locale": "enUS"
+      },
+      "excerpt": "Transforms an enemy into a frog, rendering it unable to attack or cast spells for $d.",
+      "sourceId": "client",
+      "rowSha256": "1d26fba4046da26efcb18f61e465457c8038495ae120c2a1fb76e2be6099e769",
+      "excerptSha256": "ae7af843ca183a421e074b11dd1e79afa63bb705faad2f2bda4d486b152c46c9"
+    },
+    {
+      "id": "ev-web-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 4782,
+        "locale": "enUS"
+      },
+      "excerpt": "Web",
+      "sourceId": "client",
+      "rowSha256": "b436220fd4bacfc8005654170153a2b86dca2c7f21146553c96e42351252956c",
+      "excerptSha256": "2975104784a401e3880e2215550e9490eda7e67db5fc2b35e1a244acb092ced3"
+    },
+    {
+      "id": "ev-web-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 4782,
+        "locale": "enUS"
+      },
+      "excerpt": "Teaches your tamed spider the Web ability.",
+      "sourceId": "client",
+      "rowSha256": "c38fdb4093f09e246f0e3f1d7153dc9289e15b096c846d523ed659d87956f74b",
+      "excerptSha256": "a51dcad8e0248f39928bdf54afe529adc0de62a5ebe53f9fdbc6cac0d19261b5"
+    },
+    {
+      "id": "ev-web-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 4782,
+        "locale": "enUS"
+      },
+      "excerpt": "Pet Level 22+",
+      "sourceId": "client",
+      "rowSha256": "c38fdb4093f09e246f0e3f1d7153dc9289e15b096c846d523ed659d87956f74b",
+      "excerptSha256": "2662c92ae31fa9dc08fb621eee8126533e52e173b686d9dd0f54f35aa52b34d4"
+    },
+    {
+      "id": "ev-gore-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 4733,
+        "locale": "enUS"
+      },
+      "excerpt": "Gore",
+      "sourceId": "client",
+      "rowSha256": "717fc2e573e69ade773f6934a92f73ddd3d209727f044c6523f8da7c2fa92ba5",
+      "excerptSha256": "ed9b9b7668dfdab99b5b397971427466df7fb0e7f0bccb2f4bfdb143a75f813f"
+    },
+    {
+      "id": "ev-gore-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 4733,
+        "locale": "enUS"
+      },
+      "excerpt": "Gore deals physical damage over time to an enemy.",
+      "sourceId": "client",
+      "rowSha256": "2476afa15d3bb58de40efff0139522b6f0e0b9811fdff3fc78996317f89bc7bb",
+      "excerptSha256": "556a35a1f7abc0b8d24ffc900c7e856ee844db83a8e04b7df3d5462f36bdcd26"
+    },
+    {
+      "id": "ev-gore-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 4733,
+        "locale": "enUS"
+      },
+      "excerpt": "Pet Level 13+",
+      "sourceId": "client",
+      "rowSha256": "2476afa15d3bb58de40efff0139522b6f0e0b9811fdff3fc78996317f89bc7bb",
+      "excerptSha256": "a0bbca2e618cf7d733bf344839b7cf2194bbf201074e426240a6461b780ae010"
+    },
+    {
+      "id": "ev-dash-1-t3",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 1850,
+        "locale": "enUS"
+      },
+      "excerpt": "Dash",
+      "sourceId": "client",
+      "rowSha256": "a326066e35d995362b75a7a07e3e9d551d5152fbdd760af157f72df0ca805b3b",
+      "excerptSha256": "8c3ea2ea786aee267ed410e1043ac86787a47ffceba86efc59367dcb7df40f1b"
+    },
+    {
+      "id": "ev-dash-2-t3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1850,
+        "locale": "enUS"
+      },
+      "excerpt": "Increases movement speed by $s1% for $d.  Does not break prowling.",
+      "sourceId": "client",
+      "rowSha256": "52cf58d585aa495439d2633b85ee46935a6f4a9de97bac9ce9b9d8742c37a7f8",
+      "excerptSha256": "ac6fd187a9c6abea4bdbf750f64be72e8a2dad20ebca84cd776f81ca12e578b6"
+    },
+    {
+      "id": "ev-shiv-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 5938,
+        "locale": "enUS"
+      },
+      "excerpt": "Shiv",
+      "sourceId": "client",
+      "rowSha256": "6e918f2fb9bf0f39a080b3233f5a7922574114b525631a26395ce87dfc38081c",
+      "excerptSha256": "0e282575cc2b8e7fc9802e77cf7b6a55931776d9df8f246b925fd8f03837fc5a"
+    },
+    {
+      "id": "ev-shiv-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5938,
+        "locale": "enUS"
+      },
+      "excerpt": "Performs an instant off-hand weapon attack that automatically applies the poison from your off-hand weapon to the target.  Slower weapons require more Energy.",
+      "sourceId": "client",
+      "rowSha256": "2f5c4e18d88a33f71b10604d8c7896cd68e192fc0b8db095084a9ad472c8061a",
+      "excerptSha256": "d4eeb890165b1bd4290aa0e4780b9022288c1e001ced6a20b4352bda867f24b9"
+    },
+    {
+      "id": "ev-ruin-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 17959,
+        "locale": "enUS"
+      },
+      "excerpt": "Ruin",
+      "sourceId": "client",
+      "rowSha256": "61debbec5b789d5a9b70b0876dfaaa013195733bed4777877688ec0c1d70b1f1",
+      "excerptSha256": "f3e0f09631f17828d993141e677e3c56813e9bded37b93a890fbca9206bd7d27"
+    },
+    {
+      "id": "ev-ruin-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 17959,
+        "locale": "enUS"
+      },
+      "excerpt": "Increases the critical strike damage bonus of your Destruction spells by $s1%.",
+      "sourceId": "client",
+      "rowSha256": "0a8c568b97ec170de8a538334df98f6d17a564599207c6beede6e96f190b24c8",
+      "excerptSha256": "0fa2c2674c0275da2b128eda4af4b2c0a4b276b4f7ba9feb88d69658c6f8555c"
+    },
+    {
+      "id": "ev-idle-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell",
+        "id": 43680,
+        "locale": "enUS"
+      },
+      "excerpt": "Idle",
+      "sourceId": "client",
+      "rowSha256": "ad56955a1a33127dcf027da3302e3fecde80ae86d67e60270ff2282b1898e6f5",
+      "excerptSha256": "ab0171ca0494d441cb6fe96e2efbe1c2a129f1d87cd6c17f03613cfd111149dd"
+    },
+    {
+      "id": "ev-idle-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 43680,
+        "locale": "enUS"
+      },
+      "excerpt": "Your teammates have reported you for laziness!  Enter PvP combat or you will be marked Inactive and unable to receive Honor Points.",
+      "sourceId": "client",
+      "rowSha256": "75dd84e5dfa69dc5e0d96da2d97b58b1b4b555663a3b39ba9b692aa9a09b98fc",
+      "excerptSha256": "246749ea8466c2c2567ca73fb58f71b915ac5fb6aea2e8d216e5e470bfe3beae"
+    },
+    {
+      "id": "ev-mail-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 10656,
+        "locale": "enUS"
+      },
+      "excerpt": "Allows a leatherworker to make special dragonscale armors that are unavailable to a normal leatherworker.  Dragonscale armor is all mail armor.",
+      "sourceId": "client",
+      "rowSha256": "edc43ab08a010463ef1c2ffb13d3350fae34aa4a786c3c9bb3f91ed747e8a523",
+      "excerptSha256": "f2331ec4bf4eb23c3c2303f0943264f75bc1cd4096e28b41252c3434416ff55a"
+    },
+    {
+      "id": "ev-mail-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 16320,
+        "locale": "enUS"
+      },
+      "excerpt": "Allows you to wear Plate Mail armor.",
+      "sourceId": "client",
+      "rowSha256": "d7e8ad6d4ed77263eec610ebd342f02e0d6a4ff710ac523d39a0d1b35c50f41d",
+      "excerptSha256": "82869cef7e0ac8bb4669f674bf5350ebfa833f8f11dc46c35f421c5473af212d"
+    },
+    {
+      "id": "ev-veil-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7061,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Feel free to read the book, \"The Feast of Winter Veil\", to learn more about the holiday.",
+      "sourceId": "questie",
+      "rowSha256": "abdda5ae23ce3cd4a77419aa01771d19dd7df844898c7da2b872f0659ebd1bae",
+      "excerptSha256": "027b55d8cfffdaf168ac6b1a3c317b8db69464546a83d035c28ded21cfc6639d"
+    },
+    {
+      "id": "ev-veil-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7062,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Speak with Historian Karnik at the Explorer's League in Ironforge about the Feast of Winter Veil.",
+      "sourceId": "questie",
+      "rowSha256": "b523ce5e4ecc15f1164208ba5adfe47ac737240f5510bf07770071d5ba5df05c",
+      "excerptSha256": "0196b3bc6984f4930938cc95cfd3b7228e0f10a742ceb6a56af1f906f6c80100"
+    },
+    {
+      "id": "ev-end-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1657,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Celebrate Hallow's End in style... by bringing grief to our enemies in Southshore!",
+      "sourceId": "classicdb",
+      "rowSha256": "abbc38398eae0b57124aaf042745fd29415b40f44e414fb6567b05cfd527b0d9",
+      "excerptSha256": "f50e2de515962d14b8b26eaab382fa753f632918f59f8807eead74a114d52a62"
+    },
+    {
+      "id": "ev-end-2",
+      "locator": {
+        "table": "name",
+        "kind": "item_description",
+        "id": 20490,
+        "locale": "enUS"
+      },
+      "excerpt": "A classic Hallow's End treat of the Dwarves.",
+      "sourceId": "client",
+      "rowSha256": "b482fc5b332b8712c2d05e926286763754b4e308b9fe830366424f5d84eff8f2",
+      "excerptSha256": "bb87d44ea80b3665112484fbfa6e513ec356ef7a2c1143cecb8b637af646bec8"
+    },
+    {
+      "id": "ev-runecloth-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6031,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring 30 Runecloth to Meilosh in Timbermaw Hold.",
+      "sourceId": "questie",
+      "rowSha256": "9c292c9d6e6fd04f1fcb22932abc443357e6b42814f88a9bfe413bac20665de5",
+      "excerptSha256": "b2db94515319ad68e4bcb4e6745dc2737d4c337742bffc5974597826e7486d26"
+    },
+    {
+      "id": "ev-runecloth-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6031,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Runecloth is rare among us",
+      "sourceId": "classicdb",
+      "rowSha256": "61ae20b238badc1aa1b387cd2276cb3de5773f297dd3c1533fcec8911aaba242",
+      "excerptSha256": "b0bfeefda350e6808a5a650adcc6a6808f4fb5f8de4ff0745ca0b7a82f062160"
+    },
+    {
+      "id": "ev-runecloth-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 18474,
+        "locale": "enUS"
+      },
+      "excerpt": "Teaches you how to sew a Runecloth Bag.",
+      "sourceId": "client",
+      "rowSha256": "72564f5a7a2b826ceb2895fd9ea04fd0d9bef048edf4f8fd61d43245a0c0d61c",
+      "excerptSha256": "12267c7921f6be0b6b2bd4a98a01fdd00f898aa6d5b3c111c1fd7824b50f9494"
+    },
+    {
+      "id": "ev-dreamdust-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1116,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring 10 Specks of Dream Dust to Krazek in Booty Bay. Dream Dust is gathered from the dragon whelps of the Swamp of Sorrows.",
+      "sourceId": "questie",
+      "rowSha256": "75030e2b89275541c85eca61f0ed2688254a46b6071e57c07855fae08f02cb24",
+      "excerptSha256": "d0346e47797609a54b963dd3fbf37a899cfd344914df7915b852b9993e49c7a8"
+    },
+    {
+      "id": "ev-dreamdust-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1116,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Yes, I'd love some dream dust for my snuff pouch!",
+      "sourceId": "classicdb",
+      "rowSha256": "8cafaecb6cb8b1a1468ae144ba3ccb65ba70b0a2fae8342cfc0c7660a3c9e1d8",
+      "excerptSha256": "61cd429119b3329d36161d69b2b7b495d1f12815649fdb7f4e0f50217242d567"
+    },
+    {
+      "id": "ev-dreamdust-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1116,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Getting the information on Nazz is quite a favor",
+      "sourceId": "classicdb",
+      "rowSha256": "8cafaecb6cb8b1a1468ae144ba3ccb65ba70b0a2fae8342cfc0c7660a3c9e1d8",
+      "excerptSha256": "335fd6b5551cad5470792428378b5659133a0a080dd3c9ff113684524fdaa88e"
+    },
+    {
+      "id": "ev-firebloom-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8580,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "There be a whole mess of firebloom the Horde thinkin' they need for this Ahn'Qiraj war effort.",
+      "sourceId": "classicdb",
+      "rowSha256": "d47832bfe5369fc22be85e480548a3e84b96451a61214671fc3f4b412b764272",
+      "excerptSha256": "3b82223632c25b63423dc72afc9b5f9194388bc21a33bd3de5df9614fb59b5fa"
+    },
+    {
+      "id": "ev-firebloom-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8580,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring 20 Firebloom to Batrider Pele'keiki",
+      "sourceId": "questie",
+      "rowSha256": "32025e9f9821359f879597d3d79ba49df81382ab8c5ae91616ce88bd2d371beb",
+      "excerptSha256": "b1217cf956f409b8906ff2023cefad542b1b830d3883c0cb95daa65f88eef44f"
+    },
+    {
+      "id": "ev-firebloom-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 24895,
+        "locale": "enUS"
+      },
+      "excerpt": "Combine with 1 Truesilver Rod and 20 Firebloom to create a Scepter of Beckoning: Fire.",
+      "sourceId": "client",
+      "rowSha256": "4f2062cfbcb363cff8243e64234a8ac0531cb4ec63347c8c4b31fea460446dea",
+      "excerptSha256": "5cf32d9502e5e97a67397394ade6194b92f2f38792c56c2b0d1ca8c506f194f3"
+    },
+    {
+      "id": "ev-morrowgrain-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 3781,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "With what we call an Evergreen Pouch, we have cultivated Tharlendris seeds in the soil from Un'Goro Crater.",
+      "sourceId": "classicdb",
+      "rowSha256": "8a5f2b9bb71fe0fd0e58d5b6805df4fa7464ecedc29ef3c082d4f5d9a8962b81",
+      "excerptSha256": "a7d3276d7584b8cf4b4d33996c7b3abdd3b55cc3db741a55cc960f800687108b"
+    },
+    {
+      "id": "ev-morrowgrain-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 3781,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "These seeds blossom into an array of random, potent herbs.  One result is morrowgrain, a mysterious herb we know little about",
+      "sourceId": "classicdb",
+      "rowSha256": "8a5f2b9bb71fe0fd0e58d5b6805df4fa7464ecedc29ef3c082d4f5d9a8962b81",
+      "excerptSha256": "7c504e3c3ed20afff1275c7d911ff75a63890a801a84bdd043fbb0da30396b51"
+    },
+    {
+      "id": "ev-morrowgrain-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 3781,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Take this to Mathrengyl downstairs, and he will give you some seeds so you can get started.",
+      "sourceId": "classicdb",
+      "rowSha256": "8a5f2b9bb71fe0fd0e58d5b6805df4fa7464ecedc29ef3c082d4f5d9a8962b81",
+      "excerptSha256": "2ebf9fa0db42a3f50825a2c070cfc4e5bef7bfe74010a8108a0bb683ebffebc7"
+    },
+    {
+      "id": "ev-sapta-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1517,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "A sapta is a drink created to bind our spirits to the elements.",
+      "sourceId": "classicdb",
+      "rowSha256": "1a3adf719db4057b41b0f30dacafbc5cdb546f3c6e85bb08a85c2995ec3427c4",
+      "excerptSha256": "98def7add8b32f02a736c5c0a0fbd2eae28a9036cbef600633bb256bbac14030"
+    },
+    {
+      "id": "ev-sapta-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1517,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The sapta is always drunk in a holy place, and never anywhere else",
+      "sourceId": "classicdb",
+      "rowSha256": "1a3adf719db4057b41b0f30dacafbc5cdb546f3c6e85bb08a85c2995ec3427c4",
+      "excerptSha256": "6003e074745539887dec68aea9a80088caeeeda6ef154533dae2f9bb6dcfbe71"
+    },
+    {
+      "id": "ev-sapta-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1517,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Fused with magic, the potion will allow the strong willed to see the elements as no one else can.",
+      "sourceId": "classicdb",
+      "rowSha256": "1a3adf719db4057b41b0f30dacafbc5cdb546f3c6e85bb08a85c2995ec3427c4",
+      "excerptSha256": "5b03af99f739a4dc57b8f81983407a880a73accd079a41b460d474890c251178"
+    },
+    {
+      "id": "ev-stormstout-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 821,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Ahh, the stormstout is a mighty brew. Chen taught the recipe to my mentor, and my mentor passed it on to me.",
+      "sourceId": "classicdb",
+      "rowSha256": "4eb2520cea12c429332a888013aa554bd9704d9dcd7fffbd9e940d4f649b0463",
+      "excerptSha256": "61034dc143cd792cd990959c66741eb03eb65da56154c607914d11bb038eab62"
+    },
+    {
+      "id": "ev-stormstout-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 821,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring 5 Savannah Lion Tusks, 5 Plainstrider Kidneys, and 1 Thunder Lizard Horn to Brewmaster Drohn in Ratchet.",
+      "sourceId": "questie",
+      "rowSha256": "ffcf5fbbdcac18d014c84817ad627a755d32c6332aee87233da0007d9ccaf486",
+      "excerptSha256": "39a45935e7148a8cda9cd8836db794bc08ca5fd6ae8e70bfd1cc1506d7d22150"
+    },
+    {
+      "id": "ev-citrine-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2763,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Few gems are more precious than the citrine. The magical properties we imbue into our goods are amplified greatly by the presence of citrine.",
+      "sourceId": "classicdb",
+      "rowSha256": "4a40988b14945d8ae1a7b9994e52338dc737c915b5c94bb55e0a99d227e77323",
+      "excerptSha256": "5f697367533756d2855c12bc38b50f102edddd2787731a58c47aa7632405bcc6"
+    },
+    {
+      "id": "ev-citrine-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2763,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring forty Mithril Bars and four Citrines to Galvan the Ancient in Stranglethorn.",
+      "sourceId": "questie",
+      "rowSha256": "7ac3325e38a0136443e596f6bac93aafec3e0e539a0d2e1d46ad4f24c8797087",
+      "excerptSha256": "9811ff332c31649e9b51b82c46700e537713a8f2eb2e228990db473d0cd26944"
+    },
+    {
+      "id": "ev-citrine-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 10053,
+        "locale": "enUS"
+      },
+      "excerpt": "Conjures a mana citrine that can be used to instantly restore",
+      "sourceId": "client",
+      "rowSha256": "0a556edbba466e0d4dc43e892d49b1362c254b3d27e6a93b6d585a3ae6b17718",
+      "excerptSha256": "7a2d90be3c6588dfbc2aeadbfd978cf1840d11240f1525ca8539dbca18610f61"
+    },
+    {
+      "id": "ev-healthstone-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5699,
+        "locale": "enUS"
+      },
+      "excerpt": "Creates a Healthstone that can be used to instantly restore $5720s1 health.",
+      "sourceId": "client",
+      "rowSha256": "5dfe6288b631049ddb9b67cec14c6d4a6065a5f23f737c87cb00efec99fd7af6",
+      "excerptSha256": "a23b71242c34958dbe1960e872511d2ca67f61777ef5500dc76fb24b1bded03a"
+    },
+    {
+      "id": "ev-healthstone-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 5699,
+        "locale": "enUS"
+      },
+      "excerpt": "Conjured items disappear if logged out for more than 15 minutes.",
+      "sourceId": "client",
+      "rowSha256": "5dfe6288b631049ddb9b67cec14c6d4a6065a5f23f737c87cb00efec99fd7af6",
+      "excerptSha256": "31028b2393d7467872abeb36e8dceca886cc9526028fc9b29bcdf611bbce4ba8"
+    },
+    {
+      "id": "ev-healthstone-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 657,
+        "locale": "enUS"
+      },
+      "excerpt": "Teaches Create Greater Healthstone.",
+      "sourceId": "client",
+      "rowSha256": "22e07d25dacc9e449d6e0ef2c7d4e199978baa209ff96e877b7d2843affdc600",
+      "excerptSha256": "9a0a733733f3bdf331ea6d1edd9588debd81ae31225202c08c96f62d53200f4c"
+    },
+    {
+      "id": "ev-frostoil-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 713,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "nothing can keep an engine or gears from overheating quite like it.",
+      "sourceId": "classicdb",
+      "rowSha256": "510a988879c03da76adbb78a0d8f3d88fe48e2b1f7493b03f5047e85f0c8d4db",
+      "excerptSha256": "68e2ce543b2b49d8fa9272b46b729755231e52413133dee742316cd9b9d4e48e"
+    },
+    {
+      "id": "ev-frostoil-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 713,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "it also aids in retaining enchantments on magical items.",
+      "sourceId": "classicdb",
+      "rowSha256": "510a988879c03da76adbb78a0d8f3d88fe48e2b1f7493b03f5047e85f0c8d4db",
+      "excerptSha256": "c5b932532f85ec195a1061d33b3985d25a8c14a59f83bd76934777dd7a606488"
+    },
+    {
+      "id": "ev-frostoil-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 713,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Find Frost Oil and bring it to Lotwil Veriatus in Badlands.",
+      "sourceId": "questie",
+      "rowSha256": "152de8d5da0a5d61560a2e3f810f91b17225835339c742f120112b0a9b2cff5a",
+      "excerptSha256": "0b8ae04d405213a45d00fd8d11c712b0a15f945947c42126f4b094abf345045c"
+    },
+    {
+      "id": "ev-purplelotus-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8582,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "is a reagent in a great many potions, elixirs and oils",
+      "sourceId": "classicdb",
+      "rowSha256": "6e139a3c57576dc6445d958e9f0facc46c61fcbfd8bd328c24cbd59bf92f756f",
+      "excerptSha256": "09066a867a8a26235978e20a9d947fca33b830caf7f72518b8a65c1ac2077555"
+    },
+    {
+      "id": "ev-purplelotus-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8582,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "going to need a great quantity of the flower.",
+      "sourceId": "classicdb",
+      "rowSha256": "6e139a3c57576dc6445d958e9f0facc46c61fcbfd8bd328c24cbd59bf92f756f",
+      "excerptSha256": "fcea93b35b86af16cee315a9070516787159e96ea2dc4feb412c710cc3c2d6f2"
+    },
+    {
+      "id": "ev-purplelotus-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8582,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "We're going to need to create an immense number of those potions for the war effort.",
+      "sourceId": "classicdb",
+      "rowSha256": "6e139a3c57576dc6445d958e9f0facc46c61fcbfd8bd328c24cbd59bf92f756f",
+      "excerptSha256": "5e83bac65b7e963539289b718516122bbf40b57e3f8c4418fa4ca38b0b913b8c"
+    },
+    {
+      "id": "ev-kingsblood-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7736,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "It's time to focus on replenishing our dwindling fiery flux supply.",
+      "sourceId": "classicdb",
+      "rowSha256": "2bca6baa1510e9dfc51e18b5ebdcca4f40b4bc9c2a66b4b4272944b1d0c6c4e9",
+      "excerptSha256": "53e25b0cf648945481574084f563ea5f0bb09fb40b3bfca0d854d16930877ef1"
+    },
+    {
+      "id": "ev-kingsblood-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7736,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Deliver 2 Incendosaur Scales, 4 Kingsblood and one Coal to Master Smith Burninate.",
+      "sourceId": "classicdb",
+      "rowSha256": "772d91fb6669faa53f70e0af1e5dc4ad1516ab0b42973093c4a324239df0c197",
+      "excerptSha256": "3616c82597840db79a61ac92bd09e03c868a14683b56752477f8827a1415af70"
+    },
+    {
+      "id": "ev-wildvine-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2848,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "a potent but random benefit is applied to the item as the wildvine is stitched in.",
+      "sourceId": "classicdb",
+      "rowSha256": "b04725cc86915839f025422de496f06a806e94916714b8265dcaf1816798bbf8",
+      "excerptSha256": "ec68d2de06095b4155fb05cbb38438ee2142913dd28a3cd7757381a5fc0960c7"
+    },
+    {
+      "id": "ev-wildvine-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2848,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "I will require six thick armor kits and a wildvine.",
+      "sourceId": "classicdb",
+      "rowSha256": "b04725cc86915839f025422de496f06a806e94916714b8265dcaf1816798bbf8",
+      "excerptSha256": "7da845f9746e567f365238ca6737840043eb076b4824d140c956b7b02d0b6b83"
+    },
+    {
+      "id": "ev-wizardoil-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 9318,
+        "locale": "enUS",
+        "field": "request"
+      },
+      "excerpt": "In exchange for the necrotic runes of the Scourge invaders, the Argent Dawn will give you one vial of blessed wizard oil.",
+      "sourceId": "classicdb",
+      "rowSha256": "5f14b46239c1229377b5064db05f47fccad25f6279d2a2a9a21a54521e9d992e",
+      "excerptSha256": "7cae5f180bcac31365b565978a838830956b877e517470af095792104c0317de"
+    },
+    {
+      "id": "ev-wizardoil-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 25124,
+        "locale": "enUS"
+      },
+      "excerpt": "Creates Minor Wizard Oil.",
+      "sourceId": "client",
+      "rowSha256": "58f69bb7ca1a12b1865139c1961bc7caf4a616c187f013c1d6b06e8985c29dab",
+      "excerptSha256": "b4f94be0c364fbd6f3fa63bed319b0acea129c2fb4fb266a62508ac5216e88cb"
+    },
+    {
+      "id": "ev-wizardoil-3",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 25129,
+        "locale": "enUS"
+      },
+      "excerpt": "Creates Brilliant Wizard Oil.",
+      "sourceId": "client",
+      "rowSha256": "1acd2f8cad3edaa9bfcd5f65f3115131ea5f89cca153d3d518b6829756e86875",
+      "excerptSha256": "c3f6dbf5747160d51d69453881b2b44793557d96a4a3a07910cf5644849065fb"
+    },
+    {
+      "id": "ev-silverleaf-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 2329,
+        "locale": "enUS"
+      },
+      "excerpt": "With the mixture of Snakeroot for physical improvement and crushed Silverleaf for enhancement, a potion to to bring out one's inner lion is brewed.",
+      "sourceId": "client",
+      "rowSha256": "a3997961d40e7fc94d02a33cded682159b3eb3cf3607caee879a166454b30a27",
+      "excerptSha256": "7ca9faa10beca53b4f099278fe1cd002ece917d9767561ed102c49c17746bb3a"
+    },
+    {
+      "id": "ev-silverleaf-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 3230,
+        "locale": "enUS"
+      },
+      "excerpt": "crushed Silverleaf for enhancement, a potion to to enchance ones natural agility is brewed.",
+      "sourceId": "client",
+      "rowSha256": "eea2e9e7928b81c3f72df6a8bc54679fd980e6b6809103a78582d0644eadcd65",
+      "excerptSha256": "064369bc4a080b160447043f5a509d1329b048209c4d172a838848b5a0c15069"
+    },
+    {
+      "id": "ev-swiftthistle-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 3230,
+        "locale": "enUS"
+      },
+      "excerpt": "With  Swiftthistle for speed and crushed Silverleaf for enhancement, a potion to to enchance ones natural agility is brewed.",
+      "sourceId": "client",
+      "rowSha256": "eea2e9e7928b81c3f72df6a8bc54679fd980e6b6809103a78582d0644eadcd65",
+      "excerptSha256": "7c1068efabfda58812b3baf45813418a038c98466641b652c1f4013591e3beea"
+    },
+    {
+      "id": "ev-thistletea-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2358,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "As a young rogue adventuring in Darkshore, I discovered a tea that replenishes energy in combat.",
+      "sourceId": "classicdb",
+      "rowSha256": "a84909f60448fbac2e3df3d57b4475fcd869d8120bc3ade864a59dda053574b1",
+      "excerptSha256": "c2ef6e483cb76e2e1e3aee9bbaa84bd2188333c609b34aaed4fb097ea563170a"
+    },
+    {
+      "id": "ev-thistletea-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2358,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "It has served me well throughout the years",
+      "sourceId": "classicdb",
+      "rowSha256": "a84909f60448fbac2e3df3d57b4475fcd869d8120bc3ade864a59dda053574b1",
+      "excerptSha256": "c56f1dd6c4cee4de2a710a76349b028d9eaf5d6a462a1bf44da3f957ad120d0c"
+    },
+    {
+      "id": "ev-snowball-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 21935,
+        "locale": "enUS"
+      },
+      "excerpt": "Allows an experienced engineer to turn water into a snowball.  The Snowmaster requires a day to build up enough chill to freeze another snowball.",
+      "sourceId": "client",
+      "rowSha256": "923b83a9a910a9960265a35c82917a1a0e2c1d7affd1ca33c3cfdedcbc7c791c",
+      "excerptSha256": "ffd84ab8c0cf639dd5b5200380f661c42027bfd9f47dbcc470c28c338a161b49"
+    },
+    {
+      "id": "ev-snowball-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 21848,
+        "locale": "enUS"
+      },
+      "excerpt": "Change yourself into something more befitting the wintry season.  Requires a Snowball to use.",
+      "sourceId": "client",
+      "rowSha256": "1a932ad4a4c103c80ee64f5bbbc811bf8c4f49c0d5a0dbff94c50504c52aa04e",
+      "excerptSha256": "12545db5e8b8e4c7db7435997956be237b218b81fcfaccf7d809984b3776afde"
+    },
+    {
+      "id": "ev-targetdummy-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 4071,
+        "locale": "enUS"
+      },
+      "excerpt": "Drops a target dummy on the ground that attracts nearby monsters to attack it.  Lasts for 15 seconds or until killed.",
+      "sourceId": "client",
+      "rowSha256": "d10c0aa335ddd4e797e10b247f4657fcf06f43654f30902729b96f6913746d0a",
+      "excerptSha256": "e3e2a824a8ec61a87b15c69cd526e8954a9b934e83d55eeaa845e5f164a8a325"
+    },
+    {
+      "id": "ev-targetdummy-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1371,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "bring an Advanced Target Dummy to Warug in the Magram Village in Desolace.",
+      "sourceId": "questie",
+      "rowSha256": "e8cb262f44cfc981faa852fdda25471b3475978c04f25299ca70f502f8629bf4",
+      "excerptSha256": "afd9a2353b22084d702666f61022abf4a541bc7fe259880c1ceda243d13bc5de"
+    },
+    {
+      "id": "ev-darnassian-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1185,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "It was a journal written in a very ancient dialect of what we now call the Darnassian tongue. It'll take a while, but I'm going to go over it very thoroughly. I thought you should know that what you found was extremely valuable for the Circle.",
+      "sourceId": "classicdb",
+      "rowSha256": "efb2a691a6cf93299ccdcb56ddb571a24a709beea2f4a53a2c5894864d2dd468",
+      "excerptSha256": "55ea96a70292ea6ead15a868c1d75728ffb69f523267cbcfb3cd199fe4d2110e"
+    },
+    {
+      "id": "ev-darnassian-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1185,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "The den mother's all excited and everything!",
+      "sourceId": "classicdb",
+      "rowSha256": "efb2a691a6cf93299ccdcb56ddb571a24a709beea2f4a53a2c5894864d2dd468",
+      "excerptSha256": "df84c3e036a531ccacfcca59226150f624438c040ec536e363184076bf3d98ae"
+    },
+    {
+      "id": "ev-taurahe-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 885,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "Washte Pawne, called Spirit Biter in Taurahe",
+      "sourceId": "classicdb",
+      "rowSha256": "4cf12cbe21d3e34755a3a44958b6362e94b84406611da4393f658e18db07b8e6",
+      "excerptSha256": "a6891d428784216e0c7c949d6a39989a1d18517ab63ee3f255ac7bb83c77ae5c"
+    },
+    {
+      "id": "ev-taurahe-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 885,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The feather of Washte Pawne is painful to the touch.",
+      "sourceId": "classicdb",
+      "rowSha256": "7ad6292bce516ec8ce6c490068ea3a7c9ae28ad2eb573b5438ad5170b71968f0",
+      "excerptSha256": "b536509e72592e4e3287ffefaab8a9732d37c197f6f6315016605df8bff6fcb0"
+    },
+    {
+      "id": "ev-taurahe-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 885,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring Washte Pawne's Feather to Jorn Skyseer",
+      "sourceId": "questie",
+      "rowSha256": "e6403401a22d8dfe3723c0227efee50d256e1c74945195ed9960372134e64ab4",
+      "excerptSha256": "9f6053273bbaab510d9a2cb36df0da61d6f2b9ab7aa7e4628c45fde3808730ef"
+    },
+    {
+      "id": "ev-gnomish-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 825,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "retrieve 3 Gnomish Tools from the wreckage off the coast",
+      "sourceId": "questie",
+      "rowSha256": "55d99c11603fd54180edec7c53b1cf055b79fd95c0b167c6bd9b866c9d30679c",
+      "excerptSha256": "cd20e74e22536fa9872c212ee9c8a26367bbb828af2ba9fff4ac7d19a553ecb9"
+    },
+    {
+      "id": "ev-gnomish-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 825,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "the wreckage of Proudmoore's fleet still remains off the coast of Durotar",
+      "sourceId": "classicdb",
+      "rowSha256": "e7c6d20e3b252aed47b8e753665d2e3630b2b41a275a86fde88721bb5c5abb1b",
+      "excerptSha256": "ecf84610a6356abd5d412a1d88741870f303cb16a8bb737bcfb65d7e69b4acb4"
+    },
+    {
+      "id": "ev-draconic-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6570,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "wear the Amulet of Draconic Subversion and speak with Emberstrife",
+      "sourceId": "questie",
+      "rowSha256": "0c566e7038240e1c4cea5e3905ed207e218fa059eeffacc1c0c59ea32979dab9",
+      "excerptSha256": "03baef1a8e800b2ace5f6b9fd2200d468a668dbffc3532fe17de71bcd8cd831d"
+    },
+    {
+      "id": "ev-draconic-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6570,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Emberstrife is an ancient drake; an old gatekeeper of Nefarian, burdened with the duty to test those dragonspawn that would ascend to the rank of elite guard to Onyxia.",
+      "sourceId": "classicdb",
+      "rowSha256": "0aa3d20d20f08db3bfb05bda8ba3e3aa7c7f4f3ba0a55b0783a12542f3ed3fa6",
+      "excerptSha256": "fa8f434c22b3f401c11de27e292e4fd76839ae76b4f26f5faf048e5b43a6c646"
+    },
+    {
+      "id": "ev-demonic-1",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1714,
+        "locale": "enUS"
+      },
+      "excerpt": "Forces the target to speak in Demonic, slowing the casting time of all spells",
+      "sourceId": "client",
+      "rowSha256": "9e4092aa296a851a0a25944067e9c7c6aef03e30434e4bed01f2a38a3e132056",
+      "excerptSha256": "fb2b06d81ac7dfb032f19532f06b76600134162b0a863114c9651c9f32f500ac"
+    },
+    {
+      "id": "ev-demonic-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 1714,
+        "locale": "enUS"
+      },
+      "excerpt": "Only one Curse per Warlock can be active on any one target.",
+      "sourceId": "client",
+      "rowSha256": "9e4092aa296a851a0a25944067e9c7c6aef03e30434e4bed01f2a38a3e132056",
+      "excerptSha256": "53175288e42bda7b0f4256a5044d7248a0db04ad55a2ed723eb7c3e1121689dd"
+    },
+    {
+      "id": "ev-orcish-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1219,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The parchment is written in orcish... and it looks important.",
+      "sourceId": "classicdb",
+      "rowSha256": "12db7c940711c6ff59bf1d90ea7cc34299d985b288e6bc36c5f68eeef53cce60",
+      "excerptSha256": "5c4a332a12060b5bbef0a324a68c94207df4bb2ab82c06a7d52a68d5a4332761"
+    },
+    {
+      "id": "ev-orcish-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1219,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "I can't read orcish very well, but this looks like a report... written by an orc spy!",
+      "sourceId": "classicdb",
+      "rowSha256": "2a743f5937cbc89be459ff91cd49aec85e0644b7f0819ee9ef42df034ad0cd96",
+      "excerptSha256": "4ac762044c52d830f1e659baa8e0c30d1563effc63daf195cb4036a3f7922727"
+    },
+    {
+      "id": "ev-leatherworking-1-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5144,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Wind to Sarah Tanner in Searing Gorge.\n\nCompleting this quest will give you access to the Elemental Leatherworking arts.\n\nThe completion of this quest will prevent you from learning Dragonscale Leatherworking and Tribal Leatherworking",
+      "sourceId": "questie",
+      "rowSha256": "0a391b4cfc936b17e21fbfb2783c3034bc4534c47b275338cf7257808360ac1a",
+      "excerptSha256": "5cb28d62aa8bea0a28da6679bd9dfd94b28305be1dcbf9cf42ea27c33b86534e"
+    },
+    {
+      "id": "ev-dragonscale-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5141,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring 2 Tough Scorpid Breastplates, 2 Tough Scorpid Gloves, and 10 Worn Dragonscales to Peter Galen in Azshara.\n\nCompleting this quest will give you access to the Dragonscale Leatherworking arts.\n\nThe completion of this quest will prevent you from learning Elemental Leatherworking and Tribal Leatherworking",
+      "sourceId": "questie",
+      "rowSha256": "770e501b09fe8e878a6491b83bbcdeb1170f6e2272944cb35b10102b1bf11d05",
+      "excerptSha256": "c757f6743dc8385ae487cbb65f01714cd33fe5e2b255527b04cd1e66ff0a1611"
+    },
+    {
+      "id": "ev-blacksmithing-1-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2758,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "Blacksmithing never comes from here! <Hank points to his hammer.>",
+      "sourceId": "classicdb",
+      "rowSha256": "e3b6e6eac65d24a082cfcc064f001f9cdff1d7d2c571950af59bbc1091d332a6",
+      "excerptSha256": "c29e52b2f43bb5da0a92a7c4f147b0282e632f2323ddead8f87b5608ff664a41"
+    },
+    {
+      "id": "ev-blacksmithing-2-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2758,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "Blacksmithing only comes from here! <Hank points to his heart.>",
+      "sourceId": "classicdb",
+      "rowSha256": "e3b6e6eac65d24a082cfcc064f001f9cdff1d7d2c571950af59bbc1091d332a6",
+      "excerptSha256": "ef8a534a527161435b2f7b029b22f79e3b906d72e1a20e83bfb035606681e2be"
+    },
+    {
+      "id": "ev-blacksmithing-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2758,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "he made me promise to train all those with the desire and determination to advance in the craft of blacksmithing",
+      "sourceId": "classicdb",
+      "rowSha256": "14c268c161edd8e38bb00dc2fc484bffbc1d12cb99665c80121a6ac1c795b8f4",
+      "excerptSha256": "cc7431bf62817fd67a60aab69ef83a97f7988277aa2f5535a1bfbea3c6d1164b"
+    },
+    {
+      "id": "ev-armorsmith-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5283,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "To become an Armorsmith, you must make the following items and return them to Grumnus: 4 Ornate Mithril Helms, 2 Ornate Mithril Boots, 1 Ornate Mithril Breastplate.",
+      "sourceId": "questie",
+      "rowSha256": "5d5344c2c037d7280176bb7e4adad5f867ddcc6adcbc6de1efd818e3b3fc4cb0",
+      "excerptSha256": "336de6217e529a7dbbb6708eedc57c74bf8047869cbb09ad7ffcb1b8a6971764"
+    },
+    {
+      "id": "ev-armorsmith-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5283,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The truly great wars are won with a good defense.",
+      "sourceId": "classicdb",
+      "rowSha256": "ce2c9d0249caafcc02252073dfe2bf7841e832326903bcb5a3bc62a2add8d9de",
+      "excerptSha256": "13f5df6672037dd9ce6b3f55d45dba009d5a7fd30668d7b42aa8a85470e35219"
+    },
+    {
+      "id": "ev-weaponsmith-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5284,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "To become a Weaponsmith, you must make the following items and return them to Ironus: 4 Moonsteel Broadswords, 4 Massive Iron Axes, 2 Heavy Mithril Axes, and 2 Big Black Maces.",
+      "sourceId": "questie",
+      "rowSha256": "c00060ea10e38fadbabe51e1d1de00d917fd2b093845a270934eb4c46d4842a1",
+      "excerptSha256": "91930019f894dda2253cad5c863214c7dfa53c9aecc0868379cd20d18917f3c1"
+    },
+    {
+      "id": "ev-alchemy-1-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7629,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "There is an alchemy lab, however, with everything needed.",
+      "sourceId": "classicdb",
+      "rowSha256": "316aa617c413c014f938af2b4482e5eb939d8fe0ac709a91479764a024d189c7",
+      "excerptSha256": "8c8cc68752dee5c23fe22b23b90055c9513b46a815efd668db3281676ba4e957"
+    },
+    {
+      "id": "ev-alchemy-2-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7629,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "After the parchment is created, return the jar to Gorzeeki Wildeyes.",
+      "sourceId": "questie",
+      "rowSha256": "baca9a0bd6600b96e7c3cea257cd5e3ad9ea5d28694326454c39d9f87b16e07d",
+      "excerptSha256": "45fe092d32b10ef3c64918f0dc954e011270ed2a4ed544815bf0777363d647bb"
+    },
+    {
+      "id": "ev-alchemy-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7629,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "There's an imp inside who is quite clever.",
+      "sourceId": "classicdb",
+      "rowSha256": "316aa617c413c014f938af2b4482e5eb939d8fe0ac709a91479764a024d189c7",
+      "excerptSha256": "15c252a80a434a3813dbad9c2cbd96789d8c66e8122617fb2bb3b935e5988091"
+    },
+    {
+      "id": "ev-lockpicking-1-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8249,
+        "locale": "enUS",
+        "field": "request"
+      },
+      "excerpt": "My rogues need to hone their lockpicking skills, and I need locks of adequate difficulty",
+      "sourceId": "classicdb",
+      "rowSha256": "ced303d3cc40b7ff480f9ddeec545adae3f5c70641031a28df05875502d66b19",
+      "excerptSha256": "f23d36eb8dcd8cb3306b2b001cbd073d8fadd6374f4c32d20be17df48149431b"
+    },
+    {
+      "id": "ev-lockpicking-2-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8249,
+        "locale": "enUS",
+        "field": "request"
+      },
+      "excerpt": "if you bring me 5 Heavy Junkboxes",
+      "sourceId": "classicdb",
+      "rowSha256": "ced303d3cc40b7ff480f9ddeec545adae3f5c70641031a28df05875502d66b19",
+      "excerptSha256": "3cd9c1d7503804ae0458c20bab7ee3985c876d04f4e95aaddb17f700e755b29d"
+    },
+    {
+      "id": "ev-lockpicking-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1999,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "You have learned the fine art of lockpicking well, and faster than I could have possibly expected.",
+      "sourceId": "classicdb",
+      "rowSha256": "c2ae3e3fcc0828455c002e2f90ab542530d9952a3630ec82e54f433f0143b8af",
+      "excerptSha256": "17af80b9ab79401bc7a160671c1357da64a01471fcfeda7fa6177244614bc343"
+    },
+    {
+      "id": "ev-stable-master-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7027,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "the Alterac Ram will follow you back to the Stable Master. Speak with the Stable Master to earn credit for the capture.",
+      "sourceId": "questie",
+      "rowSha256": "7d2ceccbc7f1de6a546eb5837faa4e9fb016e98ebad27b28e57f5d8fa9c730cb",
+      "excerptSha256": "cc684d38b2ea232cb54710ab1077cc32c964a44dd1384a4c8ebea9a9c894071a"
+    },
+    {
+      "id": "ev-stable-master-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7001,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "When we have enough wolves stabled, the Wolf Riders will rejoin their patrol on our front lines.",
+      "sourceId": "classicdb",
+      "rowSha256": "4fdef72a633dfd9133c27d8abcb2b31d98a58e9b235bce8cd195c10100d3a829",
+      "excerptSha256": "e6ddd8e57b82cd06fadaf79659ed034e3e31bdc30182ce4f6609b07b7c0f56aa"
+    },
+    {
+      "id": "ev-gryphon-master-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2988,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Check the cages at the two Witherbark villages, then return to Gryphon Master Talonaxe.",
+      "sourceId": "questie",
+      "rowSha256": "84b07b228b500b2ef8bccae4704b1164f4c71943c2234d068d0e1cdb9dbdbe72",
+      "excerptSha256": "7bf40d5bb0ee234ed31282728e5dae140cec8ad261d3605ac6becb6ea741833b"
+    },
+    {
+      "id": "ev-gryphon-master-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1450,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Speak with Gryphon Master Talonaxe inside the Aerie Peak Aviary.",
+      "sourceId": "questie",
+      "rowSha256": "54d5d8fcee40f5a2677f76ec5056c3ab6004af175e20408d867e1958d2e00b06",
+      "excerptSha256": "9a12ab266ba9613189bc39ee922d2566e4e550d2f1ff4cd6d4e415161f2db86b"
+    },
+    {
+      "id": "ev-gryphon-master-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1450,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "If you're so interested in the flight assignments why don't you ask the gryphon master?",
+      "sourceId": "classicdb",
+      "rowSha256": "971e127b5e5741f4037d60c7bf133ee2cb0defc3e2eed8a432d7517f186836fb",
+      "excerptSha256": "ee2b9b043c3e46f5377de1bc7a938383fe761284801272c05b95d0647094e46d"
+    },
+    {
+      "id": "ev-wind-rider-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6362,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "For a small fee, I will give you a wind rider to Thunder Bluff.  There's no faster way to the city!",
+      "sourceId": "classicdb",
+      "rowSha256": "42850d8de41a0442ddbab73174dc03d0a3a0a1ec722888ec033308eaa51d414b",
+      "excerptSha256": "4b432e2548ecb24be67f2f90b34bb8af9d07fd5d8acf3739590acae23bd93744"
+    },
+    {
+      "id": "ev-wind-rider-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6362,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Buy a wind rider to Thunder Bluff from the wind rider master Devrak",
+      "sourceId": "questie",
+      "rowSha256": "cde52075d98bcea34595954436c7489c618d53954cee9446e3989b9c9f0df1e9",
+      "excerptSha256": "a3f39fe669a9b4effbd17891a64c39e1d1ce48e5fda50866f8496c73e85e52e4"
+    },
+    {
+      "id": "ev-harvest-festival-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8149,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Uther's Tribute at his statue, and then return to Wagner Hammerstrike outside Ironforge before the Harvest Festival is over.",
+      "sourceId": "questie",
+      "rowSha256": "bfd385d9983053286a732c7f0f8a7535e4c54bb876b16bc06ca6a8c641f826b9",
+      "excerptSha256": "4e64f177e02786e45e13fa90a240558157db0cf542f5169187186157814e81f4"
+    },
+    {
+      "id": "ev-harvest-festival-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8150,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Grom's Tribute at the base of the monument. Return to Javnir Nashak outside Orgrimmar before the Harvest Festival is over.",
+      "sourceId": "questie",
+      "rowSha256": "b3624051c5261ad298b91ff837f347e81b68d9c6f62de336749afe3f87201b62",
+      "excerptSha256": "1fd958412086283da3ee8fca8017bbc96a75bf7142ec28a612e5ca936bdb62fe"
+    },
+    {
+      "id": "ev-harvest-festival-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8149,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "During the Harvest Festival of Azeroth, we give thanks to heroes for the sacrifices",
+      "sourceId": "classicdb",
+      "rowSha256": "392ad1634dd552a2885b1ac7b049f1496bfc414465e64aa9ac42a4597f441a5e",
+      "excerptSha256": "f789bc217a3e3104afa6409534f4580d6ebd55ec829993b3638ae316dcd7668b"
+    },
+    {
+      "id": "ev-scourge-invasion-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 9247,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "others that are here to aid us will gain great insight into how best to throw back this Scourge Invasion!",
+      "sourceId": "classicdb",
+      "rowSha256": "197b23ae2dff9f0488715a24be3c70f666e4189547481943ec10d85275a6e093",
+      "excerptSha256": "b37c8db0eea0821889058b4ef0a2ded05c706fe978358ea2d186cd7758a13869"
+    },
+    {
+      "id": "ev-scourge-invasion-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 9247,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Take the Letter from the Keeper of the Rolls to him",
+      "sourceId": "questie",
+      "rowSha256": "e6e73d42f3997291958c68a14b80ef6b39c9f91ac3bc49f109287be1231ba2a5",
+      "excerptSha256": "c9dfcd4317c3f389495528c8e21c9b516dc370f11184332d009d5933448bc967"
+    },
+    {
+      "id": "ev-scourge-invasion-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 9247,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "we sound the clarion call in our time of greatest need",
+      "sourceId": "classicdb",
+      "rowSha256": "ea11883ac89665394e64b321291827e6886d53ca21565e64d2d2162abf78b3c6",
+      "excerptSha256": "e4115ec3c062aa955078aad6e38f3a8800addc47de0872630ffbf215b5073bb2"
+    },
+    {
+      "id": "ev-childrens-week-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 172,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Use the Orcish Orphan Whistle to talk with the child you will be looking after during Children's Week.",
+      "sourceId": "questie",
+      "rowSha256": "a3decd639eaa9d41220cb9ea0ac314059895a7a709e3122ff1ef4a6c127403de",
+      "excerptSha256": "05a2fcd4106646f16739348a1438812e3578bc8ed4ec281ec4f88bd12b77d531"
+    },
+    {
+      "id": "ev-childrens-week-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 172,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "You will only be able to use it for a short amount of time - typically not longer than Children's Week itself.",
+      "sourceId": "classicdb",
+      "rowSha256": "15b3ac193abaa5b1d44b1344acbc154066784583d797bca43f45515494f2aec4",
+      "excerptSha256": "0511c9fcd7abde181c227581c81a4a1d30d4b4d9548dbbe248040a172a52502a"
+    },
+    {
+      "id": "ev-flamekeeper-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 9367,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Each year, as tradition dictates, Flamekeepers are chosen to tend the bonfires within our capitals.",
+      "sourceId": "classicdb",
+      "rowSha256": "0fc466a1698d862ddf3e9c245ba032809dfec720fb73c9c503bf1a0540a552fb",
+      "excerptSha256": "4d50e6b4c0690ab6853aa77ed42968e89efcc9227b87fe7282ba33b4d279ddf4"
+    },
+    {
+      "id": "ev-flamekeeper-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 9322,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Visit the Midsummer camps located in Azshara, Silithus, Un'Goro Crater, and Winterspring, then return to the Festival Flamekeeper.",
+      "sourceId": "questie",
+      "rowSha256": "f89b5904b36bc90443a289df542298fb5cf1f12738b048dafe3c9ae07f95b8e4",
+      "excerptSha256": "58deba0eab615dc5cd091b50819707b3ac7eedcea87e0a516af2383d4d93dfe9"
+    },
+    {
+      "id": "ev-bonfire-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 9319,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Find and touch the bonfires located within Blackrock Spire, Dire Maul, Scholomance, and Stratholme",
+      "sourceId": "questie",
+      "rowSha256": "9f1e048567fda1e4f07a3b07f2a83ebc1c3e9f428b5fdf410f847fd603697413",
+      "excerptSha256": "f3a884557ec6b91aedd94f1f7cfc061671710d99a427568f02738e51b21b3564"
+    },
+    {
+      "id": "ev-bonfire-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 9322,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Midsummer cannot be truly appreciated unless you've seen the blistering blue fires abroad.",
+      "sourceId": "classicdb",
+      "rowSha256": "7cc6236737a451e0e8357d538408aaf0064a2e4acc73816212f816c2faab989a",
+      "excerptSha256": "96d6c8dd2847373136a0ac661c8357fb1832939f256938156266455faa66e0f9"
+    },
+    {
+      "id": "ev-harbinger-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8870,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Talk to the Lunar Festival Harbinger in the Mystic Ward of Ironforge. You can also talk to Lunar Festival Harbingers in other capital cities.",
+      "sourceId": "questie",
+      "rowSha256": "6aa540f8a04382e91b34fa219be302f6b6e5f392dc6765119a47e15f76403804",
+      "excerptSha256": "f980953984947136c2cac7863842e91db8c4760616f1b293521335229367039f"
+    },
+    {
+      "id": "ev-harbinger-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8871,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Talk to the Lunar Festival Harbinger in the Park District in Stormwind.",
+      "sourceId": "questie",
+      "rowSha256": "a8728affcfdda3d7f17b33d45d12d23ee27afde6a16efb2440413af5ba19ef4c",
+      "excerptSha256": "5dbf0b816244703bb4ab6c41276d704e6c7123aab462b8cbd00c438fda68037e"
+    },
+    {
+      "id": "ev-fireworks-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8867,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Launch 8 Lunar Fireworks and 2 Cluster Fireworks",
+      "sourceId": "questie",
+      "rowSha256": "90c880d50d01cdf63dc435cab7b14c9303fac0cad2dd4f736c3095c41ed1a024",
+      "excerptSha256": "2da5baf90471f77ba0ab4cc350fa08322ade20cd33951748494999841628f552"
+    },
+    {
+      "id": "ev-fireworks-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8867,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "For a small donation you can purchase colorful rockets from our vendor.  Try using some of the launchers around here",
+      "sourceId": "classicdb",
+      "rowSha256": "905dd105b07d18283f4f3bf8f1522b576e9a19cbb128e506bbf0a2b67a7101d9",
+      "excerptSha256": "961f2f7446f70ba0cb6e8c1718c51146a1aa7653a5de1833a9724c7913108d9f"
+    },
+    {
+      "id": "ev-wickerman-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1658,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Locate the Forsaken's Wickerman Festival in Tirisfal Glade.",
+      "sourceId": "questie",
+      "rowSha256": "837632ae29fa612c2d6fef1e4beac23a6ff3f7a8aaafd978b6a3b9c39eb76b87",
+      "excerptSha256": "093fa9ac3a566a7ec3ee24bd167584490e92db0995e8301e279f28d3877b1263"
+    },
+    {
+      "id": "ev-wickerman-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8409,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Return to Darkcaller Yanka at the Wickerman Festival in Tirisfal Glade.",
+      "sourceId": "questie",
+      "rowSha256": "306007e341cd0bffebd3bd9594570d744343baca603dce156e33108def37c6c5",
+      "excerptSha256": "08cc0792ff16d2536097e5caf9be853091c882c754fbacfbdaccbec6fa3665f4"
+    },
+    {
+      "id": "ev-wickerman-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1658,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The guards at the festival will be exceptionally vicious.",
+      "sourceId": "classicdb",
+      "rowSha256": "05d8629542cfb82b048715ef1f141481bcb025ad2a52d487cd24129ceb88f8f1",
+      "excerptSha256": "aab96ca261b160a3837fb6f898b8eb06a67224c4dca08518f900a34cf20965cd"
+    },
+    {
+      "id": "ev-greatfather-winter-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6962,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring 5 Gingerbread Cookies and an Ice Cold Milk to Greatfather Winter in Orgrimmar.",
+      "sourceId": "questie",
+      "rowSha256": "5da6fc2779005b6311ac3519516aefe835fae334db3f1b1c4516fc8b6a06440a",
+      "excerptSha256": "3cca070c2cc85a15f308c4608e45fa817f1f715bb1f32fff4e921aceed2f703e"
+    },
+    {
+      "id": "ev-greatfather-winter-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6961,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "you'll receive wondrous treats on the day of the Feast of Winter Veil",
+      "sourceId": "classicdb",
+      "rowSha256": "3b4ca999272845f417eb332dfd8c0c24dbcee48fde6ae2ea516ff92cf3d4201b",
+      "excerptSha256": "b484d30ced70adcba19aa283143b062f222937eca0418c55badbbc4cdfc7714a"
+    },
+    {
+      "id": "ev-greatfather-winter-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6961,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Be sure to tell him what you hope to get this year!",
+      "sourceId": "classicdb",
+      "rowSha256": "3b4ca999272845f417eb332dfd8c0c24dbcee48fde6ae2ea516ff92cf3d4201b",
+      "excerptSha256": "40129ba945aab1d8cb2bb0238bffc2b1bcbc9a9e1173de1d801af2ec8251aaee"
+    },
+    {
+      "id": "ev-altar-of-elune-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4901,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Protect Ranshalla while she attempts to reactivate the Altar of Elune.",
+      "sourceId": "questie",
+      "rowSha256": "71f6fd56f468516f1463cba7826b109a105d9aed9b25bf9d61c528d6288b2d7c",
+      "excerptSha256": "f1044b1123a11925dcfbfbffed8deb1c189f73af65eb37c10aefb58a9f04d916"
+    },
+    {
+      "id": "ev-altar-of-elune-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4901,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "At the very top of the ridge lies what I believe to be an altar of the goddess Elune. From what I can tell, we need to light the five torches in each cave",
+      "sourceId": "classicdb",
+      "rowSha256": "4ac9942d243f7504f4f59559f399876de93e290e07fa1ffff60cb76543766e68",
+      "excerptSha256": "d959aa89bb7e7f5b833bb09ae897f03a4b5d66fbb1c9b5ebffeadde4316297a3"
+    },
+    {
+      "id": "ev-wind-stone-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8331,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "controls the Hammer through the arcane wind stones dotted amongst the cult's camps",
+      "sourceId": "classicdb",
+      "rowSha256": "d42fb8356e93404d2f5d2002ae7525a28da75a14fad01a98b821e48f0ed854e8",
+      "excerptSha256": "9fa9a9eac4f2041dc96d4e8a51f0ab1e1783351d9235086ab967f5a72ddfa056"
+    },
+    {
+      "id": "ev-wind-stone-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8332,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "We think it is possible to use a wind stone to ambush a duke of the Abyssal Council.  To do this, however, one must commune through the wind stone",
+      "sourceId": "classicdb",
+      "rowSha256": "6731be500a7bbb9a4f3f57a4fac4c518fa8b71bf7e6ea6175256655a94c2b8ae",
+      "excerptSha256": "bb1302dd2312a94041cf54368dbe3e9595017fcae77ca37ee1c37bd7f4c7e8ce"
+    },
+    {
+      "id": "ev-orb-of-command-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7761,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Only those with the Mark of Drakkisath branded upon their hand may make use of this orb.",
+      "sourceId": "classicdb",
+      "rowSha256": "3d33e92504bfe8eef047209142362fd94eb01aad336bf0c6ce792391ad0c94c9",
+      "excerptSha256": "95abf24c58cb92567566bdca1c0fe8436b449e1f951c160134037ed17ed1b57f"
+    },
+    {
+      "id": "ev-orb-of-command-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7761,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "He guards the brand himself!",
+      "sourceId": "classicdb",
+      "rowSha256": "3d33e92504bfe8eef047209142362fd94eb01aad336bf0c6ce792391ad0c94c9",
+      "excerptSha256": "0e1ecdfc59d7547a12eb989da6e82145ecbfbf675ff18a12c94ab637fcfa236b"
+    },
+    {
+      "id": "ev-orb-of-command-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7761,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "you need to find this brand and gain the Mark of Drakkisath in order to access the Orb of Command",
+      "sourceId": "questie",
+      "rowSha256": "ab7b78315caab918f8a36a8621932d760570cd2f927b4b5ece7fec1cea337da3",
+      "excerptSha256": "e2689e17f3ea6aada645c68bf2440e9b91877598c95c2149b6e7eb98907fd180"
+    },
+    {
+      "id": "ev-great-bear-spirit-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5929,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "In the northwest part of Moonglade resides the home of a wise and noble being we call the Great Bear Spirit.  For all druids, it has served as a tutor and mentor into the first true natural understanding of the bear.",
+      "sourceId": "classicdb",
+      "rowSha256": "24c96e3d51f8dcc88e99fb05d8a9bc5310ca3a4aa41fa34df21df1f82b0e728e",
+      "excerptSha256": "0d8618ad1cd3ac9765bbdeac13abba9786ca051470e6a6982248139809b3420b"
+    },
+    {
+      "id": "ev-great-bear-spirit-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5929,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "return to me here in Nighthaven",
+      "sourceId": "classicdb",
+      "rowSha256": "24c96e3d51f8dcc88e99fb05d8a9bc5310ca3a4aa41fa34df21df1f82b0e728e",
+      "excerptSha256": "fb7f91c3adb4ced1117eb952c0b4e2232f8adf5f4684722bc62e2b4052f8fb08"
+    },
+    {
+      "id": "ev-musha-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 177207,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Her left eye, Mu'sha (the moon), gave peace and sleep to the stirring creatures of the dawning.",
+      "sourceId": "classicdb",
+      "rowSha256": "4409b962dd429c860a3cf8e9d886206db6e1e8c24df21f78fef6fe99b04a104e",
+      "excerptSha256": "8933f5a666825c1eac7ed11392aa04cce1d94a0ea2c2397e0dad465981ee026e"
+    },
+    {
+      "id": "ev-anshe-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 177207,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Her right eye, An'she (the sun), gave warmth and light to the land.",
+      "sourceId": "classicdb",
+      "rowSha256": "4409b962dd429c860a3cf8e9d886206db6e1e8c24df21f78fef6fe99b04a104e",
+      "excerptSha256": "2a38f04bebecc67cc251ae6785f7665de749902d452460081dbc089c798abed4"
+    },
+    {
+      "id": "ev-shuhalo-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 177207,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Wherever the shadow of her arms passed, a noble people arose from the rich soil. The Shu'halo (the tauren) arose to give thanks and prayer to their loving mother.",
+      "sourceId": "classicdb",
+      "rowSha256": "74e7ef5fd32f993a6531264ac29fb0bb74929aef6640e918706a79ccf6ce3676",
+      "excerptSha256": "bfb013c286e546db179ca11eadd770418644b0b7a8239d201f05539692984648"
+    },
+    {
+      "id": "ev-shuhalo-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 177207,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "the children of the earth swore themselves to her grace",
+      "sourceId": "classicdb",
+      "rowSha256": "74e7ef5fd32f993a6531264ac29fb0bb74929aef6640e918706a79ccf6ce3676",
+      "excerptSha256": "b9c83d8d2c4d85ec59cf22c0acb5ef8778e8150687d5b4af8dcb2addbe6bdb99"
+    },
+    {
+      "id": "ev-nordrassil-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "The night elves' gave their World Tree the new name Nordrassil, which meant \"crown of the heavens\" in their native tongue.",
+      "sourceId": "classicdb",
+      "rowSha256": "d836dbe90a9a00a14a09b284c6d5cfbfbf9d4a974bdf335774eba15e0baa9713",
+      "excerptSha256": "2934b6fc9a71c29c92d72c902e29050240953cb72e999858b54c98cb7710f6d8"
+    },
+    {
+      "id": "ev-nordrassil-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175730,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "Alexstrasza, the Lifebinder, placed a single, enchanted acorn within the heart of the Well of Eternity.",
+      "sourceId": "classicdb",
+      "rowSha256": "85a66d5f0df2b9978fafc36f0c858f89ebf3d602450e20b50459c4b2f9ba0f72",
+      "excerptSha256": "6ca8e310adb5c0e02e828ee47ba716dbb7ec1c8af3cdfbff6097d3aaf2bc6c89"
+    },
+    {
+      "id": "ev-maelstrom-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175733,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "The high elves, led by Dath'Remar, left Kalimdor behind them and challenged the storms of the Maelstrom. Their fleets wandered the wreckage of the world for many long years",
+      "sourceId": "classicdb",
+      "rowSha256": "c0081b094a77010b0b7b54f25ae66e430fbfdb3c4b0fb8671d7642586cb1c772",
+      "excerptSha256": "d8903404cc5a161b9de1caeba47d3260af0aa9743d83aca9116f6d2075d7cc87"
+    },
+    {
+      "id": "ev-durnholde-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "The chief warden of the internment camps, Aedelas Blackmoore, watched over the captive orcs from his prison-stronghold, Durnholde.",
+      "sourceId": "classicdb",
+      "rowSha256": "d69b373040bcded455278de7bad15a960d431f0ddb1f066c53cc02902402ccb9",
+      "excerptSha256": "10b31a02f2431f1530a99af264ec205f044f808a2909d17d874e2e8f8e4a533b"
+    },
+    {
+      "id": "ev-durnholde-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175752,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "Thrall returned to Blackmoore's fortress of Durnholde and put a decisive end to his former master's plans by laying siege to the internment camps.",
+      "sourceId": "classicdb",
+      "rowSha256": "5b24a2019cb6179dd0ed3178aa56a6f4df490f54f9288e043a2a4d355fd48c0f",
+      "excerptSha256": "f55d0a8bdc43c54aa71abe79125fda11f0b81b8f579a7f97e00a99b784d11edb"
+    },
+    {
+      "id": "ev-shadowmoon-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175747,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Ner'zhul, the former mentor of Gul'dan, rallied the remaining orc clans under his dark banner. Aided by the Shadowmoon clan, the old shaman planned to open a number of portals on Draenor that would lead the Horde to new, unspoiled worlds.",
+      "sourceId": "classicdb",
+      "rowSha256": "0b2ebe08b90d049078a3ae09dab6af75c84bcb4b8abefc067b68fe62ec0e9890",
+      "excerptSha256": "f83b52117b0858bad53b7da6777ad130af879852532a90d2adebcd363fc08d0a"
+    },
+    {
+      "id": "ev-shadowmoon-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175747,
+        "locale": "enUS",
+        "idx": 10
+      },
+      "excerpt": "Ner'zhul and his loyal Shadowmoon clan passed through the largest of the newly created portals, as massive volcanic eruptions began to break Draenor's continents apart.",
+      "sourceId": "classicdb",
+      "rowSha256": "44d7658a067b769563c2d58f1775947f9e63ecbd22f0d35b3736beff5aebc0b0",
+      "excerptSha256": "cfe497f45a5773ce782cdc7b89922cc4ce8d830321c1f8b4dff865528e3343bf"
+    },
+    {
+      "id": "ev-anvilmar-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Though the mighty High King, Modimus Anvilmar, ruled over all dwarves with justice and wisdom, three powerful factions had arisen amongst the dwarven society.",
+      "sourceId": "classicdb",
+      "rowSha256": "c118267a7e4563dd95224f543b29ef296f302b94509b0547040f1795d3d881e0",
+      "excerptSha256": "e9d6e25bdd4f04ba1a5455bde3ed56dc02bb93542fe51c5cdf5c9528cf50b153"
+    },
+    {
+      "id": "ev-anvilmar-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "tensions erupted when High King Anvilmar passed away from old age. The three ruling clans went to war for control of Ironforge itself.",
+      "sourceId": "classicdb",
+      "rowSha256": "d6d897a0e22439bb3b4e789ec67dcaacece0f93e41c56118e2cb9969ee6515d3",
+      "excerptSha256": "6cd769d09afeff969c1b18332b1634d12e17d70369df9cd07d75a61645259e3b"
+    },
+    {
+      "id": "ev-zulaman-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175733,
+        "locale": "enUS",
+        "idx": 4
+      },
+      "excerpt": "the direst threat they encountered were the voracious and cunning forest trolls of Zul'Aman.",
+      "sourceId": "classicdb",
+      "rowSha256": "fca4eb41f9e7a605b98951e1166cb2e1d672d71ee63c7306d2af5aa206de7cf1",
+      "excerptSha256": "968028a1272417d672b844fabf0f9b0a62ebefbe4bc61ff85aba1855aa89654d"
+    },
+    {
+      "id": "ev-zulaman-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175733,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "The elves developed a deep loathing for the vicious trolls and killed them on sight whenever they were encountered.",
+      "sourceId": "classicdb",
+      "rowSha256": "2298fc3c460cb918ac4aa843b99a5e4158c92bb152806fd1a0ce7998380c0a11",
+      "excerptSha256": "14476d3e61adbec1a22485cad083e5cddca5349f24d735ac177131390453370c"
+    },
+    {
+      "id": "ev-zulaman-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175733,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "they were able to defeat the Amani warbands that outnumbered them ten to one.",
+      "sourceId": "classicdb",
+      "rowSha256": "4b29c304fe38aeea07f6268176aadbec23af5247bc603cd2309cf7652a302792",
+      "excerptSha256": "77cd69d0ce7002ec273c79632d31668ff22b325dff1a2cd5b9adbe7f8ec2f530"
+    },
+    {
+      "id": "ev-sunstrider-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175733,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Dath'Remar, who had taken the name Sunstrider (or \"he who walks the day\")",
+      "sourceId": "classicdb",
+      "rowSha256": "c0081b094a77010b0b7b54f25ae66e430fbfdb3c4b0fb8671d7642586cb1c772",
+      "excerptSha256": "cb6e5874fd6b4cc30d89b3a5387b98cbd55a11b7b859c9de8f043e98c5a25295"
+    },
+    {
+      "id": "ev-sunstrider-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175733,
+        "locale": "enUS",
+        "idx": 10
+      },
+      "excerpt": "though the Sunstrider Dynasty maintained a modicum of political power.",
+      "sourceId": "classicdb",
+      "rowSha256": "f1f695fd3e76507abbffb2f111807d063546ec94211250d75e075bf6f9d3a6a9",
+      "excerptSha256": "9c81b9f5131b0726f9b127af56e56d95bf02fd0a0307da1eda6a35c169092274"
+    },
+    {
+      "id": "ev-magocrats-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175735,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "the ruling Magocrats did what they could to keep such events hidden from the public.",
+      "sourceId": "classicdb",
+      "rowSha256": "328190d78cc32fb57d19d7dd45f35239eb0e84221f82cb6e8f70df9fbec6ee52",
+      "excerptSha256": "e21b407c83b8560844bb7990773049ace1957d1b218a3f0a3088ec790eb82f2a"
+    },
+    {
+      "id": "ev-magocrats-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175735,
+        "locale": "enUS",
+        "idx": 13
+      },
+      "excerpt": "The Magocrats proposed the notion of empowering a single mortal champion who would utilize their powers in order to fight a never-ending secret war against the Legion.",
+      "sourceId": "classicdb",
+      "rowSha256": "7fb57fd68786599fa1857e21d88d07928fa484af70564175ace287da27555005",
+      "excerptSha256": "d6a071770adae43d241eab0ae47c246933f6b342930075db0ec428dd26d4add2"
+    },
+    {
+      "id": "ev-windrunner-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175757,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Sylvanas Windrunner, the Ranger-General of Silvermoon, put up a valiant fight, but Arthas eventually eradicated the high elf army and battled through to the Sunwell. In a cruel gesture of his dominance, he even raised Sylvanas' defeated body as a banshee, cursed to endless undeath",
+      "sourceId": "classicdb",
+      "rowSha256": "0fced782873f1a69ef98f9d6d996974abde2cb0d9d92a46fea07976ad722d7b8",
+      "excerptSha256": "0b955075c5ade2e802b35786b2fbe20df4ecdde0847db116fb2907fe9821ab0e"
+    },
+    {
+      "id": "ev-windrunner-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175747,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "Even with the aid of the high elf Alleria Windrunner, the dwarf Kurdran Wildhammer, and the veteran soldier Danath Trollbane, Khadgar was unable to prevent Ner'zhul from opening his portals to other worlds.",
+      "sourceId": "classicdb",
+      "rowSha256": "c874f7d139be2b65c31fd8a41afcc55bd5aff02bfbab253e8080e5831e90a0bf",
+      "excerptSha256": "15b3e212d7e0a99ee32a6eb38011b1540f18bb89e541ae13aaa8cbeb0e48d5ea"
+    },
+    {
+      "id": "ev-whisperwind-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175758,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "Tyrande Whisperwind, the immortal High Priestess of the night elf Sentinels, battled desperately to keep the demons and undead from overrunning the forests of Ashenvale.",
+      "sourceId": "classicdb",
+      "rowSha256": "38206d04778b0a1b9e565989924a3cd6dab3cd540a71288ac11230e21d0c3b53",
+      "excerptSha256": "82db5b071fbf87e679e3d8921944d95e7d99d5304f000fa5bb2306b7c8a8a1ed"
+    },
+    {
+      "id": "ev-whisperwind-2",
+      "locator": {
+        "table": "name",
+        "kind": "faction_description",
+        "id": 69,
+        "locale": "enUS"
+      },
+      "excerpt": "Ruled by the Priestess of the Moon, Tyrande Whisperwind.",
+      "sourceId": "client",
+      "rowSha256": "5b7452814dfdb5f078f225d4984ee8d6d58ec8c4b363eee57f300a7a8c9292f0",
+      "excerptSha256": "6ca2af2a146e7b2d5e9f23afff852724ddf390e3a3ef18c9eb4c03b7b2c0d259"
+    },
+    {
+      "id": "ev-proudmoore-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175763,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "The mighty fleet, under the command of Grand Admiral Daelin Proudmoore (Jaina's father), had left Lordaeron before Arthas had destroyed the kingdom.",
+      "sourceId": "classicdb",
+      "rowSha256": "c43ac7c3421783464e5f778943403e12643065282c18cd1614e09545b91922fc",
+      "excerptSha256": "fa0ef080a7a48f74f9f02fe369f3ba1c4d2118b26d7f326d2b7331c43a99b195"
+    },
+    {
+      "id": "ev-proudmoore-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175763,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Having sailed for many grueling months, Admiral Proudmoore was searching for any Alliance survivors he could find.",
+      "sourceId": "classicdb",
+      "rowSha256": "c43ac7c3421783464e5f778943403e12643065282c18cd1614e09545b91922fc",
+      "excerptSha256": "79735d9b4cf08d5ba6783973ce0e278dbcdaf25f5f74e7b0329e6325ce068d51"
+    },
+    {
+      "id": "ev-proudmoore-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175763,
+        "locale": "enUS",
+        "idx": 8
+      },
+      "excerpt": "Unfortunately Admiral Proudmoore died in battle before Jaina could reconcile with him",
+      "sourceId": "classicdb",
+      "rowSha256": "ac77994aa5385aeabb1a5f72e5b47924ae8a7bd64dea5e49927ba681e2ad296c",
+      "excerptSha256": "00c3f04c364c3a039611514e060e3ad2b4be183402b34f5964b4f39a902456d1"
+    },
+    {
+      "id": "ev-thandolspan-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 16
+      },
+      "excerpt": "Seeking to retain relations and trade with their cousins, the dwarves of Ironforge constructed two massive arches, the Thandol Span, to bridge the gap between Khaz Modan and Lordaeron.",
+      "sourceId": "classicdb",
+      "rowSha256": "1e1dc7aa013dc8e80f7dc530ead1af9320b096544940fcd2fea62ae1171277e3",
+      "excerptSha256": "15554edd05a2259192acc09d3d0095653146e54607ba9c9bb6f7975f682079df"
+    },
+    {
+      "id": "ev-thandolspan-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 250,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "First the destruction of the Thandol Span and then the pillaging of Dun Modr!",
+      "sourceId": "classicdb",
+      "rowSha256": "e87f135924f44b4b79dc2c92678ad1a501a91779af28a2859e1ae3023e1be91a",
+      "excerptSha256": "057e6e15a7cb410989891efe125f825a73fc08f199d853af9558207f8ab1befa"
+    },
+    {
+      "id": "ev-dunalgaz-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175739,
+        "locale": "enUS",
+        "idx": 5
+      },
+      "excerpt": "Khardros and his Wildhammer warriors traveled north through the barrier gates of Dun Algaz, and they founded their own kingdom within the distant peak of Grim Batol.",
+      "sourceId": "classicdb",
+      "rowSha256": "ef6822a68aaf2126d7696650e452b59dd76c3791bf8d7f8e1ed1c023a84e86b1",
+      "excerptSha256": "d4d8a2a5638f850e8dedd5f97a588159d2bb2ff1a67d959775c10a8a72862e52"
+    },
+    {
+      "id": "ev-dunalgaz-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 455,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Break through Dun Algaz to the Wetlands beyond, and kill some orcs for good measure!",
+      "sourceId": "classicdb",
+      "rowSha256": "9e7500e0b83213a3146ae6a7ec5eb57cdb676f2a7986691a86edc702d766cf5a",
+      "excerptSha256": "40236b8258088ab11437ef148039b911fb1ba75a8b68fa3d6808e4ae3c776456"
+    },
+    {
+      "id": "ev-blackmorass-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175745,
+        "locale": "enUS",
+        "idx": 7
+      },
+      "excerpt": "These orcs quickly set up a base of operations within the Black Morass, a dark and swampy area far to the east of the kingdom of Stormwind. As the orcs began to branch out and explore the new lands, they came into immediate conflict with the human defenders of Stormwind.",
+      "sourceId": "classicdb",
+      "rowSha256": "a84a8ffef47416a974a944160ee8c2fffe066c4f333da42fd3a7e504dfa08c5a",
+      "excerptSha256": "fa165643eefbfb1c3b5f78580153ebb6069ae4e1ce36443bb83d9fde19335bdb"
+    },
+    {
+      "id": "ev-shadowcouncil-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175741,
+        "locale": "enUS",
+        "idx": 9
+      },
+      "excerpt": "helped Gul'dan found the Shadow Council, a secretive sect that manipulated the clans and spread the use of warlock magics throughout Draenor.",
+      "sourceId": "classicdb",
+      "rowSha256": "a6aac39bd83ea7a77281ec0ed4950ba2e415dcc59c7829c4db8ef9375202d42e",
+      "excerptSha256": "ee70a8e722d0b09bce59b838b54fa10660e9c8552f7281e9123395c612abd1cf"
+    },
+    {
+      "id": "ev-shadowcouncil-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5157,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Shadow Council has protective spells surrounding their lair in the form of braziers.",
+      "sourceId": "classicdb",
+      "rowSha256": "31fb7a4ad552e334c1275698bc7080da163e905ddd8f16051af6a7d93c42c3fb",
+      "excerptSha256": "a66f9b94bbb89905439de51220c001c4fac32859717418250010578958af215d"
+    },
+    {
+      "id": "ev-therazane-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175725,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "The Old Gods' armies were led by the most powerful elemental lieutenants: Ragnaros the Firelord, Therazane the Stonemother, Al'Akir the Windlord, and Neptulon the Tidehunter.",
+      "sourceId": "classicdb",
+      "rowSha256": "04512c277b14e6a376f425c28f9196c1993fae1bfe4da5fafe9c50f092c06c7a",
+      "excerptSha256": "851a04056803163619392a52ac9da6203a3b08ac2896e990874d0fdf0488b450"
+    },
+    {
+      "id": "ev-neptulon-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175725,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "Ragnaros the Firelord, Therazane the Stonemother, Al'Akir the Windlord, and Neptulon the Tidehunter.",
+      "sourceId": "classicdb",
+      "rowSha256": "04512c277b14e6a376f425c28f9196c1993fae1bfe4da5fafe9c50f092c06c7a",
+      "excerptSha256": "6285a1ba9d9a19988525168d90865fdb8bb9a48422f577f6a4c1da842ff9a857"
+    },
+    {
+      "id": "ev-neptulon-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6804,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring 12 Discordant Bracers and the Aspect of Neptulon to Duke Hydraxis in Azshara.",
+      "sourceId": "questie",
+      "rowSha256": "415f817ab7e686ea2f85c10f5751931f3ae2be9d0f4d82be4490fa0169506d05",
+      "excerptSha256": "2ac623245765173d94acb45e0e51c2c4fdabb5a2114b133d2bb021e926769dfa"
+    },
+    {
+      "id": "ev-demonsoul-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175746,
+        "locale": "enUS",
+        "idx": 6
+      },
+      "excerpt": "Somehow the Horde had unearthed a powerful artifact known as the Demon Soul and used it to enslave the ancient Dragonqueen, Alexstrasza.",
+      "sourceId": "classicdb",
+      "rowSha256": "6a82d90ff6a7b98b0d72b7b08c1fb4199cd88191915bcb2982680cc73880831a",
+      "excerptSha256": "0fe6abed73aa51dddbe856e1a337b8ec11bb494fb4b779f8955f6e62c58727e5"
+    },
+    {
+      "id": "ev-demonsoul-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175750,
+        "locale": "enUS",
+        "idx": 3
+      },
+      "excerpt": "a small group of resistance fighters, led by the human mage Rhonin managed to destroy the Demon Soul and free the Dragonqueen from Nekros' command.",
+      "sourceId": "classicdb",
+      "rowSha256": "5520c316f7e9d600d5dce17a32dd4afd5196762e9bdcba05f1e67b5b1eb4cf85",
+      "excerptSha256": "c343c81380b065d8786f9812fa43a47a628431f5b90c55d4fa7a2349c241689e"
+    },
+    {
+      "id": "ev-quelserrar-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7509,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "slay the beast and drive the Heated Ancient Blade into her corpse.",
+      "sourceId": "questie",
+      "rowSha256": "33535534819dcc120e3731dafb90b8946559744ad1719cb2970b9612c015747b",
+      "excerptSha256": "e8f4d3ca91e04c31a6113a3d5daf620c963dc3a3df28db7b334f2df905a57520"
+    },
+    {
+      "id": "ev-quelserrar-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7509,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Do this and Quel'Serrar will be yours.",
+      "sourceId": "questie",
+      "rowSha256": "33535534819dcc120e3731dafb90b8946559744ad1719cb2970b9612c015747b",
+      "excerptSha256": "00351fe618ad27c2d61a68190b668543ce29c073d19d4f04a309a4e48d17fd75"
+    },
+    {
+      "id": "ev-quelserrar-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7509,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "<Lydros murmurs something unintelligible.>$B$BAs promised, $C, the blade of Quel'Serrar.",
+      "sourceId": "classicdb",
+      "rowSha256": "024eca72663ff5fe3d7a1fa5492abadda28b15cc8e14c514aa280fa7ba69f942",
+      "excerptSha256": "01636c60890774ee3c8b5252d4cf95380b6c3b84385f17e4e28901b0939a24ee"
+    },
+    {
+      "id": "ev-plaguelands-1",
+      "locator": {
+        "table": "readable_page",
+        "kind": "object",
+        "id": 175760,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "At this time, the undead Scourge had essentially transformed Lordaeron and Quel'Thalas into the toxic Plaguelands. There were only a few pockets of Alliance resistance forces left.",
+      "sourceId": "classicdb",
+      "rowSha256": "5edb3d2fe56c0f820b3294400d846d180fb8a1ca89eea1127da91a2ee876bef3",
+      "excerptSha256": "eaa3001daffee17b26e5c5f555fa7785759a0b568b75d3e82beb324e6c2aa007"
+    },
+    {
+      "id": "ev-wyrmthalak-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4742,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Overlord Wyrmthalak, master of the lower citadel, must forge the seal in the flames of the Black Dragonflight.",
+      "sourceId": "classicdb",
+      "rowSha256": "c10de277af5520b29d826427c1404f30d67e379e9dca207fe675910f18cbcd40",
+      "excerptSha256": "7ef3b6cf2f5db47d2463ab302ea8ae3a2a96d10190352f1258bba96bf3045f4d"
+    },
+    {
+      "id": "ev-wyrmthalak-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4742,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "and Overlord Wyrmthalak of the Bloodaxe.",
+      "sourceId": "questie",
+      "rowSha256": "7b5638238b39a0af4b3ec5bf8754c27914af45c4a032048988af27850f5bb9d6",
+      "excerptSha256": "fb4d2583fbb45579e1e89e4cd19c374d1abb354a6240001e2f13740e15cafd08"
+    },
+    {
+      "id": "ev-emberseer-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6821,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "High up in Blackrock Spire the orcs have captured a servant of fire, the Pyroguard Emberseer.",
+      "sourceId": "classicdb",
+      "rowSha256": "0e4506619c9e32e05b3191fe08158ffd6bf72d787fce3766cbff9e926b54c6b1",
+      "excerptSha256": "b96ca7456ba601590a4ada9883d0f4ebcb3346d429f50b46a9080300b4d02028"
+    },
+    {
+      "id": "ev-emberseer-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 6821,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring the Eye of the Emberseer to Duke Hydraxis in Azshara.",
+      "sourceId": "questie",
+      "rowSha256": "18751dfe9f8afdef2054375a98140aacabaa4472809680865339da3cb8f9aec8",
+      "excerptSha256": "f6ee45d8ee78fc59ba20115fe446b8248a10f27fbffd493c66d7a04c3e013c9f"
+    },
+    {
+      "id": "ev-angerforge-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4081,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Angerforge's men are ruthless killers, responsible for the mass murder of the 109th division of the Kargath Expeditionary Force.",
+      "sourceId": "classicdb",
+      "rowSha256": "7ac674d0b54d0fc29d069a4023f6d7c6544543433768225e45e8b2200cf7eb1b",
+      "excerptSha256": "f0f44e86e5c5d3771192607f7273e0baaf46484028ceaa37ee7f56e4eb74d30f"
+    },
+    {
+      "id": "ev-angerforge-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4282,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Marshal Windsor believes that the information is being held by Golem Lord Argelmach and General Angerforge.",
+      "sourceId": "questie",
+      "rowSha256": "bcc2a13304175b7e7cf5835dbe724f5501260a5fc1f9312e460b66251dafecd3",
+      "excerptSha256": "b3f0dca193fc23e3ef362e2d6929fc2c839df9018d805ac3bceea2c22f180e4b"
+    },
+    {
+      "id": "ev-argelmach-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4063,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "You will also need to collect 10 Intact Elemental Cores from the Ragereaver Golems and Warbringer Constructs protecting Argelmach.",
+      "sourceId": "questie",
+      "rowSha256": "fd303a0460942a8eb41fd35957c428500638f2505e480a32fff507226672e787",
+      "excerptSha256": "7341a16dc124dffa37cf6b790bc1f2eebc3bb2430c10bc19fc1b6b1bb96b6c58"
+    },
+    {
+      "id": "ev-argelmach-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4063,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Argelmach was killed ten years ago.",
+      "sourceId": "classicdb",
+      "rowSha256": "27b16fa4fa659138f7111e001cdcd52194a0dfa5b937cc5d20e9d0f3831f0486",
+      "excerptSha256": "78259c2da9f501573a5fa629f2ff3b884897341f5a568b4ffdc658fc3a62cc88"
+    },
+    {
+      "id": "ev-argelmach-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4063,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "This head is not flesh.",
+      "sourceId": "classicdb",
+      "rowSha256": "90d68c1177015882d5ce4ec3896cd2af983ae8617ad5ac41eda7de19ab8971a4",
+      "excerptSha256": "ce98d26f02a52e2a553cebe6d8fc25662f5b9e71f1558a2f109d1cad4e7680fa"
+    },
+    {
+      "id": "ev-gahzrilla-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 3161,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "modeled after Gahz'rilla, a hydra they worshipped as a deity.",
+      "sourceId": "classicdb",
+      "rowSha256": "1cf12fe2bbb83f4210bd68ef26488f8c812f8bc42cffa35e84f25a4f5974f609",
+      "excerptSha256": "e3328318832bf34a208491caf2001c1d3033880c5fe2ace895a713ca2545d13f"
+    },
+    {
+      "id": "ev-gahzrilla-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2770,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats.",
+      "sourceId": "questie",
+      "rowSha256": "dcef7bcb5bdb8828e7d7fd7bc6aef8211ae48c877f67f2ee1c69abec09ea2449",
+      "excerptSha256": "38822c4d7582000602053bb061a945a7887b24ab63ff51769bb87c17e66e7023"
+    },
+    {
+      "id": "ev-gahzrilla-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2770,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "It's that energy I want to harness for my car!$B$BBring me the electrified scale of Gahz'rilla!$B$BBut the summoning of Gahz'rilla is a well-kept secret of the trolls.",
+      "sourceId": "classicdb",
+      "rowSha256": "887b43261179e1eac552e9067f841361bf6edc36ddce34e77b5c74bf4aa28c3b",
+      "excerptSha256": "c97a399afe1aec0fb9225a00fcc4394739dd3ca9e02c59da91be7bb757df0223"
+    },
+    {
+      "id": "ev-herod-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1048,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey",
+      "sourceId": "questie",
+      "rowSha256": "62f79cffb45639ec2d5133ce4ccce459256323dd1f36c456a13d3c9a4f96f4b2",
+      "excerptSha256": "c17d87ea59284a760f1844bd9820d1ddac2a7734b16fb516a4b62350d9019c9a"
+    },
+    {
+      "id": "ev-herod-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 328,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Use the Small Brass Key to open Bookie Herod's Strongbox.",
+      "sourceId": "questie",
+      "rowSha256": "e9ec700a62b0fce55d3ad10a2be7cace983ba882d3a7e9db244c82663250f1b5",
+      "excerptSha256": "df630026a4ab756d670c44f2499c1c251fd2b2e2a0f1d3b0895cc67f9f8672f6"
+    },
+    {
+      "id": "ev-whitemane-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1048,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "lay waste to High Inquisitor Whitemane and her top lieutenants.",
+      "sourceId": "classicdb",
+      "rowSha256": "8e7eaf1e600dd9f3209cb5d3d77d64689949504420c2799c397fe056187ca18d",
+      "excerptSha256": "1cccddbc4b7fa17bc18474eb3429688c0233dd2891acbc84b7d2ee34dcfefec1"
+    },
+    {
+      "id": "ev-whitemane-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1053,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "report back to Raleigh the Devout in Southshore.",
+      "sourceId": "questie",
+      "rowSha256": "84cce272c13d6da731e1c890768f047d69405fddfe91bf9fb58abe7fe2147c1a",
+      "excerptSha256": "94b21211280c311414916cb3576155aa889b6191bc5609e08be040ca8b6daa58"
+    },
+    {
+      "id": "ev-thermaplugg-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2929,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Kill the betrayer. Destroy Mekgineer Thermaplugg.",
+      "sourceId": "classicdb",
+      "rowSha256": "4e3ebbce323e46eea79d23a2c668f16abf8e715d641949b1a65e103e56b63fec",
+      "excerptSha256": "6a34bbc6daadc82676b1088c04c2d869c475711ef31aa38484a1b2ebc6e67ce8"
+    },
+    {
+      "id": "ev-thermaplugg-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2841,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "the combination to the safe is only known by Mekgineer Thermaplugg.",
+      "sourceId": "classicdb",
+      "rowSha256": "41a4ad1e62e492670b97fc00d2d581fe18b53d97e9694355c282ad0a20fad61b",
+      "excerptSha256": "1533fe958f1dab2de007f0c2d941f368132ad0ec532cccaedf9ec517b738b09d"
+    },
+    {
+      "id": "ev-thermaplugg-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 2841,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Retrieve the Rig Blueprints and Thermaplugg's Safe Combination from Gnomeregan and bring them to Nogg in Orgrimmar.",
+      "sourceId": "questie",
+      "rowSha256": "38ff8e781533f05e1ac3f5b9af7931a4299c3d4d67cbe1c73bf9187c538b26a3",
+      "excerptSha256": "f061ceb9fc180e3f10c1973be76f9b5c9e7d5509e800000f54a5d681c12fe124"
+    },
+    {
+      "id": "ev-kirtonos-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5384,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The purest blood, used to appease Krastinov's master.",
+      "sourceId": "classicdb",
+      "rowSha256": "113aeae6fbe4d17b64a8c889b94a1eacdcde309bfd5aa480101eba069f450a72",
+      "excerptSha256": "7b37fda8036b45f7265af972a8bfcb1f567882034313eb8fdd34011cb8f06610"
+    },
+    {
+      "id": "ev-kirtonos-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5384,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Kirtonos will come to feast upon your soul.",
+      "sourceId": "questie",
+      "rowSha256": "c1961ade1127b747806d86257bb0d76460a6b31bede13b6114c4497703df6935",
+      "excerptSha256": "94b862dd2cebf159beb6bc2553abe3e776c45aaeb175cdb5a5ca16b00550fb83"
+    },
+    {
+      "id": "ev-kirtonos-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 5384,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Destroy Kirtonos and return to Eva Sarkhoff.",
+      "sourceId": "questie",
+      "rowSha256": "c1961ade1127b747806d86257bb0d76460a6b31bede13b6114c4497703df6935",
+      "excerptSha256": "a7390886ab73b787a1c068744fefe196604543ea19db4710283c862425f7029c"
+    },
+    {
+      "id": "ev-baelgar-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4024,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Bael'Gar resides in the Depths of Blackrock: A being of pure flame, born of the fires of Ragnaros.",
+      "sourceId": "classicdb",
+      "rowSha256": "6103634b5ca8424f4438a2c5139c10d6a96ed1274c99ee4fa951c929ff6893a3",
+      "excerptSha256": "2b818d9030fbe8ff8758546b7db41f5acc857c46d4e100f5277734116b76f350"
+    },
+    {
+      "id": "ev-baelgar-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4024,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Remember to use the Altered Black Dragonflight Molt on Bael'Gar's remains to capture the Fiery Essence.",
+      "sourceId": "questie",
+      "rowSha256": "015db2a193f27e85bc7e9c06ea823d02abcacb9d5c893faca62e8d9e4da11c37",
+      "excerptSha256": "4587ac8cc4ef1feee2ca5c3d5355d7152a64e434ab8c8085e3f92db22c9e4f82"
+    },
+    {
+      "id": "ev-baelgar-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4024,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "That essence, that searing heat, it is what I crave.",
+      "sourceId": "classicdb",
+      "rowSha256": "6103634b5ca8424f4438a2c5139c10d6a96ed1274c99ee4fa951c929ff6893a3",
+      "excerptSha256": "b44d2f8e7ac1029b8710059bb76c48e30bf0e01de752ccd21737ddebcab42804"
+    },
+    {
+      "id": "ev-celebras-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7044,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Celebras, my brother... he wanders blindly inside, cursed by corruption.",
+      "sourceId": "classicdb",
+      "rowSha256": "62a41269100b3de2c958f3536fdca4646c8c59148b3804cda5a6add7fe3071f0",
+      "excerptSha256": "e7e027d6632e07e0cb5bd9965a1227527f32785d650c0403d2c9d49f509b6a21"
+    },
+    {
+      "id": "ev-celebras-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7044,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Vyletongue also created a living symbol of his corruption called Noxxion that dwells beyond the orange crystals. Together, they have stolen the two parts of my brother's scepter.",
+      "sourceId": "classicdb",
+      "rowSha256": "62a41269100b3de2c958f3536fdca4646c8c59148b3804cda5a6add7fe3071f0",
+      "excerptSha256": "2f4bb969308681659a8dcf03ce957fd4d1a50eda2b78387c4de40570ad3621cc"
+    },
+    {
+      "id": "ev-azuregos-1-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8555,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "Eranikus, Vaelastrasz, and Azuregos... No doubt you know of these dragons, mortal. It is no coincidence, then, that they have played such influential roles as watchers of our world.$B$BUnfortunately (and my own naivety is partially to blame) whether by agents of the Old Gods or betrayal by those that would call them friend, each guardian has fallen to tragedy.",
+      "sourceId": "classicdb",
+      "rowSha256": "c3a694c0e784c26e7ec362498bb6ebf1c187b690fddde74d7a7eed586318c464",
+      "excerptSha256": "a943431e88e0bb432d7ad8db5502753c3292a3e81076b222d230cd2fee17b5db"
+    },
+    {
+      "id": "ev-azuregos-2-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8575,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Deliver Azuregos's Magical Ledger to Narain Soothfancy in Tanaris.",
+      "sourceId": "questie",
+      "rowSha256": "ab03617d5bac9db5816782cebe684f66645a33e76764a719c78c2e86f55775e2",
+      "excerptSha256": "b51c4bc72f671841e438983a83d99c3a2d04dfa6f161eca5c4b11522fc344988"
+    },
+    {
+      "id": "ev-azuregos-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8576,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "We need to figure out what Azuregos wrote in this ledger.$B$BYou say that he's told you to make an arcanite buoy",
+      "sourceId": "classicdb",
+      "rowSha256": "820da1411e4e5500ec5b6a7be36f2e6ace95d7d314bf4c89d9f02cd952393a2a",
+      "excerptSha256": "67354ba4348a180d8ccfdf7dc6a70a84a1c5db6f2353b971657ebddfe83827b7"
+    },
+    {
+      "id": "ev-vaelastrasz-1-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8555,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "Eranikus, Vaelastrasz, and Azuregos... No doubt you know of these dragons, mortal. It is no coincidence, then, that they have played such influential roles as watchers of our world.$B$BUnfortunately (and my own naivety is partially to blame) whether by agents of the Old Gods or betrayal by those that would call them friend, each guardian has fallen to tragedy.",
+      "sourceId": "classicdb",
+      "rowSha256": "c3a694c0e784c26e7ec362498bb6ebf1c187b690fddde74d7a7eed586318c464",
+      "excerptSha256": "a943431e88e0bb432d7ad8db5502753c3292a3e81076b222d230cd2fee17b5db"
+    },
+    {
+      "id": "ev-vaelastrasz-2-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8730,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "A thousand years it has been since I was entrusted the shard",
+      "sourceId": "classicdb",
+      "rowSha256": "de299a166a1175c5a6dec2cdd1935596f0d8e68dbfb08965c09126eb417beda8",
+      "excerptSha256": "be3887eb82704cf9354f0cfa823c0b8c466c2cadcb933ca5722eee2e3da422fc"
+    },
+    {
+      "id": "ev-vaelastrasz-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8730,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "Vaelastrasz's soul is at ease, champion.",
+      "sourceId": "classicdb",
+      "rowSha256": "1bb416568750fd7da23d6b4814aca5aaa6650b4997fa10f61826c28fa4140ee3",
+      "excerptSha256": "59f152ddb11dd09efb1f627941905958cf47d717e224360416d3d9b42c0eeca8"
+    },
+    {
+      "id": "ev-lashlayer-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8288,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The Broodlord Lashlayer guards the Halls of Strife, blocking the way into Nefarian's inner sanctum.",
+      "sourceId": "classicdb",
+      "rowSha256": "438b6940766eb02356236b742874814cec6bb9e621b31a4ae6af146bc3bc99b9",
+      "excerptSha256": "a3e2e263c5785e1e31a831161997c3257ff483b19be727fc395454e92baf5767"
+    },
+    {
+      "id": "ev-lashlayer-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 8288,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Return the Head of the Broodlord Lashlayer to Baristolth of the Shifting Sands",
+      "sourceId": "questie",
+      "rowSha256": "4839f14fb8ab69a6ae2bfe68eca4fc25ce679c2fbebd8479aba5ad11698138e4",
+      "excerptSha256": "d878f41f0bc244d73a69a62042346d9d8e5af02481b7c8fd6065442501aee52a"
+    },
+    {
+      "id": "ev-grilek-1",
+      "locator": {
+        "table": "name",
+        "kind": "item_description",
+        "id": 19939,
+        "locale": "enUS"
+      },
+      "excerpt": "The Iron Blood of Gri'lek.",
+      "sourceId": "client",
+      "rowSha256": "9a778f6acb7feef6074d6bdd824d3ef97553ea4486549843610b9e31a867e04e",
+      "excerptSha256": "ecf268cc66f4905dcbf71c077913e513d24d13485e4e0ed76b8fb0a1f3b2b380"
+    },
+    {
+      "id": "ev-grilek-2",
+      "locator": {
+        "table": "name",
+        "kind": "spell_description",
+        "id": 24279,
+        "locale": "enUS"
+      },
+      "excerpt": "Combines with Gri'lek's Blood, Renataki's Tooth, Wushoolay's Mane, and Hazza'rah's Dream Thread to form a powerful charm.",
+      "sourceId": "client",
+      "rowSha256": "d24b93c96ce8afd27c53710c2a525ba4135e08b51bc1958b2e3401e0548c8daa",
+      "excerptSha256": "47a03f5ec1667109390d6d525bd928465cfa8a7c5d85f77998ea9839946613ea"
+    },
+    {
+      "id": "ev-grilek-3",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 2006,
+        "locale": "enUS",
+        "idx": 2
+      },
+      "excerpt": "Doomed was Gri'lek.  Doomed to wander, armless.",
+      "sourceId": "classicdb",
+      "rowSha256": "e028bcb3e436feaf47456b86afd4fa92e586b5fcf85855adcb4ab5db85de6818",
+      "excerptSha256": "ab3252aa8b913ce6c35359c2596674348ce8e840ad873056623946124055668b"
+    },
+    {
+      "id": "ev-saurfang-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7784,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Speak with High Overlord Saurfang in Orgrimmar. He stands waiting for you in the Valley of Strength.",
+      "sourceId": "questie",
+      "rowSha256": "f855e3645728de2b5dd8eaf18e742e54690f60b7c6a5d933e5f8702cc8fdfb57",
+      "excerptSha256": "399839316edd32f460adf74efb46fb5c9119e8acdecac07e7efca4fa86a79969"
+    },
+    {
+      "id": "ev-saurfang-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7784,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "Choose your reward so that I may mount the head of the beast for all to see.",
+      "sourceId": "classicdb",
+      "rowSha256": "b473547c4fe2d5eef77683f8833cbf6015748d4b7d06f80853ea25fa0ddba9be",
+      "excerptSha256": "083487d45c762d277c780d0f0d998752def1186c6b9509106b1b1d4d52dc623f"
+    },
+    {
+      "id": "ev-mankrik-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4921,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Find Mankrik's wife and then return to him in the Crossroads.",
+      "sourceId": "questie",
+      "rowSha256": "2c37229fd50f7c9930b7611c62273ae952f79f4f09299e19820a278dd5675e35",
+      "excerptSha256": "79193efd10afbd629ec5dd6dfdcaae345af4c0a8746430531ec4b020f31ae2bb"
+    },
+    {
+      "id": "ev-mankrik-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 899,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring 60 Bristleback Quilboar Tusks to Mankrik at the Crossroads.",
+      "sourceId": "questie",
+      "rowSha256": "ef83bae5d998fb59d34495e2dbc9e3736a24db01b2e7123d1c27295f331d45a6",
+      "excerptSha256": "c15ed68d1b1e1aa12cbd5e4098b7a510bbdb583558f4cbbeb323cc431def81be"
+    },
+    {
+      "id": "ev-neeru-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 829,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Although he is a skilled warlock, he professes to use his powers to thwart demons, and claims his research in the occult is benign.",
+      "sourceId": "classicdb",
+      "rowSha256": "7b97440a90fa1ef71c6580d6d346b47834037d7f32b83a3d8e2f3812e7602c3c",
+      "excerptSha256": "95746e1db31b8491b8d4c64e592c8331ff83f58ea6e42fb884caae56ae672101"
+    },
+    {
+      "id": "ev-neeru-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 829,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring an Example Collar to Neeru Fireblade in Orgrimmar.",
+      "sourceId": "questie",
+      "rowSha256": "c6434a4619bb2e7ba36af10ccc8bd7b51b0db8d3d0ee5db554aa8181ef9f22d4",
+      "excerptSha256": "83fc319d51f01dc39c7c6231a873b2afb6814974e8f5295d226b5cf04dc08e0d"
+    },
+    {
+      "id": "ev-zalazane-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 826,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "The witchdoctor Zalazane dwells on the Echo Isles to the east.  They are the isles we once called home.$B$BFrom there he sends his trolls to the mainland, to hex our people and drag more of them under his sway.",
+      "sourceId": "classicdb",
+      "rowSha256": "5860ce0da1c32cb206e1e204ef9a098ae4908bd2d0b0dc7e00bab75ccc34d6be",
+      "excerptSha256": "f19385310527e81104d2d22b8bd6fde53e560cea275e75076f669f5c655ba24a"
+    },
+    {
+      "id": "ev-zalazane-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 826,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring Zalazane's Head to Gadrin.",
+      "sourceId": "questie",
+      "rowSha256": "3bccd3bce1d6c643aab7a35f8975f1d0a1bc130a56073a565e3de6ea86ea3c21",
+      "excerptSha256": "34258a520cd4f6d34ae44857531fb1abc3c9d1544c6def1a52b8afdfc040f436"
+    },
+    {
+      "id": "ev-gazlowe-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 890,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring Gazlowe's Ledger to Wharfmaster Dizzywig.",
+      "sourceId": "questie",
+      "rowSha256": "dbdf31e99451cee2ae391d970f4e3d3908dcbc78ea3d08f888c5b8d1d7b90026",
+      "excerptSha256": "4ce7c0c466f2b845b5a4a986e177285e8d9b87d20c85a6fb8ea2e66e987a315f"
+    },
+    {
+      "id": "ev-gazlowe-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 888,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Retrieve the Shipment of Boots and Telescopic Lens for Gazlowe in Ratchet.",
+      "sourceId": "questie",
+      "rowSha256": "9afcc88d39f5ccd3ffee0255a1020b971eaeae137618bbefb18d11cb9fb0b044",
+      "excerptSha256": "f7ef5c60d2e5a94424e830e16eb816817cc7a0c94c2d72faccafacc303ea4025"
+    },
+    {
+      "id": "ev-voljin-1-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 638,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Vol'jin has instructed that we make every effort to spirit the legendary sword Trol'kalar from the humans' hands, so that we might use it in our coming battles against the trolls of Zul'Gurub.",
+      "sourceId": "classicdb",
+      "rowSha256": "dd55abecaad3b69d190a8c2db923feb46c5f63279c8ad614ca66ca66dfdbb510",
+      "excerptSha256": "a68141663522ad2778763e76eba38e809a497c6e80ebc9fc6924cce4b8bcb812"
+    },
+    {
+      "id": "ev-voljin-2-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 638,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Zengu, one of our seasoned hunters, was dispatched to Hammerfall in northeastern Arathi Highlands to oversee its procurement.",
+      "sourceId": "classicdb",
+      "rowSha256": "dd55abecaad3b69d190a8c2db923feb46c5f63279c8ad614ca66ca66dfdbb510",
+      "excerptSha256": "e231f7615d0667504ee833ba025ddb7002ac48219668ea6be2a6b611ff6d817c"
+    },
+    {
+      "id": "ev-zuljin-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7844,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "If Zul'jin were here, he would have destroyed the whole lot of them with a flick of his wrist - alas, Zul'jin has not yet returned and we are left to our own devices.",
+      "sourceId": "classicdb",
+      "rowSha256": "68bfe710aa47abe60b00f80eefa643d69a7dc12d40d2926a576b11456145eb8c",
+      "excerptSha256": "0f1f62759ddfc34e0c55c1e51f509ba8cc6eaf0f46b528b21dbad9f4728c86f2"
+    },
+    {
+      "id": "ev-zuljin-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7844,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "Zul'jin himself could not have done a better job!",
+      "sourceId": "classicdb",
+      "rowSha256": "a2091f514328b953b02ee529177300ea3b7a17ad97fb8b0e9a37455f955877c9",
+      "excerptSha256": "5e2cdfaa2713379205710434e6caf7f680d6e74f7ce9b755b743bd6e6659bae9"
+    },
+    {
+      "id": "ev-ebonlocke-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 56,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Commander Althea Ebonlocke of Darkshire wants you to kill 8 Skeletal Warriors and 6 Skeletal Mages.",
+      "sourceId": "questie",
+      "rowSha256": "43da1d159094bb8cfc4dce3cf56b10cbf0e0813ff015aec7efbd6ad0883544d9",
+      "excerptSha256": "463c502c7ed550b2d0653713777224e2a3c1dd68e2599959c7a646d59c44def0"
+    },
+    {
+      "id": "ev-ebonlocke-2",
+      "locator": {
+        "table": "readable_page",
+        "kind": "item",
+        "id": 1409,
+        "locale": "enUS",
+        "idx": 1
+      },
+      "excerpt": "Lord Ebonlocke-- The Township of Lakeshire humbly requests the aid of the Night Watch.",
+      "sourceId": "classicdb",
+      "rowSha256": "f57be36170fb9c9703ff82c3fd20abfbae751c101fa431170e7cfc554008b04c",
+      "excerptSha256": "110f959b6096b9fada6aba657cfaa3428fb9ec2594a4f8d50846625e81a7ab9f"
+    },
+    {
+      "id": "ev-dolanaar-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 483,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Retrieve the Relics of Wakening and bring them to Athridas Bearmantle in Dolanaar.",
+      "sourceId": "questie",
+      "rowSha256": "4a43b58d00044fb62acd5d2935e17d8118dc0b0214041917f41dd1500a90efd3",
+      "excerptSha256": "8c6f454c6e7fa48a36d9fa449187abb847405f8ef7120b1c622d36c5e5e72460"
+    },
+    {
+      "id": "ev-dolanaar-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 487,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Slay 6 Gnarlpine Ambushers and return to Sentinel Amara Nightwalker outside of Dolanaar.",
+      "sourceId": "questie",
+      "rowSha256": "da90de638df49072bd84d465e2b9dc731f0a8920b579852c67dfdaec4da01448",
+      "excerptSha256": "85bc49ebb1f3cacfd4c71700ed61159c0657d4d9264f055275a6824de9c6c1a6"
+    },
+    {
+      "id": "ev-campnarache-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 747,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Grull Hawkwind in Camp Narache wants you to bring him 7 Plainstrider Feathers and 7 pieces of Plainstrider Meat.",
+      "sourceId": "questie",
+      "rowSha256": "eae03c8e1c7046b5628226cf488852a2ef060b988387655c7ab28976bde485f3",
+      "excerptSha256": "7a76b422c80a5198d6bc10e116f8f93631a40bc8ce89fbe530d3a9ff60f7fd1d"
+    },
+    {
+      "id": "ev-campnarache-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 752,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Chief Hawkwind wants you to search for his mother near the water well to the southeast of Camp Narache.",
+      "sourceId": "questie",
+      "rowSha256": "3819e86b5713dc11784f1146f3d879267d79c254ac6f000eede881e356b19db2",
+      "excerptSha256": "3c4baf98b5c0a69116fb91400ece7f08859bd35618e1daa953ed5b3f44835ae1"
+    },
+    {
+      "id": "ev-gromgol-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 570,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Far Seer Mok'thardin at the Grom'gol base camp wants 8 Shadowmaw Claws and a Pristine Tigress Fang.",
+      "sourceId": "questie",
+      "rowSha256": "3cee34bb3db8cd37b5d20c06cd58b2258f3eaaaeafc623e502540ee2b41d0892",
+      "excerptSha256": "fb4e8a823218c1ca3bce1d369398134a81aac300a0dc845ba1731d287cee68ea"
+    },
+    {
+      "id": "ev-gromgol-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 568,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Commander Aggro'gosh of the Grom'gol base camp wants you to kill 15 Lashtail Raptors.",
+      "sourceId": "questie",
+      "rowSha256": "2e6d4140b888039db7cc79e2c655115f605e41c4426c0a39e0da00db45a02f47",
+      "excerptSha256": "2ab1c71f28fe9576ee8214cc60015039aa53114eb70713d202d4375b0f54b17d"
+    },
+    {
+      "id": "ev-nijel-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 261,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Destroy 30 Undead Ravagers, then return to Brother Anton at Nijel's Point.",
+      "sourceId": "questie",
+      "rowSha256": "64bf08af899083469d92eefebc5803ef6ae7a50aaa39fb5fae86c7ea68af6c35",
+      "excerptSha256": "e4d8884310f869fdff346d120c1291b8be08748285502de3a60e1e65424626c7"
+    },
+    {
+      "id": "ev-nijel-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1387,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring 15 Centaur Ears to Corporal Melkins at Nijel's Point in Desolace.",
+      "sourceId": "questie",
+      "rowSha256": "ad0503773df6599560228a0ffe688a977202953ff77c795ffba5b5e491150ccd",
+      "excerptSha256": "745247bebe0adf42acfdb8b5627ad6ee86f5b188481cd7af114740302c4e649f"
+    },
+    {
+      "id": "ev-revantusk-1-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7815,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Katoom the Angler at Revantusk Village in the Hinterlands wants you to kill 15 Saltwater Snapjaw turtles.",
+      "sourceId": "questie",
+      "rowSha256": "21d11fcfa9184ea92ce11fb6aaf7c963b92db1f85d59c68b2c3996ff085ca392",
+      "excerptSha256": "d8acf76932c711885c5c80364ab49580e6adb242c9bd44bc1684cb384b1f104c"
+    },
+    {
+      "id": "ev-revantusk-2-t3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7844,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Mystic Yayo'jin at Revantusk Village in the Hinterlands wants you to kill 30 Vilebranch Scalpers and 15 Vilebranch Soothsayers.",
+      "sourceId": "questie",
+      "rowSha256": "bee417c131461163a46b6eba4e1ddabd40887a286448651d485275857280f22c",
+      "excerptSha256": "ef7b12e4613ee6d5e4f970032d02e675016e20d6ecb78d985f8f61fee7b30685"
+    },
+    {
+      "id": "ev-nighthaven-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 26,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Speak with Dendrite Starblaze in the village of Nighthaven, Moonglade.",
+      "sourceId": "questie",
+      "rowSha256": "16cf62f31b5fdcaa23bb480e54124fd65aafab07ac62b6923c925e00cd03ed93",
+      "excerptSha256": "a737a274b84965e7a9df925887d6406c630fdadd47e1deee8cadf08abe9a67ac"
+    },
+    {
+      "id": "ev-nighthaven-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 26,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "the time has come for you to know our aquatic form.",
+      "sourceId": "classicdb",
+      "rowSha256": "83e6cf78504c89083692823e42f96f644fb18a368edb5c18f93502eab0b60b00",
+      "excerptSha256": "c04b16afb5ba6b739879b5d6319d3343a62cb7d10ed140b0527bde73bca2679e"
+    },
+    {
+      "id": "ev-nighthaven-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 26,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "You will face two trials to overcome.",
+      "sourceId": "classicdb",
+      "rowSha256": "83e6cf78504c89083692823e42f96f644fb18a368edb5c18f93502eab0b60b00",
+      "excerptSha256": "036c3b2319f8eb82999b5411e176c6ee1e8661512ade4671b008d251b3591bf7"
+    },
+    {
+      "id": "ev-cleftofshadow-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1858,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Steal Tazan's key, then use it to open his Satchel and deliver its contents to Therzok in the Cleft of Shadow in Orgrimmar.",
+      "sourceId": "questie",
+      "rowSha256": "cb6db587376ca7133cef5236f234b7164b3936e4600afd80995389b02d4cf361",
+      "excerptSha256": "15b59d2529ad4d3d1e2fba3915876d4c8a71dd9e505ec2eeda1b0bc743efe212"
+    },
+    {
+      "id": "ev-cleftofshadow-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1507,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "There seems to be little the ancient warlock does not know.",
+      "sourceId": "classicdb",
+      "rowSha256": "1d4be8bb18a4e4a78b40aded5351867aef96bb74ddd59d4dcbefd55d235b5a5f",
+      "excerptSha256": "309d4c37f152f8cd6eb1600cdbafbb5f0778baefb8c69ea5adf544c7af813fe8"
+    },
+    {
+      "id": "ev-cleftofshadow-3",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1507,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Speak with Cazul in the Cleft of Shadow.",
+      "sourceId": "questie",
+      "rowSha256": "bcdd9e84a2b20fd229ac5f757036185c975aa7006c3fffeed345af6012aa737a",
+      "excerptSha256": "0930a5e4687fe4a820020f451290634fef06f6fbec0d9d40a8b6a212106a7ad6"
+    },
+    {
+      "id": "ev-skullrock-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 827,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Inside that cave they perform vile rituals, and burn their own flesh with Searing Collars.",
+      "sourceId": "classicdb",
+      "rowSha256": "11a37e7f33a87e4470f17a14b8a32754117fc71254ce3746fe0e95bb53168955",
+      "excerptSha256": "4ec0b73790c9f624bb652b9146937aa349345f7ca9c4de0c59acf57328886c06"
+    },
+    {
+      "id": "ev-skullrock-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 827,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Bring them to Margoz at his camp.",
+      "sourceId": "questie",
+      "rowSha256": "c1a861a5086301053531f3daeb0999c917891ce2f1c2b90c5efdea1a252a1ded",
+      "excerptSha256": "d9dc91c59bf85e46f99195b54f459c93540bfff1707a195d9652917571454355"
+    },
+    {
+      "id": "ev-ambermill-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 477,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "the town of Ambermill remains a source of human opposition, mainly through the support they receive from the wizards of Dalaran.",
+      "sourceId": "classicdb",
+      "rowSha256": "646c089bb86eee8a2d2261a37a84f33d08524eb51d0424a0350a515975d1e737",
+      "excerptSha256": "fa91a72d476b30d5c213ff15d16b81d02a2f97e88ed19cf8149e6725306995cd"
+    },
+    {
+      "id": "ev-ambermill-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 481,
+        "locale": "enUS",
+        "field": "reward"
+      },
+      "excerpt": "This is a powerful artifact. It was used frequently by powerful wizards of the Kirin Tor to channel magical energies.$B$BThat they are delivering so many to Ambermill indicates that they must be undergoing a project of some magnitude.",
+      "sourceId": "classicdb",
+      "rowSha256": "68aff9237515ea788d5e8f90134d733957ef125b8ee5bbfb3b3cd84d71fd8a25",
+      "excerptSha256": "900430776370f7b05391f16e8e51497d0c99ec861279e87d1907b2de7a5c3864"
+    },
+    {
+      "id": "ev-deadwindpass-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 95,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Dark Riders from Deadwind Pass descended upon my farm and slaughtered my family when I was away!",
+      "sourceId": "classicdb",
+      "rowSha256": "720a64eaacde48396335748990ec6cefd9b3d4a4e8c4572e7431db1d258239f7",
+      "excerptSha256": "a66806dd971bec9059114581833ac73fc38d6dc44c27d35e759858ed589d43da"
+    },
+    {
+      "id": "ev-deadwindpass-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 1395,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "To reach the keep, you must travel east through Deadwind Pass",
+      "sourceId": "classicdb",
+      "rowSha256": "ee0669fc82bee0483f14d3bd43ba67b4d89b4e0552291151b59e4a4216ed3a33",
+      "excerptSha256": "bae8d572fe20e79ac10cbc2784b8fb304a3cf1b1425ed00cbb6bf756d705bd17"
+    },
+    {
+      "id": "ev-bloodaxe-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4742,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Find the three gemstones of command: The Gemstone of Smolderthorn, Gemstone of Spirestone, and Gemstone of Bloodaxe.",
+      "sourceId": "questie",
+      "rowSha256": "7b5638238b39a0af4b3ec5bf8754c27914af45c4a032048988af27850f5bb9d6",
+      "excerptSha256": "8e86204401fb1baed8900b022557c8d663a74a8763d552ff2a5a828f84117744"
+    },
+    {
+      "id": "ev-bloodaxe-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 4724,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Slay Halycon, pack mistress of the Bloodaxe worg.",
+      "sourceId": "questie",
+      "rowSha256": "855e0f6195813b46257b311e9299a6f0b5ff46d27fa2ab847740c42cff47a72a",
+      "excerptSha256": "8a14a131bb79d68c9ee404133a9a766d6601efc621dd62f0b4005fd1ba098479"
+    },
+    {
+      "id": "ev-dunmodr-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 161,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Chief Engineer Hinderweir wants you to take the strange smelling powder to Ashlan Stonesmirk, the explosives expert in Dun Modr.",
+      "sourceId": "questie",
+      "rowSha256": "03d20bb8aded6c6312b17cf0383c5e520c49cddbdc761747c6e967cb49a31e6b",
+      "excerptSha256": "cf146413673a67048a2ce11b7a54b9a290e5425ff5770379ef9dbd2e0d1ce6f5"
+    },
+    {
+      "id": "ev-dunmodr-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 303,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Motley Garmason at Dun Modr wants you to kill 10 Dark Iron Dwarves, 5 Dark Iron Tunnelers, 5 Dark Iron Saboteurs and 5 Dark Iron Demolitionists.",
+      "sourceId": "questie",
+      "rowSha256": "28c0909f7fa5c2f3b363453a3e74cfedb3cea47f0b70ea0c2742055c76c4bd37",
+      "excerptSha256": "ca06464d6ae7a56ae2f2d69265dea3bdec84d11d92236df15b59ed7e7eaf51ad"
+    },
+    {
+      "id": "ev-hinterlands-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 7844,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "Three different tribes of trolls inhabit the Hinterlands, $N. That is about as far as the similarities between the tribes extends: We are all trolls and we live in the Hinterlands.$B$BThe Vilebranch - aptly named - are a depraved lot",
+      "sourceId": "classicdb",
+      "rowSha256": "68bfe710aa47abe60b00f80eefa643d69a7dc12d40d2926a576b11456145eb8c",
+      "excerptSha256": "a677ccb1adadb7b110eed6cafb4034122d81f62d2f7c791294953e5566b95f19"
+    },
+    {
+      "id": "ev-hinterlands-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 485,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Take the distress beacon to Oglethorpe's homing robot at the head of the river in the Hinterlands, near Skulk Rock.",
+      "sourceId": "questie",
+      "rowSha256": "09b872fe1415e12756165ccff3eb5b7fe62e57bcaaa7c67a30d2bb46af784837",
+      "excerptSha256": "95de1120d9416e8b32fa73f58fc9f2f3bbeb768bef39f076d263ddf23289c95f"
+    },
+    {
+      "id": "ev-sunkentemple-1",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 3447,
+        "locale": "enUS",
+        "field": "objectives"
+      },
+      "excerpt": "Travel into the Sunken Temple and discover the secret hidden in the circle of statues.",
+      "sourceId": "questie",
+      "rowSha256": "dffeeabe18d6bbda4f14b8da37dec0349854cbe13b8e6a35d0c967f3ed61254d",
+      "excerptSha256": "2f9c58cce62bcdfb3b3110993a02533d0fbd0c442059b5129a02b780d4e5d750"
+    },
+    {
+      "id": "ev-sunkentemple-2",
+      "locator": {
+        "table": "quest_text",
+        "quest_id": 3447,
+        "locale": "enUS",
+        "field": "details"
+      },
+      "excerpt": "From the main altar, I was able to activate a series of lights.",
+      "sourceId": "classicdb",
+      "rowSha256": "973bf91cd9f391e3353632719ad976b656c16c9342102fd6431b274462a4d91f",
+      "excerptSha256": "1597c59aae4823b7d8c286036c3bd2319eed24d80400ebfc88e67f930e4916d6"
     }
   ]
 }
