@@ -435,7 +435,7 @@ feelings, until she called him her kindly old uncle
 
 Cold-solver: no idea, a guess from the enumeration after the hint (missed)
 
-Fact-checker: Reworded at review, checked by the reviewer against its rows.
+Fact-checker: Clean. Reworded at review, checked by the reviewer against its rows.
 
 Editor: Hint rewritten, relabelled hard. Still unsolved blind: needs a better clue or a
 cut. Reworded again at review: the editor has not read the new wording.
@@ -806,7 +806,7 @@ Old hint: Their home is the tranquil glade of the moon
 
 Cold-solver: Cenarion Circle (sure) (solved)
 
-Fact-checker: Reworded at review, checked by the reviewer against its rows.
+Fact-checker: Clean. Reworded at review, checked by the reviewer against its rows.
 
 Editor: Keep. Reworded again at review: the editor has not read the new wording.
 
@@ -1131,8 +1131,7 @@ Dropped:
 **Clue** (medium, draft): Blade taken dormant from the beaten Windseeker and forced
 awake by the lying Demitrian
 
-**Hint:** Freeing the Windseeker takes the Firelord's essence, won by destroying him in
-the flesh
+**Hint:** Freeing the Windseeker takes the Firelord's own essence
 
 Old clue: Blade woken only after the Wind Seeker is defeated
 

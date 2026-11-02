@@ -4202,7 +4202,7 @@
       "difficulty": "hard",
       "status": "draft",
       "gates": {
-        "factCheck": " Reworded at review, checked by the reviewer against its rows.",
+        "factCheck": "Clean. Reworded at review, checked by the reviewer against its rows.",
         "coldSolve": {
           "answer": "no idea, a guess from the enumeration after the hint",
           "solved": false
@@ -4312,7 +4312,7 @@
       "difficulty": "easy",
       "status": "draft",
       "gates": {
-        "factCheck": " Reworded at review, checked by the reviewer against its rows.",
+        "factCheck": "Clean. Reworded at review, checked by the reviewer against its rows.",
         "coldSolve": {
           "answer": "Cenarion Circle (sure)",
           "solved": true
@@ -4372,8 +4372,8 @@
         "facts": ["betrayal"]
       },
       "hint": {
-        "text": "Freeing the Windseeker takes the Firelord's essence, won by destroying him in the flesh",
-        "facts": ["windseeker-prison", "firelord-link"]
+        "text": "Freeing the Windseeker takes the Firelord's own essence",
+        "facts": ["windseeker-prison"]
       },
       "difficulty": "medium",
       "status": "draft",
