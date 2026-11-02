@@ -177,6 +177,37 @@ place's history. The clue goes in by one road, the hint by another. Easy is what
 who did the content know, medium a true but less travelled piece of lore, hard deeper
 reading with the same clarity.
 
+## Pilot rules
+
+From the lore-research pilot and the engine's supply findings (2 November 2026). They
+are proposed: the owner has not objected, but has not signed them off either. New waves
+follow them until the owner says otherwise.
+
+- **A clue is about 12 words or fewer**, and holds at most two proper names. A long clue
+  with a string of names reads as a quiz on the dossier, not a piece of story.
+- **A hint is a second route to the answer, not another obscure fact.** The clue goes in
+  by one road (a deed), the hint by another (a relation, a place, a consequence). A hint
+  that points straight at the answer's spelling or its famous neighbours (Fel: "start of
+  a wood, a guard and a steed") is a giveaway, and a hint that is quest trivia (a
+  shredder in the Deadmines) is a second obscure fact.
+- **An answer needs at least three story facts before it is researched.** Count them in
+  the wiki and the game text first. About one answer in six fails: Black Lotus and
+  Mother Smolderweb had no pre-Cataclysm lore, Mageroyal is one children's book and
+  Arcanite is crafting only. A thin answer costs a dossier and gets cut.
+- **Wave quotas.** Each wave sets its share by faction, zone and expansion, so the
+  Horde, Northrend and the Burning Crusade are not left out (the pilot leans Alliance
+  and vanilla).
+- **The cold-solve is an upper bound.** A model knows more lore than most players, so
+  its score flatters a clue. The pilot's 20 of 21 means only that the clues are solvable
+  from lore, not that a player will get them. A model that missed a clue blind, and
+  guessed only from the letter count (Stalvan Mistmantle), shows an answer too obscure
+  for a player.
+- **Supply is the limit, not layouts.** The engine's layout family fills the grids, but
+  the bank runs dry first. 4-letter glue goes first (3.1 a day used against 0.72
+  supplied), then 7, 8 and 9 letter answers. The next waves weight 4, 7, 8 and 9 letter
+  Warcraft names, with in-world glue clues for the short ones (a spell, a phrase, a role
+  in the game, per the plain-word rule in `CLAUDE.md`).
+
 ## Source snapshots
 
 The seed reads `readable_page`, `quest_text` and curated `name` records through

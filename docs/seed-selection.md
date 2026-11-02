@@ -442,7 +442,7 @@ the other weak group. The numbers are a floor.
 - classic.db and forever.db have almost no five-letter names left: tranche 2 found 10,
   tranche 3 found 6.
 
-### Pilot findings (proposed, awaiting the owner's decision)
+### Pilot findings (now rules, see `docs/editorial.md`, "Pilot rules")
 
 From the 25-answer pilot (`content/research/pilot.json`, read-out
 `docs/research-pilot.md`):
@@ -456,8 +456,10 @@ From the 25-answer pilot (`content/research/pilot.json`, read-out
   (the pilot leans Alliance and vanilla).
 - The cold-solve flatters the clues: a model knows more lore than most players. Its 20
   of 21 is an upper bound.
-- Open triads: Stalvan Mistmantle (too obscure as clued), Ogre (reads as Ogre or Orc),
-  Fel (its hint gives it away), The Deadmines (its hint is quest trivia).
+- Supply is the limit, not layouts: 4-letter glue runs dry first (3.1 a day used against
+  0.72 supplied), then 7, 8 and 9 letter answers.
+- The four open triads are closed: Ogre, Fel and The Deadmines reworded and kept,
+  Stalvan Mistmantle cut.
 
 The two `CLAUDE.md` rules rewritten for the method and the 12 October 2010 cutoff (patch
 4.0.1) await the owner's sign-off.

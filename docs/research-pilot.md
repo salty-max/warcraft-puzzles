@@ -5,16 +5,18 @@ edit by hand.
 
 The pilot of the lore-research method (2 November 2026). 25 answers confirmed in
 classic.db, each with a dossier of facts from warcraft.wiki.gg at pinned revisions and
-from wow-data's own texts, every fact dated before patch 4.0.1. 21 triads written from
-the dossiers alone (Opus), then fact-checked, cold-solved blind and read by the editor.
-Four answers have dossiers but no triad: Black Lotus and Mother Smolderweb had no
-pre-Cataclysm lore to tell, Mageroyal (one children's book) and Arcanite (crafting only)
-were cut by the editor. The gates found 26 fact problems (3 high), 15 editorial ones and
-8 more at review (Thorium's Dark Iron defectors had no pre-Cataclysm source), all fixed.
-A model solved 20 of 21 from the clue alone, the six clues reworded at review included
-(it knows lore better than most players). Open: Stalvan Mistmantle is too obscure as
-clued, Ogre reads as Ogre or Orc, Fel's hint gives it away, and the Deadmines hint is
-still quest trivia. None of these triads is in editorial.json yet.
+from wow-data's own texts, every fact dated before patch 4.0.1. 21 triads were written
+from the dossiers alone (Opus), then fact-checked, cold-solved blind and read by the
+editor. Four answers have dossiers but no triad from the start: Black Lotus and Mother
+Smolderweb had no pre-Cataclysm lore to tell, Mageroyal (one children's book) and
+Arcanite (crafting only) were cut by the editor. The gates found 26 fact problems (3
+high), 15 editorial ones and 8 more at review (Thorium's Dark Iron defectors had no
+pre-Cataclysm source), all fixed. A model solved 20 of 21 at first from the clue alone,
+the six clues reworded at review included (it knows lore better than most players). The
+four open triads were closed the same day: Ogre, Fel and The Deadmines reclued or
+rehinted and kept, Stalvan Mistmantle cut (two rounds, and a model missed it blind,
+guessing from the letter count), so 20 triads stand and Stalvan keeps its dossier. None
+of these triads is in editorial.json yet.
 
 Lore passages quoted from warcraft.wiki.gg (CC BY-SA 4.0), each with its URL and
 revision.
@@ -427,20 +429,6 @@ Dropped:
   repeated.
 - A massacre happened at the estate of a family he tutored, and the caretaker's father
   had to mop up the blood.: Quest 72 does not tie Stalvan to the estate, fact-checker
-
-**Clue** (hard, draft): Moonbrook schoolmaster sure his pupil Tilloa returned his
-feelings, until she called him her kindly old uncle
-
-**Hint:** A Darkshire garden bears his name, and its white flower bears hers
-
-Cold-solver: no idea, a guess from the enumeration after the hint (missed)
-
-Fact-checker: Clean. Reworded at review, checked by the reviewer against its rows.
-
-Editor: Hint rewritten, relabelled hard. Still unsolved blind: needs a better clue or a
-cut. Reworded again at review: the editor has not read the new wording.
-
-Names other banked answers: Moonbrook, Darkshire
 
 ## Bolvar Fordragon
 
@@ -1327,6 +1315,14 @@ Facts:
   text (Gnomeregan shredder quest, 2004), 2004)
   - "Deep in the Deadmines is a functional goblin shredder." (classic.db quest_text
     {"table":"quest_text","quest_id":2040,"locale":"enUS","field":"details"})
+- `deadmines-thieves` A militia of former Westfall farmers said the gnolls seem to be
+  working in conjunction with the Deadmines thieves. (World of Warcraft quest text
+  (Westfall militia and the gnolls, 2004), 2004)
+  - "Gnolls that seem to be working in conjunction with the Deadmines thieves."
+    (classic.db quest_text
+    {"table":"quest_text","quest_id":102,"locale":"enUS","field":"details"})
+  - "We, the former farmers, shall make our stand." (classic.db quest_text
+    {"table":"quest_text","quest_id":102,"locale":"enUS","field":"details"})
 
 Dropped:
 
@@ -1345,19 +1341,22 @@ Dropped:
 **Clue** (medium, draft): Before the First War, the richest source of gold in human
 lands
 
-**Hint:** Gnomes wanted a shredder from here to drill their way home
+**Hint:** Westfall's militia suspected the gnolls worked alongside the thieves of this
+mine
 
 Old clue: Westfall dungeon reached through Moonbrook
 
 Old hint: A working goblin shredder is found inside.
 
-Cold-solver: The Deadmines (likely) (solved)
+Cold-solver: The Deadmines (solved)
 
-Fact-checker: Clean.
+Fact-checker: Hint reworded to what quest 102 says (the militia suspected, not swore).
+Clean after that.
 
-Editor: Open: the hint is quest trivia, and the dossier lacks a Defias-hideout fact.
+Editor: Keep the clue. The hint stays on quest 102: no pre-2010 text ties the Defias
+hideout to the Deadmines by name.
 
-Names other banked answers: First War
+Names other banked answers: First War, Westfall, Mine
 
 ## Stranglethorn Vale
 
@@ -1451,9 +1450,8 @@ Facts:
   - "Orcs who drink the blood of a pit lord quickly grow in body mass and strength"
     (https://warcraft.wiki.gg/wiki/Orc rev 6906065, citing Rise of the Horde | Fel Orc
     Scavengers)
-- `deadwood-furbolgs` In Felwood, the Deadwood furbolgs are not evil by nature, the fel
-  has polluted their minds. (World of Warcraft quest text (Deadwood furbolgs,
-  2004), 2004)
+- `deadwood-furbolgs` In Felwood, the effects of the fel pollute the Deadwood furbolgs'
+  minds. (World of Warcraft quest text (Deadwood furbolgs, 2004), 2004)
   - "The Deadwood tribe is evil, but it is the effects of the fel that pollutes their
     minds." (classic.db quest_text
     {"table":"quest_text","quest_id":8461,"locale":"enUS","field":"details"})
@@ -1481,7 +1479,7 @@ Dropped:
 **Clue** (easy, draft): Demonic power that turned warlock clans green and bled Draenor
 dry
 
-**Hint:** It fouled the Deadwood furbolgs' minds. Start of a wood, a guard and a steed
+**Hint:** What pollutes the minds of the Deadwood furbolgs
 
 Old clue: Morbent ___ is a necromancer and an ally to the dark riders
 
@@ -1489,9 +1487,11 @@ Old hint: Riders were seen speaking with him at the Forlorn Rowe
 
 Cold-solver: Fel (solved)
 
-Fact-checker: Clean.
+Fact-checker: Clean. Hint is deadwood-furbolgs, the fact's wording cut back to what the
+passage says.
 
-Editor: Hint rewritten. The cold-solver now calls it a giveaway.
+Editor: Keep. The hint lands through Felwood and does not hold the answer. Shares the
+Orc wiki page with the Orc triad, so the two stay out of one week.
 
 Names other banked answers: WARLOCK, Draenor, WARLOCK, Demonic, Deadwood
 
@@ -1651,9 +1651,8 @@ Facts:
     First War to act as enforcers" (https://warcraft.wiki.gg/wiki/Ogre rev 6952726,
     citing Warcraft II: Tides of Darkness manual, Ground Units of the Orcish Horde,
     Ogre)
-- `ogre-magi-altars` Gul'dan created powerful two-headed ogre magi at the Altars of
-  Storms, built from high elven runestones. (Warcraft II: Tides of Darkness
-  manual, 1995)
+- `ogre-magi-altars` Gul'dan created powerful ogre magi at the Altars of Storms, built
+  from high elven runestones. (Warcraft II: Tides of Darkness manual, 1995)
   - "Using the Altars of Storms created from high elven runestones, many powerful ogre
     magi were created to serve Gul'dan." (https://warcraft.wiki.gg/wiki/Ogre rev
     6952726, citing Warcraft II: Tides of Darkness manual, Ground Units of the Orcish
@@ -1668,8 +1667,8 @@ Facts:
     scattered people for some unknown purpose." (https://warcraft.wiki.gg/wiki/Ogre rev
     6952726, citing Warcraft III: Reign of Chaos manual, Creatures of Lordaeron &
     Northrend, Ogres)
-- `ogre-mounds` In the Second War ogres gathered at mounds to boost their endurance and
-  strength with contests of hurling rocks. (Warcraft II: Tides of Darkness manual, 1995)
+- `ogre-mounds` In the Second War ogres gathered at mounds to enhance their endurance
+  and strength. (Warcraft II: Tides of Darkness manual, 1995)
   - "ogres would congregate at mounds to enhance their endurance, strength, and speed"
     (https://warcraft.wiki.gg/wiki/Ogre rev 6952726, citing Warcraft II: Tides of
     Darkness manual, Orc Buildings, Ogre Mound)
@@ -1685,19 +1684,24 @@ Dropped:
 - Ogres speak Orcish or Common, ogre magi stupider with two heads: Chronicle 12 / fan
   quote page, not canon source
 
-**Clue** (medium, draft): Muscle Gul'dan brought in after the First War to keep the
-bickering clans in line
+**Clue** (medium, draft): Brutes who gathered at mounds in the Second War to build their
+strength
 
-**Hint:** Doomhammer kept a loyal guard of them
+**Hint:** Gul'dan brought them through the Dark Portal to keep the orc clans in line
 
 Old clue: Hulking raider with a mound in southern Duskwood
 
 Old hint: A large, brutish humanoid.
 
-Cold-solver: Ogre (likely, Orc also fits) (solved)
+Cold-solver: Ogre (solved)
 
-Fact-checker: Clean.
+Fact-checker: Clean after review: 'two-headed' is [no ref] on the wiki or Chronicle, so
+it is out of the clue and the facts. Clue on ogre-mounds, hint on guldan-enforcers (both
+Warcraft II manual, 1995).
 
-Editor: Cold-solver: Ogre or Orc. Needs an ogre-only angle.
+Editor: Reworded twice: Gul'dan out of the clue (death-knight misreading), the enforcers
+fact in the hint (Doomhammer's guard sounded like orcs), then the mound angle because
+'two-headed' had no pre-2010 source. Mounds are an ogre building, so the clue cannot be
+Orc.
 
-Names other banked answers: Gul'dan, First War, Keep, Doomhammer
+Names other banked answers: Second War, The Dark Portal, ORC, ORC, Gul'dan, Keep

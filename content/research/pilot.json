@@ -3297,6 +3297,42 @@
             "date": "2004",
             "era": "vanilla"
           }
+        },
+        {
+          "id": "deadmines-thieves",
+          "kind": "game",
+          "says": "A militia of former Westfall farmers said the gnolls seem to be working in conjunction with the Deadmines thieves.",
+          "sources": [
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 102,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "Gnolls that seem to be working in conjunction with the Deadmines thieves."
+            },
+            {
+              "game": {
+                "db": "classic",
+                "locator": {
+                  "table": "quest_text",
+                  "quest_id": 102,
+                  "locale": "enUS",
+                  "field": "details"
+                }
+              },
+              "passage": "We, the former farmers, shall make our stand."
+            }
+          ],
+          "established": {
+            "by": "World of Warcraft quest text (Westfall militia and the gnolls, 2004)",
+            "date": "2004",
+            "era": "vanilla"
+          }
         }
       ],
       "dropped": [
@@ -3577,7 +3613,7 @@
         {
           "id": "deadwood-furbolgs",
           "kind": "game",
-          "says": "In Felwood, the Deadwood furbolgs are not evil by nature, the fel has polluted their minds.",
+          "says": "In Felwood, the effects of the fel pollute the Deadwood furbolgs' minds.",
           "sources": [
             {
               "game": {
@@ -4005,7 +4041,7 @@
         {
           "id": "ogre-magi-altars",
           "kind": "lore",
-          "says": "Gul'dan created powerful two-headed ogre magi at the Altars of Storms, built from high elven runestones.",
+          "says": "Gul'dan created powerful ogre magi at the Altars of Storms, built from high elven runestones.",
           "sources": [
             {
               "url": "https://warcraft.wiki.gg/wiki/Ogre",
@@ -4062,7 +4098,7 @@
         {
           "id": "ogre-mounds",
           "kind": "lore",
-          "says": "In the Second War ogres gathered at mounds to boost their endurance and strength with contests of hurling rocks.",
+          "says": "In the Second War ogres gathered at mounds to enhance their endurance and strength.",
           "sources": [
             {
               "url": "https://warcraft.wiki.gg/wiki/Ogre",
@@ -4186,28 +4222,6 @@
           "solved": true
         },
         "editor": "Rewritten: grammar and an overclaim. Reworded again at review: the editor has not read the new wording."
-      }
-    },
-    {
-      "id": "stalvan-mistmantle-lore",
-      "answer": "Stalvan Mistmantle",
-      "clue": {
-        "text": "Moonbrook schoolmaster sure his pupil Tilloa returned his feelings, until she called him her kindly old uncle",
-        "facts": ["forced-out-of-moonbrook", "tilloa-obsession"]
-      },
-      "hint": {
-        "text": "A Darkshire garden bears his name, and its white flower bears hers",
-        "facts": ["tear-of-tilloa"]
-      },
-      "difficulty": "hard",
-      "status": "draft",
-      "gates": {
-        "factCheck": "Clean. Reworded at review, checked by the reviewer against its rows.",
-        "coldSolve": {
-          "answer": "no idea, a guess from the enumeration after the hint",
-          "solved": false
-        },
-        "editor": "Hint rewritten, relabelled hard. Still unsolved blind: needs a better clue or a cut. Reworded again at review: the editor has not read the new wording."
       }
     },
     {
@@ -4438,18 +4452,18 @@
         "facts": ["gold-center"]
       },
       "hint": {
-        "text": "Gnomes wanted a shredder from here to drill their way home",
-        "facts": ["goblin-shredder"]
+        "text": "Westfall's militia suspected the gnolls worked alongside the thieves of this mine",
+        "facts": ["deadmines-thieves"]
       },
       "difficulty": "medium",
       "status": "draft",
       "gates": {
-        "factCheck": "Clean.",
+        "factCheck": "Hint reworded to what quest 102 says (the militia suspected, not swore). Clean after that.",
         "coldSolve": {
-          "answer": "The Deadmines (likely)",
+          "answer": "The Deadmines",
           "solved": true
         },
-        "editor": "Open: the hint is quest trivia, and the dossier lacks a Defias-hideout fact."
+        "editor": "Keep the clue. The hint stays on quest 102: no pre-2010 text ties the Defias hideout to the Deadmines by name."
       }
     },
     {
@@ -4482,18 +4496,18 @@
         "facts": ["orc-green-skin", "draenor-blight"]
       },
       "hint": {
-        "text": "It fouled the Deadwood furbolgs' minds. Start of a wood, a guard and a steed",
-        "facts": ["deadwood-furbolgs", "spelling-prefix"]
+        "text": "What pollutes the minds of the Deadwood furbolgs",
+        "facts": ["deadwood-furbolgs"]
       },
       "difficulty": "easy",
       "status": "draft",
       "gates": {
-        "factCheck": "Clean.",
+        "factCheck": "Clean. Hint is deadwood-furbolgs, the fact's wording cut back to what the passage says.",
         "coldSolve": {
           "answer": "Fel",
           "solved": true
         },
-        "editor": "Hint rewritten. The cold-solver now calls it a giveaway."
+        "editor": "Keep. The hint lands through Felwood and does not hold the answer. Shares the Orc wiki page with the Orc triad, so the two stay out of one week."
       }
     },
     {
@@ -4544,24 +4558,24 @@
       "id": "ogre-lore",
       "answer": "Ogre",
       "clue": {
-        "text": "Muscle Gul'dan brought in after the First War to keep the bickering clans in line",
-        "facts": ["guldan-enforcers"]
+        "text": "Brutes who gathered at mounds in the Second War to build their strength",
+        "facts": ["ogre-mounds"]
       },
       "hint": {
-        "text": "Doomhammer kept a loyal guard of them",
-        "facts": ["orgrim-bodyguard"]
+        "text": "Gul'dan brought them through the Dark Portal to keep the orc clans in line",
+        "facts": ["guldan-enforcers"]
       },
       "difficulty": "medium",
       "status": "draft",
       "gates": {
-        "factCheck": "Clean.",
+        "factCheck": "Clean after review: 'two-headed' is [no ref] on the wiki or Chronicle, so it is out of the clue and the facts. Clue on ogre-mounds, hint on guldan-enforcers (both Warcraft II manual, 1995).",
         "coldSolve": {
-          "answer": "Ogre (likely, Orc also fits)",
+          "answer": "Ogre",
           "solved": true
         },
-        "editor": "Cold-solver: Ogre or Orc. Needs an ogre-only angle."
+        "editor": "Reworded twice: Gul'dan out of the clue (death-knight misreading), the enforcers fact in the hint (Doomhammer's guard sounded like orcs), then the mound angle because 'two-headed' had no pre-2010 source. Mounds are an ogre building, so the clue cannot be Orc."
       }
     }
   ],
-  "summary": "The pilot of the lore-research method (2 November 2026). 25 answers confirmed in classic.db, each with a dossier of facts from warcraft.wiki.gg at pinned revisions and from wow-data's own texts, every fact dated before patch 4.0.1. 21 triads written from the dossiers alone (Opus), then fact-checked, cold-solved blind and read by the editor. Four answers have dossiers but no triad: Black Lotus and Mother Smolderweb had no pre-Cataclysm lore to tell, Mageroyal (one children's book) and Arcanite (crafting only) were cut by the editor. The gates found 26 fact problems (3 high), 15 editorial ones and 8 more at review (Thorium's Dark Iron defectors had no pre-Cataclysm source), all fixed. A model solved 20 of 21 from the clue alone, the six clues reworded at review included (it knows lore better than most players). Open: Stalvan Mistmantle is too obscure as clued, Ogre reads as Ogre or Orc, Fel's hint gives it away, and the Deadmines hint is still quest trivia. None of these triads is in editorial.json yet."
+  "summary": "The pilot of the lore-research method (2 November 2026). 25 answers confirmed in classic.db, each with a dossier of facts from warcraft.wiki.gg at pinned revisions and from wow-data's own texts, every fact dated before patch 4.0.1. 21 triads were written from the dossiers alone (Opus), then fact-checked, cold-solved blind and read by the editor. Four answers have dossiers but no triad from the start: Black Lotus and Mother Smolderweb had no pre-Cataclysm lore to tell, Mageroyal (one children's book) and Arcanite (crafting only) were cut by the editor. The gates found 26 fact problems (3 high), 15 editorial ones and 8 more at review (Thorium's Dark Iron defectors had no pre-Cataclysm source), all fixed. A model solved 20 of 21 at first from the clue alone, the six clues reworded at review included (it knows lore better than most players). The four open triads were closed the same day: Ogre, Fel and The Deadmines reclued or rehinted and kept, Stalvan Mistmantle cut (two rounds, and a model missed it blind, guessing from the letter count), so 20 triads stand and Stalvan keeps its dossier. None of these triads is in editorial.json yet."
 }

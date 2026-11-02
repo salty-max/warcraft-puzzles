@@ -238,6 +238,16 @@
       "contentSha256": "c561121456431ef27dc469adb7c4d23d65bcde78fd451f965671c7408ef3f388"
     },
     {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":102,\"locale\":\"enUS\",\"field\":\"details\"}#6b4d14d7a55da0e2",
+      "passageSha256": "6b4d14d7a55da0e2b89ac1df2929201d411fca93edd874b9c6633df566d62b7b",
+      "contentSha256": "1c9f58352273db258f2b40124f51afcaef68089715a9d248798d77b55aa6593f"
+    },
+    {
+      "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":102,\"locale\":\"enUS\",\"field\":\"details\"}#c7bcc5f1f8e35561",
+      "passageSha256": "c7bcc5f1f8e35561a4125400db4e664cc2aa52b5f5ab318b5807dcaf6e5d06f9",
+      "contentSha256": "1c9f58352273db258f2b40124f51afcaef68089715a9d248798d77b55aa6593f"
+    },
+    {
       "key": "game:classic:{\"table\":\"quest_text\",\"quest_id\":1123,\"locale\":\"enUS\",\"field\":\"details\"}#54b6a944760b9264",
       "passageSha256": "54b6a944760b9264fd0445485c0844fee7f930a5ee68083c1506f55dc0e606d3",
       "contentSha256": "67821601de7b0e70e484346b6596f0f6d243cc1f87fa1e312b7741855a2e8b81"
