@@ -414,3 +414,50 @@ the other weak group. The numbers are a floor.
   exception is used or an interface-string glue list is allowed.
 - Paladin and shaman spells are thin (FURY is the only paladin one). Candidates for a
   later tranche if classic.db holds the rows: MIGHT, KINGS, SHOCK, PURGE, AURA, SEAL.
+
+## Decisions and pilot findings (2 November 2026)
+
+### The owner's decisions, in order
+
+1. **Answers come from wow-data**, classic.db and forever.db only. No Wrath wiki
+   exception for now: the named Wrath list above stays parked.
+2. **Clues come from documented lore research, in original prose.** The owner's words:
+   "I told you to tap into wow-data for answers, not taking clues directly from it. I
+   was expecting prose work based on documented research." Then: "Spawns, drops, vendors
+   are lame clues. I want online documented research about the Warcraft lore and
+   universe." The method is in `docs/editorial.md`, "Lore research".
+3. **The minimum answer length is 3**, and short plain words are welcome when the clue
+   reads as part of the game (`CLAUDE.md`, the plain-word rule).
+4. **The 90-day answer cooldown stays the rule** for now.
+
+### Engine findings
+
+- Five-letter supply is the bottleneck: 49 distinct five-letter answers against 4 to 8
+  needed a day.
+- Six playset days build in a row (play-1 to play-6). Day 7 fails at any cooldown.
+- Allowing 3-4 letter slots in the layouts did not help the search: the annealer used
+  none.
+- The twin rule (`packages/crossword/src/twins.ts`) keeps answers apart that are spelt
+  out in another's prompts, share a cited row, or are the head or tail of another.
+- classic.db and forever.db have almost no five-letter names left: tranche 2 found 10,
+  tranche 3 found 6.
+
+### Pilot findings (proposed, awaiting the owner's decision)
+
+From the 25-answer pilot (`content/research/pilot.json`, read-out
+`docs/research-pilot.md`):
+
+- Cap a clue at about 12 words, and cap the proper names in one clue.
+- A hint is a second route to the answer, not another obscure fact.
+- Check each answer for at least three story facts before researching it: about one
+  answer in six has too little pre-Cataclysm lore (Black Lotus, Mother Smolderweb,
+  Mageroyal, Arcanite in the pilot).
+- Set quotas per wave, so the Horde, Northrend and the Burning Crusade are not left out
+  (the pilot leans Alliance and vanilla).
+- The cold-solve flatters the clues: a model knows more lore than most players. Its 20
+  of 21 is an upper bound.
+- Open triads: Stalvan Mistmantle (too obscure as clued), Ogre (reads as Ogre or Orc),
+  Fel (its hint gives it away), The Deadmines (its hint is quest trivia).
+
+The two `CLAUDE.md` rules rewritten for the method and the 12 October 2010 cutoff (patch
+4.0.1) await the owner's sign-off.
